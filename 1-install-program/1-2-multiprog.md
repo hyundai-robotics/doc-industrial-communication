@@ -15,7 +15,7 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 5. MULTIPROG 5.51 Build 653.zip 압축풀기
 6. MULTIPROG 5.51 Build 653 폴더 내 "multiprog\_set\_batch\_express.bat" 파일 실행(관리자 권한으로 실행)
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../_assets/image (10).png>)
 
 &#x20;
 
@@ -34,6 +34,6 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 
 {% endhint %}
 
-![](../.gitbook/assets/image.png)
+![](../_assets/image.png)
 
 (만약 Pro 버전사용을 원하신다면 “**Hi6 MultiProg 개발환경 설치 안내.pdf**”를 이용하여 설치 하시기 바랍니다. 단, License가 필요하니 현대로보틱스 본사에 요청하여 따로 구매 하시기 바랍니다. License가 없을 경우 Pro 버전은 30일만 사용가능하니 참고 바랍니다.)

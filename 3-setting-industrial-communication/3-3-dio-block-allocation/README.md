@@ -9,7 +9,7 @@
    * Fieldbus로 설정시 보드 번호는 PCI 통신카드의 Rotary Switch 번호 입니다.
    * PLC로 사용시 “[**3.3.1 Multiprog 사용 방법**](1-using-multiprog.md)”을 참고하시기 바랍니다.
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../_assets/image (11).png>)
 
 * **\[None]**: 선택된 FB 주소의 DIO 블록을 할당하지 않습니다. 제어기의 초기 설정값으로 아무것도 선택하지 않을 경우 None으로 설정됩니다.
 * **\[PLC]**: 선택된 FB 주소의 DIO 블록을 PLC로 연결하여 사용합니다. PLC 동작은 MULTIPROG 프로그램을 이용합니다.
