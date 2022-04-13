@@ -15,7 +15,7 @@ This is a PLC program to be used for DIO data exchange after connecting the PCI 
 5. Decompress the MULTIPROG 5.51 Build 653.zip file.
 6. Run the “multiprog\_set\_batch\_express.bat” file (run as administrator) in the MULTIPROG 5.51 Build 653 folder.
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../_assets/image (10).png>)
 
 &#x20;
 
@@ -34,6 +34,6 @@ This is a PLC program to be used for DIO data exchange after connecting the PCI 
 
 {% endhint %}
 
-![](../.gitbook/assets/image.png)
+![](../_assets/image.png)
 
 (If you want to use the Pro version, you should install it using “**Hi6 MultiProg Development Environment Installation Guide.pdf.**” However, as the license for it is needed, you need to purchase it separately by requesting to the main office of Hyundai Robotics. Without a license, please note that the Pro version can be used only for 30 days.)

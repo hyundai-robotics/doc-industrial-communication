@@ -20,7 +20,7 @@ When you need to use the industrial communication of the Hi6 controller, you are
 3\.      How to set the EtherCAT Master (Connection of the CIFX card)
 {% endhint %}
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../_assets/image (6).png>)
 
 {% hint style="info" %}
 4\.      “Double-click” on the connected CIFX card (Figure).
@@ -28,7 +28,7 @@ When you need to use the industrial communication of the Hi6 controller, you are
 5\.      Perform setting in Driver -> Netx Driver.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../_assets/image (13).png>)
 
 {% hint style="info" %}
 6\.      In netX Driver -> TCP Connection, perform setting as shown below. (The ID address&#x20;
@@ -36,7 +36,7 @@ When you need to use the industrial communication of the Hi6 controller, you are
 &#x20;        may change depending on the controller, so you need to check it.)
 {% endhint %}
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../_assets/image (20).png>)
 
 {% hint style="info" %}
 7\.      Click on Device Assignment -> Scan. (If nothing appears: Change the device&#x20;
@@ -46,7 +46,7 @@ When you need to use the industrial communication of the Hi6 controller, you are
 8\.      Select the set communication (check the channel), and then “Apply,” and then “OK.”
 {% endhint %}
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../_assets/image (2).png>)
 
 {% hint style="warning" %}
 **\[Caution]**: If the location of the Access path is not cifX(num)\_Ch0, change it in Access path at the bottom and then apply

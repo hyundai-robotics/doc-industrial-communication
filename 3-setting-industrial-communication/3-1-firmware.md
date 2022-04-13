@@ -7,7 +7,7 @@ The method to set and use the industrial communication firmware is as shown belo
    * The slot number is the rotary switch number of the PCI communication card.
    * If you do not want to set the communication firmware, you should initialize the firmware information on the tab you are looking at now by touching the **\[Clear]** button. Please take note that the Config file will also be initialized.
 
-![Figure 3 Screen for setting the industrial communication (master)](<../.gitbook/assets/image (7).png>) ![Figure 3 Screen for setting the industrial communication (Slave)](<../.gitbook/assets/image (3).png>)
+![Figure 3 Screen for setting the industrial communication (master)](<../_assets/image (7).png>) ![Figure 3 Screen for setting the industrial communication (Slave)](<../_assets/image (3).png>)
 
 3\. Touch the **\[Apply]** menu to complete the firmware setting.
 
