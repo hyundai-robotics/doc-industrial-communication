@@ -2,7 +2,7 @@
 
 PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 PLC 프로그램 입니다. (‘3.3 산업용 통신 DIO Block 할당 설정’에서 “**PLC**”로 세팅 후 사용하시기 바랍니다.)
 
-**1.**    현대 로보틱스 홈페이지([www.hyundai-robotics.com](http://www.hyundai-robotics.com)) -> 고객지원 -> 응용 소프트웨어 에서 “**Hi6 Multiprog**”을 다운로드 합니다.
+**1.**    현대로보틱스 홈페이지([www.hyundai-robotics.com](http://www.hyundai-robotics.com)) -> 고객지원 -> 응용 소프트웨어 에서 “**Hi6 Multiprog**”을 다운로드 합니다.
 
 **2.**    다음 내용을 따라 설치를 진행 하시면 됩니다.
 
@@ -15,9 +15,8 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 5. MULTIPROG 5.51 Build 653.zip 압축풀기
 6. MULTIPROG 5.51 Build 653 폴더 내 "multiprog\_set\_batch\_express.bat" 파일 실행(관리자 권한으로 실행)
 
-![](<../_assets/image (10).png>)
+![](<../_assets/image_10.png>)
 
-&#x20;
 
 *   프로젝트 빌드에 문제 있을 경우 다음과 같이 추가 작업 : MULTIPROG 5.51 Build 653내의 파일들이 제대로 복사가 안되었을 수 있습니다.
 
@@ -25,7 +24,6 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 
     * Default 설치 : C:\Program Files (x86)\PHOENIX CONTACT Software\MULTIPROG 5.51 Express Build 653 폴더에 복사(덮어쓰기 3개 파일)
 
-&#x20;
 
 \*\*확인 방법\*\*
 

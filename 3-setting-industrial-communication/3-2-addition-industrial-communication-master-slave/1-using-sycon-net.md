@@ -20,7 +20,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 3\.      EtherCAT Master 설정 방법 (CIFX 카드 연결)
 {% endhint %}
 
-![](<../../_assets/image (6).png>)
+![](<../../_assets/image_6.png>)
 
 {% hint style="info" %}
 4\.      연결한CIFX 카드(그림) “Double Click”
@@ -28,7 +28,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 5\.      Driver -> Netx Driver 설정
 {% endhint %}
 
-![](<../../_assets/image (13).png>)
+![](<../../_assets/image_13.png>)
 
 {% hint style="info" %}
 6\.      netX Driver -> TCP Connection 다음과 같이 세팅 (IP Address는 제어기에 따라 변할 수&#x20;
@@ -36,7 +36,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 &#x20;        있으니 확인 바랍니다.)
 {% endhint %}
 
-![](<../../_assets/image (19).png>)
+![](<../../_assets/image_19.png>)
 
 {% hint style="info" %}
 7\.      Device Assignment -> Scan클릭(아무것도 나오지 않을 경우: Device selection을 suitale&#x20;
@@ -46,7 +46,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 8\.      설정한 통신(Channel Protocol 확인)을 선택 후 “Apply” 이후 “OK”
 {% endhint %}
 
-![](<../../_assets/image (2).png>)
+![](<../../_assets/image_2.png>)
 
 {% hint style="warning" %}
 **\[주의]**: Access path위치가 cifX(num)\_Ch0 으로 되어 있지 않을 경우 하단의 Access path에서 변경하여 Apply)
