@@ -6,4 +6,4 @@ PCI 통신 카드에 사용하는 통신 Configuration을 만들어주는 프로
 
 **2.**    압축 해제 -> 내부 폴더에서 “**Communication-Solutions.exe**”를 실행 -> “**Install SYCON.net Configuration Software**” 선택 하여 프로그램을 설치 합니다.
 
-![그림 1 Sycon.net 설치 화면](<../_assets/image%20%285%29.png>)
+![그림 1 Sycon.net 설치 화면](<../_assets/image_5.png>)
