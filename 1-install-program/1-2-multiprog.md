@@ -15,7 +15,7 @@ This is a PLC program to be used for DIO data exchange after connecting the PCI 
 5. Decompress the MULTIPROG 5.51 Build 653.zip file.
 6. Run the “multiprog\_set\_batch\_express.bat” file (run as administrator) in the MULTIPROG 5.51 Build 653 folder.
 
-![](<../_assets/image (10).png>)
+![](<../_assets/image_10.png>)
 
 &#x20;
 

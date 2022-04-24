@@ -9,7 +9,7 @@ You can set the method to use the universal input and output signals of the cont
    * If Fieldbus is set, the board number will be the rotary switch number of the PCI communication card.
    * If PLC is to be used, refer to “[**3.3.1 Using Multiprog**](1-using-multiprog.md)”
 
-![](<../../_assets/image (11).png>)
+![](<../../_assets/image_11.png>)
 
 * **\[None]**: The DIO block of the selected FB address is not to be allocated. If nothing is to be selected for the initial setting value of the controller, None will be set.
 * **\[PLC]**: The DIO block of the selected FB address will be allocated to the PLC for use. For the PLC operation, the MULTIPRO program will be used.

@@ -6,4 +6,4 @@ This is a program that creates a communication configuration that is to be used 
 
 **2.**     Decompress -> Run the “**Communication-Solutions.exe**” file in the internal folder. -> Select “**Install SYCON.net Configuration Software**” to install the program.
 
-![Figure 1 Screen for installing Sycon.net](<../_assets/image (5).png>)
+![Figure 1 Screen for installing Sycon.net](<../_assets/image_5.png>)

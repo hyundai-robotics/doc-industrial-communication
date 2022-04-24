@@ -14,7 +14,7 @@ After industrial communication is set, the following setting is necessary to per
 &#x20;         Wizard and then OK).
 {% endhint %}
 
-![](<../../_assets/image (21).png>)
+![](<../../_assets/image_21.png>)
 
 {% hint style="info" %}
 4\.      Create a project according to the sequence.
@@ -22,25 +22,25 @@ After industrial communication is set, the following setting is necessary to per
 (1)    Create a project.
 {% endhint %}
 
-![](<../../_assets/image (15).png>)
+![](<../../_assets/image_15.png>)
 
 {% hint style="info" %}
 (2) Set the POU and program language.
 {% endhint %}
 
-![](<../../_assets/image (18).png>)
+![](<../../_assets/image_18.png>)
 
 {% hint style="info" %}
 (3) Set the resource and type. (If there is no “Hi6” in Type, it means that installation has been performed in the wrong way. Checking whether the installation is performed correctly is required.)
 {% endhint %}
 
-![](<../../_assets/image (1).png>)
+![](<../../_assets/image_1.png>)
 
 {% hint style="info" %}
 (4) Create a task.
 {% endhint %}
 
-![](<../../_assets/image (8).png>)
+![](<../../_assets/image_8.png>)
 
 {% hint style="info" %}
 5\.      Set the project property.
@@ -48,7 +48,7 @@ After industrial communication is set, the following setting is necessary to per
 (1)    Set the hardware property: Double-click on IO\_Configuration -> Set the Input/Output property
 {% endhint %}
 
-![](<../../_assets/image (16).png>)
+![](<../../_assets/image_16.png>)
 
 {% hint style="info" %}
 * Connection of HI6 DIO input <-> Multiprog output / HI6 DIO output <-> Multiprog input has been performed.
@@ -59,13 +59,13 @@ After industrial communication is set, the following setting is necessary to per
 (2)    How to set IO: Set the name. -> Set the task. -> Select the Board /IO module. -> Select and set the driver parameter (Offset 0: Hi6 Controller FB0.0. Unit: Byte).
 {% endhint %}
 
-![](<../../_assets/image (9).png>)
+![](<../../_assets/image_9.png>)
 
 {% hint style="info" %}
 (3) Set the IP address: Resource: Right-click on Hi6 (varies depending on the created name), and then match the IP in Settings -> Parameter to Hi6.
 {% endhint %}
 
-![](<../../_assets/image (4).png>)
+![](<../../_assets/image_4.png>)
 
 {% hint style="info" %}
 6\.      Write a PLC program. (Perform programming according to the needs of the user.)
@@ -73,4 +73,4 @@ After industrial communication is set, the following setting is necessary to per
 7\.      Program downloading: Online -> Project Control -> Click on Download
 {% endhint %}
 
-![](<../../_assets/image (17).png>)
+![](<../../_assets/image_17.png>)
