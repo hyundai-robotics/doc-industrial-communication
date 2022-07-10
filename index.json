@@ -1,0 +1,62 @@
+﻿[
+	{
+		"link": "README.md",
+		"char_ofs": 0,
+		"byte_ofs": 0
+	},
+	{
+		"link": "1-install-program/README.md",
+		"char_ofs": 262,
+		"byte_ofs": 502
+	},
+	{
+		"link": "1-install-program/1-1-sycon-net.md",
+		"char_ofs": 301,
+		"byte_ofs": 592
+	},
+	{
+		"link": "1-install-program/1-2-multiprog.md",
+		"char_ofs": 689,
+		"byte_ofs": 1177
+	},
+	{
+		"link": "2-mounting-setting-industrial-communication-card.md",
+		"char_ofs": 1935,
+		"byte_ofs": 3184
+	},
+	{
+		"link": "3-setting-industrial-communication/README.md",
+		"char_ofs": 2346,
+		"byte_ofs": 3939
+	},
+	{
+		"link": "3-setting-industrial-communication/3-1-firmware.md",
+		"char_ofs": 2437,
+		"byte_ofs": 4137
+	},
+	{
+		"link": "3-setting-industrial-communication/3-2-addition-industrial-communication-master-slave/README.md",
+		"char_ofs": 3455,
+		"byte_ofs": 6134
+	},
+	{
+		"link": "3-setting-industrial-communication/3-2-addition-industrial-communication-master-slave/1-using-sycon-net.md",
+		"char_ofs": 3577,
+		"byte_ofs": 6391
+	},
+	{
+		"link": "3-setting-industrial-communication/3-3-dio-block-allocation/README.md",
+		"char_ofs": 5201,
+		"byte_ofs": 8616
+	},
+	{
+		"link": "3-setting-industrial-communication/3-3-dio-block-allocation/1-using-multiprog.md",
+		"char_ofs": 6197,
+		"byte_ofs": 10346
+	},
+	{
+		"link": "4-monitoring-industrial-communication.md",
+		"char_ofs": 8012,
+		"byte_ofs": 12859
+	}
+]
