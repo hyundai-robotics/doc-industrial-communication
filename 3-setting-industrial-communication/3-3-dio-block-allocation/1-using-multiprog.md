@@ -1,4 +1,4 @@
-# 3.3.1 Multiprog 사용 방법
+﻿# 3.3.1 Multiprog 사용 방법
 
 산업용 통신 설정 이후 Hi6 제어기의 DIO Block 할당을 PLC로 설정하였다면, ProconOS를 이용하여 DIO데이터를 교환하기 위해 다음과 같이 설정이 필요 합니다. (“[**1.2 Multiprog**](../../1-install-program/1-2-multiprog.md)”장을 참고하여 설치하여 주시기 바랍니다.)
 

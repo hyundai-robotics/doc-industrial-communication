@@ -1,4 +1,4 @@
-# 1.1 Sycon.net
+﻿# 1.1 Sycon.net
 
 PCI 통신 카드에 사용하는 통신 Configuration을 만들어주는 프로그램 입니다.
 

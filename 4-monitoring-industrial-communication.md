@@ -1,4 +1,4 @@
-# 4. 산업용 통신 모니터링
+﻿# 4. 산업용 통신 모니터링
 
 “[**2. 산업용 통신 카드 장착 및 설정**](2-mounting-setting-industrial-communication-card.md)” 및 “[**3. 산업용 통신 설정**](3-setting-industrial-communication/)” 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
 
