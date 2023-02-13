@@ -15,11 +15,6 @@
 		"byte_ofs": 613
 	},
 	{
-		"link": "1-install-program/1-2-multiprog.md",
-		"char_ofs": 689,
-		"byte_ofs": 1201
-	},
-	{
 		"link": "2-mounting-setting-industrial-communication-card.md",
 		"char_ofs": 1935,
 		"byte_ofs": 3211
