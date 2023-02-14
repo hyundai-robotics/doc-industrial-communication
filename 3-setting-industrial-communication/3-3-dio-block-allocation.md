@@ -7,7 +7,6 @@
 1. **\[2: 제어 파라미터 > 2: 입출력 신호 설정 > 6: DIO 블록 할당]** 메뉴를 터치하십시오.
 2. 선택된 FB 주소의 DIO 블록을 연결 설정한 후 **\[OK]** 버튼을 터치하십시오.
    * Fieldbus로 설정시 보드 번호는 PCI 통신카드의 Rotary Switch 번호 입니다.
-   * PLC로 사용시 “[**3.3.1 Multiprog 사용 방법**](1-using-multiprog.md)”을 참고하시기 바랍니다.
 
 ![](<../../_assets/image_11.png>)
 
