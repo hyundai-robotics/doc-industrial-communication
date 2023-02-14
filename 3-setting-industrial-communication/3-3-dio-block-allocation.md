@@ -1,4 +1,4 @@
-# 3.3 Setting the Industrial Communication DIO Block Allocation
+﻿# 3.3 Setting the Industrial Communication DIO Block Allocation
 
 This shows how to perform DIO block allocation for the communication with the controller after “[**3.1 Setting the Industrial Communication Firmware**](../3-1-firmware.md)” 및 “[**3.2 Setting the Addition of the Industrial Communication (Master and Slave)**](../3-2-addition-industrial-communication-master-slave/)” work is completed.
 
