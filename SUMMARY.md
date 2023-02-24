@@ -15,5 +15,5 @@
 * [3.3 산업용 통신 Slave 설정](3-settings-industrial-communication/3-3-settings-slave-protocol/README.md)
     * [3.3.1 EDS 파일](3-settings-industrial-communication/3-3-settings-slave-protocol/3-3-1-EDS-file.md)
     * [3.3.2 CC-Link Slave](3-settings-industrial-communication/3-3-settings-slave-protocol/3-3-2-CC-Link-slave.md)
-  * [3.4 산업용 통신 산업용 통신 모니터링](3-settings-industrial-communication/3-4-monitoring-industrial-communication.md)
+  * [3.4 산업용 통신 모니터링](3-settings-industrial-communication/3-4-monitoring-industrial-communication.md)
 * [4. 산업용 통신 DIO Block 할당](4-dio-block-allocation.md)

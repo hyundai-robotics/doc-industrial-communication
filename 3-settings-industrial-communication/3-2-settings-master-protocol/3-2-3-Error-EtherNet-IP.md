@@ -21,6 +21,7 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 \.      Master - Slave Device 의 IP Address 를 확인해 주십시오.
 
 \.      Adapter Device의 설정된 IP Address 와 Sycon.net 에서 입력한 값이 다른 경우 Error 가 발생합니다.
+
 {% endhint %}
 
 ![그림 3.2.3-2 Communication Error](<../../_assets/image_3.2.3-2.png>) 
