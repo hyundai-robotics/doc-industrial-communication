@@ -5,8 +5,8 @@
 3. Slot(슬롯) 번호는 1 \~ 3번 내에서 PCI 통신 카드 별 각각 설정해주십시오.
   (여러 개의 PCI 통신 카드 사용시 번호를 모두 다르게 설정해야 합니다.)
 
-![그림 2 PCI 통신 카드](<../_assets/image_2_1.png>)
-![](<../_assets/image_2_2.png>)
+![그림 2.1 PCI 통신 카드](<../_assets/image_2.1-1.png>)
+![](<../_assets/image_2.1-2.png>)
 
 {% hint style="warning" %}
 **\[주의]**: Rotary Switch번호는 PCI 카드마다 다르게 설정하시기 바랍니다.

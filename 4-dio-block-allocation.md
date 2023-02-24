@@ -9,7 +9,7 @@
 2. 원하는 fb 영역에 산업용 통신 Slot 번호를 지정합니다.
    지정 후 **\[OK]** 버튼을 터치하십시오.
 
-![](<_assets/image_11.png>)
+![그림 4-1](<_assets/image_4-1.png>)
 
 
 {% hint style="warning" %}
