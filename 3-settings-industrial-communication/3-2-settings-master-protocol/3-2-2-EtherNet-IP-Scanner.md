@@ -175,7 +175,7 @@
 {% hint style="info" %}
 \.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**3.4 3.4 산업용 통신 모니터링**](../../3-settings-industrial-communication/3-4-monitoring-industrial-communication.md)”참고해 주십시오.
+\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**3.4 산업용 통신 모니터링**](../../3-settings-industrial-communication/3-4-monitoring-industrial-communication.md)”참고해 주십시오.
 {% endhint %}
 
 ![그림 3.2.2-32 Communication State](<../../_assets/image_3.2.2-32.png>)
