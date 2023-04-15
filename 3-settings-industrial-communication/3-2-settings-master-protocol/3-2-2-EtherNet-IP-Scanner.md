@@ -5,30 +5,30 @@
 
 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 EtherNet IP Master를 선택하고 로봇 제어기를 재부팅합니다.
 
-![그림 3.2.2-1 펌웨어 설정](<../../_assets/image_3.2.2-1.png>) 
+![그림 3.2.2-1 펌웨어 설정](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-1.png>) 
 
 2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.
 
-![그림 3.2.2-2 산업용 통신 모니터링](<../../_assets/image_3.2.2-2.png>) 
+![그림 3.2.2-2 산업용 통신 모니터링](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-2.png>) 
 
 3. Sycon.net 을 이용하여 EtherNet IP Scanner PCI 장치를 선택합니다.
 
-![그림 3.2.2-3 EtherNet IP Master PCI](<../../_assets/image_3.2.2-3.png>)
-![그림 3.2.2-4 EtherNet IP Master PCI](<../../_assets/image_3.2.2-4.png>) 
+![그림 3.2.2-3 EtherNet IP Master PCI](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-3.png>)
+![그림 3.2.2-4 EtherNet IP Master PCI](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-4.png>) 
 
 4. Sycon.net 설정 후 Scan 하여 EtherNet IP Scanner 장치를 선택(Apply)합니다.
 
-![그림 3.2.2-5 Sycon.net Scan](<../../_assets/image_3.2.2-5.png>) 
+![그림 3.2.2-5 Sycon.net Scan](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-5.png>) 
 
 5. 그림을 우클릭하여 설정을 다운로드 합니다.
 
-![그림 3.2.2-6 EtherNet IP Scanner Download](<../../_assets/image_3.2.2-6.png>) 
+![그림 3.2.2-6 EtherNet IP Scanner Download](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-6.png>) 
 
 6. EtherNet IP Scanner 에 연결할 Adapter(Slave) 모듈을 준비합니다.
    * 이번 예제에서는 Crevis 사의 M9289 Ethernet IP Adapter를 사용합니다.
    * 시스템 전원과 필드 전원을 공급해 주어 모듈을 활성화 시켜 주십시오.
 
-![그림 3.2.2-7 Crevis M9289](<../../_assets/image_3.2.2-7.png>) 
+![그림 3.2.2-7 Crevis M9289](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-7.png>) 
 
 7. EtherNet IP 통신 연결을 위해 Apdapter(Slave) 의 IP Address 설정이 필요합니다.
 
@@ -36,7 +36,7 @@
 \.      Dip Switch 를 이용한 IP Address 설정
 {% endhint %}
 
-![그림 3.2.2-8 Crevis M9289 Dip Swicth](<../../_assets/image_3.2.2-8.png>) 
+![그림 3.2.2-8 Crevis M9289 Dip Swicth](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-8.png>) 
 
 {% hint style="info" %}
 \.      BootpSvr.exe 을 이용한 IP Address 설정 방법
@@ -45,32 +45,32 @@
 8. 이 예제에서는 Bootp를 이용한 IP Address를 설정합니다.
    * 9번 DIP Switch만 ON으로 변경합니다.
 
-![그림 3.2.2-9 Crevis M9289 Dip Swicth](<../../_assets/image_3.2.2-9.png>)
+![그림 3.2.2-9 Crevis M9289 Dip Swicth](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-9.png>)
 
    * M9289 Adapter LAN 포트에 PC를 연결합니다.
 
-![그림 3.2.2-10 Crevis M9289 LAN Port](<../../_assets/image_3.2.2-10.png>)
+![그림 3.2.2-10 Crevis M9289 LAN Port](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-10.png>)
 
 9. PC 에서 BootpSvr.exe 를 실행합니다.
    * 해당 프로그램은 Crevis 사에서 제공합니다. (홈페이지에서 IO Guide Pro 다운로드)
 
-![그림 3.2.2-11 Crevis IO Guide Pro](<../../_assets/image_3.2.2-11.png>)
+![그림 3.2.2-11 Crevis IO Guide Pro](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-11.png>)
 
-![그림 3.2.2-12 Crevis Bootp](<../../_assets/image_3.2.2-12.png>)
+![그림 3.2.2-12 Crevis Bootp](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-12.png>)
 
 {% hint style="info" %}
 \.      Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
 {% endhint %}
 
-![그림 3.2.2-13 Crevis Bootp](<../../_assets/image_3.2.2-13.png>)
+![그림 3.2.2-13 Crevis Bootp](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-13.png>)
 
 10. Adapter가 재부팅하면서 BootpSvr.exe 프로그램에 아래와 같이 Device 정보가 나타납니다.
 
-![그림 3.2.2-14 Crevis Bootp](<../../_assets/image_3.2.2-14.png>)
+![그림 3.2.2-14 Crevis Bootp](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-14.png>)
 
 11. Device를 선택하여 IP를 입력해줍니다.
 
-![그림 3.2.2-15 Crevis Bootp](<../../_assets/image_3.2.2-15.png>)![그림 3.2.2-16 Crevis Bootp](<../../_assets/image_3.2.2-16.png>)
+![그림 3.2.2-15 Crevis Bootp](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-15.png>)![그림 3.2.2-16 Crevis Bootp](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-16.png>)
 
 12. IP 설정이 끝난 Adapter의 DIP Switch를 모두 OFF로 변경한 후 전원을 다시 인가하여 재부팅합니다.
 
@@ -78,7 +78,7 @@
 \.      DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
 {% endhint %}
 
-![그림 3.2.2-17 Crevis DIP Switch](<../../_assets/image_3.2.2-17.png>)
+![그림 3.2.2-17 Crevis DIP Switch](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-17.png>)
 
 13. Adapter 설정을 마친 후 Sycon.net 에 접속하여 Configuration을 진행합니다.
 
@@ -88,7 +88,7 @@
 \.      M9289 Adapter의 EDS 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
 {% endhint %}
 
-![그림 3.2.2-18 Crevis EDS File](<../../_assets/image_3.2.2-18.png>)
+![그림 3.2.2-18 Crevis EDS File](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-18.png>)
 
 {% hint style="info" %}
 \.      다운로드한 EDS 파일을 Sycon.net 에 등록합니다.
@@ -96,16 +96,16 @@
 \.      EDS File 등록시 산업용 통신 Protocol (EtherNet IP)를 확인해 주십시오.
 {% endhint %}
 
-![그림 3.2.2-19 Crevis EDS File](<../../_assets/image_3.2.2-19.png>)![그림 3.2.2-20 Crevis EDS File](<../../_assets/image_3.2.2-20.png>)
-![그림 3.2.2-21 Crevis EDS File](<../../_assets/image_3.2.2-21.png>)
+![그림 3.2.2-19 Crevis EDS File](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-19.png>)![그림 3.2.2-20 Crevis EDS File](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-20.png>)
+![그림 3.2.2-21 Crevis EDS File](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-21.png>)
 
-![그림 3.2.2-22 Crevis EDS File](<../../_assets/image_3.2.2-22.png>)
+![그림 3.2.2-22 Crevis EDS File](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-22.png>)
 
 {% hint style="info" %}
 \.      동록한 Device를 끌어와 EtherNet IP Master 버스 라인에 올려 놓습니다.
 {% endhint %}
 
-![그림 3.2.2-23 Sycon.net Bus](<../../_assets/image_3.2.2-23.png>)
+![그림 3.2.2-23 Sycon.net Bus](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-23.png>)
 
 {% hint style="info" %}
 \.      해당 Device (Adapter)를 더블클릭하여 설정을 진행합니다.
@@ -119,13 +119,13 @@
 \.        Output : Digital Output 2Byte (M225F)
 {% endhint %}
 
-![그림 3.2.2-24 Adapter Device Settings](<../../_assets/image_3.2.2-24.png>)
+![그림 3.2.2-24 Adapter Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-24.png>)
 
 {% hint style="info" %}
 \.        Input : Sysytem State 1byte(Defualt) + Digitial Intput 2Byte (M12DF)
 {% endhint %}
 
-![그림 3.2.2-25 Adapter Device Settings](<../../_assets/image_3.2.2-25.png>)
+![그림 3.2.2-25 Adapter Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-25.png>)
 
 14. 이어서 Master (Scanner) Configuration을 진행합니다.
     
@@ -134,7 +134,7 @@
 \.        Master Device를 우클릭하여 Disconnect 합니다.
 {% endhint %}
 
-![그림 3.2.2-26 Adapter Device Settings](<../../_assets/image_3.2.2-26.png>)
+![그림 3.2.2-26 Adapter Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-26.png>)
 
 {% hint style="info" %}
 \.        Master Device를 더블클릭합니다.
@@ -142,13 +142,13 @@
 \.        Master Device의 IP Address를 설정합니다. 
 {% endhint %}
 
-![그림 3.2.2-27 Adapter Device Settings](<../../_assets/image_3.2.2-27.png>)
+![그림 3.2.2-27 Adapter Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-27.png>)
 
 {% hint style="info" %}
 \.        Slave Device의 IP Address를 설정합니다. 
 {% endhint %}
 
-![그림 3.2.2-28 Scanner Device Settings](<../../_assets/image_3.2.2-28.png>)
+![그림 3.2.2-28 Scanner Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-28.png>)
 
 {% hint style="info" %}
 \.        Slave Device의 Scan Time을 설정합니다. 
@@ -156,7 +156,7 @@
 \.        해당 값을 조절하여 적절한 통신 속도를 설정해 주십시오.
 {% endhint %}
 
-![그림 3.2.2-29 Scanner Device Settings](<../../_assets/image_3.2.2-29.png>)
+![그림 3.2.2-29 Scanner Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-29.png>)
 
 {% hint style="info" %}
 \.        Address Table에서 Slave 장치의 설정을 확인해 주십시오.
@@ -164,13 +164,13 @@
 \.        Input / Output IO Byte 수와 시작 Address 를 확인해 주십시오.
 {% endhint %}
 
-![그림 3.2.2-30 Scanner Device Settings](<../../_assets/image_3.2.2-30.png>)
+![그림 3.2.2-30 Scanner Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-30.png>)
 
 {% hint style="info" %}
 \.        설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
-![그림 3.2.2-31 Scanner Device Settings](<../../_assets/image_3.2.2-31.png>)
+![그림 3.2.2-31 Scanner Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-31.png>)
 
 {% hint style="info" %}
 \.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
@@ -178,13 +178,13 @@
 \.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**3.4 산업용 통신 모니터링**](../../3-settings-industrial-communication/3-4-monitoring-industrial-communication.md)”참고해 주십시오.
 {% endhint %}
 
-![그림 3.2.2-32 Communication State](<../../_assets/image_3.2.2-32.png>)
+![그림 3.2.2-32 Communication State](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-32.png>)
 
-![그림 3.2.2-33 Communication State](<../../_assets/image_3.2.2-33.png>)
+![그림 3.2.2-33 Communication State](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-33.png>)
 
 
 {% hint style="info" %}
 \.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
-![그림 3.2.2-34 Communication State](<../../_assets/image_3.2.2-34.png>)
+![그림 3.2.2-34 Communication State](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-34.png>)
