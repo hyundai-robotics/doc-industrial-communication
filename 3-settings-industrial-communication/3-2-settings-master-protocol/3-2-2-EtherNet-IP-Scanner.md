@@ -116,13 +116,15 @@
 {% endhint %}
 
 {% hint style="info" %}
-\.        Output : Digital Output 2Byte (M225F)
+\.        Output : EtherNet/IP Scanner (OUT) -> M9289 (INPUT Module M12DF) : 2Byte
 {% endhint %}
 
 ![그림 3.2.2-24 Adapter Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-24.png>)
 
 {% hint style="info" %}
-\.        Input : Sysytem State 1byte(Defualt) + Digitial Intput 2Byte (M12DF)
+\.        Input : M9289 (OUTPUT Module M225DF) -> EtherNet/IP Scanner (IN)
+
+\.        (System Status-Default <1Byte> + M225F <2Byte> = 3Byte)
 {% endhint %}
 
 ![그림 3.2.2-25 Adapter Device Settings](<../../_assets/EtherNet_IP_Scanner/image_3.2.2-25.png>)
