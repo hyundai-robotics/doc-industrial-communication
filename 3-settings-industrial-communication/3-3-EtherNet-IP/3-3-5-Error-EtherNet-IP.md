@@ -1,4 +1,4 @@
-﻿# 3.3.5 Error EtherNet/IP
+﻿# 3.3.5 EtherNet/IP 에러 조치
 
 EthernNet/IP 설정 중 발생할 수 있는 주요 Error 를 해결하기 위한 방법입니다.
 

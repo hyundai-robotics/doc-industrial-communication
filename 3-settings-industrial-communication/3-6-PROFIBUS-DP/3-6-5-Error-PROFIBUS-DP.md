@@ -1,3 +1,3 @@
-﻿# 3.6.5 Error PROFIBUS-DP
+﻿# 3.6.5 PROFIBUS-DP 에러 조치
 
 매뉴얼 준비중입니다.

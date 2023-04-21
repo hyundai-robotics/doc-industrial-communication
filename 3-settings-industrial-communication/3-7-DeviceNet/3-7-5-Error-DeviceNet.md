@@ -1,3 +1,3 @@
-﻿# 3.7.5 Error DeviceNet
+﻿# 3.7.5 DeviceNet 에러 조치
 
 매뉴얼 준비중입니다.

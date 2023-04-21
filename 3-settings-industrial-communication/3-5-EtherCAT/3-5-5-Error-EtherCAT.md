@@ -1,3 +1,3 @@
-﻿# 3.5.5 Error EtherCAT
+﻿# 3.5.5 EtherCAT 에러 조치
 
 매뉴얼 준비중입니다.
