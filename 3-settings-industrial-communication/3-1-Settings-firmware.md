@@ -1,0 +1,36 @@
+﻿# 3.1 산업용 통신 펌웨어 설정.
+
+사용하기 위한 산업용 통신 펌웨어를 설정하는 방법은 다음과 같습니다. 설정이 완료 후 펌웨어를 적용하기 위해서는 제어기 전원을 껏다가 켜주시기 바랍니다.
+
+1. **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 1: 펌웨어 설정 > 1 채널]** 메뉴를 터치하여 펌웨어 설정 화면으로 진입 합니다.
+2. 아래 화면을 참고하여 먼저 설정하신 슬롯을 선택, 그 다음으로 통신 방식(Master/Slave)을 설정, 마지막으로 원하는 프로토콜을 선택 합니다.
+   * 슬롯 번호는 PCI 통신 카드의 Rotary Swtich 번호 입니다.
+   * 통신 펌웨어 설정을 원하지 않을 경우 **\[초기화]** 버튼 터치하면 현재 보고있는 탭의 펌웨어 정보가 초기화 됩니다. Config 파일도 같이 초기화 되니 유의하시기 바랍니다.
+
+![그림 3.1-1 산업용 통신 설정 화면](<../_assets/3-Settings-Industrial-Communication/3.1-Setting-Firmware/image_1.png>)
+
+![그림 3.1-2 산업용 통신 설정 화면(master)](<../_assets/3-Settings-Industrial-Communication/3.1-Setting-Firmware/image_2.png>) ![그림 3.1-3 산업용 통신 설정 화면(Slave)](<../_assets/3-Settings-Industrial-Communication/3.1-Setting-Firmware/image_3.png>)
+
+3\. **\[적용]** 메뉴를 터치하여 펌웨어 설정을 완료 합니다.
+
+![그림 3.1-4 산업용 통신 설정 화면](<../_assets/3-Settings-Industrial-Communication/3.1-Setting-Firmware/image_4.png>)
+
+{% hint style="warning" %}
+**\[주의]**
+
+1. **\[적용]** 버튼을 터치하여 펌웨어 설정 완료 시 해당 슬롯에 세팅 되어있는 CONFIG 파일이 모두 삭제 됩니다. 사용도중 통신 펌웨어를 변경 하실 경우 기존 CONFIG 세팅을 따로 BACKUP 해 주시기 바랍니다.
+2. **\[적용]** 버튼을 터치하지 않고 **\[OK]**버튼을 터치할 경우 세팅한 펌웨어가 적용되지 않습니다.
+{% endhint %}
+
+4\. 각 슬롯마다 2. \~ 3.번을 반복하여 펌웨어를 설정해 줍니다.
+
+5\. 제어기 전원을 끄고 다시 켜서 재부팅해 주시면 설정하신 펌웨어가 적용 됩니다.
+   **\[서비스 > 19: 산업용 통신 모니터링]** 메뉴를 터치하여 설정한 통신이 적용 되었는지 확인합니다.
+
+![그림 3.1-5 산업용 통신 설정 화면](<../_assets/3-Settings-Industrial-Communication/3.1-Setting-Firmware/image_5.png>)
+
+
+
+{% hint style="warning" %}
+**\[주의]**: 펌웨어의 사용 설정 시 제어기의 전원을 끈 후 다시 켜야만 설정값이 시스템에 적용됩니다.
+{% endhint %}
