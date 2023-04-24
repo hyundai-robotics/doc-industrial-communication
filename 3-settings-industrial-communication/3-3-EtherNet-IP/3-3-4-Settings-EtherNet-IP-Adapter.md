@@ -3,16 +3,19 @@
 “[**3.1 산업용 통신 펌웨어 설정**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 
+<br>
 
 #### 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 EtherNet/IP Slave를 선택하고 로봇 제어기를 재부팅합니다.
 
 ![[그림 3.3.4-1 펌웨어 설정]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
+<br>
 
 #### 2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.
 
 ![[그림 3.3.4-2 산업용 통신 모니터링]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_2.png>) 
 
+<br>
 
 #### 3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 1: 슬레이브 구성 > 1 EtherNet/IP Slave]**
@@ -21,6 +24,7 @@
 
 ![[그림 3.3.4-4 슬레이브 설정]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_4.png>) 
 
+<br>
 
 #### 4. 각 항목 별 설명
 
@@ -70,6 +74,7 @@
 \.      Scanner 사양에 따라 입력 및 출력 32Bit Run / Idle Header 사용 여부를 적절히 설정하여 주십시오.
 {% endhint %}
 
+<br>
 
 #### 5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.
 

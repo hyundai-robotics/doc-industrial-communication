@@ -3,32 +3,38 @@
 “[**3.1 산업용 통신 펌웨어 설정**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)" 및 "[**3.2 SYCON.NET 설정**](../../3-settings-industrial-communication/3-2-Settings-SYCON.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 
+<br>
 
 #### 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 EtherNet/IP Master를 선택하고 로봇 제어기를 재부팅합니다.
 
 ![[그림 3.3.2-1 펌웨어 설정]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_1.png>) 
 
+<br>
 
 #### 2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.
 
 ![[그림 3.3.2-2 산업용 통신 모니터링]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_2.png>) 
 
+<br>
 
 #### 3. Sycon.net 을 이용하여 EtherNet/IP Scanner PCI 장치를 선택합니다.
 
 ![[그림 3.3.2-3 EtherNet/IP Master PCI]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_3.png>)
 ![[그림 3.3.2-4 EtherNet/IP Master PCI]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_4.png>) 
 
+<br>
 
 #### 4. Sycon.net 설정 후 Scan 하여 EtherNet/IP Scanner 장치를 선택(Apply)합니다.
 
 ![[그림 3.3.2-5 Sycon.net Scan]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_5.png>) 
 
+<br>
 
 #### 5. 그림을 우클릭하여 설정을 다운로드 합니다.
 
 ![[그림 3.3.2-6 EtherNet/IP Scanner Download]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_6.png>) 
 
+<br>
 
 #### 6. EtherNet/IP Scanner 에 연결할 Adapter(Slave) 모듈을 준비합니다.
    * 이번 예제에서는 Crevis 사의 M9289 EtherNet/IP Adapter를 사용합니다.
@@ -36,6 +42,7 @@
 
 ![[그림 3.3.2-7 Crevis M9289]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_7.png>) 
 
+<br>
 
 #### 7. EtherNet/IP 통신 연결을 위해 Apdapter(Slave) 의 IP Address 설정이 필요합니다.
 
@@ -49,6 +56,7 @@
 \.      BootpSvr.exe 을 이용한 IP Address 설정 방법
 {% endhint %}
 
+<br>
 
 #### 8. 이 예제에서는 Bootp를 이용한 IP Address를 설정합니다.
    * 9번 DIP Switch만 ON으로 변경합니다.
@@ -59,6 +67,7 @@
 
 ![[그림 3.3.2-10 Crevis M9289 LAN Port]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_10.png>)
 
+<br>
 
 #### 9. PC 에서 BootpSvr.exe 를 실행합니다.
    * 해당 프로그램은 Crevis 사에서 제공합니다. (홈페이지에서 IO Guide Pro 다운로드)
@@ -73,16 +82,19 @@
 
 ![[그림 3.3.2-13 Crevis Bootp]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_13.png>)
 
+<br>
 
 #### 10. Adapter가 재부팅하면서 BootpSvr.exe 프로그램에 아래와 같이 Device 정보가 나타납니다.
 
 ![[그림 3.3.2-14 Crevis Bootp]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_14.png>)
 
+<br>
 
 #### 11. Device를 선택하여 IP를 입력해줍니다.
 
 ![[그림 3.3.2-15 Crevis Bootp]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_15.png>)![[그림 3.3.2-16 Crevis Bootp]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_16.png>)
 
+<br>
 
 #### 12. IP 설정이 끝난 Adapter의 DIP Switch를 모두 OFF로 변경한 후 전원을 다시 인가하여 재부팅합니다.
 
@@ -92,6 +104,7 @@
 
 ![[그림 3.3.2-17 Crevis DIP Switch]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_17.png>)
 
+<br>
 
 #### 13. Adapter 설정을 마친 후 Sycon.net 에 접속하여 Configuration을 진행합니다.
 
@@ -146,6 +159,7 @@
 
 ![[그림 3.3.2-25 Adapter Device Settings]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_25.png>)
 
+<br>
 
 #### 14. 이어서 Master (Scanner) Configuration을 진행합니다.
     
