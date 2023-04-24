@@ -6,6 +6,10 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 
 <br>
 
+"[**4.1 ERROR Code**](../../4-monitoring-industrial-communication/4-1-error-code.md)" 참고해 주십시오.
+
+<br>
+
 #### 1. 통신 케이블 단선 에러
 
 {% hint style="info" %}
