@@ -4,7 +4,6 @@
 
 
 <br>
----
 
 #### 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 EtherNet/IP Slave를 선택하고 로봇 제어기를 재부팅합니다.
 
@@ -19,7 +18,7 @@
 <br>
 
 #### 3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 1: 슬레이브 구성 > 1 EtherNet/IP Slave]**
+    **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 1: 슬레이브 구성 > 1 EtherNet/IP Slave]**
 
 ![[그림 3.3.4-3 슬레이브 설정]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_3.png>) 
 

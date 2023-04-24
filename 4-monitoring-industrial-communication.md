@@ -12,5 +12,5 @@
 \.      Master의 경우 슬레이브 구성 및 활성 슬레이가 구성한 슬레이브 수와 동일한지 확인해 주십시오.
 {% endhint %}
 
-![그림 4-1 산업용 통신 모니터터링](<_assets/4-Monitoring/image_1.png>)
+![[그림 4-1 산업용 통신 모니터터링]](<_assets/4-Monitoring/image_1.png>)
 
