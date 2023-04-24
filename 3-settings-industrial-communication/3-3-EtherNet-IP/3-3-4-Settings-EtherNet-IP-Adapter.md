@@ -17,6 +17,12 @@
 
 <br>
 
+{% hint style="warning" %}
+**\[주의]**: Sycon.net 으로 설정한 Configuration 파일이 해당 PCI 슬롯에 Download 되어 있는 경우 TP의 설정 값을 무시하게 됩니다.
+{% endhint %}
+
+<br>
+
 #### 3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 1: 슬레이브 구성 > 1 EtherNet/IP Slave]**
 

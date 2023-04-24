@@ -2,6 +2,7 @@
 
 <br>
 
+##### Protocol 특성
 
 | **구분**                   | **사양**                  |
 | :---                       | :---                      |
@@ -16,4 +17,14 @@
 | Topology                   | Tree, Line, Ring          |
 | DLR V2 (Ring Topology)     | 지원                      |
 | 부가 기능                   | DHCP, BOOTP, ACD  지원    |
+
+
+<br>
+
+##### Network 특성
+
+| **구분**                   | **사양**                  |
+| :---                       | :---                      |
 | Data Transport Layer       | Ethernet II, IEEE 802.3   |
+| Hub                        | 사용 가능                  |
+| Switch                     | 사용 가능                  |
