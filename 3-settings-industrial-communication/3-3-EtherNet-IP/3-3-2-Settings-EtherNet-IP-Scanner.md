@@ -106,7 +106,7 @@
 
 <br>
 
-##### 13. Adapter의 IP 설정 후 Sycon.net 에서 Configuration을 진행합니다.
+##### 13. Slave 장치의 EDS 파일을 등록합니다.
 
 {% hint style="info" %}
 \.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
@@ -126,6 +126,18 @@
 ![[그림 3.3.2-21 Crevis EDS File]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_21.png>)
 
 ![[그림 3.3.2-22 Crevis EDS File]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_22.png>)
+
+<br>
+
+##### 14. Network Scan
+
+{% hint style="info" %}
+\.      EtherNet/IP Scanner 는 Network Scan 기능을 지원하지 않습니다.
+{% endhint %}
+
+<br>
+
+##### 15. Slave(Adapter) 장치 Configuration
 
 {% hint style="info" %}
 \.      동록한 Device를 끌어와 EtherNet/IP Master 버스 라인에 올려 놓습니다.
@@ -161,7 +173,7 @@
 
 <br>
 
-##### 14. Master(Scanner) 장치의 Configuration을 진행합니다.
+##### 16. Master(Scanner) 장치 Configuration
     
 
 {% hint style="info" %}
@@ -206,10 +218,18 @@
 
 ![[그림 3.3.2-31 Scanner Device Settings]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_31.png>)
 
+<br>
+
+##### 17. 통신 상태 확인
+
 {% hint style="info" %}
 \.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
 \.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**3.4 산업용 통신 모니터링**](/4-monitoring-industrial-communication/README.md)”참고해 주십시오.
+{% endhint %}
+
+{% hint style="info" %}
+\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
 ![[그림 3.3.2-32 Communication State]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_32.png>)
