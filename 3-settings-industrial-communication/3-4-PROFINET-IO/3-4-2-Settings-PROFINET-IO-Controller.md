@@ -54,7 +54,7 @@
 
 <br>
 
-##### 8. (Dip Switch 예제) DIP Switch를 이용하여 Slave 장치의 이름을 설정합니다.
+##### 7. (Dip Switch 예제) DIP Switch를 이용하여 Slave 장치의 이름을 설정합니다.
    * 1번 DIP Switch만 ON으로 변경합니다.
 
 
@@ -66,7 +66,7 @@
 
 <br>
 
-##### 9. Slave 장치의 GSDML 파일을 등록합니다.
+##### 8. Slave 장치의 GSDML 파일을 등록합니다.
 
 {% hint style="info" %}
 \.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 GSDML 파일이 필요합니다.
@@ -90,7 +90,7 @@
 
 <br>
 
-##### 10. Network Scan
+##### 9. Network Scan
 
 {% hint style="info" %}
 \.      PROFINET IO Controller 는 Network Scan 기능을 지원합니다.
@@ -120,7 +120,7 @@
 
 <br>
 
-##### 11. Slave(Device) 장치 Configuration
+##### 10. Slave(Device) 장치 Configuration
 
 {% hint style="info" %}
 \.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
@@ -148,7 +148,7 @@
 
 <br>
 
-##### 12. Master(Controller) 장치 Configuration
+##### 11. Master(Controller) 장치 Configuration
 
 {% hint style="info" %}
 \.      Master 장치를 더블클릭합니다.
@@ -194,7 +194,7 @@
 
 <br>
 
-##### 13. 통신 상태 확인
+##### 12. 통신 상태 확인
 
 {% hint style="info" %}
 \.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.

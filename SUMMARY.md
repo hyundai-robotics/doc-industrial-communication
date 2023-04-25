@@ -35,7 +35,7 @@
     * [3.5.2 EtherCAT Master 설정](3-settings-industrial-communication/3-5-EtherCAT/3-5-2-Settings-EtherCAT-Master.md)
     * [3.5.3 EtherCAT Slave 사양](3-settings-industrial-communication/3-5-EtherCAT/3-5-3-Specification-EtherCAT-Slave.md)
     * [3.5.4 EtherCAT Slave 설정](3-settings-industrial-communication/3-5-EtherCAT/3-5-4-Settings-EtherCAT-Slave.md)
-    * [3.5.5 EtherCAT 에러 조치](3-settings-industrial-communication/3-5-EtherCAT/3-5-5-Error-EtherCAT.md)
+    * [3.5.5 EtherCAT 케이블 결선](3-settings-industrial-communication/3-5-EtherCAT/3-5-5-EtherCAT-Topology.md)
 
   * [3.6 PROFIBUS-DP](3-settings-industrial-communication/3-6-PROFIBUS-DP/README.md)
     * [3.6.1 PROFIBUS-DP Master 사양](3-settings-industrial-communication/3-6-PROFIBUS-DP/3-6-1-Specification-PROFIBUS-DP-Master.md)
@@ -58,6 +58,6 @@
 
 * [4. 산업용 통신 모니터링](4-monitoring-industrial-communication/README.md)
   * [4.1 ERROR Code](4-monitoring-industrial-communication/4-1-error-code.md)
-  
+
 
 * [5. 산업용 통신 DIO Block 할당](5-dio-block-allocation.md)

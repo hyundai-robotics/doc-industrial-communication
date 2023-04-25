@@ -70,6 +70,8 @@
 \.      입력 Slot이 출력 Slot 보다 앞에 위치 합니다.
 {% endhint %}
 
+![[그림 3.4.4-5 슬이브 설정]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/4-Slave_setting/image_5.png>) 
+
 
 <br>
 
@@ -77,4 +79,4 @@
 
 TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4 산업용 통신 모니터링**](/4-monitoring-industrial-communication/README.md))”참고해 주십시오.
 
-![[그림 3.4.4-5 산업용 통신 모니터링]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/4-Slave_setting/image_5.png>) 
+![[그림 3.4.4-6 산업용 통신 모니터링]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/4-Slave_setting/image_6.png>) 
