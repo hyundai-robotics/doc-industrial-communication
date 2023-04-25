@@ -79,9 +79,9 @@
 ##### 9. Network Scan
 
 {% hint style="warning" %}
-\.      **\EtherCAT 은 사용할 수 있는 Cable 결선과 Port 가 지정되어 있습니다.**
+\.      **EtherCAT 은 사용할 수 있는 Cable 결선과 Port 가 지정되어 있습니다.**
 
-\.      **\원활한 통신 연결을 위해 (“[**3.5.5 EtherCAT 케이블 결선**](../3-5-EtherCAT/3-5-5-EtherCAT-Topology.md)”을 반드시 확인해 주십시오.**
+\.      **원활한 통신 연결을 위해 (“[**3.5.5 EtherCAT 케이블 결선**](../3-5-EtherCAT/3-5-5-EtherCAT-Topology.md)”)을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
