@@ -199,7 +199,7 @@
 {% hint style="info" %}
 \.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4 산업용 통신 모니터링**](/4-monitoring-industrial-communication/README.md)”참고해 주십시오.
+\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4 산업용 통신 모니터링**](../../4-monitoring-industrial-communication/README.md)”참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}

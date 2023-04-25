@@ -84,6 +84,6 @@
 
 ##### 5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4 산업용 통신 모니터링**](/4-monitoring-industrial-communication/README.md))”참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4 산업용 통신 모니터링**](../../4-monitoring-industrial-communication/README.md))”참고해 주십시오.
 
 ![[그림 3.3.4-5 산업용 통신 모니터링]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_5.png>) 
