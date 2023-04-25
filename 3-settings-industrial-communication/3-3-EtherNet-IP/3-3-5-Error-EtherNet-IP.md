@@ -10,7 +10,7 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 
 <br>
 
-#### 1. 통신 케이블 단선 에러
+##### 1. 통신 케이블 단선 에러
 
 {% hint style="info" %}
 \.      LAN Cable 의 연결 상태를 확인해 주십시오.
@@ -23,7 +23,7 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 
 <br>
 
-#### 2. IP Address 설정 Error
+##### 2. IP Address 설정 Error
 
 {% hint style="info" %}
 \.      Master - Slave Device 의 IP Address 를 확인해 주십시오.
