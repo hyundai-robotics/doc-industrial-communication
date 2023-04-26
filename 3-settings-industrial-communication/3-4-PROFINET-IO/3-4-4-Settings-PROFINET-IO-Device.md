@@ -56,7 +56,7 @@
 {% hint style="info" %}
 \.      [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력되는 데이터 크기를 설정합니다.
+\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
