@@ -50,7 +50,7 @@
    * 이번 예제에서는 Crevis 사의 NA-9211 DeviceNet Slave를 사용합니다.
    * 시스템 전원과 필드 전원을 공급해 주어 모듈을 활성화 시켜 주십시오.
 
-![[그림 3.7.2-8 Crevis NA9211]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_8.png>) 
+![[그림 3.7.2-8 Crevis NA-9211]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_8.png>) 
 
 <br>
 
