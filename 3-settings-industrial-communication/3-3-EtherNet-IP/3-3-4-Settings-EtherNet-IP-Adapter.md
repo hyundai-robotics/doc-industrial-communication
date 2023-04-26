@@ -82,6 +82,21 @@
 
 <br>
 
+{% hint style="info" %}
+\.        [Quick Connect]
+
+\.        EtherNet/IP는 Quick Connect 기능을 지원합니다.
+
+\.        Quick Connect 기능 사용이 필요한 경우 Sycon.net 을 이용하여 EtherNet/IP Adapter를 설정해 주십시오.
+
+\.        (1) Master, Slave Quick Connect 지원 제품 필요
+\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가
+\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가
+\.        (4) 100 Mbit/s, Full Duplex 사용 필요
+{% endhint %}
+
+<br>
+
 ##### 5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.
 
 TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4 산업용 통신 모니터링**](../../4-monitoring-industrial-communication/README.md)”)참고해 주십시오.

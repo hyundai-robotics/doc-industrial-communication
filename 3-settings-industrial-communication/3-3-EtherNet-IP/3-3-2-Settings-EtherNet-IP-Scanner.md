@@ -213,6 +213,19 @@
 ![[그림 3.3.2-30 Scanner Device Settings]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_30.png>)
 
 {% hint style="info" %}
+\.        [Quick Connect]
+
+\.        EtherNet/IP는 Quick Connect 기능을 지원합니다.
+
+\.        Quick Connect 기능 사용을 위해 아래 조건을 만족해야 합니다.
+
+\.        (1) Master, Slave Quick Connect 지원 제품 필요
+\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가
+\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가
+\.        (4) 100 Mbit/s, Full Duplex 사용 필요
+{% endhint %}
+
+{% hint style="info" %}
 \.        설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
