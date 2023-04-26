@@ -36,7 +36,7 @@
 \.      Network Scan이 안되는 경우 통신 속도를 확인해 주십시오.
 {% endhint %}
 
-![[그림 3.7.5-3 DeviceNet 종단 저항]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_3.png>) 
+![[그림 3.7.5-3 DeviceNet Baudrate]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_3.png>) 
 
 <br>
 
@@ -48,4 +48,4 @@
 \.      24V 전원 공급을 확인해 주십시오.
 {% endhint %}
 
-![[그림 3.7.5-4 DeviceNet 종단 저항]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_4.png>) 
+![[그림 3.7.5-4 DeviceNet Error]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_4.png>) 
