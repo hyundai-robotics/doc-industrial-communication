@@ -12,6 +12,8 @@
 \.      CC-Link Cable 연결 시 종단에는 저항을 추가해야합니다.
 
 \.      통신 연결이 안되는 경우 종단 저항을 확인해 주십시오.
+
+\.      CC-Link 종단 저항 : 110옴
 {% endhint %}
 
 {% hint style="info" %}

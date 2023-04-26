@@ -12,6 +12,8 @@
 \.      DeviceNet Cable 연결 시 종단에는 저항을 추가해야합니다.
 
 \.      Network Scan이 안되는 경우 종단 저항을 확인해 주십시오.
+
+\.      DeviceNet 종단 저항 : 120옴
 {% endhint %}
 
 {% hint style="info" %}
