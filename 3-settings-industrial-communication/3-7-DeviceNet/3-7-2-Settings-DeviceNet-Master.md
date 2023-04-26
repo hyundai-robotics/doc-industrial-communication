@@ -105,7 +105,11 @@
 ##### 10. Network Scan
 
 {% hint style="warning" %}
-\.      **Network Scan 시 통신 속도, 케이블 연결 등을 확인해 주십시오.**
+\.      **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
+
+\.      **(1) 케이블 연결 여부**
+\.      **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**
+\.      **(3) Master - Slave 통신 속도 설정 여부**
 
 \.      **원활한 통신 연결을 위해 (“[**3.7.5 DeviceNet ERROR 조치**](../3-7-DeviceNet/3-7-5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
 {% endhint %}
