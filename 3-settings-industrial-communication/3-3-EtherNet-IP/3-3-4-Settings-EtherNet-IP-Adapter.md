@@ -89,10 +89,10 @@
 
 \.        Quick Connect 기능 사용이 필요한 경우 Sycon.net 을 이용하여 EtherNet/IP Adapter를 설정해 주십시오.
 
-\.        (1) Master, Slave Quick Connect 지원 제품 필요
-\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가
-\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가
-\.        (4) 100 Mbit/s, Full Duplex 사용 필요
+\.        (1) Master, Slave Quick Connect 지원 제품 필요  
+\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
+\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
+\.        (4) 100 Mbit/s, Full Duplex 사용 필요  
 {% endhint %}
 
 <br>

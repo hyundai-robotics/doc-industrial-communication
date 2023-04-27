@@ -123,9 +123,9 @@
 {% hint style="info" %}
 \.      EtherCAT Slave 설정을 위해 M9386에 연결되어 있는 Slot을 추가합니다.
 
-\.      Slot 1 : M7001
-\.      Slot 2 : M12DF
-\.      Slot 3 : M225F
+\.      Slot 1 : M7001  
+\.      Slot 2 : M12DF  
+\.      Slot 3 : M225F  
 {% endhint %}
 
 ![[그림 3.5.2-17 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.5-EtherCAT/2-Master_setting/image_17.png>)

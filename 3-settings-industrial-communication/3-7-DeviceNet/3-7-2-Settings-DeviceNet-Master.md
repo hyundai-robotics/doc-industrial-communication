@@ -2,6 +2,13 @@
 
 “[**3.1 산업용 통신 펌웨어 설정**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)" 및 "[**3.2 SYCON.NET 설정**](../../3-settings-industrial-communication/3-2-Settings-SYCON.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
+<br>
+
+{% hint style="info" %}
+\.      DeviceNet Connector 연결은 아래를 참고해 주십시오.
+
+\.      (“[**2.2 커넥터**](../../2-mounting-settings-industrial-communication-card/2-2-Connector.md)”)
+{% endhint %}
 
 <br>
 
@@ -107,9 +114,9 @@
 {% hint style="warning" %}
 \.      **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
 
-\.      **(1) 케이블 연결 여부**
-\.      **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**
-\.      **(3) Master - Slave 통신 속도 설정 여부**
+\.      **(1) 케이블 연결 여부**  
+\.      **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**  
+\.      **(3) Master - Slave 통신 속도 설정 여부**  
 
 \.      **원활한 통신 연결을 위해 (“[**3.7.5 DeviceNet ERROR 조치**](../3-7-DeviceNet/3-7-5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
 {% endhint %}
@@ -155,8 +162,8 @@
 {% hint style="info" %}
 \.      DeviceNet Slave의 설정을 확인 합니다.
 
-\.      Output : ST-2318 (1 Byte)
-\.      Input : ST-1218 (1 Byte)
+\.      Output : ST-2318 (1 Byte)  
+\.      Input : ST-1218 (1 Byte)  
 {% endhint %}
 
 ![[그림 3.7.2-19 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_19.png>)

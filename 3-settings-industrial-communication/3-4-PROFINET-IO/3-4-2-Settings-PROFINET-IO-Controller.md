@@ -137,9 +137,9 @@
 {% hint style="info" %}
 \.      PROFINET IO Slave(Device) 설정을 위해 M9287에 연결되어 있는 Slot을 추가합니다.
 
-\.      Slot 1 : M7001
-\.      Slot 2 : M12DF
-\.      Slot 3 : M225F
+\.      Slot 1 : M7001  
+\.      Slot 2 : M12DF  
+\.      Slot 3 : M225F  
 {% endhint %}
 
 ![[그림 3.4.2-21 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/2-Master_setting/image_21.png>)

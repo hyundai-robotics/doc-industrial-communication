@@ -97,8 +97,8 @@
 {% hint style="warning" %}
 \.      **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
 
-\.      **(1) 케이블 연결 여부**
-\.      **(2) 종단 DIP Switch 사용 여부**
+\.      **(1) 케이블 연결 여부**  
+\.      **(2) 종단 DIP Switch 사용 여부**  
 {% endhint %}
 
 {% hint style="info" %}
@@ -140,11 +140,11 @@
 {% hint style="info" %}
 \.      PROFIBUS-DP Slave의 설정을 확인 합니다.
 
-\.      Slot 1 : GN-9222
-\.      Slot 1 : GT-12DF (Input 2 Byte)
-\.      Slot 2 : GT-227F (Output 2 Byte)
-\.      Slot 3 : GT-3154 (Input 8 Byte)
-\.      Slot 4 : GT-4254 (Output 8 Byte)
+\.      Slot 1 : GN-9222  
+\.      Slot 1 : GT-12DF (Input 2 Byte)  
+\.      Slot 2 : GT-227F (Output 2 Byte)  
+\.      Slot 3 : GT-3154 (Input 8 Byte)  
+\.      Slot 4 : GT-4254 (Output 8 Byte)  
 {% endhint %}
 
 ![[그림 3.6.2-17 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.6-PROFIBUS-DP/2-Master_setting/image_17.png>)
