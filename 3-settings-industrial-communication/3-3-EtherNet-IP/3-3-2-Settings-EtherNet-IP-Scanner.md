@@ -216,13 +216,15 @@
 \.        [Quick Connect]
 
 \.        EtherNet/IP는 Quick Connect 기능을 지원합니다.
+{% endhint %}
 
+{% hint style="info" %}
 \.        Quick Connect 기능 사용을 위해 아래 조건을 만족해야 합니다.
 
-\.        (1) Master, Slave Quick Connect 지원 제품 필요
-\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가
-\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가
-\.        (4) 100 Mbit/s, Full Duplex 사용 필요
+\.        (1) Master, Slave Quick Connect 지원 제품 필요  
+\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
+\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
+\.        (4) 100 Mbit/s, Full Duplex 사용 필요  
 {% endhint %}
 
 {% hint style="info" %}
