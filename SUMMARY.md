@@ -2,7 +2,7 @@
 
 * [Hi6 로봇제어기 기능설명서 - 산업용 통신](README.md)
 * [1. 프로그램 설치](1-install-program/README.md)
-  * [1.1 Sycon.net](1-install-program/1-1-sycon-net.md)
+  * [1.1 Sycon.net 설치](1-install-program/1-1-sycon-net.md)
 
   
 * [2. 산업용 통신 카드 장착 및 설정](2-mounting-settings-industrial-communication-card/README.md)
