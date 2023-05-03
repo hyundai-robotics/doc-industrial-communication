@@ -2,6 +2,13 @@
 
 “[**3.1 산업용 통신 펌웨어 설정**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
+<br>
+
+{% hint style="info" %}
+\.      **[PROFINET IO Device GSDML File 다운로드]**
+
+\.      “[**6. Slave 장치 설명 파일**](../../6-slave-config-file.md)" 참고해 주십시오.
+{% endhint %}
 
 <br>
 

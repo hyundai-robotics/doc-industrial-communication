@@ -5,6 +5,14 @@
 <br>
 
 {% hint style="info" %}
+\.      **[DeviceNet Slave EDS File 다운로드]**
+
+\.      “[**6. Slave 장치 설명 파일**](../../6-slave-config-file.md)" 참고해 주십시오.
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
 \.      DeviceNet Connector 연결은 아래를 참고해 주십시오.
 
 \.      (“[**2.2 커넥터**](../../2-mounting-settings-industrial-communication-card/2-2-Connector.md)”)

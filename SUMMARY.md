@@ -61,3 +61,6 @@
 
 
 * [5. 산업용 통신 DIO Block 할당](5-dio-block-allocation.md)
+
+
+* [6. Slave 장치 설명 파일](6-slave-config-file.md))
