@@ -77,7 +77,7 @@
 \.      입력 Slot이 출력 Slot 보다 앞에 위치 합니다.
 {% endhint %}
 
-![[그림 3.4.4-5 슬이브 설정]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/4-Slave_setting/image_5.png>) 
+![[그림 3.4.4-5 슬레이브 설정]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/4-Slave_setting/image_5.png>) 
 
 
 <br>
