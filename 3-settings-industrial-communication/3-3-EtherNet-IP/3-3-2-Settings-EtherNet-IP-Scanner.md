@@ -70,7 +70,7 @@
 <br>
 
 ##### 9. PC 에서 BootpSvr.exe 를 실행합니다.
-   * 해당 프로그램은 Crevis 사에서 제공합니다. (홈페이지에서 IO Guide Pro 다운로드)
+   * 해당 프로그램은 Crevis 사에서 제공합니다. (홈페이지에서 IO Guide Pro 다운로드 후 설치)
 
 ![[그림 3.3.2-11 Crevis IO Guide Pro]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_11.png>)
 
