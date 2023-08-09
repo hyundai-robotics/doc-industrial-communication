@@ -5,7 +5,7 @@ After setting the communication according to the procedures of “[**2. Installi
 You can enter the screens by touching **\[Service > 19: Industrial Communication Monitoring]**, and check the details such as the set firmware information, communication status, and communication configuration in relevant screens.
 
 {% hint style="info" %}
-The industrial communication of the relevant PCI communication card can be restarted using the \[Restart]** button.
+\.      The industrial communication of the relevant PCI communication card can be restarted using the **\[Restart]** button.
 
 \.      Check the status of the slot, firmware, and devices.
 
