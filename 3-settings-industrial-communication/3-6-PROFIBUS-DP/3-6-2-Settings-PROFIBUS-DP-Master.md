@@ -141,10 +141,10 @@
 \.      PROFIBUS-DP Slave의 설정을 확인 합니다.
 
 \.      Slot 1 : GN-9222  
-\.      Slot 1 : GT-12DF (Input 2 Byte)  
-\.      Slot 2 : GT-227F (Output 2 Byte)  
-\.      Slot 3 : GT-3154 (Input 8 Byte)  
-\.      Slot 4 : GT-4254 (Output 8 Byte)  
+\.      Slot 2 : GT-12DF (Input 2 Byte)  
+\.      Slot 3 : GT-227F (Output 2 Byte)  
+\.      Slot 4 : GT-3154 (Input 8 Byte)  
+\.      Slot 5 : GT-4254 (Output 8 Byte)  
 {% endhint %}
 
 ![[그림 3.6.2-17 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.6-PROFIBUS-DP/2-Master_setting/image_17.png>)
