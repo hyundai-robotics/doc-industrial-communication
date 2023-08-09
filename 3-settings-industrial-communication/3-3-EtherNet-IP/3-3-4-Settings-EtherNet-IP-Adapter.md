@@ -96,10 +96,10 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 
 \.        When using the quick connect function is necessary, set the EtherNet/IP adapter using SYCO.net.
 
-\.        (1) Products that support the master and slave quick connect function are needed. 
+\.        (1) Products that support the master and slave quick connect function are needed.  
 \.        (2) The quick connect function cannot be used when using the auto negotiation function.  
-\.        (3) The quick connect function cannot be used when using auto MDI-X function.
-\.        (4) 100 Mbit/s and full duplex need to be used.
+\.        (3) The quick connect function cannot be used when using auto MDI-X function.  
+\.        (4) 100 Mbit/s and full duplex need to be used.  
 {% endhint %}
 
 <br>

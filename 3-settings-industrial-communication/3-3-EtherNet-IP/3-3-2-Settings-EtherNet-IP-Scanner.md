@@ -221,10 +221,10 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 {% hint style="info" %}
 \.        The following conditions should be met to use the quick connect function.
 
-\.        (1) Products that support the master and slave quick connect function are necessary.
-\.        (2) The quick connect function cannot be used when using the auto negotiation function.
-\.        (3) The quick connect function cannot be used when using the auto MDI-X function.
-\.        (4) 100 Mbit/s and full duplex should be made available.
+\.        (1) Products that support the master and slave quick connect function are necessary.  
+\.        (2) The quick connect function cannot be used when using the auto negotiation function.  
+\.        (3) The quick connect function cannot be used when using the auto MDI-X function.  
+\.        (4) 100 Mbit/s and full duplex should be made available.  
 {% endhint %}
 
 {% hint style="info" %}
