@@ -123,9 +123,9 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 {% hint style="info" %}
 \.      Add a slot connected to M9386 to set an EtherCAT slave.
 
-\.      Slot 1: M7001  
-\.      Slot 2: M12DF  
-\.      Slot 3: M225F  
+\.      Slot 1 : M7001  
+\.      Slot 2 : M12DF  
+\.      Slot 3 : M225F  
 {% endhint %}
 
 ![[Figure 3.5.2-17 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.5-EtherCAT/2-Master_setting/image_17.png>)
@@ -144,11 +144,11 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 ![[Figure 3.5.2-19 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.5-EtherCAT/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-\.      Synchronization: To choose between Freerun and Distributed Clocks (DC)
+\.      Synchronization : To choose between Freerun and Distributed Clocks (DC)
 
-\.      Redundancy: Whether to use redundancy (cannot be used together with Distributed Clocks)
+\.      Redundancy : Whether to use redundancy (cannot be used together with Distributed Clocks)
 
-\.      Bus Cycle Time: Can support at least 250 us (1 ms or above is recommended)
+\.      Bus Cycle Time : Can support at least 250 us (1 ms or above is recommended)
 {% endhint %}
 
 <br>

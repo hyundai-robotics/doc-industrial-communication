@@ -17,5 +17,5 @@ The EtherCAT protocol provides functions for very fast IO data updates and accur
 
 <br>
 
-##### IO Device Class
+##### EtherCAT Slave
    * The products of this class correspond to the existing Fieldbus slaves and are connected to EtherCAT master devices.

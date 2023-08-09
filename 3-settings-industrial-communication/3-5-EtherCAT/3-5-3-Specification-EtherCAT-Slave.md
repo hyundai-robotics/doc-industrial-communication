@@ -22,7 +22,8 @@
 
 ##### Network Characteristics
 
-| **Classification**                   | **Specification**                  |
+| **Classification**         | **Specification**                  |
+| :---                       | :---                      |
 | Data transport layer       | Ethernet II, IEEE 802.3   |
 | Hub                        | Cannot be used                         |
 | Switch                     | Limited us is allowed (between the master and slave 1) |
