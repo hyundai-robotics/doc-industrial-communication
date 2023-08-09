@@ -66,19 +66,19 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 {% hint style="info" %}
 \.      Input Module  
 \.      M12DF: Digital 16 points  
-\.      M3534: Analog 4 points
+\.      M3534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
 \.      Output Module  
 \.      M225F: Digital 16 points  
-\.      M226F: Digital 16 points
-\.      M2768: Digital 8 points   
+\.      M226F: Digital 16 points  
+\.      M2768: Digital 8 points  
 \.      M4534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
+\.      Special Module   
 \.      M5112: Conveyer I/F 
 {% endhint %}
 
