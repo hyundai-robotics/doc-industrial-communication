@@ -142,10 +142,10 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 \.      Check the settings of the PROFIBUS-DP slave.
 
 \.      Slot 1: GN-9222  
-\.      Slot 1: GT-12DF (Input 2 bytes)  
-\.      Slot 2: GT-227F (Output 2 bytes)  
-\.      Slot 3: GT-3154 (Input 8 bytes)  
-\.      Slot 4: GT-4254 (Output 8 bytes)  
+\.      Slot 2: GT-12DF (Input 2 bytes)  
+\.      Slot 3: GT-227F (Output 2 bytes)  
+\.      Slot 4: GT-3154 (Input 8 bytes)  
+\.      Slot 5: GT-4254 (Output 8 bytes)  
 {% endhint %}
 
 ![[Figure 3.6.2-17 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.6-PROFIBUS-DP/2-Master_setting/image_17.png>)
