@@ -1,3 +1,3 @@
-# 1. Installing the Program
+﻿# 1. Installing Programs
 
-This is about installing a program related to industrial communication.
+This chapter details how to install programs related to industrial communications.

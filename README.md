@@ -1,15 +1,13 @@
-# Hi6 Robot Controller Manual - Industrial Communication
+﻿# Hi6 Robot Controller Function Manual - Industrial Communication
 
 {% hint style="warning" %}
-The information presented in this manual is the property of Hyundai Robotics.
+The information provided in this product manual is the property of Hyundai Robotics.
 
-The manual may neither be copied, in part or in full, nor redistributed without prior written consent from Hyundai Robotics.
-
-It may neither be provided to any third party nor used for any other purposes.
+It can neither be reproduced nor redistributed in whole or in part without written consent from Hyundai Robotics, and it cannot be provided to a third party or used for other purposes.
 
 
 
-Hyundai Robotics reserves the right to modify this document without prior notification.
+This manual can be changed without prior notice.
 
 
 
