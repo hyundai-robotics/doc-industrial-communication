@@ -17,5 +17,5 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 
 <br>
 
-##### IO Device Class
+##### EtherCAT Slave
    * 기존 필드버스 슬레이브(Slave)에 해당되는 제품으로 EtherCAT Master 장치에 연결됩니다.
