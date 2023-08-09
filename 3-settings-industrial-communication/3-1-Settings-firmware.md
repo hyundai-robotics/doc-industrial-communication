@@ -43,7 +43,7 @@ Click on the **\[Apply]** button.
 
 <br>
 
-##### 5. If you turn off the controller and turn it on again to reboot, the set firmware will be applied.
+##### 5. Reboot the Controller for the set firmware to be applied.
 Click the menu under **\[Service > 19: Industrial Communication Monitoring]** to check if the set communication has been applied.
 
 ![[Figure 3.1-5 Industrial Communication Setting Screen]](<../_assets/3-Settings-Industrial-Communication/3.1-Setting-Firmware/image_5.png>)
@@ -51,5 +51,5 @@ Click the menu under **\[Service > 19: Industrial Communication Monitoring]** to
 
 
 {% hint style="warning" %}
-**\[Caution]**: When you set the use of the firmware, you must switch the controller's power off, then turn it on again, to apply the settings to the system.
+**\[Caution]**: When you set the use of the firmware, you must Reboot Controller to apply the settings to the system.
 {% endhint %}

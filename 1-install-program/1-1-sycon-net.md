@@ -1,6 +1,6 @@
 ﻿# 1.1 Installing SYCON.net
 
-SYCON.net is a program that can create communication configurations for peripheral component interconnect (PCI) communication cards.
+SYCON.net is a program (Provided by Hilscher.) that can create communication configurations for peripheral component interconnect (PCI) communication cards.
 
 <br>
 
