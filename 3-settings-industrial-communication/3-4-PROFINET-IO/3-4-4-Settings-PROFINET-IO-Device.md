@@ -72,8 +72,8 @@ Perform settings according to the preocedures of “[**3.1 Setting Industrial Co
 
 \.      Designating slots in a way that matches the individually set byte count is required.
 
-\.      4, 8, 16, 32, and 64 bytes -> Designate the slots to match each byte count
-\.      128, 256 bytes -> Designate multiple 64-byte slots (2, 4)
+\.      4, 8, 16, 32, and 64 bytes -> Designate the slots to match each byte count  
+\.      128, 256 bytes -> Designate multiple 64-byte slots (2, 4)  
 
 \.      The input slots are placed before the output slots.
 {% endhint %}
