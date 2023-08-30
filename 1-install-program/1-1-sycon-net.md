@@ -68,7 +68,7 @@
 <br>
 
 {% hint style="info" %}
-\.      압축 해제 -> 내부 폴더에서 “**Communication-Solutions.exe**”를 실행 -> “**Install SYCON.net Configuration Software**” 선택 하여 프로그램을 설치 합니다.
+\.      압축 해제 -> SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
 {% endhint %}
 
 <br>
@@ -76,9 +76,5 @@
 {% hint style="info" %}
 \.      당사 홈페이지에서 제공하는 SYCON.net 프로그램은 최신버전과 다를 수 있습니다.
 {% endhint %}
-
-<br>
-
-![[그림 1.1-8 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_8.png>)
 
 <br>
