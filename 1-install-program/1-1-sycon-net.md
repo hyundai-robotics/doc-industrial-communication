@@ -68,7 +68,7 @@ Download “**SYCON.net** from [www.hyundai-robotics.com](http://www.hyundai-rob
 <br>
 
 {% hint style="info" %}
-\.      Unzip -> Run “**Communication-Solutions.exe**” in your folders -> Select “**Install SYCON.net Configuration Software**” to install the program.
+\.      Unzip -> Run the downloaded SYCON.net Setup.exe file to install the program.
 {% endhint %}
 
 <br>
@@ -77,8 +77,5 @@ Download “**SYCON.net** from [www.hyundai-robotics.com](http://www.hyundai-rob
 \.      The SYCON.net program, available on our website, may be different from the latest version.
 {% endhint %}
 
-<br>
-
-![[Figure 1.1-8 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_8.png>)
 
 <br>
