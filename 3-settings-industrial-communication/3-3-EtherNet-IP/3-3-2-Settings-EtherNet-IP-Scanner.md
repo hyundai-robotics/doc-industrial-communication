@@ -153,23 +153,34 @@
 \.      이 예제에서는 아래와 같이 설정했습니다.
 {% endhint %}
 
-{% hint style="info" %}
-\.        O -> T : Originator(Master) -> Target (Slave)
-
-\.        Output : EtherNet/IP Scanner  -> M9289 (OUTPUT Module M225F) : 2Byte
-{% endhint %}
+<br>
 
 ![[그림 3.3.2-24 Adapter Device Settings]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        T -> O : Target (Slave) -> Originator(Master)
+\.        O -> T : Originator(Master) -> Target (Slave)
 
-\.        Input : M9289 (INPUT Module M12DF) -> EtherNet/IP Scanner
+\.        Output : EtherNet/IP Scanner  -> M9289
 
-\.        **System Status(Default) 1Byte + M12DF 2Byte => 3Byte**
+\.        [Output Module]   
+\.         1. M225F (2Bytes)
+\.         **=> 2Bytes**
 {% endhint %}
 
+<br>
+
 ![[그림 3.3.2-25 Adapter Device Settings]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_25.png>)
+
+{% hint style="info" %}
+\.        T -> O : Target (Slave) -> Originator(Master)
+
+\.        Input : M9289 -> EtherNet/IP Scanner
+
+\.        [Input Module]
+\.         1. M7001  (1Byte)
+\.         2. M12DF  (2Bytes)
+\.         **=> 3Bytes**
+{% endhint %}
 
 <br>
 
