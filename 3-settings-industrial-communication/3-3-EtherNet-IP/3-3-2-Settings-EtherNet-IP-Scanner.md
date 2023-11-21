@@ -163,8 +163,8 @@
 \.        Output : EtherNet/IP Scanner  -> M9289
 
 \.        [Output Module]   
-\.         1. M225F (2Bytes)
-\.         **=> 2Bytes**
+\.         1. M225F (2Bytes)   
+\.         **=> 2Bytes**   
 {% endhint %}
 
 <br>
@@ -176,10 +176,10 @@
 
 \.        Input : M9289 -> EtherNet/IP Scanner
 
-\.        [Input Module]
-\.         1. M7001  (1Byte)
-\.         2. M12DF  (2Bytes)
-\.         **=> 3Bytes**
+\.        [Input Module]   
+\.         1. M7001  (1Byte)   
+\.         2. M12DF  (2Bytes)   
+\.         **=> 3Bytes**   
 {% endhint %}
 
 <br>
