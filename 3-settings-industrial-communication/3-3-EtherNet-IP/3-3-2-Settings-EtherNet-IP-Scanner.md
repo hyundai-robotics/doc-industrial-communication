@@ -153,23 +153,34 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 \.      In this example, the settings are as follows:
 {% endhint %}
 
-{% hint style="info" %}
-\.        O -> T: Originator (Master) -> Target (Slave)
-
-\.        Output: EtherNet/IP Scanner  -> M9289 (OUTPUT Module M225F): 2 bytes
-{% endhint %}
+<br>
 
 ![[Figure 3.3.2-24 Adapter Device Setting]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        T -> O: Target (Slave) -> Originator (Master)
+\.        O -> T: Originator (Master) -> Target (Slave)
 
-\.        Input: M9289 (INPUT Module M12DF) -> EtherNet/IP Scanner 
+\.        Output : EtherNet/IP Scanner  -> M9289
 
-\.        **System status (default) 1 byte + M12DF 2 bytes => 3 bytes**
+\.        [Output Module]     
+\.         1. M225F (2Bytes)   
+\.         **=> 2Bytes**   
 {% endhint %}
 
+<br>
+
 ![[Figure 3.3.2-25 Adapter Device Setting]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/2-Master_setting/image_25.png>)
+
+{% hint style="info" %}
+\.        T -> O: Target (Slave) -> Originator (Master)
+
+\.        Input : M9289 -> EtherNet/IP Scanner
+
+\.        [Input Module]   
+\.         1. M7001  (1Byte)   
+\.         2. M12DF  (2Bytes)   
+\.         **=> 3Bytes**   
+{% endhint %}
 
 <br>
 
