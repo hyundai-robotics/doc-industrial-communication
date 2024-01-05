@@ -7,7 +7,7 @@
 ##### 1. SYCON.net 최신 버전 다운로드 경로
 
 {% hint style="info" %}
-\.      **[https://kb.hilscher.com](https://kb.hilscher.com) -> Software -> SYCON.net** 를 클릭합니다.
+\.      **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net** 를 클릭합니다.
 {% endhint %}
 
 <br>
