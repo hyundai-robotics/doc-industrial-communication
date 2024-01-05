@@ -7,7 +7,7 @@ SYCON.net is a program (Provided by Hilscher.) that can create communication con
 ##### 1. Path for downloading the latest version of SYCON.net
 
 {% hint style="info" %}
-\.      Click **[https://kb.hilscher.com](https://kb.hilscher.com) -> Software -> SYCON.net**.
+\.      Click **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
 {% endhint %}
 
 <br>
