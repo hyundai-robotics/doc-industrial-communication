@@ -159,6 +159,36 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 
 ![[Figure 3.7.2-18 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_18.png>)
 
+
+<br>
+
+{% hint style="info" %}
+\.      Set the slave device's Connection Type.
+
+\.      Select the message transmission method fot DeviceNet communication connection.
+
+\.      ** If UCMM is not checked, it is set to Default (GROUP 2) **   
+
+\.      UCMM GROUP 1 : IO Message   
+\.      UCMM GROUP 2 : When Resetting the Network, Master - Slave Connection Message (Default)   
+\.      UCMM GROUP 3 : Explicit Message   
+
+\.      For certain devices, UCMM GROUP 3 can be used, so Please Check the product specifications before proceeding.
+{% endhint %}
+
+![[그림 3.7.2-19 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_19.png>)
+
+<br>
+
+{% hint style="info" %}
+\.      When using Crevis NA-9211, Proceed after UCMM is not checked. (Group2 Default)
+{% endhint %}
+
+![[그림 3.7.2-20 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_20.png>)
+
+<br>
+
+
 {% hint style="info" %}
 \.      Check the settings of the DeviceNet slave.
 
@@ -166,7 +196,7 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 \.      Input: ST-1218 (1 byte)  
 {% endhint %}
 
-![[Figure 3.7.2-19 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_19.png>)
+![[Figure 3.7.2-21 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_21.png>)
 
 
 
@@ -178,33 +208,33 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 \.      Double-click the master device.
 {% endhint %}
 
-![[Figure 3.7.2-20 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_20.png>)
+![[Figure 3.7.2-22 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_22.png>)
 
 
 {% hint style="info" %}
 \.      Set the communication speed of DeviceNet (to be the same as that of the slave). 
 {% endhint %}
 
-![[Figure 3.7.2-21 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_21.png>)
+![[Figure 3.7.2-23 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
 \.      Check the assigned IO and start address of the slave slot in the address table.
 {% endhint %}
 
-![[Figure 3.7.2-22 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_22.png>)
+![[Figure 3.7.2-24 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
 \.      Set whether to use the quick connect function.
 {% endhint %}
 
-![[Figure 3.7.2-23 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_23.png>)
+![[Figure 3.7.2-25 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_25.png>)
 
 
 {% hint style="info" %}
 \.      When the settings are completed, proceed with the download.
 {% endhint %}
 
-![[Figure 3.7.2-24 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_24.png>)
+![[Figure 3.7.2-26 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_26.png>)
 
 <br>
 
@@ -220,13 +250,13 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 \.      Double-clicking the connected master device will enable you to check the communication status.
 {% endhint %}
 
-![[Figure 3.7.2-25 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_25.png>)
+![[Figure 3.7.2-27 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_27.png>)
 
-![[Figure 3.7.2-26 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_26.png>)
+![[Figure 3.7.2-28 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
 \.        Using the diagnosis function of SYCON.net will enable you to monitor the IO’s input and output status along with the communication status.
 {% endhint %}
 
-![[Figure 3.7.2-27 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_27.png>)
+![[Figure 3.7.2-29 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_29.png>)
 
