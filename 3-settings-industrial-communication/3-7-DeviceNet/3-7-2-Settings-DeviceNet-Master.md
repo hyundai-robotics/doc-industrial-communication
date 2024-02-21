@@ -159,6 +159,36 @@
 
 ![[그림 3.7.2-18 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_18.png>)
 
+
+<br>
+
+{% hint style="info" %}
+\.      Slave 장치의 연결 타입을 설정합니다.
+
+\.      DeviceNet 통신을 연결을 위한 메세지 전송 방식을 선택합니다.
+
+\.      ** UCMM 미 체크시 UCMM Group 2 기본 값으로 설정됨**   
+
+\.      UCMM GROUP 1 : IO Message   
+\.      UCMM GROUP 2 : Network 초기화 시 Master - Slave 연결 Message (기본 설정)   
+\.      UCMM GROUP 3 : Explicit Message   
+
+\.      특정 Device의 경우 UCMM Group 3을 사용할 수 있으니 제품 사양서를 확인 후 진행하십시오.
+{% endhint %}
+
+![[그림 3.7.2-19 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_19.png>)
+
+<br>
+
+{% hint style="info" %}
+\.      Crevis NA-9211 은 UCMM 미체크 후 진행합니다. (Group2 기본 값 사용)
+{% endhint %}
+
+![[그림 3.7.2-20 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_20.png>)
+
+<br>
+
+
 {% hint style="info" %}
 \.      DeviceNet Slave의 설정을 확인 합니다.
 
@@ -166,7 +196,7 @@
 \.      Input : ST-1218 (1 Byte)  
 {% endhint %}
 
-![[그림 3.7.2-19 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_19.png>)
+![[그림 3.7.2-21 Slave Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_21.png>)
 
 
 
@@ -178,33 +208,33 @@
 \.      Master 장치를 더블클릭합니다.
 {% endhint %}
 
-![[그림 3.7.2-20 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_20.png>)
+![[그림 3.7.2-22 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_22.png>)
 
 
 {% hint style="info" %}
 \.      DeviceNet 통신 속도를 설정합니다. (Slave 통신 속도와 동일하도록)
 {% endhint %}
 
-![[그림 3.7.2-21 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_21.png>)
+![[그림 3.7.2-23 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
 \.      Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
 {% endhint %}
 
-![[그림 3.7.2-22 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_22.png>)
+![[그림 3.7.2-24 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
 \.      Quick Connect 기능 사용 유무를 설정합니다.
 {% endhint %}
 
-![[그림 3.7.2-23 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_23.png>)
+![[그림 3.7.2-25 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_25.png>)
 
 
 {% hint style="info" %}
 \.      설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
-![[그림 3.7.2-24 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_24.png>)
+![[그림 3.7.2-26 Master Configuration]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_26.png>)
 
 <br>
 
@@ -220,13 +250,13 @@
 \.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
-![[그림 3.7.2-25 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_25.png>)
+![[그림 3.7.2-27 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_27.png>)
 
-![[그림 3.7.2-26 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_26.png>)
+![[그림 3.7.2-28 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
 \.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
-![[그림 3.7.2-27 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_27.png>)
+![[그림 3.7.2-29 Status Diagnosis]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/2-Master_setting/image_29.png>)
 
