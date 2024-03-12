@@ -50,6 +50,7 @@
     * [3.7.3 Specifications of a DeviceNet Slave](3-settings-industrial-communication/3-7-DeviceNet/3-7-3-Specification-DeviceNet-Slave.md)
     * [3.7.4 Setting a DeviceNet Slave](3-settings-industrial-communication/3-7-DeviceNet/3-7-4-Settings-DeviceNet-Slave.md)
     * [3.7.5 Actions for a DeviceNet Error](3-settings-industrial-communication/3-7-DeviceNet/3-7-5-Error-DeviceNet.md)
+    * [3.7.6 Object of DeviceNet](3-settings-industrial-communication/3-7-DeviceNet/3-7-6-DeviceNet-Object.md)
 
   * [3.8 CC-Link](3-settings-industrial-communication/3-8-CC-Link/README.md)
     * [3.8.1 Specification of a CC-Link Slave](3-settings-industrial-communication/3-8-CC-Link/3-8-1-Specification-CC-Link-Slave.md)
