@@ -50,6 +50,7 @@
     * [3.7.3 DeviceNet Slave 사양](3-settings-industrial-communication/3-7-DeviceNet/3-7-3-Specification-DeviceNet-Slave.md)
     * [3.7.4 DeviceNet Slave 설정](3-settings-industrial-communication/3-7-DeviceNet/3-7-4-Settings-DeviceNet-Slave.md)
     * [3.7.5 DeviceNet 에러 조치](3-settings-industrial-communication/3-7-DeviceNet/3-7-5-Error-DeviceNet.md)
+    * [3.7.6 DeviceNet Object](3-settings-industrial-communication/3-7-DeviceNet/3-7-6-DeviceNet-Object.md)
 
   * [3.8 CC-Link](3-settings-industrial-communication/3-8-CC-Link/README.md)
     * [3.8.1 CC-Link Slave 사양](3-settings-industrial-communication/3-8-CC-Link/3-8-1-Specification-CC-Link-Slave.md)
@@ -71,4 +72,4 @@
 * [5. 산업용 통신 DIO Block 할당](5-dio-block-allocation.md)
 
 
-* [6. Slave 장치 설명 파일](6-slave-config-file.md))
+* [6. Slave 장치 설명 파일](6-slave-config-file.md)
