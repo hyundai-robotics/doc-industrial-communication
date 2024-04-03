@@ -14,9 +14,13 @@
 ##### 2. 원하는 fb 영역에 산업용 통신 Slot 번호 지정
    지정 후 **\[OK]** 버튼을 터치하십시오.
 
-![[그림 5-1]](<_assets/5-DIO-Allocation/image_1.png>)
+![[그림 5-1]](<_assets/5-DIO-Allocation/newFB.png>)
 
 
 {% hint style="warning" %}
 **\[주의]**: 내장 PLC와 함께 사용하는 경우 IO 속성, DI/DO - X/Y 를 확인해 주십시오. 
+{% endhint %}
+
+{% hint style="warning" %}
+**\[주의]**: EtherNet/IP 어댑터의 경우 최대 블록사이즈는 120 Bytes 이며 최대 2개까지 선택할 수 있습니다. 2개를 초과하는 선택은 무시 됩니다.
 {% endhint %}

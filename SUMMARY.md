@@ -18,7 +18,7 @@
 
   * [3.3 EtherNet/IP](3-settings-industrial-communication/3-3-EtherNet-IP/README.md)
     * [3.3.1 EtherNet/IP Scanner 사양](3-settings-industrial-communication/3-3-EtherNet-IP/3-3-1-Specification-EtherNet-IP-Scanner.md)
-    * [3.3.2 EtherNet/IP Scanner 설정](3-settings-industrial-communication/3-3-EtherNet-IP/3-3-2-Settings-EtherNet-IP-Scanner.md)
+    *  [3.3.2 EtherNet/IP Scanner 설정](3-settings-industrial-communication/3-3-EtherNet-IP/3-3-2-Settings-EtherNet-IP-Scanner.md)
     * [3.3.3 EtherNet/IP Adapter 사양](3-settings-industrial-communication/3-3-EtherNet-IP/3-3-3-Specification-EtherNet-IP-Adapter.md)
     * [3.3.4 EtherNet/IP Adapter 설정](3-settings-industrial-communication/3-3-EtherNet-IP/3-3-4-Settings-EtherNet-IP-Adapter.md)
     * [3.3.5 EtherNet/IP 에러 조치](3-settings-industrial-communication/3-3-EtherNet-IP/3-3-5-Error-EtherNet-IP.md)
@@ -68,8 +68,18 @@
 * [4. 산업용 통신 모니터링](4-monitoring-industrial-communication/README.md)
   * [4.1 ERROR Code](4-monitoring-industrial-communication/4-1-error-code.md)
 
+* [5. EtherNet/IP 어댑터 소개](5-EIPS-Intro/README.md)
 
-* [5. 산업용 통신 DIO Block 할당](5-dio-block-allocation.md)
+* [6. EtherNet/IP 어댑터 네트워크 설정](6-EIPS-Network/README.md)
 
+* [7. EtherNet/IP 어댑터 사양](7-EIPS-Spec/README.md)
 
-* [6. Slave 장치 설명 파일](6-slave-config-file.md)
+* [8. EtherNet/IP 어댑터 에러](8-EIPS-Error/README.md)
+
+* [9. EtherNet/IP 어댑터 라이선스](9-EIPS-License/README.md)
+
+* [10. EtherNet/IP 스캐너와의 연결](10-EIPS-Connect-with-Scanner/README.md)
+
+* [6. 산업용 통신 DIO Block 할당](5-dio-block-allocation.md)
+
+* [7. Slave 장치 설명 파일](6-slave-config-file.md)
