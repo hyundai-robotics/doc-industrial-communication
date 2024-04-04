@@ -68,17 +68,14 @@
 * [4. 산업용 통신 모니터링](4-monitoring-industrial-communication/README.md)
   * [4.1 ERROR Code](4-monitoring-industrial-communication/4-1-error-code.md)
 
-* [5. EtherNet/IP 어댑터 소개](5-EIPS-Intro/README.md)
-
-* [6. EtherNet/IP 어댑터 네트워크 설정](6-EIPS-Network/README.md)
-
-* [7. EtherNet/IP 어댑터 사양](7-EIPS-Spec/README.md)
-
-* [8. EtherNet/IP 어댑터 에러](8-EIPS-Error/README.md)
-
-* [9. EtherNet/IP 어댑터 라이선스](9-EIPS-License/README.md)
-
-* [10. EtherNet/IP 스캐너와의 연결](10-EIPS-Connect-with-Scanner/README.md)
+* [5. EtherNet/IP 어댑터](5-EtherNet-IP-Adapter/README.md)
+  * [5.1 EtherNet/IP 어댑터 소개](5-EtherNet-IP-Adapter/5-1-Intro.md)
+  * [5.2 EtherNet/IP 네트워크](5-EtherNet-IP-Adapter/5-2-Network.md)
+  * [5.3 EtherNet/IP 어댑터 사양](5-EtherNet-IP-Adapter/5-3-AdapterSpec.md)
+  * [5.4 EtherNet/IP 에러코드](5-EtherNet-IP-Adapter/5-4-Error.md)
+  * [5.5 EtherNet/IP 라이선스](5-EtherNet-IP-Adapter/5-5-License.md)
+  * [5.6 EtherNet/IP 스캐너와의 연결](5-EtherNet-IP-Adapter/5-6-Connect-With-Scanner/README.md)
+    * [5.6 LS ELECTRIC PLC와의 연결](5-EtherNet-IP-Adapter/5-6-Connect-With-Scanner/5-6-1-Connect-With-LS.md)
 
 * [6. 산업용 통신 DIO Block 할당](5-dio-block-allocation.md)
 
