@@ -27,3 +27,69 @@
 | Data transport layer           |                           |
 | Hub                            | None                  |
 | Switch                         | None                  |
+
+
+<br>
+
+##### CC-Link IO Mapping
+
+<br>
+
+{% hint style="info" %}
+\.        CC-Link Version 1
+{% endhint %}
+
+<br>
+
+![[Figure 3.8.1-1 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_1.png>)
+
+
+<br>
+
+{% hint style="info" %}
+\.        CC-Link Version 2
+
+\.        Extension Cycle : Single
+{% endhint %}
+
+<br>
+
+![[Figure 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_2.png>)
+
+<br>
+
+{% hint style="info" %}
+\.        CC-Link Version 2
+
+\.        Extension Cycle : Double
+{% endhint %}
+
+<br>
+
+![[Figure 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_3.png>)
+
+<br>
+
+{% hint style="info" %}
+\.        CC-Link Version 2
+
+\.        Extension Cycle : Quadruple
+{% endhint %}
+
+<br>
+
+![[Figure 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_4.png>)
+
+<br>
+
+{% hint style="info" %}
+\.        CC-Link Version 2
+
+\.        Extension Cycle : Octuple
+{% endhint %}
+
+<br>
+
+![[Figure 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_5.png>)
+
+<br>
