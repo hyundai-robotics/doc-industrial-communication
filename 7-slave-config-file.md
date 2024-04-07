@@ -1,4 +1,4 @@
-﻿# 6. Slave Device Description Files
+﻿# 7. Slave Device Description Files
 
 To configure slave communication in the industrial communication master, the slave device description files for each protocol are to be used.
 
