@@ -1,4 +1,4 @@
-﻿# 5. 산업용 통신 DIO Block 할당 설정
+﻿# 6. 산업용 통신 DIO Block 할당 설정
 
 산업용 통신 설정 완료 후 제어기와의 통신을 위한 DIO Block 할당 방법 입니다.
 
@@ -14,7 +14,7 @@
 ##### 2. 원하는 fb 영역에 산업용 통신 Slot 번호 지정
    지정 후 **\[OK]** 버튼을 터치하십시오.
 
-![[그림 5-1]](<_assets/5-DIO-Allocation/newFB.png>)
+![[그림 6-1]](<_assets/6-DIO-Allocation/newFB.png>)
 
 
 {% hint style="warning" %}
