@@ -1,4 +1,4 @@
-﻿# 9. Slave 장치 설명 파일
+﻿# 7. Slave 장치 설명 파일
 
 산업용 통신 Master에서 Slave 통신 구성을 위해 각 Protocol 별 Slave 장치의 대한 설명 파일을 사용합니다.
 
