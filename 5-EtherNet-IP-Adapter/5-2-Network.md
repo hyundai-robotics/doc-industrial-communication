@@ -3,7 +3,8 @@
 ### 5.2.1 Hi6 Com
 EtherNet/IP 어댑터와 연결할 수 있는 LAN Port는 LAN1/ LAN2/ LAN3 입니다.<br>
 
-![[그림 5.2.1 Hi6 Com]](../_assets/EIP-ADAPTER/Network/hi6com.png)
+![hi6com.png](../_assets/EIP-ADAPTER/Network/hi6com.png)
+*[그림 5.2.1 Hi6 Com]*
 
 ### 5.2.2 네트워크 설정
 EtherNet/IP 통신을 연결할 LAN Port를 선택한 뒤 아래와 같이 TP화면을 통해 해당 LAN Port의 설정을 확인하고 필요에 따라 설정을 변경해야 합니다.<br>
