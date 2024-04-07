@@ -20,6 +20,7 @@ EtherNet/IP 통신을 연결할 LAN Port를 선택한 뒤 아래와 같이 TP화
 랜 포트의 Link/Act Led의 상태에 따라 EtherNet/IP 스캐너와의 물리적 연결 상태를 확인할 수 있습니다.<br>
 
 ![[그림 5.2.3 랜 포트]](../_assets/EIP-ADAPTER/Network/lanPort.png)<br>
+
 EtherNet/IP 어댑터와 스캐너를 LAN선으로 연결 한 뒤 LED의 상태를 확인합니다. 좌측의 LED가 점등 또는 점멸하지 않는다면 케이블이나 어댑터 또는 스캐너 장치에 이상이 있다는 것을 의미합니다. 케이블이나 장치의 연결상태를 확인하십시오.<br>
 
 ### 5.2.4 네트워크 구성
@@ -28,3 +29,4 @@ EtherNet/IP Network와 Factory Network는 서로 분리된 네트워크로 구�
 ![[그림 5.2.4 분리하지 않은 네트워크]](../_assets/EIP-ADAPTER/Network/NG_Network.png)<br>
 
 ![[그림 5.2.5 분리된 네트워크]](../_assets/EIP-ADAPTER/Network/Good_Network.png)
+
