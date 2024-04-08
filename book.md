@@ -62,7 +62,7 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 ![](../_assets/image.png)
 
 (만약 Pro 버전사용을 원하신다면 “**Hi6 MultiProg 개발환경 설치 안내.pdf**”를 이용하여 설치 하시기 바랍니다. 단, License가 필요하니 현대로보틱스 본사에 요청하여 따로 구매 하시기 바랍니다. License가 없을 경우 Pro 버전은 30일만 사용가능하니 참고 바랍니다.)
-# 2. 산업용 통신 카드 장착 및 설정
+# 2. CIFX PCI 통신 카드 장착 및 설정
 
 산업용 통신을 사용하기 위해서는 PCI 통신 카드(hilscher 사)가 필요합니다. 필요한 통신에 맞추어서 통신 카드를 연결 방법은 다음과 같습니다.
 
@@ -74,7 +74,7 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 {% hint style="warning" %}
 **\[주의]**: Rotary Switch번호는 PCI 카드마다 다르게 설정하시기 바랍니다.
 {% endhint %}
-# 3. 산업용 통신 설정
+# 3.  CIFX PCI 통신 설정
 
 산업용 통신을 사용하기 위해서는 PCI 통신 카드 장착 후 티치 팬던트 및 Sycon.net프로그램을 이용하여 설정 해주어야 합니다.
 # 3.1 CIFX PCI 슬롯 설정
@@ -260,7 +260,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 ![](<../../_assets/image_17.png>)
 # 4. 산업용 통신 모니터링
 
-“[**2. 산업용 통신 카드 장착 및 설정**](2-cifx-pci-mounting-settings-industrial-communication-card-industrial-communication-card.md)” 및 “[**3. 산업용 통신 설정**](3-setting-industrial-communication/)” 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
+“[**2. CIFX PCI 통신 카드 장착 및 설정**](2-cifx-pci-mounting-settings-industrial-communication-card-industrial-communication-card.md)” 및 “[**3.  CIFX PCI 통신 설정**](3-setting-industrial-communication/)” 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
 
 **\[메뉴 > 19: 산업용 통신 모니터링]** 을 터치하여 들어갈 수 있으며, 해당 화면에서 설정한 펌웨어 정보, 통신 상태, 통신 구성 상태 등을 확인 가능합니다.
 

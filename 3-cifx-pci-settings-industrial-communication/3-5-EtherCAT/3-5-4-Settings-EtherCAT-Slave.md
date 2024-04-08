@@ -7,5 +7,5 @@
 {% hint style="info" %}
 \.      **[EtherCAT Slave ESI File 다운로드]**
 
-\.      “[**6. Slave 장치 설명 파일**](../../7-slave-config-file.md)" 참고해 주십시오.
+\.      “[**7. Slave 장치 설명 파일**](../../7-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}

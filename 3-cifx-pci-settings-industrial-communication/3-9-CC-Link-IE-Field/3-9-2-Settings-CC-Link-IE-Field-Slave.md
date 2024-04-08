@@ -7,7 +7,7 @@
 {% hint style="info" %}
 \.      CC-Link Connector 연결은 아래를 참고해 주십시오.
 
-\.      (“[**2.2 커넥터**](../../2-cifx-pci-mounting-settings-industrial-communication-cards-industrial-communication-card/2-2-Connector.md)”)
+\.      (“[**2.2 커넥터**](../../2-cifx-pci-mounting-settings-industrial-communication-card/2-2-Connector.md)”)
 {% endhint %}
 
 <br>
