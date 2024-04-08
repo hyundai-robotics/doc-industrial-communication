@@ -6,7 +6,7 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 
 <br>
 
-"[**4.1 ERROR Code**](../../4-monitoring-industrial-communication/4-1-error-code.md)" 참고해 주십시오.
+"[**4.1 ERROR Code**](../../4-cifx-pci-monitoring-industrial-communication/4-1-error-code.md)" 참고해 주십시오.
 
 <br>
 
@@ -18,7 +18,7 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 \.      Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
 {% endhint %}
 
-![[그림 3.3.5-1 Communication Error]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/5-Error/image_1.png>) 
+![[그림 3.3.5-1 Communication Error]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/5-Error/image_1.png>) 
 
 
 <br>
@@ -32,8 +32,8 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 
 {% endhint %}
 
-![[그림 3.3.5-2 Communication Error]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/5-Error/image_2.png>) 
+![[그림 3.3.5-2 Communication Error]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/5-Error/image_2.png>) 
 
-![[그림 3.3.5-3 Communication Error]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/5-Error/image_3.png>) 
+![[그림 3.3.5-3 Communication Error]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/5-Error/image_3.png>) 
 
 

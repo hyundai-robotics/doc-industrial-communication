@@ -1,26 +1,26 @@
 ﻿# 3.3.4 EtherNet/IP Adapter 설정
 
-“[**3.1 산업용 통신 펌웨어 설정**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+“[**3.1 CIFX PCI 슬롯 설정**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
 \.      **[EtherNet/IP Adapter EDS File 다운로드]**
 
-\.      “[**6. Slave 장치 설명 파일**](../../6-slave-config-file.md)" 참고해 주십시오.
+\.      “[**6. Slave 장치 설명 파일**](../../7-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
 
 ##### 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 EtherNet/IP Slave를 선택하고 로봇 제어기를 재부팅합니다.
 
-![[그림 3.3.4-1 펌웨어 설정]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_1.png>) 
+![[그림 3.3.4-1 펌웨어 설정]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
 <br>
 
 ##### 2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.
 
-![[그림 3.3.4-2 산업용 통신 모니터링]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_2.png>) 
+![[그림 3.3.4-2 산업용 통신 모니터링]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -33,9 +33,9 @@
 ##### 3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: 슬레이브 구성 >  EtherNet/IP Slave]**
 
-![[그림 3.3.4-3 슬레이브 설정]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_3.png>) 
+![[그림 3.3.4-3 슬레이브 설정]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_3.png>) 
 
-![[그림 3.3.4-4 슬레이브 설정]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_4.png>) 
+![[그림 3.3.4-4 슬레이브 설정]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -106,6 +106,6 @@
 
 ##### 5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4 산업용 통신 모니터링**](../../4-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**4. CIFX PCI 통신 모니터링**](../../4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 
-![[그림 3.3.4-5 산업용 통신 모니터링]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_5.png>) 
+![[그림 3.3.4-5 산업용 통신 모니터링]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_5.png>) 

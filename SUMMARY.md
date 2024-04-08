@@ -12,7 +12,7 @@
 
 
 * [3.  CIFX PCI 통신 설정](3-cifx-pci-settings-industrial-communication/README.md)
-  * [3.1 산업용 통신 펌웨어 설정](3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)
+  * [3.1 CIFX PCI 슬롯 설정](3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)
 
   * [3.2 SYCON.NET 설정](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON.md)
 
@@ -65,7 +65,7 @@
     * [3.10.2 Remote IO IP 설정](3-cifx-pci-settings-industrial-communication/3-10-EtherNet-IP-Remote-IO/3-10-2-Settings-Remote-IO-IP.md)
 
 
-* [4.  CIFX PCI 통신 모니터링](4-cifx-pci-monitoring-industrial-communication/README.md)
+* [4. CIFX PCI 통신 모니터링](4-cifx-pci-monitoring-industrial-communication/README.md)
   * [4.1 ERROR Code](4-cifx-pci-monitoring-industrial-communication/4-1-error-code.md)
 
 * [5. EtherNet/IP 어댑터](5-EtherNet-IP-Adapter/README.md)

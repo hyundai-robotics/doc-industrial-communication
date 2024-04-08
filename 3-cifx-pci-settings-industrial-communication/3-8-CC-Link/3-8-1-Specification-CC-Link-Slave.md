@@ -41,7 +41,7 @@
 
 <br>
 
-![[그림 3.8.1-1 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_1.png>)
+![[그림 3.8.1-1 CC-Link IO Mapping]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/3-Slave_spec/image_1.png>)
 
 
 <br>
@@ -54,7 +54,7 @@
 
 <br>
 
-![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_2.png>)
+![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/3-Slave_spec/image_2.png>)
 
 <br>
 
@@ -66,7 +66,7 @@
 
 <br>
 
-![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_3.png>)
+![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/3-Slave_spec/image_3.png>)
 
 <br>
 
@@ -78,7 +78,7 @@
 
 <br>
 
-![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_4.png>)
+![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/3-Slave_spec/image_4.png>)
 
 <br>
 
@@ -90,6 +90,6 @@
 
 <br>
 
-![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/3-Slave_spec/image_5.png>)
+![[그림 3.8.1-2 CC-Link IO Mapping]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/3-Slave_spec/image_5.png>)
 
 <br>

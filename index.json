@@ -5,17 +5,17 @@
 		"byte_ofs": 0
 	},
 	{
-		"link": "1-install-program/README.md",
+		"link": "1-cifx-pci-install-program/README.md",
 		"char_ofs": 262,
 		"byte_ofs": 520
 	},
 	{
-		"link": "1-install-program/1-1-sycon-net.md",
+		"link": "1-cifx-pci-install-program/1-1-sycon-net.md",
 		"char_ofs": 301,
 		"byte_ofs": 613
 	},
 	{
-		"link": "2-mounting-setting-industrial-communication-card.md",
+		"link": "2-cifx-pci-mounting-settings-industrial-communication-card-industrial-communication-card.md",
 		"char_ofs": 1935,
 		"byte_ofs": 3211
 	},
@@ -50,7 +50,7 @@
 		"byte_ofs": 10391
 	},
 	{
-		"link": "4-monitoring-industrial-communication.md",
+		"link": "4-cifx-pci-monitoring-industrial-communication.md",
 		"char_ofs": 8012,
 		"byte_ofs": 12907
 	}
