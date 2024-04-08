@@ -77,7 +77,7 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 # 3. 산업용 통신 설정
 
 산업용 통신을 사용하기 위해서는 PCI 통신 카드 장착 후 티치 팬던트 및 Sycon.net프로그램을 이용하여 설정 해주어야 합니다.
-# 3.1 산업용 통신 펌웨어 설정
+# 3.1 CIFX PCI 슬롯 설정
 
 사용하기 위한 산업용 통신 펌웨어를 설정하는 방법은 다음과 같습니다. 설정이 완료 후 펌웨어를 적용하기 위해서는 제어기 전원을 껏다가 켜주시기 바랍니다.
 
@@ -109,7 +109,7 @@ PCI 통신 카드 연결 이후 DIO 데이터 교환을 위해서 사용하는 P
 산업용 통신 펌웨어 설정 후 통신을 사용하기 위한 세팅은 현대로보틱스 사이트에서 “**Sycon.net**” 프로그램을 이용하여서 설정해주시기 바랍니다.
 # 3.2.1 Sycon.net 사용 방법
 
-Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로그램을 이용하여 통신 설정을 해주어야 합니다. 설정 방법은 다음과 같습니다. (“[**1.1 Sycon.net**](../../1-install-program/1-1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
+Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로그램을 이용하여 통신 설정을 해주어야 합니다. 설정 방법은 다음과 같습니다. (“[**1.1 Sycon.net**](../../1-cifx-pci-install-program/1-1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
 
 1. Hi6Com(협동로봇 : Hi6MiniCom)의 LAN3포트를 PC와 연결 합니다.
 2. 통신 설정 방법은 “Sycon.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN” 안에 파일들을 참고 하시면 됩니다.
@@ -166,7 +166,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 {% endhint %}
 # 3.3 산업용 통신 DIO Block 할당 설정
 
-“[**3.1 산업용 통신 펌웨어 설정**](../3-1-firmware.md)” 및 “[**3.2 산업용 통신 추가 설정(Master 및 Slave)**](../3-2-addition-industrial-communication-master-slave/)” 작업 완료 후 제어기와의 통신을 위한 DIO Block 할당 방법 입니다.
+“[**3.1 CIFX PCI 슬롯 설정**](../3-1-firmware.md)” 및 “[**3.2 산업용 통신 추가 설정(Master 및 Slave)**](../3-2-addition-industrial-communication-master-slave/)” 작업 완료 후 제어기와의 통신을 위한 DIO Block 할당 방법 입니다.
 
 제어기의 범용 입출력 신호를 사용하는 방법을 설정합니다. 사용 안함(None), PLC, Fieldbus에 연결하여 사용할 수 있습니다.
 
@@ -186,7 +186,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 {% endhint %}
 # 3.3.1 Multiprog 사용 방법
 
-산업용 통신 설정 이후 Hi6 제어기의 DIO Block 할당을 PLC로 설정하였다면, ProconOS를 이용하여 DIO데이터를 교환하기 위해 다음과 같이 설정이 필요 합니다. (“[**1.2 Multiprog**](../../1-install-program/1-2-multiprog.md)”장을 참고하여 설치하여 주시기 바랍니다.)
+산업용 통신 설정 이후 Hi6 제어기의 DIO Block 할당을 PLC로 설정하였다면, ProconOS를 이용하여 DIO데이터를 교환하기 위해 다음과 같이 설정이 필요 합니다. (“[**1.2 Multiprog**](../../1-cifx-pci-install-program/1-2-multiprog.md)”장을 참고하여 설치하여 주시기 바랍니다.)
 
 1. 설치 후 사용 방법은 Mutiprog 내에 설명서를 참고 바랍니다. –
 
@@ -260,7 +260,7 @@ Hi6 제어기의 산업용 통신을 사용할 경우 “**Sycon.net**” 프로
 ![](<../../_assets/image_17.png>)
 # 4. 산업용 통신 모니터링
 
-“[**2. 산업용 통신 카드 장착 및 설정**](2-mounting-setting-industrial-communication-card.md)” 및 “[**3. 산업용 통신 설정**](3-setting-industrial-communication/)” 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
+“[**2. 산업용 통신 카드 장착 및 설정**](2-cifx-pci-mounting-settings-industrial-communication-card-industrial-communication-card.md)” 및 “[**3. 산업용 통신 설정**](3-setting-industrial-communication/)” 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
 
 **\[메뉴 > 19: 산업용 통신 모니터링]** 을 터치하여 들어갈 수 있으며, 해당 화면에서 설정한 펌웨어 정보, 통신 상태, 통신 구성 상태 등을 확인 가능합니다.
 

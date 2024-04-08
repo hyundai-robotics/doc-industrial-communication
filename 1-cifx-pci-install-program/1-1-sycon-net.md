@@ -12,11 +12,11 @@
 
 <br>
 
-![[그림 1.1-1 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_1.png>)
+![[그림 1.1-1 Sycon.net 설치 화면]](<../_assets/1-cifx-pci-install-program/image_1.png>)
 
 <br>
 
-![[그림 1.1-2 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_2.png>)
+![[그림 1.1-2 Sycon.net 설치 화면]](<../_assets/1-cifx-pci-install-program/image_2.png>)
 
 <br>
 
@@ -26,11 +26,11 @@
 
 <br>
 
-![[그림 1.1-3 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_3.png>)
+![[그림 1.1-3 Sycon.net 설치 화면]](<../_assets/1-cifx-pci-install-program/image_3.png>)
 
 <br>
 
-![[그림 1.1-4 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_4.png>)
+![[그림 1.1-4 Sycon.net 설치 화면]](<../_assets/1-cifx-pci-install-program/image_4.png>)
 
 <br>
 
@@ -40,11 +40,11 @@
 
 <br>
 
-![[그림 1.1-5 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_5.png>)
+![[그림 1.1-5 Sycon.net 설치 화면]](<../_assets/1-cifx-pci-install-program/image_5.png>)
 
 <br>
 
-![[그림 1.1-6 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_6.png>)
+![[그림 1.1-6 Sycon.net 설치 화면]](<../_assets/1-cifx-pci-install-program/image_6.png>)
 
 <br>
 
@@ -54,7 +54,7 @@
 
 <br>
 
-![[그림 1.1-7 Sycon.net 설치 화면]](<../_assets/1-Install-Program/image_7.png>)
+![[그림 1.1-7 Sycon.net 설치 화면]](<../_assets/1-cifx-pci-install-program/image_7.png>)
 
 <br>
 

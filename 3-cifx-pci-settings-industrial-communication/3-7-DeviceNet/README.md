@@ -16,7 +16,7 @@
 
 또한 일반적인 통신의 비결정적 응답 (Non-deterministic Response) 특성의 프로토콜과는 달리, 데이터 응답속도가 보장되어 임계시간 특성이 중요한 산업용도를 만족합니다.
 
-![[그림 3.7-1 Fieldbus]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/image_1.png>) 
+![[그림 3.7-1 Fieldbus]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/image_1.png>) 
 
 <br>
 

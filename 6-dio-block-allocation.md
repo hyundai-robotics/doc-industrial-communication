@@ -14,7 +14,7 @@
 ##### 2. 원하는 fb 영역에 산업용 통신 Slot 번호 지정
    지정 후 **\[OK]** 버튼을 터치하십시오.
 
-![[그림 6-1]](<_assets/6-DIO-Allocation/newFB.png>)
+![[그림 6-1]](<_assets/6-dio-block-allocation/newFB.png>)
 
 
 {% hint style="warning" %}

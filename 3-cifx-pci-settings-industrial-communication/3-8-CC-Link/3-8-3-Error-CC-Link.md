@@ -2,7 +2,7 @@
 
 <br>
 
-"[**4.1 ERROR Code**](../../4-monitoring-industrial-communication/4-1-error-code.md)" 참고해 주십시오.
+"[**4.1 ERROR Code**](../../4-cifx-pci-monitoring-industrial-communication/4-1-error-code.md)" 참고해 주십시오.
 
 <br>
 
@@ -20,7 +20,7 @@
 \.      아래 그림과 같이 CIFX-50 CC PCI가 CC-Link의 종단인 경우 종단 저항을 추가해 주십시오.
 {% endhint %}
 
-![[그림 3.8.5-1 CC-Link 종단 저항]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/5-Error/image_1.png>) 
+![[그림 3.8.5-1 CC-Link 종단 저항]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/5-Error/image_1.png>) 
 
 
 

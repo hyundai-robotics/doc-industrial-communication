@@ -8,7 +8,7 @@
 
 PROFINET IO 는 PROFIBUS-DP와 산업용 이더넷으로부터 진보적으로 발전된 이더넷 기반의 개방형 산업용 통신 프로토콜입니다.
 
-![[그림 3.4-1 PROFINET IO]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/image_1.png>) 
+![[그림 3.4-1 PROFINET IO]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.4-PROFINET-IO/image_1.png>) 
 
 <br>
 

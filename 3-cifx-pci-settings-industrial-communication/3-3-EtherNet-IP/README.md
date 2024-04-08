@@ -10,7 +10,7 @@ EthetNet/IP 는 CI(ControlNet International)와 ODVA(Open DeviceNet Vendors Asso
 
 공장에서 센서, 리모트 IO, 모터 드라이버, HMI, PLC, 로봇 제어기 등 다양한 장치가 제조사와 무관하게 하나의 EtherNet/IP 네트워크에 연결될 수 있습니다.
 
-![[그림 3.3-1 EtherNet/IP]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/image_1.png>) 
+![[그림 3.3-1 EtherNet/IP]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/image_1.png>) 
 
 <br>
 
