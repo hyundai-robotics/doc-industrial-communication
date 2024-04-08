@@ -1,25 +1,25 @@
 ﻿# 3.8.2 Setting a CC-Link Slave
 
-Perform settings according to the procedures of “[**3.1 Setting Industrial Communication Firmware**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)” first and proceed with the following methods.
+Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” first and proceed with the following methods.
 <br>
 
 {% hint style="info" %}
 \.      Refer to the following for the connection of the CC-Link connector.
 
-\.      (“[**2.2 Connectors**](../../2-mounting-settings-industrial-communication-card/2-2-Connector.md)”)
+\.      (“[**2.2 Connectors**](../../2-cifx-pci-mounting-settings-industrial-communication-card/2-2-Connector.md)”)
 {% endhint %}
 
 <br>
 
 ##### 1. By using the teach pendant, select the CC-Link slave in the section for setting industrial communication firmware and reboot the robot controller.
 
-![[Figure 3.8.4-1 Firmware Setting]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/4-Slave_setting/image_1.png>) 
+![[Figure 3.8.4-1 Firmware Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
 ##### 2. Check the readiness of the selected protocol in the section for monitoring industrial communication.
 
-![[Figure 3.8.4-2 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/4-Slave_setting/image_2.png>) 
+![[Figure 3.8.4-2 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/4-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -32,9 +32,9 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 ##### 3. Click the menu to enter the slave setting screen. 
 **\[System > 2: Control Parameter > 11: Industrial Communication > 2: Slave Configuration > CC-Link Slave]**
 
-![[Figure 3.8.4-3 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/4-Slave_setting/image_3.png>) 
+![[Figure 3.8.4-3 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/4-Slave_setting/image_3.png>) 
 
-![[Figure 3.8.4-4 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/4-Slave_setting/image_4.png>) 
+![[Figure 3.8.4-4 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/4-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -85,11 +85,11 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 {% hint style="info" %}
 \.      **For the IO byte area, please refer to the following link.**
 
-\.      **(“[**3.8.1 Specifications of a CC-Link slave**](../../3-settings-industrial-communication/3-8-CC-Link/3-8-1-Specification-CC-Link-Slave.md)”)**
+\.      **(“[**3.8.1 Specifications of a CC-Link slave**](../../3-cifx-pci-settings-industrial-communication/3-8-CC-Link/3-8-1-Specification-CC-Link-Slave.md)”)**
 {% endhint %}
 
 <br>
 
 ##### 5. When the settings are completed, check the communication status according to the following procedures.
 
-Please refer to (“[**4 Monitoring Industrial Communication**](../../4-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
+Please refer to (“[**4. CIFX PCI - Monitoring Industrial Communication**](../../4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.

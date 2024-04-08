@@ -1,13 +1,13 @@
 ﻿# 3.7.4 Setting a DeviceNet Slave
 
-Perform settings according to the procedures of “[**3.1 Setting Industrial Communication Firmware**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)” first and proceed with the following methods.
+Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” first and proceed with the following methods.
 
 <br>
 
 {% hint style="info" %}
 \.      **[DeviceNet Slave EDS File Download]**
 
-\.      Please refer to “[**6. Slave Device Description Files**](../../6-slave-config-file.md).”
+\.      Please refer to “[**7. Slave Device Description Files**](../../7-slave-config-file.md).”
 {% endhint %}
 
 <br>
@@ -15,20 +15,20 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 {% hint style="info" %}
 \.      Refer to the following for the connection of the DeviceNet connector.
 
-\.      (“[**2.2 Connectors**](../../2-mounting-settings-industrial-communication-card/2-2-Connector.md)”)
+\.      (“[**2.2 Connectors**](../../2-cifx-pci-mounting-settings-industrial-communication-card/2-2-Connector.md)”)
 {% endhint %}
 
 <br>
 
 ##### 1. By using the teach pendant, select the DeviceNet slave in the section for setting industrial communication firmware and reboot the robot controller.
 
-![[Figure 3.7.4-1 Firmware Setting]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[Figure 3.7.4-1 Firmware Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/4-Slave_setting/image_1.png>) 
 
 <br>
 
 ##### 2. Check the readiness of the selected protocol in the section for monitoring industrial communication.
 
-![[Figure 3.7.4-2 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/4-Slave_setting/image_2.png>) 
+![[Figure 3.7.4-2 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/4-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -41,9 +41,9 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 ##### 3. Click the menu to enter the slave setting screen. 
 **\[System > 2: Control Parameter > 11: Industrial Communication > 2: Slave Configuration > DeviceNet Slave]**
 
-![[Figure 3.7.4-3 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/4-Slave_setting/image_3.png>) 
+![[Figure 3.7.4-3 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/4-Slave_setting/image_3.png>) 
 
-![[Figure 3.7.4-4 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/4-Slave_setting/image_4.png>) 
+![[Figure 3.7.4-4 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/4-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -78,6 +78,6 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 
 ##### 5. When the settings are completed, check the communication status according to the following procedures.
 
-Please refer to (“[**4 Monitoring Industrial Communication**](../../4-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
+Please refer to (“[**4. CIFX PCI - Monitoring Industrial Communication**](../../4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
 
-![[Figure 3.7.4-5 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/4-Slave_setting/image_5.png>) 
+![[Figure 3.7.4-5 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/4-Slave_setting/image_5.png>) 

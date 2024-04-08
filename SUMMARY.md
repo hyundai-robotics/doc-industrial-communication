@@ -12,7 +12,7 @@
 
 
 * [3. CIFX PCI - Setting Industrial Communication](3-cifx-pci-settings-industrial-communication/README.md)
-  * [3.1 Setting Industrial Communication Firmware](3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)
+  * [3.1 Setting CIFX PCI Slot](3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)
 
   * [3.2 Setting SYCON.net](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON.md)
 

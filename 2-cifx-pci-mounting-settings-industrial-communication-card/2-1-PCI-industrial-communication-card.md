@@ -14,8 +14,8 @@
 ##### 3. Set the slot number within a range from 1 to 3 for each PCI communication card.
   (If multiple PCI communication cards are used, each slot number must be different.)
 
-![[Figure 2.1 PCI Communication Card]](<../_assets/2-Mounting-Setting/1-PCI/image_1.png>)
-![](<../_assets/2-Mounting-Setting/1-PCI/image_2.png>)
+![[Figure 2.1 PCI Communication Card]](<../_assets/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
+![](<../_assets/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_2.png>)
 
 {% hint style="warning" %}
 **\[Caution]**: Set a different rotary switch number for each PCI card.

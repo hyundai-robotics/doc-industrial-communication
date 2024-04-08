@@ -1,26 +1,26 @@
 ﻿# 3.10.1 EtherNet/IP - Setting the Connection of a Standard Remote IO
 
-Perform settings according to the procedures of “[**3.1 Setting Industrial Communication Firmware**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)” first and proceed with the following methods.
+Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” first and proceed with the following methods.
 
 <br>
 
 ##### 1. Select the EtherNet/IP Master in the section for setting industrial communication firmware and reboot the robot controller.
 
-![[Figure 3.10.1-1 Firmware Setting]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
+![[Figure 3.10.1-1 Firmware Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
 ##### 2. Check the readiness of the selected protocol in the section for monitoring industrial communication.
 
-![[Figure 3.10.1-2 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
+![[Figure 3.10.1-2 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
 ##### 3. For communication, connect the cables for the PCI and remote IOs and check their status.
 
-![[Figure 3.10.1-3 Hardware Connection]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
+![[Figure 3.10.1-3 Hardware Connection]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
-![[Figure 3.10.1-4 Hardware Connection]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_4.png>) 
+![[Figure 3.10.1-4 Hardware Connection]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_4.png>) 
 
 <br>
 
@@ -39,7 +39,7 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 
 \.      For the communication to be connected, the IP address of the remote IO should be set as 192.168.100.99.
 
-\.      “[**3.10.2 Remote IO IP Setting**](../../3-settings-industrial-communication/3-10-EtherNet-IP-Remote-IO/3-10-2-Settings-Remote-IO-IP.md)”
+\.      “[**3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/3-10-EtherNet-IP-Remote-IO/3-10-2-Settings-Remote-IO-IP.md)”
 {% endhint %}
 
 <br>
@@ -47,9 +47,9 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 ##### 3. Click the menu to enter the slave setting screen. 
 **\[System > 2: Control Parameter > 11: Industrial Communication > 2: Slave Configuration > EtherNet/IP Remote IO Setting]**
 
-![[Figure 3.10.1-5 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 
+![[Figure 3.10.1-5 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 
 
-![[Figure 3.10.1-6 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_6.png>) 
+![[Figure 3.10.1-6 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_6.png>) 
 
 <br>
 
@@ -86,9 +86,9 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 
 ##### 5. After the settings are completed, reboot the controller.
 
-![[Figure 3.10.1-7 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>) 
+![[Figure 3.10.1-7 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>) 
 
-![[Figure 3.10.1-8 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
+![[Figure 3.10.1-8 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
 \.      After the settings are completed, reboot the controller.
@@ -98,20 +98,20 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 
 ##### 6. Check whether the set values are reflected and then check the communication status.
 
-![[Figure 3.10.1-9 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>) 
+![[Figure 3.10.1-9 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>) 
 
-Please refer to (“[**4 Monitoring Industrial Communication**](../../4-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
+Please refer to (“[**4. CIFX PCI - Monitoring Industrial Communication**](../../4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
 
-![[Figure 3.10.1-10 Industrial Commuication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>) 
+![[Figure 3.10.1-10 Industrial Commuication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>) 
 
 {% hint style="info" %}
 \.      If the communication is not connected, check the IP address of the remote IO.
 
 \.      Check according to the following (if not 192.168.100.99).
 
-\.      “[**3.10.2 Remote IO IP Setting**](../../3-settings-industrial-communication/3-10-EtherNet-IP-Remote-IO/3-10-2-Settings-Remote-IO-IP.md)”
+\.      “[**3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/3-10-EtherNet-IP-Remote-IO/3-10-2-Settings-Remote-IO-IP.md)”
 {% endhint %}
 
-![[Figure 3.10.1-11 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
+![[Figure 3.10.1-11 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
 
-![[Figure 3.10.1-12 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_12.png>) 
+![[Figure 3.10.1-12 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.10-EtherNet-IP-Remote-IO/1-Setting/image_12.png>) 

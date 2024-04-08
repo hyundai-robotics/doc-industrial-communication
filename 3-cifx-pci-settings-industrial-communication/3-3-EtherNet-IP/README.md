@@ -10,7 +10,7 @@ EtherNet/IP is an Ethernet-based, open industrial communications protocol develo
 
 In a factory, various devices, such as sensors, remote IOs, motor drivers, human-machine interfaces (HMIs), programmable logic controllers (PLCs), and robot controllers, can be connected to one EtherNet/IP network regardless of the manufacturer.
 
-![[Figure 3.3-1 EtherNet/IP]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/image_1.png>) 
+![[Figure 3.3-1 EtherNet/IP]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/image_1.png>) 
 
 <br>
 

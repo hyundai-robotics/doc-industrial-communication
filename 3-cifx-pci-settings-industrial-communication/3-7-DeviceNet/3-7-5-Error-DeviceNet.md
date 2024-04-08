@@ -2,7 +2,7 @@
 
 <br>
 
-Please refer to “[**4.1 Error Code.**](../../4-monitoring-industrial-communication/4-1-error-code.md).”
+Please refer to “[**4.1 Error Code.**](../../4-cifx-pci-monitoring-industrial-communication/4-1-error-code.md).”
 
 <br>
 
@@ -20,13 +20,13 @@ Please refer to “[**4.1 Error Code.**](../../4-monitoring-industrial-communica
 \.      As shown in the figure below, if the CIFX-50 DN PCI is the termination of DeviceNet, add terminating resistance.
 {% endhint %}
 
-![[Figure 3.7.5-1 DeviceNet Terminating Resistance]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_1.png>) 
+![[Figure 3.7.5-1 DeviceNet Terminating Resistance]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/5-Error/image_1.png>) 
 
 {% hint style="info" %}
 \.      As shown in the figure below, if the DeviceNet remote IO is the termination, add terminating resistance or operate the DIP switches.
 {% endhint %}
 
-![[Figure 3.7.5-2 DeviceNet Terminating Resistance]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_2.png>) 
+![[Figure 3.7.5-2 DeviceNet Terminating Resistance]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/5-Error/image_2.png>) 
 
 <br>
 
@@ -38,7 +38,7 @@ Please refer to “[**4.1 Error Code.**](../../4-monitoring-industrial-communica
 \.      If the network scan does not work, check the communication speed.
 {% endhint %}
 
-![[Figure 3.7.5-3 DeviceNet Baudrate]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_3.png>) 
+![[Figure 3.7.5-3 DeviceNet Baudrate]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/5-Error/image_3.png>) 
 
 <br>
 
@@ -50,4 +50,4 @@ Please refer to “[**4.1 Error Code.**](../../4-monitoring-industrial-communica
 \.      Check the power supply of 24 V.
 {% endhint %}
 
-![[Figure 3.7.5-4 DeviceNet Error]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/5-Error/image_4.png>) 
+![[Figure 3.7.5-4 DeviceNet Error]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/5-Error/image_4.png>) 

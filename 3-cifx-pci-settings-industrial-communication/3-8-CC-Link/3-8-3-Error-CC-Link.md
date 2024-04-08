@@ -2,7 +2,7 @@
 
 <br>
 
-Please refer to “[**4.1 ERROR Code.**](../../4-monitoring-industrial-communication/4-1-error-code.md).”
+Please refer to “[**4.1 ERROR Code.**](../../4-cifx-pci-monitoring-industrial-communication/4-1-error-code.md).”
 
 <br>
 
@@ -20,7 +20,7 @@ Please refer to “[**4.1 ERROR Code.**](../../4-monitoring-industrial-communica
 \.      As shown in the figure below, if the CIFX-50 CC PCI is the termination of CC-Link, add terminating resistance.
 {% endhint %}
 
-![[Figure 3.8.5-1 CC-Link Terminating Resistance]](<../../_assets/3-Settings-Industrial-Communication/3.8-CC-Link/5-Error/image_1.png>) 
+![[Figure 3.8.5-1 CC-Link Terminating Resistance]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.8-CC-Link/5-Error/image_1.png>) 
 
 
 

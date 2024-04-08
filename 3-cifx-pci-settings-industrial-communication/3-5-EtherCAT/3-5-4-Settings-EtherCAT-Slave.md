@@ -7,5 +7,5 @@ The preparation of the manual is in progress.
 {% hint style="info" %}
 \.      **[EtherCAT Slave ESI File Download]**
 
-\.      Please refer to “[**6. Slave Device Description File**](../../6-slave-config-file.md)”
+\.      Please refer to “[**7. Slave Device Description Files**](../../7-slave-config-file.md)”
 {% endhint %}

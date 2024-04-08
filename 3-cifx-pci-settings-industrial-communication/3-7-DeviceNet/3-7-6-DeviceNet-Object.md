@@ -10,7 +10,7 @@ The device is Modeled as a collection of objects. Object modeling organizes rela
 
 <br>
 
-![[Figure 3.7.6-1 DeviceNet Object]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/6-Object/image_1.png>) 
+![[Figure 3.7.6-1 DeviceNet Object]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/6-Object/image_1.png>) 
 
 
 <br>
@@ -19,7 +19,7 @@ Object is identified by class code.
 
 <br>
 
-![[Figure 3.7.6-2 DeviceNet Object]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/6-Object/image_2.png>)
+![[Figure 3.7.6-2 DeviceNet Object]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/6-Object/image_2.png>)
 
 <br>
 
@@ -44,7 +44,7 @@ You can access the Attribute of a specific Instance through the "Explicit Messag
 {% endhint %}
 
 
-![[Figure 3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../_assets/3-Settings-Industrial-Communication/3.7-DeviceNet/6-Object/image_3.png>)
+![[Figure 3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/6-Object/image_3.png>)
 
 
 <br>

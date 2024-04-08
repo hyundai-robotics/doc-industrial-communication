@@ -8,7 +8,7 @@ This chapter describes the characteristics of the PROFINET IO master (controller
 
 PROFINET IO is an Ethernet-based, open industrial communication protocol developed progressively from PROFIBUS-DP and the industrial Ethernet.
 
-![[Figure 3.4-1 PROFINET IO]](<../../_assets/3-Settings-Industrial-Communication/3.4-PROFINET-IO/image_1.png>) 
+![[Figure 3.4-1 PROFINET IO]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.4-PROFINET-IO/image_1.png>) 
 
 <br>
 

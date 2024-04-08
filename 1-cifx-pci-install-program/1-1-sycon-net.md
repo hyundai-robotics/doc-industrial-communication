@@ -12,11 +12,11 @@ SYCON.net is a program (Provided by Hilscher.) that can create communication con
 
 <br>
 
-![[Figure 1.1-1 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_1.png>)
+![[Figure 1.1-1 SYCON.net Installation Screen]](<../_assets/1-cifx-pci-install-program/image_1.png>)
 
 <br>
 
-![[Figure 1.1-2 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_2.png>)
+![[Figure 1.1-2 SYCON.net Installation Screen]](<../_assets/1-cifx-pci-install-program/image_2.png>)
 
 <br>
 
@@ -26,11 +26,11 @@ SYCON.net is a program (Provided by Hilscher.) that can create communication con
 
 <br>
 
-![[Figure 1.1-3 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_3.png>)
+![[Figure 1.1-3 SYCON.net Installation Screen]](<../_assets/1-cifx-pci-install-program/image_3.png>)
 
 <br>
 
-![[Figure 1.1-4 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_4.png>)
+![[Figure 1.1-4 SYCON.net Installation Screen]](<../_assets/1-cifx-pci-install-program/image_4.png>)
 
 <br>
 
@@ -40,11 +40,11 @@ SYCON.net is a program (Provided by Hilscher.) that can create communication con
 
 <br>
 
-![[Figure 1.1-5 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_5.png>)
+![[Figure 1.1-5 SYCON.net Installation Screen]](<../_assets/1-cifx-pci-install-program/image_5.png>)
 
 <br>
 
-![[Figure 1.1-6 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_6.png>)
+![[Figure 1.1-6 SYCON.net Installation Screen]](<../_assets/1-cifx-pci-install-program/image_6.png>)
 
 <br>
 
@@ -54,7 +54,7 @@ SYCON.net is a program (Provided by Hilscher.) that can create communication con
 
 <br>
 
-![[Figure 1.1-7 SYCON.net Installation Screen]](<../_assets/1-Install-Program/image_7.png>)
+![[Figure 1.1-7 SYCON.net Installation Screen]](<../_assets/1-cifx-pci-install-program/image_7.png>)
 
 <br>
 

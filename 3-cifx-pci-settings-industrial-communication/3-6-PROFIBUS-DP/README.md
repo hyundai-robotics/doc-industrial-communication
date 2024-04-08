@@ -16,7 +16,7 @@ The use of a single cable helps reduce the time and cost of wiring and makes the
 
 Moreover, unlike other protocols that have characteristics of the non-deterministic response of general communication, Fieldbus guarantees data response speed, satisfying industrial applications where the characteristics of critical time are important.
 
-![[Figure 3.6-1 Fieldbus]](<../../_assets/3-Settings-Industrial-Communication/3.6-PROFIBUS-DP/image_1.png>) 
+![[Figure 3.6-1 Fieldbus]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.6-PROFIBUS-DP/image_1.png>) 
 
 <br>
 

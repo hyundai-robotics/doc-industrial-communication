@@ -6,7 +6,7 @@ Errors can be identified using the diagnosis function of SYCON.net
 
 <br>
 
-Refer to "[**4.1 ERROR Code.**](../../4-monitoring-industrial-communication/4-1-error-code.md)"
+Refer to "[**4.1 ERROR Code.**](../../4-cifx-pci-monitoring-industrial-communication/4-1-error-code.md)"
 
 <br>
 
@@ -18,7 +18,7 @@ Refer to "[**4.1 ERROR Code.**](../../4-monitoring-industrial-communication/4-1-
 \.      Check whether the adapter device power is switched on.
 {% endhint %}
 
-![[Figure 3.3.5-1 Communication Error]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/5-Error/image_1.png>) 
+![[Figure 3.3.5-1 Communication Error]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/5-Error/image_1.png>) 
 
 
 <br>
@@ -32,8 +32,8 @@ Refer to "[**4.1 ERROR Code.**](../../4-monitoring-industrial-communication/4-1-
 
 {% endhint %}
 
-![[Figure 3.3.5-2 Communication Error]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/5-Error/image_2.png>) 
+![[Figure 3.3.5-2 Communication Error]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/5-Error/image_2.png>) 
 
-![[Figure 3.3.5-3 Communication Error]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/5-Error/image_3.png>) 
+![[Figure 3.3.5-3 Communication Error]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/5-Error/image_3.png>) 
 
 

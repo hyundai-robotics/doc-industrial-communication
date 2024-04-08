@@ -1,26 +1,26 @@
 ﻿# 3.3.4 Setting an EtherNet/IP Adapter
 
-Perform settings according to the procedures of “[**3.1 Setting Industrial Communication Firmware**](../../3-settings-industrial-communication/3-1-Settings-firmware.md)” and proceed with the following methods.
+Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” and proceed with the following methods.
 
 <br>
 
 {% hint style="info" %}
 \.      **[EtherNet/IP Adapter EDS File Download]**
 
-\.      Refer to “[**6. Slave Device Description Files**](../../6-slave-config-file.md)".
+\.      Refer to “[**7. Slave Device Description Files**](../../7-slave-config-file.md)".
 {% endhint %}
 
 <br>
 
 ##### 1. By using the teach pendant, select an EtherNet/IP slave in the section for setting industrial communication firmware and reboot the robot controller.
 
-![[Figure 3.3.4-1 Firware Setting]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_1.png>) 
+![[Figure 3.3.4-1 Firware Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
 <br>
 
 ##### 2. Check the readiness of the selected protocol in the section for monitoring industrial communication. 
 
-![[Figure 3.3.4-2 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_2.png>) 
+![[Figure 3.3.4-2 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -33,9 +33,9 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 ##### 3. Click the menu to enter the slave setting screen. 
 **\[System > 2: Control Parameter > 11: Industrial Communication > 2: Slave Configuration >  EtherNet/IP Slave]**
 
-![[Figure 3.3.4-3 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_3.png>) 
+![[Figure 3.3.4-3 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_3.png>) 
 
-![[Figure 3.3.4-4 Slave Setting]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_4.png>) 
+![[Figure 3.3.4-4 Slave Setting]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -106,6 +106,6 @@ Perform settings according to the procedures of “[**3.1 Setting Industrial Com
 
 ##### 5. When the settings are completed, check the communication status according to the following procedures.
 
-Refer to (“[**4 Monitoring Industrial Communication**](../../4-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communications status in the teach pendant.
+Refer to (“[**4. CIFX PCI - Monitoring Industrial Communication**](../../4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communications status in the teach pendant.
 
-![[Figure 3.3.4-5 Industrial Communication Monitoring]](<../../_assets/3-Settings-Industrial-Communication/3.3-EtherNet-IP/4-Slave_setting/image_5.png>) 
+![[Figure 3.3.4-5 Industrial Communication Monitoring]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.3-EtherNet-IP/4-Slave_setting/image_5.png>) 
