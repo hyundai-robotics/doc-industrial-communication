@@ -12,7 +12,8 @@
 
 ### 5.3.2 티칭팬던트를 통한 EtherNet/IP 어댑터의 설정 및 모니터링
 초기화면에서 “SYSTEM” > “Control Parameter” > “Industrial Communication” > ”Ethernet/IP 어댑터” 로 이동<br>
-![[그림 7.2.1 설정]](../_assets/EIP-ADAPTER/Spec/Config.PNG)<br>
+![Config.PNG](../_assets/EIP-ADAPTER/Spec/Config.PNG)<br>
+*[그림 5.3.1 설정]*<br>
 
 **[Network]**
 -	Function Enable : 내장형 Ethernet/IP 기능을 사용여부 선택
