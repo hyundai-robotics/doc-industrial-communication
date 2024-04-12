@@ -207,11 +207,11 @@ Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot*
 {% hint style="info" %}
 \.      Production Inhibit TIme
 
-\.      Set the IO update cycle (ms) of the slave device.   
-\.      ex) 10ms  :  Update IO every 10ms   
-\.      ex) 0ms   :  Update IO as fast as possible   
+\.      Set the IO update cycle (ms) of the slave device.  
+\.      ex) 10ms  :  Update IO every 10ms  
+\.      ex) 0ms   :  Update IO as fast as possible  
 
-\.      Shorter update cycles can place greater load on slave device   
+\.      Shorter update cycles can place greater load on slave device
 {% endhint %}
 
 <br>
@@ -219,8 +219,8 @@ Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot*
 {% hint style="info" %}
 \.      Expected Packet Rate
 
-\.      Maximum time allowed for IO updates on slave device (Timeout)   
-\.      ex) 200ms :  If IO data is not updated within 200ms, "Watchdog Timeout Action" occurs.   
+\.      Maximum time allowed for IO updates on slave device (Timeout)  
+\.      ex) 200ms :  If IO data is not updated within 200ms, "Watchdog Timeout Action" occurs.  
 {% endhint %}
 
 <br>
