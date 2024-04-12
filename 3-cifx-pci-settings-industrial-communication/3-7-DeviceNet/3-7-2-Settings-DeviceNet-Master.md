@@ -205,22 +205,23 @@
 <br>
 
 {% hint style="info" %}
-\.      IO 업데이트 주기 설정 (Production Inhibit TIme)
+\.      [Production Inhibit Time]
 
-\.      슬레이브 장치의 IO 데이터 업데이트 주기 설정 (ms)  
-\.      예시) 10ms  :  10ms 주기로 IO 데이터를 최신화  
-\.      예시) 0ms   :  Slave가 가능한 가장 빠른 시간 안에 IO 데이터 최신화  
+\.      슬레이브 장치의 IO 데이터 생성 주기 설정 (ms)  
+\.  
+\.      예시) 10ms  :  10ms 주기로 IO 데이터를 생성  
+\.      예시) 0ms   :  Slave가 가능한 가장 빠른 시간 안에 IO 데이터 생성  
 
-\.      업데이트 주기가 짧을 수록 Slave 장치에 걸리는 부하가 커질 수 있습니다. (각 Slave 별 사양 확인 필요) 
+\.      주기가 짧을 수록 Slave 장치에 걸리는 부하가 커질 수 있습니다. (각 Slave 별 사양 확인 필요) 
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      IO 업데이트 최대 허용 시간 설정 (Expected Packet Rate)
+\.      [Expected Packet Rate]
 
-\.      슬레이브 장치의 IO 업데이트를 허용하는 최대 시간 설정 (Timeout)  
-\.      예시) 200ms :  200ms 내에 IO 데이터를 최신화 되지 않으면 Watchdog Timeout Action 실헹  
+\.      마스터와 슬레이브 간 IO 데이터 업데이트 시간 설정  
+\.      통신 방식 (Poll, Change of State, Cyclic, Bit-Strobe)에 따라 설정 필요  
 {% endhint %}
 
 <br>
