@@ -1,6 +1,12 @@
 ﻿# 3.7.2 Setting the DeviceNet Master
 
-Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” and “[**3.2 Setting SYCON.net**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON.md)” first and proceed with the following methods.
+Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” and “[**3.2 Setting SYCON.net**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/README.md)” first and proceed with the following methods.
+
+<br>
+
+{% hint style="info" %}
+\.      When using "SYCON.net", Please refer to  ""[**3.2 Help SYCON.NET**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/3-2-1-Help-SYCON.md)""
+{% endhint %}
 
 <br>
 
@@ -195,6 +201,29 @@ Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot*
 \.      Output: ST-2318 (1 byte)  
 \.      Input: ST-1218 (1 byte)  
 {% endhint %}
+
+<br>
+
+{% hint style="info" %}
+\.      Production Inhibit TIme
+
+\.      Set the IO update cycle (ms) of the slave device.
+\.      ex) 10ms  :  Update IO every 10ms
+\.      ex) 0ms   :  Update IO as fast as possible
+
+\.      Shorter update cycles can place greater load on slave device
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+\.      Expected Packet Rate
+
+\.      Maximum time allowed for IO updates on slave device (Timeout)
+\.      ex) 200ms :  If IO data is not updated within 200ms, "Watchdog Timeout Action" occurs.
+{% endhint %}
+
+<br>
 
 ![[Figure 3.7.2-21 Slave Configuration]](<../../_assets/3-cifx-pci-settings-industrial-communication/3.7-DeviceNet/2-Master_setting/image_21.png>)
 

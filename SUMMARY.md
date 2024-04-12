@@ -14,7 +14,8 @@
 * [3. CIFX PCI - Setting Industrial Communication](3-cifx-pci-settings-industrial-communication/README.md)
   * [3.1 Setting CIFX PCI Slot](3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)
 
-  * [3.2 Setting SYCON.net](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON.md)
+  * [3.2 Setting SYCON.net](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/README.md)
+    * [3.2.1 help SYCON.net](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/3-2-1-Help-SYCON.md)
 
   * [3.3 EtherNet/IP](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/README.md)
     * [3.3.1 Specifications of an EtherNet/IP Scanner](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/3-3-1-Specification-EtherNet-IP-Scanner.md)

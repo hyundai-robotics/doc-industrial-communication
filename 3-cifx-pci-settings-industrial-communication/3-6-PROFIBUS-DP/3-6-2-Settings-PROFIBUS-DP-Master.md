@@ -1,8 +1,13 @@
 ﻿# 3.6.2 Setting the PROFIBUS-DP Master
 
 
-Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” and “[**3.2 Setting SYCON.net**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON.md)” first and proceed with the following methods.
+Perform settings according to the procedures of “[**3.1 Setting CIFX PCI Slot**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)” and “[**3.2 Setting SYCON.net**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/README.md)” first and proceed with the following methods.
 
+<br>
+
+{% hint style="info" %}
+\.      When using "SYCON.net", Please refer to  ""[**3.2 Help SYCON.NET**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/3-2-1-Help-SYCON.md)""
+{% endhint %}
 
 <br>
 
