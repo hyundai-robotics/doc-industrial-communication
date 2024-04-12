@@ -1,7 +1,12 @@
 ﻿# 3.4.2 PROFINET IO Controller 설정
 
-“[**3.1 CIFX PCI 슬롯 설정**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)" 및 "[**3.2 SYCON.NET 설정**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+“[**3.1 CIFX PCI 슬롯 설정**](../../3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)" 및 "[**3.2 SYCON.NET 설정**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
+<br>
+
+{% hint style="info" %}
+\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**3.2 SYCON.NET 도움말**](../../3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/3-2-1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+{% endhint %}
 
 <br>
 

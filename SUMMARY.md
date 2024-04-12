@@ -14,11 +14,12 @@
 * [3.  CIFX PCI 통신 설정](3-cifx-pci-settings-industrial-communication/README.md)
   * [3.1 CIFX PCI 슬롯 설정](3-cifx-pci-settings-industrial-communication/3-1-Settings-firmware.md)
 
-  * [3.2 SYCON.NET 설정](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON.md)
+  * [3.2 SYCON.NET 설정](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/README.md)
+    * [3.2.1 SYCON.NET 도움말](3-cifx-pci-settings-industrial-communication/3-2-Settings-SYCON/3-2-1-Help-SYCON.md)
 
   * [3.3 EtherNet/IP](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/README.md)
     * [3.3.1 EtherNet/IP Scanner 사양](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/3-3-1-Specification-EtherNet-IP-Scanner.md)
-    *  [3.3.2 EtherNet/IP Scanner 설정](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/3-3-2-Settings-EtherNet-IP-Scanner.md)
+    * [3.3.2 EtherNet/IP Scanner 설정](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/3-3-2-Settings-EtherNet-IP-Scanner.md)
     * [3.3.3 EtherNet/IP Adapter 사양](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/3-3-3-Specification-EtherNet-IP-Adapter.md)
     * [3.3.4 EtherNet/IP Adapter 설정](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/3-3-4-Settings-EtherNet-IP-Adapter.md)
     * [3.3.5 EtherNet/IP 에러 조치](3-cifx-pci-settings-industrial-communication/3-3-EtherNet-IP/3-3-5-Error-EtherNet-IP.md)
