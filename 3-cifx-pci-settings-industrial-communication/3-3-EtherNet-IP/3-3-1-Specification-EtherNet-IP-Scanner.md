@@ -7,8 +7,8 @@
 | **Classification**                  | **Specification**             |
 | :---                                | :---                           |
 | Maximum connectable slave count     | 64                             |
-| Maximum input byte size             | 1080 bytes                     |
-| Maximum output byte size            | 1080 bytes                     |
+| Maximum input byte size             | 1200 Bytes (FB Block Max)      |
+| Maximum output byte size            | 1200 Bytes (FB Block Max)      |
 | Maximum input byte size (1 slave)   | 504 bytes                      |
 | Maximum output byte size (1 slave)  | 504 bytes                      |
 | IO connection                       | Cyclic                         |
