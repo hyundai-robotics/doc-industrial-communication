@@ -7,8 +7,8 @@
 | **구분**                       | **사양**                  |
 | :---                           | :---                     |
 | 최대 연결 가능한 Slave 수        | 63개                      |
-| 최대 입력 Bytes 크기             | 1080 Bytes                |
-| 최대 출력 Bytes 크기             | 1080 Bytes                |
+| 최대 입력 Bytes 크기             | 1200 Bytes (FB Block Max) |
+| 최대 출력 Bytes 크기             | 1200 Bytes (FB Block Max) |
 | 최대 입력 Bytes 크기 (Slave 1개) | 255 Bytes                 |
 | 최대 출력 Bytes 크기 (Slave 1개) | 255 Bytes                 |
 | IO 연결                         | Bit Strobe, Change of State, Cyclic, Poll |
