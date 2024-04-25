@@ -76,7 +76,7 @@
   * [5.4 EtherNet/IP 에러코드](5-EtherNet-IP-Adapter/5-4-Error.md)
   * [5.5 EtherNet/IP 라이선스](5-EtherNet-IP-Adapter/5-5-License.md)
   * [5.6 EtherNet/IP 스캐너와의 연결](5-EtherNet-IP-Adapter/5-6-Connect-With-Scanner/README.md)
-    * [5.6 LS ELECTRIC PLC와의 연결](5-EtherNet-IP-Adapter/5-6-Connect-With-Scanner/5-6-1-Connect-With-LS.md)
+    * [5.6.1 LS ELECTRIC PLC와의 연결](5-EtherNet-IP-Adapter/5-6-Connect-With-Scanner/5-6-1-Connect-With-LS.md)
 
 * [6. 산업용 통신 DIO Block 할당](6-dio-block-allocation.md)
 

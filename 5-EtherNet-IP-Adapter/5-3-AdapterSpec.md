@@ -16,7 +16,7 @@
 *[그림 5.3.1 설정]*<br>
 
 **[Network]**
--	기능사용 : 내장형 Ethernet/IP 어댑터 기능을 사용여부 선택
+-	기능사용 : Ethernet/IP 어댑터의 사용여부 선택
 -	이더넷 포트 선택 : Ethernet/IP Scanner와 연결할 LAN Port 선택 (선택된 LAN Port의 정보는 바로 아래 줄에 표시 됨)<br>
 
 **[I/O Size]**
