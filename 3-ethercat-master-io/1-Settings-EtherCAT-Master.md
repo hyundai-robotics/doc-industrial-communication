@@ -2,7 +2,7 @@
 
 <br>
 
-##### 1. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
+##### 1. 메뉴를 터치하여 설정 화면으로 진입 합니다. 
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 4: EtherCAT Master 설정]**
 
 <br>
@@ -92,12 +92,6 @@
 ##### 5. 설정 완료 후 제어기를 재부팅합니다.
 
 ![[그림 3.1-7 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
-
-<br>
-
-{% hint style="info" %}
-\.      적용 버튼을 눌러 설정 후 설정 값을 확인해 주십시오.
-{% endhint %}
 
 <br>
 
