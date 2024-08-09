@@ -80,6 +80,8 @@
     * [2.6.1 LS ELECTRIC PLC와의 연결](2-EtherNet-IP-Adapter/6-Connect-With-Scanner/1-Connect-With-LS.md)
 
 * [3. EtherCAT Master IO](3-ethercat-master-io/README.md)
+  * [3.1 EtherCAT Master IO 설정](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
+  * [3.2 EtherCAT Master IO 에러 조치](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
 
 * [4. 산업용 통신 IO Block 할당](4-io-block-allocation.md)
 
