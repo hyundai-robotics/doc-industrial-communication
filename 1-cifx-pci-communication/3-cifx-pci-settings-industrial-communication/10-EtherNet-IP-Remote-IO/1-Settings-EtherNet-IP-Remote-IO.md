@@ -96,7 +96,7 @@
 
 <br>
 
-##### 6. 설정값이 반영되어있는지 후, 통신 상태를 확인합니다.
+##### 6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.
 
 ![[그림 1.3.10.1-9 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>) 
 
