@@ -228,4 +228,10 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 
 ![[Figure 1.3.6.2-27 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_27.png>)
 
+<br>
 
+##### 13. After completing communication setup, Allocate IO block
+
+{% hint style="info" %}
+\.      **You can use input/output signals by allocating an IO block. Please Check (“[**4. Setting IO Block Allocation of the Industrial Communication**](../../../4-io-block-allocation.md)”)**
+{% endhint %}

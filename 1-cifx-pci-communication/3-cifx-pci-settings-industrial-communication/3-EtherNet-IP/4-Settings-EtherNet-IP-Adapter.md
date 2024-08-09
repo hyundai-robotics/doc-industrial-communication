@@ -109,3 +109,11 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 Refer to (“[**1.4 CIFX PCI - Monitoring Industrial Communication**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communications status in the teach pendant.
 
 ![[Figure 1.3.3.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_5.png>) 
+
+<br>
+
+##### 6. After completing communication setup, Allocate IO block
+
+{% hint style="info" %}
+\.      **You can use input/output signals by allocating an IO block. Please Check (“[**4. Setting IO Block Allocation of the Industrial Communication**](../../../4-io-block-allocation.md)”)**
+{% endhint %}

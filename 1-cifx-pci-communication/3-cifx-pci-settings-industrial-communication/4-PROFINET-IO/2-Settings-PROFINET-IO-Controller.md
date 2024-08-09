@@ -221,3 +221,11 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 {% endhint %}
 
 ![[Figure 1.3.4.2-32 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_32.png>)
+
+<br>
+
+##### 13. After completing communication setup, Allocate IO block
+
+{% hint style="info" %}
+\.      **You can use input/output signals by allocating an IO block. Please Check (“[**4. Setting IO Block Allocation of the Industrial Communication**](../../../4-io-block-allocation.md)”)**
+{% endhint %}
