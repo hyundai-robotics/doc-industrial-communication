@@ -11,7 +11,7 @@ Those blocks should be allocated within the range from fb0 to fb9 to use industr
 
 <br>
 
-##### 2. Designate the industrial communication slot number in the desired fb area.
+##### 2. Designate the industrial communication type in the desired fb area.
    After designating it, touch the **\[OK]** button.
 
 ![[Figure 4-1]](<_assets/4-io-block-allocation/image_1.png>)
