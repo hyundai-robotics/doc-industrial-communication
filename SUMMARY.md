@@ -71,6 +71,8 @@
 
 
 * [3. EtherCAT Master IO](3-ethercat-master-io/README.md)
+  * [3.1 Setting the EtherCAT Master IO](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
+  * [3.2 Action for the EtherCAT Master IO Error](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
 
 * [4. Setting IO Block Allocation of the Industrial Communication](4-io-block-allocation.md)
 
