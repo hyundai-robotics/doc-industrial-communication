@@ -273,3 +273,11 @@
 {% endhint %}
 
 ![[그림 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
+
+<br>
+
+##### 18. 통신 설정 완료 후 IO Block 을 할당합니다.
+
+{% hint style="info" %}
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}

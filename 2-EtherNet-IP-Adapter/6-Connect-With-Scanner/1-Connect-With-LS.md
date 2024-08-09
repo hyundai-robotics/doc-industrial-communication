@@ -111,3 +111,11 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 [5] FEnet의 I/O서비스 체크 확인<br>
 ![AdapterSetting4.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/AdapterSetting4.png)<br>
 *[그림 2.6.1.22 EtherNet/IP Adapter 설정4]*<br>
+
+<br>
+
+##### 2.6.1.8 통신 설정 완료 후 IO Block 을 할당
+
+{% hint style="info" %}
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}

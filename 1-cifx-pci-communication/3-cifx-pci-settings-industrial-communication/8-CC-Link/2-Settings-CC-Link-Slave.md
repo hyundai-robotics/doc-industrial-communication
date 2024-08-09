@@ -94,3 +94,11 @@
 ##### 5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.
 
 TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+
+<br>
+
+##### 6. 통신 설정 완료 후 IO Block 을 할당합니다.
+
+{% hint style="info" %}
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}
