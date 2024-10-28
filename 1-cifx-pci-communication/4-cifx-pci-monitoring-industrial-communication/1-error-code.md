@@ -58,8 +58,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
     <tr>
 		<td>0xC0000180</td>
+		<td>Bus Off Flag is Set</td>
 		<td>Reset the device.</td>
-		<td>-</td>
 	</tr>
     <tr>
 		<td>0xC0470298</td>
