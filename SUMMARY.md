@@ -10,7 +10,7 @@
   * [1.2 CIFX PCI 통신 카드 장착 및 설정](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/README.md)
     * [1.2.1 PCI 산업용 통신 카드](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)
     * [1.2.2 커넥터](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)
-
+    * [1.2.3 LED 설명](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/3-Led.md)
 
   * [1.3  CIFX PCI 통신 설정](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/README.md)
     * [1.3.1 CIFX PCI 슬롯 설정](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)
