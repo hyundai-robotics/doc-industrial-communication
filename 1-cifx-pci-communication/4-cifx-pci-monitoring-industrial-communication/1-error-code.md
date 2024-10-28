@@ -2,16 +2,75 @@
 
 <br>
 
-##### 주요 공통 Error Code
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
 
 <br>
 
-| **ERROR Code**    | **Description**       | **조치 방법**       |
-| :---              | :---                  | :---               |
-| 0x00000000        | No Error              |                    |
-| 0x00000140        | Communication Fault   | 동작하지 않는 장치 또는 연결 상태 확인 |
-| 0x00000141        | Connection Closed     | 동작하지 않는 장치 또는 연결 상태 확인 |
-| 0x00000142        | Connection Timeout    | 동작하지 않는 장치 또는 연결 상태 확인 |
-| 0x00000144        | Duplicate IP Address  | 중복된 IP 주소 변경    |
-| 0x00000145        | Cable Disconnected    | 케이블 연결 상태 확인  |
-| 0x00000180        | Bus Off Flag is Set   | 장치 리셋             |
+<table class="tg">
+<thead>
+	<tr>
+		<th>Error Code</th>
+		<th>Description</th>
+		<th>Action</th>
+	</tr>
+</thead>
+
+<tbody>
+	<tr>
+		<td>0x00000000</td>
+		<td>정상</td>
+		<td>-</td>
+	</tr>
+    <tr>
+		<td>0xC0000123</td>
+		<td>라이선스 없음</td>
+		<td>마스터 라이선스의 유무를 확인하십시오</td>
+	</tr>
+    <tr>
+		<td>0xC0000140</td>
+		<td>통신 오류</td>
+		<td>장치의 상태나 연결 여부를 확인해 주십시오.</td>
+	</tr>
+    <tr>
+		<td>0xC0000141</td>
+		<td>연결 끊김</td>
+		<td>장치의 상태나 연결 여부를 확인해 주십시오.</td>
+	</tr>
+    <tr>
+		<td>0xC0000142</td>
+		<td>연결 대기 시간 초과</td>
+		<td>장치의 상태나 연결 여부를 확인해 주십시오..</td>
+	</tr>
+    <tr>
+		<td>0xC0000144</td>
+		<td>중복된 IP 주소</td>
+		<td>연결된 장치의 IP 주소를 확인하여 중복된 주소를 변경해 주십시오.</td>
+	</tr>
+    <tr>
+		<td>0xC0000145</td>
+		<td>케이블 연결 안됨</td>
+		<td>통신 케이블의 연결 상태를 확인해 주십시오.</td>
+	</tr>
+    <tr>
+		<td>0xC0000180</td>
+		<td>통신 버스 Off 플래그 설정됨</td>
+		<td>장치를 리셋해 주십시오.</td>
+	</tr>
+    <tr>
+		<td>0xC0470298</td>
+		<td>DeviceNet 24V 공급 안됨</td>
+		<td>DeviceNet 24V 전원을 확인해 주십시오.</td>
+	</tr>
+    <tr>
+		<td>0xC062002C</td>
+		<td>DeviceNet Slave 24V 공급 안됨</td>
+		<td>DeviceNet 24V 전원을 확인해 주십시오.</td>
+	</tr>
+</tbody>
+</table>
+
