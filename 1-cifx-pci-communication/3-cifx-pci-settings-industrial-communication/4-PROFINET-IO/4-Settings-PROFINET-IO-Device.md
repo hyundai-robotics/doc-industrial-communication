@@ -50,8 +50,8 @@ Perform settings according to the preocedures of “[**1.3.1 Setting CIFX PCI Sl
 \.       > The names of the devices connected through PROFINET IO should not be duplicated.  
 \.       > The name can only have up to 240 characters.  
 \.       > For special characters, "." and "-" can be used.  
-\.       > For characters, English and numerical characters can be used.  
-\.       > The name should start and end with an English character or number.
+\.       > For characters, English lowercase and numerical characters can be used.  
+\.       > The name should start and end with an English lowercase character or number.
 
 {% endhint %}
 
