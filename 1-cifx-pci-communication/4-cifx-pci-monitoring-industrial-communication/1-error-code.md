@@ -26,6 +26,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 		<td>정상</td>
 		<td>-</td>
 	</tr>
+	<tr>
+		<td>0xC000000C</td>
+		<td>제어기와 PCI 사이의 Watchdog 시간 초과</td>
+		<td>제어기와 장치의 상태를 확인해 주십시오. 통신 재시작을 통해 리셋할 수 있습니다.</td>
+	</tr>
     <tr>
 		<td>0xC0000123</td>
 		<td>라이선스 없음</td>
