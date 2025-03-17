@@ -26,6 +26,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 		<td>No Error</td>
 		<td>-</td>
 	</tr>
+	<tr>
+		<td>0xC000000C</td>
+		<td>Watchdog Timeout between PCI and Robot Controller</td>
+		<td>Check PCI and robot controller status. It can be reset by restarting communication.</td>
+	</tr>
     <tr>
 		<td>0xC0000123</td>
 		<td>Insufficient License</td>
