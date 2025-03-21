@@ -205,6 +205,16 @@
 <br>
 
 {% hint style="info" %}
+\.      통신 방식 (Poll, Change of State, Cyclic, Bit-Strobe)에 따라 설정 필요  
+{% endhint %}
+
+<br>
+
+![[그림 1.3.7.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
+
+<br>
+
+{% hint style="info" %}
 \.      [Production Inhibit Time]
 
 \.      슬레이브 장치의 IO 데이터 생성 주기 설정 (ms)  
@@ -221,12 +231,11 @@
 \.      [Expected Packet Rate]
 
 \.      마스터와 슬레이브 간 IO 데이터 업데이트 시간 설정  
-\.      통신 방식 (Poll, Change of State, Cyclic, Bit-Strobe)에 따라 설정 필요  
 {% endhint %}
 
 <br>
 
-![[그림 1.3.7.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
+![[그림 1.3.7.2-22 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
 
 
 
@@ -238,33 +247,33 @@
 \.      Master 장치를 더블클릭합니다.
 {% endhint %}
 
-![[그림 1.3.7.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
+![[그림 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
 
 
 {% hint style="info" %}
 \.      DeviceNet 통신 속도를 설정합니다. (Slave 통신 속도와 동일하도록)
 {% endhint %}
 
-![[그림 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
+![[그림 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
 \.      Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
 {% endhint %}
 
-![[그림 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
+![[그림 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
 \.      Quick Connect 기능 사용 유무를 설정합니다.
 {% endhint %}
 
-![[그림 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
+![[그림 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
 
 
 {% hint style="info" %}
 \.      설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
-![[그림 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
+![[그림 1.3.7.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
 
 <br>
 
@@ -280,15 +289,15 @@
 \.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
-![[그림 1.3.7.2-27 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
-
 ![[그림 1.3.7.2-28 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_28.png>)
+
+![[그림 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
 \.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
-![[그림 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
+![[그림 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
 
 <br>
 
