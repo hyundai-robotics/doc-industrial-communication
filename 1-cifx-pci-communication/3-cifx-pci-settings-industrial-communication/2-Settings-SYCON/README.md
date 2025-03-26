@@ -17,7 +17,7 @@ Hi6 제어기는 “**Sycon.net**” 프로그램을 이용하여 산업용 통�
 <br>
 
 ##### 2. Sycon.net 설치된 PC와 로봇 제어기의 범용 LAN포트를 연결 합니다. (PCI LAN Port X)
-**\[시스템 > 2: 제어 파라미터 > 9: 네트워크]** 메뉴룰 터치하여 범용 LAN포트의 IP를 확인합니다. Ping Test 등을 통해 연결 여부를 확인해 주십시오.
+**\[시스템 > 2: 제어 파라미터 > 9: 네트워크]** 메뉴를 터치하여 범용 LAN포트의 IP를 확인합니다. Ping Test 등을 통해 연결 여부를 확인해 주십시오.
 
 ![[그림 1.3.2-1 네트워크 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>) 
 
