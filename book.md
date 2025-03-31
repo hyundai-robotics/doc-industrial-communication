@@ -302,6 +302,7 @@ Refer to the files inside **\“SYCON.net v1.0500\DVD\_2018-12-1\_1\_0500\Docume
 Press the menu under **\[System > 2: Control Parameter > 9: Network]** to check the IP of the universal LAN port, then perform a ping test to determine whether a connection has been established.
 
 ![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>) 
+![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
 \.      The IP address can be changed according to the User settings.
@@ -311,14 +312,14 @@ Press the menu under **\[System > 2: Control Parameter > 9: Network]** to check 
 
 ##### 3. Run SYCON.net.
 
-![[Figure 1.3.2-2 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
+![[Figure 1.3.2-3 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 
 <br>
 
 ##### 4. In the device catalog on the right side of the screen, click the item that fits the set communication protocol, then drag and drop it on the bus line at the center. 
 
-![[Figure 1.3.2-3 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 ![[Figure 1.3.2-4 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
+![[Figure 1.3.2-5 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
@@ -332,7 +333,7 @@ Press the menu under **\[System > 2: Control Parameter > 9: Network]** to check 
 \.      Select netX Driver
 {% endhint %}
 
-![[Figure 1.3.2-5 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
+![[Figure 1.3.2-6 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
 \.     Settings -> Driver -> netX Driver -> TCP Connection 
@@ -340,7 +341,7 @@ Press the menu under **\[System > 2: Control Parameter > 9: Network]** to check 
 \.     IP Address: Input the universal LAN Port IP Address of the connected controller.
 {% endhint %}
 
-![[Figure 1.3.2-6 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
+![[Figure 1.3.2-7 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 {% hint style="info" %}
 \.      Select Device Assignment -> Click Scan
@@ -356,14 +357,14 @@ Press the menu under **\[System > 2: Control Parameter > 9: Network]** to check 
 **\[Caution]**: If scan does not work, check the status of the Cable connection with the controller and the firmware's settings.
 {% endhint %}
 
-![[Figure 1.3.2-7 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
+![[Figure 1.3.2-8 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 
 
 {% hint style="info" %}
 \.      right-click the CIFX PCI figure -> Download
 {% endhint %}
 
-![[Figure 1.3.2-8 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)# 1.3.2.1 SYCON.NET "help"
+![[Figure 1.3.2-9 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)# 1.3.2.1 SYCON.NET "help"
 
 
 
@@ -2425,6 +2426,16 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 <br>
 
 {% hint style="info" %}
+\.      Settings required depending on Connection method (Poll, Change of State, Cyclic, Bit-Strobe)  
+{% endhint %}
+
+<br>
+
+![[Figure 1.3.7.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
+
+<br>
+
+{% hint style="info" %}
 \.      [Production Inhibit Time]
 
 \.      Set the new IO data production cycle (ms) of the slave device.  
@@ -2440,12 +2451,11 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 \.      [Expected Packet Rate]
 
 \.      IO Data update time between master and slave device.  
-\.      Settings required depending on Connection method (Poll, Change of State, Cyclic, Bit-Strobe)  
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.7.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
+![[Figure 1.3.7.2-22 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
 
 
 
@@ -2457,33 +2467,33 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 \.      Double-click the master device.
 {% endhint %}
 
-![[Figure 1.3.7.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
+![[Figure 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
 
 
 {% hint style="info" %}
 \.      Set the communication speed of DeviceNet (to be the same as that of the slave). 
 {% endhint %}
 
-![[Figure 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
+![[Figure 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
 \.      Check the assigned IO and start address of the slave slot in the address table.
 {% endhint %}
 
-![[Figure 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
+![[Figure 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
 \.      Set whether to use the quick connect function.
 {% endhint %}
 
-![[Figure 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
+![[Figure 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
 
 
 {% hint style="info" %}
 \.      When the settings are completed, proceed with the download.
 {% endhint %}
 
-![[Figure 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
+![[Figure 1.3.7.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
 
 <br>
 
@@ -2499,15 +2509,15 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 \.      Double-clicking the connected master device will enable you to check the communication status.
 {% endhint %}
 
-![[Figure 1.3.7.2-27 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
-
 ![[Figure 1.3.7.2-28 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_28.png>)
+
+![[Figure 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
 \.        Using the diagnosis function of SYCON.net will enable you to monitor the IO’s input and output status along with the communication status.
 {% endhint %}
 
-![[Figure 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
+![[Figure 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
 
 <br>
 
