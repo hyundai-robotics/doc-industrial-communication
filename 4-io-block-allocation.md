@@ -1,4 +1,4 @@
-﻿# 4. Setting IO Block Allocation of the Industrial Communication
+﻿# 4. Read/Write IO Block of the Industrial Communication
 
 This section shows how to allocate IO blocks for communication with the controller after completing industrial communication settings.
 
