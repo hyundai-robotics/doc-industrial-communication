@@ -74,6 +74,6 @@
   * [3.1 Setting the EtherCAT Master IO](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
   * [3.2 Action for the EtherCAT Master IO Error](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
 
-* [4. Setting IO Block Allocation of the Industrial Communication](4-io-block-allocation.md)
+* [4. Read/Write IO Block of the Industrial Communication](4-io-block-allocation.md)
 
 * [5. Slave Device Description Files](5-slave-config-file.md)

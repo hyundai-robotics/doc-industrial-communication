@@ -6,6 +6,15 @@ Those blocks should be allocated within the range from fb0 to fb9 to use industr
 
 <br>
 
+{% hint style="info" %}
+\.      Please refer to the manual below for how to Read/Write IO of fb block.  
+
+\.   **\[Controller Operation Manual : Public Input]**   
+\.   **\[Controller Operation Manual : Public Output]**   
+{% endhint %}
+
+<br>
+
 ##### 1. Select the menu for allocating the IO blocks.
    Touch the menu **\[System > 2: Control Parameter > 2: Input/Output Signal Setting > 6: FB Block Allocation.]** 
 
