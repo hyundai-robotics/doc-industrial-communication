@@ -184,7 +184,12 @@
 \.        [Input Module]   
 \.         1. M7001  (1Byte)   
 \.         2. M12DF  (2Bytes)   
-\.         **=> 3Bytes**   
+\.         **=> 3Bytes**
+
+
+\.         1.M7002 (0Byte)
+\.         2.M12DF (2Bytes)
+\.         **=> 2Bytes**  
 {% endhint %}
 
 <br>

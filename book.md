@@ -631,7 +631,12 @@ EtherNet/IP 는 통신 기능에 따라 아래와 같이 구분합니다.
 \.        [Input Module]   
 \.         1. M7001  (1Byte)   
 \.         2. M12DF  (2Bytes)   
-\.         **=> 3Bytes**   
+\.         **=> 3Bytes**
+
+
+\.         1.M7002 (0Byte)
+\.         2.M12DF (2Bytes)
+\.         **=> 2Bytes**  
 {% endhint %}
 
 <br>
@@ -3780,11 +3785,20 @@ EtherCAT Master IO 설정 중 발생할 수 있는 주요 Error 를 해결하기
 {% endhint %}
 
 <br>
-# 4. 산업용 통신 IO Block 할당 설정
+# 4. 산업용 통신 IO 읽기 및 쓰기
 
 산업용 통신 설정 완료 후 제어기와의 통신을 위한 IO Block 할당 방법 입니다.
 
 산업용 통신 IO를 사용하기 위해 fb0 \~ fb9 영역에 할당해야 합니다.
+
+<br>
+
+{% hint style="info" %}
+\.      fb 블록의 IO 읽기/쓰기 방법은 아래 매뉴얼을 참조해 주십시오.
+
+\.   **\[제어기 조작설명서 : 범용 입력]**   
+\.   **\[제어기 조작설명서 : 범용 출력]**   
+{% endhint %}
 
 <br>
 

@@ -76,257 +76,257 @@
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/3-Specification-EtherNet-IP-Adapter.md",
-		"char_ofs": 25209,
-		"byte_ofs": 31795
+		"char_ofs": 25290,
+		"byte_ofs": 31881
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Settings-EtherNet-IP-Adapter.md",
-		"char_ofs": 26376,
-		"byte_ofs": 33106
+		"char_ofs": 26457,
+		"byte_ofs": 33192
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error-EtherNet-IP.md",
-		"char_ofs": 29947,
-		"byte_ofs": 38088
+		"char_ofs": 30028,
+		"byte_ofs": 38174
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/README.md",
-		"char_ofs": 31079,
-		"byte_ofs": 39512
+		"char_ofs": 31160,
+		"byte_ofs": 39598
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/1-Specification-PROFINET-IO-Controller.md",
-		"char_ofs": 32023,
-		"byte_ofs": 41033
+		"char_ofs": 32104,
+		"byte_ofs": 41119
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Settings-PROFINET-IO-Controller.md",
-		"char_ofs": 33315,
-		"byte_ofs": 42524
+		"char_ofs": 33396,
+		"byte_ofs": 42610
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/3-Specification-PROFINET-IO-Device.md",
-		"char_ofs": 42819,
-		"byte_ofs": 53974
+		"char_ofs": 42900,
+		"byte_ofs": 54060
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Settings-PROFINET-IO-Device.md",
-		"char_ofs": 43899,
-		"byte_ofs": 55205
+		"char_ofs": 43980,
+		"byte_ofs": 55291
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/5-Error-PROFINET-IO.md",
-		"char_ofs": 47002,
-		"byte_ofs": 59551
+		"char_ofs": 47083,
+		"byte_ofs": 59637
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/README.md",
-		"char_ofs": 47173,
-		"byte_ofs": 59755
+		"char_ofs": 47254,
+		"byte_ofs": 59841
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/1-Specification-EtherCAT-Master.md",
-		"char_ofs": 47598,
-		"byte_ofs": 60486
+		"char_ofs": 47679,
+		"byte_ofs": 60572
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Settings-EtherCAT-Master.md",
-		"char_ofs": 48934,
-		"byte_ofs": 62049
+		"char_ofs": 49015,
+		"byte_ofs": 62135
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/3-Specification-EtherCAT-Slave.md",
-		"char_ofs": 56972,
-		"byte_ofs": 71856
+		"char_ofs": 57053,
+		"byte_ofs": 71942
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Settings-EtherCAT-Slave.md",
-		"char_ofs": 58011,
-		"byte_ofs": 73049
+		"char_ofs": 58092,
+		"byte_ofs": 73135
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md",
-		"char_ofs": 58218,
-		"byte_ofs": 73328
+		"char_ofs": 58299,
+		"byte_ofs": 73414
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/README.md",
-		"char_ofs": 60966,
-		"byte_ofs": 76605
+		"char_ofs": 61047,
+		"byte_ofs": 76691
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/1-Specification-PROFIBUS-DP-Master.md",
-		"char_ofs": 61814,
-		"byte_ofs": 78253
+		"char_ofs": 61895,
+		"byte_ofs": 78339
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Settings-PROFIBUS-DP-Master.md",
-		"char_ofs": 63046,
-		"byte_ofs": 79668
+		"char_ofs": 63127,
+		"byte_ofs": 79754
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/3-Specification-PROFIBUS-DP-Slave.md",
-		"char_ofs": 71708,
-		"byte_ofs": 90163
+		"char_ofs": 71789,
+		"byte_ofs": 90249
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Settings-PROFIBUS-DP-Slave.md",
-		"char_ofs": 72714,
-		"byte_ofs": 91299
+		"char_ofs": 72795,
+		"byte_ofs": 91385
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/5-Error-PROFIBUS-DP.md",
-		"char_ofs": 75760,
-		"byte_ofs": 95388
+		"char_ofs": 75841,
+		"byte_ofs": 95474
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/README.md",
-		"char_ofs": 75928,
-		"byte_ofs": 95586
+		"char_ofs": 76009,
+		"byte_ofs": 95672
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/1-Specification-DeviceNet-Master.md",
-		"char_ofs": 76770,
-		"byte_ofs": 97228
+		"char_ofs": 76851,
+		"byte_ofs": 97314
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Settings-DeviceNet-Master.md",
-		"char_ofs": 78018,
-		"byte_ofs": 98655
+		"char_ofs": 78099,
+		"byte_ofs": 98741
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md",
-		"char_ofs": 88540,
-		"byte_ofs": 111689
+		"char_ofs": 88621,
+		"byte_ofs": 111775
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Settings-DeviceNet-Slave.md",
-		"char_ofs": 89563,
-		"byte_ofs": 112837
+		"char_ofs": 89644,
+		"byte_ofs": 112923
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md",
-		"char_ofs": 92330,
-		"byte_ofs": 116593
+		"char_ofs": 92411,
+		"byte_ofs": 116679
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-DeviceNet-Object.md",
-		"char_ofs": 93901,
-		"byte_ofs": 118625
+		"char_ofs": 93982,
+		"byte_ofs": 118711
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/README.md",
-		"char_ofs": 95265,
-		"byte_ofs": 120427
+		"char_ofs": 95346,
+		"byte_ofs": 120513
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md",
-		"char_ofs": 96093,
-		"byte_ofs": 122054
+		"char_ofs": 96174,
+		"byte_ofs": 122140
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/2-Settings-CC-Link-Slave.md",
-		"char_ofs": 98837,
-		"byte_ofs": 125017
+		"char_ofs": 98918,
+		"byte_ofs": 125103
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md",
-		"char_ofs": 101833,
-		"byte_ofs": 129055
+		"char_ofs": 101914,
+		"byte_ofs": 129141
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/README.md",
-		"char_ofs": 102607,
-		"byte_ofs": 130127
+		"char_ofs": 102688,
+		"byte_ofs": 130213
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/README.md",
-		"char_ofs": 102645,
-		"byte_ofs": 130189
+		"char_ofs": 102726,
+		"byte_ofs": 130275
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md",
-		"char_ofs": 102991,
-		"byte_ofs": 130669
+		"char_ofs": 103072,
+		"byte_ofs": 130755
 	},
 	{
 		"link": "1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md",
-		"char_ofs": 107488,
-		"byte_ofs": 136417
+		"char_ofs": 107569,
+		"byte_ofs": 136503
 	},
 	{
 		"link": "1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md",
-		"char_ofs": 110369,
-		"byte_ofs": 139969
+		"char_ofs": 110450,
+		"byte_ofs": 140055
 	},
 	{
 		"link": "1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md",
-		"char_ofs": 111164,
-		"byte_ofs": 141206
+		"char_ofs": 111245,
+		"byte_ofs": 141292
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/README.md",
-		"char_ofs": 112626,
-		"byte_ofs": 143238
+		"char_ofs": 112707,
+		"byte_ofs": 143324
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/1-Intro.md",
-		"char_ofs": 113091,
-		"byte_ofs": 143891
+		"char_ofs": 113172,
+		"byte_ofs": 143977
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/2-Network.md",
-		"char_ofs": 113507,
-		"byte_ofs": 144575
+		"char_ofs": 113588,
+		"byte_ofs": 144661
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/3-AdapterSpec.md",
-		"char_ofs": 114890,
-		"byte_ofs": 146774
+		"char_ofs": 114971,
+		"byte_ofs": 146860
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/4-Error.md",
-		"char_ofs": 115923,
-		"byte_ofs": 148300
+		"char_ofs": 116004,
+		"byte_ofs": 148386
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/5-License.md",
-		"char_ofs": 116877,
-		"byte_ofs": 149739
+		"char_ofs": 116958,
+		"byte_ofs": 149825
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/6-Connect-With-Scanner/README.md",
-		"char_ofs": 117412,
-		"byte_ofs": 150640
+		"char_ofs": 117493,
+		"byte_ofs": 150726
 	},
 	{
 		"link": "2-EtherNet-IP-Adapter/6-Connect-With-Scanner/1-Connect-With-LS.md",
-		"char_ofs": 117506,
-		"byte_ofs": 150800
+		"char_ofs": 117587,
+		"byte_ofs": 150886
 	},
 	{
 		"link": "3-ethercat-master-io/README.md",
-		"char_ofs": 121852,
-		"byte_ofs": 156646
+		"char_ofs": 121933,
+		"byte_ofs": 156732
 	},
 	{
 		"link": "3-ethercat-master-io/1-Settings-EtherCAT-Master.md",
-		"char_ofs": 122412,
-		"byte_ofs": 157542
+		"char_ofs": 122493,
+		"byte_ofs": 157628
 	},
 	{
 		"link": "3-ethercat-master-io/2-Error-EtherCAT-Master.md",
-		"char_ofs": 125406,
-		"byte_ofs": 161556
+		"char_ofs": 125487,
+		"byte_ofs": 161642
 	},
 	{
 		"link": "4-io-block-allocation.md",
-		"char_ofs": 125781,
-		"byte_ofs": 162115
+		"char_ofs": 125862,
+		"byte_ofs": 162201
 	},
 	{
 		"link": "5-slave-config-file.md",
-		"char_ofs": 126373,
-		"byte_ofs": 163122
+		"char_ofs": 126608,
+		"byte_ofs": 163467
 	}
 ]
