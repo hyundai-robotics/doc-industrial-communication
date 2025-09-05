@@ -1,26 +1,18 @@
-﻿# 1.3.8.2 Setting a CC-Link Slave
+﻿# 1.3.9.2 Setting a CC-Link IE Field Slave
 
 Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slot**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)” first and proceed with the following methods.
 
 <br>
 
-{% hint style="info" %}
-\.      Refer to the following for the connection of a CC-Link connector.
+##### 1. By using the teach pendant, select the CC-Link IE Field slave in the section for setting industrial communication firmware and reboot the robot controller.
 
-\.      (“[**1.2.2 Connectors**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
-{% endhint %}
-
-<br>
-
-##### 1. By using the teach pendant, select the CC-Link slave in the section for setting industrial communication firmware and reboot the robot controller.
-
-![[Figure 1.3.8.4-1 Firmware Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.9.2-1 Firmware Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
 ##### 2. Check the readiness of the selected protocol in the section for monitoring industrial communication.
 
-![[Figure 1.3.8.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_2.png>) 
+![[Figure 1.3.9.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -31,62 +23,60 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 <br>
 
 ##### 3. Click the menu to enter the slave setting screen. 
-**\[System > 2: Control Parameter > 11: Industrial Communication > 2: Slave PCI Slot Configuration > CC-Link Slave]**
+**\[System > 2: Control Parameter > 11: Industrial Communication > 2: Slave PCI Slot Configuration > CC-Link IE Field Slave]**
 
-![[Figure 1.3.8.4-3 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>) 
+![[Figure 1.3.9.4-3 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.8.4-4 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_4.png>) 
+![[Figure 1.3.9.4-4 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_4.png>) 
 
 <br>
 
 ##### 4. Description of Each Item
 
 {% hint style="info" %}
+\.      [Network Number]
+
+\.      Identifies the CC-Link IE Field network (1~239)
+{% endhint %}
+
+{% hint style="info" %}
 \.      [Station Address]
 
-\.      CC-Link identifies a slave via the station address (1–64).
+\.      Current station address of the slave device as an unique identifier of a station within a network (1 ~ 120)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Baud Rate]
+\.      [IO Type]
 
-\.      Can be selected among 156 Kbit/s, 625 Kbit/s, 2500 Kbit/s, 5000 Kbit/s, and 10000 Kbit/s
+\.      The parameter is not relevant for the Slave configuration. The IO type is evaluated by the master. For more information, refer to the manual of the master and/ or of the PLC.   
+\.      - Mixed: In/Out with the different index. Refers to a case where the input and output are mixed and the input and output do not use the same address.      
+\.      - Input: Input only   
+\.      - Output: Output only   
+\.      - FrontBackMixture: In/Out with the same index. Refers to a case where the input and output are mixed and the input and output use the same address.   
 {% endhint %}
 
 {% hint style="info" %}
-\.      [CC-Link Version]
+\.      [Device Type]
 
-\.      Version 1: An IO station can be used. The extension cycle function cannot be used.
+\.      Intelligent Device Station   
+\.      - RY, RX (max): 256 bytes   
+\.      - RWw, RWr (max): 1024 words
 
-\.      Version 2: An IO station cannot be used. The extension cycle function can be used.
+\.      Remote Device Station   
+\.      - RY, RX (max): 16 bytes   
+\.      - RWw, RWr (max): 64 words
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Number of Station]
+\.      [IO Size]
 
-\.      IO Station: One IO station is occupied.
+\.      Master -> Slave   
+\.      - RWw (word data)   
+\.      - RY (bit data)   
 
-\.      Remote Device: Can select 1 to 4 devices
-
-\.      Depending on Number of Station, the size of the IO byte area will vary.
-{% endhint %}
-
-{% hint style="info" %}
-\.      [Extension Cycle]
-
-\.      Can be used in Version 2
-
-\.      Remote Device: Can select among Single, Double, Quadruple, and Octuple
-
-\.      Depending on the Extension Cycle, the size of the IO byte area to be assigned will vary. 
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-\.      **For the IO byte area, please refer to the following link.**
-
-\.      **(“[**3.8.1 Specifications of a CC-Link slave**](../../3-cifx-pci-settings-industrial-communication/3-8-CC-Link/3-8-1-Specification-CC-Link-Slave.md)”)**
+\.      Slave -> Master   
+\.      - RWr (word data)   
+\.      - RX (bit data)  
 {% endhint %}
 
 <br>
@@ -94,3 +84,15 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 ##### 5. When the settings are completed, check the communication status according to the following procedures.
 
 Please refer to (“[**1.4 CIFX PCI - Monitoring Industrial Communication**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
+
+<br>
+
+##### 6. After completing communication setup, Allocate IO block
+
+{% hint style="info" %}
+\.      **You can use input/output signals by allocating an IO block. Please Check (“[**4. Setting IO Block Allocation of the Industrial Communication**](../../../4-io-block-allocation.md)”)**
+{% endhint %}
+
+<br>
+
+![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) 

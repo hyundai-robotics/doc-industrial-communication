@@ -59,7 +59,9 @@
       * [1.3.8.3 Actions for a CC-Link Error](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
 
     * [1.3.9 CC-Link IE Field](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/README.md)
-
+      * [1.3.9.1 Specification of a CC-Link IE Field Slave](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/1-Specification-CC-Link-IE-Field-Slave.md)
+      * [1.3.9.2 Setting a CC-Link IE Field Slave](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/2-Settings-CC-Link-IE-Field-Slave.md)
+      * [1.3.9.3 Actions for a CC-Link IE Field Error](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/3-Error-CC-Link-IE-Field.md)
 
     * [1.3.10 EtherNet/IP - Connection of a Standard Remote IO](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/README.md)
       * [1.3.10.1 EtherNet/IP - Setting the Connection of a Sstandard Remote IO](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)
