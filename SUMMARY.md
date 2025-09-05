@@ -59,7 +59,9 @@
       * [1.3.8.3 CC-Link 에러 조치](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
 
     * [1.3.9 CC-Link IE Field](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/README.md)
-
+      * [1.3.9.1 CC-Link IE Field Slave 사양](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/1-Specification-CC-Link-IE-Field-Slave.md)
+      * [1.3.9.2 CC-Link IE Field Slave 설정](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/2-Settings-CC-Link-IE-Field-Slave.md)
+      * [1.3.9.3 CC-Link IE Field 에러 조치](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/3-Error-CC-Link-IE-Field.md)
 
     * [1.3.10 EtherNet/IP - 표준 Remote IO 연결](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/README.md)
       * [1.3.10.1 EtherNet/IP 연결 설정](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)

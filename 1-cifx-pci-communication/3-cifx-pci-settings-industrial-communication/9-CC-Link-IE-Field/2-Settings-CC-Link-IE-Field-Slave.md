@@ -1,26 +1,19 @@
-﻿# 1.3.8.2 CC-Link Slave 설정
+﻿# 1.3.9.2 CC-Link IE Field Slave 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
-<br>
-
-{% hint style="info" %}
-\.      CC-Link Connector 연결은 아래를 참고해 주십시오.
-
-\.      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
-{% endhint %}
 
 <br>
 
-##### 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 CC-Link Slave를 선택하고 로봇 제어기를 재부팅합니다.
+##### 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 CC-Link IE Field Slave를 선택하고 로봇 제어기를 재부팅합니다.
 
-![[그림 1.3.8.4-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
+![[그림 1.3.9.2-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_1.png>) 
 
 <br>
 
 ##### 2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.
 
-![[그림 1.3.8.4-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_2.png>) 
+![[그림 1.3.9.4-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -31,62 +24,62 @@
 <br>
 
 ##### 3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  CC-Link Slave]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  CC-Link IE Field Slave]**
 
-![[그림 1.3.8.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>) 
+![[그림 1.3.9.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_3.png>) 
 
-![[그림 1.3.8.4-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_4.png>) 
+![[그림 1.3.9.4-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_4.png>) 
 
 <br>
 
 ##### 4. 각 항목별 설명
 
 {% hint style="info" %}
+\.      [Network Number]
+
+\.      CC-Link IE Field network 번호 (1~239)
+{% endhint %}
+
+{% hint style="info" %}
 \.      [Station Address]
 
-\.      CC-Link는 Station Address를 통해 Slave를 식별합니다. (1 ~ 64)
+\.      연결된 network 내에 장치 ID (1 ~ 120)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 속도(Baudrate)]
+\.      [IO Type]
 
-\.      156, 625, 2500, 5000, 10000 Kbit/s  중 선택 가능합니다.
+\.      IO Type은 master 장치 설정에 의해 결정됨   
+\.      - Mixed: 입력과 출력이 다른 인덱스 사용 (서로 다른 주소)   
+\.      - Input: 입력 전용   
+\.      - Output: 출력 전용   
+\.      - FrontBackMixture: 입력과 출력이 같은 인덱스 사용 (동일한 주소)   
 {% endhint %}
 
 {% hint style="info" %}
-\.      [CC-Link Version]
+\.      [Device Type]
 
-\.      Version 1 : IO Station 사용 가능, Extension Cycle 사용 불가
+\.      Device Type에 따라 설정 가능한 IO 최대 크기가 상이합니다.
 
-\.      Version 2 : IO Station 사용 불가, Extension Cycle 사용 가능
+\.      Intelligent Device Station   
+\.      - RY, RX (max): 256 bytes   
+\.      - RWw, RWr (max): 1024 words
+
+\.      Remote Device Station   
+\.      - RY, RX (max): 16 bytes   
+\.      - RWw, RWr (max): 64 words
 {% endhint %}
 
 {% hint style="info" %}
-\.      [점유 Station 수]
+\.      [IO Size]
 
-\.      IO Station : 1개 점유
+\.      Master -> Slave   
+\.      - RWw (word data)   
+\.      - RY (bit data)   
 
-\.      Remote Device : 1 ~ 4 개 선택 가능 
-
-\.      점유하는 Station 수에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
-{% endhint %}
-
-{% hint style="info" %}
-\.      [Extension Cycle]
-
-\.      Version 2에서 사용 가능
-
-\.      Remote Device : 1배(Single), 2배(Double), 4배(Quadruple), 8배(Octuple) 선택 가능 
-
-\.      Extension Cycle에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-\.      **IO Byte 영역에 대해서는 아래 링크를 참고해 주십시오.**
-
-\.      **(“[**3.8.1 CC-Link Slave 사양**](../../3-cifx-pci-settings-industrial-communication/3-8-CC-Link/3-8-1-Specification-CC-Link-Slave.md)”)**
+\.      Slave -> Master   
+\.      - RWr (word data)   
+\.      - RX (bit data)  
 {% endhint %}
 
 <br>
@@ -94,3 +87,7 @@
 ##### 5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.
 
 TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+
+<br>
+
+![[그림 1.3.9.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) 
