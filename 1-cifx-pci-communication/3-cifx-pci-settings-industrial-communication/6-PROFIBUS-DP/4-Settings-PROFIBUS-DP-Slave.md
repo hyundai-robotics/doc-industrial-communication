@@ -60,19 +60,24 @@
 {% endhint %}
 
 {% hint style="info" %}
-\.      Master 에서 Module 설정 시
+\.      [**Master 에서 Module 설정 시**]
 
 \.      설정한 바이트 수와 일치하도록 Master에서 Module을 지정해 주어야합니다.
 
-\.      순서 : Input (64 ~ 1) -> Output (64 ~ 1)
+\.      순서 : Master Input (64 ~ 1) -> Master Output (64 ~ 1)
 
-\.      EX) Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+\.      EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
+\.          Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-\.      EX) Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
+\.      EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
+\.          Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
 
-\.      EX) Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
 
-\.      EX) Input 12 Bytes : 8Byte + 4Byte
+\.      EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
+\.          Input 12 Bytes : 8Byte + 4Byte
+
+\.      EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
+\.          Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
 
 \.      입력 Module이 출력 Module 보다 앞에 위치합니다.
 {% endhint %}

@@ -66,16 +66,22 @@
 \.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
-{% hint style="info" %}
-\.      Master 에서 Slot 설정 시
+<br>
 
-\.      설정한 바이트 수와 일치하도록 Master에서 Slot을 지정해 주어야합니다.
+{% hint style="info" %}
+\.      [**Master 에서 Slot 설정 시**]
+
+\.      Master Input (32byte)  <--  Slave Output (32bytes)
+
+\.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
 \.      4, 8, 16, 32, 64 Bytes -> 각 Bytes 에 맞는 Slot 지정  
 \.      128, 256 Bytes -> 64 Bytes Slot 다수 지정 (2개, 4개)
 
 \.      입력 Slot이 출력 Slot 보다 앞에 위치 합니다.
 {% endhint %}
+
+<br>
 
 ![[그림 1.3.4.4-5 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_5.png>) 
 
