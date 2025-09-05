@@ -4,6 +4,14 @@ Set the CIFX PCI slot communication method. After the settings are completed, re
 
 <br>
 
+{% hint style="info" %}
+\.      Refer to the following information.
+
+\.      (“[**1.2.1 Industrial a PCI Communication Card**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)”)
+{% endhint %}
+
+<br>
+
 ##### 1. Click the menu to enter the slot setting screen.
 **\[System > 2: Control Parameter > 11: Industrial Communication > 1: PCI Slot Setting > 1 Channel]**
 
