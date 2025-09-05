@@ -59,23 +59,32 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 \.      Output Bytes: To set the size of data to be outputted from the slave to the master
 {% endhint %}
 
+<br>
+
 {% hint style="info" %}
-\.      When setting the modules in the master
+\.      [**setting the modules in the master**]
 
 \.      Required to designate the modules in a way to match the individually set byte count
 
-\.      Order: Input (64–1) -> Output (64–1)
+\.      Order: Master Input (64–1) -> Master Output (64–1)
 
-\.      EX) Input 109 bytes: 64 bytes + 32 bytes + 8 bytes + 4 bytes + 1 byte
+\.      EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
+\.          109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-\.      EX) Output 120 bytes: 64 bytes + 32 bytes + 16 bytes + 8 bytes
+\.      EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
+\.          120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
 
-\.      EX) Output 200 bytes: 64 bytes + 64 bytes + 64 bytes + 8 bytes
 
-\.      EX) Input 12 bytes: 8 bytes + 4 bytes
+\.      EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
+\.          12 Bytes : 8Byte + 4Byte
+
+\.      EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
+\.          200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
 
 \.      Input modules are placed before the output modules.
 {% endhint %}
+
+<br>
 
 ![[Figure 1.3.6.4-5 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>) 
 

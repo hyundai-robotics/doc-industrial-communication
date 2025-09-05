@@ -67,8 +67,14 @@ Perform settings according to the preocedures of “[**1.3.1 Setting CIFX PCI Sl
 \.      Output Bytes: For setting the size of the data to be outputted from the slave to the master
 {% endhint %}
 
+<br>
+
 {% hint style="info" %}
-\.      When setting slots in the master
+\.      [**setting slots in the master**]
+
+\.      Master Input (32byte)  <--  Slave Output (32bytes)
+
+\.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
 \.      Designating slots in a way that matches the individually set byte count is required.
 
@@ -77,6 +83,8 @@ Perform settings according to the preocedures of “[**1.3.1 Setting CIFX PCI Sl
 
 \.      The input slots are placed before the output slots.
 {% endhint %}
+
+<br>
 
 ![[Figure 1.3.4.4-5 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_5.png>) 
 
