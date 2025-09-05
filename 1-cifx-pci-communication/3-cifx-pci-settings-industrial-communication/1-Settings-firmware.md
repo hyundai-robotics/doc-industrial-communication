@@ -4,6 +4,10 @@ CIFX PCI 슬롯의 통신 방식을 설정합니다. 설정 적용을 위해서�
 
 <br>
 
+“[**1.2.1 PCI 산업용 통신 카드**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" 참고하여 아래 방법을 진행해 주십시오.
+
+<br>
+
 ##### 1. 메뉴를 터치하여 슬롯 설정 화면으로 진입 합니다.
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 1: PCI 슬롯 설정 > 1 채널]** 
 

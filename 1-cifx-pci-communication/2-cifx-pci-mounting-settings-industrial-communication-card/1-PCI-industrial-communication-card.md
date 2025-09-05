@@ -17,6 +17,10 @@
 ![[그림 1.2.1-1 PCI 통신 카드]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_2.png>)
 
+<br>
+
+![[그림 1.2.1-2 PCI 통신 카드]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_3.png>)
+
 {% hint style="warning" %}
 **\[주의]**: Rotary Switch번호는 PCI 카드마다 다르게 설정하시기 바랍니다.
 {% endhint %}
