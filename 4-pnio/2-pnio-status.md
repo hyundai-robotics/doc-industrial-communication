@@ -7,6 +7,10 @@
 <em><p align="center">PROFINET 상태 모니터링 화면</p></em>
 </p>
 
+- 크기 : 설정된 I/O Size를 의미(단위 : 바이트)
+- 상태 : BAD(사용안함 or 통신이상), GOOD(통신 정상)
+- 카운터 : I/O 갱신 회수(지속 증가시 통신 정상)
+
 <p align="center">
 <img src="../_assets/4-pnio/profinet_LED.png"></img>
 <em><p align="center">BD671(PROFINET) </p></em>

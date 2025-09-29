@@ -85,7 +85,7 @@
   * [3.1 EtherCAT Master IO 설정](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
   * [3.2 EtherCAT Master IO 에러 조치](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
 
-* [4. PROFINET IO](4-pnio/README.md)
+* [4. PROFINET IO (Hi7)](4-pnio/README.md)
   * [4.1 PROFINET 통신의 설정](4-pnio/1-pnio.md)
   * [4.2 PROFINET 상태 모니터링](4-pnio/2-pnio-status.md)
 
