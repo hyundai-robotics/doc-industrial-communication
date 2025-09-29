@@ -1,4 +1,4 @@
-﻿# 4. 산업용 통신 IO 읽기 및 쓰기
+﻿# 5. 산업용 통신 IO 읽기 및 쓰기
 
 산업용 통신 설정 완료 후 제어기와의 통신을 위한 IO Block 할당 방법 입니다.
 
@@ -23,7 +23,7 @@
 ##### 2. 원하는 fb 영역에 산업용 통신 종류 지정
    지정 후 **\[OK]** 버튼을 터치하십시오.
 
-![[그림 4-1]](<_assets/4-io-block-allocation/image_1.png>)
+![[그림 5-1]](<_assets/4-io-block-allocation/image_1.png>)
 
 
 {% hint style="warning" %}
