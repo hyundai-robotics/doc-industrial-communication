@@ -8,5 +8,7 @@
 
 
 {% hint style="info" %}
-PROFINET I/O (BD671)의 기능은 Hi7 로봇제어기에서 지원합니다.
+PROFINET I/O (BD671)의 기능은 Hi7 로봇제어기에서 지원합니다.<br>
+PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요<br>
+(https://hrbook-hrc.web.app/#/view/doc-safespace2.0/korean/3-safety-function/3-safety-function/4-safety-io/4-profisafe)
 {% endhint %}
