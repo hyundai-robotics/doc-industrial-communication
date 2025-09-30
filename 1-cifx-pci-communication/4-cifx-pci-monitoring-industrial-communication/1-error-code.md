@@ -63,7 +63,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
     <tr>
 		<td>0xC0000180</td>
-		<td>통신 버스 Off 플래그 설정됨</td>
+		<td>통신 버스 Off 플래그 설정됨 <br> [발생 가능 원인] <br>  - 통신선 CAN High/Low 의 단락 감지 <br>  - 전원 전압 불안정 <br>  - 노이즈 등으로 인한 네트워크 에러 지속 발생</td>
 		<td>통신 케이블 접촉 상태나 결선을 확인하고, 장치를 리셋해 주십시오.</td>
 	</tr>
     <tr>
@@ -73,8 +73,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 	<tr>
 		<td>0xC0620023</td>
-		<td>DeviceNet Slave bus off 감지</td>
-		<td>DeviceNet 통신 선의 CAN High/Low 의 단락이 감지됐습니다. 통신 케이블 접촉 상태나 결선을 확인해 주십시오. </td>
+		<td>DeviceNet Slave bus off 감지 <br> [발생 가능 원인] <br>  - 통신선 CAN High/Low 의 단락 감지 <br>  - 전원 전압 불안정 <br>  - 노이즈 등으로 인한 네트워크 에러 지속 발생</td>
+		<td>통신 케이블 접촉 상태나 결선을 확인하고, 장치를 리셋해 주십시오. </td>
 	</tr>
     <tr>
 		<td>0xC062002C</td>
