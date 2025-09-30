@@ -64,12 +64,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
     <tr>
 		<td>0xC0000180</td>
 		<td>통신 버스 Off 플래그 설정됨</td>
-		<td>장치를 리셋해 주십시오.</td>
+		<td>통신 케이블 접촉 상태나 결선을 확인하고, 장치를 리셋해 주십시오.</td>
 	</tr>
     <tr>
 		<td>0xC0470298</td>
 		<td>DeviceNet 24V 공급 안됨</td>
 		<td>DeviceNet 24V 전원을 확인해 주십시오.</td>
+	</tr>
+	<tr>
+		<td>0xC0620023</td>
+		<td>DeviceNet Slave bus off 감지</td>
+		<td>DeviceNet 통신 선의 CAN High/Low 의 단락이 감지됐습니다. 통신 케이블 접촉 상태나 결선을 확인해 주십시오. </td>
 	</tr>
     <tr>
 		<td>0xC062002C</td>
