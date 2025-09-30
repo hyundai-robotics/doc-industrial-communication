@@ -63,13 +63,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
     <tr>
 		<td>0xC0000180</td>
-		<td>Bus Off Flag is Set</td>
-		<td>Reset the device.</td>
+		<td>Bus Off Flag is Set <br> [Possible Causes] <br>  - Detection of short circuit between CAN High/Low lines <br>  - Unstable power supply voltage <br>  - Continuous network errors caused by noise</td>
+		<td>Please check the contact condition and wiring of the communication cable, and then reset the device.</td>
 	</tr>
     <tr>
 		<td>0xC0470298</td>
 		<td>DevieNet 24V Power Missing</td>
 		<td>Check DeviceNet network 24V power</td>
+	</tr>
+	<tr>
+		<td>0xC0620023</td>
+		<td>DeviceNet Slave bus off detected <br> [Possible Causes] <br>  - Detection of short circuit between CAN High/Low lines <br>  - Unstable power supply voltage <br>  - Continuous network errors caused by noise</td>
+		<td>Please check the contact condition and wiring of the communication cable, and then reset the device.</td>
 	</tr>
     <tr>
 		<td>0xC062002C</td>
