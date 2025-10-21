@@ -2,7 +2,7 @@
 
 ### 1. 티칭팬던트를 통한 EtherNet/IP 어댑터의 설정 및 모니터링
 초기화면에서 “SYSTEM” > “Control Parameter” > “Industrial Communication” > ”Ethernet/IP 어댑터” 로 이동<br>
-![Config.PNG](../../_assets/2-ethernet-ip/4-adapter/Config.PNG)<br>
+![Config.PNG](../../_assets/2-ethernet-ip/4-adapter/Config.png)<br>
 *[그림 2.3.1 설정]*<br>
 
 **[Network]**
