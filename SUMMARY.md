@@ -72,14 +72,20 @@
     * [1.4.1 ERROR Code](1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)
 
 
-* [2. EtherNet/IP 어댑터](2-EtherNet-IP-Adapter/README.md)
-  * [2.1 EtherNet/IP 어댑터 소개](2-EtherNet-IP-Adapter/1-Intro.md)
-  * [2.2 EtherNet/IP 네트워크](2-EtherNet-IP-Adapter/2-Network.md)
-  * [2.3 EtherNet/IP 어댑터 사양](2-EtherNet-IP-Adapter/3-AdapterSpec.md)
-  * [2.4 EtherNet/IP 에러코드](2-EtherNet-IP-Adapter/4-Error.md)
-  * [2.5 EtherNet/IP 라이선스](2-EtherNet-IP-Adapter/5-License.md)
-  * [2.6 EtherNet/IP 스캐너와의 연결](2-EtherNet-IP-Adapter/6-Connect-With-Scanner/README.md)
-    * [2.6.1 LS ELECTRIC PLC와의 연결](2-EtherNet-IP-Adapter/6-Connect-With-Scanner/1-Connect-With-LS.md)
+* [2. EtherNet/IP](2-ethernet-ip/README.md)
+  * [2.1 네트워크 설정](2-ethernet-ip/1-network.md)
+  * [2.2 라이선스 설정](2-ethernet-ip/2-license.md)
+  * [2.3 EtherNet/IP Scanner](2-ethernet-ip/3-scanner/README.md)
+    * [2.3.1 EtherNet/IP Scanner 사양](2-ethernet-ip/3-scanner/1-specification.md)
+    * [2.3.2 EtherNet/IP Scanner 설정](2-ethernet-ip/3-scanner/2-settings.md)
+
+  * [2.3 EtherNet/IP Adapter](2-ethernet-ip/4-adapter/README.md)
+    * [2.4.1 EtherNet/IP Adapter 사양](2-ethernet-ip/4-adapter/1-specification.md)
+    * [2.4.2 EtherNet/IP Adapter 설정](2-ethernet-ip/4-adapter/2-settings.md)
+    * [2.4.3 외부 Scanner 장치 연결](2-ethernet-ip/4-adapter/3-connect-scanner/README.md)
+      * [2.4.3.1 LS ELECTRIC PLC와의 연결](2-ethernet-ip/4-adapter/3-connect-scanner/1-connect-ls-plc.md)
+    * [2.4.4 에러코드](2-ethernet-ip/4-adapter/4-error_code.md)
+
 
 * [3. EtherCAT Master IO](3-ethercat-master-io/README.md)
   * [3.1 EtherCAT Master IO 설정](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)

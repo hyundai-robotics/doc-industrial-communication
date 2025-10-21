@@ -1,18 +1,8 @@
-## 2.3 EtherNet/IP 어댑터
+## 2.4.2 EtherNet/IP 어댑터 (슬레이브) 설정
 
-### 2.3.1 EtherNet/IP 어댑터 사양
-|항목|설명|
-|------|---|
-|장치 타입|General Purpose Discrete I/O (7)|
-|Input Assembly Instance|100|
-|Output Assembly Instance|112|
-|Input Size Range(bytes)|0 - 240|
-|Output Size Range(bytes)|0 - 240|
-|RPI Range (ms)|5 – 3000|<br>
-
-### 2.3.2 티칭팬던트를 통한 EtherNet/IP 어댑터의 설정 및 모니터링
+### 1. 티칭팬던트를 통한 EtherNet/IP 어댑터의 설정 및 모니터링
 초기화면에서 “SYSTEM” > “Control Parameter” > “Industrial Communication” > ”Ethernet/IP 어댑터” 로 이동<br>
-![Config.PNG](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
+![Config.PNG](../../_assets/2-ethernet-ip/4-adapter/Config.PNG)<br>
 *[그림 2.3.1 설정]*<br>
 
 **[Network]**
