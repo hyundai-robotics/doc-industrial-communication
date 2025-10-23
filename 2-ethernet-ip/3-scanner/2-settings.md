@@ -200,7 +200,11 @@
 <br>
 
 {% hint style="info" %}
-\.      [통신 상태 확인]
+\.      [통신 상태 확인]   
+\.       - License: 현재 라이선스 상태   
+\.       - Run: EtherNet/IP 기능 동작 상태 표시   
+\.       - Communication: EtherNet/IP 통신 연결 상태 표시   
+\.       - Error: EtherNet/IP 오류 상태 표시   
 
 \.      장치 번호 색상   
 \.       - 초록색 : 통신 연결 OK   
