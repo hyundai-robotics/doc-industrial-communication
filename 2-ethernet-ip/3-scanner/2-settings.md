@@ -111,12 +111,12 @@
 \.      [Adapter 1]   
 \.      Crevis M9289   
 \.      - M7002 : None   
-\.      - M2768 : O > T 1bytes   
-\.      - M2768 : O > T 1bytes   
-\.      - M12DF : T > O 2bytes   
-\.      - M12DF : T > O 2bytes   
-\.      - M2768 : O > T 1bytes   
-\.      - M2768 : O > T 1bytes   
+\.      - M2768 : 1byte (O > T)   
+\.      - M2768 : 1byte (O > T)   
+\.      - M12DF : 2bytes (T > O)   
+\.      - M12DF : 2bytes (T > O)   
+\.      - M2768 : 1byte (O > T)   
+\.      - M2768 : 1byte (O > T)   
 
 \.      [IO Assembly 정보]   
 \.      [T > O]   
@@ -147,25 +147,25 @@
 
 \.      [Adapter 2]   
 \.      Crevis M9289   
-\.      - M7001 : T > O  1 bytes   
-\.      - M12DF : T > O  2 bytes   
-\.      - M12DF : T > O  2 bytes   
-\.      - M225F : O > T  2 bytes   
-\.      - M225F : O > T  2 bytes   
-\.      - M225F : O > T  2 bytes   
-\.      - M2628 : O > T  1 bytes   
-\.      - M2618 : O > T  1 bytes   
-\.      - M5112 : T > O  14 bytes / O > T  2 bytes    
+\.      - M7001 : 1byte (T > O)   
+\.      - M12DF : 2bytes (T > O)   
+\.      - M12DF : 2bytes (T > O)   
+\.      - M225F : 2bytes (O > T)   
+\.      - M225F : 2bytes (O > T)   
+\.      - M225F : 2bytes (O > T)   
+\.      - M2628 : 1byte (O > T)   
+\.      - M2618 : 1byte (O > T)   
+\.      - M5112 : 14bytes (T > O) + 2bytes (O > T)    
 
 
 \.      [IO Assembly 정보]   
 \.      [T > O]   
-\.      - Size: 19 bytes   
+\.      - Size: 19bytes   
 \.      - Instance: 1   
 \.      - Run/Idle Header: No   
 \.
 \.      [O > T]    
-\.      - Size: 10 bytes   
+\.      - Size: 10bytes   
 \.      - Instance: 2   
 \.      - Run/Idle Header: 32Bit   
 {% endhint %}
