@@ -78,6 +78,11 @@
   * [2.3 EtherNet/IP Scanner](2-ethernet-ip/3-scanner/README.md)
     * [2.3.1 EtherNet/IP Scanner 사양](2-ethernet-ip/3-scanner/1-specification.md)
     * [2.3.2 EtherNet/IP Scanner 설정](2-ethernet-ip/3-scanner/2-settings.md)
+    * [2.3.3 외부 Adapter 장치 연결](2-ethernet-ip/3-scanner/3-connect-adapter/README.md)
+      * [2.3.3.1 Crevis Remote IO](2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis.md)
+      * [2.3.3.2 Wago Remote IO](2-ethernet-ip/3-scanner/3-connect-adapter/2-wago.md)
+      * [2.3.3.3 Hilscher CIFX PCI](2-ethernet-ip/3-scanner/3-connect-adapter/3-pci.md)
+      * [2.3.3.4 Baumer Sensor](2-ethernet-ip/3-scanner/3-connect-adapter/4-baumer.md)
 
   * [2.3 EtherNet/IP Adapter](2-ethernet-ip/4-adapter/README.md)
     * [2.4.1 EtherNet/IP Adapter 사양](2-ethernet-ip/4-adapter/1-specification.md)
