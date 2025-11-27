@@ -59,6 +59,10 @@
 \.      * IP Address : 장치의 IP 주소   
 \.      * Device Name : 장치 이름 (통신 연결과는 무관, 단순 식별용)   
 \.      * RPI (ms) : IO 데이터 갱신 주기   
+\.      * Connection Type   
+\.          - Exclusive Owner (I/O) : Scanner - Adapter 입출력 연결
+\.          - Input Only : Adapter의 입력 신호만 연결
+\.          - Listen Only : Adapter 가 다른 Scanner와 I/O 연결 되어있는 상태에서 입력 신호만 연결
 
 \.      * Input (T > O) : Slave > Master 연결   
 \.      * Output (O > T) : Master > Slave 연결   
