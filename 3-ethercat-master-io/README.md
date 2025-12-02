@@ -2,28 +2,28 @@
 
 <br>
 
-This chapter describes how to connect several standard remote IO modules selected by our company using the EtherCAT Master.
+This chapter explains how to connect several standard Remote IO modules selected by our company using an EtherCAT Master.
 
 <br>
 
 ##### EtherCAT Overview
 
-EtherCAT is an Ethernet-based Fieldbus system developed by Beckhoff Automation.
+EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
 
-The EtherCAT protocol provides functions for very fast IO data updates and accurate synchronization.
+The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization.
 
 <br>
 
 ##### EtherCAT Master IO
-   * The product corresponds to the existing Fieldbus master and can make a request for IO data connection to the EtherCAT slaves
+   * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
 
 <br>
 
 {% hint style="info" %}
-\.      For the EtherCAT master, Use the LAN port of the Controller.
+\.      An EtherCAT Master uses the general LAN port for the Hi6 controller.
 
 
-\.     For the remote IO module, the M9386 EtherCAT network adapter of Crevis is used.
+\.      A Remote IO module uses the M9386 EtherCAT network adapter from Crevis.
 {% endhint %}
 
 

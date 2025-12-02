@@ -1,28 +1,28 @@
-﻿# 1.3.6.3 Specifications of a PROFIBUS-DP Slave
+# 1.3.6.3 PROFIBUS-DP Slave Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**        | **Specification**     |
-| :---                      | :---                  |
-| Maximum input byte size   | 244 bytes             |
-| Maximum output byte size  | 244 bytes             |
-| IO connection (implicit)  |                       |
-| IO connection             |                       |
-| Minimum IO cycle time     |                       |
-| Communication speed       | 9.6–12000 Kbit/s      |
-| Auto baud rate detection  | Supported             |
-| Quick connect             | None                  |
-| Topology                  |                       |
+| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| :---                       | :---                      |
+| Maximum Input Byte Size        | 244 Bytes                 |
+| Maximum Output Byte Size        | 244 Bytes                 |
+| IO Connection (Implicit)         |                           |
+| IO Connection                    |                           |
+| IO Minimum Cycle Time         |                           |
+| Communication Speed                  | 9.6 ~ 12000 Kbit/s        |
+| Auto Baud Rate Detection   | Supported                      |
+| Quick Connect              | Not applicable                 |
+| Topology                   |                          |
 
 
 <br>
 
 ##### Network Characteristics
 
-| **Classification**             | **Specification**    |
-| :---                           | :---                 |
-| Data transport layer           | PROFIBUS FDL         |
-| Hub                            | None                 |
-| Switch                         | None                 |
+| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| :---                           | :---                      |
+| Data Transport Layer           | PROFIBUS FDL              |
+| Hub                            | Not applicable                  |
+| Switch                         | Not applicable                  |

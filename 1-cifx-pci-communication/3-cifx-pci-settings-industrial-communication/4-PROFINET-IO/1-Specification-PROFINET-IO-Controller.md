@@ -1,23 +1,23 @@
-﻿# 1.3.4.1 Specifications of the PROFINET IO Controller
+# 1.3.4.1 PROFINET IO Controller Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**                     | **Specification**        |
-| :---                                   | :---                      |
-| Maximum connectable slave count        | 128                       |
-| Maximum input byte size                | 1200 Bytes (FB Block Max) |
-| Maximum output byte size               | 1200 Bytes (FB Block Max) |
-| Maximum input byte size (1 slave)      | 1024 bytes                |
-| Maximum output byte size (1 slave)     | 1024 bytes                |
-| IO connection                          |                           |
-| Minimum IO cycle time                  | 1 ms                      |
-| Communication speed                    | 100 Mbit/s (Full-Duplex)  |
-| Auto negotiation                       | Not supported             |
-| Quick connect                          | Not supported             |
-| Topology                               | Tree, Line                |
-| DCP                                    | Supported                 |
+| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| :---                           | :---                     |
+| Maximum Connectable Slave Count       | 128개                     |
+| Maximum Input Byte Size            | 1200 Bytes (FB Block Max) |
+| Maximum Output Byte Size            | 1200 Bytes (FB Block Max) |
+| Maximum Input Byte Size (Per Slave)| 1024 Bytes                |
+| Maximum Output Byte Size (Per Slave)| 1024 Bytes                |
+| IO Connection                        |                           |
+| IO Minimum Cycle Time             | 1ms                       |
+| Communication Speed                       | 100 Mbit/s (Full-Duplex) |
+| Auto Negotiation               | Not supported                    |
+| Quick Connect                  | Not supported                    |
+| Topology                       | Tree, Line               |
+| DCP                            | Supported                      |
 
 
 
@@ -25,9 +25,9 @@
 
 ##### Network Characteristics
 
-| **Clssification**                      | **Specification**        |
-| :---                                   | :---                      |
-| Network slave scan                     | Supported                 |
-| Data transport layer                   | Ethernet II, IEEE 802.3   |
-| Hub                                    | Cannot be used            |
-| Switch                                 | Limited use is allowed (Priority Tagging and Link Layer Discovery Protocol (LLDP) need to be supported)       |
+| **| Category                      | Specifications                  |**                      | **| Category                      | Specifications                  |**                  |
+| :---                          | :---                     |
+| Network Slave Scan            | Supported                      |
+| Data Transport Layer          | Ethernet II, IEEE 802.3   |
+| Hub                           | Not available                |
+| Switch                        | Limited use possible (Priority Tagging and LLDP needs to be supported.) |

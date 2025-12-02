@@ -1,14 +1,14 @@
-# 5. EtherNet/IP 어댑터
+# 2. EtherNet/IP Adapter
 
-내장형 EtherNet/IP 어댑터에 대한 설명입니다.<br>
+Description of the built-in EtherNet/IP adapter.<br>
 
-### 용어
-|약어|설명|
+### Terminology
+|Abbreviation|Description|
 |---------------|------------------------------|
-|어댑터(Adapter)|EtherNet/IP 스캐너(Scanner)로 부터 Output Data를 수집하고 Input Data를 송신하는 장치|
-|스캐너(Scanner)|말단 장치(EtherNet/IP 어댑터)로 Output Data를 보내고 그들로부터 Input Data를 수집하는 장치|
+|Adapter|Device that collects output data from the EtherNet/IP scanner and transmits the input data|
+|Scanner|Device that sends output data to terminal devices (EtherNet/IP adapters) and collects input data from them|
 |LAN| Local Area Network|
-|RPI|Requested Packet Interval(통신 주기)|
+|RPI|Requested Packet Interval (Communication Cycle)|
 |PLC|Programmable logic controller|
-|T2O|Target to Originator(어댑터 -> 스캐너)|
-|O2T|Originator to Target(스캐너 -> 어댑터)|
+|T2O|Target to Originator (Adapter -> Scanner)|
+|O2T|Originator to Target (Scanner -> Adapter)|

@@ -1,113 +1,121 @@
-### 5.6.1 LS ELECTRIC PLC와의 연결
+### 2.6.1 Connection with LS ELECTRIC PLC
 
-LS ELECTRIC PLC와 Hi6 EtherNet/IP와의 연결 방법을 설명합니다.  
-아래에서 사용되는 PLC와 통신모듈은 다음과 같습니다.  
-(PLC : XGI-CPUS, 통신모듈 : XGL-EFMTB)
+This section explains how to connect the LS ELECTRIC PLC with Hi6 EtherNet/IP.
+The PLC and communication module used below are as follows.
+(PLC: XGI-CPUS. Communication Module: XGL-EFMTB)
 
-#### 5.6.1.1 XG5000 실행
-![xg5000.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/xg5000.png) <br>
-*[그림 5.6.1.1 XG5000의 실행]*<br>
-XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC 홈페이지를 참고 하십시오.
+#### 2.6.1.1 XG5000 Running
+![!xg5000.png <br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/xg5000.png) <br>
+* [Figure 2.6.1.1 XG5000 Running]*<br>
+For downloading the XG5000 program and detailed usage methods, please refer to the LS ELECTRIC website.
 
-#### 5.6.1.2 EDS File의 등록
-메뉴 > 도구 > EDS(D) > EDS파일 등록 클릭 > “Hi6_EIP_240402.eds” 선택<br>
-아래 그림과 같이 EDS 파일 등록 확인<br>
-![eds.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/eds.png)<br>
-*[그림 5.6.1.2 EDS File의 등록]*<br>
+#### 2.6.1.2 EDS File Registration
+Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi6_EIP_240402.eds."<br>
+Confirm EDS file registration as shown in the figure below.<br>
+![!eds.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/eds.png)<br>
+* [Figure 2.6.1.2 EDS File Registration]*<br>
 
 
-#### 5.6.1.3 장치 연결
-[1] 프로젝트 생성<br>
-![newProject_1.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/newProject_1.png)<br>
-*[그림 5.6.1.3 새프로젝트 생성]*<br>
+#### 2.6.1.3 Device Connection
+[1] Create a project.<br>
+![!newProject_1.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_1.png)<br>
+* [Figure 2.6.1.3 Creating a New Project]*<br>
 
-[2] 통신 모듈 추가<br>
-![newProject_2.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/newProject_2.png)<br>
-*[그림 5.6.1.4 통신 모듈 추가1]*<br>
+[2] Add a communication module.<br>
+![!newProject_2.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_2.png)<br>
+* [Figure 2.6.1.4 Adding a Communication Module 1]*<br>
 
-![newProject_3.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/newProject_3.png)<br>
-*[그림 5.6.1.5 통신 모듈 추가2]*<br>
+![!newProject_3.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_3.png)<br>
+* [Figure 2.6.1.5 Adding a Communication Module 2]*<br>
 
-![newProject_4.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/newProject_4.png)<br>
-*[그림 5.6.1.6 통신 모듈 추가3]*<br>
+![!newProject_4.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_4.png)<br>
+* [Figure 2.6.1.6 Adding a Communication Module 3]*<br>
 
-[3] 통신 모듈의 설정 <br>
-아래 그림에서 좌측 탭에 보이는 XGL-EFMT를 더블 클릭<br>
-![newProject_6.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/newProject_6.png)<br>
-*[그림 5.6.1.7 통신 모듈 설정]*<br>
-- IP주소, 서브넷마스크, 게이트웨이 등을 설정합니다.  
-- PLC의 2개의 LAN Port를 릴레이 기능으로 사용하려면 "Relay" 체크 박스를 선택해 줍니다.  
-- RAPIEnet설정은 Disable로 변경합니다.
+[3] Set a communication module <br>
+Double-click XGL-EFMT shown in the left tab in the figure below.<br>
+![!newProject_6.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_6.png)<br>
+* [Figure 2.6.1.7 Communication Module Settings]*<br>
+- Set the IP address, subnet mask, gateway, etc.
+- To use the two LAN ports of the PLC as a relay function, select the "Relay" checkbox.
+- Change the RAPIEnet setting to Disable.
 
-#### 5.6.1.4 온라인 접속 설정
-[1] USB 케이블로 PLC와 연결합니다.<br>
-![newProject_7.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/newProject_7.png)<br>
-*[그림 5.6.1.8 온라인 접속 설정1]*<br>
+#### 2.6.1.4 Online Connection Settings
+[1] Connect the PLC with a USB cable.<br>
+![!newProject_7.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_7.png)<br>
+* [Figure 2.6.1.8 Online Connection Settings 1]*<br>
 
-[2] 아래 그림 좌측에 표시된 버튼을 눌러 전체 설정을 다운로드 합니다.<br>
-![newProject_8.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/newProject_8.png)<br>
-*[그림 5.6.1.9 온라인 접속 설정2]*<br>
+[2] Press the button shown on the left in the figure below to download the entire settings.<br>
+![!newProject_8.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_8.png)<br>
+* [Figure 2.6.1.9 Online Connection Settings 2]*<br>
 
-#### 5.6.1.5 오토 스캔
-[1] 오토 스캔은 PLC와 연결된 상태에서 가능합니다.<br>
-현재 온라인 상태가 아니라면 메뉴 > 온라인 > 접속 을 클릭하여 온라인 상태로 변경합니다.<br>
+#### 2.6.1.5 Auto Scan
+[1] Auto Scan is possible when connected to the PLC.<br>
+If the current state is not online, click Menu > Online > Connect to change to online status.<br>
 
-[2] XGL-EFMT 에서 마우스 우측클릭 > 항목 추가 > 스마트 증설 클릭<br>
-![auto1.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/auto1.png)<br>
-*[그림 5.6.1.10 오토 스캔1]*<br>
+[2] Right-click XGL-EFMT > Add Item > Smart Expansion<br>
+![!auto1.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto1.png)<br>
+* [Figure 2.6.1.10 Auto Scan 1]*<br>
 
-[3] Next 클릭  <br>
-![auto2.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/auto2.png)<br>
-*[그림 5.6.1.11 오토 스캔2]*<br>
+[3] Click Next. <br>
+![!auto2.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto2.png)<br>
+* [Figure 2.6.1.11 Auto Scan 2]*<br>
 
-[4] 오토 스캔 클릭  <br>
-![auto3.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/auto3.png)<br>
-*[그림 5.6.1.12 오토 스캔3]*<br>
+[4] Click Auto Scan. <br>
+![!auto3.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto3.png)<br>
+* [Figure 2.6.1.12 Auto Scan3]*<br>
 
-![auto4.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/auto4.png)<br>
-*[그림 5.6.1.13 오토 스캔4]*<br>
+![!auto4.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto4.png)<br>
+* [Figure 2.6.1.13 Auto Scan4]*<br>
 
-[5] 자동 스캔된 장치 확인  
-![auto5.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/auto5.png)<br>
-*[그림 5.6.1.14 오토 스캔5]*<br>
+[5] Check the automatically scanned devices.
+![!auto5.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto5.png)<br>
+* [Figure 2.6.1.14 Auto Scan5]*<br>
 
-![auto6.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/auto6.png)<br>
-*[그림 5.6.1.15 오토 스캔6]*<br>
+![!auto6.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto6.png)<br>
+* [Figure 2.6.1.15 Auto Scan6]*<br>
 
-아래 그림과 같이 Hi6 EtherNet/IP 어댑터 장치가 리스트에 나타납니다.  <br>
-![auto7.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/auto7.png)<br>
-*[그림 5.6.1.16 오토 스캔7]*<br>
+The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure below. <br>
+![!auto7.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto7.png)<br>
+* [Figure 2.6.1.16 Auto Scan7]*<br>
 
-#### 5.6.1.6 프로그램 변수 등록
-[1] 스캔프로그램 > NewProgram > 로컬변수(더블클릭)<br>
-![variable1.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/variable1.png)<br>
-*[그림 5.6.1.17 변수 등록1]*<br>
+#### 2.6.1.6 Program Variable Registration
+[1] Scan Program > NewProgram > Local Variables (double-click)<br>
+![!variable1.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable1.png)<br>
+* [Figure 2.6.1.17 Variable Registration 1]*<br>
 
-[2] 통신에서 사용할 Input/Output Data를 설정합니다.<br>
-![variable2.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/variable2.png)<br>
-*[그림 5.6.1.18 변수 등록2]*<br>
+[2] Set the input/output data to be used in communication.<br>
+![!variable2.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable2.png)<br>
+* [Figure 2.6.1.18 Variable Registration 2]*<br>
 
-#### 5.6.1.7 EtherNet/IP Adapter 설정
-[1] 좌측 리스트에서 EB01(Hi6 EtherNet/IP 어댑터)를 더블 클릭 합니다.<br>
+#### 2.6.1.7 EtherNet/IP Adapter Settings
+[1] Double-click EB01 (Hi6 EtherNet/IP adapter) in the list on the left.<br>
 
-[2] EIP 상세 설정 버튼을 누릅니다.<br>
-![AdapterSetting1.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/AdapterSetting1.png)<br>
-*[그림 5.6.1.19 EtherNet/IP Adapter 설정1]*<br>
+[2] Press the EIP detailed settings button.<br>
+![!AdapterSetting1.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/AdapterSetting1.png)<br>
+* [Figure 2.6.1.19 EtherNet/IP Adapter Settings 1]*<br>
 
-[3] 아래 그림을 참고하여 EtherNet/IP 어댑터의 설정값을 선택해 줍니다. <br> 
-- 접속 형태
+[3] Refer to the figure below to select the setting values for the EtherNet/IP adapter. <br>
+- Connection type
 - T2O RPI Range, O2T RPI Range
 - T2O Input, O2T Output size
-- 송신 주기
-- 타임 아웃
-- 로컬태크, 리모트태그 <br>
-![AdapterSetting2.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/AdapterSetting2.png) <br>
-*[그림 5.6.1.20 EtherNet/IP Adapter 설정2]*<br>
+- Transmission cycle
+- Timeout
+- Local tag, Remote tag <br>
+![!AdapterSetting2.png <br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/AdapterSetting2.png) <br>
+* [Figure 2.6.1.20 EtherNet/IP Adapter Settings 2]*<br>
 
-[4] 온라인 > 통신 모듈 설정 및 진단 > 서비스 인에블 클릭<br>
-![AdapterSetting3.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/AdapterSetting3.png)<br>
-*[그림 5.6.1.21 EtherNet/IP Adapter 설정3]*<br>
+[4] Click Online > Communication Module Settings and Diagnostics > Service Enable.<br>
+![!AdapterSetting3.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/AdapterSetting3.png)<br>
+* [Figure 2.6.1.21 EtherNet/IP Adapter Settings 3]*<br>
 
-[5] FEnet의 I/O서비스 체크 확인<br>
-![AdapterSetting4.png](../../_assets/EIP-ADAPTER/ConnectWithScanner/AdapterSetting4.png)<br>
-*[그림 5.6.1.22 EtherNet/IP Adapter 설정4]*<br>
+[5] Check the FEnet I/O Service checkbox.<br>
+![!AdapterSetting4.png<br>](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/AdapterSetting4.png)<br>
+* [Figure 2.6.1.22 EtherNet/IP Adapter Settings 4]*<br>
+
+<br>
+
+##### 2.6.1.8 Assignment of IO Blocks after Completion of Communication Settings
+
+{% hint style="info" %}
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("**4. Industrial Communication IO Block Assignment**").**](../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}

@@ -1,30 +1,30 @@
-﻿# 1.3.3.3 Specifications of an EtherNet/IP Adapter
+# 1.3.3.3 EtherNet/IP Adapter Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**           | **Specification**                             |
-| :---                         | :---                                           |
-| Maximum input byte size      | 240 bytes (TP) / 504 bytes (SYCON.net)         |
-| Maximum output byte size     | 240 bytes (TP) / 504 bytes (SYCON.net)         |
-| IO connection (implicit)     | 1 exclusive Owner, 1 Listen only, 1 Input Only |
-| IO connection                | Cyclic, Application Trigger, Change of State   |
-| Minimum IO cycle time        | 1 ms                                           |
-| Communication speed          | 10 or 100 Mbit/s                               |
-| Auto negotiation             | Supported                                      |
-| Quick connect                | Supported                                      |
-| Topology                     | Tree, Line, Ring                               |
-| DLR V2 (Ring Topology)       | Supported                                      |
-| Additional functions         | DHCP, BOOTP, and ACD-supported                 |
+| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| :---                       | :---                      |
+| Maximum Input Byte Size        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
+| Maximum Output Byte Size        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
+| IO Connection (Implicit)         | 1 exclusive Owner, 1 Listen only, 1 Input Only |
+| IO Connection                    | Cyclic, Application Trigger, Change of State   |
+| IO Minimum Cycle Time         | 1ms                       |
+| Communication Speed                  | 10 or 100 Mbit/s          |
+| Auto Negotiation           | Supported                      |
+| Quick Connect              | Supported                      |
+| Topology                   | Tree, Line, Ring          |
+| DLR V2 (Ring Topology)     | Supported                      |
+| Additional Features                   | DHCP, BOOTP, ACD Supported    |
 
 
 <br>
 
 ##### Network Characteristics
 
-| **Classification**           | **Specification**        |
-| :---                         | :---                      |
-| Data transport layer         | Ethernet II, IEEE 802.3   |
-| Hub                          | Can be used               |
-| Switch                       | Can be used               |
+| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| :---                       | :---                      |
+| Data Transport Layer       | Ethernet II, IEEE 802.3   |
+| Hub                        | Available                  |
+| Switch                     | Available                  |

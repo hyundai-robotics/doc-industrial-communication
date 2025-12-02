@@ -1,98 +1,101 @@
-﻿# 1.3.9.2 Setting a CC-Link IE Field Slave
+# 1.3.9.2 CC-Link IE Field Slave Settings
 
-Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slot**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)” first and proceed with the following methods.
+“[Please follow the "**1.3.1 CIFX PCI Slot Settings**" procedure and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
-<br>
-
-##### 1. By using the teach pendant, select the CC-Link IE Field slave in the section for setting industrial communication firmware and reboot the robot controller.
-
-![[Figure 1.3.9.2-1 Firmware Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the readiness of the selected protocol in the section for monitoring industrial communication.
+##### 1. Using the TP, select a CC-Link IE Field slave in the industrial communication firmware settings and reboot the robot controller.
 
-![[Figure 1.3.9.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_2.png>) 
+![[Figure 1.3.9.2-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_1.png>)
+
+<br>
+
+##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+
+![[Figure 1.3.9.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_2.png>)
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If the Config file set using SYCON.net has been downloaded to the relevant PCI slot, the setting values of the teach pendant will be ignored.
+*\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
 {% endhint %}
 
 <br>
 
-##### 3. Click the menu to enter the slave setting screen. 
-**\[System > 2: Control Parameter > 11: Industrial Communication > 2: Slave PCI Slot Configuration > CC-Link IE Field Slave]**
+##### 3. Touch the menu to enter the slave settings screen.
+*\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > CC-Link IE Field Slave]**
 
-![[Figure 1.3.9.4-3 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_3.png>) 
+![[Figure 1.3.9.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_3.png>)
 
-![[Figure 1.3.9.4-4 Slave Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_4.png>) 
+![[Figure 1.3.9.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_4.png>)
 
 <br>
 
-##### 4. Description of Each Item
+##### 4. Description of each item
 
 {% hint style="info" %}
 \.      [Network Number]
 
-\.      Identifies the CC-Link IE Field network (1~239)
+\.      CC-Link IE field network number (1 –239)
 {% endhint %}
 
 {% hint style="info" %}
 \.      [Station Address]
 
-\.      Current station address of the slave device as an unique identifier of a station within a network (1 ~ 120)
+\.      Device ID within the connected network (1–120)
 {% endhint %}
 
 {% hint style="info" %}
 \.      [IO Type]
 
-\.      The parameter is not relevant for the Slave configuration. The IO type is evaluated by the master. For more information, refer to the manual of the master and/ or of the PLC.   
-\.      - Mixed: In/Out with the different index. Refers to a case where the input and output are mixed and the input and output do not use the same address.      
-\.      - Input: Input only   
-\.      - Output: Output only   
-\.      - FrontBackMixture: In/Out with the same index. Refers to a case where the input and output are mixed and the input and output use the same address.   
+\.      IO type is determined by the master device settings.
+\.      - Mixed: Input and output use different indexes (different addresses).
+\.      - Input: Input only
+\.      - Output: Output only
+\.      - FrontBackMixture: Input and output use the same index (same address).
 {% endhint %}
 
 {% hint style="info" %}
 \.      [Device Type]
 
-\.      Intelligent Device Station   
-\.      - RY, RX (max): 256 bytes   
+\.      The maximum IO size that can be set varies depending on the Device Type.
+
+\.      Intelligent Device Station
+\.      - RY, RX (max): 256 bytes
 \.      - RWw, RWr (max): 1024 words
 
-\.      Remote Device Station   
-\.      - RY, RX (max): 16 bytes   
+\.      Remote Device Station
+\.      - RY, RX (max): 16 bytes
 \.      - RWw, RWr (max): 64 words
 {% endhint %}
 
 {% hint style="info" %}
 \.      [IO Size]
 
-\.      Master -> Slave   
-\.      - RWw (word data)   
-\.      - RY (bit data)   
+\.      Master -> Slave
+\.      - RWw (word data)
+\.      - RY (bit data)
 
-\.      Slave -> Master   
-\.      - RWr (word data)   
-\.      - RX (bit data)  
+\.      Slave -> Master
+\.      - RWr (word data)
+\.      - RX (bit data)
 {% endhint %}
 
 <br>
 
-##### 5. When the settings are completed, check the communication status according to the following procedures.
+##### 5. After completing the settings, check the communication status according to the procedure below.
 
-Please refer to (“[**1.4 CIFX PCI - Monitoring Industrial Communication**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
+TP 에서 산업용 통신 상태를 확인하는 절차는 (“[For the procedure to check the industrial communication status on the TP, refer to ("**1.4 CIFX PCI Communication Monitoring**").](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 
 <br>
 
-##### 6. After completing communication setup, Allocate IO block
+##### 6. Assign IO blocks after completing the communication settings.
 
 {% hint style="info" %}
-\.      **You can use input/output signals by allocating an IO block. Please Check (“[**4. Setting IO Block Allocation of the Industrial Communication**](../../../4-io-block-allocation.md)”)**
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("**4. Industrial Communication IO Block Assignment**").**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) 
+![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>)

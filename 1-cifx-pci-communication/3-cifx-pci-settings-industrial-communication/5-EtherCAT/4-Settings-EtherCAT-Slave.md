@@ -1,11 +1,11 @@
-﻿# 1.3.5.4 Setting an EtherCAT Slave
+# 1.3.5.4 EtherCAT Slave Settings
 
-The preparation of the manual is in progress.
+The manual is in preparation.
 
 <br>
 
 {% hint style="info" %}
-\.      **[EtherCAT Slave ESI File Download]**
+\.      **\.      [EtherCAT Slave ESI File Download]**
 
-\.      Please refer to “[**5. Slave Device Description Files**](../../../5-slave-config-file.md)”
+\.      “[\.      Please refer to "**5. Slave Device Description File**."](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}

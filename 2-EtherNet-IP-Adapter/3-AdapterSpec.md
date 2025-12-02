@@ -1,31 +1,31 @@
-## 5.3 EtherNet/IP 어댑터
+## 2.3 EtherNet/IP Adapter
 
-### 5.3.1 EtherNet/IP 어댑터 사양
-|항목|설명|
+### 2.3.1 EtherNet/IP Adapter Specifications
+|Item|Description|
 |------|---|
-|장치 타입|General Purpose Discrete I/O (7)|
+|Device Type|General Purpose Discrete I/O (7)|
 |Input Assembly Instance|100|
 |Output Assembly Instance|112|
 |Input Size Range(bytes)|0 - 240|
 |Output Size Range(bytes)|0 - 240|
 |RPI Range (ms)|5 – 3000|<br>
 
-### 5.3.2 티칭팬던트를 통한 EtherNet/IP 어댑터의 설정 및 모니터링
-초기화면에서 “SYSTEM” > “Control Parameter” > “Industrial Communication” > ”Ethernet/IP 어댑터” 로 이동<br>
-![Config.PNG](../_assets/EIP-ADAPTER/Spec/Config.PNG)<br>
-*[그림 5.3.1 설정]*<br>
+### 2.3.2 EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant
+On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP Adapter"<br>
+![!Config.PNG<br>](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
+* [Figure 2.3.1 Settings]*<br>
 
-**[Network]**
--	기능사용 : Ethernet/IP 어댑터의 사용여부 선택
--	이더넷 포트 선택 : Ethernet/IP Scanner와 연결할 LAN Port 선택 (선택된 LAN Port의 정보는 바로 아래 줄에 표시 됨)<br>
+*[Network]**
+-	Function Use: Select whether to use the Ethernet/IP adapter.
+-	Ethernet Port Selection: Select the LAN port to be connected to the Ethernet/IP scanner. (The information of the selected LAN port is displayed on the line immediately below.)<br>
 
-**[I/O Size]**
--	입력 바이트 수 : 0 ~ 240 설정 가능
--	출력 바이트 수 : 0 ~ 240 설정 가능<br>
+*[I/O Size]**
+-	Input Byte Count: 0–240 can be set.
+-	Output Byte Count: 0–240 can be set.<br>
 
-**[Monitoring]**
-- 동작(Run) : Ethernet/IP의 I/O Data 교환의 상태를 나타냄 (On : 정상 통신 중 , Off : 통신 중 아님)
-- 준비(Ready) : Ethernet/IP 어댑터의 초기화 상태를 나타냄 (On : 초기화 정상, Off : 초기화 비정상)
-- 에러(Error) : Ethernet/IP 어댑터의 알람 또는 경고 상태 표시 (On : 알람/경고 상태, Off : 정상)
-- 버전 : Ethernet/IP 어댑터 S/W 버전 정보 표시
-- 에러코드: 알람 또는 경고가 발생했을 경우 알람/경고 코드 표시 
+*[Monitoring]**
+- Run: Indicates the I/O data exchange status of Ethernet/IP (On: Normal communication. Off: No communication).
+- Ready: Indicates the initialization status of the Ethernet/IP adapter (On: Initialization normal. Off: Initialization abnormal).
+- Error: Displays the alarm or warning status of the Ethernet/IP adapter (On: Alarm/warning status. Off: Normal).
+- Version: Displays the Ethernet/IP adapter S/W version information.
+- Error Code: Displays the alarm or warning code when an alarm or warning occurs.

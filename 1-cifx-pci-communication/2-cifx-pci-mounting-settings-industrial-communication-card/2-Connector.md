@@ -1,14 +1,14 @@
-﻿# 1.2.2 Connectors
+# 1.2.2 Connector
 
 <br>
 
-##### Use the appropriate connectors and cables for industrial communication modes.
+##### Use connectors and cables suitable for the industrial communication method.
 
-![[Figure 1.2.2-1 Industrial Communication Card]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_1.png>)
+![[Figure 1.2.2-1 Industrial Communication Connector]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-\.      DeviceNet terminating resistance: 120 ohms
+\.      DeviceNet termination resistor: 120 ohms
 
-\.      CC-Link terminating resistance: 110 ohms
+\.      CC-Link termination resistor: 110 ohms
 {% endhint %}

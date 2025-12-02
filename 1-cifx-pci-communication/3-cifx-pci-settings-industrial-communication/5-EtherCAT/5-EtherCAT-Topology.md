@@ -1,75 +1,75 @@
-﻿# 1.3.5.5 Cable Topology of EtherCAT
+# 1.3.5.5 EtherCAT Cable Wiring (Topology)
 
 <br>
 
-For EtherCAT, there are restrictions in cable topology and usable Ethernet ports, which are different from existing industrial communication methods.
+Unlike existing industrial communications, EtherCAT has restrictions in cable wiring and usable Ethernet Ports.
 
 ##### 1. Ethernet Port
 
 {% hint style="info" %}
-\.      When the EtherCAT master needs to be connected to a slave, port 0 should be used.
+\.      When connecting the EtherCAT master and slave, port 0 should be used.
 {% endhint %}
 
-![[Figure 1.3.5.5-1 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_1.png>) 
+![[Figure 1.3.5.5-1 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_1.png>)
 
 {% hint style="info" %}
-\.      When connecting one slave to the master
+\.      When one slave is connected to the master.
 {% endhint %}
 
-![[Figure 1.3.5.5-2 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_2.png>) 
+![[Figure 1.3.5.5-2 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_2.png>)
 
 {% hint style="info" %}
-\.      When connecting two slaves or more to the master
+\.      When two or more slaves are connected to the master.
 
-\.      Connect port 1 of a slave to port 0 of the next slave.
+\.      Connect from the slave port 1 to the next slave port 0.
 {% endhint %}
 
-![[Figure 1.3.5.5-3 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_3.png>) 
+![[Figure 1.3.5.5-3 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_3.png>)
 
 <br>
 
-##### 2. Redundancy 
+##### 2. Redundancy
 
 {% hint style="info" %}
-\.      When using the redundancy function in the master
+\.      When using the Redundancy function in the master.
 
-\.      The last slave’s port 1 and the master’s port 1 need to be connected to form a ring structure.
+\.      Connect port 1 of the last slave and port 1 of the master to form a ring structure.
 {% endhint %}
 
-![[Figure 1.3.5.5-4 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_4.png>) 
+![[Figure 1.3.5.5-4 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_4.png>)
 
 
 <br>
 
-##### 3. Cable Topology Error
+##### 3. Cable wiring error
 
 
-Please refer to “[**1.4.1 ERROR Code.**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)” 
+"[Please refer to "**1.4.1 ERROR Code**."](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.     When the network scan function does not work
+\.      If the Network scan function is not working.
 
-\.      Check the port and cable connected to the master.
+\.      Please check the port and cable connected to the master.
 {% endhint %}
 
 ![[Figure 1.3.5.5-5 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_5.png>)
 
 {% hint style="info" %}
-\.      Topology Error (error with configuration)
+\.      Topology Error (Configuration 에서 Error)
 
-\.      Check the topology of cables connected between the master and slaves.
+\.      Please check the cable wiring between the master and slave.
 {% endhint %}
 
 ![[Figure 1.3.5.5-6 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_6.png>)
 
 {% hint style="info" %}
-\.      Topology Error 2 (configuration is normal, but diagnosis shows an error)
+\.      Topology error 2 (normal during configuration but there is an error during diagnosis)
 
-\.      Check the topology of cables connected between the master and slaves.
+\.      Please check the cable wiring between the master and slave.
 
-\.      Check the topology of cables connected between the slaves.
+\.      Please check the cable wiring between slaves.
 {% endhint %}
 
 ![[Figure 1.3.5.5-7 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_7.png>)
@@ -79,7 +79,7 @@ Please refer to “[**1.4.1 ERROR Code.**](../../../1-cifx-pci-communication/4-c
 {% hint style="info" %}
 \.      Mandatory Slave Missing Error
 
-\.      Check the topology of cables connected between the slaves.
+\.      Please check the cable wiring between slaves.
 {% endhint %}
 
 ![[Figure 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)

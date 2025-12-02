@@ -1,22 +1,22 @@
-﻿# 1.3.6.1 Specifications of the PROFIBUS-DP Master
+# 1.3.6.1 PROFIBUS-DP Master Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**                        | **Specification**         |
-| :---                                      | :---                      |
-| Maximum connectable slave count           | 125                       |
-| Maximum input byte size                   | 1200 Bytes (FB Block Max) |
-| Maximum output byte size                  | 1200 Bytes (FB Block Max) |
-| Maximum input byte size (1 slave)         | 244 bytes                 |
-| Maximum output byte size (1 slave)        | 244 bytes                 |
-| IO connection                             |                           |
-| Minimum IO cycle time                     |                           |
-| Communication speed                       | 9.6–12000 Kbit/s          |
-| Auto baud rate detection                  | Not supported             |
-| Quick connect                             | None                      |
-| Topology                                  |                           |
+| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| :---                           | :---                     |
+| Maximum Connectable Slave Count        | 125개                      |
+| Maximum Input Byte Size             | 1200 Bytes (FB Block Max.) |
+| Maximum Output Byte Size | 1200 Bytes (FB Block Max.) |
+| Maximum Input Byte Size (Per Slave) | 244 Bytes                 |
+| Maximum Output Byte Size (Per Slave) | 244 Bytes                 |
+| IO Connection                         |                           |
+| IO Minimum Cycle Time              |                           |
+| Communication Speed                       | 9.6 ~ 12000 Kbit/s        |
+| Auto Baud Rate Detection        | Not supported                    |
+| Quick Connect                   | Not applicable                 |
+| Topology                        |                          |
 
 
 
@@ -24,9 +24,9 @@
 
 ##### Network Characteristics
 
-| **Classification**             | **Specification**     |
-| :---                           | :---                  |
-| Network slave scan             | Supported             |
-| Data transport layer           | PROFIBUS FDL          |
-| Hub                            | None                  |
-| Switch                         | None                  |
+| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| :---                           | :---                      |
+| Network Slave Scan             | Supported                      |
+| Data Transport Layer           | PROFIBUS FDL              |
+| Hub                            | Not applicable                  |
+| Switch                         | Not applicable                  |

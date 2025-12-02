@@ -1,130 +1,130 @@
-﻿# 1.3.3.2 Setting an EtherNet/IP Scanner
+# 1.3.3.2 EtherNet/IP Scanner Settings
 
-Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slot**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)” and “[**1.3.2 Setting SYCON.net**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)” first and proceed with the following methods.
+“[Please follow the "**1.3.1 CIFX PCI Slot Settings**" and "**1.3.2 SYCON.NET Settings**" procedures and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[Please follow the "**1.3.1 CIFX PCI Slot Settings**" and "**1.3.2 SYCON.NET Settings**" procedures and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      When using "SYCON.net", Please refer to  ""[**1.3.2 Help SYCON.NET**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)""
+\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""**1.3.2 SYCON.NET Help**"" function.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
 
-##### 1. Select the EtherNet/IP master in the section for setting industrial communication firmware and reboot the robot controller.
+##### 1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.
 
-![[Figure 1.3.3.2-1 Firmware Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>) 
-
-<br>
-
-##### 2. Check the readiness of the selected protocol in the section for monitoring industrial communication. 
-
-![[Figure 1.3.3.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_2.png>) 
+![[Figure 1.3.3.2-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>)
 
 <br>
 
-##### 3. Select the EtherNet/IP scanner PCI device using SYCON.net. 
+##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+
+![[Figure 1.3.3.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_2.png>)
+
+<br>
+
+##### 3. Select the EtherNet/IP scanner PCI device by using Sycon.net.
 
 ![[Figure 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
-![[Figure 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>) 
+![[Figure 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>)
 
 <br>
 
-##### 4. Scan a PCI device and apply the EtherNet/IP scanner.
+##### 4. Scan the PCI device and apply the EtherNet/IP scanner.
 
-![[Figure 1.3.3.2-5 SYCON.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>) 
+![[Figure 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>)
 
 <br>
 
 ##### 5. Download the settings.
 
-![[Figure 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>) 
+![[Figure 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>)
 
 <br>
 
-##### 6. Prepare an adapter (slave) module that is to be connected to the EtherNet/IP scanner.
-   * In this example, the M9289 EtherNet/IP adapter of Crevis will be used. 
-   * Activate the module by supplying system power and field power.
+##### 6. Prepare the adapter (slave) module to be connected to the EtherNet/IP scanner.
+   * In this example, we use the M9289 EtherNet/IP adapter from Crevis.
+   * Please supply the system power and field power to activate the module.
 
-![[Figure 1.3.3.2-7 Crevis M9289]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_7.png>) 
+![[Figure 1.3.3.2-7 Crevis M9289]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_7.png>)
 
 <br>
 
 ##### 7. Set the IP address of the adapter (slave) for EtherNet/IP communication connection.
 
 {% hint style="info" %}
-\.      Set an IP address by using the DIP switches.
+\.      Setting an IP address using the dip switch.
 {% endhint %}
 
-![[Figure 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>) 
+![[Figure 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-\.      How to set an IP address using BootpSvr.exe.
+\.      How to set an IP address using BootpSvr.exe
 {% endhint %}
 
 <br>
 
-##### 8. (Example of Bootp) Set the IP address of the slave device using Bootp.
-   * Change the No. 9 DIP switch to the On state.
+##### 8. (Bootp example) Set the slave device IP address using Bootp.
+   * Change only DIP switch 9 to ON.
 
 ![[Figure 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
 
-   * Connect the PC to the M9289 adapter's LAN port.
+   * Connect the PC to the M9289 adapter LAN port.
 
 ![[Figure 1.3.3.2-10 Crevis M9289 LAN Port]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_10.png>)
 
 <br>
 
-##### 9. Run BootpSvr.exe on the PC.
-   * The program is provided by Crevis (download IO Guide Pro from the website and install it)
+##### 9. Execute BootpSvr.exe on the PC.
+   * This program is provided by Crevis. (Download and install IO Guide Pro from the website.)
 
 ![[Figure 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
 
 ![[Figure 1.3.3.2-12 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_12.png>)
 
 {% hint style="info" %}
-\.      While pressing Start Bootp, disconnect the power of the M9289 module and apply the power again to reboot.
+\.      With Start BootP being pressed, disconnect and reapply power to the M9289 module to reboot it.
 {% endhint %}
 
 ![[Figure 1.3.3.2-13 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_13.png>)
 
 <br>
 
-##### 10. When the adapter device reboots, the device's information will appear in the BootpSvr.exe program.
+##### 10. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.
 
 ![[Figure 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
 
 <br>
 
-##### 11. Select a device and set an IP.
+##### 11. Select the device and set the IP.
 
 ![[Figure 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[Figure 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
 
 <br>
 
-##### 12. Change all DIP switches of the adapter, where the IP settings are completed, to the Off state, then reboot the device.
+##### 12. After setting the IP, turn all DIP switches of the adapter to OFF and reboot the device.
 
 {% hint style="info" %}
-\.      The status of the DIP switches and whether the adapter has rebooted must be checked.
+\.      Be sure to check the DIP switch status and whether the adapter is rebooted.
 {% endhint %}
 
 ![[Figure 1.3.3.2-17 Crevis DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_17.png>)
 
 <br>
 
-##### 13. Register the electronic data sheet (EDS) files of the slave device.
+##### 13. Register the slave device EDS file.
 
 {% hint style="info" %}
-\.      EDS files are required to use a device that is not registered at SYCON.net.
+\.      An EDS file is required to use a device not registered in Sycon.net.
 
-\.     The EDS files of the M9289 adapter can be downloaded from the Crevis website.
+\.      The EDS file for M9289 adapter can be downloaded from the Crevis website.
 {% endhint %}
 
 ![[Figure 1.3.3.2-18 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_18.png>)
 
 {% hint style="info" %}
-\.      Register the downloaded EDS files on SYCON.net.
+\.      Register the downloaded EDS file in Sycon.net.
 
-\.     When registering the EDS files, check the industrial communication protocol (EtherNet/IP.)
+\.      When registering an EDS file, please check the industrial communication protocol (EtherNet/IP).
 {% endhint %}
 
 ![[Figure 1.3.3.2-19 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_19.png>)![[Figure 1.3.3.2-20 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_20.png>)
@@ -134,133 +134,138 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 
 <br>
 
-##### 14. Perform a network scan.
+##### 14. Network Scan
 
 {% hint style="info" %}
-\.      The EtherNet/IP scanner does not support the network scan function.
+\.      The EtherNet/IP scanner does not support the Network Scan function.
 {% endhint %}
 
 <br>
 
-##### 15. Perform a slave (adapter) device configuration.
+##### 15. Configure the slave (adapter) device.
 
 {% hint style="info" %}
-\.      Import the registered device and place it on the EtherNet/IP master's bus line.
+\.      Drag the registered device and place it on the EtherNet/IP master bus line.
 {% endhint %}
 
 ![[Figure 1.3.3.2-23 Sycon.net Bus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-\.      Double-click the relevant device (adapter) to proceed to the settings.
+\.      Double-click the device (adapter) to proceed with settings.
 
-\.      Set the input/output byte count appropriately for the IO devices mounted on the relevant device.
+\.      Set the input/output byte count appropriate for the IO device installed in that device.
 
-\.      In this example, the settings are as follows:
+\.      In this example, settings were made as follows.
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.3.2-24 Adapter Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
+![[Figure 1.3.3.2-24 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        O -> T: Originator (Master) -> Target (Slave)
+\.        O -> T : Originator(Master) -> Target (Slave)
 
 \.        Output : EtherNet/IP Scanner  -> M9289
 
-\.        [Output Module]     
-\.         1. M225F (2Bytes)   
-\.         **=> 2Bytes**   
+\.        [Output Module]
+\.         1. M225F (2Bytes)
+\.         **\.         => 2Bytes**
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.3.2-25 Adapter Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
+![[Figure 1.3.3.2-25 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-\.        T -> O: Target (Slave) -> Originator (Master)
+\.        T -> O : Target (Slave) -> Originator(Master)
 
 \.        Input : M9289 -> EtherNet/IP Scanner
 
-\.        [Input Module]   
-\.         1. M7001  (1Byte)   
-\.         2. M12DF  (2Bytes)   
-\.         **=> 3Bytes**   
+\.        [Input Module]
+\.         1. M7001  (1Byte)
+\.         2. M12DF  (2Bytes)
+\.         **\.         => 3Bytes**
+
+
+\.         1.M7002 (0Byte)
+\.         2.M12DF (2Bytes)
+\.         **\.         => 2Bytes**
 {% endhint %}
 
 <br>
 
-##### 16. Perform a master (scanner) device configuration.
+##### 16. Configure the master (scanner) device.
     
 
 {% hint style="info" %}
-\.        Right-click the master device to disconnect it.
+\.      Right-click the master device to disconnect it.
 {% endhint %}
 
-![[Figure 1.3.3.2-26 Adapter Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
+![[Figure 1.3.3.2-26 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.        Double-click the master device. 
+\.      Double-click the master device.
 
-\.        Set the IP address of the master device.
+\.      Set the master device IP address.
 {% endhint %}
 
-![[Figure 1.3.3.2-27 Adapter Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
+![[Figure 1.3.3.2-27 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-\.        Set the IP address of the slave device.
+\.      Set the slave device IP address.
 {% endhint %}
 
-![[Figure 1.3.3.2-28 Scanner Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
+![[Figure 1.3.3.2-28 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-\.        Set the scan time of the slave device.
+\.      Set the slave device scan time.
 
-\.        Set an appropriate communication speed by adjusting the relevant value.
+\.      Please adjust the corresponding values to set an appropriate communication speed.
 {% endhint %}
 
-![[Figure 1.3.3.2-29 Scanner Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
+![[Figure 1.3.3.2-29 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.        Check the settings of the slave device in the address table.
+\.      Check the slave device settings in the address table.
 
-\.        Check the input/output IO byte count and the start address.
+\.      Check the input/output IO byte count and start address.
 {% endhint %}
 
-![[Figure 1.3.3.2-30 Scanner Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
+![[Figure 1.3.3.2-30 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
 
 {% hint style="info" %}
 \.        [Quick Connect]
 
-\.        EtherNet/IP supports the quick connect function.  
+\.      EtherNet/IP supports the Quick Connect function.
 {% endhint %}
 
 {% hint style="info" %}
-\.        The following conditions should be met to use the quick connect function.
+\.      The following conditions should be met to use the Quick Connect function.
 
-\.        (1) Products that support the master and slave quick connect function are necessary.  
-\.        (2) The quick connect function cannot be used when using the auto negotiation function.  
-\.        (3) The quick connect function cannot be used when using the auto MDI-X function.  
-\.        (4) 100 Mbit/s and full duplex should be made available.  
+\.      (1) Products that support the Quick Connection function for the master and slaves are required
+\.      (2) Quick Connect cannot be used when using Auto Negotiation
+\.      (3) Quick Connect cannot be used when using Auto MDI-X
+\.      (4) 100 Mbit/s, Full Duplex required
 {% endhint %}
 
 {% hint style="info" %}
-\.        When the settings are established, proceed the download.
+\.      After completing the settings, proceed with downloading
 {% endhint %}
 
-![[Figure 1.3.3.2-31 Scanner Device Setting]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
+![[Figure 1.3.3.2-31 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
 
 <br>
 
-##### 17. Check the communication status. 
+##### 17. Check the communication status
 
 {% hint style="info" %}
-\.        The communications status should be checked in SYCON.net and the teach pendant.
+\.      Check the communication status in Sycon.net and TP.
 
-\.        Refer to (“[**1.4 CIFX PCI - Monitoring Industrial Communication**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”) for the procedures to check the industrial communication status in the teach pendant.
+\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      For the procedure to check the industrial communication status on the TP, refer to ("1.4 CIFX PCI Communication Monitoring").](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Double-clicking the connected master device will allow you to check the communication status.
+\.      Double-click the connected master device to check the communication status.
 {% endhint %}
 
 ![[Figure 1.3.3.2-32 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_32.png>)
@@ -269,15 +274,15 @@ Perform settings according to the procedures of “[**1.3.1 Setting CIFX PCI Slo
 
 
 {% hint style="info" %}
-\.        Using the diagnosis function of SYCON.net will allow you to monitor the IO's input and output status along with the communication status.
+\.      Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
 {% endhint %}
 
 ![[Figure 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
 
 <br>
 
-##### 18. After completing communication setup, Allocate IO block
+##### 18. Assign IO blocks after completing the communication settings.
 
 {% hint style="info" %}
-\.      **You can use input/output signals by allocating an IO block. Please Check (“[**4. Setting IO Block Allocation of the Industrial Communication**](../../../4-io-block-allocation.md)”)**
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("**4. Industrial Communication IO Block Assignment**").**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

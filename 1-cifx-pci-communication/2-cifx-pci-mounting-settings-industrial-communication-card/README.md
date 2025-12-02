@@ -1,3 +1,3 @@
-﻿# 1.2 CIFX PCI - Installing and Setting Industrial Communication Cards
+# 1.2 CIFX PCI Communication Card Installation and Settings
 
- A PCI communication card (from Hilscher) is required for industrial communications. Set the communication cards and connect the connectors based on the required communications.
+To use industrial communication, a PCI communication card (from Hilscher) is required. Set the communication card and wire the connectors according to the required communication.

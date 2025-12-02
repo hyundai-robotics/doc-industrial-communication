@@ -1,53 +1,53 @@
-﻿# 1.3.7.5 Actions for a DeviceNet Error
+# 1.3.7.5 DeviceNet Error Handling
 
 <br>
 
-Please refer to “[**1.4.1 ERROR Code.**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md).”
+"[Please refer to "**1.4.1 ERROR Code**."](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
-##### 1. DeviceNet Terminating Resistance
+##### 1. DeviceNet termination resistor
 
 {% hint style="info" %}
-\.      When connecting the cable for DeviceNet, it is necessary to add resistance to the termination.
+\.      A resistor should be added at the termination when connecting the DeviceNet cable.
 
-\.      If the network scan does not work, check the terminating resistance.
+\.      If the Network Scan function does not work, please check the termination resistor.
 
-\.      DeviceNet terminating resistance: 120 ohms
+\.      DeviceNet termination resistor: 120 ohms
 {% endhint %}
 
 {% hint style="info" %}
-\.      As shown in the figure below, if the CIFX-50 DN PCI is the termination of DeviceNet, add terminating resistance.
+\.      As shown in the figure below, if the CIFX-50 DN PCI is at the DeviceNet termination, please add a termination resistor.
 {% endhint %}
 
-![[Figure 1.3.7.5-1 DeviceNet Terminating Resistance]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
+![[Figure 1.3.7.5-1 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>)
 
 {% hint style="info" %}
-\.      As shown in the figure below, if the DeviceNet remote IO is the termination, add terminating resistance or operate the DIP switches.
+\.      As shown in the figure below, if the DeviceNet Remote IO is at the termination, please add a termination resistor or operate the DIP switch.
 {% endhint %}
 
-![[Figure 1.3.7.5-2 DeviceNet Terminating Resistance]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
+![[Figure 1.3.7.5-2 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>)
 
 <br>
 
 ##### 2. Communication Speed
 
 {% hint style="info" %}
-\.      If the communication speeds of the DeviceNet master and slave are different from each other, the network scan may not be performed.
+\.      If the communication speed differs between the DeviceNet master and slave, the Network Scan function may not work.
 
-\.      If the network scan does not work, check the communication speed.
+\.      If the Network Scan function does not work, please check the communication speed.
 {% endhint %}
 
-![[Figure 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
+![[Figure 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>)
 
 <br>
 
-##### 3. DeviceNet Error
+##### 3. DeviceNet ERROR
 
 {% hint style="info" %}
-\.      If there is no power supply of 24 V to the cable of DeviceNet, the following error will appear.
+\.      If a 24V power is not supplied to the DeviceNet cable, the following error will appear.
 
-\.      Check the power supply of 24 V.
+\.      Please check the 24V power supply.
 {% endhint %}
 
-![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
+![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>)

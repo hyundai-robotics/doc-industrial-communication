@@ -1,3 +1,3 @@
-## 5.6 EtherNet/IP 스캐너와의 연결
+## 2.6 Connecting with EtherNet/IP Scanner
 
-이번장에서는 EtherNet/IP 스캐너와 Hi6 EtherNet/IP 어댑터와의 연결 방법을 설명합니다.  <br>
+This chapter explains how to connect the EtherNet/IP scanner with the Hi6 EtherNet/IP adapter. <br>

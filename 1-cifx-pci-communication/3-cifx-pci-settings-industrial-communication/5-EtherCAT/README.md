@@ -1,21 +1,21 @@
 ﻿# 1.3.5 EtherCAT
 
-This chapter describes the characteristics of EtherCAT masters and slaves and the methods to set them.
+This chapter describes the characteristics of EtherCAT master and slave and how to set them.
 
 <br>
 
 ##### EtherCAT Overview
 
-EtherCAT is an Ethernet-based Fieldbus system developed by Beckhoff Automation.
+EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
 
-The EtherCAT protocol provides functions for very fast IO data updates and accurate synchronization.
+The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization.
 
 <br>
 
 ##### EtherCAT Master
-   * The product corresponds to the existing Fieldbus master and can make a request for IO data connection to the EtherCAT slaves
+   * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
 
 <br>
 
 ##### EtherCAT Slave
-   * The products of this class correspond to the existing Fieldbus slaves and are connected to EtherCAT master devices.
+   * Products that correspond to existing fieldbus slaves and are connected to the EtherCAT master device.

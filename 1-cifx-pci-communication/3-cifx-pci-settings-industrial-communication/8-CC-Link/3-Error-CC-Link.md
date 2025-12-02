@@ -1,33 +1,33 @@
-﻿# 1.3.8.3 Actions for a CC-Link Slave Error
+# 1.3.8.3 CC-Link Slave Error Handling
 
 <br>
 
-Please refer to “[**1.4.1 ERROR Code.**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md).”
+"[Please refer to "**1.4.1 ERROR Code**."](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
-##### 1. CC-Link Terminating Resistance
+##### 1. CC-Link termination resistor
 
 {% hint style="info" %}
-\.      When connecting the cable for CC-Link, it is necessary to add resistance to the termination.
+\.      A resistor should be added at the termination when connecting the CC-Link cable.
 
-\.      If communication is not connected, check the terminating resistance.
+\.      If communication is not connected, please check the termination resistor.
 
-\.      CC-Link terminating resistance: 110 ohms
+\.      CC-Link termination resistor: 110 ohms
 {% endhint %}
 
 {% hint style="info" %}
-\.      As shown in the figure below, if the CIFX-50 CC PCI is the termination of CC-Link, add terminating resistance.
+\.      As shown in the figure below, if the CIFX-50 CC PCI is at the CC-Link termination, please add a termination resistor.
 {% endhint %}
 
-![[Figure 1.3.8.5-1 CC-Link Terminating Resistance]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>) 
+![[Figure 1.3.8.5-1 CC-Link Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>)
 
 
 
-##### 2. CC-Link Error
+##### 2. CC-Link ERROR
 
 {% hint style="info" %}
-\.      For communication connection, there should be a power supply of 24 v to the CC-Link cable.
+\.      A 24V power supply to the CC-Link cable is required for communication connection.
 
-\.      If communication is not connected, check the power supply of 24 V.
+\.      If communication is not connected, please check the 24V power supply.
 {% endhint %}

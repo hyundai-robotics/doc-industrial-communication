@@ -1,3 +1,3 @@
-﻿# 1.1 CIFX PCI - Installing Programs
+# 1.1 CIFX PCI Program Installation
 
-This chapter details how to install programs related to industrial communications.
+This is the method for installing programs related to industrial communication.

@@ -1,22 +1,22 @@
-﻿# 1.3.7.1 Specifications of the DeviceNet Master
+# 1.3.7.1 DeviceNet Master Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**                    | **Specification**                         |
-| :---                                  | :---                                      |
-| Maximum connectable slave count       | 63                                        |
-| Maximum input byte size               | 1200 Bytes (FB Block Max)                 |
-| Maximum output byte size              | 1200 Bytes (FB Block Max)                 |
-| Maximum input byte size (1 slave)     | 255 bytes                                 |
-| Maximum output byte size (1 slave)    | 255 bytes                                 |
-| IO connection                         | Bit Strobe, Change of State, Cyclic, Poll |
-| Minimum IO cycle time                 |                                           |
-| Communication speed                   | 125–500 Kbit/s                            |
-| Auto baud rate detection              | Not supported                             |
-| Quick connect                         | Supported                                 |
-| Topology                              |                                           |
+| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| :---                           | :---                     |
+| Maximum Connectable Slave Count        | 63개                      |
+| Maximum Input Byte Size             | 1200 Bytes (FB Block Max.) |
+| Maximum Output Byte Size | 1200 Bytes (FB Block Max.) |
+| Maximum Input Byte Size (Per Slave) | 255 Bytes                 |
+| Maximum Output Byte Size (Per Slave) | 255 Bytes                 |
+| IO Connection                         | Bit Strobe, Change of State, Cyclic, Poll |
+| IO Minimum Cycle Time              |                           |
+| Communication Speed                       | 125 ~ 500 Kbit/s          |
+| Auto Baud Rate Detection        | Not supported                    |
+| Quick Connect                   | Supported                      |
+| Topology                        |                           |
 
 
 
@@ -24,9 +24,9 @@
 
 ##### Network Characteristics
 
-| **Classification**             | **Specification**    |
-| :---                           | :---                 |
-| Network slave scan             | Supported            |
-| Data transport layer           | CAN frames           |
-| Hub                            | None                 |
-| Switch                         | None                 |
+| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| :---                           | :---                      |
+| Network Slave Scan             | Supported                      |
+| Data Transport Layer           | CAN frames                |
+| Hub                            | Not applicable                  |
+| Switch                         | Not applicable                  |

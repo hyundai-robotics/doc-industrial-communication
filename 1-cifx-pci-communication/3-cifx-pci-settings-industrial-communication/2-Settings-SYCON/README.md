@@ -1,85 +1,85 @@
-﻿# 1.3.2 Setting SYCON.net
+# 1.3.2 SYCON.NET Settings
 
-If the industrial communications of the Hi6 controller will be be used, communications should be set using the “**SYCON.net**” program. The installation methods are as follows (refer to “[**1.1 Installing SYCON.net**](../../1-cifx-pci-install-program/1-sycon-net.md)” for installation).
-
-<br>
-
-##### 1. The following communication setting methods are for your reference.
-Refer to the files inside **\“SYCON.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN.”**
-   *   reference files
-
-       1\) EtherNetIP Scanner - Configuration and Testing TM 02 EN.pdf
-
-       2\) PROFIBUS DP Master - Configuration and Testing TM 02 EN.pdf
-
-       3\) PROFINET IO Controller - Configuration and Testing TM 02 EN.pdf
+Hi6 제어기는 “**Sycon.net**” 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. (“[For the Hi6 controller, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "**1.1 Sycon.net Installation**.")](../../1-cifx-pci-install-program/1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
 
 <br>
 
-##### 2. Connect the PC, where SYCON.net is installed, to the universal LAN port of the robot controller. (Not PCI LAN Port)
-Press the menu under **\[System > 2: Control Parameter > 9: Network]** to check the IP of the universal LAN port, then perform a ping test to determine whether a connection has been established.
+##### 1. Reference materials related to communication settings.
+The materials of *\"Sycon.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN"** can be referenced.
+   * Reference materials
 
-![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>) 
-![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
+1\) EtherNetIP Scanner - Configuration and Testing TM 02 EN.pdf
+
+2\) PROFIBUS DP Master - Configuration and Testing TM 02 EN.pdf
+
+3\) PROFINET IO Controller - Configuration and Testing TM 02 EN.pdf
+
+<br>
+
+##### 2. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).
+Touch the *\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
+
+![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
+![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
 
 {% hint style="info" %}
-\.      The IP address can be changed according to the User settings.
+\.      IP Address can be changed according to user settings.
 {% endhint %}
 
 <br>
 
-##### 3. Run SYCON.net.
+##### 3. Execute Sycon.net.
 
-![[Figure 1.3.2-3 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
+![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 
 <br>
 
-##### 4. In the device catalog on the right side of the screen, click the item that fits the set communication protocol, then drag and drop it on the bus line at the center. 
+##### 4. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.
 
-![[Figure 1.3.2-4 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
-![[Figure 1.3.2-5 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
+![[Figure 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
+![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
 ##### 5. Double-click the imported item to set it.
 
 {% hint style="info" %}
-\.      “Double click” the CIFX PCI card (figure.)
+\.      "Double-click" the imported CIFX PCI (figure).
 
-\.      Settings -> Driver 
+\.      Settings -> Driver
 
-\.      Select netX Driver
+\.      Select netX Driver.
 {% endhint %}
 
-![[Figure 1.3.2-6 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
+![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-\.     Settings -> Driver -> netX Driver -> TCP Connection 
+\.     Setting -> Driver -> netX Driver -> TCP Connection
 
-\.     IP Address: Input the universal LAN Port IP Address of the connected controller.
+\.      IP Address: Please enter the general LAN port IP address of the connected controller.
 {% endhint %}
 
-![[Figure 1.3.2-7 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
+![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 {% hint style="info" %}
-\.      Select Device Assignment -> Click Scan
+\.      Device Assignment -> Click Scan
 
-\.      Select communication (check the channel protocol), then press the “Apply” and “OK” buttons.
+\.      Select communication (check the channel protocol) then "Apply" and "OK."
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: The channel protocol and slot number must be checked.
+*\[Caution]**: Please be sure to check the channel protocol and slot number.
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: If scan does not work, check the status of the Cable connection with the controller and the firmware's settings.
+*\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
 {% endhint %}
 
-![[Figure 1.3.2-8 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
+![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 
 
 {% hint style="info" %}
-\.      right-click the CIFX PCI figure -> Download
+\.      Right-click the CIFX PCI figure -> Download
 {% endhint %}
 
-![[Figure 1.3.2-9 SYCON.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
+![[Figure 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)

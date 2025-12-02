@@ -1,30 +1,30 @@
-﻿# 1.3.4.3 Specifications of a PROFINET IO Device
+# 1.3.4.3 PROFINET IO Device Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**           | **Specification**                     |
-| :---                         | :---                                   |
-| Maximum input byte size      | 256 bytes (TP) / 1024 Bytes (SYCON.net)|
-| Maximum output byte size     | 256 bytes (TP) / 1024 Bytes (SYCON.net)|
-| IO connection(implicit)      |                                        |
-| IO connection                |                                        |
-|  Minimum IO cycle time       | 1 ms                                   |
-|  Communication speed         | 100 Mbit/s                             |
-| Auto negotiation             | Not supported                          |
-| Quick connect                | Not supported                          |
-| Topology                     | Tree, Line                             |
-| DCP                          | Supported                              |
+| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| :---                       | :---                      |
+| Maximum Input Byte Size        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
+| Maximum Output Byte Size        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
+| IO Connection (Implicit)         |                          |
+| IO Connection                    |                          |
+| IO Minimum Cycle Time         | 1ms                      |
+| Communication Speed                  | 100 Mbit/s               |
+| Auto Negotiation           | Not supported                   |
+| Quick Connect              | Not supported                   |
+| Topology                   | Tree, Line               |
+| DCP                        | Supported                     |
 
 
 <br>
 
 ##### Network Characteristics
 
-| **Classification**           | **Specification**                  |
-| :---                         | :---                                |
-| Data transport layer         | Ethernet II, IEEE 802.3             |
-| Hub                          | Cannot be used                      |
-| Switch                       | Limited use is allowed (Priority Tagging and LLDP need to be supported) |
+| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| :---                       | :---                      |
+| Data Transport Layer       | Ethernet II, IEEE 802.3   |
+| Hub                        | Not available                |
+| Switch                     | Limited use possible (Priority Tagging and LLDP needs to be supported.) |
 

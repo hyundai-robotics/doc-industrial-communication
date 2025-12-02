@@ -1,29 +1,29 @@
-﻿# 1.3.7.3 Specifications of a DeviceNet Slave
+# 1.3.7.3 DeviceNet Slave Specifications
 
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**        | **Specification**         |
-| :---                      | :---                      |
-| Maximum input byte size   | 255 bytes                 |
-| Maximum output byte size  | 255 bytes                 |
-| IO connection (implicit)  |                           |
-| IO connection             | Bit Strobe, Change of State, Cyclic, Poll |
-| Minimum IO cycle time     |                           |
-| Communication speed       | 125–500 Kbit/s            |
-| Auto baud rate detection  | Not supported             |
-| Quick connect             |                           |
-| Topology                  |                           |
+| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| :---                       | :---                      |
+| Maximum Input Byte Size        | 255 Bytes                 |
+| Maximum Output Byte Size        | 255 Bytes                 |
+| IO Connection (Implicit)         |                           |
+| IO Connection                    | Bit Strobe, Change of State, Cyclic, Poll |
+| IO Minimum Cycle Time         |                           |
+| Communication Speed                  | 125 ~ 500 Kbit/s          |
+| Auto Baud Rate Detection   | Not supported                    |
+| Quick Connect              |                          |
+| Topology                   |                          |
 
 
 <br>
 
 ##### Network Characteristics
 
-| **Classification**             | **Specification**    |
-| :---                           | :---                 |
-| Data transport layer           | CAN frames           |
-| Hub                            | None                 |
-| Switch                         | None                 |
+| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| :---                           | :---                      |
+| Data Transport Layer           | CAN frames                |
+| Hub                            | Not applicable                  |
+| Switch                         | Not applicable                  |

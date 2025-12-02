@@ -1,32 +1,32 @@
 ﻿# 1.3.4 PROFINET IO
 
-This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and the methods to set them.
+This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and how to set them.
 
 <br>
 
 ##### PROFINET IO Overview
 
-PROFINET IO is an Ethernet-based, open industrial communication protocol developed progressively from PROFIBUS-DP and the industrial Ethernet.
+PROFINET IO is an Ethernet-based open industrial communication protocol that has progressively evolved from PROFIBUS-DP and industrial Ethernet.
 
-![[Figure 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>) 
+![[Figure 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>)
 
 <br>
 
-PROFINET IO follows the provider and consumer model for data exchange and can be divided into the three following classes of products.
+It follows the Provider-Consumer model for data exchange and can be classified into the following three classes of products.
 
 ##### IO Controller Class
-   * The products of this class correspond to existing PROFIBUS-DP class 1 masters and are similar to PLCs inside, which are run by an automation program.
+   * Products that correspond to existing PROFIBUS-DP class 1 masters and are types of products in which automation programs such PLCs are running.
 
-   * The IO controller supplies output data to the IO devices set for itself and consumes input data.
+   * An IO controller supplies output data to the IO devices set to it and consumes the input data from them.
 
 <br>
 
 ##### IO Device Class
-  * The products of this class correspond to existing PROFIBUS-DP slaves. They are connected to IO controllers, such as PLCs, via PROFINET IO.
+  * Products that correspond to existing PROFIBUS-DP slaves and are connected to IO controllers such as PLCs through PROFINET IO.
     
-  * The IO device supplies output data, provides input data to the IO controller, and consumes the output data.
+  * An IO device supplies output data to the IO controller, provide input data, and consume output data.
 
 <br>
 
 ##### IO Supervisor Class
-   * The products of this class correspond to existing PROFIBUS-DP class 2 masters and are similar to programming devices, PCs, HMIs, etc., which are designed for configuring and diagnosing networks. 
+   * Products that correspond to existing PROFIBUS-DP class 2 masters and include those programming devices, PCs, HMIs that are designed for network configuration and diagnosis.

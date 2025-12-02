@@ -1,81 +1,80 @@
-﻿# 1.1.1 Installing SYCON.net
+# 1.1.1 SYCON.net Installation
 
-SYCON.net is a program (Provided by Hilscher.) that can create communication configurations for peripheral component interconnect (PCI) communication cards.
+"Sycon.net" is a program provided by Hilscher for configuring the PCI communication card.
 
 <br>
 
-##### 1. Path for downloading the latest version of SYCON.net
+##### 1. SYCON.net Latest Version Download Path
 
 {% hint style="info" %}
-\.      Click **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
+\.      **[\.      Click **https://hilscher.atlassian.net/ -> Software -> SYCON.net.**.](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net** 를 클릭합니다.
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-1 SYCON.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_1.png>)
+![[Figure 1.1.1-1 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_1.png>)
 
 <br>
 
-![[Figure 1.1.1-2 SYCON.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_2.png>)
+![[Figure 1.1.1-2 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_2.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      Select and download the current version.
+\.      Select the latest version (current release) and download it.
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-3 SYCON.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_3.png>)
+![[Figure 1.1.1-3 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_3.png>)
 
 <br>
 
-![[Figure 1.1.1-4 SYCON.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_4.png>)
+![[Figure 1.1.1-4 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_4.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      Run the downloaded SYCON.net Setup.exe file to install the program.
+\.      Execute the downloaded SYCON.NET Setup.exe file to install the program.
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-5 SYCON.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_5.png>)
+![[Figure 1.1.1-5 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_5.png>)
 
 <br>
 
-![[Figure 1.1.1-6 SYCON.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_6.png>)
+![[Figure 1.1.1-6 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_6.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      Run the installed SYCON.net program to check whether the installation was completed normally.
+\.      Execute the installed SYCON.NET program to check that the installation has been completed successfully.
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-7 SYCON.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_7.png>)
+![[Figure 1.1.1-7 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_7.png>)
 
 <br>
 
 
-##### 2. Downloading the program from the Hyundai Robotics website
+##### 2. Download the Program from the Hyundai Robotics Website.
 
 {% hint style="info" %}
-Download “**SYCON.net** from [www.hyundai-robotics.com](http://www.hyundai-robotics.com) -> Industrial Robot pages -> Customer support -> Application software.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-\.      Unzip -> Run the downloaded SYCON.net Setup.exe file to install the program.
+\.      [\.      From www.hyundai-robotics.com -> Industrial Robot Website -> Customer Support -> Application Software, download “**Sycon.net**.”](http://www.hyundai-robotics.com) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Sycon.net**”을 다운로드 합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      The SYCON.net program, available on our website, may be different from the latest version.
+\.      Extract -> Execute the SYCON.NET Setup.exe file to install the program.
 {% endhint %}
 
+<br>
+
+{% hint style="info" %}
+\.      The SYCON.net program provided on our website may differ from the latest version.
+{% endhint %}
 
 <br>

@@ -1,4 +1,4 @@
-﻿# 1.3.7.6 Object of DeviceNet
+﻿# 1.3.7.6 DeviceNet Object
 
 
 <br>
@@ -6,16 +6,16 @@
 ##### 1. Object
 
 
-The device is Modeled as a collection of objects. Object modeling organizes related data and procedures into one entity : the object.
+The inside of the DeviceNet device is composed of a collection of objects. Each object represents a specific component inside the device.
 
 <br>
 
-![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
+![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>)
 
 
 <br>
 
-Object is identified by class code.
+Individual objects are distinguished using a class code.
 
 <br>
 
@@ -23,24 +23,24 @@ Object is identified by class code.
 
 <br>
 
-Inside the object, it consists of an Instance number and a Attribute ID.
+The inside of an object is composed of an instance number and attribute ID.
 
 <br>
 
-You can access the Attribute of a specific Instance through the "Explicit Message"  from the DeviceNet Master.
+The DeviceNet master can access an object of a specific slave through a explicit message.
 
 <br>
 
 {% hint style="info" %}
-\.      EX) Object of "Crevis GN-9212" (You can check this data through the Company "user manual".)
+\.      EX) Object of Crevis GN-9212 (The corresponding information can be found in the Crevis manual.)
 
-\.      Identity Object (Class Code 0x01) - Read Vendor ID 
+\.      Reading the vendor ID value of the identity object (class code 0x01)
 
 \.      Instance : 1
 
 \.      Attribute ID : 1
 
-\.      Access : Get (Read Only)
+\.      Permission: Get (Read only possible)
 {% endhint %}
 
 
@@ -49,20 +49,20 @@ You can access the Attribute of a specific Instance through the "Explicit Messag
 
 <br>
 
-Each object and its Internal Instance / Attribute have access rights. 
+Each Object, Instance, and Attribute inside has different access permissions.
 
 <br>
 
 {% hint style="info" %}
-\.      Access
+\.      Access permissions
 
-\.      Get : Read
+\.      Get: Read permission
 
-\.      Set : Write
+\.      Set: Write permission
 
-\.      Attribute Single : Only one Attribute can be accessed at a time.
+\.      Attribute Single: Can access only one attribute item at a time.
 
-\.      Attribute All : Access all Attributes at once.
+\.      Attribute All: Can access all attributes in Instance at once.
 {% endhint %}
 
 <br>

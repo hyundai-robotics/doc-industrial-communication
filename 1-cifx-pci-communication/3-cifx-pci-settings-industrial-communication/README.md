@@ -1,3 +1,3 @@
-﻿# 1.3 CIFX PCI - Setting Industrial Communication
+# 1.3 CIFX PCI Communication Settings
 
-To utilize industrial communications, installing a PCI communication card, then setting up the card using the teach pendant and SYCON.net program, will be necessary. 
+To use industrial communication, install a PCI communication card and, and proceed with settings using the teach pendant and Sycon.net program.

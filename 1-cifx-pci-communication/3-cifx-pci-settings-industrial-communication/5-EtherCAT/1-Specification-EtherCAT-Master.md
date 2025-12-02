@@ -1,32 +1,32 @@
-﻿# 1.3.5.1 Specifications of the EtherCAT Master
+# 1.3.5.1 EtherCAT Master Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**                    | **Specification**                                             |
-| :---                                  | :---                                                          |
-| Maximum connectable slave count       | 200                                                           |
-| Maximum input byte size               | 1200 Bytes (FB Block Max)                                     |
-| Maximum output byte size              | 1200 Bytes (FB Block Max)                                     |
-| Maximum input byte size (1 slave)     | 256 bytes                                                     |
-| Maximum output byte size (1 slave)    | 256 bytes                                                     |
-| IO connection                         |                                                               |
-| Minimum IO cycle time                 | 250 us (1 ms recommended)                                     |
-| Communication speed                   | 100 Mbit/s (Full-Duplex)                                      |
-| Auto negotiation                      | Not supported                                                 |
-| Quick connect                         | Not supported                                                 |
-| Topology                              | Line, Ring                                                    |
-| Redundance                            | Supported (cannot be applied together with synchronization)   |
-| Synchronization                       | Distributed Clocks                                            |
+| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| :---                           | :---                     |
+| Maximum Connectable Slave Count       | 200개                      |
+| Maximum Input Byte Size            | 1200 Bytes (FB Block Max) |
+| Maximum Output Byte Size            | 1200 Bytes (FB Block Max) |
+| Maximum Input Byte Size (Per Slave)| 256 Bytes                 |
+| Maximum Output Byte Size (Per Slave)| 256 Bytes                 |
+| IO Connection                        |                           |
+| IO Minimum Cycle Time             | 250us (1ms Recommended)   |
+| Communication Speed                      | 100 Mbit/s (Full-Duplex)  |
+| Auto Negotiation               | Not supported                    |
+| Quick Connect                  | Not supported                    |
+| Topology                       | Line, Ring                |
+| Redundance                     | Supported (Cannot be applied simultaneously with synchronization) |
+| Synchronization                         | Distributed Clocks        |
 
 <br>
 
 ##### Network Characteristics
 
-| **Classification**            | **Specification**                                         |
-| :---                          | :---                                                      |
-| Network slave scan            | Supported                                                 |
-| Data transport layer          | Ethernet II, IEEE 802.3                                   |
-| Hub                           | Cannot be used                                            |
-| Switch                        | Limited use is allowed (between the master and slave 1)   |
+| **| Category                      | Specifications                  |**                      | **| Category                      | Specifications                  |**                  |
+| :---                          | :---                     |
+| Network Slave Scan            | Supported                      |
+| Data Transport Layer          | Ethernet II, IEEE 802.3   |
+| Hub                           | Not available                |
+| Switch                        | Limited use possible (Between Master and 1st Slave) |

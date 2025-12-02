@@ -1,33 +1,33 @@
-﻿# 1.3.3.1 Specifications of an EtherNet/IP Scanner
+# 1.3.3.1 EtherNet/IP Scanner Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**                  | **Specification**             |
-| :---                                | :---                           |
-| Maximum connectable slave count     | 64                             |
-| Maximum input byte size             | 1200 Bytes (FB Block Max)      |
-| Maximum output byte size            | 1200 Bytes (FB Block Max)      |
-| Maximum input byte size (1 slave)   | 504 bytes                      |
-| Maximum output byte size (1 slave)  | 504 bytes                      |
-| IO connection                       | Cyclic                         |
-| Minimum IO cycle time               | 1 ms                           |
-| Communication speed                 | 10 or 100 Mbit/s               |
-| Auto negotiation                    | Supported                      |
-| Quick connect                       | Supported                      |
-| Topology                            | Tree, Line, Ring               |
-| Device Level Ring (DLR)             | Beacon-based "Ring Node"       |
-| Additional functions                | DHCP, BOOTP, and ACD-supported |
+| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| :---                           | :---                     |
+| Maximum Connectable Slave Count        | 64개                      |
+| Maximum Input Byte Size             | 1200 Bytes (FB Block Max.) |
+| Maximum Output Byte Size | 1200 Bytes (FB Block Max.) |
+| Maximum Input Byte Size (Per Slave) | 504 Bytes                 |
+| Maximum Output Byte Size (Per Slave) | 504 Bytes                 |
+| IO Connection                         | Cyclic                    |
+| IO Minimum Cycle Time              | 1ms                       |
+| Communication Speed                       | 10 or 100 Mbit/s          |
+| Auto Negotiation                | Supported                      |
+| Quick Connect                   | Supported                      |
+| Topology                        | Tree, Line, Ring          |
+| DLR (Device Level Ring)         | Beacon based 'Ring Node'  |
+| Additional Features                        |DHCP, BOOTP, ACD Supported    |
 
 
 <br>
 
 ##### Network Characteristics
 
-| **Classification**                  | **Specification**       |
-| :---                                | :---                     |
-| Network slave scan                  | Not supported            |
-| Data transport layer                | Ethernet II, IEEE 802.3  |
-| Hub                                 | Can be used              |
-| Switch                              | Can be used              |
+| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| :---                           | :---                     |
+| Network Slave Scan             | Not supported                    |
+| Data Transport Layer           | Ethernet II, IEEE 802.3   |
+| Hub                            | Available                  |
+| Switch                         | Available                  |

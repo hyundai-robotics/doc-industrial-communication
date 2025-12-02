@@ -1,20 +1,20 @@
-﻿# 1.3.8.1 Specifications of a CC-Link Slave
+# 1.3.8.1 CC-Link Slave Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **Classification**         | **Specification**  (Version 1.11)    | **Specification**  (Version 2.0)  |
-| :---                       | :---                                 | :---                              |
-| Maximum input byte size    | 48 bytes                             | 368 bytes                         |
-| Maximum output byte size   | 48 bytes                             | 368 bytes                         |
-| IO station input           | 4 bytes(RY)                          | Not supported                     |
-| IO station output          | 4 bytes(RX)                          | Not supported                     |
-| Station                    | 1–4                                  | 1–4                               |
-| Extension cycle            | Not supported                        | 1, 2, 4, and 8                    |
-| Remote device input        | 16 bytes (RY), 32 bytes (RWw)        | 112 bytes (RY), 256 bytes (RWw)   |
-| Remote device output       | 16 bytes (RX), 32 bytes (RWr)        | 112 bytes (RY), 256 bytes (RWr)   |
-| Communication speed        | 156 Kbit/s–10000 Kbit/s              | 156 Kbit/s–10000 Kbit/s           |
+| **| Category                   | Specifications (Version 1.11)    | Specifications (Version 2.0)     |**                   | **| Category                   | Specifications (Version 1.11)    | Specifications (Version 2.0)     |**  (Version 1.11)    | **| Category                   | Specifications (Version 1.11)    | Specifications (Version 2.0)     |**  (Version 2.0)     |
+| :---                       | :---                       | :---                        |
+| Maximum Input Byte Size        | 48 Bytes                   | 368 Bytes                   |
+| Maximum Output Byte Size        | 48 Bytes                   | 368 Bytes                   |
+| IO Station Input           | 4 Bytes(RY)                | Not supported                       |
+| IO Station Output          | 4 Bytes(RX)                | Not supported                       |
+| Station                    | 1 ~ 4                      | 1 ~ 4                       |
+| Extension Cycle            | Not supported                      | 1, 2, 4, 8                  |
+| Remote Deivce Input        | 16 Bytes(RY), 32 Byte(RWw) | 112 Bytes(RY), 256 Byte(RWw)|
+| Remote Deivce Output       | 16 Bytes(RX), 32 Byte(RWr) | 112 Bytes(RY), 256 Byte(RWr)|
+| Communication Speed                   | 156–10000 Kbit/s         | 156–10000 Kbit/s          |
 
 
 
@@ -22,11 +22,11 @@
 
 ##### Network Characteristics
 
-| **Classification**            | **Specification**     |
-| :---                          | :---                  |
-| Data transport layer          |                       |
-| Hub                           | None                  |
-| Switch                        | None                  |
+| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| :---                           | :---                      |
+| Data Transport Layer           |                           |
+| Hub                            | Not applicable                  |
+| Switch                         | Not applicable                  |
 
 
 <br>

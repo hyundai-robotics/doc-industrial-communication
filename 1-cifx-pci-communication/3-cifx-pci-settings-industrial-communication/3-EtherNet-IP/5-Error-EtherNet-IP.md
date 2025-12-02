@@ -1,39 +1,39 @@
-﻿# 1.3.3.5 Actions for an EtherNet/IP Error
+# 1.3.3.5 EtherNet/IP Error Handling
 
-This section describes the solutions for major errors that may occur while setting up the EtherNet/IP.
+This is a method for resolving major errors that may occur during EtherNet/IP settings.
 
-Errors can be identified using the diagnosis function of SYCON.net
-
-<br>
-
-Refer to "[**1.4.1 ERROR Code.**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"
+Errors can be checked using the diagnosis function of Sycon.Net.
 
 <br>
 
-##### 1. Communication Cable Disconnection Error
+"[Please refer to "**1.4.1 ERROR Code**."](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+
+<br>
+
+##### 1. Communication cable disconnection error
 
 {% hint style="info" %}
-\.      Check the connection status of the LAN cable.
+\.      Please check the connection status of the LAN cable.
 
-\.      Check whether the adapter device power is switched on.
+\.      Check if the adapter device power is on.
 {% endhint %}
 
-![[Figure 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
+![[Figure 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>)
 
 
 <br>
 
-##### 2. IP Address Setting Error
+##### 2. IP Address setting error
 
 {% hint style="info" %}
-\.      Master - Check the IP addresses of the master and slave devices.
+\.      Please check the IP addresses of the master and slave devices.
 
-\.      An error will occur if the IP address set for the adapter device and the value inputted in SYCON.net are different. 
+\.      An error occurs if the set IP address of the adapter device differs from the value entered in Sycon.net.
 
 {% endhint %}
 
-![[Figure 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>) 
+![[Figure 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>)
 
-![[Figure 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>) 
+![[Figure 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>)
 
 
