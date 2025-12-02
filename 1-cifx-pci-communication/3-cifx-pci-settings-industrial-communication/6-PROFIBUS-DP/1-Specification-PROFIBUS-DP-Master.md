@@ -1,32 +1,32 @@
-﻿# 1.3.6.1 PROFIBUS-DP Master 사양
+# 1.3.6.1 PROFIBUS-DP-Master-Spezifikationen
 
 <br>
 
-##### Protocol 특성
+##### Protokollmerkmale
 
-| **구분**                       | **사양**                  |
+| **| Kategorie                       | Spezifikationen                  |**                       | **| Kategorie                       | Spezifikationen                  |**                  |
 | :---                           | :---                     |
-| 최대 연결 가능한 Slave 수        | 125개                      |
-| 최대 입력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개) | 244 Bytes                 |
-| 최대 출력 Bytes 크기 (Slave 1개) | 244 Bytes                 |
-| IO 연결                         |                           |
-| IO 최소 Cycle Time              |                           |
-| 통신 속도                       | 9.6 ~ 12000 Kbit/s        |
-| Auto Baud Rate Detection        | 미지원                    |
-| Quick Connect                   | 해당 없음                 |
+| Maximal anschließbare Slaves        | 125                      |
+| Maximale Eingangsbyte-Größe             | 1200 Bytes (FB-Block max.) |
+| Maximale Ausgangsbyte-Größe             | 1200 Bytes (FB-Block max.) |
+| Maximale Eingangsbyte-Größe (pro Slave) | 244 Bytes                 |
+| Maximale Ausgangsbyte-Größe (pro Slave) | 244 Bytes                 |
+| E/A-Verbindung                         |                           |
+| Minimale E/A-Zykluszeit             |                           |
+| Kommunikationsgeschwindigkeit                       | 9.6 ~ 12000 Kbit/s        |
+| Auto Baud Rate Detection        | Nicht unterstützt                    |
+| Quick Connect                   | Nicht zutreffend                 |
 | Topology                        |                          |
 
 
 
 <br>
 
-##### Network 특성
+##### Netzwerkmerkmale
 
-| **구분**                       | **사양**                   |
+| **| Kategorie                       | Spezifikationen                   |**                       | **| Kategorie                       | Spezifikationen                   |**                   |
 | :---                           | :---                      |
-| Network Slave Scan             | 지원                      |
+| Network Slave Scan             | Unterstützt                      |
 | Data Transport Layer           | PROFIBUS FDL              |
-| Hub                            | 해당 없음                  |
-| Switch                         | 해당 없음                  |
+| Hub                            | Nicht zutreffend                  |
+| Switch                         | Nicht zutreffend                  |

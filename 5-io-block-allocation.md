@@ -1,35 +1,35 @@
-﻿# 5. 산업용 통신 IO 읽기 및 쓰기
+# 5. Lesen und Schreiben von industriellen Kommunikations-E/A
 
-산업용 통신 설정 완료 후 제어기와의 통신을 위한 IO Block 할당 방법 입니다.
+Dies ist die Methode zur Zuweisung von E/A-Blöcken für die Kommunikation mit der Steuerung nach Abschluss der Einstellungen für die industrielle Kommunikation.
 
-산업용 통신 IO를 사용하기 위해 fb0 \~ fb9 영역에 할당해야 합니다.
+Die industrielle Kommunikations-E/A muss dem Bereich fb0 bis fb9 zugewiesen werden, um verwendet werden zu können.
 
 <br>
 
 {% hint style="info" %}
-\.      fb 블록의 IO 읽기/쓰기 방법은 아래 매뉴얼을 참조해 주십시오.
+\.      Informationen zu den Methoden zum Lesen/Schreiben von E/A für fb-Blöcke finden Sie im folgenden Handbuch.
 
-\.   **\[제어기 조작설명서 : 범용 입력]**   
-\.   **\[제어기 조작설명서 : 범용 출력]**   
+\.   **\.      \[Steuerungshandbuch: Allgemeiner Eingang]**
+\.   **\.      \[Steuerungshandbuch: Allgemeiner Ausgang]**
 {% endhint %}
 
 <br>
 
-##### 1. IO 블록 할당 메뉴를 선택
-   **\[시스템 > 2: 제어 파라미터 > 2: 입출력 신호 설정 > 6: FB 블록 할당]** 메뉴를 터치하십시오.
+##### 1. Wählen Sie das Menü zur Zuweisung von E/A-Blöcken
+*\[System > 2: Steuerungsparameter > 2: Eingangs-/Ausgangssignaleinstellungen > 6: FB-Blockzuweisung]** Berühren Sie das Menü.
 
 <br>
 
-##### 2. 원하는 fb 영역에 산업용 통신 종류 지정
-   지정 후 **\[OK]** 버튼을 터치하십시오.
+##### 2. Geben Sie den industriellen Kommunikationstyp für den gewünschten fb-Bereich an.
+지정 후 **Tippen Sie nach der Angabe auf die Schaltfläche \[OK].** 버튼을 터치하십시오.
 
-![[그림 5-1]](<_assets/4-io-block-allocation/image_1.png>)
+![[Abbildung 5-1]](<_assets/4-io-block-allocation/image_1.png>)
 
 
 {% hint style="warning" %}
-**\[주의]**: 내장 PLC와 함께 사용하는 경우 IO 속성, DI/DO - X/Y 를 확인해 주십시오. 
+*\[Achtung]**: Bei Verwendung zusammen mit einer Embedded-SPS überprüfen Sie bitte die E/A-Attribute DI/DO - X/Y.
 {% endhint %}
 
 {% hint style="warning" %}
-**\[주의]**: EtherNet/IP 어댑터의 경우 최대 블록사이즈는 120 Bytes 이며 최대 2개까지 선택할 수 있습니다. 2개를 초과하는 선택은 무시 됩니다. 
+*\[Achtung]**: Für den EtherNet/IP-Adapter beträgt die maximale Blockgröße 120 Byte, und es können bis zu 2 ausgewählt werden. Auswahlen, die 2 überschreiten, werden ignoriert.
 {% endhint %}

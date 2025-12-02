@@ -2,28 +2,28 @@
 
 <br>
 
-이 장에서는 EtherCAT Master 를 이용하여 당사에서 선정한 몇가지의 표준 Remote IO Module을 연결하는 방법에 대해 설명합니다.
+In diesem Kapitel wird erläutert, wie mehrere von unserem Unternehmen ausgewählte Standard-Remote-E/A-Module über EtherCAT Master angeschlossen werden.
 
 <br>
 
-##### EtherCAT 개요
+##### EtherCAT – Übersicht
 
-EtherCAT은 Beckhoff Automation 에서 개발된 이더넷 기반의 Fieldbus 시스템입니다.
+EtherCAT ist ein von Beckhoff Automation entwickeltes Ethernet-basiertes Feldbussystem.
 
-EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기화를 위한 기능을 제공합니다. 
+Das EtherCAT-Protokoll bietet Funktionen für sehr schnelle E/A-Datenaktualisierungen und präzise Synchronisation.
 
 <br>
 
 ##### EtherCAT Master IO
-   * 기존 필드버스 마스터(Master)에 해당되는 제품으로 EtherCAT 슬레이브(Slave) 장치들에게 IO 데이터 연결을 요청할 수 있습니다.
+   * Produkte, die bestehenden Feldbus-Mastern entsprechen und E/A-Datenverbindungen zu EtherCAT-Slave-Geräten anfordern können.
 
 <br>
 
 {% hint style="info" %}
-\.      EtherCAT Master 는 Hi6 제어기에 범용 LAN Port 를 사용합니다.
+\.      EtherCAT Master verwendet den allgemeinen LAN-Port der Hi6-Steuerung.
 
 
-\.      Remote IO Module은 Crevis 사의 M9386 EtherCAT Network Adapter를 사용합니다.
+\.      Das Remote-E/A-Modul verwendet den Crevis M9386 EtherCAT-Netzwerkadapter.
 {% endhint %}
 
 

@@ -1,33 +1,33 @@
-﻿# 1.3.4.1 PRFINET IO Controller 사양
+# 1.3.4.1 PROFINET IO-Controller-Spezifikationen
 
 <br>
 
-##### Protocol 특성
+##### Protokollmerkmale
 
-| **구분**                       | **사양**                  |
+| **| Kategorie                       | Spezifikationen                  |**                       | **| Kategorie                       | Spezifikationen                  |**                  |
 | :---                           | :---                     |
-| 최대 연결 가능한 Slave 수       | 128개                     |
-| 최대 입력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개)| 1024 Bytes                |
-| 최대 출력 Bytes 크기 (Slave 1개)| 1024 Bytes                |
-| IO 연결                        |                           |
-| IO 최소 Cycle Time             | 1ms                       |
-| 통신 속도                       | 100 Mbit/s (Full-Duplex) |
-| Auto Negotiation               | 미지원                    |
-| Quick Connect                  | 미지원                    |
+| Maximal anschließbare Slaves       | 128                     |
+| Maximale Eingangsbyte-Größe            | 1200 Bytes (FB Block Max) |
+| Maximale Ausgangsbyte-Größe            | 1200 Bytes (FB Block Max) |
+| Maximale Eingangsbyte-Größe (pro Slave)| 1024 Bytes                |
+| Maximale Ausgangsbyte-Größe (pro Slave)| 1024 Bytes                |
+| E/A-Verbindung                        |                           |
+| Minimale E/A-Zykluszeit             | 1ms                       |
+| Kommunikationsgeschwindigkeit                       | 100 Mbit/s (Full-Duplex) |
+| Auto Negotiation               | Nicht unterstützt                    |
+| Quick Connect                  | Nicht unterstützt                    |
 | Topology                       | Tree, Line               |
-| DCP                            | 지원                      |
+| DCP                            | Unterstützt                      |
 
 
 
 <br>
 
-##### Network 특성
+##### Netzwerkmerkmale
 
-| **구분**                      | **사양**                  |
+| **| Kategorie                      | Spezifikationen                  |**                      | **| Kategorie                      | Spezifikationen                  |**                  |
 | :---                          | :---                     |
-| Network Slave Scan            | 지원                      |
+| Network Slave Scan            | Unterstützt                      |
 | Data Transport Layer          | Ethernet II, IEEE 802.3   |
-| Hub                           | 사용 불가능                |
-| Switch                        | 제한 사용 가능 (Priority Tagging, LLDP 지원 필요) |
+| Hub                           | Nicht verfügbar                |
+| Switch                        | Eingeschränkte Nutzung möglich (erfordert Priority Tagging, LLDP-Unterstützung) |

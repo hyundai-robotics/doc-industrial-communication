@@ -1,30 +1,30 @@
-﻿# 1.3.3.3 EtherNet/IP Adapter 사양
+# 1.3.3.3 EtherNet/IP-Adapter-Spezifikationen
 
 <br>
 
-##### Protocol 특성
+##### Protokollmerkmale
 
-| **구분**                   | **사양**                  |
+| **| Kategorie                   | Spezifikationen                  |**                   | **| Kategorie                   | Spezifikationen                  |**                  |
 | :---                       | :---                      |
-| 최대 입력 Bytes 크기        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
-| 최대 출력 Bytes 크기        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
-| IO 연결 (Implicit)         | 1 exclusive Owner, 1 Listen only, 1 Input Only |
-| IO 연결                    | Cyclic, Application Trigger, Change of State   |
-| IO 최소 Cycle Time         | 1ms                       |
-| 통신 속도                  | 10 or 100 Mbit/s          |
-| Auto Negotiation           | 지원                      |
-| Quick Connect              | 지원                      |
+| Maximale Eingangsbyte-Größe        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
+| Maximale Ausgangsbyte-Größe        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
+| E/A-Verbindung (Implicit)         | 1 exclusive Owner, 1 Listen only, 1 Input Only |
+| E/A-Verbindung                    | Cyclic, Application Trigger, Change of State   |
+| Minimale E/A-Zykluszeit         | 1ms                       |
+| Kommunikationsgeschwindigkeit                  | 10 or 100 Mbit/s          |
+| Auto Negotiation           | Unterstützt                      |
+| Quick Connect              | Unterstützt                      |
 | Topology                   | Tree, Line, Ring          |
-| DLR V2 (Ring Topology)     | 지원                      |
-| 부가 기능                   | DHCP, BOOTP, ACD  지원    |
+| DLR V2 (Ring Topology)     | Unterstützt                      |
+| Zusätzliche Funktionen                   | DHCP, BOOTP, ACD  Unterstützt    |
 
 
 <br>
 
-##### Network 특성
+##### Netzwerkmerkmale
 
-| **구분**                   | **사양**                  |
+| **| Kategorie                   | Spezifikationen                  |**                   | **| Kategorie                   | Spezifikationen                  |**                  |
 | :---                       | :---                      |
 | Data Transport Layer       | Ethernet II, IEEE 802.3   |
-| Hub                        | 사용 가능                  |
-| Switch                     | 사용 가능                  |
+| Hub                        | Verfügbar                  |
+| Switch                     | Verfügbar                  |

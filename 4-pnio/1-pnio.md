@@ -1,113 +1,113 @@
 
 ## 1. PROFINET ?
-- PROFINET은 산업 자동화를 위한 이더넷 기반 통신 표준입니다.
-- 컨트롤러(PLC, 로봇제어기 등)와 분산 I/O 장치(드라이브, 센서, 모듈 등) 간의 실시간 데이터 교환을 지원합니다.
+- PROFINET ist ein Ethernet-basierter Kommunikationsstandard für die industrielle Automatisierung.
+- Er unterstützt den Echtzeit-Datenaustausch zwischen Steuerungen (SPS, Robotersteuerungen usw.) und dezentralen E/A-Geräten (Antriebe, Sensoren, Module usw.).
 
-## 2. PROFINET 사양
-- 디지털 입력 : 50 , 120, 240 bytes (1개 선택) 
-- 디지털 출력 : 50 , 120, 240 bytes (1개 선택) 
-- 안전 입출력 : 8/8 bytes (활성 or 비활성화) 
-- 최소 통신 주기 : 1 msec
-- 지원 통신 속도 : 10 or 100 Mbps
+## 2. PROFINET-Spezifikationen
+- Digitale Eingänge: 50, 120, 240 Bytes (bitte eine Option auswählen)
+- Digitale Ausgänge: 50, 120, 240 Bytes (bitte eine Option auswählen)
+- Sicherheits-E/A: 8/8 Byte (aktiviert oder deaktiviert)
+- Mindestkommunikationszyklus: 1 ms
+- Unterstützte Kommunikationsgeschwindigkeit: 10 oder 100 MBit/s
 - Conformance Class : B
 - Netload Class : II
 - Optional Feature : Legacy, MRP
 
-## 3. PROFINET 설정 절차
+## 3. PROFINET-Konfigurationsverfahren
 
-1) BD671과 PROFINET 컨트롤러 & Hi7 Com의 연결
-2) GSDML 파일 등록 (TIA Portal)
-3) PROFINET 컨트롤러 설정 (TIA Portal)
-4) Hi7 설정 (TP UI)
-5) PROFINET 통신의 확인
-6) PROFINET I/O 신호의 할당(FB Block Settings)
+1) Anschluss von BD671, PROFINET-Controller und Hi7 Com
+2) Registrierung der GSDML-Datei (TIA Portal)
+3) PROFINET-Controller-Einstellungen (TIA Portal)
+4) Hi7-Einstellungen (TP UI)
+5) Überprüfung der PROFINET-Kommunikation
+6) Zuweisung der PROFINET-E/A-Signale (FB-Block-Einstellungen)
 
-### 3.1 BD671과 F-Host & Hi7 Com의 연결
+### 3.1 Anschluss von BD671, F-Host und Hi7 Com
 
-#### 3.1.1 랜선 연결
-1) PROFINET 컨트롤러와 BD671를 랜선으로 연결한다.
-2) Link LED가 점멸하는지 확인한다.
-3) Hi7 COM의 LAN3 커넥터와 BD671를 랜선으로 연결한다.
-4) Link LED가 점멸하는지 확인한다.
+#### 3.1.1 LAN-Kabelverbindung
+1) Verbinden Sie den PROFINET-Controller und BD671 mit einem LAN-Kabel.
+2) Überprüfen Sie, ob die Link-LED blinkt.
+3) Verbinden Sie den LAN3-Anschluss von Hi7 COM und BD671 mit einem LAN-Kabel.
+4) Überprüfen Sie, ob die Link-LED blinkt.
 
 ![](../_assets/4-pnio/profisafe_connect.png)
 
-#### 3.1.2 Hi7 Com의 연결 설정
-1) 다음과 같이 메뉴를 이동 시스템 -> 제어 파라미터 -> 산업용 통신-> EtherCAT Master 설정
-2) 아래와 같이 설정
+#### 3.1.2 Hi7 Com-Verbindungseinstellungen
+1) Navigieren Sie wie folgt zum Menü: System -> Steuerungsparameter -> Industrielle Kommunikation -> EtherCAT-Master-Einstellungen
+2) Konfigurieren Sie wie unten gezeigt
 - EtherCAT Master : ON
 - Port : LAN3
-3) 슬레이브 리스트에서 "OptionBD – PROFINET_IO"를 선택하고 적용 버튼을 누른다.
-4) Hi7 로봇제어기를 재부팅한다.
-5) 재부팅후 Run & Communication & Error LED 점등 상태를 확인한다.
+3) Wählen Sie „OptionBD – PROFINET_IO” aus der Slave-Liste aus und drücken Sie die Schaltfläche „Übernehmen”.
+4) Starten Sie die Hi7-Robotersteuerung neu.
+5) Überprüfen Sie nach dem Neustart den Status der LEDs „Run“, „Communication“ und „Error“.
 
 ![](../_assets/4-pnio/EC_master_setting1.png)
 <br> <br>
 ![](../_assets/4-pnio/EC_master_setting2.png)
 
 
-### 3.2 GSDML 파일 등록 (TIA Portal)
-1) TIA Portal을 실행
-2) 메뉴에서 우측과 같이 이동 [Options] → [Manage general station description file (GSD)].
-3) “…” 버튼 클릭 후 and GSDML file이 있는 디렉토리를 설정한다.
-4) 화면에 표시된 리스트에서 “GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml”를 선택하고 [Install] 버튼을 누른다.
-5) 하드웨어 카탈로그에 새로운 장치로 등록되었는지 확인한다. <br>
+### 3.2 Registrierung der GSDML-Datei (TIA-Portal)
+1) Starten Sie das TIA Portal.
+2) Navigieren Sie wie rechts im Menü gezeigt zu [Optionen] → [Allgemeine Stationsbeschreibungsdatei (GSD) verwalten].
+3) Klicken Sie auf die Schaltfläche „…“ und legen Sie das Verzeichnis fest, in dem sich die GSDML-Datei befindet.
+4) Wählen Sie „GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml” aus der auf dem Bildschirm angezeigten Liste aus und klicken Sie auf die Schaltfläche [Installieren].
+5) Überprüfen Sie, ob die Datei als neues Gerät im Hardwarekatalog registriert wurde. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
-### 3.3 PROFINET 컨트롤러 설정 (TIA Portal)
-1) TIA Portal을 실행시키고 새 프로젝트를 생성한다.
-2) Device & Network 부분을 더블클릭하여 오픈한다.<br>
+### 3.3 PROFINET-Controller-Einstellungen (TIA-Portal)
+1) Starten Sie TIA Portal und erstellen Sie ein neues Projekt.
+2) Doppelklicken Sie auf den Abschnitt „Geräte & Netzwerk“, um ihn zu öffnen.<br>
 ![](../_assets/4-pnio/profisafe_device_network.png)
 
-3) PROFINET 통신을 지원하는 컨트롤러(예 CPU 1511F-1 PN)를 선택하여 네트워크 뷰쪽으로 끌어다 놓는다.
-4) 하드웨어 카탈로그에서 이전 단계에서 추가한 장치(HRC, PROFINET I/O DAP)를 추가하고 네트워크 뷰쪽으로 끌어다 놓는다.
-5) 두 장치 그림에서 랜포트를 마우스 드래그&드랍으로 서로 연결한다.<br>
+3) Wählen Sie eine Steuerung aus, die die PROFINET-Kommunikation unterstützt (z. B. CPU 1511F-1 PN), und ziehen Sie sie in die Netzwerkansicht.
+4) Fügen Sie das im vorherigen Schritt hinzugefügte Gerät (HRC, PROFINET I/O DAP) aus dem Hardwarekatalog hinzu und ziehen Sie es in die Netzwerkansicht.
+5) Verbinden Sie die beiden Geräte, indem Sie die LAN-Ports in den Geräteabbildungen per Drag & Drop verschieben.<br>
 ![](../_assets/4-pnio/profisafe_device_network2.png)
 
-6) “Device & Network”화면에서 HRC-IO 장치를 더블 클릭
-7) 원하는 슬롯을 선택한다.
-8) 오른쪽 카탈로그에서 원하는 모듈을(DI, DO, or PROFIsafe I/O) 드래그하여 "Device Overview window"로 이동시킨다.<br>
+6) Doppelklicken Sie im Bildschirm „Geräte & Netzwerk“ auf das HRC-IO-Gerät.
+7) Wählen Sie den gewünschten Slot aus.
+8) Ziehen Sie das gewünschte Modul (DI, DO oder PROFIsafe-E/A) aus dem rechten Katalog und verschieben Sie es in das Fenster „Geräteübersicht“.<br>
 ![](../_assets/4-pnio/profisafe_device_network3.png)
 
-9) “Device & Network”화면에서 HRC-IO 장치를 더블 클릭
-10) HRC-IO장치를 다시 클릭하여 Setting화면을 오픈
-11) 아래에서 General 탭으로 이동
-12) 왼쪽 메뉴에서 Ethernet addresses 선택
-13) “Generate PROFINET device name automatically.” 부분 체크 해제
-14) "PROFINET device name"을 "hd-hrc-0"로 설정하고 저장함.<br>
+9) Doppelklicken Sie im Bildschirm „Geräte & Netzwerk“ auf das HRC-IO-Gerät.
+10) Klicken Sie erneut auf das HRC-IO-Gerät, um den Bildschirm „Einstellungen“ zu öffnen.
+11) Navigieren Sie zur Registerkarte „Allgemein“ unten.
+12) Wählen Sie im linken Menü „Ethernet-Adressen“ aus.
+13) Deaktivieren Sie „PROFINET-Gerätenamen automatisch generieren“.
+14) Setzen Sie „PROFINET-Gerätename“ auf „hd-hrc-0“ und speichern Sie die Einstellung.<br>
 ![](../_assets/4-pnio/profisafe_device_network4.png)
 
-### 3.4 Hi7 설정 (TP UI)
-1) PNIO 컨트롤러에서 설정했던 값과 같은 아래의 값으로 파라미터 설정
+### 3.4 Hi7-Einstellungen (TP-Benutzeroberfläche)
+1) Legen Sie die Parameter mit denselben Werten fest, die im PNIO-Controller konfiguriert sind.
 - PROFINET IO Device Name : hd-hrc-0
 - Slot 1 : Digital Input : 240
 - Slot 2 : Digital Output : 240
 - Slot 3 : Safety I/O : No
-- (IP주소는 변경 필요 없음.)
-2) "적용" 버튼을 누른다.<br>
+- (Die IP-Adresse muss nicht geändert werden.)
+2) Klicken Sie auf die Schaltfläche „Übernehmen“.<br>
 ![](../_assets/4-pnio/4_1_profinet_config.png)
 
-### 3.5 PROFINET 통신의 확인
-### 3.5.1 래더 프로그램 (Tia Portal)
-1) Device Overview 탭 에서, 아래와 같이 래더 프로그램을 만들고 컨트롤러로 다운로드 한다.<br>
+### 3.5 Überprüfung der PROFINET-Kommunikation
+### 3.5.1 Ladder-Programm (TIA-Portal)
+1) Erstellen Sie auf der Registerkarte „Geräteübersicht“ ein Ladder-Programm wie unten gezeigt und laden Sie es auf die Steuerung herunter.<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder.png)
-2) 다운로드 후, Distribution I/O 화면에서 녹색 체크 박스가 표시되었는지 확인한다.<br>
+2) Überprüfen Sie nach dem Herunterladen, ob auf dem Bildschirm „Verteilungs-E/A“ ein grünes Häkchen angezeigt wird.<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
-### 3.5.2 TP 화면
-메뉴에서 시스템 -> 안전시스템 -> 모니터링 -> PROFINET 상태로 이동한다.<br>
+### 3.5.2 TP-Bildschirm
+Navigieren Sie im Menü zu „System“ -> „Sicherheitssystem“ -> „Überwachung“ -> „PROFINET-Status“.<br>
 ![](../_assets/4-pnio/5_2_pnio_status.png)
-- 각 슬롯의 상태 정보를 확인
-- Counter가 지속 증가하는지 확인
+- Überprüfen Sie die Statusinformationen für jeden Slot.
+- Überprüfen Sie, ob der Zähler kontinuierlich ansteigt.
 
 
-### 3.6 PROFINET I/O 신호의 할당(FB Block Settings)
-1) 시스템 → 제어 파라미터 → 입출력 신호 설정 → FB 블럭 할당으로 이동
-2) 2개 이하로 필요한 만큼 블럭 설정을 PROFINET I/O로 변경한다.
- (최대 PROFINET I/O 사이즈는 240바이트이고 개별 FB 블럭의 사이즈는 120바이트 입니다. 따라서 **2개를 초과하는 설정은 무시됩니다.**)<br>
+### 3.6 Zuweisung der PROFINET-E/A-Signale (FB-Block-Einstellungen)
+1) Navigieren Sie zu System → Steuerungsparameter → Ein-/Ausgangssignal-Einstellungen → FB-Block-Zuweisung.
+2) Ändern Sie die Blockeinstellungen nach Bedarf auf PROFINET-E/A (maximal 2).
+(최대 PROFINET I/O 사이즈는 240바이트이고 개별 FB 블럭의 사이즈는 120바이트 입니다. 따라서 **(Die maximale PROFINET-E/A-Größe beträgt 240 Byte und die Größe des einzelnen FB-Blocks beträgt 120 Byte. Daher werden Einstellungen, die 2 überschreiten, ignoriert.)<br>**)<br>
 ![](../_assets/4-pnio/6_fb_block.png)
 
-3) 추가로 조건 설정 메뉴로 이동하여 PLC 동작 모드가 OFF되어 있는지 확인합니다.<br>
+3) Navigieren Sie zusätzlich zum Menü „Bedingungseinstellungen“ und überprüfen Sie, ob der SPS-Betriebsmodus auf AUS steht.<br>
 ![](../_assets/4-pnio/6_1_condition.png)
-4) TIA Portal과 범용 I/O 화면에서 입출력 신호 확인<br>
+4) Überprüfen Sie die Ein-/Ausgangssignale im TIA-Portal und auf dem Bildschirm „Allgemeine E/A“<br>
 ![](../_assets/4-pnio/6_3_public_io.png)

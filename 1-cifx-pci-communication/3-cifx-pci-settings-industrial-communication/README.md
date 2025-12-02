@@ -1,3 +1,3 @@
-﻿# 1.3 CIFX PCI 통신 설정
+# 1.3 CIFX-PCI-Kommunikationseinstellungen
 
-산업용 통신을 사용하기 위해 PCI 통신 카드 장착한 후, 티치 팬던트 및 Sycon.net프로그램을 이용하여 설정을 진행해 주십시오.
+Nachdem Sie die PCI-Kommunikationskarte für die industrielle Kommunikation installiert haben, nehmen Sie bitte die Einstellungen mit dem Teach-Pendant und dem Programm Sycon.net vor.

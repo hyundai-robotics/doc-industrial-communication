@@ -1,27 +1,27 @@
 ﻿# 1.3.8 CC-Link
 
-이 장에서는 CC-Link Slave의 특성과 설정 방법에 대해 기술합니다. 
+In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von CC-Link-Slave beschrieben.
 
 
 <br>
 
-##### Fieldbus 개요
+##### Feldbus – Übersicht
 
-필드버스(Fieldbus)는 공장에서의 센서나 버튼, 모터 드라이버, 조작 인터페이스 등의 장치를 PLC(Programmable Logic Controller) 와 단일 케이블로 연결하여 동작시키기 위해 개방화된 산업표준입니다.
+Feldbus ist ein Industriestandard, der für die Verbindung von Geräten wie Sensoren, Tastern, Motortreibern und Bedienoberflächen mit SPSen (speicherprogrammierbaren Steuerungen) über ein einziges Kabel und deren Betrieb in der Fabrik geöffnet wurde.
 
-필드버스는 전체 네트워크의 상태를 중앙에서 모니터링 하거나 재구성하는 등의 지능적인 서비스를 제공합니다.
+Feldbus bietet intelligente Dienste wie die zentrale Überwachung oder Neukonfiguration des gesamten Netzwerkstatus.
 
-예를 들면 센서나 스위치에 대해, 단순한 On/Off 만이 아닌 상세한 정보, 동작, 모드 설정 등이 가능합니다.
+Beispielsweise sind für Sensoren oder Schalter detaillierte Informationen, Bedienungen, Moduseinstellungen usw. möglich, nicht nur einfaches Ein-/Ausschalten.
 
-단일 케이블을 사용하여 배선에 드는 시간과 비용을 절감할 수 있고, 구성이 간단해져 유지보수에 유리합니다.
+Die Verwendung eines einzigen Kabels reduziert den Zeit- und Kostenaufwand für die Verkabelung, vereinfacht die Konfiguration und ist vorteilhaft für die Wartung.
 
-또한 일반적인 통신의 비결정적 응답 (Non-deterministic Response) 특성의 프로토콜과는 달리, 데이터 응답속도가 보장되어 임계시간 특성이 중요한 산업용도를 만족합니다.
+Im Gegensatz zu Protokollen mit nicht deterministischen Antwortcharakteristiken der allgemeinen Kommunikation ist außerdem die Datenantwortgeschwindigkeit garantiert, um industrielle Anwendungen zu erfüllen, bei denen kritische Zeitcharakteristiken wichtig sind.
 
-![[그림 1.3.8-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/image_1.png>) 
+![[Abbildung 1.3.8-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/image_1.png>)
 
 <br>
 
-1개의 필드버스 네트워크에는 1개의 마스터 (Master) 장치와 다수의 슬레이브(Slave) 장치가 연결됩니다.
-마스터 장치는 네트워크 전체를 검색 / 관리하고 슬레이브 장치들과 데이터를 교환합니다.
+Ein Feldbus-Netzwerk verbindet ein Master-Gerät und mehrere Slave-Geräte.
+Master-Geräte suchen/verwalten das gesamte Netzwerk und tauschen Daten mit Slave-Geräten aus.
 
-일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.
+Im Allgemeinen sind SPSen Master-Geräte, und Sensoren, Tasten, Steuerungen usw. können als Slave-Geräte konfiguriert werden.

@@ -1,32 +1,32 @@
-﻿# 1.3.7.1 DeviceNet Master 사양
+# 1.3.7.1 DeviceNet-Master-Spezifikationen
 
 <br>
 
-##### Protocol 특성
+##### Protokollmerkmale
 
-| **구분**                       | **사양**                  |
+| **| Kategorie                       | Spezifikationen                  |**                       | **| Kategorie                       | Spezifikationen                  |**                  |
 | :---                           | :---                     |
-| 최대 연결 가능한 Slave 수        | 63개                      |
-| 최대 입력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개) | 255 Bytes                 |
-| 최대 출력 Bytes 크기 (Slave 1개) | 255 Bytes                 |
-| IO 연결                         | Bit Strobe, Change of State, Cyclic, Poll |
-| IO 최소 Cycle Time              |                           |
-| 통신 속도                       | 125 ~ 500 Kbit/s          |
-| Auto Baud Rate Detection        | 미지원                    |
-| Quick Connect                   | 지원                      |
+| Maximal anschließbare Slaves        | 63                      |
+| Maximale Eingangsbyte-Größe             | 1200 Bytes (FB-Block max.) |
+| Maximale Ausgangsbyte-Größe             | 1200 Bytes (FB-Block max.) |
+| Maximale Eingangsbyte-Größe (pro Slave) | 255 Bytes |
+| Maximale Ausgangsbyte-Größe (pro Slave) | 255 Bytes |
+| E/A-Verbindung                         | Bit Strobe, Change of State, Cyclic, Poll |
+| Minimale E/A-Zykluszeit             |                           |
+| Kommunikationsgeschwindigkeit                       | 125 ~ 500 Kbit/s          |
+| Auto Baud Rate Detection        | Nicht unterstützt                    |
+|  Quick-Connect                   | Unterstützt                      |
 | Topology                        |                           |
 
 
 
 <br>
 
-##### Network 특성
+##### Netzwerkmerkmale
 
-| **구분**                       | **사양**                   |
+| **| Kategorie                       | Spezifikationen                   |**                       | **| Kategorie                       | Spezifikationen                   |**                   |
 | :---                           | :---                      |
-| Network Slave Scan             | 지원                      |
+| Network Slave Scan             | Unterstützt                      |
 | Data Transport Layer           | CAN frames                |
-| Hub                            | 해당 없음                  |
-| Switch                         | 해당 없음                  |
+| Hub                            | Nicht zutreffend                  |
+| Switch                         | Nicht zutreffend                  |

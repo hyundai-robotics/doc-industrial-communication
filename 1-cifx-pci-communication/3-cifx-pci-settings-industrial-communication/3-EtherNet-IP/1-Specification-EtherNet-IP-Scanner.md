@@ -1,33 +1,33 @@
-﻿# 1.3.3.1 EtherNet/IP Scanner 사양
+# 1.3.3.1 EtherNet/IP-Scanner-Spezifikationen
 
 <br>
 
-##### Protocol 특성
+##### Protokollmerkmale
 
-| **구분**                       | **사양**                  |
+| **| Kategorie                       | Spezifikationen                  |**                       | **| Kategorie                       | Spezifikationen                  |**                  |
 | :---                           | :---                     |
-| 최대 연결 가능한 Slave 수        | 64개                      |
-| 최대 입력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개) | 504 Bytes                 |
-| 최대 출력 Bytes 크기 (Slave 1개) | 504 Bytes                 |
-| IO 연결                         | Cyclic                    |
-| IO 최소 Cycle Time              | 1ms                       |
-| 통신 속도                       | 10 or 100 Mbit/s          |
-| Auto Negotiation                | 지원                      |
-| Quick Connect                   | 지원                      |
+| Maximal anschließbare Slaves        | 64                      |
+| Maximale Eingangsbyte-Größe             | 1200 Bytes (FB-Block max.) |
+| Maximale Ausgangsbyte-Größe             | 1200 Bytes (FB-Block max.) |
+| Maximale Eingangsbyte-Größe (pro Slave) | 504 Bytes                 |
+| Maximale Ausgangsbyte-Größe (pro Slave) | 504 Bytes                 |
+| E/A-Verbindung                         | Cyclic                    |
+| Minimale E/A-Zykluszeit              | 1ms                       |
+| Kommunikationsgeschwindigkeit                       | 10 or 100 Mbit/s          |
+| Auto Negotiation                | Unterstützt                      |
+|  Quick-Connect                   | Unterstützt                      |
 | Topology                        | Tree, Line, Ring          |
 | DLR (Device Level Ring)         | Beacon based 'Ring Node'  |
-| 부가 기능                        | DHCP, BOOTP, ACD  지원    |
+| Zusätzliche Funktionen | DHCP, BOOTP, ACD unterstützt |
 
 
 <br>
 
-##### Network 특성
+##### Netzwerkmerkmale
 
-| **구분**                       | **사양**                  |
+| **| Kategorie                       | Spezifikationen                  |**                       | **| Kategorie                       | Spezifikationen                  |**                  |
 | :---                           | :---                     |
-| Network Slave Scan             | 미지원                    |
+| Network Slave Scan             | Nicht unterstützt                    |
 | Data Transport Layer           | Ethernet II, IEEE 802.3   |
-| Hub                            | 사용 가능                  |
-| Switch                         | 사용 가능                  |
+| Hub                           | Verfügbar                |
+| Switch                         | Verfügbar                  |

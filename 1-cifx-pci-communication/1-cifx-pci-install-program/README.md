@@ -1,3 +1,3 @@
-﻿# 1.1 CIFX PCI 프로그램 설치
+# 1.1 Installation des CIFX-PCI-Programms
 
-산업용 통신 관련 프로그램 설치 방법입니다.
+Dies ist die Installationsmethode für Programme im Zusammenhang mit der industriellen Kommunikation.

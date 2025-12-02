@@ -1,29 +1,29 @@
-﻿# 1.3.7.3 DeviceNet Slave 사양
+# 1.3.7.3 DeviceNet-Slave-Spezifikationen
 
 
 <br>
 
-##### Protocol 특성
+##### Protokollmerkmale
 
-| **구분**                   | **사양**                  |
+| **| Kategorie                   | Spezifikationen                  |**                   | **| Kategorie                   | Spezifikationen                  |**                  |
 | :---                       | :---                      |
-| 최대 입력 Bytes 크기        | 255 Bytes                 |
-| 최대 출력 Bytes 크기        | 255 Bytes                 |
-| IO 연결 (Implicit)         |                           |
-| IO 연결                    | Bit Strobe, Change of State, Cyclic, Poll |
-| IO 최소 Cycle Time         |                           |
-| 통신 속도                  | 125 ~ 500 Kbit/s          |
-| Auto Baud Rate Detection   | 미지원                    |
+| Maximale Eingangsbyte-Größe        | 255 Bytes                 |
+| Maximale Ausgangsbyte-Größe        | 255 Bytes                 |
+| E/A-Verbindung (implizit)                    |                           |
+| E/A-Verbindung                    | Bit Strobe, Change of State, Cyclic, Poll |
+| Minimale E/A-Zykluszeit         |                           |
+| Kommunikationsgeschwindigkeit                  | 125 ~ 500 Kbit/s          |
+| Auto Baud Rate Detection   | Nicht unterstützt                    |
 | Quick Connect              |                          |
 | Topology                   |                          |
 
 
 <br>
 
-##### Network 특성
+##### Netzwerkmerkmale
 
-| **구분**                       | **사양**                   |
+| **| Kategorie                       | Spezifikationen                   |**                       | **| Kategorie                       | Spezifikationen                   |**                   |
 | :---                           | :---                      |
 | Data Transport Layer           | CAN frames                |
-| Hub                            | 해당 없음                  |
-| Switch                         | 해당 없음                  |
+| Hub                            | Nicht zutreffend                  |
+| Switch                         | Nicht zutreffend                  |

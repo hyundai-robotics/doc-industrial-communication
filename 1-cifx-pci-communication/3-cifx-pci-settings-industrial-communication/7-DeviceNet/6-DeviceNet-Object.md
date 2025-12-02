@@ -6,63 +6,63 @@
 ##### 1. Object
 
 
-DeviceNet의 장치 내부에는 Object 의 집합체로 구성이 되어있습니다. 각 Object 는 장치 내부에의 특정한 구성요소를 표현합니다.
+Das DeviceNet-Gerät besteht aus einer Sammlung von Objekten. Jedes Objekt repräsentiert eine bestimmte Komponente innerhalb des Geräts.
 
 <br>
 
-![[그림 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
+![[Abbildung 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>)
 
 
 <br>
 
-Object는 Class Code 를 이용하여 구분합니다.
+Objekte werden anhand des Klassencodes unterschieden.
 
 <br>
 
-![[그림 1.3.7.6-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
+![[Abbildung 1.3.7.6-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
 
 <br>
 
-Object 내부에는 Instance 번호와 Attribute ID로 구성되어 있습니다.
+Objekte bestehen aus Instanznummern und Attribut-IDs.
 
 <br>
 
-DeviceNet Master 에서 Explicit Message를 통해 특정 Slave의 Object 에 접근할 수 있습니다.
+Der DeviceNet-Master kann über explizite Meldungen auf Objekte bestimmter Slaves zugreifen.
 
 <br>
 
 {% hint style="info" %}
-\.      EX) Crevis GN-9212 의 Object (해당 자료는 Crevis 매뉴얼에서 확인 하실 수 있습니다.)
+\.      Beispiel: Objekt von Crevis GN-9212 (Diese Informationen finden Sie im Crevis-Handbuch.)
 
-\.      Identity Object (Class Code 0x01) 의 Vendor ID 값 읽기
+\.      Lesen des Vendor-ID-Werts des Identitätsobjekts (Klassencode 0x01)
 
 \.      Instance : 1
 
 \.      Attribute ID : 1
 
-\.      권한 : Get (읽기만 가능)
+\.      Berechtigung: Abrufen (nur Lesen möglich)
 {% endhint %}
 
 
-![[그림 1.3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+![[Abbildung 1.3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
 
 
 <br>
 
-각 Object 와 내부의 Instance 및 Attribute 마다 모두 각기 다른 접근 권한을 가지고 있습니다.
+Jedes Objekt, jede Instanz und jedes Attribut im Inneren verfügt über unterschiedliche Zugriffsberechtigungen.
 
 <br>
 
 {% hint style="info" %}
-\.      접근 권한
+\.      Zugriffsberechtigungen
 
-\.      Get : 읽기 권한
+\.      Abrufen: Leseberechtigung
 
-\.      Set : 쓰기 권한 
+\.      Festlegen: Schreibberechtigung
 
-\.      Attribute Single : 한번에 1개의 Attribute 항목만 접근 가능
+\.      Einzelnes Attribut: Es kann jeweils nur auf ein Attributelement zugegriffen werden.
 
-\.      Attribute All : 한번에 Instance내의 모든 Attribute 접근 가능
+\.      Alle Attribute: Es kann auf alle Attribute in der Instanz gleichzeitig zugegriffen werden.
 {% endhint %}
 
 <br>

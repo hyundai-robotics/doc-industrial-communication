@@ -1,8 +1,8 @@
-﻿# 1.2.3 LED 설명
+# 1.2.3 Beschreibung der LEDs
 
 <br>
 
-### PCI LED 설명
+### Beschreibung der PCI-LEDs
 
 <br>
 

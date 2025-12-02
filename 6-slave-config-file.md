@@ -1,28 +1,28 @@
-﻿# 6. Slave 장치 설명 파일
+# 6. Beschreibungsdateien für Slave-Geräte
 
-산업용 통신 Master에서 Slave 통신 구성을 위해 각 Protocol 별 Slave 장치의 대한 설명 파일을 사용합니다.
+Zur Konfiguration der Slave-Kommunikation im industriellen Kommunikations-Master wird eine Beschreibungsdatei für das Slave-Gerät für jedes Protokoll verwendet.
 
 <br>
 
-Slave 장치 설명 파일은 당사 홈페이지에 다운로드 받을 수 있습니다.
-[www.hyundai-robotics.com](http://www.hyundai-robotics.com) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Hi6 Fieldbus Config**”을 다운로드 합니다.
+Beschreibungsdateien für Slave-Geräte können von unserer Website heruntergeladen werden.
+[www.hyundai-robotics.com -> Website für Industrieroboter -> Kundensupport -> Laden Sie „**Hi6 Fieldbus Config**” aus dem Bereich „Anwendungssoftware” herunter.](http://www.hyundai-robotics.com) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Hi6 Fieldbus Config**”을 다운로드 합니다.
 
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP : EDS 파일
+\.      EtherNet/IP: EDS-Datei
 
-\.      PROFINET IO : GSDML (.XML) 파일
+\.      PROFINET IO: GSDML-Datei (.XML)
 
-\.      EtherCAT : ESI (.XML) 파일
+\.      EtherCAT: ESI (.XML)-Datei)
 
-\.      PROFIBUS-DP : GSD 파일
+\.      PROFIBUS-DP: GSD-Datei
 
-\.      DeviceNet : EDS 파일
+\.      DeviceNet: EDS-Datei
 
-\.      CC-Link IE Field : CSPP 파일
+\.      CC-Link IE Field: CSPP-Datei
 
-\.      CC-Link IE Basic : CSPP 파일
+\.      CC-Link IE Basic: CSPP-Datei
 {% endhint %}
 
 <br>

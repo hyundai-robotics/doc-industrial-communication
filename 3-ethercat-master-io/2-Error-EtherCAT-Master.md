@@ -1,17 +1,17 @@
-﻿# 3.2 EtherCAT Master IO 에러 조치
+# 3.2 Fehlerbehandlung bei EtherCAT-Master-E/A
 
-EtherCAT Master IO 설정 중 발생할 수 있는 주요 Error 를 해결하기 위한 방법입니다.
+Dies ist eine Methode zur Behebung schwerwiegender Fehler, die bei den EtherCAT-Master-E/A-Einstellungen auftreten können.
 
 <br>
 
-![[그림 3.2-1 EtherCAT Master 상태]](<../_assets/3-ethercat-master-io/2-Error/image_1.png>) 
+![[Abbildung 3.2-1 EtherCAT Master Status]](<../_assets/3-ethercat-master-io/2-Error/image_1.png>)
 
 {% hint style="info" %}
-\.      LAN Cable 의 연결 상태를 확인해 주십시오.
+\.      Überprüfen Sie den Verbindungsstatus des LAN-Kabels.
 
-\.      Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
+\.      Bitte überprüfen Sie, ob das Adaptergerät eingeschaltet ist.
 
-\.      Remote IO Module 의 IO 조합과 동일하게 설정이 되었는지 확인해 주십시오.
+\.      Bitte überprüfen Sie, ob die Einstellungen mit der E/A-Kombination des Remote-E/A-Moduls übereinstimmen.
 {% endhint %}
 
 <br>

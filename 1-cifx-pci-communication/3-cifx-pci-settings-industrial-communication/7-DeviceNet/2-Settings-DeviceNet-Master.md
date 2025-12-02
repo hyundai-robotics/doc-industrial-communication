@@ -1,115 +1,115 @@
-﻿# 1.3.7.2 DeviceNet Master 설정
+# 1.3.7.2 DeviceNet-Master-Einstellungen
 
-“[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+“[Bitte befolgen Sie die Anweisungen unter „**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**” und „**1.3.2 SYCON.NET-Einstellungen**” und fahren Sie dann mit der folgenden Methode fort.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[Bitte befolgen Sie die Anweisungen unter „**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**” und „**1.3.2 SYCON.NET-Einstellungen**” und fahren Sie dann mit der folgenden Methode fort.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, ziehen Sie bitte die Funktion „**1.3.2 SYCON.NET-Hilfe**” zu Rate.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      DeviceNet Connector 연결은 아래를 참고해 주십시오.
+\.      Informationen zum Anschluss des DeviceNet-Steckers finden Sie im Folgenden.
 
-\.      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+\.      (“[\.      („**1.2.2 Stecker**”)](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
 {% endhint %}
 
 <br>
 
-##### 1. 산업용 통신 펌웨어 설정에서 DeviceNet Master를 선택하고 로봇 제어기를 재부팅합니다.
+##### 1. Wählen Sie DeviceNet Master in den Firmware-Einstellungen für die industrielle Kommunikation aus und starten Sie die Robotersteuerung neu.
 
-![[그림 1.3.7.2-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>) 
-
-<br>
-
-##### 2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.
-
-![[그림 1.3.7.2-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>) 
+![[Abbildung 1.3.7.2-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>)
 
 <br>
 
-##### 3. Sycon.net 을 이용하여 DeviceNet Master PCI 장치를 선택합니다.
+##### 2. Überprüfen Sie den Bereitschaftsstatus des ausgewählten Protokolls in der Überwachung der industriellen Kommunikation.
 
-![[그림 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
-![[그림 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
-
-<br>
-
-##### 4. PCI 장치를 Scan 하고 DeviceNet Master 적용(Apply)합니다.
-
-![[그림 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
+![[Abbildung 1.3.7.2-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>)
 
 <br>
 
-##### 5. 통신 속도를 설정합니다.
+##### 3. Wählen Sie mit Sycon.net das DeviceNet-Master-PCI-Gerät aus.
+
+![[Abbildung 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
+![[Abbildung 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>)
+
+<br>
+
+##### 4. Scannen Sie das PCI-Gerät und wenden Sie „DeviceNet-Master“ an.
+
+![[Abbildung 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>)
+
+<br>
+
+##### 5. Stellen Sie die Kommunikationsgeschwindigkeit ein.
 
 {% hint style="warning" %}
-\.      Master 와 Slave의 통신속도가 다르면 Network Scan이 정상적으로 이루어지지 않습니다.
+\.      Wenn die Kommunikationsgeschwindigkeit von Master und Slave unterschiedlich ist, funktioniert der Netzwerkscan nicht ordnungsgemäß.
 {% endhint %}
 
-![[그림 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>) 
+![[Abbildung 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>)
 
 <br>
 
-##### 6. 설정을 다운로드 합니다.
+##### 6. Laden Sie die Einstellungen herunter.
 
-![[그림 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
-
-<br>
-
-##### 7. DeviceNet Master 에 연결할 Slave 모듈을 준비합니다.
-   * 이번 예제에서는 Crevis 사의 NA-9211 DeviceNet Slave를 사용합니다.
-   * 시스템 전원과 필드 전원을 공급해 주어 모듈을 활성화 시켜 주십시오.
-
-![[그림 1.3.7.2-8 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_8.png>) 
+![[Abbildung 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>)
 
 <br>
 
-##### 8. Slave 장치의 설정
+##### 7. Bereiten Sie die Slave-Module für die Verbindung mit dem DeviceNet-Master vor.
+   * In diesem Beispiel verwenden wir Crevis NA-9211 DeviceNet-Slave.
+   * Bitte versorgen Sie das Modul mit Systemstrom und Feldstrom, um es zu aktivieren.
+
+![[Abbildung 1.3.7.2-8 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_8.png>)
+
+<br>
+
+##### 8. Einstellungen des Slave-Geräts
 
 {% hint style="info" %}
-\.      DeviceNet Slave 장치의 MAC ID와 통신속도, 종단저항 설정합니다.
+\.      Stellen Sie die MAC-ID, die Kommunikationsgeschwindigkeit und den Abschlusswiderstand des DeviceNet-Slave-Geräts ein.
 {% endhint %}
 
-![[그림 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>) 
+![[Abbildung 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>)
 
-![[그림 1.3.7.2-10 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_10.png>)
+![[Abbildung 1.3.7.2-10 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_10.png>)
 
 {% hint style="info" %}
-\.      [예제 설정]
+\.      [Beispiel-Einstellungen]
 
-\.      종단 저항 : Cable에 종단 저항 장착하여 사용 (종단 DIP Switch OFF)
+\.      Abschlusswiderstand: Verwendung mit im Kabel installiertem Abschlusswiderstand (Abschluss-DIP-Schalter AUS)
 
-\.      MAC ID (Station Number) : 4로 설정 (3번 DIP Switch만 ON)
+\.      MAC-ID (Stationsnummer): Auf 4 einstellen (nur DIP-Schalter 3 EIN)
 
-\.      통신 속도 (Baudrate) : Auto 로 설정 (7번, 8번 DIP Switch ON)
+\.      Kommunikationsgeschwindigkeit (Baudrate): Auf „Auto” einstellen (DIP-Schalter 7 und 8 EIN)
 {% endhint %}
 
 <br>
 
-##### 9. Slave 장치의 EDS 파일을 등록합니다.
+##### 9. Registrieren Sie die EDS-Datei des Slave-Geräts.
 
 {% hint style="info" %}
-\.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
+\.      Für die Verwendung von Geräten, die nicht in Sycon.net registriert sind, ist eine EDS-Datei erforderlich.
 
-\.      NA-9211 Device의 EDS 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
+\.      Die EDS-Datei für das Gerät NA-9211 kann von der Crevis-Website heruntergeladen werden.
 {% endhint %}
 
-![[그림 1.3.7.2-11 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_11.png>)
+![[Abbildung 1.3.7.2-11 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_11.png>)
 
 {% hint style="info" %}
-\.      다운로드한 EDS 파일을 모두 Sycon.net 에 등록합니다.
+\.      Registrieren Sie alle heruntergeladenen EDS-Dateien in Sycon.net.
 
-\.      EDS File 등록시 산업용 통신 Protocol (DeviceNet)를 확인해 주십시오.
+\.      Bitte überprüfen Sie bei der Registrierung von EDS-Dateien das industrielle Kommunikationsprotokoll (DeviceNet).
 {% endhint %}
 
-![[그림 1.3.7.2-12 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_12.png>)
+![[Abbildung 1.3.7.2-12 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_12.png>)
 
 <br>
 
-![[그림 1.3.7.5-13 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_13.png>)
+![[Abbildung 1.3.7.5-13 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_13.png>)
 
 
 
@@ -118,111 +118,111 @@
 ##### 10. Network Scan
 
 {% hint style="warning" %}
-\.      **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
+\.      **\.      Überprüfen Sie bei der Durchführung eines Netzwerkscans unbedingt die folgenden Punkte.**
 
-\.      **(1) 케이블 연결 여부**  
-\.      **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**  
-\.      **(3) Master - Slave 통신 속도 설정 여부**  
+\.      **\.      (1) Ob das Kabel angeschlossen ist.**
+\.      **\.      (2) Ob ein Abschlusswiderstand angeschlossen oder ein Abschluss-DIP-Schalter verwendet werden soll.**
+\.      **\.      (3) Ob die Kommunikationsgeschwindigkeit zwischen Master und Slave festgelegt ist**
 
-\.      **원활한 통신 연결을 위해 (“[**1.3.7.5 DeviceNet ERROR 조치**](../7-DeviceNet/5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
+\.      **원활한 통신 연결을 위해 (“[\.      **Für eine reibungslose Kommunikationsverbindung überprüfen Sie bitte („**1.3.7.5 DeviceNet-Fehlerbehandlung**“).**](../7-DeviceNet/5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
-\.      DeviceNet Master 는 Network Scan 기능을 지원합니다.
+\.      DeviceNet Master unterstützt die Netzwerkscan-Funktion.
 {% endhint %}
 
 {% hint style="info" %}
-\.      DeviceNet Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
+\.      Klicken Sie mit der rechten Maustaste auf das DeviceNet Master-Gerät und wählen Sie „Netzwerkscan“.
 {% endhint %}
 
-![[그림 1.3.7.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_14.png>)
+![[Abbildung 1.3.7.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_14.png>)
 
 {% hint style="warning" %}
-\.      EDS 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
+\.      Wenn die EDS-Datei nicht registriert ist, werden die Slave-Informationen bei der Durchführung eines Netzwerkscans angezeigt, jedoch ist eine Registrierung nicht möglich.
 {% endhint %}
 
 {% hint style="info" %}
-\.      정상적으로 EDS 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
+\.      Wenn die EDS-Datei ordnungsgemäß registriert ist, können Slave-Geräte über den Netzwerkscan hinzugefügt werden.
 {% endhint %}
 
-![[그림 1.3.7.2-15 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_15.png>)
+![[Abbildung 1.3.7.2-15 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_15.png>)
 
-![[그림 1.3.7.2-16 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_16.png>)
+![[Abbildung 1.3.7.2-16 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_16.png>)
 
 <br>
 
-##### 11. Slave 장치 Configuration
+##### 11. Konfiguration des Slave-Geräts
 
 {% hint style="info" %}
-\.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
+\.      Klicken Sie auf „Trennen“ des Master-Geräts für die Konfiguration des Slave-Geräts.
 {% endhint %}
 
-![[그림 1.3.7.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_17.png>)
+![[Abbildung 1.3.7.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_17.png>)
 
 {% hint style="info" %}
-\.      Slave 장치를 더블클릭합니다.
+\.      Doppelklicken Sie auf das Slave-Gerät.
 {% endhint %}
 
-![[그림 1.3.7.2-18 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_18.png>)
+![[Abbildung 1.3.7.2-18 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_18.png>)
 
-
-<br>
-
-{% hint style="info" %}
-\.      Slave 장치의 연결 타입을 설정합니다.
-
-\.      DeviceNet 통신을 연결을 위한 메세지 전송 방식을 선택합니다.
-
-\.      ** UCMM 미 체크시 UCMM Group 2 기본 값으로 설정됨**   
-
-\.      UCMM GROUP 1 : IO Message   
-\.      UCMM GROUP 2 : Network 초기화 시 Master - Slave 연결 Message (기본 설정)   
-\.      UCMM GROUP 3 : Explicit Message   
-
-\.      특정 Device의 경우 UCMM Group 3을 사용할 수 있으니 제품 사양서를 확인 후 진행하십시오.
-{% endhint %}
-
-![[그림 1.3.7.2-19 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_19.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      Crevis NA-9211 은 UCMM 미체크 후 진행합니다. (Group2 기본 값 사용)
+\.      Legen Sie den Verbindungstyp des Slave-Geräts fest.
+
+\.      Wählen Sie die Nachrichtenübertragungsmethode für die DeviceNet-Kommunikationsverbindung aus.
+
+\.      **\.      Wenn UCMM nicht aktiviert ist, wird UCMM-Gruppe 2 als Standardwert festgelegt.**
+
+\.      UCMM GROUP 1 : IO Message
+\.      UCMM-GRUPPE 2: Meldung zur Master-Slave-Verbindung während der Netzwerkinitialisierung (Standardeinstellung)
+\.      UCMM GROUP 3 : Explicit Message
+
+\.      Für bestimmte Geräte kann UCMM-Gruppe 3 verwendet werden. Bitte überprüfen Sie daher die Produktspezifikationen, bevor Sie fortfahren.
 {% endhint %}
 
-![[그림 1.3.7.2-20 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_20.png>)
+![[Abbildung 1.3.7.2-19 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_19.png>)
+
+<br>
+
+{% hint style="info" %}
+\.      Crevis NA-9211 fährt ohne Überprüfung von UCMM fort. (Verwendet den Standardwert von Gruppe 2)
+{% endhint %}
+
+![[Abbildung 1.3.7.2-20 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_20.png>)
 
 <br>
 
 
 {% hint style="info" %}
-\.      DeviceNet Slave의 설정을 확인 합니다.
+\.      Überprüfen Sie die DeviceNet-Slave-Einstellungen.
 
-\.      Output : ST-2318 (1 Byte)  
-\.      Input : ST-1218 (1 Byte)  
+\.      Ausgang: ST-2318 (1 Byte)
+\.      Eingang: ST-1218 (1 Byte)
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      통신 방식 (Poll, Change of State, Cyclic, Bit-Strobe)에 따라 설정 필요  
+\.      Erforderliche Einstellungen je nach Kommunikationsmethode (Abfrage, Zustandsänderung, zyklisch, Bit-Strobe)
 {% endhint %}
 
 <br>
 
-![[그림 1.3.7.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
+![[Abbildung 1.3.7.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
 
 <br>
 
 {% hint style="info" %}
 \.      [Production Inhibit Time]
 
-\.      슬레이브 장치의 IO 데이터 생성 주기 설정 (ms)  
-\.  
-\.      예시) 10ms  :  10ms 주기로 IO 데이터를 생성  
-\.      예시) 0ms   :  Slave가 가능한 가장 빠른 시간 안에 IO 데이터 생성  
+\.      Legen Sie den Zyklus für die E/A-Datengenerierung des Slave-Geräts (ms) fest.
+\.
+\.      Beispiel) 10 ms: E/A-Daten werden alle 10 ms generiert.
+\.      Beispiel) 0 ms: Der Slave generiert E/A-Daten so schnell wie möglich.
 
-\.      주기가 짧을 수록 Slave 장치에 걸리는 부하가 커질 수 있습니다. (각 Slave 별 사양 확인 필요) 
+\.      Je kürzer der Zyklus, desto größer kann die Belastung des Slave-Geräts sein. (Die Spezifikationen müssen für jeden Slave überprüft werden.)
 {% endhint %}
 
 <br>
@@ -230,79 +230,79 @@
 {% hint style="info" %}
 \.      [Expected Packet Rate]
 
-\.      마스터와 슬레이브 간 IO 데이터 업데이트 시간 설정  
+\.      Legen Sie die Zeit für die Aktualisierung der E/A-Daten zwischen Master und Slave fest
 {% endhint %}
 
 <br>
 
-![[그림 1.3.7.2-22 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
+![[Abbildung 1.3.7.2-22 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
 
 
 
 <br>
 
-##### 12. Master 장치 Configuration
+##### 12. Konfiguration des Master-Geräts
 
 {% hint style="info" %}
-\.      Master 장치를 더블클릭합니다.
+\.      Doppelklicken Sie auf das Master-Gerät.
 {% endhint %}
 
-![[그림 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
-
-
-{% hint style="info" %}
-\.      DeviceNet 통신 속도를 설정합니다. (Slave 통신 속도와 동일하도록)
-{% endhint %}
-
-![[그림 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
-
-{% hint style="info" %}
-\.      Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
-{% endhint %}
-
-![[그림 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
-
-{% hint style="info" %}
-\.      Quick Connect 기능 사용 유무를 설정합니다.
-{% endhint %}
-
-![[그림 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
+![[Abbildung 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
 
 
 {% hint style="info" %}
-\.      설정을 완료 후 Download를 진행해 주십시오.
+\.      Legen Sie die DeviceNet-Kommunikationsgeschwindigkeit fest. (An die Kommunikationsgeschwindigkeit des Slaves anpassen)
 {% endhint %}
 
-![[그림 1.3.7.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
+![[Abbildung 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
+
+{% hint style="info" %}
+\.      Überprüfen Sie die zugewiesenen E/A und die Startadresse für jeden Slave-Slots in der Adresstabelle.
+{% endhint %}
+
+![[Abbildung 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
+
+{% hint style="info" %}
+\.      Legen Sie fest, ob die Quick-Connect-Funktion verwendet werden soll.
+{% endhint %}
+
+![[Abbildung 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
+
+
+{% hint style="info" %}
+\.      Fahren Sie nach Abschluss der Einstellungen mit dem Herunterladen fort.
+{% endhint %}
+
+![[Abbildung 1.3.7.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
 
 <br>
 
-##### 13. 통신 상태 확인
+##### 13. Überprüfen Sie den Kommunikationsstatus
 
 {% hint style="info" %}
-\.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
+\.      Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („1.4 Überwachen der CIFX-PCI-Kommunikation“).](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
+\.      Doppelklicken Sie auf das angeschlossene Master-Gerät, um den Kommunikationsstatus zu überprüfen.
 {% endhint %}
 
-![[그림 1.3.7.2-28 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_28.png>)
+![[Abbildung 1.3.7.2-28 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_28.png>)
 
-![[그림 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
+![[Abbildung 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
+\.      Mit der Diagnosefunktion von Sycon.net können Sie den Kommunikationsstatus und den Status der E/A-Ein- und Ausgänge überwachen.
 {% endhint %}
 
-![[그림 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
+![[Abbildung 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
 
 <br>
 
-##### 14. 통신 설정 완료 후 IO Block 을 할당합니다.
+##### 14. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**“).**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

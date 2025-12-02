@@ -1,78 +1,78 @@
-﻿# 1.3.10.2 Remote IO IP 주소 설정
+# 1.3.10.2 Festlegen der Remote-E/A-IP-Adresse
 
-Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
+So stellen Sie die IP-Adresse des Crevis M9289 EtherNet/IP-Netzwerkadapters ein.
 
 <br>
 
 {% hint style="info" %}
-\.      Remote IO Crevis M9289 의 공장 출하시 설정 IP는 192.168.100.99 입니다.
+\.      Die werkseitige Standard-IP des Crevis M9289 Remote-E/A lautet 192.168.100.99.
 
-\.      Remote IO 의 IP를 알지 못하거나 변경이 필요한 경우 아래를 따라 주십시오.
+\.      Wenn Sie die IP-Adresse des Remote-E/A nicht kennen oder ändern müssen, führen Sie bitte die folgenden Schritte aus.
 {% endhint %}
 
 <br>
 
-##### 1. PC와 Remote IO를 LAN Cable을 이용해 직접 연결합니다.
+##### 1. Verbinden Sie den PC und den Remote-E/A direkt über ein LAN-Kabel.
 
-![[그림 1.3.10.2-1 LAN 연결]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_1.png>)  
-
-<br>
-
-##### 2. Remote IO Adapter의 9번 DIP Switch만 ON으로 변경합니다.
-
-![[그림 1.3.10.2-2 DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_2.png>)  
+![[Abbildung 1.3.10.2-1 LAN-Verbindung]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_1.png>)
 
 <br>
 
-##### 3. Bootpsvr.exe 프로그램을 실행합니다.
-   * 해당 프로그램은 Crevis 사에서 제공합니다. (홈페이지에서 IO Guide Pro 다운로드 후 설치)
+##### 2. Schalten Sie nur den DIP-Schalter 9 des Remote-E/A-Adapters auf EIN.
 
-![[그림 1.3.10.2-3 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_3.png>)  
+![[Abbildung 1.3.10.2-2 DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_2.png>)
 
-![[그림 1.3.10.2-4 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_4.png>)  
+<br>
+
+##### 3. Führen Sie das Programm „Bootpsvr.exe“ aus.
+   * Dieses Programm wird von Crevis bereitgestellt. (Laden Sie IO Guide Pro von der Website herunter und installieren Sie es.)
+
+![[Abbildung 1.3.10.2-3 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_3.png>)
+
+![[Abbildung 1.3.10.2-4 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_4.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
+\.      Drücken Sie „Start BootP“, trennen Sie das M9289-Modul vom Stromnetz und schließen Sie es wieder an, um es neu zu starten.
 {% endhint %}
 
-![[그림 1.3.10.2-5 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_5.png>)  
+![[Abbildung 1.3.10.2-5 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_5.png>)
 
 <br>
 
 
-##### 4. Adapter 장치를 재부팅하면 BootpSvr.exe 프로그램에 Device 정보가 나타납니다.
+##### 4. Wenn das Adaptergerät neu gestartet wird, werden die Geräteinformationen im Programm BootpSvr.exe angezeigt.
 
-![[그림 1.3.10.2-6 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_6.png>) 
-
-<br>
-
-##### 5. Device를 선택하여 IP를 설정합니다.
-
-![[그림 1.3.10.2-7 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_7.png>)
-![[그림 1.3.10.2-8 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_8.png>) 
+![[Abbildung 1.3.10.2-6 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_6.png>)
 
 <br>
 
-##### 6. IP 설정이 끝난 Adapter의 DIP Switch를 모두 OFF로 변경한 후 장치를 재부팅합니다.
+##### 5. Wählen Sie das Gerät aus und stellen Sie die IP ein.
+
+![[Abbildung 1.3.10.2-7 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_7.png>)
+![[Abbildung 1.3.10.2-8 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_8.png>)
+
+<br>
+
+##### 6. Nachdem die IP-Einstellung abgeschlossen ist, schalten Sie alle DIP-Schalter des Adapters auf AUS und starten Sie das Gerät neu.
 
 {% hint style="info" %}
-\.      DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
+\.      Überprüfen Sie unbedingt den Status der DIP-Schalter und ob der Adapter neu gestartet wurde.
 {% endhint %}
 
-![[그림 1.3.10.2-9 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_9.png>) 
+![[Abbildung 1.3.10.2-9 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_9.png>)
 
 <br>
 
-##### 7. PC 에서 Ping Test 등을 이용하여 IP를 확인합니다.
+##### 7. Überprüfen Sie die IP-Adresse mithilfe eines Ping-Tests usw. auf dem PC.
 
-![[그림 1.3.10.2-10 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_10.png>) 
+![[Abbildung 1.3.10.2-10 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_10.png>)
 
 <br>
 
-##### 8. IP 주소가 정상적으로 변경이 되었다면 설정을 진행합니다.
+##### 8. Wenn die IP-Adresse erfolgreich geändert wurde, fahren Sie mit den Einstellungen fort.
 
 {% hint style="info" %}
-\.      "[**1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
+\.      "[\.      Bitte fahren Sie mit den Einstellungen gemäß dem Verfahren „**1.3.10.1 EtherNet/IP – Standard-Einstellungen für die Remote-E/A-Verbindung**“ fort.](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
 {% endhint %}

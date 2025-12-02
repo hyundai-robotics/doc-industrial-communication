@@ -1,32 +1,32 @@
-﻿# 1.3.5.1 EtherCAT Master 사양
+# 1.3.5.1 EtherCAT-Master-Spezifikationen
 
 <br>
 
-##### Protocol 특성
+##### Protokollmerkmale
 
-| **구분**                       | **사양**                  |
+| **| Kategorie                       | Spezifikationen                  |**                       | **| Kategorie                       | Spezifikationen                  |**                  |
 | :---                           | :---                     |
-| 최대 연결 가능한 Slave 수       | 200개                      |
-| 최대 입력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개)| 256 Bytes                 |
-| 최대 출력 Bytes 크기 (Slave 1개)| 256 Bytes                 |
-| IO 연결                        |                           |
-| IO 최소 Cycle Time             | 250us (1ms Recommended)   |
-| 통신 속도                      | 100 Mbit/s (Full-Duplex)  |
-| Auto Negotiation               | 미지원                    |
-| Quick Connect                  | 미지원                    |
+| Maximal anschließbare Slaves       | 200                      |
+| Maximale Eingangsbyte-Größe            | 1200 Bytes (FB Block Max) |
+| Maximale Ausgangsbyte-Größe            | 1200 Bytes (FB Block Max) |
+| Maximale Eingangsbyte-Größe (pro Slave)| 256 Bytes                 |
+| Maximale Ausgangsbyte-Größe (pro Slave)| 256 Bytes                 |
+| E/A-Verbindung                        |                           |
+| Minimale E/A-Zykluszeit             | 250us (1ms Recommended)   |
+| Kommunikationsgeschwindigkeit                      | 100 Mbit/s (Full-Duplex)  |
+| Auto Negotiation               | Nicht unterstützt                    |
+| Quick Connect                  | Nicht unterstützt                    |
 | Topology                       | Line, Ring                |
-| Redundance                     | 지원 (동기화와 동시 적용 불가) |
-| 동기화                         | Distributed Clocks        |
+| Redundanz                     |Unterstützt (kann nicht gleichzeitig mit Synchronisation angewendet werden) |
+| Synchronisation                         | Distributed Clocks        |
 
 <br>
 
-##### Network 특성
+##### Netzwerkmerkmale
 
-| **구분**                      | **사양**                  |
+| **| Kategorie                      | Spezifikationen                  |**                      | **| Kategorie                      | Spezifikationen                  |**                  |
 | :---                          | :---                     |
-| Network Slave Scan            | 지원                      |
+| Network Slave Scan            | Unterstützt                      |
 | Data Transport Layer          | Ethernet II, IEEE 802.3   |
-| Hub                           | 사용 불가능                |
-| Switch                        | 제한 사용 가능 (Master 와 1번째 Slave 사이 ) |
+| Hub                           | Nicht verfügbar                |
+| Switch                        | Eingeschränkte Verwendung möglich (zwischen Master und erstem Slave) |

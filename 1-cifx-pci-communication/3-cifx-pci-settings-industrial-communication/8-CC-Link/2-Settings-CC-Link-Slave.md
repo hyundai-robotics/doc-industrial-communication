@@ -1,104 +1,104 @@
-﻿# 1.3.8.2 CC-Link Slave 설정
+# 1.3.8.2 CC-Link-Slave-Einstellungen
 
-“[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+“[Befolgen Sie bitte die Schritte unter „**1.3.1 CIFX-PCI-Slot-Einstellungen**“ und fahren Sie dann mit der folgenden Methode fort.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      CC-Link Connector 연결은 아래를 참고해 주십시오.
+\.      Informationen zum Anschluss des CC-Link-Steckers finden Sie im Folgenden.
 
-\.      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+\.      (“[\.      („**1.2.2 Stecker**”)](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
 {% endhint %}
 
 <br>
 
-##### 1. TP를 이용하여 산업용 통신 펌웨어 설정에서 CC-Link Slave를 선택하고 로봇 제어기를 재부팅합니다.
+##### 1. Bitte wählen Sie über TP in den Firmware-Einstellungen für die industrielle Kommunikation „CC-Link Slave“ aus und starten Sie die Robotersteuerung neu.
 
-![[그림 1.3.8.4-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
+![[Abbildung 1.3.8.4-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>)
 
 <br>
 
-##### 2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.
+##### 2. Überprüfen Sie den aktuellen Status der Kommunikationsprotokollbereitschaft in der Überwachung der industriellen Kommunikation.
 
-![[그림 1.3.8.4-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_2.png>) 
+![[Abbildung 1.3.8.4-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_2.png>)
 
 <br>
 
 {% hint style="warning" %}
-**\[주의]**: Sycon.net 으로 설정한 Configuration 파일이 해당 PCI 슬롯에 Download 되어 있는 경우 TP의 설정 값을 무시하게 됩니다.
+*\[Achtung]**: Wenn eine von Sycon.net festgelegte Konfigurationsdatei auf diesen PCI-Slot heruntergeladen wird, werden die TP-Einstellungen ignoriert.
 {% endhint %}
 
 <br>
 
-##### 3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  CC-Link Slave]**
+##### 3. Berühren Sie das Menü, um den Bildschirm mit den Slave-Einstellungen aufzurufen.
+*\\[System > 2: Steuerungsparameter > 11: Industrielle Kommunikation > 2: PCI-Slave-Slot-Einstellungen >  CC-Link Slave]**
 
-![[그림 1.3.8.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>) 
+![[Abbildung 1.3.8.4-3 Slave-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>)
 
-![[그림 1.3.8.4-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_4.png>) 
+![[Abbildung 1.3.8.4-4 Slave-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_4.png>)
 
 <br>
 
-##### 4. 각 항목별 설명
+##### 4. Beschreibung der einzelnen Elemente
 
 {% hint style="info" %}
 \.      [Station Address]
 
-\.      CC-Link는 Station Address를 통해 Slave를 식별합니다. (1 ~ 64)
+\.      CC-Link identifiziert Slaves über die Stationsadresse. (1 ~ 64)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 속도(Baudrate)]
+\.      [Kommunikationsgeschwindigkeit (Baudrate)]
 
-\.      156, 625, 2500, 5000, 10000 Kbit/s  중 선택 가능합니다.
+\.      Sie können zwischen 156, 625, 2500, 5000 und 10000 Kbit/s wählen.
 {% endhint %}
 
 {% hint style="info" %}
 \.      [CC-Link Version]
 
-\.      Version 1 : IO Station 사용 가능, Extension Cycle 사용 불가
+\.      Version 1: E/A-Station verfügbar, Erweiterungszyklus nicht verfügbar
 
-\.      Version 2 : IO Station 사용 불가, Extension Cycle 사용 가능
+\.      Version 2: E/A-Station nicht verfügbar, Erweiterungszyklus verfügbar
 {% endhint %}
 
 {% hint style="info" %}
-\.      [점유 Station 수]
+\.      [Anzahl belegter Stationen]
 
-\.      IO Station : 1개 점유
+\.      E/A-Station: Belegt 1
 
-\.      Remote Device : 1 ~ 4 개 선택 가능 
+\.      Remote-Gerät: 1 bis 4 wählbar
 
-\.      점유하는 Station 수에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
+\.      Die Größe des zugewiesenen E/A-Byte-Bereichs variiert je nach Anzahl der belegten Stationen.
 {% endhint %}
 
 {% hint style="info" %}
 \.      [Extension Cycle]
 
-\.      Version 2에서 사용 가능
+\.      Verfügbar in Version 2
 
-\.      Remote Device : 1배(Single), 2배(Double), 4배(Quadruple), 8배(Octuple) 선택 가능 
+\.      Remote-Gerät: Einzeln (1x), doppelt (2x), vierfach (4x), achtfach (8x) wählbar.
 
-\.      Extension Cycle에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
+\.      Die Größe des zugewiesenen E/A-Byte-Bereichs variiert je nach Erweiterungszyklus.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **IO Byte 영역에 대해서는 아래 링크를 참고해 주십시오.**
+\.      **\.      Informationen zum E/A-Byte-Bereich finden Sie unter dem folgenden Link.**
 
-\.      **(“[**1.3.8.1 CC-Link Slave 사양**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)”)**
+\.      **(“[\.      **(„**1.3.8.1 CC-Link-Slave-Spezifikationen**”)**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)”)**
 {% endhint %}
 
 <br>
 
-##### 5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.
+##### 5. Überprüfen Sie nach Abschluss der Einstellungen den Kommunikationsstatus gemäß dem folgenden Verfahren.
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 (“[Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („1.4 Überwachung der CIFX-PCI-Kommunikation“).](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 
 <br>
 
-##### 6. 통신 설정 완료 후 IO Block 을 할당합니다.
+##### 6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**“).**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}
