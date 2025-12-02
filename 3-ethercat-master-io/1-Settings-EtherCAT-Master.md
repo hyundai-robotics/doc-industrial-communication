@@ -1,141 +1,141 @@
-﻿# 3.1 EtherCAT Master IO 설정
+# 3.1 EtherCAT Master IO设置
 
 <br>
 
-##### 1. 메뉴를 터치하여 설정 화면으로 진입 합니다. 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 4: EtherCAT Master 설정]**
+##### 1. 触摸菜单来进入设置界面。
+*\[系统 > 2: 控制参数 > 11: 工业通信 > 4: EtherCAT Master设置]**
 
 <br>
 
-![[그림 3.1-1 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_1.png>) 
+![[图 3.1-1 EtherCAT Master设置]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_1.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      EtherCAT Master 설정 화면에서 선택된 제어기 LAN Port 번호를 확인합니다. 
+\.      在EtherCAT Master设置界面中，确认所选控制器的LAN Port编号。
 {% endhint %}
 
-##### 2. 통신을 위해 제어기 LAN 포트와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.
+##### 2. 为了实现通信，连接控制器LAN端口和Remote IO的电缆等并确认状态。
 
 <br>
 
-![[그림 3.1-2 하드웨어 연결]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_2.png>) 
-![[그림 3.1-3 하드웨어 연결]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_3.png>) 
-
-<br>
-
-{% hint style="info" %}
-\.      제어기 와 Remote IO를 LAN Cable을 이용하여 연결해 주십시오.
-
-\.      Remote IO 의 DIP Switch는 모두 OFF로 설정해 주십시오.
-
-\.      Remote IO 전원과 Field Power를 모두 연결해 주십시오. (24V DC)
-{% endhint %}
-
-<br>
-
-##### 3. 설정 메뉴에서 EtherCAT Master 사용을 "ON" 으로 선택합니다. 
-
-<br>
-
-![[그림 3.1-4 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_4.png>) 
+![[图3.1-2 硬件连接]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_2.png>)
+![[图 3.1-3 硬件连接]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_3.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      사용하는 환경에 맞게 통신 주기를 설정합니다.
+\.      请用LAN电缆连接控制器和Remote IO。
 
-\.      통신 주기는 1ms, 2ms, 5ms 를 지원합니다.
+\.      请将Remote IO的DIP Switch全部设置为OFF。
+
+\.      请全部连接Remote IO电源和Field Power。（24V DC）
 {% endhint %}
 
 <br>
 
-##### 4. 설정 메뉴의 슬레이브 리스트에서 연결한 Remote IO 모듈과 동일한 구성을 선택합니다. 
+##### 3. 在设置菜单中，请将EtherCAT Master选择为“ON”（启用）。
 
 <br>
 
-![[그림 3.1-5 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_5.png>)
+![[图 3.1-4 EtherCAT Master设置]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_4.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      Input, Output Byte 수를 확인합니다.
+\.      根据使用环境设置通信周期。
+
+\.      通信周期支持1ms、2ms、5ms。
 {% endhint %}
 
 <br>
 
-{% hint style="info" %}
-\.      Input Module  
-\.      M12DF : Digital 16점  
-\.      M3534 : Analog 4점  
-{% endhint %}
-
-{% hint style="info" %}
-\.      Output Module  
-\.      M225F : Digital 16점  
-\.      M226F : Digital 16점  
-\.      M2768 : Digital 8점   
-\.      M4534 : Analog 4점  
-{% endhint %}
-
-{% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
-{% endhint %}
+##### 4. 在设置菜单的从站列表中，选择与所连接的Remote IO模块相同的配置。
 
 <br>
 
-![[그림 3.1-6 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_6.png>) 
-
-<br>
-
-##### 5. 설정 완료 후 제어기를 재부팅합니다.
-
-![[그림 3.1-7 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
-
-<br>
-
-![[그림 3.1-8 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_8.png>) 
+![[图 3.1-5 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_5.png>)
 
 <br>
 
 {% hint style="info" %}
-\.      설정 완료 후 제어기를 재부팅해 주십시오.
-{% endhint %}
-
-<br>
-
-##### 6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.
-
-![[그림 3.1-9 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
-
-<br>
-
-{% hint style="info" %}
-\.      통신 연결 상태와 Error 여부를 확인해 주십시오.
-{% endhint %}
-
-<br>
-
-![[그림 3.1-10 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_10.png>)
-
-<br>
-
-{% hint style="info" %}
-\.      Remote IO Module 에서 LED를 이용해 정상적으로 통신이 개통되어 있는지 확인해 주십시오.
+\.      确认Input、Output字节数。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **통신 상태에서 ERROR 발생시 (“[**3.2 EtherCAT Master IO 에러 조치**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)”)를 확인해 주십시오.**
+\.      Input Module
+\.      M12DF：Digital 16点
+\.      M3534：Analog 4点
+{% endhint %}
+
+{% hint style="info" %}
+\.      Output Module
+\.      M225F：Digital 16点
+\.      M226F：Digital 16点
+\.      M2768：Digital 8点
+\.      M4534：Analog 4点
+{% endhint %}
+
+{% hint style="info" %}
+\.      Special Module
+\.      M5112 : Conveyer I/F
 {% endhint %}
 
 <br>
 
-##### 7. 통신 설정 완료 후 IO Block 을 할당합니다.
+![[图 3.1-6 EtherCAT Master设置]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_6.png>)
+
+<br>
+
+##### 5. 设置完成后重启控制器。
+
+![[图 3.1-7 EtherCAT Master设置]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>)
+
+<br>
+
+![[图 3.1-8 EtherCAT Master设置]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_8.png>)
+
+<br>
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      设置完成后，请重启控制器。
+{% endhint %}
+
+<br>
+
+##### 6. 确认设定值是否已反映，并确认通信状态。
+
+![[图 3.1-9 EtherCAT Master设置]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>)
+
+<br>
+
+{% hint style="info" %}
+\.      请确认通信连接状态和是否出现错误。
+{% endhint %}
+
+<br>
+
+![[图 3.1-10 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_10.png>)
+
+<br>
+
+{% hint style="info" %}
+\.      请通过Remote IO Module上的LED，确认通信是否正常开通。
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+\.      **통신 상태에서 ERROR 발생시 (“[\.      **当通信状态发生ERROR时，请确认（“**3.2 EtherCAT Master IO错误处理”**）。**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)”)를 확인해 주십시오.**
+{% endhint %}
+
+<br>
+
+##### 7. 通信设置完成后分配IO Block。
+
+{% hint style="info" %}
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“**4. 工业通信IO Block分配**”）。**](../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}
 

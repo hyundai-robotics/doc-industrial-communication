@@ -1,8 +1,8 @@
-﻿# 1.3.4.5 PROFINET IO 에러 조치
+# 1.3.4.5 PROFINET IO错误处理
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[请参考“**1.4.1 ERROR Code**”。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 
 

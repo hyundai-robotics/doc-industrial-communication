@@ -1,33 +1,33 @@
-﻿# 1.3.4.1 PRFINET IO Controller 사양
+# 1.3.4.1 PROFINET IO Controller规格
 
 <br>
 
-##### Protocol 특성
+##### 协议特性
 
-| **구분**                       | **사양**                  |
+| **| 区分                       | 规格                  |**                       | **| 区分                       | 规格                  |**                  |
 | :---                           | :---                     |
-| 최대 연결 가능한 Slave 수       | 128개                     |
-| 최대 입력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개)| 1024 Bytes                |
-| 최대 출력 Bytes 크기 (Slave 1개)| 1024 Bytes                |
-| IO 연결                        |                           |
-| IO 최소 Cycle Time             | 1ms                       |
-| 통신 속도                       | 100 Mbit/s (Full-Duplex) |
-| Auto Negotiation               | 미지원                    |
-| Quick Connect                  | 미지원                    |
+| 最大可连接的Slave数 | 128个 |
+| 最大输入字节数            | 1200 Bytes (FB Block Max) |
+| 最大输出字节数            | 1200 Bytes （FB Block Max）|
+| 最大输入字节数（1个Slave）| 1024 Bytes                |
+| 最大输出字节数（1个Slave）| 1024 Bytes                |
+| IO连接                        |                           |
+| IO 最小Cycle Time             | 1ms                       |
+| 通信速度                       | 100 Mbit/s (Full-Duplex) |
+| Auto Negotiation               | 不支持                    |
+| Quick Connect                  | 不支持                    |
 | Topology                       | Tree, Line               |
-| DCP                            | 지원                      |
+| DCP                            | 支持                      |
 
 
 
 <br>
 
-##### Network 특성
+##### 网络特性
 
-| **구분**                      | **사양**                  |
+| **| 区分                      | 规格                  |**                      | **| 区分                      | 规格                  |**                  |
 | :---                          | :---                     |
-| Network Slave Scan            | 지원                      |
+| Network Slave Scan            | 支持                      |
 | Data Transport Layer          | Ethernet II, IEEE 802.3   |
-| Hub                           | 사용 불가능                |
-| Switch                        | 제한 사용 가능 (Priority Tagging, LLDP 지원 필요) |
+| Hub                           | 不可使用                |
+| Switch                        | 可限制使用（需支持Priority Tagging、LLDP） |

@@ -1,28 +1,28 @@
-﻿# 1.3.6.3 PROFIBUS-DP Slave 사양
+# 1.3.6.3 PROFIBUS-DP Slave规格
 
 <br>
 
-##### Protocol 특성
+##### 协议特性
 
-| **구분**                   | **사양**                  |
+| **| 区分                   | 规格                  |**                   | **| 区分                   | 规格                  |**                  |
 | :---                       | :---                      |
-| 최대 입력 Bytes 크기        | 244 Bytes                 |
-| 최대 출력 Bytes 크기        | 244 Bytes                 |
-| IO 연결 (Implicit)         |                           |
-| IO 연결                    |                           |
-| IO 최소 Cycle Time         |                           |
-| 통신 속도                  | 9.6 ~ 12000 Kbit/s        |
-| Auto Baud Rate Detection   | 지원                      |
-| Quick Connect              | 해당 없음                 |
+| 最大输入字节数        | 244 Bytes                 |
+| 最大输出字节数        | 244 Bytes                 |
+| IO连接 (Implicit)         |                           |
+| IO连接                    |                           |
+| IO 最小Cycle Time         |                           |
+| 通信速度                  | 9.6 ~ 12000 Kbit/s        |
+| Auto Baud Rate Detection   | 支持                      |
+| Quick Connect              | 不适用                 |
 | Topology                   |                          |
 
 
 <br>
 
-##### Network 특성
+##### 网络特性
 
-| **구분**                       | **사양**                   |
+| **| 区分                       | 规格                   |**                       | **| 区分                       | 规格                   |**                   |
 | :---                           | :---                      |
 | Data Transport Layer           | PROFIBUS FDL              |
-| Hub                            | 해당 없음                  |
-| Switch                         | 해당 없음                  |
+| Hub                            | 不适用                  |
+| Switch                         | 不适用                  |

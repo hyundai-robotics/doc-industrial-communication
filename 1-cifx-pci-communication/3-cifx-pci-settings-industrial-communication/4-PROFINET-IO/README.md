@@ -1,32 +1,32 @@
 ﻿# 1.3.4 PROFINET IO
 
-이 장에서는 PROFINET IO Master(Controller) 와 Slave(Device)의 특성과 설정 방법에 대해 기술합니다. 
+本章说明PROFINET IO Master（Controller）和Slave（Device）的特性及设置方法。
 
 <br>
 
-##### PROFINET IO 개요
+##### PROFINET IO概要
 
-PROFINET IO 는 PROFIBUS-DP와 산업용 이더넷으로부터 진보적으로 발전된 이더넷 기반의 개방형 산업용 통신 프로토콜입니다.
+PROFINET IO是从PROFIBUS-DP和工业以太网逐步发展而来的基于以太网的开放式工业通信协议。
 
-![[그림 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>) 
+![[图1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>)
 
 <br>
 
-데이터 교환을 위해 Provider, Consumer 모델을 따르고 있으며 아래 3가지 Class로 제품을 구분할 수 있습니다.
+数据交换遵循Provider、Consumer模型，产品可分为以下3种Class。
 
 ##### IO Controller Class
-   * 기존 PROFIBUS-DP Class 1 마스터(Master)에 해당되는 제품으로 PLC와 같이 자동화 프로그램이 동작하는 제품입니다.
+   * 对应于现有PROFIBUS-DP Class 1主站（Master）的产品，是运行自动化程序的产品，例如PLC等。
 
-   * IO Controller 는 자신에게 설정된 IO Device 들에게 출력 데이터를 공급하고, 입력 데이터를 소비합니다.
+   * IO Controller向为其配置的IO Device提供输出数据，并消费输入数据。
 
 <br>
 
 ##### IO Device Class
-  * 기존 PROFIBUS-DP 슬레이브(Slave)에 해당되는 제품으로 PLC와 같은 IO Controller에 PROFINET IO를 통해 연결됩니다.
+  * 对应于现有PROFIBUS-DP从站（Slave）的产品，通过PROFINET IO连接到PLC等IO Controller。
     
-  * IO Device 는 IO Controller 에게 출력 데이터를 공급하고, 입력 데이터를 제공하고, 출력 데이터를 소비합니다.
+  * IO Device向IO Controller提供输出数据，提供输入数据，并消费输出数据。
 
 <br>
 
 ##### IO Supervisor Class
-   * 기존 PROFIBUS-DP 에서 Class 2 마스터(Master)에 해당되는 제품으로 네트워크 구성 및 진단을 목적으로 한 프로그래밍 장치, PC, HMI 등이 있습니다.
+   * 对应于现有PROFIBUS-DP中Class 2主站（Master）的产品，包括用于网络配置及诊断的编程设备、PC、HMI等。

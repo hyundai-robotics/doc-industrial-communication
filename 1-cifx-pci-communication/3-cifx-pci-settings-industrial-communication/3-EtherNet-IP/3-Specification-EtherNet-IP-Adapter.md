@@ -1,30 +1,30 @@
-﻿# 1.3.3.3 EtherNet/IP Adapter 사양
+# 1.3.3.3 EtherNet/IP Adapter规格
 
 <br>
 
-##### Protocol 특성
+##### 协议特性
 
-| **구분**                   | **사양**                  |
+| **| 区分                   | 规格                  |**                   | **| 区分                   | 规格                  |**                  |
 | :---                       | :---                      |
-| 최대 입력 Bytes 크기        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
-| 최대 출력 Bytes 크기        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
-| IO 연결 (Implicit)         | 1 exclusive Owner, 1 Listen only, 1 Input Only |
-| IO 연결                    | Cyclic, Application Trigger, Change of State   |
-| IO 최소 Cycle Time         | 1ms                       |
-| 통신 속도                  | 10 or 100 Mbit/s          |
-| Auto Negotiation           | 지원                      |
-| Quick Connect              | 지원                      |
+| 最大输入字节数        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
+| 最大输出字节数        | 240 Bytes (TP) / 504 Bytes (Sycon.net)|
+| IO 连接（Implicit）         | 1 exclusive Owner, 1 Listen only, 1 Input Only |
+| IO连接                    | Cyclic, Application Trigger, Change of State   |
+| IO 最小Cycle Time         | 1ms                       |
+| 通信速度                  | 10 or 100 Mbit/s          |
+| Auto Negotiation           | 支持                      |
+| Quick Connect              | 支持                      |
 | Topology                   | Tree, Line, Ring          |
-| DLR V2 (Ring Topology)     | 지원                      |
-| 부가 기능                   | DHCP, BOOTP, ACD  지원    |
+| DLR V2（Ring Topology）     | 支持                      |
+| 附加功能                   | 支持DHCP、BOOTP、ACD    |
 
 
 <br>
 
-##### Network 특성
+##### 网络特性
 
-| **구분**                   | **사양**                  |
+| **| 区分                   | 规格                  |**                   | **| 区分                   | 规格                  |**                  |
 | :---                       | :---                      |
 | Data Transport Layer       | Ethernet II, IEEE 802.3   |
-| Hub                        | 사용 가능                  |
-| Switch                     | 사용 가능                  |
+| Hub                        | 可使用                  |
+| Switch                     | 可使用                  |

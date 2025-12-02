@@ -1,288 +1,288 @@
-﻿# 1.3.3.2 EtherNet/IP Scanner 설정
+# 1.3.3.2 EtherNet/IP Scanner设置
 
-“[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+“[请按照“**1.3.1 CIFX PCI槽位设置**”及“**1.3.2 SYCON.NET设置**”流程设置后，再按以下方法进行操作。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[请按照“**1.3.1 CIFX PCI槽位设置**”及“**1.3.2 SYCON.NET设置**”流程设置后，再按以下方法进行操作。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“**1.3.2 SYCON.NET帮助**”功能。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
 
-##### 1. 산업용 통신 펌웨어 설정에서 EtherNet/IP Master를 선택하고 로봇 제어기를 재부팅합니다.
+##### 1. 在工业通信固件设置中，选择EtherNet/IP Master并重启机器人控制器。
 
-![[그림 1.3.3.2-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>) 
-
-<br>
-
-##### 2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.
-
-![[그림 1.3.3.2-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_2.png>) 
+![[图 1.3.3.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>)
 
 <br>
 
-##### 3. Sycon.net 을 이용하여 EtherNet/IP Scanner PCI 장치를 선택합니다.
+##### 2. 在工业通信监控中，确认所选协议的准备状态。
 
-![[그림 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
-![[그림 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>) 
-
-<br>
-
-##### 4. PCI 장치를 Scan 하고 EtherNet/IP Scanner 적용(Apply)합니다.
-
-![[그림 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>) 
+![[图 1.3.3.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_2.png>)
 
 <br>
 
-##### 5. 설정을 다운로드 합니다.
+##### 3. 使用Sycon.net选择EtherNet/IP Scanner PCI设备。
 
-![[그림 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>) 
-
-<br>
-
-##### 6. EtherNet/IP Scanner 에 연결할 Adapter(Slave) 모듈을 준비합니다.
-   * 이번 예제에서는 Crevis 사의 M9289 EtherNet/IP Adapter를 사용합니다.
-   * 시스템 전원과 필드 전원을 공급해 주어 모듈을 활성화 시켜 주십시오.
-
-![[그림 1.3.3.2-7 Crevis M9289]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_7.png>) 
+![[图 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
+![[图 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>)
 
 <br>
 
-##### 7. EtherNet/IP 통신 연결을 위해 Apdapter(Slave) 의 IP Address를 설정합니다.
+##### 4. 扫描PCI设备并应用EtherNet/IP Scanner（Apply）。
+
+![[图 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>)
+
+<br>
+
+##### 5. 下载设置。
+
+![[图 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>)
+
+<br>
+
+##### 6. 准备所要连接到EtherNet/IP Scanner的Adapter（Slave）模块。
+   * 本示例中使用Crevis公司的M9289 EtherNet/IP Adapter。
+   * 请提供系统电源及现场电源以激活模块。
+
+![[图 1.3.3.2-7 Crevis M9289]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_7.png>)
+
+<br>
+
+##### 7. 设置Adapter（Slave）的IP Address，以连接EtherNet/IP通信。
 
 {% hint style="info" %}
-\.      Dip Switch 를 이용한 IP Address 설정
+\.      使用Dip Switch设置IP Address
 {% endhint %}
 
-![[그림 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>) 
+![[图 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-\.      BootpSvr.exe 을 이용한 IP Address 설정 방법
+\.      使用BootpSvr.exe设置IP Address的方法
 {% endhint %}
 
 <br>
 
-##### 8. (Bootp 예제) Bootp를 이용하여 Slave 장치의 IP Address를 설정합니다.
-   * 9번 DIP Switch만 ON으로 변경합니다.
+##### 8.（Bootp示例） 使用Bootp设置Slave设备的IP Address。
+   * 仅将9号DIP Switch更改为ON。
 
-![[그림 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
+![[图 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
 
-   * M9289 Adapter LAN 포트에 PC를 연결합니다.
+   * 将PC连接到M9289 Adapter LAN端口。
 
-![[그림 1.3.3.2-10 Crevis M9289 LAN Port]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_10.png>)
+![[图 1.3.3.2-10 Crevis M9289 LAN Port]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_10.png>)
 
 <br>
 
-##### 9. PC 에서 BootpSvr.exe 를 실행합니다.
-   * 해당 프로그램은 Crevis 사에서 제공합니다. (홈페이지에서 IO Guide Pro 다운로드 후 설치)
+##### 9. 在PC上执行BootpSvr.exe。
+   * 该程序由Crevis公司提供。（在官网下载IO Guide Pro后安装）
 
-![[그림 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
+![[图 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
 
-![[그림 1.3.3.2-12 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_12.png>)
+![[图 1.3.3.2-12 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_12.png>)
 
 {% hint style="info" %}
-\.      Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
+\.      在按住Start BootP的状态下，断开M9289模块的电源并重新供电以重启。
 {% endhint %}
 
-![[그림 1.3.3.2-13 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_13.png>)
+![[图 1.3.3.2-13 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_13.png>)
 
 <br>
 
-##### 10. Adapter 장치를 재부팅하면 BootpSvr.exe 프로그램에 Device 정보가 나타납니다.
+##### 10. 重启Adapter设备后，在BootpSvr.exe程序中会显示Device信息。
 
-![[그림 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
-
-<br>
-
-##### 11. Device를 선택하여 IP를 설정합니다.
-
-![[그림 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[그림 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
+![[图 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
 
 <br>
 
-##### 12. IP 설정이 끝난 Adapter의 DIP Switch를 모두 OFF로 변경한 후 장치를 재부팅합니다.
+##### 11. 选择Device来设置IP。
+
+![[图 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[图 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
+
+<br>
+
+##### 12. IP设置完成后，将Adapter的DIP Switch全部更改为OFF后重启设备。
 
 {% hint style="info" %}
-\.      DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
+\.      请务必确认DIP Switch的状态及Adapter是否重启。
 {% endhint %}
 
-![[그림 1.3.3.2-17 Crevis DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_17.png>)
+![[图 1.3.3.2-17 Crevis DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_17.png>)
 
 <br>
 
-##### 13. Slave 장치의 EDS 파일을 등록합니다.
+##### 13. 注册Slave设备的EDS文件。
 
 {% hint style="info" %}
-\.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
+\.      要使用未注册到Sycon.net的Device，就需要EDS文件。
 
-\.      M9289 Adapter의 EDS 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
+\.      M9289 Adapter的EDS文件可以在Crevis官网下载。
 {% endhint %}
 
-![[그림 1.3.3.2-18 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_18.png>)
+![[图 1.3.3.2-18 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_18.png>)
 
 {% hint style="info" %}
-\.      다운로드한 EDS 파일을 Sycon.net 에 등록합니다.
+\.      将所下载的EDS文件注册到Sycon.net。
 
-\.      EDS File 등록시 산업용 통신 Protocol (EtherNet/IP)를 확인해 주십시오.
+\.      注册EDS File时，请确认工业通信协议（EtherNet/IP）。
 {% endhint %}
 
-![[그림 1.3.3.2-19 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_19.png>)![[그림 1.3.3.2-20 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_20.png>)
-![[그림 1.3.3.2-21 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_21.png>)
+![[图 1.3.3.2-19 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_19.png>)![[图 1.3.3.2-20 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_20.png>)
+![[图 1.3.3.2-21 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_21.png>)
 
-![[그림 1.3.3.2-22 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_22.png>)
+![[图 1.3.3.2-22 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_22.png>)
 
 <br>
 
 ##### 14. Network Scan
 
 {% hint style="info" %}
-\.      EtherNet/IP Scanner 는 Network Scan 기능을 지원하지 않습니다.
+\.      EtherNet/IP Scanner不支持Network Scan功能。
 {% endhint %}
 
 <br>
 
-##### 15. Slave(Adapter) 장치 Configuration
+##### 15. Slave（Adapter）设备Configuration
 
 {% hint style="info" %}
-\.      동록한 Device를 끌어와 EtherNet/IP Master 버스 라인에 올려 놓습니다.
+\.      将已注册的Device拖到EtherNet/IP Master总线线路上。
 {% endhint %}
 
-![[그림 1.3.3.2-23 Sycon.net Bus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_23.png>)
+![[图 1.3.3.2-23 Sycon.net Bus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-\.      해당 Device (Adapter)를 더블클릭하여 설정을 진행합니다.
+\.      双击该Device（Adapter）进行设置。
 
-\.      해당 Device에 장착된 IO 장치에 알맞게 Input / Output Byte 수를 설정합니다.
+\.      根据安装该Device上的IO设备，适当设置Input / Output字节数。
 
-\.      이 예제에서는 아래와 같이 설정했습니다.
+\.      本示例中按如下设置。
 {% endhint %}
 
 <br>
 
-![[그림 1.3.3.2-24 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
+![[图 1.3.3.2-24 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
 \.        O -> T : Originator(Master) -> Target (Slave)
 
 \.        Output : EtherNet/IP Scanner  -> M9289
 
-\.        [Output Module]   
-\.         1. M225F (2Bytes)   
-\.         **=> 2Bytes**   
+\.        [Output Module]
+\.         1. M225F (2Bytes)
+\.         **\.         => 2Bytes**
 {% endhint %}
 
 <br>
 
-![[그림 1.3.3.2-25 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
+![[图 1.3.3.2-25 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
 \.        T -> O : Target (Slave) -> Originator(Master)
 
 \.        Input : M9289 -> EtherNet/IP Scanner
 
-\.        [Input Module]   
-\.         1. M7001  (1Byte)   
-\.         2. M12DF  (2Bytes)   
-\.         **=> 3Bytes**
+\.        [Input Module]
+\.         1. M7001  (1Byte)
+\.         2. M12DF  (2Bytes)
+\.         **\.         => 3Bytes**
 
 
 \.         1.M7002 (0Byte)
 \.         2.M12DF (2Bytes)
-\.         **=> 2Bytes**  
+\.         **\.         => 2Bytes**
 {% endhint %}
 
 <br>
 
-##### 16. Master(Scanner) 장치 Configuration
+##### 16. Master（Scanner）设备Configuration
     
 
 {% hint style="info" %}
-\.        Master Device를 우클릭하여 Disconnect 합니다.
+\.      右击Master Device进行Disconnect。
 {% endhint %}
 
-![[그림 1.3.3.2-26 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
+![[图 1.3.3.2-26 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.        Master Device를 더블클릭합니다.
+\.      双击Master Device。
 
-\.        Master Device의 IP Address를 설정합니다. 
+\.      设置Master Device的IP Address。
 {% endhint %}
 
-![[그림 1.3.3.2-27 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
+![[图 1.3.3.2-27 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-\.        Slave Device의 IP Address를 설정합니다. 
+\.      设置Slave Device的IP Address。
 {% endhint %}
 
-![[그림 1.3.3.2-28 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
+![[图 1.3.3.2-28 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-\.        Slave Device의 Scan Time을 설정합니다. 
+\.      设置Slave Device的Scan Time。
 
-\.        해당 값을 조절하여 적절한 통신 속도를 설정해 주십시오.
+\.      请调整该值来设置适当的通信速度。
 {% endhint %}
 
-![[그림 1.3.3.2-29 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
+![[图 1.3.3.2-29 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.        Address Table에서 Slave 장치의 설정을 확인해 주십시오.
+\.      请在Address Table中确认Slave设备的设置。
 
-\.        Input / Output IO Byte 수와 시작 Address 를 확인해 주십시오.
+\.      确认Input / Output IO字节数及起始Address。
 {% endhint %}
 
-![[그림 1.3.3.2-30 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
+![[图 1.3.3.2-30 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
 
 {% hint style="info" %}
 \.        [Quick Connect]
 
-\.        EtherNet/IP는 Quick Connect 기능을 지원합니다.
+\.      EtherNet/IP支持Quick Connect功能。
 {% endhint %}
 
 {% hint style="info" %}
-\.        Quick Connect 기능 사용을 위해 아래 조건을 만족해야 합니다.
+\.      要使用Quick Connect功能，就需要满足以下条件。
 
-\.        (1) Master, Slave Quick Connect 지원 제품 필요  
-\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
-\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
-\.        (4) 100 Mbit/s, Full Duplex 사용 필요  
+\.     （1） 需要支持Master、Slave Quick Connect的产品
+\.     （2） 当使用Auto Negotiation时，则不可使用Quick Connect。
+\.     （3） 当使用Auto MDI-X时，则不可使用Quick Connect。
+\.     （4） 需要使用100 Mbit/s、Full Duplex。
 {% endhint %}
 
 {% hint style="info" %}
-\.        설정을 완료 후 Download를 진행해 주십시오.
+\.      设置完成后，请进行Download。
 {% endhint %}
 
-![[그림 1.3.3.2-31 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
+![[图 1.3.3.2-31 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
 
 <br>
 
-##### 17. 통신 상태 확인
+##### 17. 通信状态确认
 
 {% hint style="info" %}
-\.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
+\.      在Sycon.net及TP上确认通信状态。
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      在TP上确认工业通信状态的程序，请参考（“1.4 CIFX PCI 通信监控”）。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
+\.      双击已Connected的Master设备，可以确认通信状态。
 {% endhint %}
 
-![[그림 1.3.3.2-32 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_32.png>)
+![[图 1.3.3.2-32 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_32.png>)
 
-![[그림 1.3.3.2-33 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_33.png>)
+![[图 1.3.3.2-33 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_33.png>)
 
 
 {% hint style="info" %}
-\.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
+\.      可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
 {% endhint %}
 
-![[그림 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
+![[图 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
 
 <br>
 
-##### 18. 통신 설정 완료 후 IO Block 을 할당합니다.
+##### 18. 通信设置完成后分配IO Block。
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“**4. 工业通信IO Block分配**”）。**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

@@ -1,39 +1,39 @@
-﻿# 1.3.3.5 EtherNet/IP 에러 조치
+# 1.3.3.5 EtherNet/IP错误处理
 
-EthernNet/IP 설정 중 발생할 수 있는 주요 Error 를 해결하기 위한 방법입니다.
+这是解决EtherNet/IP设置中可能发生的主要错误的方法。
 
-Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
-
-<br>
-
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+可以利用Sycon.Net的Diagnosis功能来确认错误。
 
 <br>
 
-##### 1. 통신 케이블 단선 에러
+"[请参考“**1.4.1 ERROR Code**”。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+
+<br>
+
+##### 1. 通信电缆断线错误
 
 {% hint style="info" %}
-\.      LAN Cable 의 연결 상태를 확인해 주십시오.
+\.      请确认LAN电缆的连接状态。
 
-\.      Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
+\.      请确认Adapter Device的电源是否开启。
 {% endhint %}
 
-![[그림 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
+![[图 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>)
 
 
 <br>
 
-##### 2. IP Address 설정 Error
+##### 2. IP Address设置错误
 
 {% hint style="info" %}
-\.      Master - Slave Device 의 IP Address 를 확인해 주십시오.
+\.      请确认Master - Slave Device的IP Address。
 
-\.      Adapter Device의 설정된 IP Address 와 Sycon.net 에서 입력한 값이 다른 경우 Error 가 발생합니다.
+\.      如果Adapter Device中已设置的IP Address与Sycon.net中所输入的值不同，则会发生错误。
 
 {% endhint %}
 
-![[그림 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>) 
+![[图 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>)
 
-![[그림 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>) 
+![[图 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>)
 
 

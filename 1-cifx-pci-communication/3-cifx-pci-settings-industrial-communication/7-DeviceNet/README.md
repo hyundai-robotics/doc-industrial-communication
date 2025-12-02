@@ -1,26 +1,26 @@
 ﻿# 1.3.7 DeviceNet
 
-이 장에서는 DeviceNet Master 와 Slave의 특성과 설정 방법에 대해 기술합니다. 
+本章说明DeviceNet Master和Slave的特性及设置方法。
 
 <br>
 
-##### Fieldbus 개요
+##### Fieldbus概要
 
-필드버스(Fieldbus)는 공장에서의 센서나 버튼, 모터 드라이버, 조작 인터페이스 등의 장치를 PLC(Programmable Logic Controller) 와 단일 케이블로 연결하여 동작시키기 위해 개방화된 산업표준입니다.
+现场总线（Fieldbus）是一种开放的工业标准， 用于在工厂中通过一根电缆将传感器、按钮、电机驱动器、操作界面等设备 与 PLC（Programmable Logic Controller）连接并进行控制。
 
-필드버스는 전체 네트워크의 상태를 중앙에서 모니터링 하거나 재구성하는 등의 지능적인 서비스를 제공합니다.
+现场总线提供从中央监控整个网络状态或重新配置等的智能服务。
 
-예를 들면 센서나 스위치에 대해, 단순한 On/Off 만이 아닌 상세한 정보, 동작, 모드 설정 등이 가능합니다.
+例如，对于传感器或开关，不仅可实现简单的On/Off，还可以提供详细信息、动作、模式设置等。
 
-단일 케이블을 사용하여 배선에 드는 시간과 비용을 절감할 수 있고, 구성이 간단해져 유지보수에 유리합니다.
+使用单根电缆可以节省布线的时间和费用，且配置简单，有利于维护。
 
-또한 일반적인 통신의 비결정적 응답 (Non-deterministic Response) 특성의 프로토콜과는 달리, 데이터 응답속도가 보장되어 임계시간 특성이 중요한 산업용도를 만족합니다.
+另外，与一般通信协议具有非确定性响应（Non-deterministic Response）的特性不同，数据响应速度有保证，满足对时限特性要求严格的工业应用。
 
-![[그림 1.3.7-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/image_1.png>) 
+![[图 1.3.7-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/image_1.png>)
 
 <br>
 
-1개의 필드버스 네트워크에는 1개의 마스터 (Master) 장치와 다수의 슬레이브(Slave) 장치가 연결됩니다.
-마스터 장치는 네트워크 전체를 검색 / 관리하고 슬레이브 장치들과 데이터를 교환합니다.
+1个现场总线网络连接1个主站（Master）设备和多个从站（Slave）设备。
+主站设备搜索/管理整个网络并与从站设备交换数据。
 
-일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.
+一般来说，PLC是主站设备，其他传感器、按钮、控制器等可以作为从站设备构成。

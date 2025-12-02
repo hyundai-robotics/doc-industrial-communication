@@ -1,15 +1,15 @@
-﻿# 1.3.10 EtherNet/IP - 표준 Remote IO 연결
+# 1.3.10 EtherNet/IP - 标准Remote IO连接
 
 <br>
 
-이 장에서는 EtherNet/IP Scanner (Master)를 이용하여 당사에서 선정한 몇가지의 표준 Remote IO Module을 연결하는 방법에 대해 설명합니다.
+本章说明如何使用EtherNet/IP Scanner（Master）连接本公司选定的几种标准Remote IO Module。
 
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP Scanner(Master) 는 CIFX-50 Real Time Ethernet PCI 를 사용합니다.
+\.      EtherNet/IP Scanner（Master）使用CIFX-50 Real Time Ethernet PCI。
 
 
-\.      Remote IO Module은 Crevis 사의 M9289 EtherNet/IP Network Adapter를 사용합니다.
+\.      Remote IO Module使用Crevis公司的M9289 EtherNet/IP Network Adapter。
 {% endhint %}
 

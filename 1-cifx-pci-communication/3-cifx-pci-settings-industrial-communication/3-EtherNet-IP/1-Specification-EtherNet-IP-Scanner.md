@@ -1,33 +1,33 @@
-﻿# 1.3.3.1 EtherNet/IP Scanner 사양
+# 1.3.3.1 EtherNet/IP Scanner规格
 
 <br>
 
-##### Protocol 특성
+##### 协议特性
 
-| **구분**                       | **사양**                  |
+| **| 区分                       | 规格                  |**                       | **| 区分                       | 规格                  |**                  |
 | :---                           | :---                     |
-| 최대 연결 가능한 Slave 수        | 64개                      |
-| 최대 입력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기             | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개) | 504 Bytes                 |
-| 최대 출력 Bytes 크기 (Slave 1개) | 504 Bytes                 |
-| IO 연결                         | Cyclic                    |
-| IO 최소 Cycle Time              | 1ms                       |
-| 통신 속도                       | 10 or 100 Mbit/s          |
-| Auto Negotiation                | 지원                      |
-| Quick Connect                   | 지원                      |
+| 最大可连接的Slave数 | 64个 |
+| 最大输入字节数             | 1200 Bytes (FB Block Max) |
+| 最大输出字节数             | 1200 Bytes (FB Block Max) |
+| 最大输入字节数（1个Slave） | 504 Bytes                 |
+| 最大输出字节数（1个Slave） | 504 Bytes                 |
+| IO连接                         | Cyclic                    |
+| IO 最小Cycle Time              | 1ms                       |
+| 通信速度                       | 10 or 100 Mbit/s          |
+| Auto Negotiation                | 支持                      |
+| Quick Connect                   | 支持                      |
 | Topology                        | Tree, Line, Ring          |
 | DLR (Device Level Ring)         | Beacon based 'Ring Node'  |
-| 부가 기능                        | DHCP, BOOTP, ACD  지원    |
+| 附加功能                        | 支持DHCP、BOOTP、ACD    |
 
 
 <br>
 
-##### Network 특성
+##### 网络特性
 
-| **구분**                       | **사양**                  |
+| **| 区分                       | 规格                  |**                       | **| 区分                       | 规格                  |**                  |
 | :---                           | :---                     |
-| Network Slave Scan             | 미지원                    |
+| Network Slave Scan             | 不支持                    |
 | Data Transport Layer           | Ethernet II, IEEE 802.3   |
-| Hub                            | 사용 가능                  |
-| Switch                         | 사용 가능                  |
+| Hub                            | 可使用                  |
+| Switch                         | 可使用                  |

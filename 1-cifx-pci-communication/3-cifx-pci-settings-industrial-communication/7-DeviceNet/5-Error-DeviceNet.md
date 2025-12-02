@@ -1,53 +1,53 @@
-﻿# 1.3.7.5 DeviceNet 에러 조치
+# 1.3.7.5 DeviceNet错误处理
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[请参考“**1.4.1 ERROR Code**”。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
-##### 1. DeviceNet 종단 저항
+##### 1. DeviceNet终端电阻
 
 {% hint style="info" %}
-\.      DeviceNet Cable 연결 시 종단에는 저항을 추가해야합니다.
+\.      连接DeviceNet电缆时必须在终端添加电阻。
 
-\.      Network Scan이 안되는 경우 종단 저항을 확인해 주십시오.
+\.      如果Network Scan无法进行，请检查终端电阻。
 
-\.      DeviceNet 종단 저항 : 120옴
+\.      DeviceNet 终端电阻：120欧
 {% endhint %}
 
 {% hint style="info" %}
-\.      아래 그림과 같이 CIFX-50 DN PCI가 DeviceNet의 종단인 경우 종단 저항을 추가해 주십시오.
+\.      如下图所示，如果CIFX-50 DN PCI是DeviceNet的终端，请添加终端电阻。
 {% endhint %}
 
-![[그림 1.3.7.5-1 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
+![[图1.3.7.5-1 DeviceNet终端电阻]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>)
 
 {% hint style="info" %}
-\.      아래 그림과 같이 DeviceNet Remote IO 가 종단인 경우 종단 저항을 추가하거나 DIP Switch를 조작해 주십시오.
+\.      如下图所示，如果DeviceNet Remote IO是终端，请添加终端电阻或操作DIP Switch。
 {% endhint %}
 
-![[그림 1.3.7.5-2 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
+![[图 1.3.7.5-2 DeviceNet终端电阻]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>)
 
 <br>
 
-##### 2. 통신 속도
+##### 2. 通信速度
 
 {% hint style="info" %}
-\.      DeviceNet Master와 Slave 간 통신 속도가 다른 경우 Network Scan이 안될 수 있습니다.
+\.      如果DeviceNet Master与Slave之间的通信速度不同，可能无法进行Network Scan。
 
-\.      Network Scan이 안되는 경우 통신 속도를 확인해 주십시오.
+\.      如果Network Scan无法进行，请检查通信速度。
 {% endhint %}
 
-![[그림 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
+![[图 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>)
 
 <br>
 
 ##### 3. DeviceNet ERROR
 
 {% hint style="info" %}
-\.      DeviceNet Cable에 24V 전원 공급이 안되는 경우 아래와 같은 ERROR가 나타납니다.
+\.      如果DeviceNet电缆未提供24V电源，则会出现如下ERROR。
 
-\.      24V 전원 공급을 확인해 주십시오.
+\.      请检查是否提供24V电源。
 {% endhint %}
 
-![[그림 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
+![[图 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>)

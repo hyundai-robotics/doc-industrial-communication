@@ -1,85 +1,85 @@
-﻿# 1.3.5.5 EtherCAT 케이블 결선 (Topology)
+# 1.3.5.5 EtherCAT电缆接线（Topology）
 
 <br>
 
-EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있는 Ethernet Port에 제약이 있습니다.
+EtherCAT与现有工业通信不同，对电缆接线及可使用的Ethernet Port有限制。
 
 ##### 1. Ethernet Port
 
 {% hint style="info" %}
-\.      EthreCAT Master와 Slave를 연결하는 경우 Port 0번을 사용해야 합니다.
+\.      连接EtherCAT Master与Slave时，必须使用Port 0号。
 {% endhint %}
 
-![[그림 1.3.5.5-1 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_1.png>) 
+![[图 1.3.5.5-1 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_1.png>)
 
 {% hint style="info" %}
-\.      Master에 Slave 가 1개 연결되는 경우
+\.      Master连接1个Slave时
 {% endhint %}
 
-![[그림 1.3.5.5-2 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_2.png>) 
+![[图 1.3.5.5-2 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_2.png>)
 
 {% hint style="info" %}
-\.      Master에 Slave 가 2개 이상 연결되는 경우
+\.      Master连接2个以上Slave时
 
-\.      Slave Port 1번에서 다음 Slave Port 0번으로 연결합니다.
+\.      从Slave Port 1号连接到下一个Slave Port 0号。
 {% endhint %}
 
-![[그림 1.3.5.5-3 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_3.png>) 
+![[图 1.3.5.5-3 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_3.png>)
 
 <br>
 
-##### 2. Redundancy 
+##### 2. Redundancy
 
 {% hint style="info" %}
-\.      Master에서 Redundancy 기능을 사용하는 경우 
+\.      Master使用Redundancy功能时
 
-\.      마지막 Slave의 Port 1번과 Master의 Port 1번을 연결하여 Ring 구조를 형성합니다.
+\.      通过连接最后Slave的Port 1号与Master的Port 1号，形成Ring结构。
 {% endhint %}
 
-![[그림 1.3.5.5-4 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_4.png>) 
+![[图 1.3.5.5-4 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_4.png>)
 
 
 <br>
 
-##### 3. Cable 결선 ERROR
+##### 3. 电缆接线错误
 
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[请参考“**1.4.1 ERROR Code**”。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      Network Scan 이 안되는 경우
+\.      Network Scan无法进行时
 
-\.      Master에 연결된 Port와 Cable을 확인해 주십시오.
+\.      请检查连接到Master的端口及电缆。
 {% endhint %}
 
-![[그림 1.3.5.5-5 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_5.png>)
+![[图 1.3.5.5-5 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_5.png>)
 
 {% hint style="info" %}
-\.      Topology Error (Configuration 에서 Error)
+\.      Topology Error (Configuration Error)
 
-\.      Master와 Slave 간 Cable 결선을 확인해 주십시오.
+\.      请检查Master与Slave之间的电缆接线。
 {% endhint %}
 
-![[그림 1.3.5.5-6 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_6.png>)
+![[图 1.3.5.5-6 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_6.png>)
 
 {% hint style="info" %}
-\.      Topology Error 2 (Configuration 에서는 정상이나 진단시 Error)
+\.      Topology Error 2（Configuration正常但诊断时出错）
 
-\.      Master와 Slave 간 Cable 결선을 확인해 주십시오.
+\.      请检查Master与Slave之间的电缆接线。
 
-\.      Slave와 Slave 간 Cable 결선을 확인해 주십시오.
+\.      请检查Slave与Slave之间的电缆接线。
 {% endhint %}
 
-![[그림 1.3.5.5-7 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_7.png>)
+![[图 1.3.5.5-7 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_7.png>)
 
-![[그림 1.3.5.5-8 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_8.png>)
+![[图 1.3.5.5-8 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_8.png>)
 
 {% hint style="info" %}
 \.      Mandatory Slave Missing Error
 
-\.      Slave와 Slave 간 Cable 결선을 확인해 주십시오.
+\.      请检查Slave与Slave之间的电缆接线。
 {% endhint %}
 
-![[그림 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)
+![[图 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)

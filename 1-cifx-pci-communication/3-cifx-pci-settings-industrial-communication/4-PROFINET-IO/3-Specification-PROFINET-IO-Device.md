@@ -1,30 +1,30 @@
-﻿# 1.3.4.3 PROFINET IO Deivce 사양
+# 1.3.4.3 PROFINET IO Device规格
 
 <br>
 
-##### Protocol 특성
+##### 协议特性
 
-| **구분**                   | **사양**                  |
+| **| 区分                   | 规格                  |**                   | **| 区分                   | 规格                  |**                  |
 | :---                       | :---                      |
-| 최대 입력 Bytes 크기        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
-| 최대 출력 Bytes 크기        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
-| IO 연결 (Implicit)         |                          |
-| IO 연결                    |                          |
-| IO 최소 Cycle Time         | 1ms                      |
-| 통신 속도                  | 100 Mbit/s               |
-| Auto Negotiation           | 미지원                   |
-| Quick Connect              | 미지원                   |
+| 最大输入字节数        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
+| 最大输出字节数        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
+| IO连接 (Implicit)         |                          |
+| IO连接                    |                          |
+| IO 最小Cycle Time         | 1ms                      |
+| 通信速度                  | 100 Mbit/s               |
+| Auto Negotiation           | 不支持                   |
+| Quick Connect              | 不支持                   |
 | Topology                   | Tree, Line               |
-| DCP                        | 지원                     |
+| DCP                        | 支持                     |
 
 
 <br>
 
-##### Network 특성
+##### 网络特性
 
-| **구분**                   | **사양**                  |
+| **| 区分                   | 规格                  |**                   | **| 区分                   | 规格                  |**                  |
 | :---                       | :---                      |
 | Data Transport Layer       | Ethernet II, IEEE 802.3   |
-| Hub                        | 사용 불가능                |
-| Switch                     | 제한 사용 가능 (Priority Tagging, LLDP 지원 필요) |
+| Hub                        | 不可使用                |
+| Switch                     | 可限制使用（需支持Priority Tagging、LLDP） |
 

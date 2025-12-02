@@ -1,37 +1,37 @@
-﻿# 1.3.8.1 CC-Link Slave 사양
+# 1.3.8.1 CC-Link Slave规格
 
 <br>
 
-##### Protocol 특성
+##### 协议特性
 
-| **구분**                   | **사양**  (Version 1.11)    | **사양**  (Version 2.0)     |
+| **| 区分                   | 规格  (Version 1.11)    | 规格  (Version 2.0)     |**                   | **| 区分                   | 规格  (Version 1.11)    | 规格  (Version 2.0)     |**  (Version 1.11)    | **| 区分                   | 规格  (Version 1.11)    | 规格  (Version 2.0)     |**  (Version 2.0)     |
 | :---                       | :---                       | :---                        |
-| 최대 입력 Bytes 크기        | 48 Bytes                   | 368 Bytes                   |
-| 최대 출력 Bytes 크기        | 48 Bytes                   | 368 Bytes                   |
-| IO Station Input           | 4 Bytes(RY)                | 미지원                       |
-| IO Station Output          | 4 Bytes(RX)                | 미지원                       |
+| 最大输入字节数        | 48 Bytes                   | 368 Bytes                   |
+| 最大输出字节数        | 48 Bytes                   | 368 Bytes                   |
+| IO Station Input           | 4 Bytes(RY)                | 不支持                       |
+| IO Station Output          | 4 Bytes(RX)                | 不支持                       |
 | Station                    | 1 ~ 4                      | 1 ~ 4                       |
-| Extension Cycle            | 미지원                      | 1, 2, 4, 8                  |
+| Extension Cycle            | 不支持                      | 1, 2, 4, 8                  |
 | Remote Deivce Input        | 16 Bytes(RY), 32 Byte(RWw) | 112 Bytes(RY), 256 Byte(RWw)|
 | Remote Deivce Output       | 16 Bytes(RX), 32 Byte(RWr) | 112 Bytes(RY), 256 Byte(RWr)|
-| 통신 속도                   | 156 ~ 10000 Kbit/s         | 156 ~ 10000 Kbit/s          |
+| 通信速度                   | 156 ~ 10000 Kbit/s         | 156 ~ 10000 Kbit/s          |
 
 
 
 <br>
 
-##### Network 특성
+##### 网络特性
 
-| **구분**                       | **사양**                   |
+| **| 区分                       | 规格                   |**                       | **| 区分                       | 规格                   |**                   |
 | :---                           | :---                      |
 | Data Transport Layer           |                           |
-| Hub                            | 해당 없음                  |
-| Switch                         | 해당 없음                  |
+| Hub                            | 不适用                  |
+| Switch                         | 不适用                  |
 
 
 <br>
 
-##### CC-Link IO 맵핑
+##### CC-Link IO映射
 
 <br>
 
@@ -41,7 +41,7 @@
 
 <br>
 
-![[그림 1.3.8.1-1 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_1.png>)
+![[图 1.3.8.1-1 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_1.png>)
 
 
 <br>
@@ -54,7 +54,7 @@
 
 <br>
 
-![[그림 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_2.png>)
+![[图 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_2.png>)
 
 <br>
 
@@ -66,7 +66,7 @@
 
 <br>
 
-![[그림 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_3.png>)
+![[图 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_3.png>)
 
 <br>
 
@@ -78,7 +78,7 @@
 
 <br>
 
-![[그림 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_4.png>)
+![[图 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_4.png>)
 
 <br>
 
@@ -90,6 +90,6 @@
 
 <br>
 
-![[그림 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_5.png>)
+![[图 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_5.png>)
 
 <br>

@@ -13,74 +13,74 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <table class="tg">
 <thead>
-	<tr>
-		<th>Error Code</th>
-		<th>Description</th>
-		<th>Action</th>
-	</tr>
+<tr>
+<th>Error Code</th>
+<th>Description</th>
+<th>Action</th>
+</tr>
 </thead>
 
 <tbody>
-	<tr>
-		<td>0x00000000</td>
-		<td>정상</td>
-		<td>-</td>
-	</tr>
-	<tr>
-		<td>0xC000000C</td>
-		<td>제어기와 PCI 사이의 Watchdog 시간 초과</td>
-		<td>제어기와 장치의 상태를 확인해 주십시오. 통신 재시작을 통해 리셋할 수 있습니다.</td>
-	</tr>
-    <tr>
-		<td>0xC0000123</td>
-		<td>라이선스 없음</td>
-		<td>마스터 라이선스의 유무를 확인하십시오</td>
-	</tr>
-    <tr>
-		<td>0xC0000140</td>
-		<td>통신 오류</td>
-		<td>장치의 상태나 연결 여부를 확인해 주십시오.</td>
-	</tr>
-    <tr>
-		<td>0xC0000141</td>
-		<td>연결 끊김</td>
-		<td>장치의 상태나 연결 여부를 확인해 주십시오.</td>
-	</tr>
-    <tr>
-		<td>0xC0000142</td>
-		<td>연결 대기 시간 초과</td>
-		<td>장치의 상태나 연결 여부를 확인해 주십시오..</td>
-	</tr>
-    <tr>
-		<td>0xC0000144</td>
-		<td>중복된 IP 주소</td>
-		<td>연결된 장치의 IP 주소를 확인하여 중복된 주소를 변경해 주십시오.</td>
-	</tr>
-    <tr>
-		<td>0xC0000145</td>
-		<td>케이블 연결 안됨</td>
-		<td>통신 케이블의 연결 상태를 확인해 주십시오.</td>
-	</tr>
-    <tr>
-		<td>0xC0000180</td>
-		<td>통신 버스 Off 플래그 설정됨 <br> [발생 가능 원인] <br>  - 통신선 CAN High/Low 의 단락 감지 <br>  - 전원 전압 불안정 <br>  - 노이즈 등으로 인한 네트워크 에러 지속 발생</td>
-		<td>통신 케이블 접촉 상태나 결선을 확인하고, 장치를 리셋해 주십시오.</td>
-	</tr>
-    <tr>
-		<td>0xC0470298</td>
-		<td>DeviceNet 24V 공급 안됨</td>
-		<td>DeviceNet 24V 전원을 확인해 주십시오.</td>
-	</tr>
-	<tr>
-		<td>0xC0620023</td>
-		<td>DeviceNet Slave bus off 감지 <br> [발생 가능 원인] <br>  - 통신선 CAN High/Low 의 단락 감지 <br>  - 전원 전압 불안정 <br>  - 노이즈 등으로 인한 네트워크 에러 지속 발생</td>
-		<td>통신 케이블 접촉 상태나 결선을 확인하고, 장치를 리셋해 주십시오. </td>
-	</tr>
-    <tr>
-		<td>0xC062002C</td>
-		<td>DeviceNet Slave 24V 공급 안됨</td>
-		<td>DeviceNet 24V 전원을 확인해 주십시오.</td>
-	</tr>
+<tr>
+<td>0x00000000</td>
+<td>正常</td>
+<td>-</td>
+</tr>
+<tr>
+<td>0xC000000C</td>
+<td>控制器与PCI之间的Watchdog超时</td>
+<td>请确认控制器及设备的状态。可以通过通信重启进行复位。</td>
+</tr>
+<tr>
+<td>0xC0000123</td>
+<td>无许可证</td>
+<td>请确认主许可证是否存在</td>
+</tr>
+<tr>
+<td>0xC0000140</td>
+<td>通信错误</td>
+<td>请确认设备的状态或连接情况。</td>
+</tr>
+<tr>
+<td>0xC0000141</td>
+<td>连接断开</td>
+<td>请确认设备的状态或连接情况。</td>
+</tr>
+<tr>
+<td>0xC0000142</td>
+<td>连接等待超时</td>
+<td>请确认设备的状态或连接情况。</td>
+</tr>
+<tr>
+<td>0xC0000144</td>
+<td>重复的IP地址</td>
+<td>请确认已连接设备的IP地址并更改重复的地址。</td>
+</tr>
+<tr>
+<td>0xC0000145</td>
+<td>电缆未连接</td>
+<td>请确认通信电缆的连接状态。</td>
+</tr>
+<tr>
+<td>0xC0000180</td>
+<td>通信总线Off标志已设置 <br> [可能发生原因] <br> - 检测到通信线CAN High/Low短路 <br> - 电源电压不稳定 <br> - 因噪声等原因持续发生网络错误</td>
+<td>请检查通信电缆的接触状态或接线，并复位设备。</td>
+</tr>
+<tr>
+<td>0xC0470298</td>
+<td>DeviceNet 24V未供电</td>
+<td>请确认DeviceNet 24V电源。</td>
+</tr>
+<tr>
+<td>0xC0620023</td>
+<td>检测到DeviceNet Slave bus off <br>[可能发生原因] <br>- 检测到通信线CAN High/Low短路 <br>- 电源电压不稳定 <br>- 因噪声等原因持续发生网络错误</td>
+<td>请检查通信电缆的接触状态或接线，并复位设备。 </td>
+</tr>
+<tr>
+<td>0xC062002C</td>
+<td>DeviceNet Slave 24V未供电</td>
+<td>请确认DeviceNet 24V电源。</td>
+</tr>
 </tbody>
 </table>
 

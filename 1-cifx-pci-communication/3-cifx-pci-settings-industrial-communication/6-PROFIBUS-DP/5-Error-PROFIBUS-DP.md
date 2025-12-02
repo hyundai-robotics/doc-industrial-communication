@@ -1,5 +1,5 @@
-﻿# 1.3.6.5 PROFIBUS-DP 에러 조치
+# 1.3.6.5 PROFIBUS-DP错误处理
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[请参考“**1.4.1 ERROR Code**”。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.

@@ -1,29 +1,29 @@
-﻿# 1.3.5.3 EtherCAT Slave 사양
+# 1.3.5.3 EtherCAT Slave规格
 
 <br>
 
-##### Protocol 특성
+##### 协议特性
 
-| **구분**                   | **사양**                  |
+| **| 区分                   | 规格                  |**                   | **| 区分                   | 规格                  |**                  |
 | :---                       | :---                     |
-| 최대 입력 Bytes 크기        | 256 Bytes                |
-| 최대 출력 Bytes 크기        | 256 Bytes                |
-| IO 연결 (Implicit)         |                          |
-| IO 연결                    |                          |
-| IO 최소 Cycle Time         | 250us (1ms Recommended)  |
-| 통신 속도                  | 100 Mbit/s               |
-| Auto Negotiation           | 미지원                   |
-| Quick Connect              | 미지원                   |
+| 最大输入字节数        | 256 Bytes                |
+| 最大输出字节数        | 256 Bytes                |
+| IO连接 (Implicit)         |                          |
+| IO连接                    |                          |
+| IO 最小Cycle Time         | 250us (1ms Recommended)  |
+| 通信速度                  | 100 Mbit/s               |
+| Auto Negotiation           | 不支持                   |
+| Quick Connect              | 不支持                   |
 | Topology                   | Line, Ring               |
-| 동기화                     | Distributed Clocks       |
+| 同步化                     | Distributed Clocks       |
 
 
 <br>
 
-##### Network 특성
+##### 网络特性
 
-| **구분**                   | **사양**                  |
+| **| 区分                   | 规格                  |**                   | **| 区分                   | 规格                  |**                  |
 | :---                       | :---                      |
 | Data Transport Layer       | Ethernet II, IEEE 802.3   |
-| Hub                        | 사용 불가능                |
-| Switch                     | 제한 사용 가능 (Master 와 1번째 Slave 사이 ) |
+| Hub                        | 不可使用                |
+| Switch                     | 可限制使用（Master与第1个Slave之间 ） |

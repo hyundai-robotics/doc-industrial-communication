@@ -1,27 +1,27 @@
-﻿# 1.2.1 PCI 산업용 통신 카드
+# 1.2.1 PCI工业通信卡
 
 
 <br>
 
-##### 1. 구입한 PCI 통신 카드를 제어기 내부 Hi6Com(협동로봇 : Hi6Com Mini)에 장착하십시오.
+##### 1. 请将已购买的PCI通信卡安装到控制器内部的Hi6Com（协作机器人：Hi6Com Mini）。
 
 <br>
 
-##### 2. PCI 통신 카드의 Rotary Switch를 돌려서 Slot(슬롯) 번호를 설정해 주십시오.
+##### 2. 请旋转PCI通信卡的旋转开关（Rotary Swtich）来设置插槽（Slot）编号。
 
 <br>
 
-##### 3. Slot(슬롯) 번호는 1 \~ 3번 내에서 PCI 통신 카드 별 각각 설정해주십시오.
-  (여러 개의 PCI 통신 카드 사용시 번호를 모두 다르게 설정해야 합니다.)
+##### 3. 请在1 \~ 3号的范围内为每个PCI通信卡分别设置插槽编号。
+（使用多个PCI通信卡时，必须将所有编号设置为不同的数值。)
 
-![[그림 1.2.1-1 PCI 통신 카드]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
+![[图1.2.1-1 PCI通信卡]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_2.png>)
 
 <br>
 
-![[그림 1.2.1-2 PCI 통신 카드]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_3.png>)
+![[图 1.2.1-2 PCI通信卡]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_3.png>)
 
 {% hint style="warning" %}
-**\[주의]**: Rotary Switch번호는 PCI 카드마다 다르게 설정하시기 바랍니다.
+*\[注意]**: 请为每个PCI卡设置不同的Rotary Switch编号。
 {% endhint %}
 

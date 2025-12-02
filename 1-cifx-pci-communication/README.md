@@ -1,3 +1,3 @@
-﻿# 1. CIFX PCI 통신
+# 1. CIFX PCI通信
 
-CIFX PCI를 이용한 산업용 통신 매뉴얼입니다. 
+这是使用CIFX PCI的工业通信说明书。
