@@ -109,7 +109,7 @@
 \.      * Input (T > O) : Slave > Master 연결   
 \.      * Output (O > T) : Master > Slave 연결   
 
-\.      [Adapter 1]   
+\.      [Adapter 구성]   
 \.      Crevis M9289   
 \.      - M7002 : None   
 \.      - M2768 : 1byte (O > T)   
