@@ -122,7 +122,7 @@
 \.      - Size: 2bytes   
 \.      - Instance: 105   
 \.      - Run/Idle Header: No   
-\.
+
 \.      [O > T]    
 \.      - Size: 1bytes   
 \.      - Instance: 101   

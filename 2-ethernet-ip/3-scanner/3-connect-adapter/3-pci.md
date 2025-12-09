@@ -85,7 +85,7 @@
 \.      - Size: 240 bytes (PCI 장치에 설정된 값)   
 \.      - Instance: 101   
 \.      - Run/Idle Header: 32Bit   
-\.
+
 \.      [O > T]    
 \.      - Size: 240 bytes (PCI 장치에 설정된 값)   
 \.      - Instance: 100   
