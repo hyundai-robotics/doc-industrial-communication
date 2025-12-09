@@ -36,12 +36,27 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 		<td>100 (0x64)</td>
 	</tr>
     <tr>
-		<td>IO 최소 Cycle Time</td>
-		<td colspan=2>General Purpose Discrete I/O</td>
+        <td>Real-Time Transfer Format</td>
+        <td>32-bit run/idle header</td>
+		<td>None</td>
+	</tr>
+	<tr>
+        <td>Connection Type</td>
+        <td>Point to Point</td>
+		<td>Point to Point</td>
+	</tr>
+	<tr>
+        <td>Priority</td>
+        <td>Scheduled</td>
+		<td>Scheduled</td>
+	</tr>
+    <tr>
+		<td>IO 최소 Cycle Time (RPI)</td>
+		<td colspan=2>5ms</td>
 	</tr>
     <tr>
 		<td>장치 타입</td>
-		<td colspan=2>5ms</td>
+		<td colspan=2>General Purpose Discrete I/O</td>
 	</tr>
     <tr>
 		<td>통신 속도</td>
