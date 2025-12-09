@@ -75,115 +75,19 @@
 <br>
 
 {% hint style="info" %}
-\.      예시에서는 3개의 Adapter 장치를 연결합니다.    
-\.      - Crevis M9289 Remote IO   
-\.      - Crevis M9289 Remote IO   
-\.      - CIFX PCI EtherNet/IP Adapter    
+\.      연결 예시는 아래 매뉴얼을 참고해주십시오.    
+\.      “[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+
+\.      “[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+
+\.      “[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+
+\.      “[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
 
-{% hint style="info" %}
-\.      예시의 Remote IO의 IP 설정은 아래 매뉴얼 링크를 참조하여 진행해 주십시오.
-
-\.      “[**1.3.10.2 Remote IO IP Setting**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
-{% endhint %}
-
-<br>
-
-![[그림 2.3.2-4 Remote IO 연결]](<../../_assets/2-ethernet-ip/3-scanner/img_4.png>) 
-
-<br>
-
-![[그림 2.3.2-5 Remote IO 연결]](<../../_assets/2-ethernet-ip/3-scanner/img_5.png>) 
-
-<br>
-
-![[그림 2.3.2-6 Remote IO 연결]](<../../_assets/2-ethernet-ip/3-scanner/img_6.png>) 
-
-<br>
-
-![[그림 2.3.2-7 Remote IO 연결]](<../../_assets/2-ethernet-ip/3-scanner/img_7.png>) 
-
-<br>
-
-{% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
-
-\.      [Adapter 1]   
-\.      Crevis M9289   
-\.      - M7002 : None   
-\.      - M2768 : 1byte (O > T)   
-\.      - M2768 : 1byte (O > T)   
-\.      - M12DF : 2bytes (T > O)   
-\.      - M12DF : 2bytes (T > O)   
-\.      - M2768 : 1byte (O > T)   
-\.      - M2768 : 1byte (O > T)   
-
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 4bytes   
-\.      - Instance: 1   
-\.      - Run/Idle Header: No   
-\.
-\.      [O > T]    
-\.      - Size: 4bytes   
-\.      - Instance: 2   
-\.      - Run/Idle Header: 32Bit   
-{% endhint %}
-
-<br>
-
-![[그림 2.3.2-8 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/3-scanner/img_8.png>) 
-
-<br>
-
-![[그림 2.3.2-9 Remote IO 연결]](<../../_assets/2-ethernet-ip/3-scanner/img_9.png>) 
-
-<br>
-
-{% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
-
-\.      [Adapter 2]   
-\.      Crevis M9289   
-\.      - M7001 : 1byte (T > O)   
-\.      - M12DF : 2bytes (T > O)   
-\.      - M12DF : 2bytes (T > O)   
-\.      - M225F : 2bytes (O > T)   
-\.      - M225F : 2bytes (O > T)   
-\.      - M225F : 2bytes (O > T)   
-\.      - M2628 : 1byte (O > T)   
-\.      - M2618 : 1byte (O > T)   
-\.      - M5112 : 14bytes (T > O) + 2bytes (O > T)    
-
-
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 19bytes   
-\.      - Instance: 1   
-\.      - Run/Idle Header: No   
-\.
-\.      [O > T]    
-\.      - Size: 10bytes   
-\.      - Instance: 2   
-\.      - Run/Idle Header: 32Bit   
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-\.      같은 방법으로 PCI Adapter도 IO Size와 설정 정보를 입력합니다.   
-{% endhint %}
-
-<br>
-
-
-![[그림 2.3.2-10 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/3-scanner/img_10.png>) 
+![[그림 2.3.2-4 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/3-scanner/img_4.png>) 
 
 <br>
 
@@ -191,7 +95,7 @@
 
 <br>
 
-![[그림 2.3.2-11 스캐너 설정]](<../../_assets/2-ethernet-ip/3-scanner/img_11.png>) 
+![[그림 2.3.2-5 스캐너 설정]](<../../_assets/2-ethernet-ip/3-scanner/img_5.png>) 
 
 <br>
 
@@ -199,7 +103,7 @@
 
 <br>
 
-![[그림 2.3.2-12 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/3-scanner/img_12.png>) 
+![[그림 2.3.2-6 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/3-scanner/img_6.png>) 
 
 <br>
 
@@ -217,7 +121,7 @@
 
 <br>
 
-![[그림 2.3.2-13 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/3-scanner/img_13.png>) 
+![[그림 2.3.2-7 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/3-scanner/img_7.png>) 
 
 <br>
 
