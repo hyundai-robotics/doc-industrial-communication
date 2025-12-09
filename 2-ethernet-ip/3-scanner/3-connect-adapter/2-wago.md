@@ -15,14 +15,14 @@
 <br>
 
 {% hint style="info" %}
-\.      예시의 Remote IO의 Wago 매뉴얼을 참조하여 진행해 주십시오.
+\.      해당 장치의 IP 설정은 Wago 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
 
 ##### 1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.
 
-![[그림 2.3.3.1-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_1.png>) 
+![[그림 2.3.3.2-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_1.png>) 
 
 <br>
 
@@ -30,7 +30,7 @@
 
 <br>
 
-![[그림 2.3.3.1-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_2.png>) 
+![[그림 2.3.3.2-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_2.png>) 
 
 <br>
 
@@ -55,7 +55,7 @@
 
 <br>
 
-![[그림 2.3.3.1-3 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_3.png>) 
+![[그림 2.3.3.2-3 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_3.png>) 
 
 <br>
 
@@ -80,7 +80,7 @@
 
 <br>
 
-![[그림 2.3.3.1-4 Remote IO 구성]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_4.png>) 
+![[그림 2.3.3.2-4 Remote IO 구성]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_4.png>) 
 
 <br>
 
@@ -90,11 +90,11 @@
 
 <br>
 
-![[그림 2.3.3.1-5 IO Size]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_5.png>) 
+![[그림 2.3.3.2-5 IO Size]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_5.png>) 
 
 <br>
 
-![[그림 2.3.3.1-6 IO Size]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_6.png>) 
+![[그림 2.3.3.2-6 IO Size]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_6.png>) 
 
 <br>
 
@@ -102,7 +102,7 @@
 
 <br>
 
-![[그림 2.3.3.1-7 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_7.png>)
+![[그림 2.3.3.2-7 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/2-wago/img_7.png>)
 
 <br>
 
