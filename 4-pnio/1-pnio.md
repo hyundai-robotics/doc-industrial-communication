@@ -50,7 +50,7 @@
 1) TIA Portal을 실행
 2) 메뉴에서 우측과 같이 이동 [Options] → [Manage general station description file (GSD)].
 3) “…” 버튼 클릭 후 and GSDML file이 있는 디렉토리를 설정한다.
-4) 화면에 표시된 리스트에서 “GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml”를 선택하고 [Install] 버튼을 누른다.
+4) 화면에 표시된 리스트에서 “GSDML-V2.43-Hyundai-Robotics-HI6-20251127.xml”를 선택하고 [Install] 버튼을 누른다.
 5) 하드웨어 카탈로그에 새로운 장치로 등록되었는지 확인한다. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
@@ -74,17 +74,17 @@
 11) 아래에서 General 탭으로 이동
 12) 왼쪽 메뉴에서 Ethernet addresses 선택
 13) “Generate PROFINET device name automatically.” 부분 체크 해제
-14) "PROFINET device name"을 "hd-hrc-0"로 설정하고 저장함.<br>
+14) "PROFINET device name"을 "hd-hrc-hi7"로 설정하고 저장함.<br>
 ![](../_assets/4-pnio/profisafe_device_network4.png)
 
 ### 3.4 Hi7 설정 (TP UI)
 1) PNIO 컨트롤러에서 설정했던 값과 같은 아래의 값으로 파라미터 설정
-- PROFINET IO Device Name : hd-hrc-0
+- PROFINET IO Device Name : hd-hrc-hi7
 - Slot 1 : Digital Input : 240
 - Slot 2 : Digital Output : 240
 - Slot 3 : Safety I/O : No
-- (IP주소는 변경 필요 없음.)
-2) "적용" 버튼을 누른다.<br>
+
+2) "전체 적용" 버튼을 누른다.<br>
 ![](../_assets/4-pnio/4_1_profinet_config.png)
 
 ### 3.5 PROFINET 통신의 확인
