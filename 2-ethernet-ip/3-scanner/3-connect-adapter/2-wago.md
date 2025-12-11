@@ -36,9 +36,9 @@
 
 {% hint style="info" %}
 \.      Input (T > O)   
-\.      * 104: Analog  + Digital + Status   
-\.      * 105: Digital + Status   
-\.      * 106: Analog  + Status   
+\.      * 104: Status  + Analog  + Digital   
+\.      * 105: Status  + Digital   
+\.      * 106: Status  + Analog   
 \.      * 107: Analog  + Digital   
 \.      * 108: Digital   
 \.      * 109: Analog   

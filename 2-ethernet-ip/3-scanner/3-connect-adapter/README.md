@@ -62,7 +62,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 		<td>Wago</td>
 		<td>750-366</td>
         <td>Exclusive Owner</td>
-		<td>104: DI + AI + Status<br>105: DI + Status<br>106: AI + Status<br>107: AI + DI<br>108: DI<br>109: AI</td>
+		<td>104: Status + AI + DI<br>105: Status + DI<br>106: Status + AI<br>107: AI + DI<br>108: DI<br>109: AI</td>
 		<td>No</td>
         <td>101: AO + DO<br>102: DO<br>103: AO</td>
 		<td>Yes</td>
