@@ -1,43 +1,43 @@
-# 1.3.4.2 PROFINET IO Controller Settings
+﻿# 1.3.4.2 PROFINET IO Controller Settings
 
-“[Please follow the "**1.3.1 CIFX PCI Slot Settings**" and "**1.3.2 SYCON.NET Settings**" procedures and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[Please follow the "**1.3.1 CIFX PCI Slot Settings**" and "**1.3.2 SYCON.NET Settings**" procedures and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""**1.3.2 SYCON.NET Help**"" function.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""[**1.3.2 SYCON.NET Help**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" function.
 {% endhint %}
 
 <br>
 
 ##### 1. Select the PROFINET IO master in the industrial communication firmware settings and reboot the robot controller.
 
-![[Figure 1.3.4.2-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_1.png>)
+![[Figure 1.3.4.2-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_1.png>) 
 
 <br>
 
 ##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
 
-![[Figure 1.3.4.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_2.png>)
+![[Figure 1.3.4.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_2.png>) 
 
 <br>
 
 ##### 3. Select the PROFINET IO controller PCI device by using Sycon.net.
 
 ![[Figure 1.3.4.2-3 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_3.png>)
-![[Figure 1.3.4.2-4 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_4.png>)
+![[Figure 1.3.4.2-4 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_4.png>) 
 
 <br>
 
 ##### 4. Scan the PCI device and apply the PROFINET IO controller.
 
-![[Figure 1.3.4.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_5.png>)
+![[Figure 1.3.4.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_5.png>) 
 
 <br>
 
 ##### 5. Download the settings.
 
-![[Figure 1.3.4.2-6 PROFINET IO Controller Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_6.png>)
+![[Figure 1.3.4.2-6 PROFINET IO Controller Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_6.png>) 
 
 <br>
 
@@ -45,7 +45,7 @@
    * In this example, we use the M9287 PROFINET IO device from Crevis.
    * Please supply the system power and field power to activate the module.
 
-![[Figure 1.3.4.2-7 Crevis M9287]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_7.png>)
+![[Figure 1.3.4.2-7 Crevis M9287]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_7.png>) 
 
 <br>
 
@@ -142,9 +142,9 @@
 {% hint style="info" %}
 \.      Add a slot connected to M9287 to set the PROFINET IO slave (device).
 
-\.      Slot 1 : M7001
-\.      Slot 2 : M12DF
-\.      Slot 3 : M225F
+\.      Slot 1 : M7001  
+\.      Slot 2 : M12DF  
+\.      Slot 3 : M225F  
 {% endhint %}
 
 ![[Figure 1.3.4.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_21.png>)
@@ -153,7 +153,7 @@
 
 <br>
 
-##### 11. Configure the master (controller) device.
+##### 11. Configure the master (controller) device
 
 {% hint style="info" %}
 \.      Double-click the Master device.
@@ -204,7 +204,7 @@
 {% hint style="info" %}
 \.      Check the communication status in Sycon.net and TP.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      For the procedure to check the industrial communication status on the TP, refer to ("1.4 CIFX PCI Communication Monitoring").](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 {% endhint %}
 
 {% hint style="info" %}
@@ -216,7 +216,7 @@
 ![[Figure 1.3.4.2-31 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_31.png>)
 
 {% hint style="info" %}
-\.      Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+\.        Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
 {% endhint %}
 
 ![[Figure 1.3.4.2-32 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_32.png>)
@@ -226,5 +226,5 @@
 ##### 13. Assign IO blocks after completing the settings.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("**4. Industrial Communication IO Block Assignment**").**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

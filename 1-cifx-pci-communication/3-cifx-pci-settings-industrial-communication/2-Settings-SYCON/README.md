@@ -1,26 +1,26 @@
 # 1.3.2 SYCON.NET Settings
 
-Hi6 제어기는 “**Sycon.net**” 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. (“[For the Hi6 controller, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "**1.1 Sycon.net Installation**.")](../../1-cifx-pci-install-program/1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
+For the Hi6 controller, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "[**1.1 Sycon.net Installation**](../../1-cifx-pci-install-program/1-sycon-net.md)".)
 
 <br>
 
 ##### 1. Reference materials related to communication settings.
-The materials of *\"Sycon.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN"** can be referenced.
-   * Reference materials
+You can refer to the **"Sycon.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN"** materials.
+   *   Reference materials
 
-1\) EtherNetIP Scanner - Configuration and Testing TM 02 EN.pdf
+       1\) EtherNetIP Scanner - Configuration and Testing TM 02 EN.pdf
 
-2\) PROFIBUS DP Master - Configuration and Testing TM 02 EN.pdf
+       2\) PROFIBUS DP Master - Configuration and Testing TM 02 EN.pdf
 
-3\) PROFINET IO Controller - Configuration and Testing TM 02 EN.pdf
+       3\) PROFINET IO Controller - Configuration and Testing TM 02 EN.pdf
 
 <br>
 
 ##### 2. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).
-Touch the *\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
+Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
 
 ![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
-![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
+![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
 \.      IP Address can be changed according to user settings.
@@ -56,7 +56,7 @@ Touch the *\[System > 2: Control Parameters > 9: Network]** menu to check the IP
 {% hint style="info" %}
 \.     Setting -> Driver -> netX Driver -> TCP Connection
 
-\.      IP Address: Please enter the general LAN port IP address of the connected controller.
+\.     IP Address: Please enter the general LAN port IP address of the connected controller.
 {% endhint %}
 
 ![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
@@ -68,11 +68,11 @@ Touch the *\[System > 2: Control Parameters > 9: Network]** menu to check the IP
 {% endhint %}
 
 {% hint style="warning" %}
-*\[Caution]**: Please be sure to check the channel protocol and slot number.
+**\[Caution]**: Please be sure to check the Channel Protocol and Slot number.
 {% endhint %}
 
 {% hint style="warning" %}
-*\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
+**\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
 {% endhint %}
 
 ![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)

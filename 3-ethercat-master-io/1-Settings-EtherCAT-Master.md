@@ -1,26 +1,26 @@
-# 3.1 EtherCAT Master IO Settings
+﻿# 3.1 EtherCAT Master IO Settings
 
 <br>
 
-##### 1. Touch the menu to enter the settings screen.
-*\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
+##### 1. Touch the menu to enter the settings screen. 
+**\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
 
 <br>
 
-![[Figure 3.1-1 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_1.png>)
+![[Figure 3.1-1 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_1.png>) 
 
 <br>
 
 {% hint style="info" %}
-\.      Check the selected controller LAN port number on the EtherCAT master settings screen.
+\.      Check the selected controller LAN port number on the EtherCAT master settings screen. 
 {% endhint %}
 
 ##### 2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.
 
 <br>
 
-![[Figure 3.1-2 Hardware Connection]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_2.png>)
-![[Figure 3.1-3 Hardware Connection]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_3.png>)
+![[Figure 3.1-2 Hardware Connection]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_2.png>) 
+![[Figure 3.1-3 Hardware Connection]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_3.png>) 
 
 <br>
 
@@ -59,43 +59,43 @@
 <br>
 
 {% hint style="info" %}
-\.       Check the input and output byte counts.
+\.      Check the input and output byte counts.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module
-\.      M12DF: Digital 16 points
-\.      M3534: Analog 4 points
+\.      Input Module  
+\.      M12DF: Digital 16 points  
+\.      M3534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Output Module
-\.      M225F: Digital 16 points
-\.      M226F: Digital 16 points
-\.      M2768: Digital 8 points
-\.      M4534: Analog 4 points
+\.      Output Module  
+\.      M225F: Digital 16 points  
+\.      M226F: Digital 16 points  
+\.      M2768: Digital 8 points   
+\.      M4534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module
-\.      M5112 : Conveyer I/F
+\.      Special Module  
+\.      M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
 
-![[Figure 3.1-6 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_6.png>)
+![[Figure 3.1-6 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_6.png>) 
 
 <br>
 
 ##### 5. Reboot the controller after completing the settings.
 
-![[Figure 3.1-7 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>)
+![[Figure 3.1-7 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
 
 <br>
 
-![[Figure 3.1-8 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_8.png>)
+![[Figure 3.1-8 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_8.png>) 
 
 <br>
 
@@ -107,7 +107,7 @@
 
 ##### 6. After confirming that the setting values are reflected, check the communication status.
 
-![[Figure 3.1-9 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>)
+![[Figure 3.1-9 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
 
 <br>
 
@@ -117,7 +117,7 @@
 
 <br>
 
-![[그림 3.1-10 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_10.png>)
+![[Figure 3.1-10 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_10.png>)
 
 <br>
 
@@ -128,7 +128,7 @@
 <br>
 
 {% hint style="info" %}
-\.      **통신 상태에서 ERROR 발생시 (“[\.      **If an error occurs during communication, refer to (**"3.2 EtherCAT Master IO Error Handling"**).**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)”)를 확인해 주십시오.**
+\.      **If an error occurs during communication, refer to ("[**3.2 EtherCAT Master IO Error Handling**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)").**
 {% endhint %}
 
 <br>
@@ -136,6 +136,6 @@
 ##### 7. Assign IO blocks after completing the communication settings.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("**4. Industrial Communication IO Block Assignment**").**](../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../4-io-block-allocation.md)").**
 {% endhint %}
 

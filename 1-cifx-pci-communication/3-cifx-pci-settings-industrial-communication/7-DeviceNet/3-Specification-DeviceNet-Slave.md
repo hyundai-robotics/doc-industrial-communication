@@ -5,14 +5,14 @@
 
 ##### Protocol Characteristics
 
-| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| **Category**                   | **Specifications**                  |
 | :---                       | :---                      |
 | Maximum Input Byte Size        | 255 Bytes                 |
 | Maximum Output Byte Size        | 255 Bytes                 |
 | IO Connection (Implicit)         |                           |
 | IO Connection                    | Bit Strobe, Change of State, Cyclic, Poll |
 | IO Minimum Cycle Time         |                           |
-| Communication Speed                  | 125 ~ 500 Kbit/s          |
+| Communication Speed                  | 125-500 Kbit/s          |
 | Auto Baud Rate Detection   | Not supported                    |
 | Quick Connect              |                          |
 | Topology                   |                          |
@@ -22,7 +22,7 @@
 
 ##### Network Characteristics
 
-| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| **Category**                       | **Specifications**                   |
 | :---                           | :---                      |
 | Data Transport Layer           | CAN frames                |
 | Hub                            | Not applicable                  |

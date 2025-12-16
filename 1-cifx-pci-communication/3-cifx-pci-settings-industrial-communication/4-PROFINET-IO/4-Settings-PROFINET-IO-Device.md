@@ -1,13 +1,13 @@
 # 1.3.4.4 PROFINET IO Device Settings
 
-“[Please follow the "**1.3.1 CIFX PCI Slot Settings**" procedure and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 <br>
 
 {% hint style="info" %}
-\.      **\.      [PROFINET IO Device GSDML File Download]**
+\.      **[PROFINET IO Device GSDML File Download]**
 
-\.      “[\.      Please refer to "**5. Slave Device Description File**."](../../../5-slave-config-file.md)" 참고해 주십시오.
+\.      Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
 {% endhint %}
 
 <br>
@@ -20,22 +20,22 @@
 
 ##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
 
-![[Figure 1.3.4.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_2.png>)
+![[Figure 1.3.4.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-*\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
 {% endhint %}
 
 <br>
 
 ##### 3. Touch the menu to enter the slave settings screen.
-*\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFINET IO Slave]**
+**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFINET IO Slave]**
 
-![[Figure 1.3.4.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_3.png>)
+![[Figure 1.3.4.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.4.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_4.png>)
+![[Figure 1.3.4.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -47,11 +47,11 @@
 \.      The PROFINET IO identifies a slave through the station name.
 
 \.      Naming Rule
-\.      > Device names connected by PROFINET IO cannot be duplicated.
-\.      > A name can be set up to 240 characters.
-\.      > Special characters ".” and "-" can be used.
-\.      > Lowercase English letters and numbers can be used.
-\.      > Names should start and end with lowercase English letters or numbers.
+\.       > Device names connected by PROFINET IO cannot be duplicated.  
+\.       > A name can be set up to 240 characters.  
+\.       > Special characters "." and "-" can be used.  
+\.       > Lowercase English letters and numbers can be used.  
+\.       > Names should start and end with lowercase English letters or numbers.  
 {% endhint %}
 
 {% hint style="info" %}
@@ -69,13 +69,13 @@
 <br>
 
 {% hint style="info" %}
-\.      [**\.      [When Setting a Slot from the Master]**]
+\.      [**When Setting a Slot from the Master**]
 
 \.      Master Input (32byte)  <--  Slave Output (32bytes)
 
 \.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
-\.      4, 8, 16, 32, and 64 Bytes -> Specify the slot matching each byte count
+\.      4, 8, 16, 32, and 64 Bytes -> Specify the slot matching each byte count  
 \.      128 and 256 Bytes -> Specify multiple 64-byte slots (2, 4)
 
 \.      The input slot is located before the output slot.
@@ -83,14 +83,14 @@
 
 <br>
 
-![[Figure 1.3.4.4-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_5.png>)
+![[Figure 1.3.4.4-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_5.png>) 
 
 
 <br>
 
 ##### 5. After completing the settings, check the communication status according to the procedure below.
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 (“[For the procedure to check the industrial communication status on the TP, refer to ("**1.4 CIFX PCI Communication Monitoring**").](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
 ![[Figure 1.3.4.4-6 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_6.png>)
 
@@ -99,5 +99,5 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[For the procedu
 ##### 6. Assign IO blocks after completing the communication settings.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("**4. Industrial Communication IO Block Assignment**").**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

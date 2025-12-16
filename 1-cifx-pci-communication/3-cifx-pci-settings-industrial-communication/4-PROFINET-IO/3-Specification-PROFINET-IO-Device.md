@@ -4,7 +4,7 @@
 
 ##### Protocol Characteristics
 
-| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| **Category**                   | **Specifications**                  |
 | :---                       | :---                      |
 | Maximum Input Byte Size        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
 | Maximum Output Byte Size        | 256 Bytes (TP) / 1024 Bytes (Sycon.net)|
@@ -22,7 +22,7 @@
 
 ##### Network Characteristics
 
-| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| **Category**                   | **Specifications**                  |
 | :---                       | :---                      |
 | Data Transport Layer       | Ethernet II, IEEE 802.3   |
 | Hub                        | Not available                |

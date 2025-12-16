@@ -12,18 +12,18 @@
 
 ### 2.3.2 EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant
 On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP Adapter"<br>
-![!Config.PNG<br>](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
-* [Figure 2.3.1 Settings]*<br>
+![Config.PNG](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
+*[Figure 2.3.1 Settings]*<br>
 
-*[Network]**
+**[Network]**
 -	Function Use: Select whether to use the Ethernet/IP adapter.
 -	Ethernet Port Selection: Select the LAN port to be connected to the Ethernet/IP scanner. (The information of the selected LAN port is displayed on the line immediately below.)<br>
 
-*[I/O Size]**
+**[I/O Size]**
 -	Input Byte Count: 0–240 can be set.
 -	Output Byte Count: 0–240 can be set.<br>
 
-*[Monitoring]**
+**[Monitoring]**
 - Run: Indicates the I/O data exchange status of Ethernet/IP (On: Normal communication. Off: No communication).
 - Ready: Indicates the initialization status of the Ethernet/IP adapter (On: Initialization normal. Off: Initialization abnormal).
 - Error: Displays the alarm or warning status of the Ethernet/IP adapter (On: Alarm/warning status. Off: Normal).

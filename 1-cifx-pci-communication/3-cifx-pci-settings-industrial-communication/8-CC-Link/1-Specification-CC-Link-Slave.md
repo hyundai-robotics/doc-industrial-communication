@@ -1,16 +1,16 @@
-# 1.3.8.1 CC-Link Slave Specifications
+﻿# 1.3.8.1 CC-Link Slave Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **| Category                   | Specifications (Version 1.11)    | Specifications (Version 2.0)     |**                   | **| Category                   | Specifications (Version 1.11)    | Specifications (Version 2.0)     |**  (Version 1.11)    | **| Category                   | Specifications (Version 1.11)    | Specifications (Version 2.0)     |**  (Version 2.0)     |
+| **Category**                   | **Specifications** (Version 1.11)    | **Specifications** (Version 2.0)     |
 | :---                       | :---                       | :---                        |
 | Maximum Input Byte Size        | 48 Bytes                   | 368 Bytes                   |
 | Maximum Output Byte Size        | 48 Bytes                   | 368 Bytes                   |
-| IO Station Input           | 4 Bytes(RY)                | Not supported                       |
-| IO Station Output          | 4 Bytes(RX)                | Not supported                       |
-| Station                    | 1 ~ 4                      | 1 ~ 4                       |
+| IO Station Input           | 4 Bytes (RY)               | Not supported                       |
+| IO Station Output          | 4 Bytes (RX)               | Not supported                       |
+| Station                    | 1-4                        | 1-4                         |
 | Extension Cycle            | Not supported                      | 1, 2, 4, 8                  |
 | Remote Deivce Input        | 16 Bytes(RY), 32 Byte(RWw) | 112 Bytes(RY), 256 Byte(RWw)|
 | Remote Deivce Output       | 16 Bytes(RX), 32 Byte(RWr) | 112 Bytes(RY), 256 Byte(RWr)|
@@ -22,7 +22,7 @@
 
 ##### Network Characteristics
 
-| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| **Category**                       | **Specifications**                   |
 | :---                           | :---                      |
 | Data Transport Layer           |                           |
 | Hub                            | Not applicable                  |
@@ -73,7 +73,7 @@
 {% hint style="info" %}
 \.        CC-Link Version 2
 
-\.        Extension Cycle : Quadruple
+\.        Extension Cycle: Quadruple
 {% endhint %}
 
 <br>

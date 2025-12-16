@@ -10,7 +10,7 @@ The inside of the DeviceNet device is composed of a collection of objects. Each 
 
 <br>
 
-![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>)
+![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
 
 
 <br>
@@ -58,7 +58,7 @@ Each Object, Instance, and Attribute inside has different access permissions.
 
 \.      Get: Read permission
 
-\.      Set: Write permission
+\.      Set: Write permission 
 
 \.      Attribute Single: Can access only one attribute item at a time.
 

@@ -8,7 +8,7 @@ This chapter describes the characteristics of EtherCAT master and slave and how 
 
 EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
 
-The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization.
+The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization. 
 
 <br>
 

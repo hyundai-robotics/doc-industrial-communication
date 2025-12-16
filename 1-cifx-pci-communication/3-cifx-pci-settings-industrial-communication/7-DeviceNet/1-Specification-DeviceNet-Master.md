@@ -4,16 +4,16 @@
 
 ##### Protocol Characteristics
 
-| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| **Category**                       | **Specifications**                  |
 | :---                           | :---                     |
-| Maximum Connectable Slave Count        | 63개                      |
+| Maximum Connectable Slave Count        | 63                        |
 | Maximum Input Byte Size             | 1200 Bytes (FB Block Max.) |
 | Maximum Output Byte Size | 1200 Bytes (FB Block Max.) |
 | Maximum Input Byte Size (Per Slave) | 255 Bytes                 |
 | Maximum Output Byte Size (Per Slave) | 255 Bytes                 |
 | IO Connection                         | Bit Strobe, Change of State, Cyclic, Poll |
 | IO Minimum Cycle Time              |                           |
-| Communication Speed                       | 125 ~ 500 Kbit/s          |
+| Communication Speed                       | 125 - 500 Kbit/s          |
 | Auto Baud Rate Detection        | Not supported                    |
 | Quick Connect                   | Supported                      |
 | Topology                        |                           |
@@ -24,7 +24,7 @@
 
 ##### Network Characteristics
 
-| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| **Category**                       | **Specifications**                   |
 | :---                           | :---                      |
 | Network Slave Scan             | Supported                      |
 | Data Transport Layer           | CAN frames                |

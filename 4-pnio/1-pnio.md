@@ -1,5 +1,5 @@
 
-## 1. PROFINET ?
+## 1. PROFINET?
 - PROFINET is an Ethernet-based communication standard for industrial automation.
 - It supports real-time data exchange between controllers (PLCs, robot controllers, etc.) and distributed I/O devices (drives, sensors, modules, etc.).
 
@@ -9,9 +9,9 @@
 - Safety I/O: 8/8 bytes (activated or deactivated)
 - Minimum communication cycle: 1 msec
 - Supported communication speed: 10 or 100 Mbps
-- Conformance Class : B
-- Netload Class : II
-- Optional Feature : Legacy, MRP
+- Conformance Class: B
+- Netload Class: II
+- Optional Feature: Legacy, MRP
 
 ## 3. PROFINET Configuration Procedure
 
@@ -104,7 +104,7 @@ In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Statu
 ### 3.6 PROFINET I/O Signal Assignment (FB block settings)
 1) Navigate to System → Control Parameters → Input/Output Signal Settings → FB Block Assignment
 2) Change the block settings to PROFINET I/O as many as needed (up to two).
-(최대 PROFINET I/O 사이즈는 240바이트이고 개별 FB 블럭의 사이즈는 120바이트 입니다. 따라서 **(The maximum PROFINET I/O size is 240 bytes and the individual FB block size is 120 bytes. Therefore, any settings exceeding two will be ignored.)<br>**)<br>
+ (The maximum PROFINET I/O size is 240 bytes and the individual FB block size is 120 bytes. Therefore, **any settings exceeding two will be ignored.**)<br>
 ![](../_assets/4-pnio/6_fb_block.png)
 
 3) Additionally, navigate to the Condition Settings menu and check if the PLC operation mode is OFF.<br>

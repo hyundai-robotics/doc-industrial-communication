@@ -4,9 +4,9 @@
 
 ##### Protocol Characteristics
 
-| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| **Category**                       | **Specifications**                  |
 | :---                           | :---                     |
-| Maximum Connectable Slave Count       | 200개                      |
+| Maximum Connectable Slave Count       | 200                        |
 | Maximum Input Byte Size            | 1200 Bytes (FB Block Max) |
 | Maximum Output Byte Size            | 1200 Bytes (FB Block Max) |
 | Maximum Input Byte Size (Per Slave)| 256 Bytes                 |
@@ -24,7 +24,7 @@
 
 ##### Network Characteristics
 
-| **| Category                      | Specifications                  |**                      | **| Category                      | Specifications                  |**                  |
+| **Category**                      | **Specifications**                  |
 | :---                          | :---                     |
 | Network Slave Scan            | Supported                      |
 | Data Transport Layer          | Ethernet II, IEEE 802.3   |

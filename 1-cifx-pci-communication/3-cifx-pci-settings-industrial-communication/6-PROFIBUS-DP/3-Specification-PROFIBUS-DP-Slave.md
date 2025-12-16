@@ -1,17 +1,17 @@
-# 1.3.6.3 PROFIBUS-DP Slave Specifications
+﻿# 1.3.6.3 PROFIBUS-DP Slave Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **| Category                   | Specifications                  |**                   | **| Category                   | Specifications                  |**                  |
+| **Category**                   | **Specifications**                  |
 | :---                       | :---                      |
 | Maximum Input Byte Size        | 244 Bytes                 |
 | Maximum Output Byte Size        | 244 Bytes                 |
 | IO Connection (Implicit)         |                           |
 | IO Connection                    |                           |
 | IO Minimum Cycle Time         |                           |
-| Communication Speed                  | 9.6 ~ 12000 Kbit/s        |
+| Communication Speed                  | 9.6 - 12000 Kbit/s        |
 | Auto Baud Rate Detection   | Supported                      |
 | Quick Connect              | Not applicable                 |
 | Topology                   |                          |
@@ -21,7 +21,7 @@
 
 ##### Network Characteristics
 
-| **| Category                       | Specifications                   |**                       | **| Category                       | Specifications                   |**                   |
+| **Category**                       | **Specifications**                   |
 | :---                           | :---                      |
 | Data Transport Layer           | PROFIBUS FDL              |
 | Hub                            | Not applicable                  |

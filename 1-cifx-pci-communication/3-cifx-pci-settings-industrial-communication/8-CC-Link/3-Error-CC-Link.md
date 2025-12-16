@@ -2,7 +2,7 @@
 
 <br>
 
-"[Please refer to "**1.4.1 ERROR Code**."](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
 
 <br>
 
@@ -20,7 +20,7 @@
 \.      As shown in the figure below, if the CIFX-50 CC PCI is at the CC-Link termination, please add a termination resistor.
 {% endhint %}
 
-![[Figure 1.3.8.5-1 CC-Link Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>)
+![[Figure 1.3.8.5-1 CC-Link Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>) 
 
 
 

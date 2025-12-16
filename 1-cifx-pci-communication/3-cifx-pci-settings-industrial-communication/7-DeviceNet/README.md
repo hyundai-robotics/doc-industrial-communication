@@ -1,6 +1,6 @@
 ﻿# 1.3.7 DeviceNet
 
-This chapter describes the characteristics of the DeviceNet master and slave and how to set them.
+This chapter describes the characteristics of the DeviceNet master and slave and how to set them. 
 
 <br>
 
@@ -8,9 +8,9 @@ This chapter describes the characteristics of the DeviceNet master and slave and
 
 Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
 
-Fieldbus provides intelligent services such as central monitoring of the status of the entire network status and reconfiguration of the network.
+Fieldbus provides intelligent services such as central monitoring of the entire network status and reconfiguration of the network.
 
-For example, it is possible to set detailed information, operations, and modes for sensors and switches , not just simple On/Off.
+For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
 
 Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
 

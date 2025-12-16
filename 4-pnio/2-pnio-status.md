@@ -1,6 +1,6 @@
 # 5.3 PROFINET Monitoring
 
-By selecting the *\[System > 8: Safety System > 3: Monitoring > 4: PROFINET Status]** menu, you can monitor the PROFINET status by slot.
+By selecting the **\[System > 8: Safety System > 3: Monitoring > 4: PROFINET Status]** menu, you can monitor the PROFINET status by slot.
 
 <p align="center">
 <img src="../_assets/4-pnio/PROFINET_monitoring.png"></img>

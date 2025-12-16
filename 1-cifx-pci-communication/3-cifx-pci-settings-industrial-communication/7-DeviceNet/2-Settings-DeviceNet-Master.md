@@ -1,11 +1,11 @@
-# 1.3.7.2 DeviceNet Master Settings
+﻿# 1.3.7.2 DeviceNet Master Settings
 
-“[Please follow the "**1.3.1 CIFX PCI Slot Settings**" and "**1.3.2 SYCON.NET Settings**" procedures and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[Please follow the "**1.3.1 CIFX PCI Slot Settings**" and "**1.3.2 SYCON.NET Settings**" procedures and then proceed with the method below.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""**1.3.2 SYCON.NET Help**"" function.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""[**1.3.2 SYCON.NET Help**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" function.
 {% endhint %}
 
 <br>
@@ -13,7 +13,7 @@
 {% hint style="info" %}
 \.      For DeviceNet connector connection, please refer to the following.
 
-\.      (“[\.      ("**1.2.2 Connector**")](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+\.      ("[**1.2.2 Connector**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -26,20 +26,20 @@
 
 ##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
 
-![[Figure 1.3.7.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>)
+![[Figure 1.3.7.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>) 
 
 <br>
 
 ##### 3. Select the DeviceNet master PCI device by using Sycon.net.
 
 ![[Figure 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
-![[Figure 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>)
+![[Figure 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
 
 <br>
 
 ##### 4. Scan the PCI device and apply the DeviceNet master.
 
-![[Figure 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>)
+![[Figure 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
 
 <br>
 
@@ -49,13 +49,13 @@
 \.      If the communication speed differs between the master and the slave, the Network Scan function does not work normally.
 {% endhint %}
 
-![[Figure 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>)
+![[Figure 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>) 
 
 <br>
 
 ##### 6. Download the settings.
 
-![[Figure 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>)
+![[Figure 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
 
 <br>
 
@@ -63,7 +63,7 @@
    * In this example, we use the NA-9211 DeviceNet slave from Crevis.
    * Please supply the system power and field power to activate the module.
 
-![[Figure 1.3.7.2-8 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_8.png>)
+![[Figure 1.3.7.2-8 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_8.png>) 
 
 <br>
 
@@ -73,7 +73,7 @@
 \.      Set the MAC ID, communication speed, and termination resistor of the DeviceNet slave device.
 {% endhint %}
 
-![[Figure 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>)
+![[Figure 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>) 
 
 ![[Figure 1.3.7.2-10 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_10.png>)
 
@@ -118,13 +118,13 @@
 ##### 10. Network Scan
 
 {% hint style="warning" %}
-\.      **\.      When performing the Network Scan function, be sure to check the following.**
+\.      **When performing the Network Scan function, be sure to check the following.**
 
-\.      **\.      (1) Whether a cable is connected.**
-\.      **\.      (2) Whether a termination resistor is connected or a termination DIP switch is used.**
-\.      **\.      (3) Whether the master - slave communication speed is set.**
+\.      **(1) Whether a cable is connected.**  
+\.      **(2) Whether a termination resistor is connected or a termination DIP switch is used.**  
+\.      **(3) Whether the master - slave communication speed is set.**  
 
-\.      **원활한 통신 연결을 위해 (“[\.      **For smooth communication connection, be sure to check ("**1.3.7.5 DeviceNet ERROR Handling**").**](../7-DeviceNet/5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
+\.      **For smooth communication connection, be sure to check ("[**1.3.7.5 DeviceNet ERROR Handling**](../7-DeviceNet/5-Error-DeviceNet.md)").**
 {% endhint %}
 
 {% hint style="info" %}
@@ -151,7 +151,7 @@
 
 <br>
 
-##### 11. Configure the slave device.
+##### 11. Configure the slave device
 
 {% hint style="info" %}
 \.      Click Disconnect on the master device to configure the slave device.
@@ -173,11 +173,11 @@
 
 \.      Select the message transmission method for DeviceNet communication connection.
 
-\.      **\.      If the UCMM checkbox is not checked, UCMM group 2 is set as the default value.**
+\.      ** If the UCMM checkbox is not checked, UCMM group 2 is set as the default value.**   
 
-\.      UCMM GROUP 1 : IO Message
-\.      UCMM GROUP 2: Master - Slave connection message during network initialization (default setting)
-\.      UCMM GROUP 3 : Explicit Message
+\.      UCMM GROUP 1 : IO Message   
+\.      UCMM GROUP 2: Master - Slave connection message during network initialization (default setting)   
+\.      UCMM GROUP 3: Explicit Message   
 
 \.      For certain devices, UCMM group 3 may be used, so please check the product specifications before proceeding.
 {% endhint %}
@@ -198,8 +198,8 @@
 {% hint style="info" %}
 \.      Check the DeviceNet slave settings.
 
-\.      Output: ST-2318 (1 byte)
-\.      Input: ST-1218 (1 byte)
+\.      Output: ST-2318 (1 byte)  
+\.      Input: ST-1218 (1 byte)  
 {% endhint %}
 
 <br>
@@ -217,12 +217,12 @@
 {% hint style="info" %}
 \.      [Production Inhibit Time]
 
-\.      Set the IO data generation cycle of the slave device (ms).
-\.
-\.      Example) 10 ms: IO data is generated every 10 ms.
-\.      Example) 0 ms: The slave generates IO data as quickly as possible.
+\.      Set the IO data generation cycle of the slave device (ms)  
+\.  
+\.      Example) 10 ms: IO data is generated every 10 ms.  
+\.      Example) 0 ms: The slave generates IO data as quickly as possible.  
 
-\.      The shorter the cycle, the greater the load on the slave device may be. (Specifications need to be checked for each slave.)
+\.      The shorter the cycle, the greater the load on the slave device may be. (Specifications need to be checked for each slave.) 
 {% endhint %}
 
 <br>
@@ -230,7 +230,7 @@
 {% hint style="info" %}
 \.      [Expected Packet Rate]
 
-\.      Set the time for IO data update between the master and the slave.
+\.      Set the time for IO data update between the master and the slave.  
 {% endhint %}
 
 <br>
@@ -241,7 +241,7 @@
 
 <br>
 
-##### 12. Configure the master device.
+##### 12. Configure the master device
 
 {% hint style="info" %}
 \.      Double-click the Master device.
@@ -280,9 +280,9 @@
 ##### 13. Check the communication status.
 
 {% hint style="info" %}
-\.      Check the communication status in Sycon.net and TP.
+\.        Check the communication status in Sycon.net and TP.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      For the procedure to check the industrial communication status on the TP, refer to ("1.4 CIFX PCI Communication Monitoring").](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 {% endhint %}
 
 {% hint style="info" %}
@@ -294,7 +294,7 @@
 ![[Figure 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.      Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+\.        Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
 {% endhint %}
 
 ![[Figure 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
@@ -304,5 +304,5 @@
 ##### 14. Assign IO blocks after completing the communication settings.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("**4. Industrial Communication IO Block Assignment**").**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

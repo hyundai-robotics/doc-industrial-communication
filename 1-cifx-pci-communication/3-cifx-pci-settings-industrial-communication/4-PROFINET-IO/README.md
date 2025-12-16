@@ -1,6 +1,6 @@
 ﻿# 1.3.4 PROFINET IO
 
-This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and how to set them.
+This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and how to set them. 
 
 <br>
 
@@ -8,7 +8,7 @@ This chapter describes the characteristics of the PROFINET IO master (controller
 
 PROFINET IO is an Ethernet-based open industrial communication protocol that has progressively evolved from PROFIBUS-DP and industrial Ethernet.
 
-![[Figure 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>)
+![[Figure 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>) 
 
 <br>
 
@@ -23,8 +23,8 @@ It follows the Provider-Consumer model for data exchange and can be classified i
 
 ##### IO Device Class
   * Products that correspond to existing PROFIBUS-DP slaves and are connected to IO controllers such as PLCs through PROFINET IO.
-    
-  * An IO device supplies output data to the IO controller, provide input data, and consume output data.
+
+  * An IO device supplies output data to the IO controller, provides input data, and consumes output data.
 
 <br>
 

@@ -1,12 +1,12 @@
-# 1.3.3.1 EtherNet/IP Scanner Specifications
+﻿# 1.3.3.1 EtherNet/IP Scanner Specifications
 
 <br>
 
 ##### Protocol Characteristics
 
-| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| **Category**                       | **Specifications**                  |
 | :---                           | :---                     |
-| Maximum Connectable Slave Count        | 64개                      |
+| Maximum Connectable Slave Count        | 64                        |
 | Maximum Input Byte Size             | 1200 Bytes (FB Block Max.) |
 | Maximum Output Byte Size | 1200 Bytes (FB Block Max.) |
 | Maximum Input Byte Size (Per Slave) | 504 Bytes                 |
@@ -18,14 +18,14 @@
 | Quick Connect                   | Supported                      |
 | Topology                        | Tree, Line, Ring          |
 | DLR (Device Level Ring)         | Beacon based 'Ring Node'  |
-| Additional Features                        |DHCP, BOOTP, ACD Supported    |
+| Additional Features                        | DHCP, BOOTP, ACD Supported    |
 
 
 <br>
 
 ##### Network Characteristics
 
-| **| Category                       | Specifications                  |**                       | **| Category                       | Specifications                  |**                  |
+| **Category**                       | **Specifications**                  |
 | :---                           | :---                     |
 | Network Slave Scan             | Not supported                    |
 | Data Transport Layer           | Ethernet II, IEEE 802.3   |
