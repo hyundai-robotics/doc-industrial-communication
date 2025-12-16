@@ -1,5 +1,5 @@
-# 1.3.9.3 Fehlerbehandlung bei CC-Link IE Field Slave
+﻿# 1.3.9.3 Fehlerbehandlung bei CC-Link IE Field Slave
 
 <br>
 
-"[Bitte beachten Sie „**1.4.1 FEHLERCODE**“.](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)“.

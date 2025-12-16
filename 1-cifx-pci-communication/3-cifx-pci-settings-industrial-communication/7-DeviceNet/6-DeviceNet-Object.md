@@ -3,14 +3,14 @@
 
 <br>
 
-##### 1. Object
+##### 1. Objekt
 
 
 Das DeviceNet-Gerät besteht aus einer Sammlung von Objekten. Jedes Objekt repräsentiert eine bestimmte Komponente innerhalb des Geräts.
 
 <br>
 
-![[Abbildung 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>)
+![[Abbildung 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
 
 
 <br>
@@ -36,9 +36,9 @@ Der DeviceNet-Master kann über explizite Meldungen auf Objekte bestimmter Slave
 
 \.      Lesen des Vendor-ID-Werts des Identitätsobjekts (Klassencode 0x01)
 
-\.      Instance : 1
+\.      Instanz: 1
 
-\.      Attribute ID : 1
+\.      Attribut-ID: 1
 
 \.      Berechtigung: Abrufen (nur Lesen möglich)
 {% endhint %}

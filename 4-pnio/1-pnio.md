@@ -1,17 +1,17 @@
 
-## 1. PROFINET ?
+## 1. PROFINET?
 - PROFINET ist ein Ethernet-basierter Kommunikationsstandard für die industrielle Automatisierung.
 - Er unterstützt den Echtzeit-Datenaustausch zwischen Steuerungen (SPS, Robotersteuerungen usw.) und dezentralen E/A-Geräten (Antriebe, Sensoren, Module usw.).
 
 ## 2. PROFINET-Spezifikationen
 - Digitale Eingänge: 50, 120, 240 Bytes (bitte eine Option auswählen)
-- Digitale Ausgänge: 50, 120, 240 Bytes (bitte eine Option auswählen)
-- Sicherheits-E/A: 8/8 Byte (aktiviert oder deaktiviert)
+- Digitale Ausgänge: 50, 120, 240 Bytes (bitte eine Option auswählen) 
+- Sicherheits-E/A: 8/8 Byte (aktiviert oder deaktiviert) 
 - Mindestkommunikationszyklus: 1 ms
 - Unterstützte Kommunikationsgeschwindigkeit: 10 oder 100 MBit/s
-- Conformance Class : B
-- Netload Class : II
-- Optional Feature : Legacy, MRP
+- Conformance Class: B
+- Netzlastklasse: II
+- Optionale Funktion: Legacy, MRP
 
 ## 3. PROFINET-Konfigurationsverfahren
 
@@ -37,7 +37,7 @@
 2) Konfigurieren Sie wie unten gezeigt
 - EtherCAT Master : ON
 - Port : LAN3
-3) Wählen Sie „OptionBD – PROFINET_IO” aus der Slave-Liste aus und drücken Sie die Schaltfläche „Übernehmen”.
+3) Wählen Sie „OptionBD – PROFINET_IO“ aus der Slave-Liste aus und drücken Sie die Schaltfläche „Übernehmen“.
 4) Starten Sie die Hi7-Robotersteuerung neu.
 5) Überprüfen Sie nach dem Neustart den Status der LEDs „Run“, „Communication“ und „Error“.
 
@@ -50,7 +50,7 @@
 1) Starten Sie das TIA Portal.
 2) Navigieren Sie wie rechts im Menü gezeigt zu [Optionen] → [Allgemeine Stationsbeschreibungsdatei (GSD) verwalten].
 3) Klicken Sie auf die Schaltfläche „…“ und legen Sie das Verzeichnis fest, in dem sich die GSDML-Datei befindet.
-4) Wählen Sie „GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml” aus der auf dem Bildschirm angezeigten Liste aus und klicken Sie auf die Schaltfläche [Installieren].
+4) Wählen Sie „GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml“ aus der auf dem Bildschirm angezeigten Liste aus und klicken Sie auf die Schaltfläche [Installieren].
 5) Überprüfen Sie, ob die Datei als neues Gerät im Hardwarekatalog registriert wurde. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
@@ -79,10 +79,10 @@
 
 ### 3.4 Hi7-Einstellungen (TP-Benutzeroberfläche)
 1) Legen Sie die Parameter mit denselben Werten fest, die im PNIO-Controller konfiguriert sind.
-- PROFINET IO Device Name : hd-hrc-0
-- Slot 1 : Digital Input : 240
-- Slot 2 : Digital Output : 240
-- Slot 3 : Safety I/O : No
+- PROFINET IO-Gerätename : hd-hrc-0
+- Steckplatz 1 : Digitaler Eingang : 240
+- Steckplatz 2 : Digitaler Ausgang : 240
+- Steckplatz 3 : Sicherheits-E/A : Nein
 - (Die IP-Adresse muss nicht geändert werden.)
 2) Klicken Sie auf die Schaltfläche „Übernehmen“.<br>
 ![](../_assets/4-pnio/4_1_profinet_config.png)
@@ -104,7 +104,7 @@ Navigieren Sie im Menü zu „System“ -> „Sicherheitssystem“ -> „Überwa
 ### 3.6 Zuweisung der PROFINET-E/A-Signale (FB-Block-Einstellungen)
 1) Navigieren Sie zu System → Steuerungsparameter → Ein-/Ausgangssignal-Einstellungen → FB-Block-Zuweisung.
 2) Ändern Sie die Blockeinstellungen nach Bedarf auf PROFINET-E/A (maximal 2).
-(최대 PROFINET I/O 사이즈는 240바이트이고 개별 FB 블럭의 사이즈는 120바이트 입니다. 따라서 **(Die maximale PROFINET-E/A-Größe beträgt 240 Byte und die Größe des einzelnen FB-Blocks beträgt 120 Byte. Daher werden Einstellungen, die 2 überschreiten, ignoriert.)<br>**)<br>
+ (Die maximale PROFINET-E/A-Größe beträgt 240 Byte und die Größe des einzelnen FB-Blocks beträgt 120 Byte. Daher **werden Einstellungen, die 2 überschreiten, ignoriert.**)<br>
 ![](../_assets/4-pnio/6_fb_block.png)
 
 3) Navigieren Sie zusätzlich zum Menü „Bedingungseinstellungen“ und überprüfen Sie, ob der SPS-Betriebsmodus auf AUS steht.<br>

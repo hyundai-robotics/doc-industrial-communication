@@ -1,43 +1,43 @@
 # 1.3.5.2 EtherCAT-Master-Einstellungen
 
-“[Bitte befolgen Sie die Anweisungen unter „**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**” und „**1.3.2 SYCON.NET-Einstellungen**” und fahren Sie dann mit der folgenden Methode fort.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[Bitte befolgen Sie die Anweisungen unter „**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**” und „**1.3.2 SYCON.NET-Einstellungen**” und fahren Sie dann mit der folgenden Methode fort.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und „[**1.3.2 SYCON.NET-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)“ und fahren Sie dann mit der folgenden Methode fort.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, ziehen Sie bitte die Funktion „**1.3.2 SYCON.NET-Hilfe**” zu Rate.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, ziehen Sie bitte die Funktion „[**1.3.2 SYCON.NET-Hilfe**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)“ zu Rate.
 {% endhint %}
 
 <br>
 
 ##### 1. Wählen Sie in den Firmware-Einstellungen für die industrielle Kommunikation „EtherCAT-Master“ aus und starten Sie die Robotersteuerung neu.
 
-![[Abbildung 1.3.5.2-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>)
+![[Abbildung 1.3.5.2-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>) 
 
 <br>
 
 ##### 2. Überprüfen Sie den Bereitschaftsstatus des ausgewählten Protokolls in der Überwachung der industriellen Kommunikation.
 
-![[Abbildung 1.3.5.2-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_2.png>)
+![[Abbildung 1.3.5.2-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_2.png>) 
 
 <br>
 
 ##### 3. Wählen Sie mithilfe von Sycon.net das EtherCAT-Master-PCI-Gerät aus.
 
 ![[Abbildung 1.3.5.2-3 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_3.png>)
-![[Abbildung 1.3.5.2-4 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_4.png>)
+![[Abbildung 1.3.5.2-4 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_4.png>) 
 
 <br>
 
 ##### 4. Scannen Sie das PCI-Gerät und wenden Sie EtherCAT-Master an.
 
-![[Abbildung 1.3.5.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_5.png>)
+![[Abbildung 1.3.5.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_5.png>) 
 
 <br>
 
 ##### 5. Laden Sie die Einstellungen herunter.
 
-![[Abbildung 1.3.5.2-6 EtherCAT Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_6.png>)
+![[Abbildung 1.3.5.2-6 EtherCAT Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_6.png>) 
 
 <br>
 
@@ -45,7 +45,7 @@
    * In diesem Beispiel verwenden wir Crevis M9386 EtherCAT-Slave.
    * Bitte versorgen Sie das Modul mit Systemstrom und Feldstrom, um es zu aktivieren.
 
-![[Abbildung 1.3.5.2-7 Crevis M9386]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_7.png>)
+![[Abbildung 1.3.5.2-7 Crevis M9386]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_7.png>) 
 
 <br>
 
@@ -93,9 +93,9 @@
 ##### 9. Network Scan
 
 {% hint style="warning" %}
-\.      **\.      EtherCAT hat die verwendbaren Kabelverkabelungen und Anschlüsse festgelegt.**
+\.      **EtherCAT hat die verwendbaren Kabelverkabelungen und Anschlüsse festgelegt.**
 
-\.      **원활한 통신 연결을 위해 (“[\.      Für eine reibungslose Kommunikationsverbindung überprüfen Sie bitte („**1.3.5.5 EtherCAT-Kabelverdrahtung**“).](../5-EtherCAT/5-EtherCAT-Topology.md)”)을 반드시 확인해 주십시오.**
+\.      **Für eine reibungslose Kommunikationsverbindung überprüfen Sie bitte („[**1.3.5.5 EtherCAT-Kabelverdrahtung**](../5-EtherCAT/5-EtherCAT-Topology.md)“).**
 {% endhint %}
 
 {% hint style="info" %}
@@ -137,9 +137,9 @@
 {% hint style="info" %}
 \.      Fügen Sie an M9386 angeschlossene Slots für die EtherCAT-Slave-Einstellungen hinzu.
 
-\.      Slot 1 : M7001
-\.      Slot 2 : M12DF
-\.      Slot 3 : M225F
+\.      Slot 1 : M7001  
+\.      Slot 2 : M12DF  
+\.      Slot 3 : M225F  
 {% endhint %}
 
 ![[Abbildung 1.3.5.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_17.png>)
@@ -191,9 +191,9 @@
 ##### 12. Überprüfen Sie den Kommunikationsstatus
 
 {% hint style="info" %}
-\.      Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
+\.        Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („1.4 Überwachen der CIFX-PCI-Kommunikation“).](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („[**1.4 Überwachen der CIFX-PCI-Kommunikation**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)“).
 {% endhint %}
 
 {% hint style="info" %}
@@ -205,7 +205,7 @@
 ![[Abbildung 1.3.5.2-24 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.      Mit der Diagnosefunktion von Sycon.net können Sie den Kommunikationsstatus und den Status der E/A-Ein- und Ausgänge überwachen.
+\.        Mit der Diagnosefunktion von Sycon.net können Sie den Kommunikationsstatus und den Status der E/A-Ein- und Ausgänge überwachen.
 {% endhint %}
 
 ![[Abbildung 1.3.5.2-25 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_25.png>)
@@ -215,5 +215,5 @@
 ##### 13. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**“).**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

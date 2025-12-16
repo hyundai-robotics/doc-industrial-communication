@@ -1,4 +1,4 @@
-﻿# Table of contents
+﻿# Inhaltsverzeichnis
 
 * [Handbuch zu den Funktionen der Hi6-Robotersteuerung – Industrielle Kommunikation](README.md)
 
@@ -6,14 +6,14 @@
   * [1.1 Installation des CIFX-PCI-Programms](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)
     * [1.1.1 SYCON.net-Installation](1-cifx-pci-communication/1-cifx-pci-install-program/1-sycon-net.md)
 
-  
+
   * [1.2 Installation und Einstellungen der CIFX-PCI-Kommunikationskarte](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/README.md)
     * [1.2.1 PCI-Industriekommunikationskarte](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)
     * [1.2.2 Steckverbinder](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)
     * [1.2.3 Beschreibung der LEDs](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/3-Led.md)
 
   * [1.3 CIFX-PCI-Kommunikationseinstellungen](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/README.md)
-    * [1.3.1 CIFX-PCI-Slot-Einstellungen.](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)
+    * [1.3.1 CIFX-PCI-Slot-Einstellungen](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)
     * [1.3.2 SYCON.NET-Einstellungen](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)
       * [1.3.2.1 SYCON.NET-Hilfe](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)
 
@@ -30,7 +30,7 @@
       * [1.3.4.3 PROFINET IO-Gerätespezifikationen](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/3-Specification-PROFINET-IO-Device.md)
       * [1.3.4.4 PROFINET IO-Geräteeinstellungen](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Settings-PROFINET-IO-Device.md)
       * [1.3.4.5 Fehlerbehandlung bei PROFINET IO](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/5-Error-PROFINET-IO.md)
-    
+
     * [1.3.5 EtherCAT](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/README.md)
       * [1.3.5.1 EtherCAT-Master-Spezifikationen](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/1-Specification-EtherCAT-Master.md)
       * [1.3.5.2 EtherCAT-Master-Einstellungen](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Settings-EtherCAT-Master.md)

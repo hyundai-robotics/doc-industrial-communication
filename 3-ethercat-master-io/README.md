@@ -10,7 +10,7 @@ In diesem Kapitel wird erläutert, wie mehrere von unserem Unternehmen ausgewäh
 
 EtherCAT ist ein von Beckhoff Automation entwickeltes Ethernet-basiertes Feldbussystem.
 
-Das EtherCAT-Protokoll bietet Funktionen für sehr schnelle E/A-Datenaktualisierungen und präzise Synchronisation.
+Das EtherCAT-Protokoll bietet Funktionen für sehr schnelle E/A-Datenaktualisierungen und präzise Synchronisation. 
 
 <br>
 

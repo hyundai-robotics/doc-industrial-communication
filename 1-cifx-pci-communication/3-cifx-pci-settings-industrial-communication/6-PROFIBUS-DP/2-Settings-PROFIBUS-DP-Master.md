@@ -1,45 +1,45 @@
-# 1.3.6.2 PROFIBUS-DP-Master-Einstellungen
+﻿# 1.3.6.2 PROFIBUS-DP-Master-Einstellungen
 
 
-“[Bitte befolgen Sie die Anweisungen unter „**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**” und „**1.3.2 SYCON.NET-Einstellungen**” und fahren Sie dann mit der folgenden Methode fort.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[Bitte befolgen Sie die Anweisungen unter „**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**” und „**1.3.2 SYCON.NET-Einstellungen**” und fahren Sie dann mit der folgenden Methode fort.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und „[**1.3.2 SYCON.NET-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)“ und fahren Sie dann mit der folgenden Methode fort.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, ziehen Sie bitte die Funktion „**1.3.2 SYCON.NET-Hilfe**” zu Rate.](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, ziehen Sie bitte die Funktion „[**1.3.2 SYCON.NET-Hilfe**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)“ zu Rate.
 {% endhint %}
 
 <br>
 
 ##### 1. Wählen Sie in den Einstellungen der industriellen Kommunikationsfirmware „PROFIBUS-DP Master“ aus und starten Sie die Robotersteuerung neu.
 
-![[Abbildung 1.3.6.2-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>)
+![[Abbildung 1.3.6.2-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>) 
 
 <br>
 
 ##### 2. Überprüfen Sie den Bereitschaftsstatus des ausgewählten Protokolls in der Überwachung der industriellen Kommunikation.
 
-![[Abbildung 1.3.6.2-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_2.png>)
+![[Abbildung 1.3.6.2-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_2.png>) 
 
 <br>
 
 ##### 3. Wählen Sie mit Sycon.net das PROFIBUS-DP-Master-PCI-Gerät aus.
 
 ![[Abbildung 1.3.6.2-3 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_3.png>)
-![[Abbildung 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>)
+![[Abbildung 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>) 
 
 <br>
 
 ##### 4. Scannen Sie das PCI-Gerät und wenden Sie „PROFIBUS-DP Master“ an.
 
-![[Abbildung 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>)
+![[Abbildung 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>) 
 
 <br>
 
 
 ##### 5. Laden Sie die Einstellungen herunter.
 
-![[Abbildung 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>)
+![[Abbildung 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>) 
 
 <br>
 
@@ -47,7 +47,7 @@
    * In diesem Beispiel verwenden wir Crevis GN-9222 PROFIBUS-DP Slave.
    * Bitte versorgen Sie das Modul mit Systemstrom und Feldstrom, um es zu aktivieren.
 
-![[Abbildung 1.3.6.2-7 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_7.png>)
+![[Abbildung 1.3.6.2-7 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_7.png>) 
 
 
 <br>
@@ -55,10 +55,10 @@
 ##### 7. Einstellungen des Slave-Geräts
 
 {% hint style="info" %}
-\.      Legen Sie die Knotennummer und den Anschluss des PROFIBUS-DP-Slave-Geräts fest.
+\.      Legen Sie die Knotennummer und den Abschluss des PROFIBUS-DP-Slave-Geräts fest.
 {% endhint %}
 
-![[Abbildung 1.3.6.2-8 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_8.png>)
+![[Abbildung 1.3.6.2-8 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_8.png>) 
 
 
 {% hint style="info" %}
@@ -100,10 +100,10 @@
 ##### 9. Network Scan
 
 {% hint style="warning" %}
-\.      **\.      Überprüfen Sie bei der Durchführung eines Netzwerkscans unbedingt die folgenden Punkte.**
+\.      **Überprüfen Sie bei der Durchführung eines Netzwerkscans unbedingt die folgenden Punkte.**
 
-\.      **\.      (1) Ob das Kabel angeschlossen ist.**
-\.      **\.      (2) Ob der Abschluss-DIP-Schalter verwendet wird.**
+\.      **(1) Ob das Kabel angeschlossen ist.**  
+\.      **(2) Ob der Abschluss-DIP-Schalter verwendet wird.**  
 {% endhint %}
 
 {% hint style="info" %}
@@ -145,11 +145,11 @@
 {% hint style="info" %}
 \.      Überprüfen Sie die PROFIBUS-DP-Slave-Einstellungen.
 
-\.      Slot 1 : GN-9222
-\.      Slot 2 : GT-12DF (Input 2 Byte)
-\.      Slot 3 : GT-227F (Output 2 Byte)
-\.      Slot 4 : GT-3154 (Input 8 Byte)
-\.      Slot 5 : GT-4254 (Output 8 Byte)
+\.      Steckplatz 1 : GN-9222  
+\.      Steckplatz 2 : GT-12DF (Eingang 2 Byte)  
+\.      Steckplatz 3 : GT-227F (Ausgang 2 Byte)  
+\.      Steckplatz 4 : GT-3154 (Eingang 8 Byte)  
+\.      Steckplatz 5 : GT-4254 (Ausgang 8 Byte)  
 {% endhint %}
 
 ![[Abbildung 1.3.6.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_17.png>)
@@ -173,7 +173,7 @@
 {% hint style="info" %}
 \.      Legen Sie die PROFIBUS-DP-Kommunikationsgeschwindigkeit fest.
 
-\.      9.6 ~ 12000 Kbit/s
+\.      9,6 – 12000 Kbit/s 
 {% endhint %}
 
 ![[Abbildung 1.3.6.2-20 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_20.png>)
@@ -208,9 +208,9 @@
 ##### 12. Überprüfen Sie den Kommunikationsstatus
 
 {% hint style="info" %}
-\.      Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
+\.        Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („1.4 Überwachen der CIFX-PCI-Kommunikation“).](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („[**1.4 Überwachen der CIFX-PCI-Kommunikation**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)“).
 {% endhint %}
 
 {% hint style="info" %}
@@ -222,7 +222,7 @@
 ![[Abbildung 1.3.6.2-26 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.      Mit der Diagnosefunktion von Sycon.net können Sie den Kommunikationsstatus und den Status der E/A-Ein- und Ausgänge überwachen.
+\.        Mit der Diagnosefunktion von Sycon.net können Sie den Kommunikationsstatus und den Status der E/A-Ein- und Ausgänge überwachen.
 {% endhint %}
 
 ![[Abbildung 1.3.6.2-27 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_27.png>)
@@ -232,5 +232,5 @@
 ##### 13. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**“).**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

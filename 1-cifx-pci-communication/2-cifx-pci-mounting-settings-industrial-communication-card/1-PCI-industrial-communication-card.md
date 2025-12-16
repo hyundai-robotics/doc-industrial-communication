@@ -1,4 +1,4 @@
-# 1.2.1 PCI-Industriekommunikationskarte
+﻿# 1.2.1 PCI-Industriekommunikationskarte
 
 
 <br>
@@ -12,7 +12,7 @@
 <br>
 
 ##### 3. Legen Sie die Slotnummer für jede PCI-Kommunikationskarte in den Slots 1 bis 3 separat fest.
-(Bei Verwendung mehrerer PCI-Kommunikationskarten müssen alle Nummern unterschiedlich festgelegt werden.)
+  (Bei Verwendung mehrerer PCI-Kommunikationskarten müssen alle Nummern unterschiedlich festgelegt werden.)
 
 ![[Abbildung 1.2.1-1 PCI-Kommunikationskarte]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_2.png>)
@@ -22,6 +22,6 @@
 ![[Abbildung 1.2.1-2 PCI-Kommunikationskarte]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_3.png>)
 
 {% hint style="warning" %}
-*\[Achtung]**: Bitte stellen Sie die Drehschalternummer für jede PCI-Karte unterschiedlich ein.
+**\[Achtung]**: Bitte stellen Sie die Drehschalternummer für jede PCI-Karte unterschiedlich ein.
 {% endhint %}
 

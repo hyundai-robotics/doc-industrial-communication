@@ -1,20 +1,20 @@
-# 1.3.5.3 EtherCAT-Slave-Spezifikationen
+﻿# 1.3.5.3 EtherCAT-Slave-Spezifikationen
 
 <br>
 
 ##### Protokollmerkmale
 
-| **| Kategorie                   | Spezifikationen                  |**                   | **| Kategorie                   | Spezifikationen                  |**                  |
+| **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                     |
 | Maximale Eingangsbyte-Größe        | 256 Bytes                |
 | Maximale Ausgangsbyte-Größe        | 256 Bytes                |
 | E/A-Verbindung (Implicit)         |                          |
 | E/A-Verbindung                    |                          |
-| Minimale E/A-Zykluszeit         | 250us (1ms Recommended)  |
+| Minimale E/A-Zykluszeit         | 250 µs (1 ms empfohlen)  |
 | Kommunikationsgeschwindigkeit                  | 100 Mbit/s               |
 | Auto Negotiation           | Nicht unterstützt                   |
 | Quick Connect              | Nicht unterstützt                   |
-| Topology                   | Line, Ring               |
+| Topologie                  | Linie, Ring               |
 | Synchronisation                     | Distributed Clocks       |
 
 
@@ -22,7 +22,7 @@
 
 ##### Netzwerkmerkmale
 
-| **| Kategorie                   | Spezifikationen                  |**                   | **| Kategorie                   | Spezifikationen                  |**                  |
+| **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                      |
 | Data Transport Layer       | Ethernet II, IEEE 802.3   |
 | Hub                        | Nicht verfügbar                |

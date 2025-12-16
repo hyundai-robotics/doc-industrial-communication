@@ -1,13 +1,13 @@
 ﻿# 1.3.8 CC-Link
 
-In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von CC-Link-Slave beschrieben.
+In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von CC-Link-Slave beschrieben. 
 
 
 <br>
 
 ##### Feldbus – Übersicht
 
-Feldbus ist ein Industriestandard, der für die Verbindung von Geräten wie Sensoren, Tastern, Motortreibern und Bedienoberflächen mit SPSen (speicherprogrammierbaren Steuerungen) über ein einziges Kabel und deren Betrieb in der Fabrik geöffnet wurde.
+Feldbus (Fieldbus) ist ein offener Industriestandard, um Geräte wie Sensoren, Taster, Motortreiber und Bedienoberflächen in der Fabrik über ein einziges Kabel mit einer SPS (Programmable Logic Controller) zu verbinden und zu betreiben.
 
 Feldbus bietet intelligente Dienste wie die zentrale Überwachung oder Neukonfiguration des gesamten Netzwerkstatus.
 
@@ -17,7 +17,7 @@ Die Verwendung eines einzigen Kabels reduziert den Zeit- und Kostenaufwand für 
 
 Im Gegensatz zu Protokollen mit nicht deterministischen Antwortcharakteristiken der allgemeinen Kommunikation ist außerdem die Datenantwortgeschwindigkeit garantiert, um industrielle Anwendungen zu erfüllen, bei denen kritische Zeitcharakteristiken wichtig sind.
 
-![[Abbildung 1.3.8-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/image_1.png>)
+![[Abbildung 1.3.8-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/image_1.png>) 
 
 <br>
 

@@ -9,27 +9,27 @@ Die industrielle Kommunikations-E/A muss dem Bereich fb0 bis fb9 zugewiesen werd
 {% hint style="info" %}
 \.      Informationen zu den Methoden zum Lesen/Schreiben von E/A für fb-Blöcke finden Sie im folgenden Handbuch.
 
-\.   **\.      \[Steuerungshandbuch: Allgemeiner Eingang]**
-\.   **\.      \[Steuerungshandbuch: Allgemeiner Ausgang]**
+\.   **\[Steuerungshandbuch: Allgemeiner Eingang]**   
+\.   **\[Steuerungshandbuch: Allgemeiner Ausgang]**   
 {% endhint %}
 
 <br>
 
 ##### 1. Wählen Sie das Menü zur Zuweisung von E/A-Blöcken
-*\[System > 2: Steuerungsparameter > 2: Eingangs-/Ausgangssignaleinstellungen > 6: FB-Blockzuweisung]** Berühren Sie das Menü.
+   Berühren Sie das Menü **\[System > 2: Steuerungsparameter > 2: Eingangs-/Ausgangssignaleinstellungen > 6: FB-Blockzuweisung]**.
 
 <br>
 
 ##### 2. Geben Sie den industriellen Kommunikationstyp für den gewünschten fb-Bereich an.
-지정 후 **Tippen Sie nach der Angabe auf die Schaltfläche \[OK].** 버튼을 터치하십시오.
+   Tippen Sie nach der Angabe auf die Schaltfläche **\[OK]**.
 
 ![[Abbildung 5-1]](<_assets/4-io-block-allocation/image_1.png>)
 
 
 {% hint style="warning" %}
-*\[Achtung]**: Bei Verwendung zusammen mit einer Embedded-SPS überprüfen Sie bitte die E/A-Attribute DI/DO - X/Y.
+**\[Achtung]**: Bei Verwendung zusammen mit einer Embedded-SPS überprüfen Sie bitte die E/A-Attribute DI/DO - X/Y. 
 {% endhint %}
 
 {% hint style="warning" %}
-*\[Achtung]**: Für den EtherNet/IP-Adapter beträgt die maximale Blockgröße 120 Byte, und es können bis zu 2 ausgewählt werden. Auswahlen, die 2 überschreiten, werden ignoriert.
+**\[Achtung]**: Für den EtherNet/IP-Adapter beträgt die maximale Blockgröße 120 Byte, und es können bis zu 2 ausgewählt werden. Eine Auswahl von mehr als 2 wird ignoriert. 
 {% endhint %}

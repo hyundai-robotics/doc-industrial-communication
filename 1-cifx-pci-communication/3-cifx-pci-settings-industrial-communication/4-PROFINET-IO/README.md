@@ -1,6 +1,6 @@
 ﻿# 1.3.4 PROFINET IO
 
-In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von PROFINET IO-Master (Controller) und Slave (Gerät) beschrieben.
+In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von PROFINET IO-Master (Controller) und Slave (Gerät) beschrieben. 
 
 <br>
 
@@ -8,7 +8,7 @@ In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von PROFINET
 
 PROFINET IO ist ein offenes industrielles Kommunikationsprotokoll auf Ethernet-Basis, das sich aus PROFIBUS-DP und Industrial Ethernet weiterentwickelt hat.
 
-![[Abbildung 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>)
+![[Abbildung 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>) 
 
 <br>
 
@@ -21,9 +21,9 @@ Es folgt dem Provider-Consumer-Modell für den Datenaustausch, und die Produkte 
 
 <br>
 
-##### IO Device Class
+##### E/A-Geräteklasse
   * Produkte, die den bestehenden PROFIBUS-DP-Slaves entsprechen und über PROFINET IO mit E/A-Steuerungen wie SPSen verbunden sind.
-    
+
   * E/A-Geräte liefern Ausgangsdaten an E/A-Steuerungen, stellen Eingangsdaten bereit und verbrauchen Ausgangsdaten.
 
 <br>

@@ -1,4 +1,4 @@
-# Handbuch zu den Funktionen der Hi6-Robotersteuerung – Industrielle Kommunikation
+﻿# Handbuch zu den Funktionen der Hi6-Robotersteuerung – Industrielle Kommunikation
 
 {% hint style="warning" %}
 Die in diesem Produkthandbuch enthaltenen Informationen sind Eigentum von HD Hyundai Robotics.
@@ -11,5 +11,5 @@ Dieses Handbuch kann ohne vorherige Ankündigung geändert werden.
 
 
 
-*Copyright ⓒ 2020 by Hyundai Robotics**
+**Copyright ⓒ 2020 by Hyundai Robotics**
 {% endhint %}

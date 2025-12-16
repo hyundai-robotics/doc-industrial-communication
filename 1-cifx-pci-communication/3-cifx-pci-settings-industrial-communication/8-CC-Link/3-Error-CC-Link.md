@@ -2,7 +2,7 @@
 
 <br>
 
-"[Bitte beachten Sie „**1.4.1 FEHLERCODE**“.](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)“.
 
 <br>
 
@@ -20,7 +20,7 @@
 \.      Wie in der folgenden Abbildung gezeigt, muss ein Abschlusswiderstand hinzugefügt werden, wenn sich CIFX-50 CC PCI am CC-Link-Abschluss befindet.
 {% endhint %}
 
-![[Abbildung 1.3.8.5-1 CC-Link-Abschlusswiderstand]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>)
+![[Abbildung 1.3.8.5-1 CC-Link-Abschlusswiderstand]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>) 
 
 
 

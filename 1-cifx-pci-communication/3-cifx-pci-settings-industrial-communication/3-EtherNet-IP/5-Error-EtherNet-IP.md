@@ -6,11 +6,11 @@ Fehler können mit Sycon.Net Diagnosis überprüft werden.
 
 <br>
 
-"[Bitte beachten Sie „**1.4.1 FEHLERCODE**“.](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)“.
 
 <br>
 
-##### 1. Fehler beim Trennen des Kommunikationskabels
+##### 1. Fehler: Kommunikationskabel unterbrochen
 
 {% hint style="info" %}
 \.      Überprüfen Sie den Verbindungsstatus des LAN-Kabels.
@@ -18,7 +18,7 @@ Fehler können mit Sycon.Net Diagnosis überprüft werden.
 \.      Bitte überprüfen Sie, ob das Adaptergerät eingeschaltet ist.
 {% endhint %}
 
-![[Abbildung 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>)
+![[Abbildung 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
 
 
 <br>
@@ -32,8 +32,8 @@ Fehler können mit Sycon.Net Diagnosis überprüft werden.
 
 {% endhint %}
 
-![[Abbildung 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>)
+![[Abbildung 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>) 
 
-![[Abbildung 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>)
+![[Abbildung 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>) 
 
 

@@ -1,6 +1,6 @@
 ﻿# 1.3.7 DeviceNet
 
-In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von DeviceNet-Master und -Slave beschrieben.
+In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von DeviceNet-Master und -Slave beschrieben. 
 
 <br>
 

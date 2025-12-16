@@ -1,8 +1,8 @@
-# 1.3.7.5 DeviceNet-Fehlerbehandlung
+﻿# 1.3.7.5 DeviceNet-Fehlerbehandlung
 
 <br>
 
-"[Bitte beachten Sie „**1.4.1 FEHLERCODE**“.](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)“.
 
 <br>
 
@@ -20,13 +20,13 @@
 \.      Wie in der Abbildung unten gezeigt, setzen Sie bitte einen Abschlusswiderstand, wenn sich CIFX-50 DN PCI am DeviceNet-Abschluss befindet.
 {% endhint %}
 
-![[Abbildung 1.3.7.5-1 DeviceNet-Abschlusswiderstand]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>)
+![[Abbildung 1.3.7.5-1 DeviceNet-Abschlusswiderstand]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
 
 {% hint style="info" %}
 \.      Wie in der Abbildung unten gezeigt, fügen Sie bitte einen Abschlusswiderstand hinzu oder betätigen Sie den DIP-Schalter, wenn sich DeviceNet-Remote-E/A am Abschluss befindet.
 {% endhint %}
 
-![[Abbildung 1.3.7.5-2 DeviceNet-Abschlusswiderstand]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>)
+![[Abbildung 1.3.7.5-2 DeviceNet-Abschlusswiderstand]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
 
 <br>
 
@@ -38,7 +38,7 @@
 \.      Wenn der Netzwerkscan nicht funktioniert, überprüfen Sie bitte die Kommunikationsgeschwindigkeit.
 {% endhint %}
 
-![[Abbildung 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>)
+![[Abbildung 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
 
 <br>
 
@@ -50,4 +50,4 @@
 \.      Bitte überprüfen Sie die 24-V-Stromversorgung.
 {% endhint %}
 
-![[Abbildung 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>)
+![[Abbildung 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
