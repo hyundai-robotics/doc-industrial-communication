@@ -6,16 +6,16 @@
 ##### 1. Object
 
 
-DeviceNet的设备内部由Object的集合体构成。各Object表示设备内部的特定构成要素。
+DeviceNet 的设备内部由 Object 的集合体构成。各 Object 表示设备内部的特定构成要素。
 
 <br>
 
-![[图 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>)
+![[图 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
 
 
 <br>
 
-使用Class Code区分Object。
+使用 Class Code 区分 Object。
 
 <br>
 
@@ -58,7 +58,7 @@ DeviceNet Master可以通过Explicit Message访问特定Slave的Object。
 
 \.      Get：读取权限
 
-\.      Set：写入权限
+\.      Set：写入权限 
 
 \.      Attribute Single：一次只能访问1个Attribute项目。
 

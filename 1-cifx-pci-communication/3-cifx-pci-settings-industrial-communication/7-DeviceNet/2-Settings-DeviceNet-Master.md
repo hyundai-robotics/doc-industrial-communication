@@ -1,11 +1,11 @@
-# 1.3.7.2 DeviceNet Master设置
+﻿# 1.3.7.2 DeviceNet Master设置
 
-“[请按照“**1.3.1 CIFX PCI槽位设置**”及“**1.3.2 SYCON.NET设置**”流程设置后，再按以下方法进行操作。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[请按照“**1.3.1 CIFX PCI槽位设置**”及“**1.3.2 SYCON.NET设置**”流程设置后，再按以下方法进行操作。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+请按照“[**1.3.1 CIFX PCI槽位设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”及“[**1.3.2 SYCON.NET设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)”流程设置后，再按以下方法进行操作。
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“**1.3.2 SYCON.NET帮助**”功能。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“[**1.3.2 SYCON.NET帮助**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)”功能。
 {% endhint %}
 
 <br>
@@ -13,33 +13,33 @@
 {% hint style="info" %}
 \.      关于DeviceNet连接器的连接，请参考以下内容。
 
-\.      (“[\.     （“**1.2.2 连接器**”）](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+\.      （[“**1.2.2 连接器**”](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)）
 {% endhint %}
 
 <br>
 
 ##### 1. 在工业通信固件设置中，选择DeviceNet Master并重启机器人控制器。
 
-![[图 1.3.7.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>)
+![[图 1.3.7.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>) 
 
 <br>
 
 ##### 2. 在工业通信监控中，确认所选协议的准备状态。
 
-![[图 1.3.7.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>)
+![[图 1.3.7.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>) 
 
 <br>
 
-##### 3. 使用Sycon.net选择DeviceNet Master PCI设备。
+##### 3. 使用 Sycon.net 选择 DeviceNet Master PCI 设备。
 
 ![[图 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
-![[图 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>)
+![[图 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. 扫描PCI设备并应用DeviceNet Master（Apply）。
+##### 4. 扫描 PCI 设备并应用 DeviceNet Master（Apply）。
 
-![[图 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>)
+![[图 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
 
 <br>
 
@@ -49,21 +49,21 @@
 \.      如果Master与Slave的通信速度不同，Network Scan将无法正常进行。
 {% endhint %}
 
-![[图 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>)
+![[图 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>) 
 
 <br>
 
 ##### 6. 下载设置。
 
-![[图 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>)
+![[图 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
 
 <br>
 
-##### 7. 准备所要连接到DeviceNet Master的Slave模块。
+##### 7. 准备所要连接到 DeviceNet Master 的 Slave 模块。
    * 本示例中使用Crevis公司的NA-9211 DeviceNet Slave。
    * 请提供系统电源及现场电源以激活模块。
 
-![[图 1.3.7.2-8 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_8.png>)
+![[图 1.3.7.2-8 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_8.png>) 
 
 <br>
 
@@ -73,7 +73,7 @@
 \.      设置DeviceNet Slave设备的MAC ID、通信速度、终端电阻。
 {% endhint %}
 
-![[图 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>)
+![[图 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>) 
 
 ![[图 1.3.7.2-10 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_10.png>)
 
@@ -94,13 +94,13 @@
 {% hint style="info" %}
 \.      要使用未注册到Sycon.net的Device，就需要EDS文件。
 
-\.      NA-9211 Device的EDS文件可以在Crevis官网下载。
+\.      NA-9211 Device 的 EDS 文件可以在 Crevis 官网下载。
 {% endhint %}
 
 ![[图 1.3.7.2-11 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_11.png>)
 
 {% hint style="info" %}
-\.      将所下载的EDS文件全部注册到Sycon.net。
+\.      将所下载的 EDS 文件全部注册到 Sycon.net。
 
 \.      注册EDS File时，请确认工业通信协议（DeviceNet）。
 {% endhint %}
@@ -118,27 +118,27 @@
 ##### 10. Network Scan
 
 {% hint style="warning" %}
-\.      **\.      当进行Network Scan时，请务必确认以下事项。**
+\.      **当进行Network Scan时，请务必确认以下事项。**
 
-\.      **\.     （1） 电缆连接情况**
-\.      **\.     （2） 终端电阻连接或终端DIP Switch使用情况**
-\.      **\.     （3） Master - Slave通信速度设置情况**
+\.      **（1） 电缆连接情况**  
+\.      **（2） 终端电阻连接或终端DIP Switch使用情况**  
+\.      **（3） Master - Slave通信速度设置情况**  
 
-\.      **원활한 통신 연결을 위해 (“[\.      **为了顺利连接通信，请务必确认（“**1.3.7.5 DeviceNet ERROR处理**”）。**](../7-DeviceNet/5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
+\.      **为了顺利连接通信，请务必确认（“[**1.3.7.5 DeviceNet ERROR处理**](../7-DeviceNet/5-Error-DeviceNet.md)”）。**
 {% endhint %}
 
 {% hint style="info" %}
-\.      DeviceNet Master支持Network Scan功能。
+\.      DeviceNet Master 支持 Network Scan 功能。
 {% endhint %}
 
 {% hint style="info" %}
-\.      在DeviceNet Master设备上右击后点击Network Scan。
+\.      在 DeviceNet Master 设备上右击后点击 Network Scan。
 {% endhint %}
 
 ![[图 1.3.7.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_14.png>)
 
 {% hint style="warning" %}
-\.      如果EDS文件未注册，当进行Network Scan时则会显示Slave信息，但无法注册。
+\.      如果 EDS 文件未注册，当进行 Network Scan 时则会显示 Slave 信息，但无法注册。
 {% endhint %}
 
 {% hint style="info" %}
@@ -151,10 +151,10 @@
 
 <br>
 
-##### 11. Slave设备Configuration
+##### 11. Slave 设备 Configuration
 
 {% hint style="info" %}
-\.      为了进行Slave设备Configuration，点击Master设备的Disconnect。
+\.      为了进行 Slave 设备 Configuration，点击 Master 设备的 Disconnect。
 {% endhint %}
 
 ![[图 1.3.7.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_17.png>)
@@ -173,11 +173,11 @@
 
 \.      选择用于连接DeviceNet通信的消息传输方式。
 
-\.      **\.      当未勾选UCMM时，则设置为UCMM Group 2默认值。**
+\.      ** 当未勾选UCMM时，则设置为UCMM Group 2默认值。**   
 
-\.      UCMM GROUP 1 : IO Message
+\.      UCMM GROUP 1 : IO Message   
 \.      UCMM GROUP 2：Network初始化时，Master - Slave连接Message（默认设置）
-\.      UCMM GROUP 3 : Explicit Message
+\.      UCMM GROUP 3：Explicit Message   
 
 \.      某些Device可以使用UCMM Group 3，请确认产品规格书后进行。
 {% endhint %}
@@ -198,14 +198,14 @@
 {% hint style="info" %}
 \.      确认DeviceNet Slave的设置。
 
-\.      Output：ST-2318（1 Byte）
-\.      Input：ST-1218（1 Byte）
+\.      Output：ST-2318（1 Byte）  
+\.      Input：ST-1218（1 Byte）  
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      需要根据通信方式（Poll、Change of State、Cyclic、Bit-Strobe）进行设置。
+\.      需要根据通信方式（Poll、Change of State、Cyclic、Bit-Strobe）进行设置  
 {% endhint %}
 
 <br>
@@ -217,12 +217,12 @@
 {% hint style="info" %}
 \.      [Production Inhibit Time]
 
-\.      设置从站设备的IO数据生成周期（ms）。
-\.
-\.      示例) 10ms：以10ms周期生成IO数据。
-\.      示例) 0ms：Slave在可能的最快时间内生成IO数据。
+\.      设置从站设备的IO数据生成周期（ms）  
+\.  
+\.      示例）10ms：以10ms周期生成IO数据  
+\.      示例）0ms：Slave在可能的最快时间内生成IO数据  
 
-\.      周期越短，Slave设备的负载可能越大。（需确认各Slave的规格）
+\.      周期越短，Slave设备的负载可能越大。（需确认各Slave的规格） 
 {% endhint %}
 
 <br>
@@ -230,7 +230,7 @@
 {% hint style="info" %}
 \.      [Expected Packet Rate]
 
-\.      设置主站与从站之间的IO数据更新时间。
+\.      设置主站与从站之间的IO数据更新时间  
 {% endhint %}
 
 <br>
@@ -241,7 +241,7 @@
 
 <br>
 
-##### 12. Master设备Configuration
+##### 12. Master 设备 Configuration
 
 {% hint style="info" %}
 \.      双击Master设备。
@@ -263,14 +263,14 @@
 ![[图 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-\.      设置Quick Connect功能的使用与否。
+\.      设置 Quick Connect 功能的使用与否。
 {% endhint %}
 
 ![[图 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
 
 
 {% hint style="info" %}
-\.      设置完成后，请进行Download。
+\.      设置完成后，请进行 Download。
 {% endhint %}
 
 ![[图 1.3.7.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
@@ -282,7 +282,7 @@
 {% hint style="info" %}
 \.      在Sycon.net及TP上确认通信状态。
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      在TP上确认工业通信状态的程序，请参考（“1.4 CIFX PCI 通信监控”）。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        在TP上确认工业通信状态的程序，请参考（“[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”）。
 {% endhint %}
 
 {% hint style="info" %}
@@ -294,7 +294,7 @@
 ![[图 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.      可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
+\.        可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
 {% endhint %}
 
 ![[图 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
@@ -304,5 +304,5 @@
 ##### 14. 通信设置完成后分配IO Block。
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“**4. 工业通信IO Block分配**”）。**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

@@ -1,12 +1,12 @@
 ﻿# 1.3.6 PROFIBUS-DP
 
-本章说明PROFIBUS-DP Master和Slave的特性及设置方法。
+本章说明PROFIBUS-DP Master和Slave的特性及设置方法。 
 
 <br>
 
 ##### Fieldbus概要
 
-现场总线（Fieldbus）是一种开放的工业标准， 用于在工厂中通过一根电缆将传感器、按钮、电机驱动器、操作界面等设备 与 PLC（Programmable Logic Controller）连接并进行控制。
+现场总线（Fieldbus）是一种开放的工业标准，用于在工厂中通过一根电缆将传感器、按钮、电机驱动器、操作界面等设备与PLC（Programmable Logic Controller）连接并进行控制。
 
 现场总线提供从中央监控整个网络状态或重新配置等的智能服务。
 
@@ -16,7 +16,7 @@
 
 另外，与一般通信协议具有非确定性响应（Non-deterministic Response）的特性不同，数据响应速度有保证，满足对时限特性要求严格的工业应用。
 
-![[图 1.3.6-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/image_1.png>)
+![[图 1.3.6-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/image_1.png>) 
 
 <br>
 

@@ -2,11 +2,11 @@
 
 <br>
 
-本章说明如何使用EtherCAT Master连接本公司选定的几种标准Remote IO Module。
+本章说明如何使用 EtherCAT Master 连接本公司选定的几种标准 Remote IO Module。
 
 <br>
 
-##### EtherCAT概要
+##### EtherCAT 概要
 
 EtherCAT是由Beckhoff Automation开发的基于以太网的现场总线系统。
 

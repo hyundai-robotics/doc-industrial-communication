@@ -6,7 +6,7 @@ Hi6机器人控制器提供多种工业通信功能。其中，EtherNet/IP适配
 ### 2.1.2 产品规格
 |项目|说明|
 |------|---|
-|Network Type|EtherNet/IP|
+|网络类型|EtherNet/IP|
 |Speed|10/100 Mbps, 1Gbps|
 |Input Size Range(bytes)|0 - 240|
 |Output Size Range(bytes)|0 - 240|

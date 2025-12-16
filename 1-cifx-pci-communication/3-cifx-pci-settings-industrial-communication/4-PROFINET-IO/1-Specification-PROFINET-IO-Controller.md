@@ -1,13 +1,13 @@
-# 1.3.4.1 PROFINET IO Controller规格
+﻿# 1.3.4.1 PROFINET IO Controller 规格
 
 <br>
 
 ##### 协议特性
 
-| **| 区分                       | 规格                  |**                       | **| 区分                       | 规格                  |**                  |
+| **区分**                       | **规格**                  |
 | :---                           | :---                     |
 | 最大可连接的Slave数 | 128个 |
-| 最大输入字节数            | 1200 Bytes (FB Block Max) |
+| 最大输入字节数            | 1200 Bytes （FB Block Max）|
 | 最大输出字节数            | 1200 Bytes （FB Block Max）|
 | 最大输入字节数（1个Slave）| 1024 Bytes                |
 | 最大输出字节数（1个Slave）| 1024 Bytes                |
@@ -25,7 +25,7 @@
 
 ##### 网络特性
 
-| **| 区分                      | 规格                  |**                      | **| 区分                      | 规格                  |**                  |
+| **区分**                      | **规格**                  |
 | :---                          | :---                     |
 | Network Slave Scan            | 支持                      |
 | Data Transport Layer          | Ethernet II, IEEE 802.3   |

@@ -1,45 +1,45 @@
 # 1.3.6.2 PROFIBUS-DP Master设置
 
 
-“[请按照“**1.3.1 CIFX PCI槽位设置**”及“**1.3.2 SYCON.NET设置**”流程设置后，再按以下方法进行操作。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[请按照“**1.3.1 CIFX PCI槽位设置**”及“**1.3.2 SYCON.NET设置**”流程设置后，再按以下方法进行操作。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+请按照“[**1.3.1 CIFX PCI槽位设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”及“[**1.3.2 SYCON.NET设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)”流程设置后，再按以下方法进行操作。
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[\.      在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“**1.3.2 SYCON.NET帮助**”功能。](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+\.      在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“[**1.3.2 SYCON.NET帮助**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)”功能。
 {% endhint %}
 
 <br>
 
 ##### 1. 在工业通信固件设置中，选择PROFIBUS-DP Master并重启机器人控制器。
 
-![[图 1.3.6.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>)
+![[图 1.3.6.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>) 
 
 <br>
 
 ##### 2. 在工业通信监控中，确认所选协议的准备状态。
 
-![[图 1.3.6.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_2.png>)
+![[图 1.3.6.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_2.png>) 
 
 <br>
 
 ##### 3. 使用Sycon.net选择PROFIBUS-DP Master PCI设备。
 
 ![[图 1.3.6.2-3 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_3.png>)
-![[图 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>)
+![[图 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>) 
 
 <br>
 
 ##### 4. 扫描PCI设备并应用PROFIBUS-DP Master（Apply）。
 
-![[图 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>)
+![[图 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>) 
 
 <br>
 
 
 ##### 5. 下载设置。
 
-![[图 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>)
+![[图 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>) 
 
 <br>
 
@@ -47,7 +47,7 @@
    * 本示例中使用Crevis公司的GN-9222 PROFIBUS-DP Slave。
    * 请提供系统电源及现场电源以激活模块。
 
-![[图 1.3.6.2-7 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_7.png>)
+![[图 1.3.6.2-7 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_7.png>) 
 
 
 <br>
@@ -58,11 +58,11 @@
 \.      设置PROFIBUS-DP Slave设备的Node编号及终端。
 {% endhint %}
 
-![[图 1.3.6.2-8 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_8.png>)
+![[图 1.3.6.2-8 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_8.png>) 
 
 
 {% hint style="info" %}
-\.      终端：使用DIP Switch设置终端（示例：终端处理ON）。
+\.      终端：使用DIP Switch设置终端（示例：终端处理ON）
 
 \.      Node ID（Station Number）：使用DIP Switch进行设置。（示例：Node 3号）
 {% endhint %}
@@ -80,9 +80,9 @@
 ![[图 1.3.6.2-9 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_9.png>)
 
 {% hint style="info" %}
-\.      将所下载的GSD文件注册到Sycon.net。
+\.      将所下载的 GSD 文件注册到 Sycon.net。
 
-\.      注册GSD File时，请确认工业通信协议（PROFIBUS-DP）。
+\.      注册 GSD File 时，请确认工业通信协议（PROFIBUS-DP）。
 {% endhint %}
 
 ![[图 1.3.6.2-10 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_10.png>)
@@ -100,10 +100,10 @@
 ##### 9. Network Scan
 
 {% hint style="warning" %}
-\.      **\.      当进行Network Scan时，请务必确认以下事项。**
+\.      **当进行Network Scan时，请务必确认以下事项。**
 
-\.      **\.     （1） 电缆连接情况**
-\.      **\.     （2） 终端DIP Switch使用情况**
+\.      **（1） 电缆连接情况**  
+\.      **（2） 终端DIP Switch使用情况**  
 {% endhint %}
 
 {% hint style="info" %}
@@ -145,11 +145,11 @@
 {% hint style="info" %}
 \.      确认PROFIBUS-DP Slave的设置。
 
-\.      Slot 1 : GN-9222
-\.      Slot 2 : GT-12DF (Input 2 Byte)
-\.      Slot 3 : GT-227F (Output 2 Byte)
-\.      Slot 4 : GT-3154 (Input 8 Byte)
-\.      Slot 5 : GT-4254 (Output 8 Byte)
+\.      Slot 1 : GN-9222  
+\.      Slot 2 : GT-12DF (Input 2 Byte)  
+\.      Slot 3 : GT-227F (Output 2 Byte)  
+\.      Slot 4 : GT-3154 (Input 8 Byte)  
+\.      Slot 5 : GT-4254 (Output 8 Byte)  
 {% endhint %}
 
 ![[图 1.3.6.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_17.png>)
@@ -161,10 +161,10 @@
 
 <br>
 
-##### 11. Master设备Configuration
+##### 11. Master 设备 Configuration
 
 {% hint style="info" %}
-\.      双击Master设备。
+\.      双击 Master 设备。
 {% endhint %}
 
 ![[图 1.3.6.2-19 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_19.png>)
@@ -173,7 +173,7 @@
 {% hint style="info" %}
 \.      设置PROFIBUS-DP通信速度。
 
-\.      9.6 ~ 12000 Kbit/s
+\.      9.6 ~ 12000 Kbit/s 
 {% endhint %}
 
 ![[图 1.3.6.2-20 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_20.png>)
@@ -185,13 +185,13 @@
 ![[图 1.3.6.2-21 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_21.png>)
 
 {% hint style="info" %}
-\.      请在Address Table中确认各Slave Slot分配的IO及起始地址。
+\.      请在 Address Table 中确认各 Slave Slot 分配的 IO 及起始地址。
 {% endhint %}
 
 ![[图 1.3.6.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_22.png>)
 
 {% hint style="info" %}
-\.      在Station Table中确认各设备是否为激活状态。
+\.      在 Station Table 中确认各设备是否为激活状态。
 {% endhint %}
 
 ![[图 1.3.6.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_23.png>)
@@ -208,9 +208,9 @@
 ##### 12. 通信状态确认
 
 {% hint style="info" %}
-\.      在Sycon.net及TP上确认通信状态。
+\.        在 Sycon.net 及 TP 上确认通信状态。
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[\.      在TP上确认工业通信状态的程序，请参考（“1.4 CIFX PCI 通信监控”）。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+\.        在TP上确认工业通信状态的程序，请参考（“[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”）。
 {% endhint %}
 
 {% hint style="info" %}
@@ -222,7 +222,7 @@
 ![[图 1.3.6.2-26 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.      可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
+\.        可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
 {% endhint %}
 
 ![[图 1.3.6.2-27 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_27.png>)
@@ -232,5 +232,5 @@
 ##### 13. 通信设置完成后分配IO Block。
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“**4. 工业通信IO Block分配**”）。**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

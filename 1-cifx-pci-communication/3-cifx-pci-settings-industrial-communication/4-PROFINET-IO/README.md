@@ -1,6 +1,6 @@
 ﻿# 1.3.4 PROFINET IO
 
-本章说明PROFINET IO Master（Controller）和Slave（Device）的特性及设置方法。
+本章说明PROFINET IO Master（Controller）和Slave（Device）的特性及设置方法。 
 
 <br>
 
@@ -8,7 +8,7 @@
 
 PROFINET IO是从PROFIBUS-DP和工业以太网逐步发展而来的基于以太网的开放式工业通信协议。
 
-![[图1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>)
+![[图1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>) 
 
 <br>
 
@@ -23,7 +23,7 @@ PROFINET IO是从PROFIBUS-DP和工业以太网逐步发展而来的基于以太�
 
 ##### IO Device Class
   * 对应于现有PROFIBUS-DP从站（Slave）的产品，通过PROFINET IO连接到PLC等IO Controller。
-    
+
   * IO Device向IO Controller提供输出数据，提供输入数据，并消费输出数据。
 
 <br>

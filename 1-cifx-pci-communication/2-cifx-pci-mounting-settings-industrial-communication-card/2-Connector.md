@@ -10,5 +10,5 @@
 {% hint style="info" %}
 \.      DeviceNet 终端电阻：120欧
 
-\.      CC-Link终端电阻：110欧
+\.      CC-Link 终端电阻：110欧
 {% endhint %}

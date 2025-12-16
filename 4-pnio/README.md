@@ -1,4 +1,4 @@
-# 4. PROFINET I/O (Hi7)
+# 4. PROFINET I/O（Hi7）
 
 <br>
 
@@ -9,5 +9,5 @@
 
 {% hint style="info" %}
 PROFINET I/O（BD671）的功能由Hi7机器人控制器支持。<br>
-PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([PROFIsafe说明书请参考SafeSpace 2.0说明书（SafeSpace 2.0 链接）](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/korean/3-safety-function/3-safety-function/4-safety-io/4-profisafe))
+PROFIsafe说明书请参考SafeSpace 2.0说明书（[SafeSpace 2.0 链接](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/korean/3-safety-function/3-safety-function/4-safety-io/4-profisafe)）
 {% endhint %}

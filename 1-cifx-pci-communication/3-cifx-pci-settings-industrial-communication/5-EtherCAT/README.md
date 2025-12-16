@@ -1,6 +1,6 @@
 ﻿# 1.3.5 EtherCAT
 
-本章说明EtherCAT Master和Slave的特性及设置方法。
+本章说明EtherCAT Master和Slave的特性及设置方法。 
 
 <br>
 
@@ -8,7 +8,7 @@
 
 EtherCAT是由Beckhoff Automation开发的基于以太网的现场总线系统。
 
-EtherCAT协议提供极快的IO Data更新和支持准确同步的功能。
+EtherCAT协议提供极快的IO Data更新和支持准确同步的功能。 
 
 <br>
 

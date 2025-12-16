@@ -1,3 +1,3 @@
-## 2.6 与EtherNet/IP扫描器连接
+## 2.6 与 EtherNet/IP 扫描器连接
 
-本章说明EtherNet/IP扫描器与Hi6 EtherNet/IP适配器的连接方法。 <br>
+本章说明 EtherNet/IP 扫描器与 Hi6 EtherNet/IP 适配器的连接方法。 <br>

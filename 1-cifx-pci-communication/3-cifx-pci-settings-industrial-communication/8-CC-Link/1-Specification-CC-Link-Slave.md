@@ -1,20 +1,20 @@
-# 1.3.8.1 CC-Link Slave规格
+# 1.3.8.1 CC-Link Slave 规格
 
 <br>
 
 ##### 协议特性
 
-| **| 区分                   | 规格  (Version 1.11)    | 规格  (Version 2.0)     |**                   | **| 区分                   | 规格  (Version 1.11)    | 规格  (Version 2.0)     |**  (Version 1.11)    | **| 区分                   | 规格  (Version 1.11)    | 规格  (Version 2.0)     |**  (Version 2.0)     |
+| **区分**                   | **规格**  (Version 1.11)    | **规格**  (Version 2.0)     |
 | :---                       | :---                       | :---                        |
 | 最大输入字节数        | 48 Bytes                   | 368 Bytes                   |
 | 最大输出字节数        | 48 Bytes                   | 368 Bytes                   |
 | IO Station Input           | 4 Bytes(RY)                | 不支持                       |
 | IO Station Output          | 4 Bytes(RX)                | 不支持                       |
-| Station                    | 1 ~ 4                      | 1 ~ 4                       |
+| Station                    | 1 ～ 4                      | 1 ～ 4                       |
 | Extension Cycle            | 不支持                      | 1, 2, 4, 8                  |
 | Remote Deivce Input        | 16 Bytes(RY), 32 Byte(RWw) | 112 Bytes(RY), 256 Byte(RWw)|
 | Remote Deivce Output       | 16 Bytes(RX), 32 Byte(RWr) | 112 Bytes(RY), 256 Byte(RWr)|
-| 通信速度                   | 156 ~ 10000 Kbit/s         | 156 ~ 10000 Kbit/s          |
+| 通信速度                   | 156 ～ 10000 Kbit/s         | 156 ～ 10000 Kbit/s          |
 
 
 
@@ -22,7 +22,7 @@
 
 ##### 网络特性
 
-| **| 区分                       | 规格                   |**                       | **| 区分                       | 规格                   |**                   |
+| **区分**                       | **规格**                   |
 | :---                           | :---                      |
 | Data Transport Layer           |                           |
 | Hub                            | 不适用                  |

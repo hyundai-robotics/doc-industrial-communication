@@ -6,19 +6,19 @@
 
 <br>
 
-"[请参考“**1.4.1 ERROR Code**”。](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+请参考“[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)”。
 
 <br>
 
 ##### 1. 通信电缆断线错误
 
 {% hint style="info" %}
-\.      请确认LAN电缆的连接状态。
+\.      请确认 LAN 电缆的连接状态。
 
-\.      请确认Adapter Device的电源是否开启。
+\.      请确认 Adapter Device 的电源是否开启。
 {% endhint %}
 
-![[图 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>)
+![[图 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
 
 
 <br>
@@ -32,8 +32,8 @@
 
 {% endhint %}
 
-![[图 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>)
+![[图 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>) 
 
-![[图 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>)
+![[图 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>) 
 
 

@@ -1,40 +1,40 @@
 # 1.3.2 SYCON.NET设置
 
-Hi6 제어기는 “**Sycon.net**” 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. (“[Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的设置方法如下。（请参考“**1.1 Sycon.net安装**”进行安装。）](../../1-cifx-pci-install-program/1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
+Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的设置方法如下。（请参考“[**1.1 Sycon.net安装**](../../1-cifx-pci-install-program/1-sycon-net.md)”进行安装。）
 
 <br>
 
 ##### 1. 通信设置相关参考资料。
-可以参考*\“Sycon.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN”**。
-   * 参考资料
+可以参考**\“Sycon.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN”**资料。
+   *   参考资料
 
-1\) EtherNetIP Scanner - Configuration and Testing TM 02 EN.pdf
+       1\) EtherNetIP Scanner - Configuration and Testing TM 02 EN.pdf
 
-2\) PROFIBUS DP Master - Configuration and Testing TM 02 EN.pdf
+       2\) PROFIBUS DP Master - Configuration and Testing TM 02 EN.pdf
 
-3\) PROFINET IO Controller - Configuration and Testing TM 02 EN.pdf
+       3\) PROFINET IO Controller - Configuration and Testing TM 02 EN.pdf
 
 <br>
 
 ##### 2. 连接已安装Sycon.net的PC与机器人控制器的通用LAN端口。（PCI LAN Port X）
-触摸*\[系统 > 2: 控制参数 > 9: 网络]**菜单，确认通用LAN端口的IP。请通过Ping Test等确认是否连接。
+触摸 **\[系统 > 2: 控制参数 > 9: 网络]** 菜单，确认通用LAN端口的IP。请通过Ping Test等确认是否连接。
 
 ![[图1.3.2-1 网络 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
-![[图 1.3.2-2 网络 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
+![[图 1.3.2-2 网络 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
-\.      IP Address可根据用户设置进行更改。
+\.      IP Address 可根据用户设置进行更改。
 {% endhint %}
 
 <br>
 
-##### 3. 执行Sycon.net。
+##### 3. 执行 Sycon.net。
 
 ![[图 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 
 <br>
 
-##### 4. 在屏幕右侧Device Catalog中点击与已设置的通信协议对应的项目，通过拖放（Drag & Drop）放置到中央的总线线上。
+##### 4. 在屏幕右侧 Device Catalog 中点击与已设置的通信协议对应的项目，通过拖放（Drag & Drop）放置到中央的总线线上。 
 
 ![[图 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
 ![[图 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
@@ -54,9 +54,9 @@ Hi6 제어기는 “**Sycon.net**” 프로그램을 이용하여 산업용 통�
 ![[图 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-\.     Setting -> Driver -> netX Driver -> TCP Connection
+\.     Setting -> Driver -> netX Driver -> TCP Connection 
 
-\.      IP Address：请输入已连接控制器的通用LAN Port IP地址。
+\.     IP Address：请输入已连接控制器的通用LAN Port IP地址。
 {% endhint %}
 
 ![[图 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
@@ -68,18 +68,18 @@ Hi6 제어기는 “**Sycon.net**” 프로그램을 이용하여 산업용 통�
 {% endhint %}
 
 {% hint style="warning" %}
-*\[注意]**：请务必确认Channel Protocol和Slot编号。
+**\[注意]**：请务必确认Channel Protocol和Slot编号。
 {% endhint %}
 
 {% hint style="warning" %}
-*\[注意]**: Scan无法进行时，请检查与控制器的电缆连接状态、固件设置。
+**\[注意]**: Scan 无法进行时，请检查与控制器的电缆连接状态、固件设置。
 {% endhint %}
 
 ![[图 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 
 
 {% hint style="info" %}
-\.      右击CIFX PCI图-> DOWNLOAD
+\.      右击 CIFX PCI 图 -> DOWNLOAD
 {% endhint %}
 
 ![[图 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
