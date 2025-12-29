@@ -5,7 +5,7 @@ Zur Konfiguration der Slave-Kommunikation im industriellen Kommunikations-Master
 <br>
 
 Beschreibungsdateien für Slave-Geräte können von unserer Website heruntergeladen werden.
-[www.hyundai-robotics.com](http://www.hyundai-robotics.com) -> Website für Industrieroboter -> Kundensupport -> Laden Sie „**Hi6 Fieldbus Config**“ aus dem Bereich Anwendungssoftware herunter.
+[www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Website für Industrieroboter -> Kundensupport -> Laden Sie „**Hi6 Fieldbus Config**“ aus dem Bereich Anwendungssoftware herunter.
 
 <br>
 
