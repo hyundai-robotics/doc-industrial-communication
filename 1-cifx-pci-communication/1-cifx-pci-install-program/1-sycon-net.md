@@ -62,7 +62,7 @@
 ##### 2. Download the Program from the Hyundai Robotics Website.
 
 {% hint style="info" %}
-\.      Download "**Sycon.net**" from [www.hyundai-robotics.com](http://www.hyundai-robotics.com) -> Industrial Robot Website -> Customer Support -> Application Software.
+\.      Download "**Sycon.net**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
 {% endhint %}
 
 <br>

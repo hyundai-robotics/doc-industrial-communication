@@ -4,19 +4,7 @@ For the Hi6 controller, proceed with industrial communication settings using the
 
 <br>
 
-##### 1. Reference materials related to communication settings.
-You can refer to the **"Sycon.net v1.0500\DVD\_2018-12-1\_1\_0500\Documentation\4. Training Material\EN"** materials.
-   *   Reference materials
-
-       1\) EtherNetIP Scanner - Configuration and Testing TM 02 EN.pdf
-
-       2\) PROFIBUS DP Master - Configuration and Testing TM 02 EN.pdf
-
-       3\) PROFINET IO Controller - Configuration and Testing TM 02 EN.pdf
-
-<br>
-
-##### 2. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).
+##### 1. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).
 Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
 
 ![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
@@ -28,20 +16,20 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 
 <br>
 
-##### 3. Execute Sycon.net.
+##### 2. Execute Sycon.net.
 
 ![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 
 <br>
 
-##### 4. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.
+##### 3. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.
 
 ![[Figure 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
 ![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
-##### 5. Double-click the imported item to set it.
+##### 4. Double-click the imported item to set it.
 
 {% hint style="info" %}
 \.      "Double-click" the imported CIFX PCI (figure).
