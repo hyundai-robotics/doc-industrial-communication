@@ -91,3 +91,30 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
+
+##### 물리적 연결
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>케이블</td>
+		<td>최소 Cat6 이상, STP 케이블</td>
+	</tr>
+	<tr>
+		<td>길이</td>
+		<td>Max. 100m</td>
+	</tr>
+	<tr>
+		<td>결선</td>
+		<td>8선 전체 결선</td>
+	</tr>
+</tbody>
+</table>
+<br>

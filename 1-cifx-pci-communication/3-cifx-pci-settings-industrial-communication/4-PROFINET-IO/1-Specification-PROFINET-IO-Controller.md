@@ -1,33 +1,129 @@
 ﻿# 1.3.4.1 PRFINET IO Controller 사양
 
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
 <br>
 
 ##### Protocol 특성
 
-| **구분**                       | **사양**                  |
-| :---                           | :---                     |
-| 최대 연결 가능한 Slave 수       | 128개                     |
-| 최대 입력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 출력 Bytes 크기            | 1200 Bytes (FB Block Max) |
-| 최대 입력 Bytes 크기 (Slave 1개)| 1024 Bytes                |
-| 최대 출력 Bytes 크기 (Slave 1개)| 1024 Bytes                |
-| IO 연결                        |                           |
-| IO 최소 Cycle Time             | 1ms                       |
-| 통신 속도                       | 100 Mbit/s (Full-Duplex) |
-| Auto Negotiation               | 미지원                    |
-| Quick Connect                  | 미지원                    |
-| Topology                       | Tree, Line               |
-| DCP                            | 지원                      |
-
-
-
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>최대 연결 가능한 slave 수</td>
+		<td>128개</td>
+	</tr>
+    <tr>
+		<td>최대 입력 크기</td>
+		<td>1200 bytes</td>
+	</tr>
+    <tr>
+		<td>최대 출력 크기</td>
+		<td>1200 bytes</td>
+	</tr>
+    <tr>
+		<td>최대 입력 크기 (1 slave)</td>
+		<td>1024 bytes</td>
+	</tr>
+    <tr>
+		<td>최대 출력 크기 (1 slave)</td>
+		<td>1024 bytes</td>
+	</tr>
+    <tr>
+		<td>IO 연결</td>
+		<td> - </td>
+	</tr>
+    <tr>
+		<td>IO 업데이트 주기</td>
+		<td>최소 1ms</td>
+	</tr>
+   <tr>
+		<td>통신 속도</td>
+		<td>100 Mbit/s (Full-Duplex)</td>
+	</tr>
+    <tr>
+		<td>Topology</td>
+		<td>Tree, Line</td>
+	</tr>
+    <tr>
+		<td>Network Slave Scan</td>
+		<td>지원</td>
+	</tr>
+    <tr>
+		<td>Quick Connect</td>
+		<td>미지원</td>
+	</tr>
+    <tr>
+		<td>DCP</td>
+		<td>지원</td>
+	</tr>
+</tbody>
+</table>
 <br>
 
 ##### Network 특성
 
-| **구분**                      | **사양**                  |
-| :---                          | :---                     |
-| Network Slave Scan            | 지원                      |
-| Data Transport Layer          | Ethernet II, IEEE 802.3   |
-| Hub                           | 사용 불가능                |
-| Switch                        | 제한 사용 가능 (Priority Tagging, LLDP 지원 필요) |
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Data Transport Layer</td>
+		<td>Ethernet II, IEEE 802.3</td>
+	</tr>
+	<tr>
+		<td>Interface Type</td>
+		<td>100 BASE-T Ethernet</td>
+	</tr>
+    <tr>
+		<td>Auto-Negotiation</td>
+		<td>미지원</td>
+	</tr>
+    <tr>
+		<td>Hub</td>
+		<td>사용 불가능</td>
+	</tr>
+    <tr>
+		<td>Switch</td>
+		<td>제한 사용 가능 (Priority Tagging, LLDP 지원 필요)</td>
+	</tr>
+</tbody>
+</table>
+<br>
+
+##### 물리적 연결
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>케이블</td>
+		<td>최소 Cat5 이상, STP 케이블</td>
+	</tr>
+	<tr>
+		<td>길이</td>
+		<td>Max. 100m</td>
+	</tr>
+</tbody>
+</table>
+<br>

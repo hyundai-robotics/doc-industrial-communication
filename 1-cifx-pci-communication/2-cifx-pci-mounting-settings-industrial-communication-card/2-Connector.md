@@ -12,3 +12,11 @@
 
 \.      CC-Link 종단 저항 : 110옴
 {% endhint %}
+
+<br>
+
+{% hint style="warning" %}
+**\[주의]**: 통신 케이블 전원과 IO 전원은 서로 분리하여 구성해 주십시오.
+{% endhint %}
+
+<br>
