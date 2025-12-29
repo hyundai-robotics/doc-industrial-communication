@@ -112,7 +112,7 @@
 \.      * Output (O > T) : Master > Slave 연결   
 
 \.      [Adapter 구성]   
-\.      Wago 750-366
+\.      Wago 750-366   
 \.      - Status 1byte (T > O) (Instance ID 104, 105, 106 선택시)   
 \.      - 753-436 : 1byte (T > O)   
 \.      - 753-536 : 1byte (O > T)   
