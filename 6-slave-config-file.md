@@ -5,7 +5,7 @@
 <br>
 
 Slave设备说明文件可以在本公司官网下载。
-[www.hyundai-robotics.com](http://www.hyundai-robotics.com) -> 工业机器人官网 -> 客户支持 -> 应用软件，下载“**Hi6 Fieldbus Config**”。
+[www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人官网 -> 客户支持 -> 应用软件，下载“**Hi6 Fieldbus Config**”。
 
 <br>
 

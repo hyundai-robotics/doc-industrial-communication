@@ -62,7 +62,7 @@
 ##### 2. 在现代机器人官网下载程序
 
 {% hint style="info" %}
-\.      依次进入[www.hyundai-robotics.com](http://www.hyundai-robotics.com) -> 工业机器人官网 -> 客户支持 -> 应用软件，下载“**Sycon.net**”。
+\.      依次进入[www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人官网 -> 客户支持 -> 应用软件，下载“**Sycon.net**”。
 {% endhint %}
 
 <br>
