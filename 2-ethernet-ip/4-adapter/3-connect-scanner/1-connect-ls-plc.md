@@ -1,6 +1,6 @@
 ### 2.4.3.1 LS ELECTRIC PLC와의 연결
 
-LS ELECTRIC PLC와 Hi6 EtherNet/IP와의 연결 방법을 설명합니다.  
+LS ELECTRIC PLC와 EtherNet/IP와의 연결 방법을 설명합니다.  
 아래에서 사용되는 PLC와 통신모듈은 다음과 같습니다.  
 (PLC : XGI-CPUS, 통신모듈 : XGL-EFMTB)
 

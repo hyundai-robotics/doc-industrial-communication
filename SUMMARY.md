@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [Hi6 로봇제어기 기능설명서 - 산업용 통신](README.md)
+* [${cont_model} 로봇제어기 기능설명서 - 산업용 통신](README.md)
 
 * [1. CIFX PCI 통신](1-cifx-pci-communication/README.md)
   * [1.1 CIFX PCI 프로그램 설치](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)

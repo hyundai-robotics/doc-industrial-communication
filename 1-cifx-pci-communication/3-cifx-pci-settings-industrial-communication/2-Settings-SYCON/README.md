@@ -1,6 +1,6 @@
 ﻿# 1.3.2 SYCON.NET 설정
 
-Hi6 제어기는 “**Sycon.net**” 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. (“[**1.1 Sycon.net 설치**](../../1-cifx-pci-install-program/1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
+PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. (“[**1.1 Sycon.net 설치**](../../1-cifx-pci-install-program/1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
 
 <br>
 

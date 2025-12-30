@@ -20,7 +20,7 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      EtherCAT Master 는 Hi6 제어기에 범용 LAN Port 를 사용합니다.
+\.      EtherCAT Master 는 제어기의 범용 LAN Port 를 사용합니다.
 
 
 \.      Remote IO Module은 Crevis 사의 M9386 EtherCAT Network Adapter를 사용합니다.

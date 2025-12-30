@@ -1,9 +1,9 @@
 ## 2.1 네트워크 설정
 
-### 1. Hi6 Com
+### 1. 제어기 메인 모듈
 EtherNet/IP 통신을 사용할 수 있는 LAN Port는 LAN1/ LAN2/ LAN3 입니다.<br>
 
-![그림 2.1-1 hi6com](../_assets/2-ethernet-ip/1-network/hi6com.png)<br>
+![그림 2.1-1 Main Module](../_assets/2-ethernet-ip/1-network/hi6com.png)<br>
 
 ### 2. 네트워크 설정
 EtherNet/IP 통신을 연결할 LAN Port를 선택한 뒤 아래와 같이 TP화면을 통해 해당 LAN Port의 설정을 확인하고 필요에 따라 설정을 변경해야 합니다.<br>
