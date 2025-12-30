@@ -1,4 +1,4 @@
-## 2.3.2 EtherNet/IP 스캐너 (마스터) 설정
+## 2.4.2 EtherNet/IP 스캐너 (마스터) 설정
 
 <br>
 
@@ -15,11 +15,11 @@
 
 <br>
 
-![[그림 2.3.2-1 스캐너 설정]](<../../_assets/2-ethernet-ip/3-scanner/img_1.png>) 
+![[그림 2.4.2-1 스캐너 설정]](<../../_assets/2-ethernet-ip/4-scanner/img_1.png>) 
 
 <br>
 
-![[그림 2.3.2-2 스캐너 설정]](<../../_assets/2-ethernet-ip/3-scanner/img_2.png>) 
+![[그림 2.4.2-2 스캐너 설정]](<../../_assets/2-ethernet-ip/4-scanner/img_2.png>) 
 
 <br>
 
@@ -44,7 +44,7 @@
 
 <br>
 
-![[그림 2.3.2-3 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/3-scanner/img_3.png>) 
+![[그림 2.4.2-3 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/4-scanner/img_3.png>) 
 
 <br>
 
@@ -87,7 +87,7 @@
 
 <br>
 
-![[그림 2.3.2-4 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/3-scanner/img_4.png>) 
+![[그림 2.4.2-4 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/4-scanner/img_4.png>) 
 
 <br>
 
@@ -95,7 +95,7 @@
 
 <br>
 
-![[그림 2.3.2-5 스캐너 설정]](<../../_assets/2-ethernet-ip/3-scanner/img_5.png>) 
+![[그림 2.4.2-5 스캐너 설정]](<../../_assets/2-ethernet-ip/4-scanner/img_5.png>) 
 
 <br>
 
@@ -103,7 +103,7 @@
 
 <br>
 
-![[그림 2.3.2-6 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/3-scanner/img_6.png>) 
+![[그림 2.4.2-6 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/4-scanner/img_6.png>) 
 
 <br>
 
@@ -121,7 +121,7 @@
 
 <br>
 
-![[그림 2.3.2-7 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/3-scanner/img_7.png>) 
+![[그림 2.4.2-7 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/4-scanner/img_7.png>) 
 
 <br>
 

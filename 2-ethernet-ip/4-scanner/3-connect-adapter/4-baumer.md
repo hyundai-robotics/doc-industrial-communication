@@ -1,4 +1,4 @@
-## 2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70
+## 2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70
 
 <br>
 
@@ -22,7 +22,7 @@
 
 ##### 1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.
 
-![[그림 2.3.3.4-1 Baumer OM-70]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/4-baumer/img_1.png>) 
+![[그림 2.4.3.4-1 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_1.png>) 
 
 <br>
 
@@ -30,7 +30,7 @@
 
 <br>
 
-![[그림 2.3.3.4-2 Baumer OM-70]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/4-baumer/img_2.png>) 
+![[그림 2.4.3.4-2 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_2.png>) 
 
 <br>
 
@@ -52,6 +52,6 @@
 
 <br>
 
-![[그림 2.3.3.4-3 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/4-baumer/img_3.png>)
+![[그림 2.4.3.4-3 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>)
 
 <br>

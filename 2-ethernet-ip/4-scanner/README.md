@@ -1,4 +1,4 @@
-# 2.3 EtherNet/IP 스캐너 (마스터)
+# 2.4 EtherNet/IP 스캐너 (마스터)
 
 <br>
 

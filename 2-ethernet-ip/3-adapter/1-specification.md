@@ -1,4 +1,4 @@
-## 2.4.1 EtherNet/IP 어댑터 사양 (슬레이브)
+## 2.3.1 EtherNet/IP 어댑터 사양 (슬레이브)
 
 
 <style type="text/css">
@@ -63,16 +63,70 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 		<td colspan=2>10 or 100 Mbit/s</td>
 	</tr>
     <tr>
-		<td>Auto Negotiation</td>
-		<td colspan=2>지원</td>
-	</tr>
-    <tr>
 		<td>Quick Connect</td>
 		<td colspan=2>미지원</td>
 	</tr>
     <tr>
 		<td >IP 할당 방식</td>
 		<td colspan=2>고정 IP 주소</td>
+	</tr>
+</tbody>
+</table>
+<br>
+
+##### Network 특성
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Data Transport Layer</td>
+		<td>Ethernet II, IEEE 802.3</td>
+	</tr>
+	<tr>
+		<td>Interface Type</td>
+		<td>10 or 100 BASE-T Ethernet</td>
+	</tr>
+    <tr>
+		<td>Auto-Negotiation</td>
+		<td>지원</td>
+	</tr>
+    <tr>
+		<td>Hub</td>
+		<td>사용 가능</td>
+	</tr>
+    <tr>
+		<td>Switch</td>
+		<td>사용 가능</td>
+	</tr>
+</tbody>
+</table>
+<br>
+
+##### 물리적 연결
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>케이블</td>
+		<td>최소 Cat5 이상, STP 케이블</td>
+	</tr>
+	<tr>
+		<td>길이</td>
+		<td>Max. 100m</td>
 	</tr>
 </tbody>
 </table>
