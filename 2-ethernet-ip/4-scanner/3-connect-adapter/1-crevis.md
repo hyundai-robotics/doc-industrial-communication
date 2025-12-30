@@ -1,4 +1,4 @@
-## 2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO
+## 2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO
 
 <br>
 
@@ -24,15 +24,15 @@
 
 ##### 1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.
 
-![[그림 2.3.3.1-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_1.png>) 
+![[그림 2.4.3.1-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_1.png>) 
 
 <br>
 
-![[그림 2.3.3.1-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_2.png>) 
+![[그림 2.4.3.1-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_2.png>) 
 
 <br>
 
-![[그림 2.3.3.1-3 Remote IO 연결]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_3.png>) 
+![[그림 2.4.3.1-3 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_3.png>) 
 
 <br>
 
@@ -40,7 +40,7 @@
 
 <br>
 
-![[그림 2.3.3.1-4 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_4.png>) 
+![[그림 2.4.3.1-4 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_4.png>) 
 
 <br>
 
@@ -57,7 +57,7 @@
 
 <br>
 
-![[그림 2.3.3.1-5 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_5.png>) 
+![[그림 2.4.3.1-5 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_5.png>) 
 
 <br>
 
@@ -78,7 +78,7 @@
 
 <br>
 
-![[그림 2.3.3.1-6 Remote IO 구성]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_6.png>) 
+![[그림 2.4.3.1-6 Remote IO 구성]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_6.png>) 
 
 <br>
 
@@ -88,11 +88,11 @@
 
 <br>
 
-![[그림 2.3.3.1-7 IO Size]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_7.png>) 
+![[그림 2.4.3.1-7 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_7.png>) 
 
 <br>
 
-![[그림 2.3.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_8.png>) 
+![[그림 2.4.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_8.png>) 
 
 <br>
 
@@ -100,7 +100,7 @@
 
 <br>
 
-![[그림 2.3.3.1-8 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/1-crevis/img_9.png>)
+![[그림 2.4.3.1-8 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_9.png>)
 
 <br>
 
