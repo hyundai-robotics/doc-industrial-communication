@@ -28,7 +28,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
     <tr>
 		<td>IO 연결</td>
-		<td>Cyclic, Application Trigger, Change of State</td>
+		<td>1 exlusive Owner <br>1 Listen Only <br>1 Input Only</td>
 	</tr>
     <tr>
 		<td>IO 업데이트 주기</td>

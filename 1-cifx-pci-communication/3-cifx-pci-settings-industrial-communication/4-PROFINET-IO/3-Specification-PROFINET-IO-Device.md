@@ -36,7 +36,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
     <tr>
 		<td>통신 속도</td>
-		<td>100 Mbit/s</td>
+		<td>100 Mbit/s (Full-duplex)</td>
 	</tr>
     <tr>
 		<td>Topology</td>

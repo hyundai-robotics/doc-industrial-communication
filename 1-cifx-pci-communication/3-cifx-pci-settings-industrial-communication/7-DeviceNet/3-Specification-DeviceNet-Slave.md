@@ -28,7 +28,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
     <tr>
 		<td>IO 연결</td>
-		<td>Bit Strobe, Change of State, Cyclic, Poll</td>
+		<td>Bit Strobe <br>Change of State <br>Cyclic <br>Poll</td>
 	</tr>
     <tr>
 		<td>IO 업데이트 주기</td>
