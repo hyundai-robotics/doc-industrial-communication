@@ -85,9 +85,6 @@
   * [3.1 EtherCAT Master IO Settings](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
   * [3.2 EtherCAT Master IO Error Handling](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
 
-* [4. PROFINET IO (Hi7)](4-pnio/README.md)
-  * [4.1 PROFINET Communication Settings](4-pnio/1-pnio.md)
-  * [4.2 PROFINET Status Monitoring](4-pnio/2-pnio-status.md)
 
 * [5. Industrial Communication IO Reading and Writing](5-io-block-allocation.md)
 
