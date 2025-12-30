@@ -1,7 +1,7 @@
-## 2.1 Hi6 EtherNet/IP Adapter
+## 2.1 EtherNet/IP Adapter
 
 ### 2.1.1 Introduction
-The Hi6 robot controller provides various types of industrial communication functions. Among them, the EtherNet/IP adapter is a function that does not require additional hardware. To use this function, a separate software license should be purchased. For license purchase, please contact the HD Hyundai Robotics Parts Business Team. <br>
+The Robot controller provides various types of industrial communication functions. Among them, the EtherNet/IP adapter is a function that does not require additional hardware. To use this function, a separate software license should be purchased. For license purchase, please contact the HD Hyundai Robotics Parts Business Team. <br>
 
 ### 2.1.2 Product Specifications
 |Item|Description|

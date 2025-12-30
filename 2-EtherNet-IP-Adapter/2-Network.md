@@ -1,10 +1,10 @@
 ## 2.2 EtherNet/IP Adapter Network Settings
 
-### 2.2.1 Hi6 Com
+### 2.2.1 Main Module
 The LAN ports that can connect with the EtherNet/IP adapter are LAN1/LAN2/LAN3.<br>
 
-![hi6com.png](../_assets/2-EtherNet-IP-Adapter/Network/hi6com.png)<br>
-*[Figure 2.2.1 Hi6 Com]*<br>
+![MainModule.png](../_assets/2-EtherNet-IP-Adapter/Network/hi6com.png)<br>
+*[Figure 2.2.1 Main Module]*<br>
 
 ### 2.2.2 Network Settings
 Select a LAN port to connect EtherNet/IP communication and then check the settings of the LAN port through the TP screen as shown below and change the settings as needed.<br>
