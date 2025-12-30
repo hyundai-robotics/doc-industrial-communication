@@ -1,4 +1,4 @@
-## 2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter
+## 2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter
 
 <br>
 
@@ -22,7 +22,7 @@
 
 ##### 1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.
 
-![[그림 2.3.3.3-1 CIFX PCI]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/3-pci/img_1.png>) 
+![[그림 2.4.3.3-1 CIFX PCI]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_1.png>) 
 
 <br>
 
@@ -30,7 +30,7 @@
 
 <br>
 
-![[그림 2.3.3.3-2 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/3-pci/img_2.png>) 
+![[그림 2.4.3.3-2 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_2.png>) 
 
 <br>
 
@@ -45,7 +45,7 @@
 
 <br>
 
-![[그림 2.3.3.3-3 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/3-pci/img_3.png>) 
+![[그림 2.4.3.3-3 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_3.png>) 
 
 <br>
 
@@ -71,7 +71,7 @@
 
 <br>
 
-![[그림 2.3.3.3-4 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/3-scanner/3-connect-adapter/3-pci/img_4.png>)
+![[그림 2.4.3.3-4 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_4.png>)
 
 <br>
 
