@@ -20,7 +20,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <tbody>
 	<tr>
 		<td>Maximum Connectable Slave Count</td>
-		<td>63<td>
+		<td>63</td>
 	</tr>
     <tr>
 		<td>Maximum Input Size</td>
