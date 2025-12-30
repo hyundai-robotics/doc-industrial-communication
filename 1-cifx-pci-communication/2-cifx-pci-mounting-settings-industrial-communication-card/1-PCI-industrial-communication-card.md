@@ -3,7 +3,7 @@
 
 <br>
 
-##### 1. Install the purchased PCI communication card inside the controller's Hi6Com (collaborative robot: Hi6Com Mini).
+##### 1. Install the purchased PCI communication card inside the controller's Main Module.
 
 <br>
 
