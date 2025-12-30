@@ -91,3 +91,30 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
+
+##### Connection
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>Category</th>
+		<th class='powderblued'>Specifications</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Cable</td>
+		<td>Minimum of Cat6, STP</td>
+	</tr>
+	<tr>
+		<td>length</td>
+		<td>Max. 100m</td>
+	</tr>
+	<tr>
+		<td>Wiring</td>
+		<td>Fully occupied cable (all 8 cable cores)</td>
+	</tr>
+</tbody>
+</table>
+<br>

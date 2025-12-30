@@ -1,34 +1,90 @@
 ﻿# 1.3.8.1 CC-Link Slave Specifications
 
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
 <br>
 
 ##### Protocol Characteristics
 
-| **Category**                   | **Specifications** (Version 1.11)    | **Specifications** (Version 2.0)     |
-| :---                       | :---                       | :---                        |
-| Maximum Input Byte Size        | 48 Bytes                   | 368 Bytes                   |
-| Maximum Output Byte Size        | 48 Bytes                   | 368 Bytes                   |
-| IO Station Input           | 4 Bytes (RY)               | Not supported                       |
-| IO Station Output          | 4 Bytes (RX)               | Not supported                       |
-| Station                    | 1-4                        | 1-4                         |
-| Extension Cycle            | Not supported                      | 1, 2, 4, 8                  |
-| Remote Deivce Input        | 16 Bytes(RY), 32 Byte(RWw) | 112 Bytes(RY), 256 Byte(RWw)|
-| Remote Deivce Output       | 16 Bytes(RX), 32 Byte(RWr) | 112 Bytes(RY), 256 Byte(RWr)|
-| Communication Speed                   | 156–10000 Kbit/s         | 156–10000 Kbit/s          |
-
-
-
 <br>
-
-##### Network Characteristics
-
-| **Category**                       | **Specifications**                   |
-| :---                           | :---                      |
-| Data Transport Layer           |                           |
-| Hub                            | Not applicable                  |
-| Switch                         | Not applicable                  |
-
-
+<table class="tg">
+<thead>
+	<tr>
+		<th colspan=3, class='powderblued'>Category</th>
+		<th class='powderblued'>Specifications (Version 1.11)</th>
+		<th class='powderblued'>Specifications (Version 2.0)</th>
+	</tr>
+</thead>
+<tbody>
+    <tr>
+		<td colspan=3>Maximum Input Size</td>
+		<td>48 bytes</td>
+		<td>368 bytes</td>
+	</tr>
+    <tr>
+		<td colspan=3>Maximum Output Size</td>
+		<td>48 bytes</td>
+		<td>368 bytes</td>
+	</tr>
+    <tr>
+		<td rowspan=6>IO Size</td>
+		<td rowspan=2>IO Station</td>
+        <td>RY</td>
+		<td>4 bytes</td>
+		<td>Not supported</td>
+	</tr>
+    <tr>
+        <td>RX</td>
+		<td>4 bytes</td>
+		<td>Not supported</td>
+	</tr>
+    <tr>
+		<td rowspan=4>Remote Device</td>
+        <td>RY</td>
+		<td>16 bytes</td>
+		<td>112 Bytes</td>
+	</tr>
+    <tr>
+        <td>RX</td>
+		<td>16 bytes</td>
+		<td>112 Bytes</td>
+	</tr>
+    <tr>
+        <td>RWw</td>
+		<td>32 bytes</td>
+		<td>256 Bytes</td>
+	</tr>
+    <tr>
+        <td>RWr</td>
+		<td>32 bytes</td>
+		<td>256 Bytes</td>
+	</tr>
+    <tr>
+        <td colspan=2, rowspan=2>Occupied Station</td>
+        <td>IO Station</td>
+		<td>1</td>
+		<td> - </td>
+	</tr>
+    <tr>
+        <td>Remote Device</td>
+		<td>1 ~ 4</td>
+		<td>1 ~ 4</td>
+	</tr>
+    <tr>
+        <td colspan=3>Extension Cycle</td>
+		<td>Not supported</td>
+		<td>1, 2, 4, 8</td>
+	</tr>
+   <tr>
+		<td colspan=3>Communication Speed</td>
+		<td colspan=2>156 kbit/s ~ 10 Mbit/s</td>
+	</tr>
+</tbody>
+</table>
 <br>
 
 ##### CC-Link IO Mapping

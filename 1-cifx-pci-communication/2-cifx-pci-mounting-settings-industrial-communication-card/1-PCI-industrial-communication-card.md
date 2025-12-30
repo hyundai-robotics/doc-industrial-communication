@@ -11,6 +11,12 @@
 
 <br>
 
+{% hint style="warning" %}
+**\[Caution]**: The physical location of the PCI slot is independent of the rotary switch settings on the communication card.
+{% endhint %}
+
+<br>
+
 ##### 3. Set the slot number separately for each PCI communication card within the number ranging 1 \~ 3.
   (When multiple PCI communication cards are used, individual numbers should be set differently.)
 

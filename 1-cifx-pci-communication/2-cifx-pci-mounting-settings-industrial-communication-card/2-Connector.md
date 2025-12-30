@@ -12,3 +12,11 @@
 
 \.      CC-Link termination resistor: 110 ohms
 {% endhint %}
+
+<br>
+
+{% hint style="warning" %}
+**\[Caution]**: Please use separate power sources for the communication cable and the IO.
+{% endhint %}
+
+<br>
