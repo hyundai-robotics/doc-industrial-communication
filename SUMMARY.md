@@ -83,22 +83,11 @@
       * [2.3.3.1 LS ELECTRIC PLC와의 연결](2-ethernet-ip/3-adapter/3-connect-scanner/1-connect-ls-plc.md)
     * [2.3.4 에러코드](2-ethernet-ip/3-adapter/4-error_code.md)
 
-  * [2.4 EtherNet/IP Scanner](2-ethernet-ip/4-scanner/README.md)
-    * [2.4.1 EtherNet/IP Scanner 사양](2-ethernet-ip/4-scanner/1-specification.md)
-    * [2.4.2 EtherNet/IP Scanner 설정](2-ethernet-ip/4-scanner/2-settings.md)
-    * [2.4.3 외부 Adapter 장치 연결](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
-      * [2.4.3.1 Crevis Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis.md)
-      * [2.4.3.2 Wago Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/2-wago.md)
-      * [2.4.3.3 Hilscher CIFX PCI](2-ethernet-ip/4-scanner/3-connect-adapter/3-pci.md)
-      * [2.4.3.4 Baumer Sensor](2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer.md)
 
 * [3. EtherCAT Master IO](3-ethercat-master-io/README.md)
   * [3.1 EtherCAT Master IO 설정](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
   * [3.2 EtherCAT Master IO 에러 조치](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
 
-* [4. PROFINET IO (Hi7)](4-pnio/README.md)
-  * [4.1 PROFINET 통신의 설정](4-pnio/1-pnio.md)
-  * [4.2 PROFINET 상태 모니터링](4-pnio/2-pnio-status.md)
 
 * [5. 산업용 통신 IO 읽기 및 쓰기](5-io-block-allocation.md)
 
