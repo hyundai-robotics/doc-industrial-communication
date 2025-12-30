@@ -10,13 +10,21 @@
 
 <br>
 
-##### 1. 산업용 통신 펌웨어 설정에서 EtherCAT Master를 선택하고 로봇 제어기를 재부팅합니다.
+##### 1. PCI 슬롯 설정에서 EtherCAT Master를 선택하고 로봇 제어기를 재부팅합니다.
 
-![[그림 1.3.5.2-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>) 
+![[그림 1.3.5.2-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>) 
 
 <br>
 
 ##### 2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.
+
+<br>
+
+{% hint style="info" %}
+\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+{% endhint %}
+
+<br>
 
 ![[그림 1.3.5.2-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_2.png>) 
 
