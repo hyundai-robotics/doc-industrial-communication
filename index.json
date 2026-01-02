@@ -335,13 +335,28 @@
 		"byte_ofs": 175804
 	},
 	{
-		"link": "5-io-block-allocation.md",
+		"link": "4-pnio/README.md",
 		"char_ofs": 171196,
 		"byte_ofs": 176305
 	},
 	{
+		"link": "4-pnio/1-pnio.md",
+		"char_ofs": 171698,
+		"byte_ofs": 176819
+	},
+	{
+		"link": "4-pnio/2-pnio-status.md",
+		"char_ofs": 176996,
+		"byte_ofs": 182244
+	},
+	{
+		"link": "5-io-block-allocation.md",
+		"char_ofs": 177646,
+		"byte_ofs": 182911
+	},
+	{
 		"link": "6-slave-config-file.md",
-		"char_ofs": 172448,
-		"byte_ofs": 177595
+		"char_ofs": 178898,
+		"byte_ofs": 184201
 	}
 ]
