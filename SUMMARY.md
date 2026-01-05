@@ -91,6 +91,7 @@
       * [2.4.3.2 Wago Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/2-wago.md)
       * [2.4.3.3 Hilscher CIFX PCI](2-ethernet-ip/4-scanner/3-connect-adapter/3-pci.md)
       * [2.4.3.4 Baumer Sensor](2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer.md)
+      * [2.4.3.5 Beckhoff Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff.md)
 
 * [3. EtherCAT Master IO](3-ethercat-master-io/README.md)
   * [3.1 EtherCAT Master IO 설정](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
