@@ -88,6 +88,16 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 		<td>-</td>
 		<td>-</td>
 	</tr>
+    <tr>
+		<td>Beckhoff</td>
+		<td>EK-9500</td>
+        <td>Exclusive Owner</td>
+		<td>129</td>
+		<td>No</td>
+        <td>130</td>
+		<td>Yes</td>
+		<td>-</td>
+	</tr>
 </tbody>
 </table>
 <br>
