@@ -1,8 +1,8 @@
-# 1.3.6.1 PROFIBUS-DP-Master-Spezifikationen
+## 1.3.6.1 PROFIBUS-DP-Master-Spezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie**                       | **Spezifikationen**                  |
 | :---                           | :---                     |
@@ -22,7 +22,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                       | **Spezifikationen**                   |
 | :---                           | :---                      |

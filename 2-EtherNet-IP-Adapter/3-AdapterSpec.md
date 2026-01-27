@@ -1,6 +1,6 @@
 ## 2.3 EtherNet/IP-Adapter
 
-### 2.3.1 Technische Daten des EtherNet/IP-Adapters
+**2.3.1 Technische Daten des EtherNet/IP-Adapters**
 |Merkmal|Beschreibung|
 |------|---|
 |Gerätetyp|Allzweck-Diskret-E/A (7)|
@@ -10,7 +10,7 @@
 |Ausgangsgrößenbereich (Bytes)|0 - 240|
 |RPI-Bereich (ms)|5 – 3000|<br>
 
-### 2.3.2 Einstellungen und Überwachung des EtherNet/IP-Adapters über das Teach-Pendant
+**2.3.2 Einstellungen und Überwachung des EtherNet/IP-Adapters über das Teach-Pendant**
 Navigieren Sie vom Startbildschirm zu „SYSTEM“ > „Steuerungsparameter“ > „Industrielle Kommunikation“ > „Ethernet/IP-Adapter“.<br>
 ![Config.PNG](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
 *[Abbildung 2.3.1 Einstellungen]*<br>

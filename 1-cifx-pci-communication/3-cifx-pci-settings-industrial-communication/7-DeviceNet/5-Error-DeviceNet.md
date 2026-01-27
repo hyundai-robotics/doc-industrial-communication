@@ -1,4 +1,4 @@
-﻿# 1.3.7.5 DeviceNet-Fehlerbehandlung
+﻿## 1.3.7.5 DeviceNet-Fehlerbehandlung
 
 <br>
 
@@ -6,7 +6,7 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 
 <br>
 
-##### 1. DeviceNet-Abschlusswiderstand
+**1. DeviceNet-Abschlusswiderstand**
 
 {% hint style="info" %}
 \.      Beim Anschluss des DeviceNet-Kabels muss am Abschluss ein Widerstand angebracht werden.
@@ -30,7 +30,7 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 
 <br>
 
-##### 2. Kommunikationsgeschwindigkeit
+**2. Kommunikationsgeschwindigkeit**
 
 {% hint style="info" %}
 \.      Wenn die Kommunikationsgeschwindigkeit zwischen DeviceNet-Master und Slave abweicht, funktioniert der Netzwerkscan möglicherweise nicht.
@@ -42,7 +42,7 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 
 <br>
 
-##### 3. DeviceNet ERROR
+**3. DeviceNet ERROR**
 
 {% hint style="info" %}
 \.      Wenn das DeviceNet-Kabel nicht mit 24 V versorgt wird, wird der folgende Fehler (ERROR) angezeigt.

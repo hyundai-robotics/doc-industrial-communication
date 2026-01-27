@@ -1,22 +1,22 @@
-### 2.6.1 Verbindung mit der LS ELECTRIC-SPS
+## 2.6.1 Verbindung mit der LS ELECTRIC-SPS
 
 In diesem Abschnitt wird erläutert, wie Sie die LS ELECTRIC-SPS mit Hi6 EtherNet/IP verbinden.  
 Die unten verwendete SPS und das Kommunikationsmodul sind wie folgt.  
 (SPS: XGI-CPUS, Kommunikationsmodul: XGL-EFMTB)
 
-#### 2.6.1.1 Ausführen von XG5000
+**2.6.1.1 Ausführen von XG5000**
 ![xg5000.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/xg5000.png) <br>
 *[Abbildung 2.6.1.1 Ausführen von XG5000]*<br>
 Das XG5000-Programm und detaillierte Anweisungen zur Verwendung können Sie von der LS ELECTRIC-Website herunterladen.
 
-#### 2.6.1.2 Registrieren der EDS-Datei
+**2.6.1.2 Registrieren der EDS-Datei**
 Wählen Sie „Menü > Extras > EDS(D) > EDS-Datei registrieren“. Wählen Sie „Hi6_EIP_240402.eds“ aus.<br>
 Bestätigen Sie die Registrierung der EDS-Datei wie in der Abbildung unten gezeigt<br>
 ![eds.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/eds.png)<br>
 *[Abbildung 2.6.1.2 EDS-Datei registrieren]*<br>
 
 
-#### 2.6.1.3 Geräteverbindung
+**2.6.1.3 Geräteverbindung**
 [1] Projekt erstellen<br>
 ![newProject_1.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_1.png)<br>
 *[Abbildung 2.6.1.3 Neues Projekt erstellen]*<br>
@@ -39,7 +39,7 @@ Doppelklicken Sie auf XGL-EFMT, das in der Abbildung unten auf der linken Regist
 - Um die beiden LAN-Ports der SPS als Relaisfunktion zu verwenden, aktivieren Sie das Kontrollkästchen „Relais“.  
 - Ändern Sie die RAPIEnet-Einstellung auf „Deaktivieren“.
 
-#### 2.6.1.4 Online-Verbindungseinstellungen
+**2.6.1.4 Online-Verbindungseinstellungen**
 [1] Verbinden Sie die SPS mit einem USB-Kabel.<br>
 ![newProject_7.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_7.png)<br>
 *[Abbildung 2.6.1.8 Online-Verbindungseinstellungen 1]*<br>
@@ -48,7 +48,7 @@ Doppelklicken Sie auf XGL-EFMT, das in der Abbildung unten auf der linken Regist
 ![newProject_8.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_8.png)<br>
 *[Abbildung 2.6.1.9 Online-Verbindungseinstellungen 2]*<br>
 
-#### 2.6.1.5 Automatischer Scan
+**2.6.1.5 Automatischer Scan**
 [1] Der automatische Scan ist möglich, wenn eine Verbindung zur SPS besteht.<br>
 Wenn Sie derzeit nicht online sind, klicken Sie auf „Menü“ > „Online“ > „Verbinden“, um in den Online-Status zu wechseln.<br>
 
@@ -78,7 +78,7 @@ Das Hi6 EtherNet/IP-Adaptergerät wird in der Liste angezeigt, wie in der Abbild
 ![auto7.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto7.png)<br>
 *[Abbildung 2.6.1.16 Automatischer Scan7]*<br>
 
-#### 2.6.1.6 Registrierung von Programmvariablen
+**2.6.1.6 Registrierung von Programmvariablen**
 [1] Programm scannen > Neues Programm > Lokale Variablen (Doppelklick)<br>
 ![variable1.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable1.png)<br>
 *[Abbildung 2.6.1.17 Variablenregistrierung 1]*<br>
@@ -87,7 +87,7 @@ Das Hi6 EtherNet/IP-Adaptergerät wird in der Liste angezeigt, wie in der Abbild
 ![variable2.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable2.png)<br>
 *[Abbildung 2.6.1.18 Variablenregistrierung 2]*<br>
 
-#### 2.6.1.7 EtherNet/IP-Adaptereinstellungen
+**2.6.1.7 EtherNet/IP-Adaptereinstellungen**
 [1] Doppelklicken Sie in der linken Liste auf EB01 (Hi6 EtherNet/IP-Adapter).<br>
 
 [2] Klicken Sie auf die Schaltfläche „EIP-Detaileinstellungen“.<br>
@@ -114,7 +114,7 @@ Das Hi6 EtherNet/IP-Adaptergerät wird in der Liste angezeigt, wie in der Abbild
 
 <br>
 
-##### 2.6.1.8 E/A-Block nach Abschluss der Kommunikationseinstellungen zuweisen
+**2.6.1.8 E/A-Block nach Abschluss der Kommunikationseinstellungen zuweisen**
 
 {% hint style="info" %}
 \.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../4-io-block-allocation.md)“).**

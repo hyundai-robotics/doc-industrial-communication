@@ -1,8 +1,8 @@
-# 3.1 EtherCAT-Master-E/A-Einstellungen
+## 3.1 EtherCAT-Master-E/A-Einstellungen
 
 <br>
 
-##### 1. Tippen Sie auf das Menü, um den Einstellungsbildschirm aufzurufen.
+**1. Tippen Sie auf das Menü, um den Einstellungsbildschirm aufzurufen.**
 **\[System > 2: Steuerungsparameter > 11: Industrielle Kommunikation > 4: EtherCAT-Master-Einstellungen]**
 
 <br>
@@ -15,7 +15,7 @@
 \.      Überprüfen Sie die ausgewählte LAN-Portnummer der Steuerung auf dem Bildschirm „EtherCAT-Master-Einstellungen“. 
 {% endhint %}
 
-##### 2. Verbinden Sie den LAN-Anschluss der Steuerung und die Kabel der Remote-E/A usw. für die Kommunikation und überprüfen Sie den Status.
+**2. Verbinden Sie den LAN-Anschluss der Steuerung und die Kabel der Remote-E/A usw. für die Kommunikation und überprüfen Sie den Status.**
 
 <br>
 
@@ -34,7 +34,7 @@
 
 <br>
 
-##### 3. Wählen Sie im Einstellungsmenü „ON“ für die Verwendung des EtherCAT-Masters. 
+**3. Wählen Sie im Einstellungsmenü „ON“ für die Verwendung des EtherCAT-Masters. **
 
 <br>
 
@@ -50,7 +50,7 @@
 
 <br>
 
-##### 4. Wählen Sie im Einstellungsmenü aus der Slave-Liste die gleiche Konfiguration wie für das angeschlossene Remote-E/A-Modul aus.
+**4. Wählen Sie im Einstellungsmenü aus der Slave-Liste die gleiche Konfiguration wie für das angeschlossene Remote-E/A-Modul aus.**
 
 <br>
 
@@ -89,7 +89,7 @@
 
 <br>
 
-##### 5. Starten Sie die Steuerung nach Abschluss der Einstellungen neu.
+**5. Starten Sie die Steuerung nach Abschluss der Einstellungen neu.**
 
 ![[Abbildung 3.1-7 EtherCAT-Master-Einstellungen]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
 
@@ -105,7 +105,7 @@
 
 <br>
 
-##### 6. Nachdem Sie sich vergewissert haben, dass die Einstellungen übernommen wurden, überprüfen Sie den Kommunikationsstatus.
+**6. Nachdem Sie sich vergewissert haben, dass die Einstellungen übernommen wurden, überprüfen Sie den Kommunikationsstatus.**
 
 ![[Abbildung 3.1-9 EtherCAT-Master-Einstellungen]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
 
@@ -133,7 +133,7 @@
 
 <br>
 
-##### 7. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
+**7. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
 \.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../4-io-block-allocation.md)“).**

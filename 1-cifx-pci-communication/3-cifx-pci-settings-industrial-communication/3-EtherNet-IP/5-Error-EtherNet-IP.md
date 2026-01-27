@@ -1,4 +1,4 @@
-# 1.3.3.5 Fehlerbehandlung bei EtherNet/IP
+## 1.3.3.5 Fehlerbehandlung bei EtherNet/IP
 
 Dies ist eine Methode zur Behebung schwerwiegender Fehler, die während der EtherNet/IP-Einstellungen auftreten können.
 
@@ -10,7 +10,7 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 
 <br>
 
-##### 1. Fehler: Kommunikationskabel unterbrochen
+**1. Fehler: Kommunikationskabel unterbrochen**
 
 {% hint style="info" %}
 \.      Überprüfen Sie den Verbindungsstatus des LAN-Kabels.
@@ -23,7 +23,7 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 
 <br>
 
-##### 2. Fehler bei der IP-Adresseinstellung
+**2. Fehler bei der IP-Adresseinstellung**
 
 {% hint style="info" %}
 \.      Bitte überprüfen Sie die IP-Adressen des Master- und Slave-Geräts.

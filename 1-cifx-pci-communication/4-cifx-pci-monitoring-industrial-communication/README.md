@@ -1,4 +1,4 @@
-# 1.4 Überwachung der CIFX-PCI-Kommunikation
+## 1.4 Überwachung der CIFX-PCI-Kommunikation
 
 Nach den Kommunikationseinstellungen gemäß den Verfahren „[**1.2 Installation und Einstellungen der CIFX-PCI-Kommunikationskarte**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)“ und „[**1.3 CIFX-PCI-Kommunikationseinstellungen**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ kann der Betriebsstatus auf dem folgenden Bildschirm überprüft werden.
 

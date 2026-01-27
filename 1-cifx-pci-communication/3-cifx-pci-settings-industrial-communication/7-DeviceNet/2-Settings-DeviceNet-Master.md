@@ -1,4 +1,4 @@
-# 1.3.7.2 DeviceNet-Master-Einstellungen
+## 1.3.7.2 DeviceNet-Master-Einstellungen
 
 Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und „[**1.3.2 SYCON.NET-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)“ und fahren Sie dann mit der folgenden Methode fort.
 
@@ -18,32 +18,32 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 1. Wählen Sie DeviceNet Master in den Firmware-Einstellungen für die industrielle Kommunikation aus und starten Sie die Robotersteuerung neu.
+**1. Wählen Sie DeviceNet Master in den Firmware-Einstellungen für die industrielle Kommunikation aus und starten Sie die Robotersteuerung neu.**
 
 ![[Abbildung 1.3.7.2-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. Überprüfen Sie den Bereitschaftsstatus des ausgewählten Protokolls in der Überwachung der industriellen Kommunikation.
+**2. Überprüfen Sie den Bereitschaftsstatus des ausgewählten Protokolls in der Überwachung der industriellen Kommunikation.**
 
 ![[Abbildung 1.3.7.2-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>) 
 
 <br>
 
-##### 3. Wählen Sie mit Sycon.net das DeviceNet-Master-PCI-Gerät aus.
+**3. Wählen Sie mit Sycon.net das DeviceNet-Master-PCI-Gerät aus.**
 
 ![[Abbildung 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
 ![[Abbildung 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scannen Sie das PCI-Gerät und wenden Sie „DeviceNet-Master“ an.
+**4. Scannen Sie das PCI-Gerät und wenden Sie „DeviceNet-Master“ an.**
 
 ![[Abbildung 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. Stellen Sie die Kommunikationsgeschwindigkeit ein.
+**5. Stellen Sie die Kommunikationsgeschwindigkeit ein.**
 
 {% hint style="warning" %}
 \.      Wenn die Kommunikationsgeschwindigkeit von Master und Slave unterschiedlich ist, funktioniert der Netzwerkscan nicht ordnungsgemäß.
@@ -53,13 +53,13 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 6. Laden Sie die Einstellungen herunter.
+**6. Laden Sie die Einstellungen herunter.**
 
 ![[Abbildung 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
 
 <br>
 
-##### 7. Bereiten Sie die Slave-Module für die Verbindung mit dem DeviceNet-Master vor.
+**7. Bereiten Sie die Slave-Module für die Verbindung mit dem DeviceNet-Master vor.**
    * In diesem Beispiel verwenden wir Crevis NA-9211 DeviceNet-Slave.
    * Bitte versorgen Sie das Modul mit Systemstrom und Feldstrom, um es zu aktivieren.
 
@@ -67,7 +67,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 8. Einstellungen des Slave-Geräts
+**8. Einstellungen des Slave-Geräts**
 
 {% hint style="info" %}
 \.      Stellen Sie die MAC-ID, die Kommunikationsgeschwindigkeit und den Abschlusswiderstand des DeviceNet-Slave-Geräts ein.
@@ -89,7 +89,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 9. Registrieren Sie die EDS-Datei des Slave-Geräts.
+**9. Registrieren Sie die EDS-Datei des Slave-Geräts.**
 
 {% hint style="info" %}
 \.      Für die Verwendung von Geräten, die nicht in Sycon.net registriert sind, ist eine EDS-Datei erforderlich.
@@ -115,7 +115,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 10. Netzwerkscan
+**10. Netzwerkscan**
 
 {% hint style="warning" %}
 \.      **Überprüfen Sie bei der Durchführung eines Netzwerkscans unbedingt die folgenden Punkte.**
@@ -151,7 +151,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 11. Konfiguration des Slave-Geräts
+**11. Konfiguration des Slave-Geräts**
 
 {% hint style="info" %}
 \.      Klicken Sie auf „Trennen“ des Master-Geräts für die Konfiguration des Slave-Geräts.
@@ -241,7 +241,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 12. Konfiguration des Master-Geräts
+**12. Konfiguration des Master-Geräts**
 
 {% hint style="info" %}
 \.      Doppelklicken Sie auf das Master-Gerät.
@@ -277,7 +277,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 13. Überprüfen Sie den Kommunikationsstatus
+**13. Überprüfen Sie den Kommunikationsstatus**
 
 {% hint style="info" %}
 \.        Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
@@ -301,7 +301,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 14. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
+**14. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
 \.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**

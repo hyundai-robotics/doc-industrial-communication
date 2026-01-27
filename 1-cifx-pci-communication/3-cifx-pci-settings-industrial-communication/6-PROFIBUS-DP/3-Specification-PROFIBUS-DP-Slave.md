@@ -1,8 +1,8 @@
-﻿# 1.3.6.3 PROFIBUS-DP-Slave-Spezifikationen
+﻿## 1.3.6.3 PROFIBUS-DP-Slave-Spezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                      |
@@ -19,7 +19,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                       | **Spezifikationen**                   |
 | :---                           | :---                      |

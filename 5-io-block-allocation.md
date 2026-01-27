@@ -1,4 +1,4 @@
-# 5. Lesen und Schreiben von industriellen Kommunikations-E/A
+## 5. Lesen und Schreiben von industriellen Kommunikations-E/A
 
 Dies ist die Methode zur Zuweisung von E/A-Blöcken für die Kommunikation mit der Steuerung nach Abschluss der Einstellungen für die industrielle Kommunikation.
 
@@ -15,12 +15,12 @@ Die industrielle Kommunikations-E/A muss dem Bereich fb0 bis fb9 zugewiesen werd
 
 <br>
 
-##### 1. Wählen Sie das Menü zur Zuweisung von E/A-Blöcken
+**1. Wählen Sie das Menü zur Zuweisung von E/A-Blöcken**
    Berühren Sie das Menü **\[System > 2: Steuerungsparameter > 2: Eingangs-/Ausgangssignaleinstellungen > 6: FB-Blockzuweisung]**.
 
 <br>
 
-##### 2. Geben Sie den industriellen Kommunikationstyp für den gewünschten fb-Bereich an.
+**2. Geben Sie den industriellen Kommunikationstyp für den gewünschten fb-Bereich an.**
    Tippen Sie nach der Angabe auf die Schaltfläche **\[OK]**.
 
 ![[Abbildung 5-1]](<_assets/4-io-block-allocation/image_1.png>)

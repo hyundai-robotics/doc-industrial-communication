@@ -1,10 +1,10 @@
-﻿# 1.3.2.1 SYCON.NET-Hilfe
+﻿## 1.3.2.1 SYCON.NET-Hilfe
 
 
 
 <br>
 
-##### Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, nutzen Sie bitte die unten stehende „Hilfe“-Funktion.
+**Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, nutzen Sie bitte die unten stehende „Hilfe“-Funktion.**
 
 <br>
 

@@ -1,8 +1,8 @@
-﻿# 1.3.5.3 EtherCAT-Slave-Spezifikationen
+﻿## 1.3.5.3 EtherCAT-Slave-Spezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                     |
@@ -20,7 +20,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                      |

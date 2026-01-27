@@ -1,4 +1,4 @@
-﻿# 1.3.1 CIFX-PCI-Slot-Einstellungen.
+﻿## 1.3.1 CIFX-PCI-Slot-Einstellungen.
 
 Konfigurieren Sie die Kommunikationsmethode für den CIFX-PCI-Slot. Um die Einstellungen zu übernehmen, trennen Sie bitte die Stromversorgung der Steuerung und schalten Sie sie dann wieder ein.
 
@@ -8,13 +8,13 @@ Beziehen Sie sich auf „[**1.2.1 PCI-Industriekommunikationskarte**](../../1-ci
 
 <br>
 
-##### 1. Berühren Sie das Menü, um den Bildschirm für die Slot-Einstellungen aufzurufen.
+**1. Berühren Sie das Menü, um den Bildschirm für die Slot-Einstellungen aufzurufen.**
 **\[System > 2: Steuerungsparameter > 11: Industrielle Kommunikation > 1: PCI-Slot-Einstellungen > Kanal 1]** 
 
 
 <br>
 
-##### 2. Wählen Sie anhand des folgenden Bildschirms den Slot, die Kommunikationsmethode (Master/Slave) und das Protokoll aus.
+**2. Wählen Sie anhand des folgenden Bildschirms den Slot, die Kommunikationsmethode (Master/Slave) und das Protokoll aus.**
    * Die Slotnummer ist die Nummer des Drehschalters der PCI-Kommunikationskarte.
    * Wenn Sie die Kommunikationseinstellungen nicht ändern möchten, tippen Sie auf die Schaltfläche **\[OK]**, um den Bildschirm zu schließen.
 
@@ -28,7 +28,7 @@ Beziehen Sie sich auf „[**1.2.1 PCI-Industriekommunikationskarte**](../../1-ci
 
 <br>
 
-##### 3. Schließen Sie die Slot-Einstellungen ab.
+**3. Schließen Sie die Slot-Einstellungen ab.**
 **\[Übernehmen]** Tippen Sie auf das Menü
 
 ![[Abbildung 1.3.1-4 PCI-Slot-Einstellungen]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_4.png>)
@@ -43,11 +43,11 @@ Beziehen Sie sich auf „[**1.2.1 PCI-Industriekommunikationskarte**](../../1-ci
 
 <br>
 
-##### 4. Wiederholen Sie die Schritte 2. \~ 3. für jeden Slot.
+**4. Wiederholen Sie die Schritte 2. \~ 3. für jeden Slot.**
 
 <br>
 
-##### 5. Starten Sie die Steuerung neu, um die konfigurierte Kommunikation anzuwenden.
+**5. Starten Sie die Steuerung neu, um die konfigurierte Kommunikation anzuwenden.**
 **\[Service > 19: Überwachung der industriellen Kommunikation]** Tippen Sie auf das Menü, um zu überprüfen, ob die konfigurierte Kommunikation angewendet wurde.
 
 ![[Abbildung 1.3.1-5 Bildschirm „Einstellungen für industrielle Kommunikation“]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_5.png>)

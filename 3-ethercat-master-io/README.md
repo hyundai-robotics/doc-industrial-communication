@@ -1,4 +1,4 @@
-﻿# 3. EtherCAT Master IO
+﻿## 3. EtherCAT Master IO
 
 <br>
 
@@ -6,7 +6,7 @@ In diesem Kapitel wird erläutert, wie mehrere von unserem Unternehmen ausgewäh
 
 <br>
 
-##### EtherCAT – Übersicht
+**EtherCAT – Übersicht**
 
 EtherCAT ist ein von Beckhoff Automation entwickeltes Ethernet-basiertes Feldbussystem.
 
@@ -14,7 +14,7 @@ Das EtherCAT-Protokoll bietet Funktionen für sehr schnelle E/A-Datenaktualisier
 
 <br>
 
-##### EtherCAT Master IO
+**EtherCAT Master IO**
    * Produkte, die bestehenden Feldbus-Mastern entsprechen und E/A-Datenverbindungen zu EtherCAT-Slave-Geräten anfordern können.
 
 <br>

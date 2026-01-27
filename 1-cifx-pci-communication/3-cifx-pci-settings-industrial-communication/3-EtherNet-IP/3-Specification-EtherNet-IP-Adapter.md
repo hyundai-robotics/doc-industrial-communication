@@ -1,8 +1,8 @@
-﻿# 1.3.3.3 EtherNet/IP-Adapter-Spezifikationen
+﻿## 1.3.3.3 EtherNet/IP-Adapter-Spezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                      |
@@ -21,7 +21,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                      |

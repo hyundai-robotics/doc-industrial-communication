@@ -1,4 +1,4 @@
-# 1.3.8.3 CC-Link-Slave-Fehlerbehandlung
+## 1.3.8.3 CC-Link-Slave-Fehlerbehandlung
 
 <br>
 
@@ -6,7 +6,7 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 
 <br>
 
-##### 1. CC-Link-Abschlusswiderstand
+**1. CC-Link-Abschlusswiderstand**
 
 {% hint style="info" %}
 \.      Ein Widerstand muss am Abschluss hinzugefügt werden, wenn das CC-Link-Kabel angeschlossen wird.
@@ -24,7 +24,7 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 
 
 
-##### 2. CC-Link ERROR
+**2. CC-Link ERROR**
 
 {% hint style="info" %}
 \.      Für die Kommunikationsverbindung ist eine 24-V-Stromversorgung für das CC-Link-Kabel erforderlich.

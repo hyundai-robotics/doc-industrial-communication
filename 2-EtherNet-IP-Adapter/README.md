@@ -1,8 +1,8 @@
-# 2. EtherNet/IP-Adapter
+## 2. EtherNet/IP-Adapter
 
 Beschreibung des integrierten EtherNet/IP-Adapters.<br>
 
-### Terminologie
+**Terminologie**
 |Abkürzung|Beschreibung|
 |---------------|------------------------------|
 |Adapter|Gerät, das Ausgangsdaten vom EtherNet/IP-Scanner erfasst und Eingangsdaten überträgt|

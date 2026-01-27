@@ -1,8 +1,8 @@
-# 1.3.4.1 PROFINET IO-Controller-Spezifikationen
+## 1.3.4.1 PROFINET IO-Controller-Spezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie**                       | **Spezifikationen**                  |
 | :---                           | :---                     |
@@ -23,7 +23,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                      | **Spezifikationen**                  |
 | :---                          | :---                     |

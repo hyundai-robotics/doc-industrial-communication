@@ -1,8 +1,8 @@
-# 1.3.8.1 CC-Link Slave-Spezifikationen
+## 1.3.8.1 CC-Link Slave-Spezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie** | **Spezifikationen** (Version 1.11) | **Spezifikationen** (Version 2.0) |
 | :---                       | :---                       | :---                        |
@@ -20,7 +20,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                       | **Spezifikationen**                   |
 | :---                           | :---                      |
@@ -31,7 +31,7 @@
 
 <br>
 
-##### CC-Link-E/A-Zuordnung
+**CC-Link-E/A-Zuordnung**
 
 <br>
 

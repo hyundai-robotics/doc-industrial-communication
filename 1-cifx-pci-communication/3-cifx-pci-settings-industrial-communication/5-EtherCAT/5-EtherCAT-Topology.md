@@ -1,10 +1,10 @@
-﻿# 1.3.5.5 EtherCAT-Kabelverdrahtung (Topologie)
+﻿## 1.3.5.5 EtherCAT-Kabelverdrahtung (Topologie)
 
 <br>
 
 Im Gegensatz zu bestehenden industriellen Kommunikationssystemen gibt es bei EtherCAT Einschränkungen hinsichtlich der Kabelverdrahtung und der verwendbaren Ethernet-Ports.
 
-##### 1. Ethernet-Port
+**1. Ethernet-Port**
 
 {% hint style="info" %}
 \.      Beim Anschluss von EtherCAT-Master und -Slave muss Port 0 verwendet werden.
@@ -28,7 +28,7 @@ Im Gegensatz zu bestehenden industriellen Kommunikationssystemen gibt es bei Eth
 
 <br>
 
-##### 2. Redundancy 
+**2. Redundancy **
 
 {% hint style="info" %}
 \.      Bei Verwendung der Redundanzfunktion im Master 
@@ -41,7 +41,7 @@ Im Gegensatz zu bestehenden industriellen Kommunikationssystemen gibt es bei Eth
 
 <br>
 
-##### 3. Kabelverdrahtung ERROR
+**3. Kabelverdrahtung ERROR**
 
 
 Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)“.

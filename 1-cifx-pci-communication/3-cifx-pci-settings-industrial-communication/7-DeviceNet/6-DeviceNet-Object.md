@@ -1,9 +1,9 @@
-﻿# 1.3.7.6 DeviceNet Object
+﻿## 1.3.7.6 DeviceNet Object
 
 
 <br>
 
-##### 1. Objekt
+**1. Objekt**
 
 
 Das DeviceNet-Gerät besteht aus einer Sammlung von Objekten. Jedes Objekt repräsentiert eine bestimmte Komponente innerhalb des Geräts.

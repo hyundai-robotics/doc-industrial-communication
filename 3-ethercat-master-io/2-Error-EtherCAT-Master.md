@@ -1,4 +1,4 @@
-﻿# 3.2 Fehlerbehandlung bei EtherCAT-Master-E/A
+﻿## 3.2 Fehlerbehandlung bei EtherCAT-Master-E/A
 
 Dies ist eine Methode zur Behebung schwerwiegender Fehler, die bei den EtherCAT-Master-E/A-Einstellungen auftreten können.
 

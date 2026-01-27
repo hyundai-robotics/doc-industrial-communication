@@ -1,4 +1,4 @@
-# 1.3.3.2 EtherNet/IP-Scanner-Einstellungen
+## 1.3.3.2 EtherNet/IP-Scanner-Einstellungen
 
 Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und „[**1.3.2 SYCON.NET-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)“ und fahren Sie dann mit der folgenden Methode fort.
 
@@ -10,38 +10,38 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 1. Wählen Sie EtherNet/IP Master in den Firmware-Einstellungen für die industrielle Kommunikation aus und starten Sie die Robotersteuerung neu.
+**1. Wählen Sie EtherNet/IP Master in den Firmware-Einstellungen für die industrielle Kommunikation aus und starten Sie die Robotersteuerung neu.**
 
 ![[Abbildung 1.3.3.2-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. Überprüfen Sie den Bereitschaftsstatus des ausgewählten Protokolls in der Überwachung der industriellen Kommunikation.
+**2. Überprüfen Sie den Bereitschaftsstatus des ausgewählten Protokolls in der Überwachung der industriellen Kommunikation.**
 
 ![[Abbildung 1.3.3.2-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_2.png>) 
 
 <br>
 
-##### 3. Wählen Sie mit Sycon.net das EtherNet/IP-Scanner-PCI-Gerät aus.
+**3. Wählen Sie mit Sycon.net das EtherNet/IP-Scanner-PCI-Gerät aus.**
 
 ![[Abbildung 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
 ![[Abbildung 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>)
 
 <br>
 
-##### 4. Scannen Sie das PCI-Gerät und wenden Sie den EtherNet/IP-Scanner an.
+**4. Scannen Sie das PCI-Gerät und wenden Sie den EtherNet/IP-Scanner an.**
 
 ![[Abbildung 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>)
 
 <br>
 
-##### 5. Laden Sie die Einstellungen herunter.
+**5. Laden Sie die Einstellungen herunter.**
 
 ![[Abbildung 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. Bereiten Sie die Adaptermodule (Slave) für den Anschluss an den EtherNet/IP-Scanner vor.
+**6. Bereiten Sie die Adaptermodule (Slave) für den Anschluss an den EtherNet/IP-Scanner vor.**
    * In diesem Beispiel verwenden wir den Crevis M9289 EtherNet/IP-Adapter.
    * Bitte versorgen Sie das Modul mit Systemstrom und Feldstrom, um es zu aktivieren.
 
@@ -49,7 +49,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 7. Legen Sie die IP-Adresse des Adapters (Slave) für die EtherNet/IP-Kommunikationsverbindung fest.
+**7. Legen Sie die IP-Adresse des Adapters (Slave) für die EtherNet/IP-Kommunikationsverbindung fest.**
 
 {% hint style="info" %}
 \.      Einstellung der IP-Adresse über DIP-Schalter
@@ -63,7 +63,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 8. (Bootp-Beispiel) Legen Sie die IP-Adresse des Slave-Geräts über Bootp fest.
+**8. (Bootp-Beispiel) Legen Sie die IP-Adresse des Slave-Geräts über Bootp fest.**
    * Schalten Sie nur den DIP-Schalter 9 auf EIN.
 
 ![[Abbildung 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
@@ -74,7 +74,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 9. Führen Sie BootpSvr.exe auf dem PC aus.
+**9. Führen Sie BootpSvr.exe auf dem PC aus.**
    * Dieses Programm wird von Crevis bereitgestellt. (Laden Sie IO Guide Pro von der Website herunter und installieren Sie es.)
 
 ![[Abbildung 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
@@ -89,19 +89,19 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 10. Wenn das Adaptergerät neu gestartet wird, werden die Geräteinformationen im Programm BootpSvr.exe angezeigt.
+**10. Wenn das Adaptergerät neu gestartet wird, werden die Geräteinformationen im Programm BootpSvr.exe angezeigt.**
 
 ![[Abbildung 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
 
 <br>
 
-##### 11. Wählen Sie das Gerät aus und stellen Sie die IP ein.
+**11. Wählen Sie das Gerät aus und stellen Sie die IP ein.**
 
 ![[Abbildung 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[Abbildung 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
 
 <br>
 
-##### 12. Nachdem die IP-Einstellung abgeschlossen ist, schalten Sie alle DIP-Schalter des Adapters auf AUS und starten Sie das Gerät neu.
+**12. Nachdem die IP-Einstellung abgeschlossen ist, schalten Sie alle DIP-Schalter des Adapters auf AUS und starten Sie das Gerät neu.**
 
 {% hint style="info" %}
 \.      Überprüfen Sie unbedingt den Status der DIP-Schalter und ob der Adapter neu gestartet wurde.
@@ -111,7 +111,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 13. Registrieren Sie die EDS-Datei des Slave-Geräts.
+**13. Registrieren Sie die EDS-Datei des Slave-Geräts.**
 
 {% hint style="info" %}
 \.      Für die Verwendung von Geräten, die nicht in Sycon.net registriert sind, ist eine EDS-Datei erforderlich.
@@ -134,7 +134,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 14. Netzwerk-Scan
+**14. Netzwerk-Scan**
 
 {% hint style="info" %}
 \.      Der EtherNet/IP-Scanner unterstützt keine Netzwerkscan-Funktion.
@@ -142,7 +142,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 15. Konfiguration des Slave-Geräts (Adapter)
+**15. Konfiguration des Slave-Geräts (Adapter)**
 
 {% hint style="info" %}
 \.      Ziehen Sie das registrierte Gerät und platzieren Sie es auf der EtherNet/IP-Master-Busleitung.
@@ -194,7 +194,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 16. Konfiguration des Master-Geräts (Scanner)
+**16. Konfiguration des Master-Geräts (Scanner)**
 
 
 {% hint style="info" %}
@@ -256,7 +256,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 17. Überprüfen Sie den Kommunikationsstatus
+**17. Überprüfen Sie den Kommunikationsstatus**
 
 {% hint style="info" %}
 \.        Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
@@ -281,7 +281,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 <br>
 
-##### 18. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
+**18. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
 \.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**

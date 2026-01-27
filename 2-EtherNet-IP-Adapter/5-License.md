@@ -1,5 +1,6 @@
 ## 2.5 EtherNet/IP-Adapter-Lizenz
-### 2.5.1 Lizenzaktivierung
+
+**2.5.1 Lizenzaktivierung**
 Navigieren Sie vom Startbildschirm zu „System“ > „2: Steuerungsparameter“ > „10: Registrierung des Lizenzschlüssels für optionale Funktionen“<br>
 ![license.png](../_assets/2-EtherNet-IP-Adapter/License/license.png)<br>
 *[Abbildung 2.5.1-1 Lizenzaktivierung]*<br>

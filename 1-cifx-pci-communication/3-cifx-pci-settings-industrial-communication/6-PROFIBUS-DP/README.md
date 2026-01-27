@@ -1,10 +1,10 @@
-﻿# 1.3.6 PROFIBUS-DP
+﻿## 1.3.6 PROFIBUS-DP
 
 In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von PROFIBUS-DP-Master und -Slave beschrieben. 
 
 <br>
 
-##### Feldbus – Übersicht
+**Feldbus – Übersicht**
 
 Feldbus (Fieldbus) ist ein offener Industriestandard, der dazu dient, Geräte wie Sensoren, Taster, Motortreiber und Bedienoberflächen in Fabriken über ein einziges Kabel mit einer SPS (Programmable Logic Controller) zu verbinden und zu betreiben.
 

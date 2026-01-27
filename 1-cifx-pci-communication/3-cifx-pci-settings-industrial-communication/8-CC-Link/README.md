@@ -1,11 +1,11 @@
-﻿# 1.3.8 CC-Link
+﻿## 1.3.8 CC-Link
 
 In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von CC-Link-Slave beschrieben. 
 
 
 <br>
 
-##### Feldbus – Übersicht
+**Feldbus – Übersicht**
 
 Feldbus (Fieldbus) ist ein offener Industriestandard, um Geräte wie Sensoren, Taster, Motortreiber und Bedienoberflächen in der Fabrik über ein einziges Kabel mit einer SPS (Programmable Logic Controller) zu verbinden und zu betreiben.
 

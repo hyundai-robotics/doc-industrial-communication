@@ -1,8 +1,8 @@
-﻿# 1.3.4.3 PROFINET IO-Gerätespezifikationen
+﻿## 1.3.4.3 PROFINET IO-Gerätespezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                      |
@@ -20,7 +20,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                   | **Spezifikationen**                  |
 | :---                       | :---                      |

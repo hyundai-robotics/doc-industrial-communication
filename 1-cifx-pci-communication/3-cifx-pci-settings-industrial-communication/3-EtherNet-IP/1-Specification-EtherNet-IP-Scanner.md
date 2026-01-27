@@ -1,8 +1,8 @@
-﻿# 1.3.3.1 EtherNet/IP-Scanner-Spezifikationen
+﻿## 1.3.3.1 EtherNet/IP-Scanner-Spezifikationen
 
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 | **Kategorie**                       | **Spezifikationen**                  |
 | :---                           | :---                     |
@@ -23,7 +23,7 @@
 
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 | **Kategorie**                       | **Spezifikationen**                  |
 | :---                           | :---                     |

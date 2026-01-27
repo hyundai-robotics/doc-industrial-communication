@@ -1,4 +1,4 @@
-# 1.3.9.1 CC-Link IE Field Slave-Spezifikationen
+## 1.3.9.1 CC-Link IE Field Slave-Spezifikationen
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,7 +8,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protokollmerkmale
+**Protokollmerkmale**
 
 <br>
 <table class="tg">
@@ -61,7 +61,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Netzwerkmerkmale
+**Netzwerkmerkmale**
 
 <br>
 <table class="tg">

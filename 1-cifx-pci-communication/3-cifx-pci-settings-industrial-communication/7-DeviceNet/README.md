@@ -1,10 +1,10 @@
-﻿# 1.3.7 DeviceNet
+﻿## 1.3.7 DeviceNet
 
 In diesem Kapitel werden die Eigenschaften und Einstellungsmethoden von DeviceNet-Master und -Slave beschrieben. 
 
 <br>
 
-##### Feldbus – Übersicht
+**Feldbus – Übersicht**
 
 Feldbus ist ein Industriestandard, der für die Verbindung von Geräten wie Sensoren, Tastern, Motortreibern und Bedienoberflächen mit SPSen (speicherprogrammierbaren Steuerungen) über ein einziges Kabel und deren Betrieb in der Fabrik geöffnet wurde.
 

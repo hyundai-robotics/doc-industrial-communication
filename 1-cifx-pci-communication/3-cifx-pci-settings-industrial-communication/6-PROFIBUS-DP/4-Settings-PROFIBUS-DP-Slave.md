@@ -1,4 +1,4 @@
-﻿# 1.3.6.4 PROFIBUS-DP-Slave-Einstellungen
+﻿## 1.3.6.4 PROFIBUS-DP-Slave-Einstellungen
 
 Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und fahren Sie dann mit der folgenden Methode fort.
 
@@ -12,13 +12,13 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 
 <br>
 
-##### 1. Wählen Sie mithilfe von TP in den Firmware-Einstellungen für die industrielle Kommunikation „PROFIBUS-DP Slave“ aus und starten Sie die Robotersteuerung neu.
+**1. Wählen Sie mithilfe von TP in den Firmware-Einstellungen für die industrielle Kommunikation „PROFIBUS-DP Slave“ aus und starten Sie die Robotersteuerung neu.**
 
 ![[Abbildung 1.3.6.4-1 Firmware-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Überprüfen Sie den aktuellen Status der Kommunikationsprotokollbereitschaft in der Überwachung der industriellen Kommunikation.
+**2. Überprüfen Sie den aktuellen Status der Kommunikationsprotokollbereitschaft in der Überwachung der industriellen Kommunikation.**
 
 ![[Abbildung 1.3.6.4-2 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_2.png>) 
 
@@ -30,7 +30,7 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 
 <br>
 
-##### 3. Berühren Sie das Menü, um den Bildschirm mit den Slave-Einstellungen aufzurufen.
+**3. Berühren Sie das Menü, um den Bildschirm mit den Slave-Einstellungen aufzurufen.**
 **\[System > 2: Steuerungsparameter > 11: Industrielle Kommunikation > 2: PCI-Slave-Slot-Einstellungen > PROFIBUS-DP Slave]**
 
 ![[Abbildung 1.3.6.4-3 Slave-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_3.png>) 
@@ -39,7 +39,7 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 
 <br>
 
-##### 4. Beschreibung der einzelnen Elemente
+**4. Beschreibung der einzelnen Elemente**
 
 {% hint style="info" %}
 \.      [Station Address]
@@ -87,7 +87,7 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 
 <br>
 
-##### 5. Überprüfen Sie nach Abschluss der Einstellungen den Kommunikationsstatus gemäß dem folgenden Verfahren.
+**5. Überprüfen Sie nach Abschluss der Einstellungen den Kommunikationsstatus gemäß dem folgenden Verfahren.**
 
 Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („[**1.4 Überwachung der CIFX-PCI-Kommunikation**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)“).
 
@@ -95,7 +95,7 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP
 
 <br>
 
-##### 6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.
+**6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
 \.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
