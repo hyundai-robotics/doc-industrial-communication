@@ -1,9 +1,9 @@
-﻿# 1.3.7.6 DeviceNet Object
+﻿## 1.3.7.6 DeviceNet Object
 
 
 <br>
 
-##### 1. Object
+**1. Object**
 
 
 The inside of the DeviceNet device is composed of a collection of objects. Each object represents a specific component inside the device.

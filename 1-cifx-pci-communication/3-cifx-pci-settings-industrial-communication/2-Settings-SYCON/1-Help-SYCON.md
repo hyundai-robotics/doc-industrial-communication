@@ -1,10 +1,10 @@
-﻿# 1.3.2.1 SYCON.NET Help
+﻿## 1.3.2.1 SYCON.NET Help
 
 
 
 <br>
 
-##### When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "help" function below.
+**When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "help" function below.**
 
 <br>
 

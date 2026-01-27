@@ -1,22 +1,22 @@
-﻿# 1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings
+﻿## 1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 <br>
 
-##### 1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.
+**1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.10.1-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 ![[Figure 1.3.10.1-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
-##### 3. Connect the PCI and Remote IO cables, etc. for communication and check the status.
+**3. Connect the PCI and Remote IO cables, etc. for communication and check the status.**
 
 ![[Figure 1.3.10.1-3 Hardware Connection]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
@@ -44,7 +44,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Touch the menu to enter the slave settings screen.
+**4. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherNet/IP Remote IO Setting]**
 
 ![[Figure 1.3.10.1-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>)
@@ -84,7 +84,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. Reboot the controller after completing the settings.
+**5. Reboot the controller after completing the settings.**
 
 ![[Figure 1.3.10.1-7 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>)
 
@@ -96,7 +96,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 6. After confirming that the setting values are reflected, check the communication status.
+**6. After confirming that the setting values are reflected, check the communication status.**
 
 ![[Figure 1.3.10.1-9 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>)
 
@@ -118,7 +118,7 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-##### 7. Assign IO blocks after completing the communication settings.
+**7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**

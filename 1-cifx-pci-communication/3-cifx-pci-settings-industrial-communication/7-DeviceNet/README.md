@@ -1,10 +1,10 @@
-﻿# 1.3.7 DeviceNet
+﻿## 1.3.7 DeviceNet
 
 This chapter describes the characteristics of the DeviceNet master and slave and how to set them. 
 
 <br>
 
-##### Fieldbus Overview
+**Fieldbus Overview**
 
 Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
 

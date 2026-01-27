@@ -1,4 +1,4 @@
-﻿# 1.3.6.2 PROFIBUS-DP Master Settings
+﻿## 1.3.6.2 PROFIBUS-DP Master Settings
 
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
@@ -11,13 +11,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Select the PROFIBUS-DP master in the PCI slot settings and reboot the robot controller.
+**1. Select the PROFIBUS-DP master in the PCI slot settings and reboot the robot controller.**
 
 ![[Figure 1.3.6.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 <br>
 
@@ -31,27 +31,27 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Select the PROFIBUS-DP master PCI device by using Sycon.net.
+**3. Select the PROFIBUS-DP master PCI device by using Sycon.net.**
 
 ![[Figure 1.3.6.2-3 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_3.png>)
 ![[Figure 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scan the PCI device and apply the PROFIBUS-DP master.
+**4. Scan the PCI device and apply the PROFIBUS-DP master.**
 
 ![[Figure 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>) 
 
 <br>
 
 
-##### 5. Download the settings.
+**5. Download the settings.**
 
 ![[Figure 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. Prepare the slave module to be connected to the PROFIBUS-DP Master.
+**6. Prepare the slave module to be connected to the PROFIBUS-DP Master.**
    * In this example, we use the GN-9222 PROFIBUS-DP slave from Crevis.
    * Please supply the system power and field power to activate the module.
 
@@ -60,7 +60,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 7. Set the slave device
+**7. Set the slave device**
 
 {% hint style="info" %}
 \.      Set the node number and termination of the PROFIBUS-DP slave device.
@@ -77,7 +77,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 8. Register the slave device GSD file.
+**8. Register the slave device GSD file.**
 
 {% hint style="info" %}
 \.      A GSD file is required to use a device not registered in Sycon.net.
@@ -105,7 +105,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 9. Network Scan
+**9. Network Scan**
 
 {% hint style="warning" %}
 \.      **When performing the Network Scan function, be sure to check the following.**
@@ -136,7 +136,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 10. Configure the slave device
+**10. Configure the slave device**
 
 {% hint style="info" %}
 \.      Click Disconnect on the master device to configure the slave device.
@@ -169,7 +169,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 11. Configure the master device.
+**11. Configure the master device.**
 
 {% hint style="info" %}
 \.      Double-click the Master device.
@@ -213,7 +213,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 12. Check the communication status.
+**12. Check the communication status.**
 
 {% hint style="info" %}
 \.        Check the communication status in Sycon.net and TP.
@@ -237,7 +237,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 13. Assign IO blocks after completing the settings.
+**13. Assign IO blocks after completing the settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**

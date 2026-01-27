@@ -1,8 +1,8 @@
-﻿# 3.1 EtherCAT Master IO Settings
+﻿## 3.1 EtherCAT Master IO Settings
 
 <br>
 
-##### 1. Touch the menu to enter the settings screen. 
+**1. Touch the menu to enter the settings screen. **
 **\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
 
 <br>
@@ -15,7 +15,7 @@
 \.      Check the selected controller LAN port number on the EtherCAT master settings screen. 
 {% endhint %}
 
-##### 2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.
+**2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.**
 
 <br>
 
@@ -34,7 +34,7 @@
 
 <br>
 
-##### 3. Select "ON" for the EtherCAT master usage in the settings menu.
+**3. Select "ON" for the EtherCAT master usage in the settings menu.**
 
 <br>
 
@@ -50,7 +50,7 @@
 
 <br>
 
-##### 4. Select the same configuration as the connected Remote IO module from the slave list in the settings menu.
+**4. Select the same configuration as the connected Remote IO module from the slave list in the settings menu.**
 
 <br>
 
@@ -89,7 +89,7 @@
 
 <br>
 
-##### 5. Reboot the controller after completing the settings.
+**5. Reboot the controller after completing the settings.**
 
 ![[Figure 3.1-7 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
 
@@ -105,7 +105,7 @@
 
 <br>
 
-##### 6. After confirming that the setting values are reflected, check the communication status.
+**6. After confirming that the setting values are reflected, check the communication status.**
 
 ![[Figure 3.1-9 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
 
@@ -133,7 +133,7 @@
 
 <br>
 
-##### 7. Assign IO blocks after completing the communication settings.
+**7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../4-io-block-allocation.md)").**

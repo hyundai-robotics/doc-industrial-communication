@@ -1,4 +1,4 @@
-# 1.3.7.5 DeviceNet Error Handling
+## 1.3.7.5 DeviceNet Error Handling
 
 <br>
 
@@ -6,7 +6,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 1. DeviceNet termination resistor
+**1. DeviceNet termination resistor**
 
 {% hint style="info" %}
 \.      A resistor should be added at the termination when connecting the DeviceNet cable.
@@ -30,7 +30,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 2. Communication Speed
+**2. Communication Speed**
 
 {% hint style="info" %}
 \.      If the communication speed differs between the DeviceNet master and slave, the Network Scan function may not work.
@@ -42,7 +42,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 3. DeviceNet ERROR
+**3. DeviceNet ERROR**
 
 {% hint style="info" %}
 \.      If a 24V power is not supplied to the DeviceNet cable, the following error will appear.

@@ -1,4 +1,4 @@
-# 1.3.3.2 EtherNet/IP Scanner Settings
+## 1.3.3.2 EtherNet/IP Scanner Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -10,13 +10,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Select EtherNet/IP Master in the PCI slot settings and reboot the robot controller.
+**1. Select EtherNet/IP Master in the PCI slot settings and reboot the robot controller.**
 
 ![[Figure 1.3.3.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>)
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 <br>
 
@@ -30,26 +30,26 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Select the EtherNet/IP scanner PCI device by using Sycon.net.
+**3. Select the EtherNet/IP scanner PCI device by using Sycon.net.**
 
 ![[Figure 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
 ![[Figure 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scan the PCI device and apply the EtherNet/IP scanner.
+**4. Scan the PCI device and apply the EtherNet/IP scanner.**
 
 ![[Figure 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. Download the settings.
+**5. Download the settings.**
 
 ![[Figure 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. Prepare the adapter (slave) module to be connected to the EtherNet/IP scanner.
+**6. Prepare the adapter (slave) module to be connected to the EtherNet/IP scanner.**
    * In this example, we use the M9289 EtherNet/IP adapter from Crevis.
    * Please supply the system power and field power to activate the module.
 
@@ -57,7 +57,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 7. Set the IP address of the adapter (slave) for EtherNet/IP communication connection.
+**7. Set the IP address of the adapter (slave) for EtherNet/IP communication connection.**
 
 {% hint style="info" %}
 \.      Setting an IP address using the dip switch.
@@ -71,7 +71,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 8. (Bootp example) Set the slave device IP address using Bootp.
+**8. (Bootp example) Set the slave device IP address using Bootp.**
    * Change only DIP switch 9 to ON.
 
 ![[Figure 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
@@ -82,7 +82,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 9. Execute BootpSvr.exe on the PC.
+**9. Execute BootpSvr.exe on the PC.**
    * This program is provided by Crevis. (Download and install IO Guide Pro from the website.)
 
 ![[Figure 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
@@ -97,19 +97,19 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 10. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.
+**10. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.**
 
 ![[Figure 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
 
 <br>
 
-##### 11. Select the device and set the IP.
+**11. Select the device and set the IP.**
 
 ![[Figure 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[Figure 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
 
 <br>
 
-##### 12. After setting the IP, turn all DIP switches of the adapter to OFF and reboot the device.
+**12. After setting the IP, turn all DIP switches of the adapter to OFF and reboot the device.**
 
 {% hint style="info" %}
 \.      Be sure to check the DIP switch status and whether the adapter is rebooted.
@@ -119,7 +119,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 13. Register the slave device EDS file.
+**13. Register the slave device EDS file.**
 
 {% hint style="info" %}
 \.      An EDS file is required to use a device not registered in Sycon.net.
@@ -142,7 +142,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 14. Network Scan
+**14. Network Scan**
 
 {% hint style="info" %}
 \.      The EtherNet/IP scanner does not support the Network Scan function.
@@ -150,7 +150,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 15. Configure the slave (adapter) device
+**15. Configure the slave (adapter) device**
 
 {% hint style="info" %}
 \.      Drag the registered device and place it on the EtherNet/IP master bus line.
@@ -202,7 +202,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 16. Configure the master (scanner) device.
+**16. Configure the master (scanner) device.**
 
 
 {% hint style="info" %}
@@ -264,7 +264,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 17. Check the communication status
+**17. Check the communication status**
 
 {% hint style="info" %}
 \.      Check the communication status in Sycon.net and TP.
@@ -289,7 +289,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 18. Assign IO blocks after completing the communication settings.
+**18. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**

@@ -1,10 +1,10 @@
-﻿# 1.3.5.5 EtherCAT Cable Wiring (Topology)
+﻿## 1.3.5.5 EtherCAT Cable Wiring (Topology)
 
 <br>
 
 Unlike existing industrial communications, EtherCAT has restrictions in cable wiring and usable Ethernet Ports.
 
-##### 1. Ethernet Port
+**1. Ethernet Port**
 
 {% hint style="info" %}
 \.      When connecting the EtherCAT master and slave, port 0 should be used.
@@ -28,7 +28,7 @@ Unlike existing industrial communications, EtherCAT has restrictions in cable wi
 
 <br>
 
-##### 2. Redundancy
+**2. Redundancy**
 
 {% hint style="info" %}
 \.      When using the Redundancy function in the master 
@@ -41,7 +41,7 @@ Unlike existing industrial communications, EtherCAT has restrictions in cable wi
 
 <br>
 
-##### 3. Cable wiring error
+**3. Cable wiring error**
 
 
 Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".

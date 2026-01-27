@@ -1,5 +1,6 @@
 ## 2.5 EtherNet/IP Adapter License
-### 2.5.1 License Activation
+
+**2.5.1 License Activation**
 On the initial screen, navigate to "System" > "2: Control Parameters" > "10: License Key Registration for Optional Functions"<br>
 ![license.png](../_assets/2-EtherNet-IP-Adapter/License/license.png)<br>
 *[Figure 2.5.1-1 License Activation]*<br>
