@@ -1,25 +1,17 @@
-﻿
-[__SOURCE](README.md)
-# Hi7 Controller Function Manual - Industrial Communication
-
-[__SOURCE](1-cifx-pci-communication/README.md)
-# 1. CIFX PCI Communication
+﻿# Hi7 Controller Function Manual - Industrial Communication
+## 1. CIFX PCI Communication
 
 This is a manual for the industrial communication that uses a CIFX PCI. 
-
-[__SOURCE](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)
-# 1.1 CIFX PCI Program Installation
+## 1.1 CIFX PCI Program Installation
 
 This is the method for installing programs related to industrial communication.
-
-[__SOURCE](1-cifx-pci-communication/1-cifx-pci-install-program/1-sycon-net.md)
-# 1.1.1 SYCON.net Installation
+## 1.1.1 SYCON.net Installation
 
 "Sycon.net" is a program provided by Hilscher for configuring the PCI communication card.
 
 <br>
 
-##### 1. SYCON.net Latest Version Download Path
+**1. SYCON.net Latest Version Download Path**
 
 {% hint style="info" %}
 \.      Click **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
@@ -74,7 +66,7 @@ This is the method for installing programs related to industrial communication.
 <br>
 
 
-##### 2. Download the Program from the Hyundai Robotics Website.
+**2. Download the Program from the Hyundai Robotics Website.**
 
 {% hint style="info" %}
 \.      Download "**Sycon.net**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
@@ -92,23 +84,19 @@ This is the method for installing programs related to industrial communication.
 \.      The SYCON.net program provided on our website may differ from the latest version.
 {% endhint %}
 
-<br>
-[__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/README.md)
-# 1.2 CIFX PCI Communication Card Installation and Settings
+<br>## 1.2 CIFX PCI Communication Card Installation and Settings
 
 To use industrial communication, a PCI communication card (from Hilscher) is required. Set the communication card and wire the connectors according to the required communication.
-
-[__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)
-# 1.2.1 PCI Industrial Communication Card
+## 1.2.1 PCI Industrial Communication Card
 
 
 <br>
 
-##### 1. Install the purchased PCI communication card inside the controller's Main Module.
+**1. Install the purchased PCI communication card inside the controller's Main Module.**
 
 <br>
 
-##### 2. Rotate the rotary switch of the PCI communication card to set the Slot number.
+**2. Rotate the rotary switch of the PCI communication card to set the Slot number.**
 
 <br>
 
@@ -118,7 +106,7 @@ To use industrial communication, a PCI communication card (from Hilscher) is req
 
 <br>
 
-##### 3. Set the slot number separately for each PCI communication card within the number ranging 1 \~ 3.
+**3. Set the slot number separately for each PCI communication card within the number ranging 1 \~ 3.**
   (When multiple PCI communication cards are used, individual numbers should be set differently.)
 
 ![[Figure 1.2.1-1 PCI Communication Card]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
@@ -132,13 +120,11 @@ To use industrial communication, a PCI communication card (from Hilscher) is req
 **\[Caution]**: Please set the rotary switch number differently for each PCI card.
 {% endhint %}
 
-
-[__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)
-# 1.2.2 Connector
+## 1.2.2 Connector
 
 <br>
 
-##### Use connectors and cables suitable for the industrial communication method.
+**Use connectors and cables suitable for the industrial communication method.**
 
 ![[Figure 1.2.2-1 Industrial Communication Connector]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
@@ -155,13 +141,11 @@ To use industrial communication, a PCI communication card (from Hilscher) is req
 **\[Caution]**: Please use separate power sources for the communication cable and the IO.
 {% endhint %}
 
-<br>
-[__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/3-Led.md)
-# 1.2.3 LED Description
+<br>## 1.2.3 LED Description
 
 <br>
 
-### PCI LED Description
+**PCI LED Description**
 
 <br>
 
@@ -241,14 +225,10 @@ To use industrial communication, a PCI communication card (from Hilscher) is req
 ![[Figure 1.2.3-20 PCI LED]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/3-Led/image_20.png>)
 
 <br>
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/README.md)
-# 1.3 CIFX PCI Communication Settings
+## 1.3 CIFX PCI Communication Settings
 
 To use industrial communication, install a PCI communication card, and proceed with settings using the teach pendant and Sycon.net program.
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)
-# 1.3.1 CIFX PCI Slot Settings.
+## 1.3.1 CIFX PCI Slot Settings.
 
 Configure the communication method for the CIFX PCI slot. To apply the settings, please disconnect the controller power and then supply it again.
 
@@ -258,13 +238,13 @@ Refer to "[**1.2.1 PCI Industrial Communication Card**](../../1-cifx-pci-communi
 
 <br>
 
-##### 1. Touch the menu to enter the slot settings screen.
+**1. Touch the menu to enter the slot settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 1: PCI Slot Settings > Channel 1]** 
 
 
 <br>
 
-##### 2. Refer to the screen below to select the slot, communication method (master/slave), and protocol.
+**2. Refer to the screen below to select the slot, communication method (master/slave), and protocol.**
    * The slot number is the rotary switch number of the PCI communication card.
    * If you do not want to change the communication settings, touch the **\[OK]** button to exit.
 
@@ -278,7 +258,7 @@ Refer to "[**1.2.1 PCI Industrial Communication Card**](../../1-cifx-pci-communi
 
 <br>
 
-##### 3. Complete the slot settings.
+**3. Complete the slot settings.**
 Touch the **\[Apply]** menu.
 
 ![[Figure 1.3.1-4 PCI Slot Settings]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_4.png>)
@@ -293,11 +273,11 @@ Touch the **\[Apply]** menu.
 
 <br>
 
-##### 4. Repeat steps 2. \~ 3. for each slot.
+**4. Repeat steps 2. \~ 3. for each slot.**
 
 <br>
 
-##### 5. Reboot the controller to apply the set communication.
+**5. Reboot the controller to apply the set communication.**
 Touch the **\[Service > 19: Industrial Communication Monitoring]** menu to check if the set communication has been applied.
 
 ![[Figure 1.3.1-5 Industrial Communication Settings Screen]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_5.png>)
@@ -307,15 +287,13 @@ Touch the **\[Service > 19: Industrial Communication Monitoring]** menu to check
 {% hint style="warning" %}
 **\[Caution]**: Settings are applied when the controller is rebooted after slot settings.
 {% endhint %}
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)
-# 1.3.2 SYCON.NET Settings
+## 1.3.2 SYCON.NET Settings
 
 For the PCI communication card, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "[**1.1 Sycon.net Installation**](../../1-cifx-pci-install-program/1-sycon-net.md)".)
 
 <br>
 
-##### 1. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).
+**1. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).**
 Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
 
 ![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
@@ -327,20 +305,20 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 
 <br>
 
-##### 2. Execute Sycon.net.
+**2. Execute Sycon.net.**
 
 ![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 
 <br>
 
-##### 3. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.
+**3. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.**
 
 ![[Figure 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
 ![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
-##### 4. Double-click the imported item to set it.
+**4. Double-click the imported item to set it.**
 
 {% hint style="info" %}
 \.      "Double-click" the imported CIFX PCI (figure).
@@ -381,15 +359,13 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 \.      Right-click the CIFX PCI figure -> Download
 {% endhint %}
 
-![[Figure 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)
-# 1.3.2.1 SYCON.NET Help
+![[Figure 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)## 1.3.2.1 SYCON.NET Help
 
 
 
 <br>
 
-##### When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "help" function below.
+**When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "help" function below.**
 
 <br>
 
@@ -399,15 +375,13 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 
 ![[Figure 1.3.2.1-2 SYCON.net help]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/1-Help-SYCON/image_2.png>) 
 
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/README.md)
-# 1.3.3 EtherNet/IP
+<br>## 1.3.3 EtherNet/IP
 
 This chapter describes the characteristics of the EtherNet/IP master (scanner) and slave (adapter) and how to set them. 
 
 <br>
 
-##### EtherNet/IP Overview
+**EtherNet/IP Overview**
 
 EtherNet/IP is an Ethernet-based open industrial communication protocol developed by CI (ControlNet International) and ODVA (Open DeviceNet Vendors Association).
 
@@ -420,24 +394,22 @@ In the factory, various devices such as sensors, remote IOs, motor drivers, HMIs
 
 EtherNet/IP is classified as follows according to the communication function.
 
-##### Scanner Class
+**Scanner Class**
    * Products that correspond to existing fieldbus masters and can ask the EtherNet/IP adapters or scanners to perform I/O data connection.
 
 <br>
 
-##### Adapter Class
+**Adapter Class**
   * Products that correspond to existing fieldbus slaves and are the targets of Real-Time I/O data connections requested by EtherNet/IP scanners.
 
   * An adapter cannot send and receive Real-Time I/O data on their own without the scanner.
 
 <br>
 
-##### Messaging Class
+**Messaging Class**
    * Products that can send and receive explicit messages for the products of all classes, but do not support Real-Time I/O data transmission and reception.
 
-   * For example, the products can be computer interface cards for program upload/download and network setting tools, etc.
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/1-Specification-EtherNet-IP-Scanner.md)
-# 1.3.3.1 EtherNet/IP Scanner Specifications
+   * For example, the products can be computer interface cards for program upload/download and network setting tools, etc.## 1.3.3.1 EtherNet/IP Scanner Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -447,7 +419,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -513,7 +485,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -548,7 +520,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">
@@ -570,9 +542,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Settings-EtherNet-IP-Scanner.md)
-# 1.3.3.2 EtherNet/IP Scanner Settings
+## 1.3.3.2 EtherNet/IP Scanner Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -584,13 +554,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Select EtherNet/IP Master in the PCI slot settings and reboot the robot controller.
+**1. Select EtherNet/IP Master in the PCI slot settings and reboot the robot controller.**
 
 ![[Figure 1.3.3.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>)
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 <br>
 
@@ -604,26 +574,26 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Select the EtherNet/IP scanner PCI device by using Sycon.net.
+**3. Select the EtherNet/IP scanner PCI device by using Sycon.net.**
 
 ![[Figure 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
 ![[Figure 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scan the PCI device and apply the EtherNet/IP scanner.
+**4. Scan the PCI device and apply the EtherNet/IP scanner.**
 
 ![[Figure 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. Download the settings.
+**5. Download the settings.**
 
 ![[Figure 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. Prepare the adapter (slave) module to be connected to the EtherNet/IP scanner.
+**6. Prepare the adapter (slave) module to be connected to the EtherNet/IP scanner.**
    * In this example, we use the M9289 EtherNet/IP adapter from Crevis.
    * Please supply the system power and field power to activate the module.
 
@@ -631,7 +601,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 7. Set the IP address of the adapter (slave) for EtherNet/IP communication connection.
+**7. Set the IP address of the adapter (slave) for EtherNet/IP communication connection.**
 
 {% hint style="info" %}
 \.      Setting an IP address using the dip switch.
@@ -645,7 +615,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 8. (Bootp example) Set the slave device IP address using Bootp.
+**8. (Bootp example) Set the slave device IP address using Bootp.**
    * Change only DIP switch 9 to ON.
 
 ![[Figure 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
@@ -656,7 +626,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 9. Execute BootpSvr.exe on the PC.
+**9. Execute BootpSvr.exe on the PC.**
    * This program is provided by Crevis. (Download and install IO Guide Pro from the website.)
 
 ![[Figure 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
@@ -671,19 +641,19 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 10. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.
+**10. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.**
 
 ![[Figure 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
 
 <br>
 
-##### 11. Select the device and set the IP.
+**11. Select the device and set the IP.**
 
 ![[Figure 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[Figure 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
 
 <br>
 
-##### 12. After setting the IP, turn all DIP switches of the adapter to OFF and reboot the device.
+**12. After setting the IP, turn all DIP switches of the adapter to OFF and reboot the device.**
 
 {% hint style="info" %}
 \.      Be sure to check the DIP switch status and whether the adapter is rebooted.
@@ -693,7 +663,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 13. Register the slave device EDS file.
+**13. Register the slave device EDS file.**
 
 {% hint style="info" %}
 \.      An EDS file is required to use a device not registered in Sycon.net.
@@ -716,7 +686,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 14. Network Scan
+**14. Network Scan**
 
 {% hint style="info" %}
 \.      The EtherNet/IP scanner does not support the Network Scan function.
@@ -724,7 +694,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 15. Configure the slave (adapter) device
+**15. Configure the slave (adapter) device**
 
 {% hint style="info" %}
 \.      Drag the registered device and place it on the EtherNet/IP master bus line.
@@ -776,7 +746,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 16. Configure the master (scanner) device.
+**16. Configure the master (scanner) device.**
 
 
 {% hint style="info" %}
@@ -838,7 +808,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 17. Check the communication status
+**17. Check the communication status**
 
 {% hint style="info" %}
 \.      Check the communication status in Sycon.net and TP.
@@ -863,13 +833,11 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 18. Assign IO blocks after completing the communication settings.
+**18. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/3-Specification-EtherNet-IP-Adapter.md)
-# 1.3.3.3 EtherNet/IP Adapter Specifications
+{% endhint %}## 1.3.3.3 EtherNet/IP Adapter Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -879,7 +847,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -929,7 +897,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -964,7 +932,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">
@@ -986,9 +954,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Settings-EtherNet-IP-Adapter.md)
-# 1.3.3.4 EtherNet/IP Adapter Settings
+## 1.3.3.4 EtherNet/IP Adapter Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -1002,13 +968,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Using the TP, select an EtherNet/IP slave in the industrial communication firmware settings and reboot the robot controller.
+**1. Using the TP, select an EtherNet/IP slave in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.3.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
 ![[Figure 1.3.3.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_2.png>) 
 
@@ -1020,7 +986,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Touch the menu to enter the slave settings screen.
+**3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherNet/IP Slave]**
 
 ![[Figure 1.3.3.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_3.png>) 
@@ -1029,7 +995,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Description of each item
+**4. Description of each item**
 
 {% hint style="info" %}
 \.      [IP Setting]
@@ -1094,7 +1060,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. After completing the settings, check the communication status according to the procedure below.
+**5. After completing the settings, check the communication status according to the procedure below.**
 
 For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
@@ -1102,13 +1068,11 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-##### 6. Assign IO blocks after completing the communication settings.
+**6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error-EtherNet-IP.md)
-# 1.3.3.5 EtherNet/IP Error Handling
+{% endhint %}## 1.3.3.5 EtherNet/IP Error Handling
 
 This is a method for resolving major errors that may occur during EtherNet/IP settings.
 
@@ -1120,7 +1084,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 1. Communication cable disconnection error
+**1. Communication cable disconnection error**
 
 {% hint style="info" %}
 \.      Please check the connection status of the LAN cable.
@@ -1133,7 +1097,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 2. IP Address setting error
+**2. IP Address setting error**
 
 {% hint style="info" %}
 \.      Please check the IP addresses of the master and slave devices.
@@ -1147,15 +1111,13 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 ![[Figure 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>) 
 
 
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/README.md)
-# 1.3.4 PROFINET IO
+## 1.3.4 PROFINET IO
 
 This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and how to set them. 
 
 <br>
 
-##### PROFINET IO Overview
+**PROFINET IO Overview**
 
 PROFINET IO is an Ethernet-based open industrial communication protocol that has progressively evolved from PROFIBUS-DP and industrial Ethernet.
 
@@ -1165,25 +1127,23 @@ PROFINET IO is an Ethernet-based open industrial communication protocol that has
 
 It follows the Provider-Consumer model for data exchange and can be classified into the following three classes of products.
 
-##### IO Controller Class
+**IO Controller Class**
    * Products that correspond to existing PROFIBUS-DP class 1 masters and are types of products in which automation programs such PLCs are running.
 
    * An IO controller supplies output data to the IO devices set to it and consumes the input data from them.
 
 <br>
 
-##### IO Device Class
+**IO Device Class**
   * Products that correspond to existing PROFIBUS-DP slaves and are connected to IO controllers such as PLCs through PROFINET IO.
 
   * An IO device supplies output data to the IO controller, provides input data, and consumes output data.
 
 <br>
 
-##### IO Supervisor Class
+**IO Supervisor Class**
    * Products that correspond to existing PROFIBUS-DP class 2 masters and include those programming devices, PCs, HMIs that are designed for network configuration and diagnosis.
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/1-Specification-PROFINET-IO-Controller.md)
-# 1.3.4.1 PROFINET IO Controller Specifications
+## 1.3.4.1 PROFINET IO Controller Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1193,7 +1153,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -1255,7 +1215,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -1290,7 +1250,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">
@@ -1311,9 +1271,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Settings-PROFINET-IO-Controller.md)
-# 1.3.4.2 PROFINET IO Controller Settings
+<br>## 1.3.4.2 PROFINET IO Controller Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -1325,13 +1283,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Select the PROFINET IO master in the PCI slot settings and reboot the robot controller.
+**1. Select the PROFINET IO master in the PCI slot settings and reboot the robot controller.**
 
 ![[Figure 1.3.4.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 <br>
 
@@ -1345,26 +1303,26 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Select the PROFINET IO controller PCI device by using Sycon.net.
+**3. Select the PROFINET IO controller PCI device by using Sycon.net.**
 
 ![[Figure 1.3.4.2-3 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_3.png>)
 ![[Figure 1.3.4.2-4 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scan the PCI device and apply the PROFINET IO controller.
+**4. Scan the PCI device and apply the PROFINET IO controller.**
 
 ![[Figure 1.3.4.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. Download the settings.
+**5. Download the settings.**
 
 ![[Figure 1.3.4.2-6 PROFINET IO Controller Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. Prepare the device (slave) module to be connected to the PROFINET IO controller.
+**6. Prepare the device (slave) module to be connected to the PROFINET IO controller.**
    * In this example, we use the M9287 PROFINET IO device from Crevis.
    * Please supply the system power and field power to activate the module.
 
@@ -1382,7 +1340,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 7. (DIP switch use example) Set the slave device name using the DIP Switch.
+**7. (DIP switch use example) Set the slave device name using the DIP Switch.**
    * Change only DIP Switch 1 to ON.
 
 
@@ -1394,7 +1352,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 8. Register the slave device GSDML file.
+**8. Register the slave device GSDML file.**
 
 {% hint style="info" %}
 \.      A GSDML file is required to use a device not registered in Sycon.net.
@@ -1418,7 +1376,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 9. Network Scan
+**9. Network Scan**
 
 {% hint style="info" %}
 \.      The PROFINET IO controller supports the Network Scan function.
@@ -1448,7 +1406,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 10. Configure the slave (device).
+**10. Configure the slave (device).**
 
 {% hint style="info" %}
 \.      Click Disconnect on the master device to configure the slave device.
@@ -1476,7 +1434,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 11. Configure the master (controller) device
+**11. Configure the master (controller) device**
 
 {% hint style="info" %}
 \.      Double-click the Master device.
@@ -1522,7 +1480,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 12. Check the communication status.
+**12. Check the communication status.**
 
 {% hint style="info" %}
 \.      Check the communication status in Sycon.net and TP.
@@ -1546,13 +1504,11 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 13. Assign IO blocks after completing the settings.
+**13. Assign IO blocks after completing the settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/3-Specification-PROFINET-IO-Device.md)
-# 1.3.4.3 PROFINET IO Device Specifications
+{% endhint %}## 1.3.4.3 PROFINET IO Device Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1562,7 +1518,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -1608,7 +1564,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -1643,7 +1599,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">
@@ -1665,9 +1621,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Settings-PROFINET-IO-Device.md)
-# 1.3.4.4 PROFINET IO Device Settings
+## 1.3.4.4 PROFINET IO Device Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -1681,13 +1635,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Using the TP, select a PROFINET IO slave in the industrial communication firmware settings and reboot the robot controller.
+**1. Using the TP, select a PROFINET IO slave in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.4.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>)
 
 <br>
 
-##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
 ![[Figure 1.3.4.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_2.png>) 
 
@@ -1699,7 +1653,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Touch the menu to enter the slave settings screen.
+**3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFINET IO Slave]**
 
 ![[Figure 1.3.4.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_3.png>) 
@@ -1708,7 +1662,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Description of each item
+**4. Description of each item**
 
 {% hint style="info" %}
 \.      [Station Name]
@@ -1757,7 +1711,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. After completing the settings, check the communication status according to the procedure below.
+**5. After completing the settings, check the communication status according to the procedure below.**
 
 For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
@@ -1765,13 +1719,11 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-##### 6. Assign IO blocks after completing the communication settings.
+**6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/5-Error-PROFINET-IO.md)
-# 1.3.4.5 PROFINET IO Error Handling
+{% endhint %}## 1.3.4.5 PROFINET IO Error Handling
 
 <br>
 
@@ -1779,15 +1731,13 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 
 
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/README.md)
-# 1.3.5 EtherCAT
+## 1.3.5 EtherCAT
 
 This chapter describes the characteristics of EtherCAT master and slave and how to set them.
 
 <br>
 
-##### EtherCAT Overview
+**EtherCAT Overview**
 
 EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
 
@@ -1795,16 +1745,14 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-##### EtherCAT Master
+**EtherCAT Master**
    * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
 
 <br>
 
-##### EtherCAT Slave
+**EtherCAT Slave**
    * Products that correspond to existing fieldbus slaves and are connected to the EtherCAT master device.
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/1-Specification-EtherCAT-Master.md)
-# 1.3.5.1 EtherCAT Master Specifications
+## 1.3.5.1 EtherCAT Master Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1814,7 +1762,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -1880,7 +1828,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -1915,7 +1863,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">
@@ -1936,9 +1884,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Settings-EtherCAT-Master.md)
-# 1.3.5.2 EtherCAT Master Settings
+<br>## 1.3.5.2 EtherCAT Master Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -1950,13 +1896,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Select the EtherCAT master in the PCI slot settings and reboot the robot controller.
+**1. Select the EtherCAT master in the PCI slot settings and reboot the robot controller.**
 
 ![[Figure 1.3.5.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 <br>
 
@@ -1970,26 +1916,26 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Select the EtherCAT master PCI device by using Sycon.net.
+**3. Select the EtherCAT master PCI device by using Sycon.net.**
 
 ![[Figure 1.3.5.2-3 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_3.png>)
 ![[Figure 1.3.5.2-4 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scan the PCI device and apply the EtherCAT master.
+**4. Scan the PCI device and apply the EtherCAT master.**
 
 ![[Figure 1.3.5.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. Download the settings.
+**5. Download the settings.**
 
 ![[Figure 1.3.5.2-6 EtherCAT Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. Prepare the slave module to be connected to the EtherCAT master.
+**6. Prepare the slave module to be connected to the EtherCAT master.**
    * In this example, we use the M9386 EtherCAT slave from Crevis.
    * Please supply the system power and field power to activate the module.
 
@@ -1997,7 +1943,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 7. Slave device station address
+**7. Slave device station address**
 
 {% hint style="info" %}
 \.      The station address of the EtherCAT slave device is set by the master.
@@ -2005,7 +1951,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 8. Register the slave device XML file.
+**8. Register the slave device XML file.**
 
 {% hint style="info" %}
 \.      An XML file is required to use a device not registered in Sycon.net.
@@ -2038,7 +1984,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 9. Network Scan
+**9. Network Scan**
 
 {% hint style="warning" %}
 \.      **For EtherCAT, the available cable connections and ports are specified.**
@@ -2068,7 +2014,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 10. Configure the slave device.
+**10. Configure the slave device.**
 
 {% hint style="info" %}
 \.      Click Disconnect on the master device to configure the slave device.
@@ -2097,7 +2043,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 11. Configure the master device.
+**11. Configure the master device.**
 
 {% hint style="info" %}
 \.      Double-click the Master device.
@@ -2136,7 +2082,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 12. Check the communication status.
+**12. Check the communication status.**
 
 {% hint style="info" %}
 \.        Check the communication status in Sycon.net and TP.
@@ -2160,13 +2106,11 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 13. Assign IO blocks after completing the settings.
+**13. Assign IO blocks after completing the settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/3-Specification-EtherCAT-Slave.md)
-# 1.3.5.3 EtherCAT Slave Specifications
+{% endhint %}## 1.3.5.3 EtherCAT Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2176,7 +2120,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -2222,7 +2166,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -2257,7 +2201,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">
@@ -2279,9 +2223,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Settings-EtherCAT-Slave.md)
-# 1.3.5.4 EtherCAT Slave Settings
+## 1.3.5.4 EtherCAT Slave Settings
 
 The manual is in preparation.
 
@@ -2292,15 +2234,13 @@ The manual is in preparation.
 
 \.      Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
 {% endhint %}
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md)
-# 1.3.5.5 EtherCAT Cable Wiring (Topology)
+## 1.3.5.5 EtherCAT Cable Wiring (Topology)
 
 <br>
 
 Unlike existing industrial communications, EtherCAT has restrictions in cable wiring and usable Ethernet Ports.
 
-##### 1. Ethernet Port
+**1. Ethernet Port**
 
 {% hint style="info" %}
 \.      When connecting the EtherCAT master and slave, port 0 should be used.
@@ -2324,7 +2264,7 @@ Unlike existing industrial communications, EtherCAT has restrictions in cable wi
 
 <br>
 
-##### 2. Redundancy
+**2. Redundancy**
 
 {% hint style="info" %}
 \.      When using the Redundancy function in the master 
@@ -2337,7 +2277,7 @@ Unlike existing industrial communications, EtherCAT has restrictions in cable wi
 
 <br>
 
-##### 3. Cable wiring error
+**3. Cable wiring error**
 
 
 Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
@@ -2378,15 +2318,13 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 \.      Please check the cable wiring between slaves.
 {% endhint %}
 
-![[Figure 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/README.md)
-# 1.3.6 PROFIBUS-DP
+![[Figure 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)## 1.3.6 PROFIBUS-DP
 
 This chapter describes the characteristics of the PROFIBUS-DP master and slave and how to set them. 
 
 <br>
 
-##### Fieldbus Overview
+**Fieldbus Overview**
 
 Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
 
@@ -2405,9 +2343,7 @@ Also, unlike protocols with non-deterministic response characteristics of genera
 One fieldbus network connects one master device and multiple slave devices.
 The master device searches and manages the entire network and exchanges data with slave devices.
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/1-Specification-PROFIBUS-DP-Master.md)
-# 1.3.6.1 PROFIBUS-DP Master Specifications
+Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.## 1.3.6.1 PROFIBUS-DP Master Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2417,7 +2353,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -2479,7 +2415,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -2496,9 +2432,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Settings-PROFIBUS-DP-Master.md)
-# 1.3.6.2 PROFIBUS-DP Master Settings
+<br>## 1.3.6.2 PROFIBUS-DP Master Settings
 
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
@@ -2511,13 +2445,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Select the PROFIBUS-DP master in the PCI slot settings and reboot the robot controller.
+**1. Select the PROFIBUS-DP master in the PCI slot settings and reboot the robot controller.**
 
 ![[Figure 1.3.6.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 <br>
 
@@ -2531,27 +2465,27 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Select the PROFIBUS-DP master PCI device by using Sycon.net.
+**3. Select the PROFIBUS-DP master PCI device by using Sycon.net.**
 
 ![[Figure 1.3.6.2-3 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_3.png>)
 ![[Figure 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scan the PCI device and apply the PROFIBUS-DP master.
+**4. Scan the PCI device and apply the PROFIBUS-DP master.**
 
 ![[Figure 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>) 
 
 <br>
 
 
-##### 5. Download the settings.
+**5. Download the settings.**
 
 ![[Figure 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. Prepare the slave module to be connected to the PROFIBUS-DP Master.
+**6. Prepare the slave module to be connected to the PROFIBUS-DP Master.**
    * In this example, we use the GN-9222 PROFIBUS-DP slave from Crevis.
    * Please supply the system power and field power to activate the module.
 
@@ -2560,7 +2494,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 7. Set the slave device
+**7. Set the slave device**
 
 {% hint style="info" %}
 \.      Set the node number and termination of the PROFIBUS-DP slave device.
@@ -2577,7 +2511,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 8. Register the slave device GSD file.
+**8. Register the slave device GSD file.**
 
 {% hint style="info" %}
 \.      A GSD file is required to use a device not registered in Sycon.net.
@@ -2605,7 +2539,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 9. Network Scan
+**9. Network Scan**
 
 {% hint style="warning" %}
 \.      **When performing the Network Scan function, be sure to check the following.**
@@ -2636,7 +2570,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 10. Configure the slave device
+**10. Configure the slave device**
 
 {% hint style="info" %}
 \.      Click Disconnect on the master device to configure the slave device.
@@ -2669,7 +2603,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 11. Configure the master device.
+**11. Configure the master device.**
 
 {% hint style="info" %}
 \.      Double-click the Master device.
@@ -2713,7 +2647,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 12. Check the communication status.
+**12. Check the communication status.**
 
 {% hint style="info" %}
 \.        Check the communication status in Sycon.net and TP.
@@ -2737,14 +2671,12 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 13. Assign IO blocks after completing the settings.
+**13. Assign IO blocks after completing the settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/3-Specification-PROFIBUS-DP-Slave.md)
-# 1.3.6.3 PROFIBUS-DP Slave Specifications
+## 1.3.6.3 PROFIBUS-DP Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2754,7 +2686,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -2800,7 +2732,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -2819,9 +2751,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Settings-PROFIBUS-DP-Slave.md)
-# 1.3.6.4 PROFIBUS-DP Slave Settings
+## 1.3.6.4 PROFIBUS-DP Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -2835,13 +2765,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Using the TP, select a PROFIBUS-DP slave in the industrial communication firmware settings and reboot the robot controller.
+**1. Using the TP, select a PROFIBUS-DP slave in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.6.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
 ![[Figure 1.3.6.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_2.png>) 
 
@@ -2853,7 +2783,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Touch the menu to enter the slave settings screen.
+**3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFIBUS-DP Slave]**
 
 ![[Figure 1.3.6.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_3.png>) 
@@ -2862,7 +2792,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Description of each item
+**4. Description of each item**
 
 {% hint style="info" %}
 \.      [Station Address]
@@ -2910,7 +2840,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. After completing the settings, check the communication status according to the procedure below.
+**5. After completing the settings, check the communication status according to the procedure below.**
 
 For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
@@ -2918,26 +2848,22 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-##### 6. Assign IO blocks after completing the communication settings.
+**6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/5-Error-PROFIBUS-DP.md)
-# 1.3.6.5 PROFIBUS-DP Error Handling
+{% endhint %}## 1.3.6.5 PROFIBUS-DP Error Handling
 
 <br>
 
 Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/README.md)
-# 1.3.7 DeviceNet
+## 1.3.7 DeviceNet
 
 This chapter describes the characteristics of the DeviceNet master and slave and how to set them. 
 
 <br>
 
-##### Fieldbus Overview
+**Fieldbus Overview**
 
 Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
 
@@ -2956,9 +2882,7 @@ Also, unlike protocols with non-deterministic response characteristics of genera
 One fieldbus network connects one master device and multiple slave devices.
 The master device searches and manages the entire network and exchanges data with slave devices.
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/1-Specification-DeviceNet-Master.md)
-# 1.3.7.1 DeviceNet Master Specifications
+Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.## 1.3.7.1 DeviceNet Master Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2968,7 +2892,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -3030,7 +2954,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -3047,9 +2971,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Settings-DeviceNet-Master.md)
-# 1.3.7.2 DeviceNet Master Settings
+<br>## 1.3.7.2 DeviceNet Master Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -3069,13 +2991,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Select the DeviceNet master in the PCI slot settings and reboot the robot controller.
+**1. Select the DeviceNet master in the PCI slot settings and reboot the robot controller.**
 
 ![[Figure 1.3.7.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>)
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 <br>
 
@@ -3089,20 +3011,20 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Select the DeviceNet master PCI device by using Sycon.net.
+**3. Select the DeviceNet master PCI device by using Sycon.net.**
 
 ![[Figure 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
 ![[Figure 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. Scan the PCI device and apply the DeviceNet master.
+**4. Scan the PCI device and apply the DeviceNet master.**
 
 ![[Figure 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. Set the communication speed.
+**5. Set the communication speed.**
 
 {% hint style="warning" %}
 \.      If the communication speed differs between the master and the slave, the Network Scan function does not work normally.
@@ -3112,13 +3034,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 6. Download the settings.
+**6. Download the settings.**
 
 ![[Figure 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
 
 <br>
 
-##### 7. Prepare the slave module to be connected to the DeviceNet master.
+**7. Prepare the slave module to be connected to the DeviceNet master.**
    * In this example, we use the NA-9211 DeviceNet slave from Crevis.
    * Please supply the system power and field power to activate the module.
 
@@ -3126,7 +3048,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 8. Set the slave device.
+**8. Set the slave device.**
 
 {% hint style="info" %}
 \.      Set the MAC ID, communication speed, and termination resistor of the DeviceNet slave device.
@@ -3148,7 +3070,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 9. Register the slave device EDS file.
+**9. Register the slave device EDS file.**
 
 {% hint style="info" %}
 \.      An EDS file is required to use a device not registered in Sycon.net.
@@ -3174,7 +3096,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 10. Network Scan
+**10. Network Scan**
 
 {% hint style="warning" %}
 \.      **When performing the Network Scan function, be sure to check the following.**
@@ -3210,7 +3132,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 11. Configure the slave device
+**11. Configure the slave device**
 
 {% hint style="info" %}
 \.      Click Disconnect on the master device to configure the slave device.
@@ -3300,7 +3222,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 12. Configure the master device
+**12. Configure the master device**
 
 {% hint style="info" %}
 \.      Double-click the Master device.
@@ -3336,7 +3258,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 13. Check the communication status.
+**13. Check the communication status.**
 
 {% hint style="info" %}
 \.        Check the communication status in Sycon.net and TP.
@@ -3360,13 +3282,11 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 14. Assign IO blocks after completing the communication settings.
+**14. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md)
-# 1.3.7.3 DeviceNet Slave Specifications
+{% endhint %}## 1.3.7.3 DeviceNet Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -3376,7 +3296,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -3422,7 +3342,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -3441,9 +3361,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Settings-DeviceNet-Slave.md)
-# 1.3.7.4 DeviceNet Slave Settings
+## 1.3.7.4 DeviceNet Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -3465,13 +3383,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Using the TP, select a DeviceNet slave in the industrial communication firmware settings and reboot the robot controller.
+**1. Using the TP, select a DeviceNet slave in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.7.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
 ![[Figure 1.3.7.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_2.png>) 
 
@@ -3483,7 +3401,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Touch the menu to enter the slave settings screen.
+**3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > DeviceNet Slave]**
 
 ![[Figure 1.3.7.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
@@ -3492,7 +3410,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Description of each item
+**4. Description of each item**
 
 {% hint style="info" %}
 \.      [Station Address = Mac ID]
@@ -3521,7 +3439,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. After completing the settings, check the communication status according to the procedure below.
+**5. After completing the settings, check the communication status according to the procedure below.**
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
@@ -3529,13 +3447,11 @@ For the procedure to check the industrial communication status on the TP, please
 
 <br>
 
-##### 6. Assign IO blocks after completing the communication settings.
+**6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md)
-# 1.3.7.5 DeviceNet Error Handling
+{% endhint %}## 1.3.7.5 DeviceNet Error Handling
 
 <br>
 
@@ -3543,7 +3459,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 1. DeviceNet termination resistor
+**1. DeviceNet termination resistor**
 
 {% hint style="info" %}
 \.      A resistor should be added at the termination when connecting the DeviceNet cable.
@@ -3567,7 +3483,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 2. Communication Speed
+**2. Communication Speed**
 
 {% hint style="info" %}
 \.      If the communication speed differs between the DeviceNet master and slave, the Network Scan function may not work.
@@ -3579,7 +3495,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 3. DeviceNet ERROR
+**3. DeviceNet ERROR**
 
 {% hint style="info" %}
 \.      If a 24V power is not supplied to the DeviceNet cable, the following error will appear.
@@ -3587,14 +3503,12 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 \.      Please check the 24V power supply.
 {% endhint %}
 
-![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-DeviceNet-Object.md)
-# 1.3.7.6 DeviceNet Object
+![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) ## 1.3.7.6 DeviceNet Object
 
 
 <br>
 
-##### 1. Object
+**1. Object**
 
 
 The inside of the DeviceNet device is composed of a collection of objects. Each object represents a specific component inside the device.
@@ -3656,16 +3570,14 @@ Each Object, Instance, and Attribute inside has different access permissions.
 \.      Attribute All: Can access all attributes in Instance at once.
 {% endhint %}
 
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/README.md)
-# 1.3.8 CC-Link
+<br>## 1.3.8 CC-Link
 
 This chapter describes the characteristics of CC-Link slaves and how to set them. 
 
 
 <br>
 
-##### Fieldbus Overview
+**Fieldbus Overview**
 
 Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
 
@@ -3684,9 +3596,7 @@ Also, unlike protocols with non-deterministic response characteristics of genera
 One fieldbus network connects one master device and multiple slave devices.
 The master device searches and manages the entire network and exchanges data with slave devices.
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)
-# 1.3.8.1 CC-Link Slave Specifications
+Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.## 1.3.8.1 CC-Link Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -3696,7 +3606,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <br>
 <table class="tg">
@@ -3775,7 +3685,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### CC-Link IO Mapping
+**CC-Link IO Mapping**
 
 <br>
 
@@ -3836,9 +3746,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 ![[Figure 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_5.png>)
 
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/2-Settings-CC-Link-Slave.md)
-# 1.3.8.2 CC-Link Slave Settings
+<br>## 1.3.8.2 CC-Link Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -3852,13 +3760,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Using the TP, select CC-Link slave in the industrial communication firmware settings and reboot the robot controller.
+**1. Using the TP, select CC-Link slave in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.8.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
 ![[Figure 1.3.8.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_2.png>) 
 
@@ -3870,7 +3778,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Touch the menu to enter the slave settings screen.
+**3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > CC-Link Slave]**
 
 ![[Figure 1.3.8.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>) 
@@ -3879,7 +3787,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Description of each item
+**4. Description of each item**
 
 {% hint style="info" %}
 \.      [Station Address]
@@ -3931,19 +3839,17 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. After completing the settings, check the communication status according to the procedure below.
+**5. After completing the settings, check the communication status according to the procedure below.**
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
 <br>
 
-##### 6. Assign IO blocks after completing the communication settings.
+**6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
-# 1.3.8.3 CC-Link Slave Error Handling
+{% endhint %}## 1.3.8.3 CC-Link Slave Error Handling
 
 <br>
 
@@ -3951,7 +3857,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 1. CC-Link termination resistor
+**1. CC-Link termination resistor**
 
 {% hint style="info" %}
 \.      A resistor should be added at the termination when connecting the CC-Link cable.
@@ -3969,23 +3875,21 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 
 
-##### 2. CC-Link ERROR
+**2. CC-Link ERROR**
 
 {% hint style="info" %}
 \.      A 24V power supply to the CC-Link cable is required for communication connection.
 
 \.      If communication is not connected, please check the 24V power supply.
 {% endhint %}
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/README.md)
-# 1.3.9 CC-Link IE Field
+## 1.3.9 CC-Link IE Field
 
 This chapter describes the characteristics of CC-Link IE field slaves and how to set them. 
 
 
 <br>
 
-##### Fieldbus Overview
+**Fieldbus Overview**
 
 Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
 
@@ -4005,9 +3909,7 @@ One fieldbus network connects one master device and multiple slave devices.
 The master device searches and manages the entire network and exchanges data with slave devices.
 
 Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/1-Specification-CC-Link-IE-Field-Slave.md)
-# 1.3.9.1 CC-Link IE Field Slave Specifications
+## 1.3.9.1 CC-Link IE Field Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -4017,7 +3919,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <br>
 <table class="tg">
@@ -4070,7 +3972,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -4101,7 +4003,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">
@@ -4126,22 +4028,20 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/2-Settings-CC-Link-IE-Field-Slave.md)
-# 1.3.9.2 CC-Link IE Field Slave Settings
+<br>## 1.3.9.2 CC-Link IE Field Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 
 <br>
 
-##### 1. Using the TP, select a CC-Link IE Field slave in the industrial communication firmware settings and reboot the robot controller.
+**1. Using the TP, select a CC-Link IE Field slave in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.9.2-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
 ![[Figure 1.3.9.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_2.png>) 
 
@@ -4153,7 +4053,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Touch the menu to enter the slave settings screen.
+**3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > CC-Link IE Field Slave]**
 
 ![[Figure 1.3.9.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_3.png>) 
@@ -4162,7 +4062,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Description of each item
+**4. Description of each item**
 
 {% hint style="info" %}
 \.      [Network Number]
@@ -4214,13 +4114,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. After completing the settings, check the communication status according to the procedure below.
+**5. After completing the settings, check the communication status according to the procedure below.**
 
 For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
 <br>
 
-##### 6. Assign IO blocks after completing the communication settings.
+**6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
@@ -4228,16 +4128,12 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) 
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/3-Error-CC-Link-IE-Field.md)
-# 1.3.9.3 CC-Link IE Field Slave Error Handling
+![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) ## 1.3.9.3 CC-Link IE Field Slave Error Handling
 
 <br>
 
 Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/README.md)
-# 1.3.10 EtherNet/IP - Standard Remote IO Connection
+## 1.3.10 EtherNet/IP - Standard Remote IO Connection
 
 <br>
 
@@ -4252,27 +4148,25 @@ This chapter explains how to connect several standard Remote IO modules selected
 \.      Remote IO module uses the M9289 EtherNet/IP network adapter from Crevis.
 {% endhint %}
 
-
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)
-# 1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings
+## 1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 <br>
 
-##### 1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.
+**1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.10.1-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
 
 ![[Figure 1.3.10.1-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
-##### 3. Connect the PCI and Remote IO cables, etc. for communication and check the status.
+**3. Connect the PCI and Remote IO cables, etc. for communication and check the status.**
 
 ![[Figure 1.3.10.1-3 Hardware Connection]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
@@ -4300,7 +4194,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Touch the menu to enter the slave settings screen.
+**4. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherNet/IP Remote IO Setting]**
 
 ![[Figure 1.3.10.1-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>)
@@ -4340,7 +4234,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. Reboot the controller after completing the settings.
+**5. Reboot the controller after completing the settings.**
 
 ![[Figure 1.3.10.1-7 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>)
 
@@ -4352,7 +4246,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 6. After confirming that the setting values are reflected, check the communication status.
+**6. After confirming that the setting values are reflected, check the communication status.**
 
 ![[Figure 1.3.10.1-9 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>)
 
@@ -4374,13 +4268,11 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-##### 7. Assign IO blocks after completing the communication settings.
+**7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)
-# 1.3.10.2 Remote IO IP Address Settings
+{% endhint %}## 1.3.10.2 Remote IO IP Address Settings
 
 This is how to set the IP address of the M9289 EtherNet/IP network adapter from Crevis.
 
@@ -4394,19 +4286,19 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 
 <br>
 
-##### 1. Connect the PC and Remote IO directly using a LAN cable.
+**1. Connect the PC and Remote IO directly using a LAN cable.**
 
 ![[Figure 1.3.10.2-1 LAN Connection]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_1.png>)  
 
 <br>
 
-##### 2. Change only DIP switch 9 of the Remote IO Adapter to ON.
+**2. Change only DIP switch 9 of the Remote IO Adapter to ON.**
 
 ![[Figure 1.3.10.2-2 DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_2.png>)  
 
 <br>
 
-##### 3. Execute the Bootpsvr.exe program.
+**3. Execute the Bootpsvr.exe program.**
    * This program is provided by Crevis. (Download and install IO Guide Pro from the website.)
 
 ![[Figure 1.3.10.2-3 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_3.png>)  
@@ -4424,20 +4316,20 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 <br>
 
 
-##### 4. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.
+**4. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.**
 
 ![[Figure 1.3.10.2-6 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_6.png>) 
 
 <br>
 
-##### 5. Select the device and set the IP.
+**5. Select the device and set the IP.**
 
 ![[Figure 1.3.10.2-7 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_7.png>)
 ![[Figure 1.3.10.2-8 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_8.png>) 
 
 <br>
 
-##### 6. After completing the IP setting, turn all DIP switches of the adapter to OFF and reboot the device.
+**6. After completing the IP setting, turn all DIP switches of the adapter to OFF and reboot the device.**
 
 {% hint style="info" %}
 \.      Be sure to check the DIP switch status and whether the adapter is rebooted.
@@ -4447,20 +4339,18 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 
 <br>
 
-##### 7. Use the ping test, etc. on the PC to verify the IP.
+**7. Use the ping test, etc. on the PC to verify the IP.**
 
 ![[Figure 1.3.10.2-10 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_10.png>) 
 
 <br>
 
-##### 8. If the IP address has been changed successfully, proceed with settings.
+**8. If the IP address has been changed successfully, proceed with settings.**
 
 {% hint style="info" %}
 \.      Please proceed with the settings according to the "[**1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" procedure.
 {% endhint %}
-
-[__SOURCE](1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)
-# 1.4 CIFX PCI Communication Monitoring
+## 1.4 CIFX PCI Communication Monitoring
 
 <br>
 
@@ -4468,7 +4358,7 @@ After setting the communication according to the procedures of “[**1.2 CIFX PC
 
 <br>
 
-#### 1. Industrial Communication Monitoring
+**1. Industrial Communication Monitoring**
 
 <br>
 
@@ -4507,13 +4397,9 @@ You can enter the screens by touching **\[Service > 19: Industrial Communication
 
 <br>
 
-#### 2. Industrial Communication Node Monitoring
+**2. Industrial Communication Node Monitoring**
 
 <br> 
-
-#### Supported version: TBD 
-
-<br>
 
 Click the Node Statue button at the bottom of the monitoring screen to monitor the status of devices connected to the master protocol
 
@@ -4535,9 +4421,7 @@ Click the Node Statue button at the bottom of the monitoring screen to monitor t
 
 <br>
 
-![[그림 1.4-3 Industrial Communication Monitoring]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_3.png>)
-[__SOURCE](1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)
-# 1.4.1 ERROR Code
+![[그림 1.4-3 Industrial Communication Monitoring]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_3.png>)## 1.4.1 ERROR Code
 
 <br>
 
@@ -4623,13 +4507,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 
+## 2. EtherNet/IP Adapter
 
-[__SOURCE](2-EtherNet-IP-Adapter/README.md)
-# 2. EtherNet/IP Adapter
+<br>
 
-Description of the built-in EtherNet/IP adapter.<br>
+Description of the built-in EtherNet/IP adapter.
 
-### Terminology
+<br>
+
+**Terminology**
+
+<br>
+
 |Abbreviation|Description|
 |---------------|------------------------------|
 |Adapter|Device that collects output data from the EtherNet/IP scanner and transmits the input data|
@@ -4639,35 +4528,53 @@ Description of the built-in EtherNet/IP adapter.<br>
 |PLC|Programmable logic controller|
 |T2O|Target to Originator (Adapter -> Scanner)|
 |O2T|Originator to Target (Scanner -> Adapter)|
-
-[__SOURCE](2-EtherNet-IP-Adapter/1-Intro.md)
 ## 2.1 EtherNet/IP Adapter
 
-### 2.1.1 Introduction
+<br>
+
+**2.1.1 Introduction**
+
+<br>
+
 The Robot controller provides various types of industrial communication functions. Among them, the EtherNet/IP adapter is a function that does not require additional hardware. To use this function, a separate software license should be purchased. For license purchase, please contact the HD Hyundai Robotics Parts Business Team. <br>
 
-### 2.1.2 Product Specifications
+<br>
+
+**2.1.2 Product Specifications**
+
+<br>
+
 |Item|Description|
 |------|---|
 |Netowork Type|EtherNet/IP|
 |Speed|10/100 Mbps, 1Gbps|
 |Input Size Range(bytes)|0 - 240|
 |Output Size Range(bytes)|0 - 240|
-|Transport Class|Class 1 I/O implicit|
-[__SOURCE](2-EtherNet-IP-Adapter/2-Network.md)
-## 2.2 EtherNet/IP Adapter Network Settings
+|Transport Class|Class 1 I/O implicit|## 2.2 EtherNet/IP Adapter Network Settings
 
-### 2.2.1 Main Module
+<br>
+
+**2.2.1 Main Module**
+
+<br>
+
 The LAN ports that can connect with the EtherNet/IP adapter are LAN1/LAN2/LAN3.<br>
 
 ![MainModule.png](../_assets/2-EtherNet-IP-Adapter/Network/hi6com.png)<br>
-*[Figure 2.2.1 Main Module]*<br>
+*[Figure 2.2.1 Main Module]*
 
-### 2.2.2 Network Settings
+<br>
+
+**2.2.2 Network Settings**
+
+<br>
+
 Select a LAN port to connect EtherNet/IP communication and then check the settings of the LAN port through the TP screen as shown below and change the settings as needed.<br>
 
 ![networkConfig.png](../_assets/2-EtherNet-IP-Adapter/Network/networkConfig.png)<br>
-*[Figure 2.2.2 Network Settings]*<br>
+*[Figure 2.2.2 Network Settings]*
+
+<br>
 
 {% hint style="info" %}
 \.      The subnet portion of each IP address of LAN1/LAN2/LAN3 should be set differently.
@@ -4675,27 +4582,44 @@ Select a LAN port to connect EtherNet/IP communication and then check the settin
 \.      After changing the settings, reboot the robot controller.
 {% endhint %}
 
-### 2.2.3 Connection Status Check
+<br>
+
+**2.2.3 Connection Status Check**
+
+<br>
+
 The status of the physical connection with the EtherNet/IP scanner can be checked according to the status of the Link/Act LED of the LAN port.<br>
 
 ![lanPort.png](../_assets/2-EtherNet-IP-Adapter/Network/lanPort.png)<br>
-*[Figure 2.2.3 LAN Port]*<br>
+*[Figure 2.2.3 LAN Port]*
+
+<br>
 
 Connect the EtherNet/IP adapter and scanner with a LAN cable and then check the LED status. If the LED on the left does not light up or blink, it means there is a problem with the cable or adapter or scanner device. Please check the connection status of the cable or device.<br>
 
-### 2.2.4 Network Configuration
-It is recommended to configure the EtherNet/IP Network and Factory Network as separate networks. As shown in the figure below, if you configure the EtherNet/IP Network and Factory Network as one network, they will share one transmission medium, increasing the network load. Therefore, it is recommended to use a separately configured network for the EtherNet/IP Network if possible.<br>
+<br>
+
+**2.2.4 Network Configuration**
+
+<br>
+
+It is recommended to configure the EtherNet/IP Network and Factory Network as separate networks. As shown in the figure below, if you configure the EtherNet/IP Network and Factory Network as one network, they will share one transmission medium, increasing the network load. Therefore, it is recommended to use a separately configured network for the EtherNet/IP Network if possible.
+
+<br>
 
 ![NG_Network.png](../_assets/2-EtherNet-IP-Adapter/Network/NG_Network.png)<br>
 *[Figure 2.2.4 Non-separated Network]*<br>
 
 ![Good_Network.png](../_assets/2-EtherNet-IP-Adapter/Network/Good_Network.png)<br>
 *[Figure 2.2.5 Separated Network]*<br>
-
-[__SOURCE](2-EtherNet-IP-Adapter/3-AdapterSpec.md)
 ## 2.3 EtherNet/IP Adapter
 
-### 2.3.1 EtherNet/IP Adapter Specifications
+<br>
+
+**2.3.1 EtherNet/IP Adapter Specifications**
+
+<br>
+
 |Item|Description|
 |------|---|
 |Device Type|General Purpose Discrete I/O (7)|
@@ -4705,10 +4629,17 @@ It is recommended to configure the EtherNet/IP Network and Factory Network as se
 |Output Size Range(bytes)|0 - 240|
 |RPI Range (ms)|5 – 3000|<br>
 
-### 2.3.2 EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant
+<br>
+
+**2.3.2 EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant**
+
+<br>
+
 On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP Adapter"<br>
 ![Config.PNG](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
-*[Figure 2.3.1 Settings]*<br>
+*[Figure 2.3.1 Settings]*
+
+<br>
 
 **[Network]**
 -	Function Use: Select whether to use the Ethernet/IP adapter.
@@ -4724,9 +4655,9 @@ On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial 
 - Error: Displays the alarm or warning status of the Ethernet/IP adapter (On: Alarm/warning status. Off: Normal).
 - Version: Displays the Ethernet/IP adapter S/W version information.
 - Error Code: Displays the alarm or warning code when an alarm or warning occurs.
-
-[__SOURCE](2-EtherNet-IP-Adapter/4-Error.md)
 ## 2.4 EtherNet/IP Adapter Alarm Codes
+
+<br>
 
 |Code|Message|
 |------|---|
@@ -4757,13 +4688,19 @@ On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial 
 
 
 
-
-[__SOURCE](2-EtherNet-IP-Adapter/5-License.md)
 ## 2.5 EtherNet/IP Adapter License
-### 2.5.1 License Activation
+
+<br>
+
+**2.5.1 License Activation**
+
+<br>
+
 On the initial screen, navigate to "System" > "2: Control Parameters" > "10: License Key Registration for Optional Functions"<br>
 ![license.png](../_assets/2-EtherNet-IP-Adapter/License/license.png)<br>
-*[Figure 2.5.1-1 License Activation]*<br>
+*[Figure 2.5.1-1 License Activation]*
+
+<br>
 
 1. Select "Valid" for the EtherNet/IP adapter from the license list.
 2. Deliver the system serial number to the license administrator
@@ -4771,35 +4708,52 @@ On the initial screen, navigate to "System" > "2: Control Parameters" > "10: Lic
 4. License Key [XXXXXX] ==>OK Confirm
 5. Confirm that the warning message about no license has disappeared when entering the Ethernet/IP adapter menu.<br>
 ~ Reference<br>
+
+<br>
+
 ![license_ng.png](../_assets/2-EtherNet-IP-Adapter/License/license_ng.png)<br>
 *[Figure 2.5.1-2 Message displayed when there is no license activated]*<br>
 
 
-
-[__SOURCE](2-EtherNet-IP-Adapter/6-Connect-With-Scanner/README.md)
 ## 2.6 Connecting with EtherNet/IP Scanner
 
-This chapter explains how to connect the EtherNet/IP scanner with the EtherNet/IP adapter. <br>
-[__SOURCE](2-EtherNet-IP-Adapter/6-Connect-With-Scanner/1-Connect-With-LS.md)
-### 2.6.1 Connection with LS ELECTRIC PLC
+<br>
+
+This chapter explains how to connect the EtherNet/IP scanner with the EtherNet/IP adapter. <br>## 2.6.1 Connection with LS ELECTRIC PLC
+
+<br>
 
 This section explains how to connect the LS ELECTRIC PLC with EtherNet/IP.  
 The PLC and communication module used below are as follows.  
 (PLC: XGI-CPUS, Communication Module: XGL-EFMTB)
 
-#### 2.6.1.1 XG5000 Running
+<br>
+
+**2.6.1.1 XG5000 Running**
+
+<br>
+
 ![xg5000.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/xg5000.png) <br>
 *[Figure 2.6.1.1 XG5000 Running]*<br>
 For downloading the XG5000 program and detailed usage methods, please refer to the LS ELECTRIC website.
 
-#### 2.6.1.2 EDS File Registration
+<br>
+
+**2.6.1.2 EDS File Registration**
+
+<br>
+
 Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi6_EIP_240402.eds."<br>
 Confirm EDS file registration as shown in the figure below.<br>
 ![eds.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/eds.png)<br>
-*[Figure 2.6.1.2 EDS File Registration]*<br>
+*[Figure 2.6.1.2 EDS File Registration]*
 
+<br>
 
-#### 2.6.1.3 Device Connection
+**2.6.1.3 Device Connection**
+
+<br>
+
 [1] Create a project.<br>
 ![newProject_1.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_1.png)<br>
 *[Figure 2.6.1.3 Creating a New Project]*<br>
@@ -4822,7 +4776,12 @@ Double-click XGL-EFMT shown in the left tab in the figure below.<br>
 - To use the two LAN ports of the PLC as a relay function, select the "Relay" checkbox.  
 - Change the RAPIEnet setting to Disable.
 
-#### 2.6.1.4 Online Connection Settings
+<br>
+
+**2.6.1.4 Online Connection Settings**
+
+<br>
+
 [1] Connect the PLC with a USB cable.<br>
 ![newProject_7.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_7.png)<br>
 *[Figure 2.6.1.8 Online Connection Settings 1]*<br>
@@ -4831,7 +4790,12 @@ Double-click XGL-EFMT shown in the left tab in the figure below.<br>
 ![newProject_8.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_8.png)<br>
 *[Figure 2.6.1.9 Online Connection Settings 2]*<br>
 
-#### 2.6.1.5 Auto Scan
+<br>
+
+**2.6.1.5 Auto Scan**
+
+<br>
+
 [1] Auto Scan is possible when connected to the PLC.<br>
 If the current state is not online, click Menu > Online > Connect to change to online status.<br>
 
@@ -4861,7 +4825,12 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 ![auto7.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto7.png)<br>
 *[Figure 2.6.1.16 Auto Scan7]*<br>
 
-#### 2.6.1.6 Program Variable Registration
+<br>
+
+**2.6.1.6 Program Variable Registration**
+
+<br>
+
 [1] Scan Program > NewProgram > Local Variables (double-click)<br>
 ![variable1.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable1.png)<br>
 *[Figure 2.6.1.17 Variable Registration 1]*<br>
@@ -4870,7 +4839,12 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 ![variable2.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable2.png)<br>
 *[Figure 2.6.1.18 Variable Registration 2]*<br>
 
-#### 2.6.1.7 EtherNet/IP Adapter Settings
+<br>
+
+**2.6.1.7 EtherNet/IP Adapter Settings**
+
+<br>
+
 [1] Double-click EB01 (Hi6 EtherNet/IP adapter) in the list on the left.<br>
 
 [2] Press the EIP detailed settings button.<br>
@@ -4897,13 +4871,13 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 
 <br>
 
-##### 2.6.1.8 Assignment of IO Blocks after Completion of Communication Settings
+**2.6.1.8 Assignment of IO Blocks after Completion of Communication Settings**
+
+<br>
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../4-io-block-allocation.md)").**
-{% endhint %}
-[__SOURCE](3-ethercat-master-io/README.md)
-# 3. EtherCAT Master IO
+{% endhint %}## 3. EtherCAT Master IO
 
 <br>
 
@@ -4911,7 +4885,7 @@ This chapter explains how to connect several standard Remote IO modules selected
 
 <br>
 
-##### EtherCAT Overview
+**EtherCAT Overview**
 
 EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
 
@@ -4919,7 +4893,7 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-##### EtherCAT Master IO
+**EtherCAT Master IO**
    * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
 
 <br>
@@ -4932,13 +4906,11 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 {% endhint %}
 
 
-
-[__SOURCE](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
-# 3.1 EtherCAT Master IO Settings
+## 3.1 EtherCAT Master IO Settings
 
 <br>
 
-##### 1. Touch the menu to enter the settings screen. 
+**1. Touch the menu to enter the settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
 
 <br>
@@ -4951,7 +4923,7 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 \.      Check the selected controller LAN port number on the EtherCAT master settings screen. 
 {% endhint %}
 
-##### 2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.
+**2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.**
 
 <br>
 
@@ -4970,7 +4942,7 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-##### 3. Select "ON" for the EtherCAT master usage in the settings menu.
+**3. Select "ON" for the EtherCAT master usage in the settings menu.**
 
 <br>
 
@@ -4986,7 +4958,7 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-##### 4. Select the same configuration as the connected Remote IO module from the slave list in the settings menu.
+**4. Select the same configuration as the connected Remote IO module from the slave list in the settings menu.**
 
 <br>
 
@@ -5025,7 +4997,7 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-##### 5. Reboot the controller after completing the settings.
+**5. Reboot the controller after completing the settings.**
 
 ![[Figure 3.1-7 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
 
@@ -5041,7 +5013,7 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-##### 6. After confirming that the setting values are reflected, check the communication status.
+**6. After confirming that the setting values are reflected, check the communication status.**
 
 ![[Figure 3.1-9 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
 
@@ -5069,15 +5041,13 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-##### 7. Assign IO blocks after completing the communication settings.
+**7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../4-io-block-allocation.md)").**
 {% endhint %}
 
-
-[__SOURCE](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
-# 3.2 EtherCAT Master IO Error Handling
+## 3.2 EtherCAT Master IO Error Handling
 
 This is a method for resolving major errors that may occur during EtherCAT master IO settings.
 
@@ -5094,9 +5064,7 @@ This is a method for resolving major errors that may occur during EtherCAT maste
 {% endhint %}
 
 <br>
-
-[__SOURCE](4-pnio/README.md)
-# 4. PROFINET I/O (Hi7)
+## 4. PROFINET I/O (Hi7)
 
 <br>
 
@@ -5108,14 +5076,13 @@ This chapter explains how to connect the robot controller's internal input/outpu
 {% hint style="info" %}
 The function of PROFINET I/O (BD671) is supported by the Hi7 robot controller.<br>
 For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2.0 link](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/korean/3-safety-function/3-safety-function/4-safety-io/4-profisafe))
-{% endhint %}
-[__SOURCE](4-pnio/1-pnio.md)
+{% endhint %}## 4.1 PROFINET ?
 
-## 1. PROFINET?
+ **1. PROFINET**
 - PROFINET is an Ethernet-based communication standard for industrial automation.
 - It supports real-time data exchange between controllers (PLCs, robot controllers, etc.) and distributed I/O devices (drives, sensors, modules, etc.).
 
-## 2. PROFINET Specifications
+**2. PROFINET Specifications**
 - Digital input: 50, 120, and 240 bytes (select one type of byte count)
 - Digital output: 50, 120, and 240 bytes (select one type of byte count)
 - Safety I/O: 8/8 bytes (activated or deactivated)
@@ -5125,7 +5092,7 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 - Netload Class: II
 - Optional Feature: Legacy, MRP
 
-## 3. PROFINET Configuration Procedure
+**3. PROFINET Configuration Procedure**
 
 1) Connection of BD671, PROFINET controller and Hi7 Com
 2) GSDML file registration (TIA portal)
@@ -5134,9 +5101,9 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 5) PROFINET communication verification
 6) PROFINET I/O signal assignment (FB block settings)
 
-### 3.1 Connection of BD671, F-Host and Hi7 Com
+**3.1 Connection of BD671, F-Host and Hi7 Com**
 
-#### 3.1.1 LAN Cable Connection
+**3.1.1 LAN Cable Connection**
 1) Connect the PROFINET controller and BD671 using a LAN cable.
 2) Check if the Link LED is blinking.
 3) Connect the Hi7 COM’s LAN3 connector and BD671 using a LAN cable.
@@ -5144,7 +5111,7 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 
 ![](../_assets/4-pnio/profisafe_connect.png)
 
-#### 3.1.2 Hi7 Com Connection Settings
+**3.1.2 Hi7 Com Connection Settings**
 1) Navigate to the menu as follows: System -> Control Parameters -> Industrial Communication -> EtherCAT Master Settings
 2) Configure as shown below.
 - EtherCAT Master : ON
@@ -5158,7 +5125,7 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 ![](../_assets/4-pnio/EC_master_setting2.png)
 
 
-### 3.2 GSDML File Registration (TIA portal)
+**3.2 GSDML File Registration (TIA portal)**
 1) Run the TIA portal.
 2) Navigate as shown on the right in the menu: [Options] → [Manage general station description file (GSD)].
 3) Click the "…" button and set the directory where the GSDML file is located.
@@ -5166,7 +5133,7 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 5) Check if it has been registered as a new device in the hardware catalog. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
-### 3.3 PROFINET Controller Settings (TIA portal)
+**3.3 PROFINET Controller Settings (TIA portal)**
 1) Run the TIA portal and create a new project.
 2) Double-click the Device & Network section to open it.<br>
 ![](../_assets/4-pnio/profisafe_device_network.png)
@@ -5189,7 +5156,7 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 14) Set "PROFINET device name" to "hd-hrc-0" and save.<br>
 ![](../_assets/4-pnio/profisafe_device_network4.png)
 
-### 3.4 Hi7 Settings (TP UI)
+**3.4 Hi7 Settings (TP UI)**
 1) Set the parameters to the values below, which are the same as those set in the PNIO controller.
 - PROFINET IO Device Name : hd-hrc-0
 - Slot 1 : Digital Input : 240
@@ -5199,21 +5166,21 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 2) Press the "Apply" button.<br>
 ![](../_assets/4-pnio/4_1_profinet_config.png)
 
-### 3.5 PROFINET Communication Verification
-### 3.5.1 Ladder Program (TIA portal)
+**3.5 PROFINET Communication Verification**
+**3.5.1 Ladder Program (TIA portal)**
 1) In the Device Overview tab, create a ladder program as shown below and download it to the controller.<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder.png)
 2) After downloading, check if a green checkbox is displayed on the Distribution I/O screen.<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
-### 3.5.2 TP Screen
+**3.5.2 TP Screen**
 In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Status.<br>
 ![](../_assets/4-pnio/5_2_pnio_status.png)
 - Check the status information of each slot.
 - Check if the counter continuously increases.
 
 
-### 3.6 PROFINET I/O Signal Assignment (FB block settings)
+**3.6 PROFINET I/O Signal Assignment (FB block settings)**
 1) Navigate to System → Control Parameters → Input/Output Signal Settings → FB Block Assignment
 2) Change the block settings to PROFINET I/O as many as needed (up to two).
  (The maximum PROFINET I/O size is 240 bytes and the individual FB block size is 120 bytes. Therefore, **any settings exceeding two will be ignored.**)<br>
@@ -5223,9 +5190,7 @@ In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Statu
 ![](../_assets/4-pnio/6_1_condition.png)
 4) Check the input/output signals on the TIA portal screen and General I/O screen.<br>
 ![](../_assets/4-pnio/6_3_public_io.png)
-
-[__SOURCE](4-pnio/2-pnio-status.md)
-# 5.3 PROFINET Monitoring
+## 5.3 PROFINET Monitoring
 
 By selecting the **\[System > 8: Safety System > 3: Monitoring > 4: PROFINET Status]** menu, you can monitor the PROFINET status by slot.
 
@@ -5242,9 +5207,7 @@ By selecting the **\[System > 8: Safety System > 3: Monitoring > 4: PROFINET Sta
 <img src="../_assets/4-pnio/profinet_LED.png"></img>
 <em><p align="center">BD671(PROFINET) </p></em>
 </p>
-
-[__SOURCE](5-io-block-allocation.md)
-# 5. Industrial Communication IO Reading and Writing
+## 5. Industrial Communication IO Reading and Writing
 
 This is the method for assigning IO blocks for the communication with the controller after completing industrial communication settings.
 
@@ -5261,12 +5224,12 @@ To use the industrial communication IO, the IO blocks should be assigned to the 
 
 <br>
 
-##### 1. Select the IO block assignment menu.
+**1. Select the IO block assignment menu.**
    Touch the **\[System > 2: Control Parameters > 2: Input/Output Signal Settings > 6: FB Block Assignment]** menu.
 
 <br>
 
-##### 2. Specify industrial communication type for the desired fb area.
+**2. Specify industrial communication type for the desired fb area.**
    After specifying it, touch the **\[OK]** button.
 
 ![[Figure 5-1]](<_assets/4-io-block-allocation/image_1.png>)
@@ -5279,9 +5242,7 @@ To use the industrial communication IO, the IO blocks should be assigned to the 
 {% hint style="warning" %}
 **\[Caution]**: For an EtherNet/IP adapter, the maximum block size is 120 bytes and up to 2 blocks can be selected. Any selection exceeding 2 will be ignored. 
 {% endhint %}
-
-[__SOURCE](6-slave-config-file.md)
-# 6. Slave Device Description Files
+## 6. Slave Device Description Files
 
 To configure the slave communication from the industrial communication master, a description file for the slave device for each protocol is used.
 
