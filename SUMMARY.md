@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [${cont_model} Robot Controller Function Manual - Industrial Communication](README.md)
+* [Hi6 Controller Function Manual - Industrial Communication](README.md)
 
 * [1. CIFX PCI Communication](1-cifx-pci-communication/README.md)
   * [1.1 CIFX PCI Program Installation](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)

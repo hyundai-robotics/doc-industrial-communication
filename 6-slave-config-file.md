@@ -5,7 +5,7 @@ To configure the slave communication from the industrial communication master, a
 <br>
 
 The slave device description files can be downloaded from our website.
-Download "**${cont_model} Fieldbus Config**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
+Download "**Hi6 Fieldbus Config**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
 
 <br>
 
