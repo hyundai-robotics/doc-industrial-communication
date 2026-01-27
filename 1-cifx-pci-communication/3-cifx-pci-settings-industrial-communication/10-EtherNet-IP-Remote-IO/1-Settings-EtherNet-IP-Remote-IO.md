@@ -44,7 +44,8 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 
 <br>
 
-**4. Berühren Sie das Menü, um den Bildschirm mit den Slave-Einstellungen aufzurufen. **
+**4. Berühren Sie das Menü, um den Bildschirm mit den Slave-Einstellungen aufzurufen.**
+
 **\[System > 2: Steuerungsparameter > 11: Industrielle Kommunikation > 2: PCI-Slave-Slot-Einstellungen > EtherNet/IP-Remote-E/A-Einstellung]**
 
 ![[Abbildung 1.3.10.1-5 Slave-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 

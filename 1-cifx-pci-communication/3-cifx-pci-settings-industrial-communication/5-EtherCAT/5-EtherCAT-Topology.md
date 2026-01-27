@@ -28,7 +28,7 @@ Im Gegensatz zu bestehenden industriellen Kommunikationssystemen gibt es bei Eth
 
 <br>
 
-**2. Redundancy **
+**2. Redundancy**
 
 {% hint style="info" %}
 \.      Bei Verwendung der Redundanzfunktion im Master 

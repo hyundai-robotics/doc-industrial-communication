@@ -34,7 +34,7 @@
 
 <br>
 
-**3. Wählen Sie im Einstellungsmenü „ON“ für die Verwendung des EtherCAT-Masters. **
+**3. Wählen Sie im Einstellungsmenü „ON“ für die Verwendung des EtherCAT-Masters.**
 
 <br>
 
