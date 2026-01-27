@@ -1,9 +1,10 @@
+## 4.1 PROFINET ?
 
-## 1. PROFINET？
+**1. PROFINET？**
 - PROFINET是一种基于以太网的工业自动化通信标准。
 - 支持控制器（PLC、机器人控制器等）与分布式I/O设备（驱动器、传感器、模块等）之间的实时数据交换。
 
-## 2. PROFINET规格
+**2. PROFINET规格**
 - 数字输入：50、120、240 bytes（选择1个）
 - 数字输出：50、120、240 bytes（选择1个） 
 - 安全输入输出：8/8 bytes（启用或禁用） 
@@ -13,7 +14,7 @@
 - Netload Class : II
 - Optional Feature : Legacy, MRP
 
-## 3. PROFINET设置流程
+**3. PROFINET设置流程**
 
 1) BD671与PROFINET控制器 & Hi7 Com的连接
 2) GSDML文件注册（TIA Portal）
@@ -22,9 +23,9 @@
 5) PROFINET通信确认
 6) PROFINET I/O信号分配（FB Block Settings）
 
-### 3.1 BD671与F-Host & Hi7 Com的连接
+**3.1 BD671与F-Host & Hi7 Com的连接**
 
-#### 3.1.1 网线连接
+**3.1.1 网线连接**
 1) 用网线连接 PROFINET 控制器与 BD671。
 2) 确认 Link LED 是否闪烁。
 3) 用网线连接 Hi7 COM 的 LAN3 连接器与 BD671。
@@ -32,7 +33,7 @@
 
 ![](../_assets/4-pnio/profisafe_connect.png)
 
-#### 3.1.2 Hi7 Com的连接设置
+**3.1.2 Hi7 Com的连接设置**
 1) 依次进入菜单：系统 -> 控制参数 -> 工业通信-> EtherCAT Master设置
 2) 按如下所示进行设置：
 - EtherCAT Master : ON
@@ -46,7 +47,7 @@
 ![](../_assets/4-pnio/EC_master_setting2.png)
 
 
-### 3.2 GSDML 文件注册（TIA Portal）
+**3.2 GSDML 文件注册（TIA Portal）**
 1) 执行 TIA Portal
 2) 如右侧所示，依次进入菜单：[Options] → [Manage general station description file (GSD)]。
 3) 点击“…”按钮后，设置 GSDML file 所在的目录。
@@ -54,7 +55,7 @@
 5) 确认其是否在硬件目录中注册为新设备。 <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
-### 3.3 PROFINET 控制器设置（TIA Portal）
+**3.3 PROFINET 控制器设置（TIA Portal）**
 1) 执行TIA Portal并创建新项目。
 2) 双击Device & Network部分来将其打开。<br>
 ![](../_assets/4-pnio/profisafe_device_network.png)
@@ -77,7 +78,7 @@
 14) 将“PROFINET device name”设置为“hd-hrc-0”并保存。<br>
 ![](../_assets/4-pnio/profisafe_device_network4.png)
 
-### 3.4 Hi7设置（TP UI）
+**3.4 Hi7设置（TP UI）**
 1) 使用与PNIO控制器中设置的相同值来设置下列参数。
 - PROFINET IO Device Name : hd-hrc-0
 - Slot 1 : Digital Input : 240
@@ -87,21 +88,21 @@
 2) 按“应用”按钮。<br>
 ![](../_assets/4-pnio/4_1_profinet_config.png)
 
-### 3.5 PROFINET 通信确认
-### 3.5.1 梯形图程序（Tia Portal）
+**3.5 PROFINET 通信确认**
+**3.5.1 梯形图程序（Tia Portal）**
 1) 在 Device Overview 选项卡中，创建如下梯形图程序并下载到控制器。<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder.png)
 2) 下载后，在 Distribution I/O 界面中确认是否显示绿色复选框。<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
-### 3.5.2 TP 界面
+**3.5.2 TP 界面**
 从菜单中移动到：系统 -> 安全系统 -> 监控 -> PROFINET 状态。<br>
 ![](../_assets/4-pnio/5_2_pnio_status.png)
 - 确认各插槽的状态信息
 - 确认Counter是否持续递增
 
 
-### 3.6 PROFINET I/O信号分配（FB Block Settings）
+**3.6 PROFINET I/O信号分配（FB Block Settings）**
 1）依次进入：系统 → 控制参数 → 输入输出信号设置 → FB块分配
 2) 将所需数量的块设置更改为PROFINET I/O，数量不得超过2个。
  （最大PROFINET I/O大小为240字节，单个FB块的大小为120字节。因此，**超过2个的设置将被忽略。**）<br>

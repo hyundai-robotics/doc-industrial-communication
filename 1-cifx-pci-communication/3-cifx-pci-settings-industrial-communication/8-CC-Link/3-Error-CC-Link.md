@@ -1,4 +1,4 @@
-﻿# 1.3.8.3 CC-Link Slave 错误处理
+﻿## 1.3.8.3 CC-Link Slave 错误处理
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-##### 1. CC-Link 终端电阻
+**1. CC-Link 终端电阻**
 
 {% hint style="info" %}
 \.      连接CC-Link电缆时，必须在终端添加电阻。
@@ -24,7 +24,7 @@
 
 
 
-##### 2. CC-Link ERROR
+**2. CC-Link ERROR**
 
 {% hint style="info" %}
 \.      为了实现通信，需要向 CC-Link 电缆提供 24V 电源。

@@ -1,10 +1,10 @@
-# 1.3.2 SYCON.NET设置
+## 1.3.2 SYCON.NET设置
 
 Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的设置方法如下。（请参考“[**1.1 Sycon.net安装**](../../1-cifx-pci-install-program/1-sycon-net.md)”进行安装。）
 
 <br>
 
-##### 1. 连接已安装Sycon.net的PC与机器人控制器的通用LAN端口。（PCI LAN Port X）
+**1. 连接已安装Sycon.net的PC与机器人控制器的通用LAN端口。（PCI LAN Port X）**
 触摸 **\[系统 > 2: 控制参数 > 9: 网络]** 菜单，确认通用LAN端口的IP。请通过Ping Test等确认是否连接。
 
 ![[图1.3.2-1 网络 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
@@ -16,20 +16,20 @@ Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的�
 
 <br>
 
-##### 2. 执行 Sycon.net。
+**2. 执行 Sycon.net。**
 
 ![[图 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 
 <br>
 
-##### 3. 在屏幕右侧 Device Catalog 中点击与已设置的通信协议对应的项目，通过拖放（Drag & Drop）放置到中央的总线线上。 
+**3. 在屏幕右侧 Device Catalog 中点击与已设置的通信协议对应的项目，通过拖放（Drag & Drop）放置到中央的总线线上。 **
 
 ![[图 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
 ![[图 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
-##### 4. 双击导入的项目进行设置。
+**4. 双击导入的项目进行设置。**
 
 {% hint style="info" %}
 \.      导入的CIFX PCI（图）“Double Click”

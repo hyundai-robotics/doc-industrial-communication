@@ -1,22 +1,22 @@
-# 1.3.10.1 EtherNet/IP - 标准Remote IO连接设置
+## 1.3.10.1 EtherNet/IP - 标准Remote IO连接设置
 
 请按照“[**1.3.1 CIFX PCI槽位设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”流程设置后，再按以下方法进行操作。
 
 <br>
 
-##### 1. 在工业通信固件设置中，选择EtherNet/IP Master并重启机器人控制器。
+**1. 在工业通信固件设置中，选择EtherNet/IP Master并重启机器人控制器。**
 
 ![[图1.3.10.1-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>)
 
 <br>
 
-##### 2. 在工业通信监控中，确认所选协议的准备状态。
+**2. 在工业通信监控中，确认所选协议的准备状态。**
 
 ![[图 1.3.10.1-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
-##### 3. 为了实现通信，连接PCI与Remote IO的电缆等并确认状态。
+**3. 为了实现通信，连接PCI与Remote IO的电缆等并确认状态。**
 
 ![[图 1.3.10.1-3 硬件连接]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
@@ -44,7 +44,7 @@
 
 <br>
 
-##### 4. 触摸菜单来进入从站设置界面。 
+**4. 触摸菜单来进入从站设置界面。 **
 **\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI从站插槽设置 > EtherNet/IP Remote IO Setting]**
 
 ![[图 1.3.10.1-5 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 
@@ -84,7 +84,7 @@
 
 <br>
 
-##### 5. 设置完成后重启控制器。
+**5. 设置完成后重启控制器。**
 
 ![[图 1.3.10.1-7 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>) 
 
@@ -96,7 +96,7 @@
 
 <br>
 
-##### 6. 确认设定值是否已反映，并确认通信状态。
+**6. 确认设定值是否已反映，并确认通信状态。**
 
 ![[图 1.3.10.1-9 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>) 
 
@@ -118,7 +118,7 @@
 
 <br>
 
-##### 7. 通信设置完成后分配IO Block。
+**7. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
 \.      **通信设置完成后，可以通过分配 IO Block 来使用输入输出信号。请确认（“[**4. 工业通信 IO Block 分配**](../../../4-io-block-allocation.md)”）。**

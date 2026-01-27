@@ -1,8 +1,8 @@
-# 2. EtherNet/IP适配器
+## 2. EtherNet/IP适配器
 
 这是关于内置EtherNet/IP适配器的说明。<br>
 
-### 术语
+**术语**
 |缩写|说明|
 |---------------|------------------------------|
 |适配器（Adapter）|从EtherNet/IP扫描器（Scanner）收集Output Data并发送Input Data的设备|

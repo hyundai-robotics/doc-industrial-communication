@@ -1,4 +1,4 @@
-﻿# 1.3.9.1 CC-Link IE Field Slave 规格
+﻿## 1.3.9.1 CC-Link IE Field Slave 规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,7 +8,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### 协议特性
+**协议特性**
 
 <br>
 <table class="tg">
@@ -61,7 +61,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### 网络特性
+**网络特性**
 
 <br>
 <table class="tg">

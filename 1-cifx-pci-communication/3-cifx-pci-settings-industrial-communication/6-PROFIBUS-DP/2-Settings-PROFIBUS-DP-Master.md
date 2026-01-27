@@ -1,4 +1,4 @@
-# 1.3.6.2 PROFIBUS-DP Master设置
+## 1.3.6.2 PROFIBUS-DP Master设置
 
 
 请按照“[**1.3.1 CIFX PCI槽位设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”及“[**1.3.2 SYCON.NET设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)”流程设置后，再按以下方法进行操作。
@@ -11,39 +11,39 @@
 
 <br>
 
-##### 1. 在工业通信固件设置中，选择PROFIBUS-DP Master并重启机器人控制器。
+**1. 在工业通信固件设置中，选择PROFIBUS-DP Master并重启机器人控制器。**
 
 ![[图 1.3.6.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. 在工业通信监控中，确认所选协议的准备状态。
+**2. 在工业通信监控中，确认所选协议的准备状态。**
 
 ![[图 1.3.6.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_2.png>) 
 
 <br>
 
-##### 3. 使用Sycon.net选择PROFIBUS-DP Master PCI设备。
+**3. 使用Sycon.net选择PROFIBUS-DP Master PCI设备。**
 
 ![[图 1.3.6.2-3 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_3.png>)
 ![[图 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. 扫描PCI设备并应用PROFIBUS-DP Master（Apply）。
+**4. 扫描PCI设备并应用PROFIBUS-DP Master（Apply）。**
 
 ![[图 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>) 
 
 <br>
 
 
-##### 5. 下载设置。
+**5. 下载设置。**
 
 ![[图 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. 准备所要连接到PROFIBUS-DP Master的Slave模块。
+**6. 准备所要连接到PROFIBUS-DP Master的Slave模块。**
    * 本示例中使用Crevis公司的GN-9222 PROFIBUS-DP Slave。
    * 请提供系统电源及现场电源以激活模块。
 
@@ -52,7 +52,7 @@
 
 <br>
 
-##### 7. Slave设备设置
+**7. Slave设备设置**
 
 {% hint style="info" %}
 \.      设置PROFIBUS-DP Slave设备的Node编号及终端。
@@ -69,7 +69,7 @@
 
 <br>
 
-##### 8. 注册Slave设备的GSD文件。
+**8. 注册Slave设备的GSD文件。**
 
 {% hint style="info" %}
 \.      要使用未注册到Sycon.net的Device，就需要GSD文件。
@@ -97,7 +97,7 @@
 
 <br>
 
-##### 9. Network Scan
+**9. Network Scan**
 
 {% hint style="warning" %}
 \.      **当进行Network Scan时，请务必确认以下事项。**
@@ -128,7 +128,7 @@
 
 <br>
 
-##### 10. Slave设备Configuration
+**10. Slave设备Configuration**
 
 {% hint style="info" %}
 \.      为了进行Slave设备Configuration，点击Master设备的Disconnect。
@@ -161,7 +161,7 @@
 
 <br>
 
-##### 11. Master 设备 Configuration
+**11. Master 设备 Configuration**
 
 {% hint style="info" %}
 \.      双击 Master 设备。
@@ -205,7 +205,7 @@
 
 <br>
 
-##### 12. 通信状态确认
+**12. 通信状态确认**
 
 {% hint style="info" %}
 \.        在 Sycon.net 及 TP 上确认通信状态。
@@ -229,7 +229,7 @@
 
 <br>
 
-##### 13. 通信设置完成后分配IO Block。
+**13. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
 \.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**

@@ -1,4 +1,4 @@
-# 1.3.3.5 EtherNet/IP错误处理
+## 1.3.3.5 EtherNet/IP错误处理
 
 这是解决EtherNet/IP设置中可能发生的主要错误的方法。
 
@@ -10,7 +10,7 @@
 
 <br>
 
-##### 1. 通信电缆断线错误
+**1. 通信电缆断线错误**
 
 {% hint style="info" %}
 \.      请确认 LAN 电缆的连接状态。
@@ -23,7 +23,7 @@
 
 <br>
 
-##### 2. IP Address设置错误
+**2. IP Address设置错误**
 
 {% hint style="info" %}
 \.      请确认Master - Slave Device的IP Address。

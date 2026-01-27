@@ -1,4 +1,4 @@
-# 1.3.3.2 EtherNet/IP Scanner设置
+## 1.3.3.2 EtherNet/IP Scanner设置
 
 请按照“[**1.3.1 CIFX PCI槽位设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”及“[**1.3.2 SYCON.NET设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)”流程设置后，再按以下方法进行操作。
 
@@ -10,38 +10,38 @@
 
 <br>
 
-##### 1. 在工业通信固件设置中，选择EtherNet/IP Master并重启机器人控制器。
+**1. 在工业通信固件设置中，选择EtherNet/IP Master并重启机器人控制器。**
 
 ![[图 1.3.3.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. 在工业通信监控中，确认所选协议的准备状态。
+**2. 在工业通信监控中，确认所选协议的准备状态。**
 
 ![[图 1.3.3.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_2.png>) 
 
 <br>
 
-##### 3. 使用Sycon.net选择EtherNet/IP Scanner PCI设备。
+**3. 使用Sycon.net选择EtherNet/IP Scanner PCI设备。**
 
 ![[图 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
 ![[图 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. 扫描PCI设备并应用EtherNet/IP Scanner（Apply）。
+**4. 扫描PCI设备并应用EtherNet/IP Scanner（Apply）。**
 
 ![[图 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. 下载设置。
+**5. 下载设置。**
 
 ![[图 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. 准备所要连接到EtherNet/IP Scanner的Adapter（Slave）模块。
+**6. 准备所要连接到EtherNet/IP Scanner的Adapter（Slave）模块。**
    * 本示例中使用Crevis公司的M9289 EtherNet/IP Adapter。
    * 请提供系统电源及现场电源以激活模块。
 
@@ -49,7 +49,7 @@
 
 <br>
 
-##### 7. 设置Adapter（Slave）的IP Address，以连接EtherNet/IP通信。
+**7. 设置Adapter（Slave）的IP Address，以连接EtherNet/IP通信。**
 
 {% hint style="info" %}
 \.      使用 Dip Switch 设置 IP Address
@@ -63,7 +63,7 @@
 
 <br>
 
-##### 8.（Bootp示例）使用Bootp设置Slave设备的IP Address。
+**8.（Bootp示例）使用Bootp设置Slave设备的IP Address。**
    * 仅将9号DIP Switch更改为ON。
 
 ![[图 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
@@ -74,7 +74,7 @@
 
 <br>
 
-##### 9. 在PC上执行BootpSvr.exe。
+**9. 在PC上执行BootpSvr.exe。**
    * 该程序由Crevis公司提供。（在官网下载IO Guide Pro后安装）
 
 ![[图 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
@@ -89,19 +89,19 @@
 
 <br>
 
-##### 10. 重启Adapter设备后，在BootpSvr.exe程序中会显示Device信息。
+**10. 重启Adapter设备后，在BootpSvr.exe程序中会显示Device信息。**
 
 ![[图 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
 
 <br>
 
-##### 11. 选择Device来设置IP。
+**11. 选择Device来设置IP。**
 
 ![[图 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[图 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
 
 <br>
 
-##### 12. IP设置完成后，将Adapter的DIP Switch全部更改为OFF后重启设备。
+**12. IP设置完成后，将Adapter的DIP Switch全部更改为OFF后重启设备。**
 
 {% hint style="info" %}
 \.      请务必确认DIP Switch的状态及Adapter是否重启。
@@ -111,7 +111,7 @@
 
 <br>
 
-##### 13. 注册Slave设备的EDS文件。
+**13. 注册Slave设备的EDS文件。**
 
 {% hint style="info" %}
 \.      要使用未注册到Sycon.net的Device，就需要EDS文件。
@@ -134,7 +134,7 @@
 
 <br>
 
-##### 14. Network Scan
+**14. Network Scan**
 
 {% hint style="info" %}
 \.      EtherNet/IP Scanner不支持Network Scan功能。
@@ -142,7 +142,7 @@
 
 <br>
 
-##### 15. Slave（Adapter）设备Configuration
+**15. Slave（Adapter）设备Configuration**
 
 {% hint style="info" %}
 \.      将已注册的Device拖到EtherNet/IP Master总线线路上。
@@ -194,7 +194,7 @@
 
 <br>
 
-##### 16. Master（Scanner）设备 Configuration
+**16. Master（Scanner）设备 Configuration**
 
 
 {% hint style="info" %}
@@ -256,7 +256,7 @@
 
 <br>
 
-##### 17. 通信状态确认
+**17. 通信状态确认**
 
 {% hint style="info" %}
 \.        在Sycon.net及TP上确认通信状态。
@@ -281,7 +281,7 @@
 
 <br>
 
-##### 18. 通信设置完成后分配IO Block。
+**18. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
 \.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**

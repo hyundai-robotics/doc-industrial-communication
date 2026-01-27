@@ -1,6 +1,6 @@
 ## 2.3 EtherNet/IP适配器
 
-### 2.3.1 EtherNet/IP适配器规格
+**2.3.1 EtherNet/IP适配器规格**
 |项目|说明|
 |------|---|
 |设备类型|General Purpose Discrete I/O (7)|
@@ -10,7 +10,7 @@
 |Output Size Range(bytes)|0 - 240|
 |RPI Range (ms)|5 – 3000|<br>
 
-### 2.3.2 通过示教器进行EtherNet/IP适配器的设置及监控
+**2.3.2 通过示教器进行EtherNet/IP适配器的设置及监控**
 从主界面移动到：“SYSTEM” > “Control Parameter” > “Industrial Communication” > “Ethernet/IP适配器”<br>
 ![Config.PNG](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
 *[图2.3.1 设置]*<br>

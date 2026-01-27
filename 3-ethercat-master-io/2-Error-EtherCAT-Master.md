@@ -1,4 +1,4 @@
-# 3.2 EtherCAT Master IO错误处理
+## 3.2 EtherCAT Master IO错误处理
 
 这是解决EtherCAT Master IO设置中可能发生的主要错误的方法。
 

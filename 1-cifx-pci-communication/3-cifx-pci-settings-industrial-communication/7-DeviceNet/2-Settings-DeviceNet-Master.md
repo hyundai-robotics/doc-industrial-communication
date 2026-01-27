@@ -1,4 +1,4 @@
-﻿# 1.3.7.2 DeviceNet Master设置
+﻿## 1.3.7.2 DeviceNet Master设置
 
 请按照“[**1.3.1 CIFX PCI槽位设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”及“[**1.3.2 SYCON.NET设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)”流程设置后，再按以下方法进行操作。
 
@@ -18,32 +18,32 @@
 
 <br>
 
-##### 1. 在工业通信固件设置中，选择DeviceNet Master并重启机器人控制器。
+**1. 在工业通信固件设置中，选择DeviceNet Master并重启机器人控制器。**
 
 ![[图 1.3.7.2-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. 在工业通信监控中，确认所选协议的准备状态。
+**2. 在工业通信监控中，确认所选协议的准备状态。**
 
 ![[图 1.3.7.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>) 
 
 <br>
 
-##### 3. 使用 Sycon.net 选择 DeviceNet Master PCI 设备。
+**3. 使用 Sycon.net 选择 DeviceNet Master PCI 设备。**
 
 ![[图 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
 ![[图 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. 扫描 PCI 设备并应用 DeviceNet Master（Apply）。
+**4. 扫描 PCI 设备并应用 DeviceNet Master（Apply）。**
 
 ![[图 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. 设置通信速度。
+**5. 设置通信速度。**
 
 {% hint style="warning" %}
 \.      如果Master与Slave的通信速度不同，Network Scan将无法正常进行。
@@ -53,13 +53,13 @@
 
 <br>
 
-##### 6. 下载设置。
+**6. 下载设置。**
 
 ![[图 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
 
 <br>
 
-##### 7. 准备所要连接到 DeviceNet Master 的 Slave 模块。
+**7. 准备所要连接到 DeviceNet Master 的 Slave 模块。**
    * 本示例中使用Crevis公司的NA-9211 DeviceNet Slave。
    * 请提供系统电源及现场电源以激活模块。
 
@@ -67,7 +67,7 @@
 
 <br>
 
-##### 8. Slave设备设置
+**8. Slave设备设置**
 
 {% hint style="info" %}
 \.      设置DeviceNet Slave设备的MAC ID、通信速度、终端电阻。
@@ -89,7 +89,7 @@
 
 <br>
 
-##### 9. 注册Slave设备的EDS文件。
+**9. 注册Slave设备的EDS文件。**
 
 {% hint style="info" %}
 \.      要使用未注册到Sycon.net的Device，就需要EDS文件。
@@ -115,7 +115,7 @@
 
 <br>
 
-##### 10. Network Scan
+**10. Network Scan**
 
 {% hint style="warning" %}
 \.      **当进行Network Scan时，请务必确认以下事项。**
@@ -151,7 +151,7 @@
 
 <br>
 
-##### 11. Slave 设备 Configuration
+**11. Slave 设备 Configuration**
 
 {% hint style="info" %}
 \.      为了进行 Slave 设备 Configuration，点击 Master 设备的 Disconnect。
@@ -241,7 +241,7 @@
 
 <br>
 
-##### 12. Master 设备 Configuration
+**12. Master 设备 Configuration**
 
 {% hint style="info" %}
 \.      双击Master设备。
@@ -277,7 +277,7 @@
 
 <br>
 
-##### 13. 通信状态确认
+**13. 通信状态确认**
 
 {% hint style="info" %}
 \.      在Sycon.net及TP上确认通信状态。
@@ -301,7 +301,7 @@
 
 <br>
 
-##### 14. 通信设置完成后分配IO Block。
+**14. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
 \.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**

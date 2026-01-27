@@ -1,9 +1,9 @@
-﻿# 1.3.7.6 DeviceNet Object
+﻿## 1.3.7.6 DeviceNet Object
 
 
 <br>
 
-##### 1. Object
+**1. Object**
 
 
 DeviceNet 的设备内部由 Object 的集合体构成。各 Object 表示设备内部的特定构成要素。

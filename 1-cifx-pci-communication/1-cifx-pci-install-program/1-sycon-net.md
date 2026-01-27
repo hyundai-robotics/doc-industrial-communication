@@ -1,10 +1,10 @@
-# 1.1.1 SYCON.net安装
+## 1.1.1 SYCON.net安装
 
 “Sycon.net”是Hilscher提供的用于配置PCI通信卡Configuration的程序。
 
 <br>
 
-##### 1. SYCON.net最新版本下载路径
+**1. SYCON.net最新版本下载路径**
 
 {% hint style="info" %}
 \.      点击 **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**。
@@ -59,7 +59,7 @@
 <br>
 
 
-##### 2. 在现代机器人官网下载程序
+**2. 在现代机器人官网下载程序**
 
 {% hint style="info" %}
 \.      依次进入[www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人官网 -> 客户支持 -> 应用软件，下载“**Sycon.net**”。

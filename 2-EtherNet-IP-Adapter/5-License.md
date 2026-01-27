@@ -1,5 +1,6 @@
 ## 2.5 EtherNet/IP适配器许可证
-### 2.5.1 许可证的激活
+
+**2.5.1 许可证的激活**
 从主界面移动到：“系统” > “2：控制参数” > “10：选项功能的许可证密钥注册”<br>
 ![license.png](../_assets/2-EtherNet-IP-Adapter/License/license.png)<br>
 *[图2.5.1-1 许可证激活]*<br>

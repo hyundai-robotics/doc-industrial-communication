@@ -1,10 +1,10 @@
-﻿# 1.3.5.5 EtherCAT电缆接线（Topology）
+﻿## 1.3.5.5 EtherCAT电缆接线（Topology）
 
 <br>
 
 EtherCAT与现有工业通信不同，对电缆接线及可使用的Ethernet Port有限制。
 
-##### 1. Ethernet Port
+**1. Ethernet Port**
 
 {% hint style="info" %}
 \.      连接EtherCAT Master与Slave时，必须使用Port 0号。
@@ -28,7 +28,7 @@ EtherCAT与现有工业通信不同，对电缆接线及可使用的Ethernet Por
 
 <br>
 
-##### 2. Redundancy 
+**2. Redundancy **
 
 {% hint style="info" %}
 \.      Master使用Redundancy功能时 
@@ -41,7 +41,7 @@ EtherCAT与现有工业通信不同，对电缆接线及可使用的Ethernet Por
 
 <br>
 
-##### 3. 电缆接线错误
+**3. 电缆接线错误**
 
 
 请参考“[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)”。

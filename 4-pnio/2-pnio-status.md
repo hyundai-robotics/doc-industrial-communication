@@ -1,4 +1,4 @@
-# 5.3 PROFINET监控
+## 5.3 PROFINET监控
 
 选择 **\[系统 > 8: 安全系统 > 3: 监控 > 4: PROFINET 状态]** 菜单，可以按插槽监控 PROFINET 状态。
 

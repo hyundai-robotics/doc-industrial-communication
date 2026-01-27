@@ -1,4 +1,4 @@
-# 1.3.7.5 DeviceNet错误处理
+## 1.3.7.5 DeviceNet错误处理
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-##### 1. DeviceNet终端电阻
+**1. DeviceNet终端电阻**
 
 {% hint style="info" %}
 \.      连接DeviceNet电缆时必须在终端添加电阻。
@@ -30,7 +30,7 @@
 
 <br>
 
-##### 2. 通信速度
+**2. 通信速度**
 
 {% hint style="info" %}
 \.      如果DeviceNet Master与Slave之间的通信速度不同，可能无法进行Network Scan。
@@ -42,7 +42,7 @@
 
 <br>
 
-##### 3. DeviceNet ERROR
+**3. DeviceNet ERROR**
 
 {% hint style="info" %}
 \.      如果 DeviceNet 电缆未提供 24V 电源，则会出现如下 ERROR。

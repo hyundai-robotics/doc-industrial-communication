@@ -1,4 +1,4 @@
-# 1.4 CIFX PCI通信监控
+## 1.4 CIFX PCI通信监控
 
 按照“[**1.2 CIFX PCI通信卡安装及设置**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)”及“[**1.3 CIFX PCI通信设置**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”流程进行通信设置后，可以在以下屏幕中确认运行情况。
 
