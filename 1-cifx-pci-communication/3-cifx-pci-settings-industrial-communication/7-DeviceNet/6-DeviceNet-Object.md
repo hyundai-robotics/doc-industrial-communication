@@ -1,9 +1,9 @@
-﻿# 1.3.7.6 DeviceNet Object
+﻿## 1.3.7.6 DeviceNet Object
 
 
 <br>
 
-##### 1. Object
+**1. Object**
 
 
 DeviceNet의 장치 내부에는 Object 의 집합체로 구성이 되어있습니다. 각 Object 는 장치 내부에의 특정한 구성요소를 표현합니다.

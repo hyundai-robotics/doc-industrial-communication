@@ -1,10 +1,10 @@
-﻿# 1.1.1 SYCON.net 설치
+﻿## 1.1.1 SYCON.net 설치
 
 "Sycon.net" 은 Hilscher 에서 제공하는 PCI 통신 카드의 Configuration을 구성하는 프로그램 입니다.
 
 <br>
 
-##### 1. SYCON.net 최신 버전 다운로드 경로
+**1. SYCON.net 최신 버전 다운로드 경로**
 
 {% hint style="info" %}
 \.      **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net** 를 클릭합니다.
@@ -59,7 +59,7 @@
 <br>
 
 
-##### 2. 현대 로보틱스 홈페이지에서 프로그램 다운로드
+**2. 현대 로보틱스 홈페이지에서 프로그램 다운로드**
 
 {% hint style="info" %}
 \.      [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Sycon.net**”을 다운로드 합니다.

@@ -1,4 +1,4 @@
-﻿# 1.3.9.1 CC-Link IE Field Slave 사양
+﻿## 1.3.9.1 CC-Link IE Field Slave 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,7 +8,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol 특성
+**Protocol 특성**
 
 <br>
 <table class="tg">
@@ -61,7 +61,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network 특성
+**Network 특성**
 
 <br>
 <table class="tg">
@@ -92,7 +92,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### 물리적 연결
+**물리적 연결**
 
 <br>
 <table class="tg">

@@ -1,4 +1,4 @@
-﻿# 3. EtherCAT Master IO
+﻿## 3. EtherCAT Master IO
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-##### EtherCAT 개요
+**EtherCAT 개요**
 
 EtherCAT은 Beckhoff Automation 에서 개발된 이더넷 기반의 Fieldbus 시스템입니다.
 
@@ -14,7 +14,7 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 
 <br>
 
-##### EtherCAT Master IO
+**EtherCAT Master IO**
    * 기존 필드버스 마스터(Master)에 해당되는 제품으로 EtherCAT 슬레이브(Slave) 장치들에게 IO 데이터 연결을 요청할 수 있습니다.
 
 <br>

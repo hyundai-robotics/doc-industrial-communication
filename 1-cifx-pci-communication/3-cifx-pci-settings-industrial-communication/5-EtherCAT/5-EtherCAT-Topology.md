@@ -1,10 +1,10 @@
-﻿# 1.3.5.5 EtherCAT 케이블 결선 (Topology)
+﻿## 1.3.5.5 EtherCAT 케이블 결선 (Topology)
 
 <br>
 
 EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있는 Ethernet Port에 제약이 있습니다.
 
-##### 1. Ethernet Port
+**1. Ethernet Port**
 
 {% hint style="info" %}
 \.      EthreCAT Master와 Slave를 연결하는 경우 Port 0번을 사용해야 합니다.
@@ -28,7 +28,7 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 
 <br>
 
-##### 2. Redundancy 
+**2. Redundancy **
 
 {% hint style="info" %}
 \.      Master에서 Redundancy 기능을 사용하는 경우 
@@ -41,7 +41,7 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 
 <br>
 
-##### 3. Cable 결선 ERROR
+**3. Cable 결선 ERROR**
 
 
 "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.

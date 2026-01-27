@@ -1,8 +1,8 @@
-﻿# 3.1 EtherCAT Master IO 설정
+﻿## 3.1 EtherCAT Master IO 설정
 
 <br>
 
-##### 1. 메뉴를 터치하여 설정 화면으로 진입 합니다. 
+**1. 메뉴를 터치하여 설정 화면으로 진입 합니다. **
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 4: EtherCAT Master 설정]**
 
 <br>
@@ -15,7 +15,7 @@
 \.      EtherCAT Master 설정 화면에서 선택된 제어기 LAN Port 번호를 확인합니다. 
 {% endhint %}
 
-##### 2. 통신을 위해 제어기 LAN 포트와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.
+**2. 통신을 위해 제어기 LAN 포트와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.**
 
 <br>
 
@@ -34,7 +34,7 @@
 
 <br>
 
-##### 3. 설정 메뉴에서 EtherCAT Master 사용을 "ON" 으로 선택합니다. 
+**3. 설정 메뉴에서 EtherCAT Master 사용을 "ON" 으로 선택합니다. **
 
 <br>
 
@@ -50,7 +50,7 @@
 
 <br>
 
-##### 4. 설정 메뉴의 슬레이브 리스트에서 연결한 Remote IO 모듈과 동일한 구성을 선택합니다. 
+**4. 설정 메뉴의 슬레이브 리스트에서 연결한 Remote IO 모듈과 동일한 구성을 선택합니다. **
 
 <br>
 
@@ -89,7 +89,7 @@
 
 <br>
 
-##### 5. 설정 완료 후 제어기를 재부팅합니다.
+**5. 설정 완료 후 제어기를 재부팅합니다.**
 
 ![[그림 3.1-7 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
 
@@ -105,7 +105,7 @@
 
 <br>
 
-##### 6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.
+**6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.**
 
 ![[그림 3.1-9 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
 
@@ -133,7 +133,7 @@
 
 <br>
 
-##### 7. 통신 설정 완료 후 IO Block 을 할당합니다.
+**7. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
 \.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../4-io-block-allocation.md)”)를 확인해 주십시오.**

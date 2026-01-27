@@ -2,10 +2,6 @@
 
 <br>
 
-#### 지원 버전 미정
-
-<br>
-
 {% hint style="info" %}
 \.      각 장치별 통신 상태를 CIP 표준 General Status 코드로 표시하여 실시간 진단 기능을 제공합니다.
 {% endhint %}
@@ -24,7 +20,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### General Status Codes
+**General Status Codes**
 
 <br>
 <table class="tg">
