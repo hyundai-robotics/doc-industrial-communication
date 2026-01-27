@@ -1,4 +1,4 @@
-﻿# 1.3.8.3 CC-Link Slave 에러 조치
+﻿## 1.3.8.3 CC-Link Slave 에러 조치
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-##### 1. CC-Link 종단 저항
+**1. CC-Link 종단 저항**
 
 {% hint style="info" %}
 \.      CC-Link Cable 연결 시 종단에는 저항을 추가해야합니다.
@@ -24,7 +24,7 @@
 
 
 
-##### 2. CC-Link ERROR
+**2. CC-Link ERROR**
 
 {% hint style="info" %}
 \.      통신 연결을 위해 CC-Link Cable에 24V 전원 공급이 필요합니다.

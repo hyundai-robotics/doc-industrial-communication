@@ -1,22 +1,22 @@
-﻿# 1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정
+﻿## 1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
-##### 1. 산업용 통신 펌웨어 설정에서 EtherNet/IP Master를 선택하고 로봇 제어기를 재부팅합니다.
+**1. 산업용 통신 펌웨어 설정에서 EtherNet/IP Master를 선택하고 로봇 제어기를 재부팅합니다.**
 
 ![[그림 1.3.10.1-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
-##### 2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.
+**2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.**
 
 ![[그림 1.3.10.1-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
-##### 3. 통신을 위해 PCI와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.
+**3. 통신을 위해 PCI와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.**
 
 ![[그림 1.3.10.1-3 하드웨어 연결]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
@@ -44,7 +44,7 @@
 
 <br>
 
-##### 4. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. 
+**4. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. **
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  EtherNet/IP Remote IO Setting]**
 
 ![[그림 1.3.10.1-5 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 
@@ -84,7 +84,7 @@
 
 <br>
 
-##### 5. 설정 완료 후 제어기를 재부팅합니다.
+**5. 설정 완료 후 제어기를 재부팅합니다.**
 
 ![[그림 1.3.10.1-7 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>) 
 
@@ -96,7 +96,7 @@
 
 <br>
 
-##### 6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.
+**6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.**
 
 ![[그림 1.3.10.1-9 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>) 
 
@@ -118,7 +118,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 
 <br>
 
-##### 7. 통신 설정 완료 후 IO Block 을 할당합니다.
+**7. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
 \.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**

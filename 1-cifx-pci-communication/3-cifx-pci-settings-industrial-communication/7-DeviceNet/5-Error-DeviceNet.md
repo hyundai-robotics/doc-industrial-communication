@@ -1,4 +1,4 @@
-﻿# 1.3.7.5 DeviceNet 에러 조치
+﻿## 1.3.7.5 DeviceNet 에러 조치
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-##### 1. DeviceNet 종단 저항
+**1. DeviceNet 종단 저항**
 
 {% hint style="info" %}
 \.      DeviceNet Cable 연결 시 종단에는 저항을 추가해야합니다.
@@ -30,7 +30,7 @@
 
 <br>
 
-##### 2. 통신 속도
+**2. 통신 속도**
 
 {% hint style="info" %}
 \.      DeviceNet Master와 Slave 간 통신 속도가 다른 경우 Network Scan이 안될 수 있습니다.
@@ -42,7 +42,7 @@
 
 <br>
 
-##### 3. DeviceNet ERROR
+**3. DeviceNet ERROR**
 
 {% hint style="info" %}
 \.      DeviceNet Cable에 24V 전원 공급이 안되는 경우 아래와 같은 ERROR가 나타납니다.

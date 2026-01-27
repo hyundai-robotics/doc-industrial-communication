@@ -1,10 +1,10 @@
-﻿# 1.3.7 DeviceNet
+﻿## 1.3.7 DeviceNet
 
 이 장에서는 DeviceNet Master 와 Slave의 특성과 설정 방법에 대해 기술합니다. 
 
 <br>
 
-##### Fieldbus 개요
+**Fieldbus 개요**
 
 필드버스(Fieldbus)는 공장에서의 센서나 버튼, 모터 드라이버, 조작 인터페이스 등의 장치를 PLC(Programmable Logic Controller) 와 단일 케이블로 연결하여 동작시키기 위해 개방화된 산업표준입니다.
 

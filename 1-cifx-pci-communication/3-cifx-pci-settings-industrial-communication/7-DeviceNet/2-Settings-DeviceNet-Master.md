@@ -1,4 +1,4 @@
-﻿# 1.3.7.2 DeviceNet Master 설정
+﻿## 1.3.7.2 DeviceNet Master 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
@@ -18,13 +18,13 @@
 
 <br>
 
-##### 1. PCI 슬롯 설정에서 DeviceNet Master를 선택하고 로봇 제어기를 재부팅합니다.
+**1. PCI 슬롯 설정에서 DeviceNet Master를 선택하고 로봇 제어기를 재부팅합니다.**
 
 ![[그림 1.3.7.2-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.
+**2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.**
 
 <br>
 
@@ -38,20 +38,20 @@
 
 <br>
 
-##### 3. Sycon.net 을 이용하여 DeviceNet Master PCI 장치를 선택합니다.
+**3. Sycon.net 을 이용하여 DeviceNet Master PCI 장치를 선택합니다.**
 
 ![[그림 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
 ![[그림 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. PCI 장치를 Scan 하고 DeviceNet Master 적용(Apply)합니다.
+**4. PCI 장치를 Scan 하고 DeviceNet Master 적용(Apply)합니다.**
 
 ![[그림 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. 통신 속도를 설정합니다.
+**5. 통신 속도를 설정합니다.**
 
 {% hint style="warning" %}
 \.      Master 와 Slave의 통신속도가 다르면 Network Scan이 정상적으로 이루어지지 않습니다.
@@ -61,13 +61,13 @@
 
 <br>
 
-##### 6. 설정을 다운로드 합니다.
+**6. 설정을 다운로드 합니다.**
 
 ![[그림 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
 
 <br>
 
-##### 7. DeviceNet Master 에 연결할 Slave 모듈을 준비합니다.
+**7. DeviceNet Master 에 연결할 Slave 모듈을 준비합니다.**
    * 이번 예제에서는 Crevis 사의 NA-9211 DeviceNet Slave를 사용합니다.
    * 시스템 전원과 필드 전원을 공급해 주어 모듈을 활성화 시켜 주십시오.
 
@@ -75,7 +75,7 @@
 
 <br>
 
-##### 8. Slave 장치의 설정
+**8. Slave 장치의 설정**
 
 {% hint style="info" %}
 \.      DeviceNet Slave 장치의 MAC ID와 통신속도, 종단저항 설정합니다.
@@ -97,7 +97,7 @@
 
 <br>
 
-##### 9. Slave 장치의 EDS 파일을 등록합니다.
+**9. Slave 장치의 EDS 파일을 등록합니다.**
 
 {% hint style="info" %}
 \.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
@@ -123,7 +123,7 @@
 
 <br>
 
-##### 10. Network Scan
+**10. Network Scan**
 
 {% hint style="warning" %}
 \.      **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
@@ -159,7 +159,7 @@
 
 <br>
 
-##### 11. Slave 장치 Configuration
+**11. Slave 장치 Configuration**
 
 {% hint style="info" %}
 \.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
@@ -249,7 +249,7 @@
 
 <br>
 
-##### 12. Master 장치 Configuration
+**12. Master 장치 Configuration**
 
 {% hint style="info" %}
 \.      Master 장치를 더블클릭합니다.
@@ -285,7 +285,7 @@
 
 <br>
 
-##### 13. 통신 상태 확인
+**13. 통신 상태 확인**
 
 {% hint style="info" %}
 \.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
@@ -309,7 +309,7 @@
 
 <br>
 
-##### 14. 통신 설정 완료 후 IO Block 을 할당합니다.
+**14. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
 \.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**

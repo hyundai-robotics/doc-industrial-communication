@@ -2,10 +2,6 @@
 
 <br>
 
-#### 지원 버전 미정
-
-<br>
-
 <style type="text/css">
 table  {border-collapse:collapse;}
 td {border-color:gray;border-style:solid;border-width:1px;}
@@ -14,7 +10,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### 외부 Adapter 장치 연결 시 설정 값
+**외부 Adapter 장치 연결 시 설정 값**
 
 <br>
 

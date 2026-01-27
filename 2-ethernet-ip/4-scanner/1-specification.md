@@ -2,10 +2,6 @@
 
 <br>
 
-#### 지원 버전 미정
-
-<br>
-
 <style type="text/css">
 table  {border-collapse:collapse;}
 td {border-color:gray;border-style:solid;border-width:1px;}
@@ -14,7 +10,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol 특성
+**Protocol 특성**
 
 <br>
 <table class="tg">
@@ -66,7 +62,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network 특성
+**Network 특성**
 
 <br>
 <table class="tg">
@@ -101,7 +97,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### 물리적 연결
+**물리적 연결**
 
 <br>
 <table class="tg">

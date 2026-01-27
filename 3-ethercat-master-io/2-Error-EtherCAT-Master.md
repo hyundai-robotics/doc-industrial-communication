@@ -1,4 +1,4 @@
-﻿# 3.2 EtherCAT Master IO 에러 조치
+﻿## 3.2 EtherCAT Master IO 에러 조치
 
 EtherCAT Master IO 설정 중 발생할 수 있는 주요 Error 를 해결하기 위한 방법입니다.
 

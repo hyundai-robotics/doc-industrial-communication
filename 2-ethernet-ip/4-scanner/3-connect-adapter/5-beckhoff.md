@@ -2,10 +2,6 @@
 
 <br>
 
-#### 지원 버전 미정
-
-<br>
-
 {% hint style="info" %}
 \.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
@@ -20,13 +16,13 @@
 
 <br>
 
-##### 1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.
+**1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.**
 
 ![[그림 2.4.3.5-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_1.png>) 
 
 <br>
 
-##### 2. 장치 웹페이지에 접속하여 IP 주소를 설정합니다.
+**2. 장치 웹페이지에 접속하여 IP 주소를 설정합니다.**
 
 <br>
 
@@ -72,7 +68,7 @@
 
 <br>
 
-##### 3. 장치 웹페이지에 접속하여 EtherNet/IP 설정 정보를 확인합니다.
+**3. 장치 웹페이지에 접속하여 EtherNet/IP 설정 정보를 확인합니다.**
 
 <br>
 
@@ -102,7 +98,7 @@
 
 <br>
 
-##### 4. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.
+**4. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
 
 <br>
 

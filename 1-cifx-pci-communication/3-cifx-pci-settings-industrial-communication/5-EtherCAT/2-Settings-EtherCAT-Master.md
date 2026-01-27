@@ -1,4 +1,4 @@
-﻿# 1.3.5.2 EtherCAT Master 설정
+﻿## 1.3.5.2 EtherCAT Master 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
@@ -10,13 +10,13 @@
 
 <br>
 
-##### 1. PCI 슬롯 설정에서 EtherCAT Master를 선택하고 로봇 제어기를 재부팅합니다.
+**1. PCI 슬롯 설정에서 EtherCAT Master를 선택하고 로봇 제어기를 재부팅합니다.**
 
 ![[그림 1.3.5.2-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>) 
 
 <br>
 
-##### 2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.
+**2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.**
 
 <br>
 
@@ -30,26 +30,26 @@
 
 <br>
 
-##### 3. Sycon.net 을 이용하여 EtherCAT Master PCI 장치를 선택합니다.
+**3. Sycon.net 을 이용하여 EtherCAT Master PCI 장치를 선택합니다.**
 
 ![[그림 1.3.5.2-3 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_3.png>)
 ![[그림 1.3.5.2-4 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_4.png>) 
 
 <br>
 
-##### 4. PCI 장치를 Scan 하고 EtherCAT Master 적용(Apply)합니다.
+**4. PCI 장치를 Scan 하고 EtherCAT Master 적용(Apply)합니다.**
 
 ![[그림 1.3.5.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_5.png>) 
 
 <br>
 
-##### 5. 설정을 다운로드 합니다.
+**5. 설정을 다운로드 합니다.**
 
 ![[그림 1.3.5.2-6 EtherCAT Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_6.png>) 
 
 <br>
 
-##### 6. EtherCAT Master 에 연결할 Slave 모듈을 준비합니다.
+**6. EtherCAT Master 에 연결할 Slave 모듈을 준비합니다.**
    * 이번 예제에서는 Crevis 사의 M9386 EtherCAT Slave를 사용합니다.
    * 시스템 전원과 필드 전원을 공급해 주어 모듈을 활성화 시켜 주십시오.
 
@@ -57,7 +57,7 @@
 
 <br>
 
-##### 7. Slave 장치의 Station Address
+**7. Slave 장치의 Station Address**
 
 {% hint style="info" %}
 \.      EtherCAT Slave 장치의 Station Address 는 Master 에서 설정합니다.
@@ -65,7 +65,7 @@
 
 <br>
 
-##### 8. Slave 장치의 XML 파일을 등록합니다.
+**8. Slave 장치의 XML 파일을 등록합니다.**
 
 {% hint style="info" %}
 \.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 XML 파일이 필요합니다.
@@ -98,7 +98,7 @@
 
 <br>
 
-##### 9. Network Scan
+**9. Network Scan**
 
 {% hint style="warning" %}
 \.      **EtherCAT 은 사용할 수 있는 Cable 결선과 Port 가 지정되어 있습니다.**
@@ -128,7 +128,7 @@
 
 <br>
 
-##### 10. Slave 장치 Configuration
+**10. Slave 장치 Configuration**
 
 {% hint style="info" %}
 \.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
@@ -157,7 +157,7 @@
 
 <br>
 
-##### 11. Master 장치 Configuration
+**11. Master 장치 Configuration**
 
 {% hint style="info" %}
 \.      Master 장치를 더블클릭합니다.
@@ -196,7 +196,7 @@
 
 <br>
 
-##### 12. 통신 상태 확인
+**12. 통신 상태 확인**
 
 {% hint style="info" %}
 \.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
@@ -220,7 +220,7 @@
 
 <br>
 
-##### 13. 통신 설정 완료 후 IO Block 을 할당합니다.
+**13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
 \.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
