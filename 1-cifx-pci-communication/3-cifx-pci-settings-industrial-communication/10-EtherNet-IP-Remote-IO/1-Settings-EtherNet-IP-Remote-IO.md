@@ -44,7 +44,8 @@
 
 <br>
 
-**4. 触摸菜单来进入从站设置界面。 **
+**4. 触摸菜单来进入从站设置界面。**
+
 **\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI从站插槽设置 > EtherNet/IP Remote IO Setting]**
 
 ![[图 1.3.10.1-5 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 

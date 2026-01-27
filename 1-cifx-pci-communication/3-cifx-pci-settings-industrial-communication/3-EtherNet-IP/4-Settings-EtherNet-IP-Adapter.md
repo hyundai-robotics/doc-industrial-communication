@@ -30,7 +30,8 @@
 
 <br>
 
-**3. 触摸菜单来进入从站设置界面。 **
+**3. 触摸菜单来进入从站设置界面。**
+
 **\[系统 > 2：控制参数 > 11：工业通信 > 2：PCI 从站插槽设置 >  EtherNet/IP Slave]**
 
 ![[图 1.3.3.4-3 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_3.png>) 

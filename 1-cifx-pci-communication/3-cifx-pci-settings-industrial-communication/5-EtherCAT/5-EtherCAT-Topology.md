@@ -28,7 +28,7 @@ EtherCAT与现有工业通信不同，对电缆接线及可使用的Ethernet Por
 
 <br>
 
-**2. Redundancy **
+**2. Redundancy**
 
 {% hint style="info" %}
 \.      Master使用Redundancy功能时 

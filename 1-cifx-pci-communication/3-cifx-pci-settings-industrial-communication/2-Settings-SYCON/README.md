@@ -22,7 +22,7 @@ Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的�
 
 <br>
 
-**3. 在屏幕右侧 Device Catalog 中点击与已设置的通信协议对应的项目，通过拖放（Drag & Drop）放置到中央的总线线上。 **
+**3. 在屏幕右侧 Device Catalog 中点击与已设置的通信协议对应的项目，通过拖放（Drag & Drop）放置到中央的总线线上。**
 
 ![[图 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
 ![[图 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
