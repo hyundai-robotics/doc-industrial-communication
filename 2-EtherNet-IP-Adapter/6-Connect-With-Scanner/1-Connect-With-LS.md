@@ -1,22 +1,38 @@
 ## 2.6.1 Connection with LS ELECTRIC PLC
 
+<br>
+
 This section explains how to connect the LS ELECTRIC PLC with EtherNet/IP.  
 The PLC and communication module used below are as follows.  
 (PLC: XGI-CPUS, Communication Module: XGL-EFMTB)
 
+<br>
+
 **2.6.1.1 XG5000 Running**
+
+<br>
+
 ![xg5000.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/xg5000.png) <br>
 *[Figure 2.6.1.1 XG5000 Running]*<br>
 For downloading the XG5000 program and detailed usage methods, please refer to the LS ELECTRIC website.
 
+<br>
+
 **2.6.1.2 EDS File Registration**
+
+<br>
+
 Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi6_EIP_240402.eds."<br>
 Confirm EDS file registration as shown in the figure below.<br>
 ![eds.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/eds.png)<br>
-*[Figure 2.6.1.2 EDS File Registration]*<br>
+*[Figure 2.6.1.2 EDS File Registration]*
 
+<br>
 
 **2.6.1.3 Device Connection**
+
+<br>
+
 [1] Create a project.<br>
 ![newProject_1.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_1.png)<br>
 *[Figure 2.6.1.3 Creating a New Project]*<br>
@@ -39,7 +55,12 @@ Double-click XGL-EFMT shown in the left tab in the figure below.<br>
 - To use the two LAN ports of the PLC as a relay function, select the "Relay" checkbox.  
 - Change the RAPIEnet setting to Disable.
 
+<br>
+
 **2.6.1.4 Online Connection Settings**
+
+<br>
+
 [1] Connect the PLC with a USB cable.<br>
 ![newProject_7.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_7.png)<br>
 *[Figure 2.6.1.8 Online Connection Settings 1]*<br>
@@ -48,7 +69,12 @@ Double-click XGL-EFMT shown in the left tab in the figure below.<br>
 ![newProject_8.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/newProject_8.png)<br>
 *[Figure 2.6.1.9 Online Connection Settings 2]*<br>
 
+<br>
+
 **2.6.1.5 Auto Scan**
+
+<br>
+
 [1] Auto Scan is possible when connected to the PLC.<br>
 If the current state is not online, click Menu > Online > Connect to change to online status.<br>
 
@@ -78,7 +104,12 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 ![auto7.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/auto7.png)<br>
 *[Figure 2.6.1.16 Auto Scan7]*<br>
 
+<br>
+
 **2.6.1.6 Program Variable Registration**
+
+<br>
+
 [1] Scan Program > NewProgram > Local Variables (double-click)<br>
 ![variable1.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable1.png)<br>
 *[Figure 2.6.1.17 Variable Registration 1]*<br>
@@ -87,7 +118,12 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 ![variable2.png](../../_assets/2-EtherNet-IP-Adapter/ConnectWithScanner/variable2.png)<br>
 *[Figure 2.6.1.18 Variable Registration 2]*<br>
 
+<br>
+
 **2.6.1.7 EtherNet/IP Adapter Settings**
+
+<br>
+
 [1] Double-click EB01 (Hi6 EtherNet/IP adapter) in the list on the left.<br>
 
 [2] Press the EIP detailed settings button.<br>
@@ -115,6 +151,8 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 <br>
 
 **2.6.1.8 Assignment of IO Blocks after Completion of Communication Settings**
+
+<br>
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../4-io-block-allocation.md)").**

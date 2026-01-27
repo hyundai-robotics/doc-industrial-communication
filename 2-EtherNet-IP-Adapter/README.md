@@ -1,8 +1,15 @@
 ## 2. EtherNet/IP Adapter
 
-Description of the built-in EtherNet/IP adapter.<br>
+<br>
+
+Description of the built-in EtherNet/IP adapter.
+
+<br>
 
 **Terminology**
+
+<br>
+
 |Abbreviation|Description|
 |---------------|------------------------------|
 |Adapter|Device that collects output data from the EtherNet/IP scanner and transmits the input data|
