@@ -44,7 +44,7 @@
 
 <br>
 
-**4. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다. **
+**4. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  EtherNet/IP Remote IO Setting]**
 
 ![[그림 1.3.10.1-5 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 

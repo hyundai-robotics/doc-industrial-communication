@@ -28,7 +28,7 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 
 <br>
 
-**2. Redundancy **
+**2. Redundancy**
 
 {% hint style="info" %}
 \.      Master에서 Redundancy 기능을 사용하는 경우 
