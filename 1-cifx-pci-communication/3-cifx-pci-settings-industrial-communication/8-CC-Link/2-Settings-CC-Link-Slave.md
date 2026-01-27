@@ -1,4 +1,4 @@
-# 1.3.8.2 CC-Link Slave Settings
+## 1.3.8.2 CC-Link Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -12,13 +12,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 1. Using the TP, select CC-Link slave in the industrial communication firmware settings and reboot the robot controller.
+**1. Using the TP, select CC-Link slave in the industrial communication firmware settings and reboot the robot controller.**
 
 ![[Figure 1.3.8.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
-##### 2. Check the current communication protocol readiness status in industrial communication monitoring menu.
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
 ![[Figure 1.3.8.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_2.png>) 
 
@@ -30,7 +30,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 3. Touch the menu to enter the slave settings screen.
+**3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > CC-Link Slave]**
 
 ![[Figure 1.3.8.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>) 
@@ -39,7 +39,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 4. Description of each item
+**4. Description of each item**
 
 {% hint style="info" %}
 \.      [Station Address]
@@ -91,13 +91,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 <br>
 
-##### 5. After completing the settings, check the communication status according to the procedure below.
+**5. After completing the settings, check the communication status according to the procedure below.**
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
 <br>
 
-##### 6. Assign IO blocks after completing the communication settings.
+**6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
 \.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**

@@ -1,4 +1,4 @@
-﻿# 1.3.8.1 CC-Link Slave Specifications
+﻿## 1.3.8.1 CC-Link Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,7 +8,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <br>
 <table class="tg">
@@ -87,7 +87,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### CC-Link IO Mapping
+**CC-Link IO Mapping**
 
 <br>
 

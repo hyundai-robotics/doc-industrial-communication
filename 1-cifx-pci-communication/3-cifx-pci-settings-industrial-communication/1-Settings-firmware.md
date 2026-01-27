@@ -1,4 +1,4 @@
-﻿# 1.3.1 CIFX PCI Slot Settings.
+﻿## 1.3.1 CIFX PCI Slot Settings.
 
 Configure the communication method for the CIFX PCI slot. To apply the settings, please disconnect the controller power and then supply it again.
 
@@ -8,13 +8,13 @@ Refer to "[**1.2.1 PCI Industrial Communication Card**](../../1-cifx-pci-communi
 
 <br>
 
-##### 1. Touch the menu to enter the slot settings screen.
+**1. Touch the menu to enter the slot settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 1: PCI Slot Settings > Channel 1]** 
 
 
 <br>
 
-##### 2. Refer to the screen below to select the slot, communication method (master/slave), and protocol.
+**2. Refer to the screen below to select the slot, communication method (master/slave), and protocol.**
    * The slot number is the rotary switch number of the PCI communication card.
    * If you do not want to change the communication settings, touch the **\[OK]** button to exit.
 
@@ -28,7 +28,7 @@ Refer to "[**1.2.1 PCI Industrial Communication Card**](../../1-cifx-pci-communi
 
 <br>
 
-##### 3. Complete the slot settings.
+**3. Complete the slot settings.**
 Touch the **\[Apply]** menu.
 
 ![[Figure 1.3.1-4 PCI Slot Settings]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_4.png>)
@@ -43,11 +43,11 @@ Touch the **\[Apply]** menu.
 
 <br>
 
-##### 4. Repeat steps 2. \~ 3. for each slot.
+**4. Repeat steps 2. \~ 3. for each slot.**
 
 <br>
 
-##### 5. Reboot the controller to apply the set communication.
+**5. Reboot the controller to apply the set communication.**
 Touch the **\[Service > 19: Industrial Communication Monitoring]** menu to check if the set communication has been applied.
 
 ![[Figure 1.3.1-5 Industrial Communication Settings Screen]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_5.png>)

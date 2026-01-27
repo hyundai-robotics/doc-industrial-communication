@@ -1,6 +1,6 @@
 ## 2.3 EtherNet/IP Adapter
 
-### 2.3.1 EtherNet/IP Adapter Specifications
+**2.3.1 EtherNet/IP Adapter Specifications**
 |Item|Description|
 |------|---|
 |Device Type|General Purpose Discrete I/O (7)|
@@ -10,7 +10,7 @@
 |Output Size Range(bytes)|0 - 240|
 |RPI Range (ms)|5 – 3000|<br>
 
-### 2.3.2 EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant
+**2.3.2 EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant**
 On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP Adapter"<br>
 ![Config.PNG](../_assets/2-EtherNet-IP-Adapter/Spec/Config.PNG)<br>
 *[Figure 2.3.1 Settings]*<br>

@@ -1,4 +1,4 @@
-# 1.3.3.5 EtherNet/IP Error Handling
+## 1.3.3.5 EtherNet/IP Error Handling
 
 This is a method for resolving major errors that may occur during EtherNet/IP settings.
 
@@ -10,7 +10,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 1. Communication cable disconnection error
+**1. Communication cable disconnection error**
 
 {% hint style="info" %}
 \.      Please check the connection status of the LAN cable.
@@ -23,7 +23,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 2. IP Address setting error
+**2. IP Address setting error**
 
 {% hint style="info" %}
 \.      Please check the IP addresses of the master and slave devices.

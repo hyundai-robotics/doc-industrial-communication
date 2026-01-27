@@ -1,4 +1,4 @@
-﻿# 5. Industrial Communication IO Reading and Writing
+﻿## 5. Industrial Communication IO Reading and Writing
 
 This is the method for assigning IO blocks for the communication with the controller after completing industrial communication settings.
 
@@ -15,12 +15,12 @@ To use the industrial communication IO, the IO blocks should be assigned to the 
 
 <br>
 
-##### 1. Select the IO block assignment menu.
+**1. Select the IO block assignment menu.**
    Touch the **\[System > 2: Control Parameters > 2: Input/Output Signal Settings > 6: FB Block Assignment]** menu.
 
 <br>
 
-##### 2. Specify industrial communication type for the desired fb area.
+**2. Specify industrial communication type for the desired fb area.**
    After specifying it, touch the **\[OK]** button.
 
 ![[Figure 5-1]](<_assets/4-io-block-allocation/image_1.png>)

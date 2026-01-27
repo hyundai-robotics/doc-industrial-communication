@@ -1,4 +1,4 @@
-# 1.4 CIFX PCI Communication Monitoring
+## 1.4 CIFX PCI Communication Monitoring
 
 <br>
 
@@ -6,7 +6,7 @@ After setting the communication according to the procedures of “[**1.2 CIFX PC
 
 <br>
 
-#### 1. Industrial Communication Monitoring
+**1. Industrial Communication Monitoring**
 
 <br>
 
@@ -45,13 +45,9 @@ You can enter the screens by touching **\[Service > 19: Industrial Communication
 
 <br>
 
-#### 2. Industrial Communication Node Monitoring
+**2. Industrial Communication Node Monitoring**
 
 <br> 
-
-#### Supported version: TBD 
-
-<br>
 
 Click the Node Statue button at the bottom of the monitoring screen to monitor the status of devices connected to the master protocol
 

@@ -1,4 +1,4 @@
-# 1.3.4.3 PROFINET IO Device Specifications
+## 1.3.4.3 PROFINET IO Device Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,7 +8,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-##### Protocol Characteristics
+**Protocol Characteristics**
 
 <table class="tg">
 <thead>
@@ -54,7 +54,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Network Characteristics
+**Network Characteristics**
 
 <br>
 <table class="tg">
@@ -89,7 +89,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-##### Connection
+**Connection**
 
 <br>
 <table class="tg">

@@ -1,11 +1,11 @@
-﻿# 1.3.8 CC-Link
+﻿## 1.3.8 CC-Link
 
 This chapter describes the characteristics of CC-Link slaves and how to set them. 
 
 
 <br>
 
-##### Fieldbus Overview
+**Fieldbus Overview**
 
 Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
 

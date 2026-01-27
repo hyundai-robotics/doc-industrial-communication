@@ -1,4 +1,4 @@
-# 3.2 EtherCAT Master IO Error Handling
+## 3.2 EtherCAT Master IO Error Handling
 
 This is a method for resolving major errors that may occur during EtherCAT master IO settings.
 

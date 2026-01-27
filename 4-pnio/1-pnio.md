@@ -1,9 +1,10 @@
+## 4.1 PROFINET ?
 
-## 1. PROFINET?
+ **1. PROFINET**
 - PROFINET is an Ethernet-based communication standard for industrial automation.
 - It supports real-time data exchange between controllers (PLCs, robot controllers, etc.) and distributed I/O devices (drives, sensors, modules, etc.).
 
-## 2. PROFINET Specifications
+**2. PROFINET Specifications**
 - Digital input: 50, 120, and 240 bytes (select one type of byte count)
 - Digital output: 50, 120, and 240 bytes (select one type of byte count)
 - Safety I/O: 8/8 bytes (activated or deactivated)
@@ -13,7 +14,7 @@
 - Netload Class: II
 - Optional Feature: Legacy, MRP
 
-## 3. PROFINET Configuration Procedure
+**3. PROFINET Configuration Procedure**
 
 1) Connection of BD671, PROFINET controller and Hi7 Com
 2) GSDML file registration (TIA portal)
@@ -22,9 +23,9 @@
 5) PROFINET communication verification
 6) PROFINET I/O signal assignment (FB block settings)
 
-### 3.1 Connection of BD671, F-Host and Hi7 Com
+**3.1 Connection of BD671, F-Host and Hi7 Com**
 
-#### 3.1.1 LAN Cable Connection
+**3.1.1 LAN Cable Connection**
 1) Connect the PROFINET controller and BD671 using a LAN cable.
 2) Check if the Link LED is blinking.
 3) Connect the Hi7 COM’s LAN3 connector and BD671 using a LAN cable.
@@ -32,7 +33,7 @@
 
 ![](../_assets/4-pnio/profisafe_connect.png)
 
-#### 3.1.2 Hi7 Com Connection Settings
+**3.1.2 Hi7 Com Connection Settings**
 1) Navigate to the menu as follows: System -> Control Parameters -> Industrial Communication -> EtherCAT Master Settings
 2) Configure as shown below.
 - EtherCAT Master : ON
@@ -46,7 +47,7 @@
 ![](../_assets/4-pnio/EC_master_setting2.png)
 
 
-### 3.2 GSDML File Registration (TIA portal)
+**3.2 GSDML File Registration (TIA portal)**
 1) Run the TIA portal.
 2) Navigate as shown on the right in the menu: [Options] → [Manage general station description file (GSD)].
 3) Click the "…" button and set the directory where the GSDML file is located.
@@ -54,7 +55,7 @@
 5) Check if it has been registered as a new device in the hardware catalog. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
-### 3.3 PROFINET Controller Settings (TIA portal)
+**3.3 PROFINET Controller Settings (TIA portal)**
 1) Run the TIA portal and create a new project.
 2) Double-click the Device & Network section to open it.<br>
 ![](../_assets/4-pnio/profisafe_device_network.png)
@@ -77,7 +78,7 @@
 14) Set "PROFINET device name" to "hd-hrc-0" and save.<br>
 ![](../_assets/4-pnio/profisafe_device_network4.png)
 
-### 3.4 Hi7 Settings (TP UI)
+**3.4 Hi7 Settings (TP UI)**
 1) Set the parameters to the values below, which are the same as those set in the PNIO controller.
 - PROFINET IO Device Name : hd-hrc-0
 - Slot 1 : Digital Input : 240
@@ -87,21 +88,21 @@
 2) Press the "Apply" button.<br>
 ![](../_assets/4-pnio/4_1_profinet_config.png)
 
-### 3.5 PROFINET Communication Verification
-### 3.5.1 Ladder Program (TIA portal)
+**3.5 PROFINET Communication Verification**
+**3.5.1 Ladder Program (TIA portal)**
 1) In the Device Overview tab, create a ladder program as shown below and download it to the controller.<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder.png)
 2) After downloading, check if a green checkbox is displayed on the Distribution I/O screen.<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
-### 3.5.2 TP Screen
+**3.5.2 TP Screen**
 In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Status.<br>
 ![](../_assets/4-pnio/5_2_pnio_status.png)
 - Check the status information of each slot.
 - Check if the counter continuously increases.
 
 
-### 3.6 PROFINET I/O Signal Assignment (FB block settings)
+**3.6 PROFINET I/O Signal Assignment (FB block settings)**
 1) Navigate to System → Control Parameters → Input/Output Signal Settings → FB Block Assignment
 2) Change the block settings to PROFINET I/O as many as needed (up to two).
  (The maximum PROFINET I/O size is 240 bytes and the individual FB block size is 120 bytes. Therefore, **any settings exceeding two will be ignored.**)<br>

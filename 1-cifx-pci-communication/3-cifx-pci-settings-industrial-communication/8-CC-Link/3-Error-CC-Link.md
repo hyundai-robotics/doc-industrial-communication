@@ -1,4 +1,4 @@
-# 1.3.8.3 CC-Link Slave Error Handling
+## 1.3.8.3 CC-Link Slave Error Handling
 
 <br>
 
@@ -6,7 +6,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 <br>
 
-##### 1. CC-Link termination resistor
+**1. CC-Link termination resistor**
 
 {% hint style="info" %}
 \.      A resistor should be added at the termination when connecting the CC-Link cable.
@@ -24,7 +24,7 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 
 
 
-##### 2. CC-Link ERROR
+**2. CC-Link ERROR**
 
 {% hint style="info" %}
 \.      A 24V power supply to the CC-Link cable is required for communication connection.

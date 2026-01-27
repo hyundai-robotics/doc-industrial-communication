@@ -1,10 +1,10 @@
-﻿# 1.1.1 SYCON.net Installation
+﻿## 1.1.1 SYCON.net Installation
 
 "Sycon.net" is a program provided by Hilscher for configuring the PCI communication card.
 
 <br>
 
-##### 1. SYCON.net Latest Version Download Path
+**1. SYCON.net Latest Version Download Path**
 
 {% hint style="info" %}
 \.      Click **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
@@ -59,7 +59,7 @@
 <br>
 
 
-##### 2. Download the Program from the Hyundai Robotics Website.
+**2. Download the Program from the Hyundai Robotics Website.**
 
 {% hint style="info" %}
 \.      Download "**Sycon.net**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
