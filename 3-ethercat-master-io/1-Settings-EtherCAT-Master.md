@@ -2,7 +2,7 @@
 
 <br>
 
-**1. Touch the menu to enter the settings screen. **
+**1. Touch the menu to enter the settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
 
 <br>

@@ -1,5 +1,7 @@
 ## 2.4 EtherNet/IP Adapter Alarm Codes
 
+<br>
+
 |Code|Message|
 |------|---|
 |W23101|EtherNet/IP initialization failed|
