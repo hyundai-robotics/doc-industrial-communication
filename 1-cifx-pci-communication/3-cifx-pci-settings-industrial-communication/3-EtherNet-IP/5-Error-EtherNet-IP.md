@@ -13,9 +13,9 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 **1. Communication cable disconnection error**
 
 {% hint style="info" %}
-\.      Please check the connection status of the LAN cable.
+   - Please check the connection status of the LAN cable.
 
-\.      Check if the adapter device power is on.
+   - Check if the adapter device power is on.
 {% endhint %}
 
 ![[Figure 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
@@ -26,9 +26,9 @@ Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx
 **2. IP Address setting error**
 
 {% hint style="info" %}
-\.      Please check the IP addresses of the master and slave devices.
+   - Please check the IP addresses of the master and slave devices.
 
-\.      An error occurs if the set IP address of the adapter device differs from the value entered in Sycon.net.
+   - An error occurs if the set IP address of the adapter device differs from the value entered in Sycon.net.
 
 {% endhint %}
 

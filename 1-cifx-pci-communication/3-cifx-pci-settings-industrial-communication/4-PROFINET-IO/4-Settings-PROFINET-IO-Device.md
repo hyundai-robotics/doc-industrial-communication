@@ -5,9 +5,9 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="info" %}
-\.      **[PROFINET IO Device GSDML File Download]**
+   **[PROFINET IO Device GSDML File Download]**
 
-\.      Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
 {% endhint %}
 
 <br>
@@ -42,43 +42,43 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **4. Description of each item**
 
 {% hint style="info" %}
-\.      [Station Name]
+   [Station Name]
 
-\.      The PROFINET IO identifies a slave through the station name.
+   - The PROFINET IO identifies a slave through the station name.
 
-\.      Naming Rule
-\.       > Device names connected by PROFINET IO cannot be duplicated.  
-\.       > A name can be set up to 240 characters.  
-\.       > Special characters "." and "-" can be used.  
-\.       > Lowercase English letters and numbers can be used.  
-\.       > Names should start and end with lowercase English letters or numbers.  
+   - Naming Rule
+      - Device names connected by PROFINET IO cannot be duplicated.  
+      - A name can be set up to 240 characters.  
+      - Special characters "." and "-" can be used.  
+      - Lowercase English letters and numbers can be used.  
+      - Names should start and end with lowercase English letters or numbers.  
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Input Byte Count (Input Byte)]
+   [Input Byte Count (Input Byte)]
 
-\.      Input Byte Count: Sets the size of the data input from the master -> slave.
+   - Input Byte Count: Sets the size of the data input from the master -> slave.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Output Byte Count (Output Byte)]
+   [Output Byte Count (Output Byte)]
 
-\.      Output Byte Count: Sets the size of the data output from the slave -> master.
+   - Output Byte Count: Sets the size of the data output from the slave -> master.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      [**When Setting a Slot from the Master**]
+   [**When Setting a Slot from the Master**]
 
-\.      Master Input (32byte)  <--  Slave Output (32bytes)
+   - Master Input (32byte)  <--  Slave Output (32bytes)
 
-\.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
+   - Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
-\.      4, 8, 16, 32, and 64 Bytes -> Specify the slot matching each byte count  
-\.      128 and 256 Bytes -> Specify multiple 64-byte slots (2, 4)
+   - 4, 8, 16, 32, and 64 Bytes -> Specify the slot matching each byte count  
+   - 128 and 256 Bytes -> Specify multiple 64-byte slots (2, 4)
 
-\.      The input slot is located before the output slot.
+   - The input slot is located before the output slot.
 {% endhint %}
 
 <br>
@@ -99,5 +99,5 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

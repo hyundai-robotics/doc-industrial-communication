@@ -7,7 +7,7 @@
 **1. SYCON.net Latest Version Download Path**
 
 {% hint style="info" %}
-\.      Click **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
+   - Click **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
 {% endhint %}
 
 <br>
@@ -21,7 +21,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Select the latest version (current release) and download it.
+   - Select the latest version (current release) and download it.
 {% endhint %}
 
 <br>
@@ -35,7 +35,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Execute the downloaded SYCON.NET Setup.exe file to install the program.
+   - Execute the downloaded SYCON.NET Setup.exe file to install the program.
 {% endhint %}
 
 <br>
@@ -49,7 +49,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Execute the installed SYCON.NET program to check that the installation has been completed successfully.
+   - Execute the installed SYCON.NET program to check that the installation has been completed successfully.
 {% endhint %}
 
 <br>
@@ -62,19 +62,19 @@
 **2. Download the Program from the Hyundai Robotics Website.**
 
 {% hint style="info" %}
-\.      Download "**Sycon.net**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
+   - Download "**Sycon.net**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Extract -> Execute the SYCON.NET Setup.exe file to install the program.
+   - Extract -> Execute the SYCON.NET Setup.exe file to install the program.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      The SYCON.net program provided on our website may differ from the latest version.
+   - The SYCON.net program provided on our website may differ from the latest version.
 {% endhint %}
 
 <br>

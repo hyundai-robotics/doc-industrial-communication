@@ -35,51 +35,51 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **4. Description of each item**
 
 {% hint style="info" %}
-\.      [Network Number]
+   [Network Number]
 
-\.      CC-Link IE field network number (1–239)
+   - CC-Link IE field network number (1–239)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      Device ID within the connected network (1–120)
+   - Device ID within the connected network (1–120)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Type]
+   [IO Type]
 
-\.      IO type is determined by the master device settings.   
-\.      - Mixed: Input and output use different indexes (different addresses).   
-\.      - Input: Input only   
-\.      - Output: Output only   
-\.      - FrontBackMixture: Input and output use the same index (same address).   
+   - IO type is determined by the master device settings.   
+      - Mixed: Input and output use different indexes (different addresses).   
+      - Input: Input only   
+      - Output: Output only   
+      - FrontBackMixture: Input and output use the same index (same address).   
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Device Type]
+   [Device Type]
 
-\.      The maximum IO size that can be set varies depending on the Device Type.
+   - The maximum IO size that can be set varies depending on the Device Type.
 
-\.      Intelligent Device Station   
-\.      - RY, RX (max): 256 bytes   
-\.      - RWw, RWr (max): 1024 words
+   - Intelligent Device Station   
+      - RY, RX (max): 256 bytes   
+      - RWw, RWr (max): 1024 words
 
-\.      Remote Device Station   
-\.      - RY, RX (max): 16 bytes   
-\.      - RWw, RWr (max): 64 words
+   - Remote Device Station   
+      - RY, RX (max): 16 bytes   
+      - RWw, RWr (max): 64 words
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Size]
+   [IO Size]
 
-\.      Master -> Slave
-\.      - RWw (word data)
-\.      - RY (bit data)
+   - Master -> Slave
+      - RWw (word data)
+      - RY (bit data)
 
-\.      Slave -> Master   
-\.      - RWr (word data)   
-\.      - RX (bit data)  
+   - Slave -> Master   
+      - RWr (word data)   
+      - RX (bit data)  
 {% endhint %}
 
 <br>
@@ -93,7 +93,7 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}
 
 <br>

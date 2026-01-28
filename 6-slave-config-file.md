@@ -10,19 +10,19 @@ Download "**Hi7 Fieldbus Config**" from [www.hd-hyundairobotics.com](https://hd-
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP: EDS file
+   - EtherNet/IP: EDS file
 
-\.      PROFINET IO: GSDML (.XML) file
+   - PROFINET IO: GSDML (.XML) file
 
-\.      EtherCAT: ESI (.XML) file
+   - EtherCAT: ESI (.XML) file
 
-\.      PROFIBUS-DP: GSD file
+   - PROFIBUS-DP: GSD file
 
-\.      DeviceNet: EDS file
+   - DeviceNet: EDS file
 
-\.      CC-Link IE Field: CSPP file
+   - CC-Link IE Field: CSPP file
 
-\.      CC-Link IE Basic: CSPP file
+   - CC-Link IE Basic: CSPP file
 {% endhint %}
 
 <br>

@@ -20,10 +20,10 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 <br>
 
 {% hint style="info" %}
-\.      An EtherCAT Master uses the general LAN port for the controller.
+   - An EtherCAT Master uses the general LAN port for the controller.
 
 
-\.      A Remote IO module uses the M9386 EtherCAT network adapter from Crevis.
+   - A Remote IO module uses the M9386 EtherCAT network adapter from Crevis.
 {% endhint %}
 
 

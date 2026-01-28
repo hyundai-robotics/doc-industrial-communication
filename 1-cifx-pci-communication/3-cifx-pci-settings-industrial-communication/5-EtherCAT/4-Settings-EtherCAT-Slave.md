@@ -5,7 +5,7 @@ The manual is in preparation.
 <br>
 
 {% hint style="info" %}
-\.      **[EtherCAT Slave ESI File Download]**
+   **[EtherCAT Slave ESI File Download]**
 
-\.      Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
 {% endhint %}

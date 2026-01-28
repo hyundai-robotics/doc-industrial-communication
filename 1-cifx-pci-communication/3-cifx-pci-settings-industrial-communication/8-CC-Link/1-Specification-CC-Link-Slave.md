@@ -92,7 +92,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 1
+   - CC-Link Version 1
 {% endhint %}
 
 <br>
@@ -103,9 +103,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Single
+   - Extension Cycle : Single
 {% endhint %}
 
 <br>
@@ -115,9 +115,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Double
+   - Extension Cycle : Double
 {% endhint %}
 
 <br>
@@ -127,9 +127,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle: Quadruple
+   - Extension Cycle: Quadruple
 {% endhint %}
 
 <br>
@@ -139,9 +139,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Octuple
+   - Extension Cycle : Octuple
 {% endhint %}
 
 <br>

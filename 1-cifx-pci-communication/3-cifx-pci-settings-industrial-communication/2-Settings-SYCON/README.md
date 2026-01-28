@@ -11,7 +11,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 ![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
-\.      IP Address can be changed according to user settings.
+   - IP Address can be changed according to user settings.
 {% endhint %}
 
 <br>
@@ -32,27 +32,27 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 **4. Double-click the imported item to set it.**
 
 {% hint style="info" %}
-\.      "Double-click" the imported CIFX PCI (figure).
+   - "Double-click" the imported CIFX PCI (figure).
 
-\.      Settings -> Driver
+   - Settings -> Driver
 
-\.      Select netX Driver.
+   - Select netX Driver.
 {% endhint %}
 
 ![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-\.     Setting -> Driver -> netX Driver -> TCP Connection
+   - Setting -> Driver -> netX Driver -> TCP Connection
 
-\.     IP Address: Please enter the general LAN port IP address of the connected controller.
+   - IP Address: Please enter the general LAN port IP address of the connected controller.
 {% endhint %}
 
 ![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 {% hint style="info" %}
-\.      Device Assignment -> Click Scan
+   - Device Assignment -> Click Scan
 
-\.      Select communication (check the channel protocol) then "Apply" and "OK."
+   - Select communication (check the channel protocol) then "Apply" and "OK."
 {% endhint %}
 
 {% hint style="warning" %}
@@ -67,7 +67,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 
 
 {% hint style="info" %}
-\.      Right-click the CIFX PCI figure -> Download
+   - Right-click the CIFX PCI figure -> Download
 {% endhint %}
 
 ![[Figure 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
