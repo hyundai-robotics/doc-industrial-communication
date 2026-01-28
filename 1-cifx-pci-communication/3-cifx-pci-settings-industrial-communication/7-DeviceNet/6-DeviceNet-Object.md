@@ -32,15 +32,15 @@ DeviceNet Master 에서 Explicit Message를 통해 특정 Slave의 Object 에 �
 <br>
 
 {% hint style="info" %}
-\.      EX) Crevis GN-9212 의 Object (해당 자료는 Crevis 매뉴얼에서 확인 하실 수 있습니다.)
+   - EX) Crevis GN-9212 의 Object (해당 자료는 Crevis 매뉴얼에서 확인 하실 수 있습니다.)
 
-\.      Identity Object (Class Code 0x01) 의 Vendor ID 값 읽기
+   - Identity Object (Class Code 0x01) 의 Vendor ID 값 읽기
 
-\.      Instance : 1
+   - Instance : 1
 
-\.      Attribute ID : 1
+   - Attribute ID : 1
 
-\.      권한 : Get (읽기만 가능)
+   - 권한 : Get (읽기만 가능)
 {% endhint %}
 
 
@@ -54,15 +54,15 @@ DeviceNet Master 에서 Explicit Message를 통해 특정 Slave의 Object 에 �
 <br>
 
 {% hint style="info" %}
-\.      접근 권한
+   - 접근 권한
 
-\.      Get : 읽기 권한
+   - Get : 읽기 권한
 
-\.      Set : 쓰기 권한 
+   - Set : 쓰기 권한 
 
-\.      Attribute Single : 한번에 1개의 Attribute 항목만 접근 가능
+   - Attribute Single : 한번에 1개의 Attribute 항목만 접근 가능
 
-\.      Attribute All : 한번에 Instance내의 모든 Attribute 접근 가능
+   - Attribute All : 한번에 Instance내의 모든 Attribute 접근 가능
 {% endhint %}
 
 <br>

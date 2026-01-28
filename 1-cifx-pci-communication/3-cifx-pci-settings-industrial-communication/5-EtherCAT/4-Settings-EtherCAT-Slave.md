@@ -5,7 +5,7 @@
 <br>
 
 {% hint style="info" %}
-\.      **[EtherCAT Slave ESI File 다운로드]**
+   **[EtherCAT Slave ESI File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}

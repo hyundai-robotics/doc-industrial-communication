@@ -3,15 +3,15 @@
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      해당 장치의 IP 설정은 Baumer 매뉴얼을 참조하여 진행해 주십시오.
+   - 해당 장치의 IP 설정은 Baumer 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
@@ -31,15 +31,15 @@
 <br>
 
 {% hint style="info" %}
-\.      [Input Only Connection]   
+   [Input Only Connection]   
 
-\.      Input (T > O)   
-\.      * Instance ID: 100   
-\.      * Size : 34 bytes   
+   - Input (T > O)   
+      - Instance ID: 100   
+      - Size : 34 bytes   
 
-\.      Output (O > T)   
-\.      * Instance ID: 238   
-\.      * Size : 0 byte    
+   - Output (O > T)   
+      - Instance ID: 238   
+      - Size : 0 byte    
 {% endhint %}
 
 <br>

@@ -10,19 +10,19 @@ Slave 장치 설명 파일은 당사 홈페이지에 다운로드 받을 수 있
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP : EDS 파일
+   - EtherNet/IP : EDS 파일
 
-\.      PROFINET IO : GSDML (.XML) 파일
+   - PROFINET IO : GSDML (.XML) 파일
 
-\.      EtherCAT : ESI (.XML) 파일
+   - EtherCAT : ESI (.XML) 파일
 
-\.      PROFIBUS-DP : GSD 파일
+   - PROFIBUS-DP : GSD 파일
 
-\.      DeviceNet : EDS 파일
+   - DeviceNet : EDS 파일
 
-\.      CC-Link IE Field : CSPP 파일
+   - CC-Link IE Field : CSPP 파일
 
-\.      CC-Link IE Basic : CSPP 파일
+   - CC-Link IE Basic : CSPP 파일
 {% endhint %}
 
 <br>

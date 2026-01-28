@@ -36,51 +36,51 @@
 **4. 각 항목별 설명**
 
 {% hint style="info" %}
-\.      [Network Number]
+   [Network Number]
 
-\.      CC-Link IE Field network 번호 (1~239)
+   - CC-Link IE Field network 번호 (1~239)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      연결된 network 내에 장치 ID (1 ~ 120)
+   - 연결된 network 내에 장치 ID (1 ~ 120)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Type]
+   [IO Type]
 
-\.      IO Type은 master 장치 설정에 의해 결정됨   
-\.      - Mixed: 입력과 출력이 다른 인덱스 사용 (서로 다른 주소)   
-\.      - Input: 입력 전용   
-\.      - Output: 출력 전용   
-\.      - FrontBackMixture: 입력과 출력이 같은 인덱스 사용 (동일한 주소)   
+   - IO Type은 master 장치 설정에 의해 결정됨   
+      - Mixed: 입력과 출력이 다른 인덱스 사용 (서로 다른 주소)   
+      - Input: 입력 전용   
+      - Output: 출력 전용   
+      - FrontBackMixture: 입력과 출력이 같은 인덱스 사용 (동일한 주소)   
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Device Type]
+   [Device Type]
 
-\.      Device Type에 따라 설정 가능한 IO 최대 크기가 상이합니다.
+   - Device Type에 따라 설정 가능한 IO 최대 크기가 상이합니다.
 
-\.      Intelligent Device Station   
-\.      - RY, RX (max): 256 bytes   
-\.      - RWw, RWr (max): 1024 words
+   - Intelligent Device Station   
+      - RY, RX (max): 256 bytes   
+      - RWw, RWr (max): 1024 words
 
-\.      Remote Device Station   
-\.      - RY, RX (max): 16 bytes   
-\.      - RWw, RWr (max): 64 words
+   - Remote Device Station   
+      - RY, RX (max): 16 bytes   
+      - RWw, RWr (max): 64 words
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Size]
+   [IO Size]
 
-\.      Master -> Slave   
-\.      - RWw (word data)   
-\.      - RY (bit data)   
+   - Master -> Slave   
+      - RWw (word data)   
+      - RY (bit data)   
 
-\.      Slave -> Master   
-\.      - RWr (word data)   
-\.      - RX (bit data)  
+   - Slave -> Master   
+      - RWr (word data)   
+      - RX (bit data)  
 {% endhint %}
 
 <br>
@@ -94,7 +94,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}
 
 <br>

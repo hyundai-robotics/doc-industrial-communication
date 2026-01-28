@@ -3,7 +3,7 @@
 <br>
 
 {% hint style="info" %}
-\.      각 장치별 통신 상태를 CIP 표준 General Status 코드로 표시하여 실시간 진단 기능을 제공합니다.
+   - 각 장치별 통신 상태를 CIP 표준 General Status 코드로 표시하여 실시간 진단 기능을 제공합니다.
 {% endhint %}
 
 <br>

@@ -5,17 +5,17 @@
 <br>
 
 {% hint style="info" %}
-\.      **[DeviceNet Slave EDS File 다운로드]**
+   **[DeviceNet Slave EDS File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      DeviceNet Connector 연결은 아래를 참고해 주십시오.
+   - DeviceNet Connector 연결은 아래를 참고해 주십시오.
 
-\.      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
 {% endhint %}
 
 <br>
@@ -51,27 +51,27 @@
 **4. 각 항목별 설명**
 
 {% hint style="info" %}
-\.      [Station Address = Mac ID]
+   [Station Address = Mac ID]
 
-\.      DeviceNet는 Station Address (MAC ID)을 통해 Slave를 식별합니다. (1 ~ 63)
+   - DeviceNet는 Station Address (MAC ID)을 통해 Slave를 식별합니다. (1 ~ 63)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 속도(Baudrate)]
+   [통신 속도(Baudrate)]
 
-\.      125, 250, 500 Kbit/s 중 선택 가능합니다.
+   - 125, 250, 500 Kbit/s 중 선택 가능합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
 
@@ -88,5 +88,5 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

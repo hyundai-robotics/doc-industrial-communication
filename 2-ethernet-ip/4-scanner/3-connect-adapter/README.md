@@ -15,13 +15,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      IO size는 외부 장치에 연결된 Input / Output 크기와 일치하게 설정해 주십시오.   
+   - IO size는 외부 장치에 연결된 Input / Output 크기와 일치하게 설정해 주십시오.   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      자세한 사양은 장치 Maker에서 제공하는 매뉴얼을 참고해주십시오.    
+   - 자세한 사양은 장치 Maker에서 제공하는 매뉴얼을 참고해주십시오.    
 {% endhint %}
 
 <br>
