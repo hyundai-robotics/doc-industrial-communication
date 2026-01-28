@@ -1,4 +1,4 @@
-## 2.6.1 与LS ELECTRIC PLC连接
+### 2.6.1 与LS ELECTRIC PLC连接
 
 说明LS ELECTRIC PLC与Hi6 EtherNet/IP的连接方法。  
 下面所使用的PLC及通信模块如下。  

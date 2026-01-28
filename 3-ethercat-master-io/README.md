@@ -1,4 +1,4 @@
-﻿## 3. EtherCAT Master IO
+﻿# 3. EtherCAT Master IO
 
 <br>
 

@@ -1,4 +1,4 @@
-## 1.3.2 SYCON.NET设置
+### 1.3.2 SYCON.NET设置
 
 Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的设置方法如下。（请参考“[**1.1 Sycon.net安装**](../../1-cifx-pci-install-program/1-sycon-net.md)”进行安装。）
 

@@ -1,4 +1,4 @@
-﻿## 1.3.6 PROFIBUS-DP
+﻿### 1.3.6 PROFIBUS-DP
 
 本章说明PROFIBUS-DP Master和Slave的特性及设置方法。 
 

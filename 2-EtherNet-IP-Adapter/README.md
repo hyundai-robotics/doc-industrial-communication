@@ -1,4 +1,4 @@
-## 2. EtherNet/IP适配器
+# 2. EtherNet/IP适配器
 
 这是关于内置EtherNet/IP适配器的说明。<br>
 

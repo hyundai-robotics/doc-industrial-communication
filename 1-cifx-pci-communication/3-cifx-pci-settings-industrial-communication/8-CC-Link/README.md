@@ -1,4 +1,4 @@
-﻿## 1.3.8 CC-Link
+﻿### 1.3.8 CC-Link
 
 本章说明CC-Link Slave的特性及设置方法。 
 

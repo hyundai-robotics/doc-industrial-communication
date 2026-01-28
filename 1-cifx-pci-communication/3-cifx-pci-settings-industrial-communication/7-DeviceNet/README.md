@@ -1,4 +1,4 @@
-﻿## 1.3.7 DeviceNet
+﻿### 1.3.7 DeviceNet
 
 本章说明DeviceNet Master和Slave的特性及设置方法。 
 

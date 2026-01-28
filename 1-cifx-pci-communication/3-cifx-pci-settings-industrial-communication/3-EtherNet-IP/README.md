@@ -1,4 +1,4 @@
-﻿## 1.3.3 EtherNet/IP
+﻿### 1.3.3 EtherNet/IP
 
 本章说明EtherNet/IP Master（Scanner）和Slave（Adapter）的特性及设置方法。
 
