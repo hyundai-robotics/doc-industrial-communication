@@ -12,7 +12,7 @@
 <br>
 
 {% hint style="info" %}
-\.      在 EtherCAT Master 设置界面中，确认所选控制器的 LAN Port 编号。 
+   - 在 EtherCAT Master 设置界面中，确认所选控制器的 LAN Port 编号。 
 {% endhint %}
 
 **2. 为了实现通信，连接控制器LAN端口和Remote IO的电缆等并确认状态。**
@@ -25,11 +25,11 @@
 <br>
 
 {% hint style="info" %}
-\.      请用LAN电缆连接控制器和Remote IO。
+   - 请用LAN电缆连接控制器和Remote IO。
 
-\.      请将Remote IO的DIP Switch全部设置为OFF。
+   - 请将Remote IO的DIP Switch全部设置为OFF。
 
-\.      请全部连接Remote IO电源和Field Power。（24V DC）
+   - 请全部连接Remote IO电源和Field Power。（24V DC）
 {% endhint %}
 
 <br>
@@ -43,9 +43,9 @@
 <br>
 
 {% hint style="info" %}
-\.      根据使用环境设置通信周期。
+   - 根据使用环境设置通信周期。
 
-\.      通信周期支持1ms、2ms、5ms。
+   - 通信周期支持1ms、2ms、5ms。
 {% endhint %}
 
 <br>
@@ -59,28 +59,28 @@
 <br>
 
 {% hint style="info" %}
-\.      确认 Input、Output 字节数。
+   - 确认 Input、Output 字节数。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF：Digital 16点  
-\.      M3534：Analog 4点  
+   - Input Module  
+   - M12DF：Digital 16点  
+   - M3534：Analog 4点  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Output Module  
-\.      M225F：Digital 16点  
-\.      M226F：Digital 16点  
-\.      M2768：Digital 8点   
-\.      M4534：Analog 4点  
+   - Output Module  
+   - M225F：Digital 16点  
+   - M226F：Digital 16点  
+   - M2768：Digital 8点   
+   - M4534：Analog 4点  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
+   - Special Module  
+   - M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
@@ -100,7 +100,7 @@
 <br>
 
 {% hint style="info" %}
-\.      设置完成后，请重启控制器。
+   - 设置完成后，请重启控制器。
 {% endhint %}
 
 <br>
@@ -112,7 +112,7 @@
 <br>
 
 {% hint style="info" %}
-\.      请确认通信连接状态和是否出现错误。
+   - 请确认通信连接状态和是否出现错误。
 {% endhint %}
 
 <br>
@@ -122,13 +122,13 @@
 <br>
 
 {% hint style="info" %}
-\.      请通过Remote IO Module上的LED，确认通信是否正常开通。
+   - 请通过Remote IO Module上的LED，确认通信是否正常开通。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **当通信状态发生ERROR时，请确认（“[**3.2 EtherCAT Master IO错误处理**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)”）。**
+   **当通信状态发生ERROR时，请确认（“[**3.2 EtherCAT Master IO错误处理**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)”）。**
 {% endhint %}
 
 <br>
@@ -136,6 +136,6 @@
 **7. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../4-io-block-allocation.md)”）。**
 {% endhint %}
 

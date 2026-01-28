@@ -7,7 +7,7 @@
 **1. SYCON.net最新版本下载路径**
 
 {% hint style="info" %}
-\.      点击 **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**。
+   - 点击 **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**。
 {% endhint %}
 
 <br>
@@ -21,7 +21,7 @@
 <br>
 
 {% hint style="info" %}
-\.      选择最新版本（Current Release）并下载。
+   - 选择最新版本（Current Release）并下载。
 {% endhint %}
 
 <br>
@@ -35,7 +35,7 @@
 <br>
 
 {% hint style="info" %}
-\.      执行所下载的 SYCON.NET Setup.exe 文件以安装程序。
+   - 执行所下载的 SYCON.NET Setup.exe 文件以安装程序。
 {% endhint %}
 
 <br>
@@ -49,7 +49,7 @@
 <br>
 
 {% hint style="info" %}
-\.      执行已安装的 SYCON.NET 程序，并确认是否正常完成安装。
+   - 执行已安装的 SYCON.NET 程序，并确认是否正常完成安装。
 {% endhint %}
 
 <br>
@@ -62,19 +62,19 @@
 **2. 在现代机器人官网下载程序**
 
 {% hint style="info" %}
-\.      依次进入[www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人官网 -> 客户支持 -> 应用软件，下载“**Sycon.net**”。
+   - 依次进入[www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人官网 -> 客户支持 -> 应用软件，下载“**Sycon.net**”。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      解压 -> 执行 SYCON.NET Setup.exe 文件以安装程序。
+   - 解压 -> 执行 SYCON.NET Setup.exe 文件以安装程序。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      本公司官网提供的 SYCON.net 程序可能与最新版本不同。
+   - 本公司官网提供的 SYCON.net 程序可能与最新版本不同。
 {% endhint %}
 
 <br>

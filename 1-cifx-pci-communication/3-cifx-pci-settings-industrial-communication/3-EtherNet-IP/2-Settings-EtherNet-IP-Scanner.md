@@ -5,7 +5,7 @@
 <br>
 
 {% hint style="info" %}
-\.      在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“[**1.3.2 SYCON.NET帮助**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)”功能。
+   - 在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“[**1.3.2 SYCON.NET帮助**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)”功能。
 {% endhint %}
 
 <br>
@@ -52,13 +52,13 @@
 **7. 设置Adapter（Slave）的IP Address，以连接EtherNet/IP通信。**
 
 {% hint style="info" %}
-\.      使用 Dip Switch 设置 IP Address
+   - 使用 Dip Switch 设置 IP Address
 {% endhint %}
 
 ![[图 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>) 
 
 {% hint style="info" %}
-\.      使用 BootpSvr.exe 设置 IP Address 的方法
+   - 使用 BootpSvr.exe 设置 IP Address 的方法
 {% endhint %}
 
 <br>
@@ -82,7 +82,7 @@
 ![[图 1.3.3.2-12 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_12.png>)
 
 {% hint style="info" %}
-\.      在按住 Start BootP 的状态下，断开 M9289 模块的电源并重新供电以重启。
+   - 在按住 Start BootP 的状态下，断开 M9289 模块的电源并重新供电以重启。
 {% endhint %}
 
 ![[图 1.3.3.2-13 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_13.png>)
@@ -104,7 +104,7 @@
 **12. IP设置完成后，将Adapter的DIP Switch全部更改为OFF后重启设备。**
 
 {% hint style="info" %}
-\.      请务必确认DIP Switch的状态及Adapter是否重启。
+   - 请务必确认DIP Switch的状态及Adapter是否重启。
 {% endhint %}
 
 ![[图 1.3.3.2-17 Crevis DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_17.png>)
@@ -114,17 +114,17 @@
 **13. 注册Slave设备的EDS文件。**
 
 {% hint style="info" %}
-\.      要使用未注册到Sycon.net的Device，就需要EDS文件。
+   - 要使用未注册到Sycon.net的Device，就需要EDS文件。
 
-\.      M9289 Adapter的EDS文件可以在Crevis官网下载。
+   - M9289 Adapter的EDS文件可以在Crevis官网下载。
 {% endhint %}
 
 ![[图 1.3.3.2-18 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_18.png>)
 
 {% hint style="info" %}
-\.      将所下载的EDS文件注册到Sycon.net。
+   - 将所下载的EDS文件注册到Sycon.net。
 
-\.      注册EDS File时，请确认工业通信协议（EtherNet/IP）。
+   - 注册EDS File时，请确认工业通信协议（EtherNet/IP）。
 {% endhint %}
 
 ![[图 1.3.3.2-19 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_19.png>)![[图 1.3.3.2-20 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_20.png>)
@@ -137,7 +137,7 @@
 **14. Network Scan**
 
 {% hint style="info" %}
-\.      EtherNet/IP Scanner不支持Network Scan功能。
+   - EtherNet/IP Scanner不支持Network Scan功能。
 {% endhint %}
 
 <br>
@@ -145,17 +145,17 @@
 **15. Slave（Adapter）设备Configuration**
 
 {% hint style="info" %}
-\.      将已注册的Device拖到EtherNet/IP Master总线线路上。
+   - 将已注册的Device拖到EtherNet/IP Master总线线路上。
 {% endhint %}
 
 ![[图 1.3.3.2-23 Sycon.net Bus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-\.      双击该Device（Adapter）进行设置。
+   - 双击该Device（Adapter）进行设置。
 
-\.      根据安装该Device上的IO设备，适当设置Input / Output字节数。
+   - 根据安装该Device上的IO设备，适当设置Input / Output字节数。
 
-\.      本示例中按如下设置。
+   - 本示例中按如下设置。
 {% endhint %}
 
 <br>
@@ -163,13 +163,13 @@
 ![[图 1.3.3.2-24 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        O -> T : Originator(Master) -> Target (Slave)
+   - O -> T : Originator(Master) -> Target (Slave)
 
-\.        Output : EtherNet/IP Scanner  -> M9289
+   - Output : EtherNet/IP Scanner  -> M9289
 
-\.        [Output Module]   
-\.         1. M225F (2Bytes)   
-\.         **=> 2Bytes**   
+   [Output Module]   
+      (1) M225F (2Bytes)   
+      **=> 2Bytes**   
 {% endhint %}
 
 <br>
@@ -177,19 +177,19 @@
 ![[图 1.3.3.2-25 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-\.        T -> O : Target (Slave) -> Originator(Master)
+   - T -> O : Target (Slave) -> Originator(Master)
 
-\.        Input : M9289 -> EtherNet/IP Scanner
+   - Input : M9289 -> EtherNet/IP Scanner
 
-\.        [Input Module]   
-\.         1. M7001  (1Byte)   
-\.         2. M12DF  (2Bytes)   
-\.         **=> 3Bytes**
+   [Input Module]   
+      (1) M7001  (1Byte)   
+      (2) M12DF  (2Bytes)   
+      **=> 3Bytes**
 
 
-\.         1.M7002 (0Byte)
-\.         2.M12DF (2Bytes)
-\.         **=> 2Bytes**  
+      (1) M7002 (0Byte)
+      (2) M12DF (2Bytes)
+      **=> 2Bytes**  
 {% endhint %}
 
 <br>
@@ -198,58 +198,58 @@
 
 
 {% hint style="info" %}
-\.        右击 Master Device 进行 Disconnect。
+   - 右击 Master Device 进行 Disconnect。
 {% endhint %}
 
 ![[图 1.3.3.2-26 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.        双击Master Device。
+   - 双击Master Device。
 
-\.        设置Master Device的IP Address。 
+   - 设置Master Device的IP Address。 
 {% endhint %}
 
 ![[图 1.3.3.2-27 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-\.        设置Slave Device的IP Address。 
+   - 设置Slave Device的IP Address。 
 {% endhint %}
 
 ![[图 1.3.3.2-28 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-\.        设置Slave Device的Scan Time。
+   - 设置Slave Device的Scan Time。
 
-\.        请调整该值来设置适当的通信速度。
+   - 请调整该值来设置适当的通信速度。
 {% endhint %}
 
 ![[图 1.3.3.2-29 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.        请在Address Table中确认Slave设备的设置。
+   - 请在Address Table中确认Slave设备的设置。
 
-\.        确认Input / Output IO字节数及起始Address。
+   - 确认Input / Output IO字节数及起始Address。
 {% endhint %}
 
 ![[图 1.3.3.2-30 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP支持Quick Connect功能。
+   - EtherNet/IP支持Quick Connect功能。
 {% endhint %}
 
 {% hint style="info" %}
-\.        要使用Quick Connect功能，就需要满足以下条件。
+   - 要使用Quick Connect功能，就需要满足以下条件。
 
-\.        （1） 需要支持Master、Slave Quick Connect的产品  
-\.        （2） 当使用Auto Negotiation时，则不可使用Quick Connect  
-\.        （3） 当使用Auto MDI-X时，则不可使用Quick Connect  
-\.        （4） 需要使用100 Mbit/s、Full Duplex  
+   - （1） 需要支持Master、Slave Quick Connect的产品  
+   - （2） 当使用Auto Negotiation时，则不可使用Quick Connect  
+   - （3） 当使用Auto MDI-X时，则不可使用Quick Connect  
+   - （4） 需要使用100 Mbit/s、Full Duplex  
 {% endhint %}
 
 {% hint style="info" %}
-\.        设置完成后，请进行Download。
+   - 设置完成后，请进行Download。
 {% endhint %}
 
 ![[图 1.3.3.2-31 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
@@ -259,13 +259,13 @@
 **17. 通信状态确认**
 
 {% hint style="info" %}
-\.        在Sycon.net及TP上确认通信状态。
+   - 在Sycon.net及TP上确认通信状态。
 
-\.        在TP上确认工业通信状态的程序，请参考（“[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”）。
+   - 在TP上确认工业通信状态的程序，请参考（“[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”）。
 {% endhint %}
 
 {% hint style="info" %}
-\.      双击已 Connected 的 Master 设备，可以确认通信状态。
+   - 双击已 Connected 的 Master 设备，可以确认通信状态。
 {% endhint %}
 
 ![[图 1.3.3.2-32 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_32.png>)
@@ -274,7 +274,7 @@
 
 
 {% hint style="info" %}
-\.        可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
+   - 可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
 {% endhint %}
 
 ![[图 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
@@ -284,5 +284,5 @@
 **18. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

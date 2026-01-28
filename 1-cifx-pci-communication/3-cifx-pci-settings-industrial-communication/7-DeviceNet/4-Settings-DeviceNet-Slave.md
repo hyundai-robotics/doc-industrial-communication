@@ -5,17 +5,17 @@
 <br>
 
 {% hint style="info" %}
-\.      **[DeviceNet Slave EDS File下载]**
+   **[DeviceNet Slave EDS File下载]**
 
-\.      请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
+   - 请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      关于DeviceNet连接器的连接，请参考以下内容。
+   - 关于DeviceNet连接器的连接，请参考以下内容。
 
-\.      （“[**1.2.2 连接器**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”）
+   - （“[**1.2.2 连接器**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”）
 {% endhint %}
 
 <br>
@@ -50,27 +50,27 @@
 **4. 各项目说明**
 
 {% hint style="info" %}
-\.      [Station Address = Mac ID]
+   [Station Address = Mac ID]
 
-\.      DeviceNet通过Station Address（MAC ID）识别Slave。（1～63）
+   - DeviceNet通过Station Address（MAC ID）识别Slave。（1～63）
 {% endhint %}
 
 {% hint style="info" %}
-\.      [通信速度（Baudrate）]
+   [通信速度（Baudrate）]
 
-\.      可选择125、250、500 Kbit/s中的一个。
+   - 可选择125、250、500 Kbit/s中的一个。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [输入字节数（Input Byte）]
+   [输入字节数（Input Byte）]
 
-\.      输入字节数：设置Master -> Slave输入的数据大小。
+   - 输入字节数：设置Master -> Slave输入的数据大小。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [输出字节数（Output Byte）]
+   [输出字节数（Output Byte）]
 
-\.      输出字节数：设置Slave -> Master输出的数据大小。
+   - 输出字节数：设置Slave -> Master输出的数据大小。
 {% endhint %}
 
 
@@ -87,5 +87,5 @@
 **6. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

@@ -117,5 +117,5 @@
 **2.6.1.8 通信设置完成后分配IO Block**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../4-io-block-allocation.md)”）。**
 {% endhint %}

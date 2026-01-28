@@ -10,19 +10,19 @@ Slave设备说明文件可以在本公司官网下载。
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP：EDS文件
+   - EtherNet/IP：EDS文件
 
-\.      PROFINET IO：GSDML（.XML）文件
+   - PROFINET IO：GSDML（.XML）文件
 
-\.      EtherCAT：ESI（.XML）文件
+   - EtherCAT：ESI（.XML）文件
 
-\.      PROFIBUS-DP：GSD文件
+   - PROFIBUS-DP：GSD文件
 
-\.      DeviceNet：EDS文件
+   - DeviceNet：EDS文件
 
-\.      CC-Link IE Field：CSPP文件
+   - CC-Link IE Field：CSPP文件
 
-\.      CC-Link IE Basic：CSPP文件
+   - CC-Link IE Basic：CSPP文件
 {% endhint %}
 
 <br>

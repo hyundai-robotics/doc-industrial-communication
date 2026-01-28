@@ -13,9 +13,9 @@
 **1. 通信电缆断线错误**
 
 {% hint style="info" %}
-\.      请确认 LAN 电缆的连接状态。
+   - 请确认 LAN 电缆的连接状态。
 
-\.      请确认 Adapter Device 的电源是否开启。
+   - 请确认 Adapter Device 的电源是否开启。
 {% endhint %}
 
 ![[图 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
@@ -26,9 +26,9 @@
 **2. IP Address设置错误**
 
 {% hint style="info" %}
-\.      请确认Master - Slave Device的IP Address。
+   - 请确认Master - Slave Device的IP Address。
 
-\.      如果Adapter Device中已设置的IP Address与Sycon.net中所输入的值不同，则会发生错误。
+   - 如果Adapter Device中已设置的IP Address与Sycon.net中所输入的值不同，则会发生错误。
 
 {% endhint %}
 

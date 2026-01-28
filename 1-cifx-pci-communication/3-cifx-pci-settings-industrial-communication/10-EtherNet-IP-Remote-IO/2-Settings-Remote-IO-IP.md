@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      Remote IO Crevis M9289的出厂设置IP（默认值）为192.168.100.99。
+   - Remote IO Crevis M9289的出厂设置IP（默认值）为192.168.100.99。
 
-\.      如果不知道Remote IO的IP或需要更改，请按照以下方法进行操作。
+   - 如果不知道Remote IO的IP或需要更改，请按照以下方法进行操作。
 {% endhint %}
 
 <br>
@@ -34,7 +34,7 @@
 <br>
 
 {% hint style="info" %}
-\.      在按住Start BootP的状态下，断开M9289模块的电源并重新供电以重启。
+   - 在按住Start BootP的状态下，断开M9289模块的电源并重新供电以重启。
 {% endhint %}
 
 ![[图 1.3.10.2-5 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_5.png>)  
@@ -58,7 +58,7 @@
 **6. IP设置完成后，将Adapter的DIP Switch全部更改为OFF后重启设备。**
 
 {% hint style="info" %}
-\.      请务必确认DIP Switch的状态及Adapter是否重启。
+   - 请务必确认DIP Switch的状态及Adapter是否重启。
 {% endhint %}
 
 ![[图 1.3.10.2-9 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_9.png>) 
@@ -74,5 +74,5 @@
 **8. 如果IP地址正常更改，请进行设置。**
 
 {% hint style="info" %}
-\.      请按照“[**1.3.10.1 EtherNet/IP - 标准Remote IO连接设置**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)”流程进行设置。
+   - 请按照“[**1.3.10.1 EtherNet/IP - 标准Remote IO连接设置**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)”流程进行设置。
 {% endhint %}

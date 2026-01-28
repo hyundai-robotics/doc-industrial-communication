@@ -35,51 +35,51 @@
 **4. 各项目说明**
 
 {% hint style="info" %}
-\.      [Network Number]
+   [Network Number]
 
-\.      CC-Link IE Field network 编号（1～239）
+   - CC-Link IE Field network 编号（1～239）
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      已连接网络内的设备ID（1 ~ 120）
+   - 已连接网络内的设备ID（1 ~ 120）
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Type]
+   [IO Type]
 
-\.      IO Type由master设备设置决定   
-\.      - Mixed：使用输入与输出不同的索引（不同地址）   
-\.      - Input：仅用于输入   
-\.      - Output：仅用于输出   
-\.      - FrontBackMixture：使用输入与输出相同的索引（相同地址）   
+   - IO Type由master设备设置决定   
+      - Mixed：使用输入与输出不同的索引（不同地址）   
+      - Input：仅用于输入   
+      - Output：仅用于输出   
+      - FrontBackMixture：使用输入与输出相同的索引（相同地址）   
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Device Type]
+   [Device Type]
 
-\.      根据Device Type可设置的IO最大大小不同。
+   - 根据Device Type可设置的IO最大大小不同。
 
-\.      Intelligent Device Station   
-\.      - RY, RX (max): 256 bytes   
-\.      - RWw, RWr (max): 1024 words
+   - Intelligent Device Station   
+      - RY, RX (max): 256 bytes   
+      - RWw, RWr (max): 1024 words
 
-\.      Remote Device Station   
-\.      - RY, RX (max): 16 bytes   
-\.      - RWw, RWr (max): 64 words
+   - Remote Device Station   
+      - RY, RX (max): 16 bytes   
+      - RWw, RWr (max): 64 words
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Size]
+   [IO Size]
 
-\.      Master -> Slave   
-\.      - RWw (word data)   
-\.      - RY (bit data)   
+   - Master -> Slave   
+      - RWw (word data)   
+      - RY (bit data)   
 
-\.      Slave -> Master   
-\.      - RWr (word data)   
-\.      - RX (bit data)  
+   - Slave -> Master   
+      - RWr (word data)   
+      - RX (bit data)  
 {% endhint %}
 
 <br>
@@ -93,7 +93,7 @@
 **6. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}
 
 <br>

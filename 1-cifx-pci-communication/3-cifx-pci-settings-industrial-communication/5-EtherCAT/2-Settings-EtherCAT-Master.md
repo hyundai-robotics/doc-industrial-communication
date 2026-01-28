@@ -5,7 +5,7 @@
 <br>
 
 {% hint style="info" %}
-\.      在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“[**1.3.2 SYCON.NET帮助**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)”功能。
+   - 在使用SYCON.net过程中，如有说明书中解释不足的部分，请参考“[**1.3.2 SYCON.NET帮助**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)”功能。
 {% endhint %}
 
 <br>
@@ -52,7 +52,7 @@
 **7. Slave设备的Station Address**
 
 {% hint style="info" %}
-\.      EtherCAT Slave 设备的 Station Address 在 Master 中设置。
+   - EtherCAT Slave 设备的 Station Address 在 Master 中设置。
 {% endhint %}
 
 <br>
@@ -60,17 +60,17 @@
 **8. 注册 Slave 设备的 XML 文件。**
 
 {% hint style="info" %}
-\.      要使用未注册到Sycon.net的Device，就需要XML文件。
+   - 要使用未注册到Sycon.net的Device，就需要XML文件。
 
-\.      M9386 Device的XML文件可以在Crevis官网下载。
+   - M9386 Device的XML文件可以在Crevis官网下载。
 {% endhint %}
 
 ![[图 1.3.5.2-8 Crevis XML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-\.      将所下载的XML文件注册到Sycon.net。
+   - 将所下载的XML文件注册到Sycon.net。
 
-\.      注册XML File时，请确认工业通信协议（EtherCAT）。
+   - 注册XML File时，请确认工业通信协议（EtherCAT）。
 {% endhint %}
 
 ![[图 1.3.5.2-9 Crevis XML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_9.png>)
@@ -93,27 +93,27 @@
 **9. Network Scan**
 
 {% hint style="warning" %}
-\.      **EtherCAT可使用的电缆接线和端口已指定。**
+   **EtherCAT可使用的电缆接线和端口已指定。**
 
-\.      **为了顺利连接通信，请务必确认（“[**1.3.5.5 EtherCAT电缆接线**](../5-EtherCAT/5-EtherCAT-Topology.md)”）。**
+   **为了顺利连接通信，请务必确认（“[**1.3.5.5 EtherCAT电缆接线**](../5-EtherCAT/5-EtherCAT-Topology.md)”）。**
 {% endhint %}
 
 {% hint style="info" %}
-\.      EtherCAT Master支持Network Scan功能。
+   - EtherCAT Master支持Network Scan功能。
 {% endhint %}
 
 {% hint style="info" %}
-\.      在EtherCAT Master设备上右击后，点击Network Scan。
+   - 在EtherCAT Master设备上右击后，点击Network Scan。
 {% endhint %}
 
 ![[图 1.3.5.2-13 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_13.png>)
 
 {% hint style="warning" %}
-\.      如果XML文件未注册，当进行Network Scan时则会显示Slave信息，但无法注册。
+   - 如果XML文件未注册，当进行Network Scan时则会显示Slave信息，但无法注册。
 {% endhint %}
 
 {% hint style="info" %}
-\.      正常注册XML文件后，可以通过Network Scan添加Slave设备。
+   - 正常注册XML文件后，可以通过Network Scan添加Slave设备。
 {% endhint %}
 
 ![[图 1.3.5.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_14.png>)
@@ -123,23 +123,23 @@
 **10. Slave 设备 Configuration**
 
 {% hint style="info" %}
-\.      为了进行 Slave 设备 Configuration，点击 Master 设备的 Disconnect。
+   - 为了进行 Slave 设备 Configuration，点击 Master 设备的 Disconnect。
 {% endhint %}
 
 ![[图 1.3.5.2-15 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-\.      双击 Slave 设备。
+   - 双击 Slave 设备。
 {% endhint %}
 
 ![[图 1.3.5.2-16 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_16.png>)
 
 {% hint style="info" %}
-\.      为了设置EtherCAT Slave，添加连接到M9386的Slot。
+   - 为了设置EtherCAT Slave，添加连接到M9386的Slot。
 
-\.      Slot 1 : M7001  
-\.      Slot 2 : M12DF  
-\.      Slot 3 : M225F  
+   - Slot 1 : M7001  
+   - Slot 2 : M12DF  
+   - Slot 3 : M225F  
 {% endhint %}
 
 ![[图 1.3.5.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_17.png>)
@@ -152,36 +152,36 @@
 **11. Master 设备 Configuration**
 
 {% hint style="info" %}
-\.      双击Master设备。
+   - 双击Master设备。
 {% endhint %}
 
 ![[图 1.3.5.2-19 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-\.      Synchronization：选择Freerun / DC（Distributed Clocks）
+   - Synchronization：选择Freerun / DC（Distributed Clocks）
 
-\.      Redundancy使用与否（不可与Distributed Clocks一并使用）
+   - Redundancy使用与否（不可与Distributed Clocks一并使用）
 
-\.      Bus Cycle Time：可支持最小250us（建议1ms以上）
+   - Bus Cycle Time：可支持最小250us（建议1ms以上）
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      可设置各Slave的Station Address。
+   - 可设置各Slave的Station Address。
 {% endhint %}
 
 ![[图 1.3.5.2-20 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-\.      请在Address Table中确认各Slave Slot分配的IO及起始地址。
+   - 请在Address Table中确认各Slave Slot分配的IO及起始地址。
 {% endhint %}
 
 ![[图 1.3.5.2-21 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_21.png>)
 
 
 {% hint style="info" %}
-\.      设置完成后，请进行Download。
+   - 设置完成后，请进行Download。
 {% endhint %}
 
 ![[图 1.3.5.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_22.png>)
@@ -191,13 +191,13 @@
 **12. 通信状态确认**
 
 {% hint style="info" %}
-\.        在Sycon.net及TP上确认通信状态。
+   - 在Sycon.net及TP上确认通信状态。
 
-\.        在TP上确认工业通信状态的程序，请参考（“[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”）。
+   - 在TP上确认工业通信状态的程序，请参考（“[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”）。
 {% endhint %}
 
 {% hint style="info" %}
-\.      双击已Connected的Master设备，可以确认通信状态。
+   - 双击已Connected的Master设备，可以确认通信状态。
 {% endhint %}
 
 ![[图 1.3.5.2-23 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_23.png>)
@@ -205,7 +205,7 @@
 ![[图 1.3.5.2-24 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
+   - 可以利用Sycon.net的Diagnosis功能，监控通信状态及IO输入输出状态。
 {% endhint %}
 
 ![[图 1.3.5.2-25 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_25.png>)
@@ -215,5 +215,5 @@
 **13. 通信设置完成后分配 IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

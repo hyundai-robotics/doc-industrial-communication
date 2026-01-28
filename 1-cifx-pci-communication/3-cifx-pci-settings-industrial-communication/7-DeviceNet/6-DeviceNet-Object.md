@@ -32,15 +32,15 @@ DeviceNet Master可以通过Explicit Message访问特定Slave的Object。
 <br>
 
 {% hint style="info" %}
-\.      EX） Crevis GN-9212的Object（该资料可在Crevis说明书中查看。）
+   - EX） Crevis GN-9212的Object（该资料可在Crevis说明书中查看。）
 
-\.      读取Identity Object（Class Code 0x01）的Vendor ID值
+   - 读取Identity Object（Class Code 0x01）的Vendor ID值
 
-\.      Instance : 1
+   - Instance : 1
 
-\.      Attribute ID : 1
+   - Attribute ID : 1
 
-\.      权限：Get（仅可读取）
+   - 权限：Get（仅可读取）
 {% endhint %}
 
 
@@ -54,15 +54,15 @@ DeviceNet Master可以通过Explicit Message访问特定Slave的Object。
 <br>
 
 {% hint style="info" %}
-\.      访问权限
+   - 访问权限
 
-\.      Get：读取权限
+   - Get：读取权限
 
-\.      Set：写入权限 
+   - Set：写入权限 
 
-\.      Attribute Single：一次只能访问1个Attribute项目。
+   - Attribute Single：一次只能访问1个Attribute项目。
 
-\.      Attribute All：一次可访问Instance内的所有Attribute。
+   - Attribute All：一次可访问Instance内的所有Attribute。
 {% endhint %}
 
 <br>

@@ -8,7 +8,7 @@
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-\.      DeviceNet 终端电阻：120欧
+   - DeviceNet 终端电阻：120欧
 
-\.      CC-Link 终端电阻：110欧
+   - CC-Link 终端电阻：110欧
 {% endhint %}

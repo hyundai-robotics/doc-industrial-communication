@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      **[EtherNet/IP Adapter EDS File下载]**
+   **[EtherNet/IP Adapter EDS File下载]**
 
-\.      请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
+   - 请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
 {% endhint %}
 
 <br>
@@ -43,64 +43,64 @@
 **4. 各项目说明**
 
 {% hint style="info" %}
-\.      [IP设置（IP Setting）]
+   [IP设置（IP Setting）]
 
-\.      固定IP：由用户设置IP地址、子网掩码、网关信息。
+   - 固定IP：由用户设置IP地址、子网掩码、网关信息。
 
-\.      动态分配（DHCP）：从DHCP服务器获取IP地址。
+   - 动态分配（DHCP）：从DHCP服务器获取IP地址。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [通信错误时输入（Action in Bus Error）]
+   [通信错误时输入（Action in Bus Error）]
 
-\.      Clear：当发生通信错误时，则将所有输入初始化为0。
+   - Clear：当发生通信错误时，则将所有输入初始化为0。
 
-\.      Hold：当发生通信错误时，则保持最后的有效输入值。
+   - Hold：当发生通信错误时，则保持最后的有效输入值。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [通信错误允许时间（Error Allowed Time）]
+   [通信错误允许时间（Error Allowed Time）]
 
-\.      如果通信错误在指定的允许时间内持续存在，则将输出现场总线异常信号及报警。
+   - 如果通信错误在指定的允许时间内持续存在，则将输出现场总线异常信号及报警。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [输入字节数（Input Byte）]
+   [输入字节数（Input Byte）]
 
-\.      输入字节数：设置Master -> Slave输入的数据大小。
+   - 输入字节数：设置Master -> Slave输入的数据大小。
 
-\.      O -> T：Originator(Master) -> Target (Slave)
+   - O -> T：Originator(Master) -> Target (Slave)
 {% endhint %}
 
 {% hint style="info" %}
-\.      【输出字节数（Output Byte）】
+   - 【输出字节数（Output Byte）】
 
-\.      输出字节数：设置Slave -> Master输出的数据大小。
+   - 输出字节数：设置Slave -> Master输出的数据大小。
 
-\.      T -> O：Target (Slave) -> Originator(Master)
+   - T -> O：Target (Slave) -> Originator(Master)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Run / Idle Header]
+   [Run / Idle Header]
 
-\.      应用于控制器的CIFX-50 RE EtherNet/IP Adapter在与Scanner进行IO交换时使用32Bit Run / Idle Header。（Default）
+   - 应用于控制器的CIFX-50 RE EtherNet/IP Adapter在与Scanner进行IO交换时使用32Bit Run / Idle Header。（Default）
 
-\.      请根据Scanner规格，适当设置输入/输出32Bit Run / Idle Header的使用与否。
+   - 请根据Scanner规格，适当设置输入/输出32Bit Run / Idle Header的使用与否。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP支持Quick Connect功能。
+   - EtherNet/IP支持Quick Connect功能。
 
-\.        如果需要使用Quick Connect功能，请使用Sycon.net设置EtherNet/IP Adapter。
+   - 如果需要使用Quick Connect功能，请使用Sycon.net设置EtherNet/IP Adapter。
 
-\.        （1） 需要支持Master、Slave Quick Connect的产品  
-\.        （2） 当使用Auto Negotiation时，则不可使用Quick Connect。  
-\.     （3） 当使用Auto MDI-X时，则不可使用Quick Connect。
-\.     （4） 需要使用100 Mbit/s、Full Duplex。
+   - （1） 需要支持Master、Slave Quick Connect的产品  
+   - （2） 当使用Auto Negotiation时，则不可使用Quick Connect。  
+   - （3） 当使用Auto MDI-X时，则不可使用Quick Connect。
+   - （4） 需要使用100 Mbit/s、Full Duplex。
 {% endhint %}
 
 <br>
@@ -116,5 +116,5 @@
 **6. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

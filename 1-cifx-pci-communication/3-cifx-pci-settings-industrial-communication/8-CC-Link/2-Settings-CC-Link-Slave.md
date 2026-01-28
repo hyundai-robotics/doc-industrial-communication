@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      关于CC-Link Connector的连接，请参考以下内容。
+   - 关于CC-Link Connector的连接，请参考以下内容。
 
-\.      （“[**1.2.2 连接器**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”）
+   - （“[**1.2.2 连接器**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”）
 {% endhint %}
 
 <br>
@@ -42,51 +42,51 @@
 **4. 各项目说明**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      CC-Link通过Station Address识别Slave。（1～64）
+   - CC-Link通过Station Address识别Slave。（1～64）
 {% endhint %}
 
 {% hint style="info" %}
-\.      [通信速度（Baudrate）]
+   [通信速度（Baudrate）]
 
-\.      可选择156、625、2500、5000、10000 Kbit/s。
+   - 可选择156、625、2500、5000、10000 Kbit/s。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [CC-Link Version]
+   [CC-Link Version]
 
-\.      Version 1：可使用IO Station，不可使用Extension Cycle
+   - Version 1：可使用IO Station，不可使用Extension Cycle
 
-\.      Version 2：不可使用IO Station，可使用Extension Cycle
+   - Version 2：不可使用IO Station，可使用Extension Cycle
 {% endhint %}
 
 {% hint style="info" %}
-\.      [占用Station数]
+   [占用Station数]
 
-\.      IO Station：占用1个
+   - IO Station：占用1个
 
-\.      Remote Device：可选择1~4个
+   - Remote Device：可选择1~4个
 
-\.      根据占用的 Station 数，分配的 IO Byte 区域大小会有所不同。
+   - 根据占用的 Station 数，分配的 IO Byte 区域大小会有所不同。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Extension Cycle]
+   [Extension Cycle]
 
-\.      Version 2可使用
+   - Version 2可使用
 
-\.      Remote Device：可选择1倍（Single）、2倍（Double）、4倍（Quadruple）、8倍（Octuple） 
+   - Remote Device：可选择1倍（Single）、2倍（Double）、4倍（Quadruple）、8倍（Octuple） 
 
-\.      根据Extension Cycle，分配的IO Byte区域大小会有所不同。
+   - 根据Extension Cycle，分配的IO Byte区域大小会有所不同。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **关于IO Byte区域，请参考以下链接。**
+   **关于IO Byte区域，请参考以下链接。**
 
-\.      **（“[**1.3.8.1 CC-Link Slave 规格**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)”）**
+   **（“[**1.3.8.1 CC-Link Slave 规格**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)”）**
 {% endhint %}
 
 <br>
@@ -100,5 +100,5 @@
 **6. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

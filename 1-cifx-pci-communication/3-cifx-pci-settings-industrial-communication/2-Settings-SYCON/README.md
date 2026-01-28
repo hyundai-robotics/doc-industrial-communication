@@ -11,7 +11,7 @@ Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的�
 ![[图 1.3.2-2 网络 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
-\.      IP Address 可根据用户设置进行更改。
+   - IP Address 可根据用户设置进行更改。
 {% endhint %}
 
 <br>
@@ -32,27 +32,27 @@ Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的�
 **4. 双击导入的项目进行设置。**
 
 {% hint style="info" %}
-\.      导入的CIFX PCI（图）“Double Click”
+   - 导入的CIFX PCI（图）“Double Click”
 
-\.      Settings -> Driver
+   - Settings -> Driver
 
-\.      选择netX Driver。
+   - 选择netX Driver。
 {% endhint %}
 
 ![[图 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-\.     Setting -> Driver -> netX Driver -> TCP Connection 
+   - Setting -> Driver -> netX Driver -> TCP Connection 
 
-\.     IP Address：请输入已连接控制器的通用LAN Port IP地址。
+   - IP Address：请输入已连接控制器的通用LAN Port IP地址。
 {% endhint %}
 
 ![[图 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 {% hint style="info" %}
-\.      Device Assignment -> 点击Scan
+   - Device Assignment -> 点击Scan
 
-\.      选择通信（确认Channel Protocol）后，先点“Apply”，再点“OK”。
+   - 选择通信（确认Channel Protocol）后，先点“Apply”，再点“OK”。
 {% endhint %}
 
 {% hint style="warning" %}
@@ -67,7 +67,7 @@ Hi6控制器使用“**Sycon.net**”程序进行工业通信设置。具体的�
 
 
 {% hint style="info" %}
-\.      右击 CIFX PCI 图 -> DOWNLOAD
+   - 右击 CIFX PCI 图 -> DOWNLOAD
 {% endhint %}
 
 ![[图 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)

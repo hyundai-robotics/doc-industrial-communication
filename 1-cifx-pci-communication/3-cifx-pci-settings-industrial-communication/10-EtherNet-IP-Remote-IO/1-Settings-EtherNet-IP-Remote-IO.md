@@ -25,21 +25,21 @@
 <br>
 
 {% hint style="info" %}
-\.      请用LAN电缆连接PCI和Remote IO。
+   - 请用LAN电缆连接PCI和Remote IO。
 
-\.      请将Remote IO的DIP Switch全部设置为OFF。
+   - 请将Remote IO的DIP Switch全部设置为OFF。
 
-\.      请全部连接Remote IO电源和Field Power。（24V DC）
+   - 请全部连接Remote IO电源和Field Power。（24V DC）
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Remote IO Crevis M9289的出厂设置IP（默认值）为192.168.100.99。
+   - Remote IO Crevis M9289的出厂设置IP（默认值）为192.168.100.99。
 
-\.      Remote IO的IP必须设置为192.168.100.99才能正常连接通信。
+   - Remote IO的IP必须设置为192.168.100.99才能正常连接通信。
 
-\.      “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)”
+   - “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)”
 {% endhint %}
 
 <br>
@@ -55,32 +55,32 @@
 <br>
 
 {% hint style="info" %}
-\.      IP 已被设置为固定值。
+   - IP 已被设置为固定值。
 
-\.      确认 Input、Output 字节数。
+   - 确认 Input、Output 字节数。
 
-\.      所选的 Input、Output 字节数必须小于或等于安装在 Remote IO Slot 中的卡件 IO 数量。
+   - 所选的 Input、Output 字节数必须小于或等于安装在 Remote IO Slot 中的卡件 IO 数量。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF：Digital 16点  
-\.      M3534：Analog 4点  
+   - Input Module  
+   - M12DF：Digital 16点  
+   - M3534：Analog 4点  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Output Module  
-\.      M225F：Digital 16点  
-\.      M226F：Digital 16点  
-\.      M2768：Digital 8点   
-\.      M4534：Analog 4点  
+   - Output Module  
+   - M225F：Digital 16点  
+   - M226F：Digital 16点  
+   - M2768：Digital 8点   
+   - M4534：Analog 4点  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
+   - Special Module  
+   - M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
@@ -92,7 +92,7 @@
 ![[图 1.3.10.1-8 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
-\.      设置完成后，请重启控制器。
+   - 设置完成后，请重启控制器。
 {% endhint %}
 
 <br>
@@ -106,11 +106,11 @@
 ![[图1.3.10.1-10 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>) 
 
 {% hint style="info" %}
-\.      如果通信无法连接，需要确认Remote IO的IP。
+   - 如果通信无法连接，需要确认Remote IO的IP。
 
-\.      请按照以下步骤进行确认。（若不是192.168.100.99）
+   - 请按照以下步骤进行确认。（若不是192.168.100.99）
 
-\.      “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)”
+   - “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)”
 {% endhint %}
 
 ![[图 1.3.10.1-11 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>)
@@ -122,5 +122,5 @@
 **7. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配 IO Block 来使用输入输出信号。请确认（“[**4. 工业通信 IO Block 分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配 IO Block 来使用输入输出信号。请确认（“[**4. 工业通信 IO Block 分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

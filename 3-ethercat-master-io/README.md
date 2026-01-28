@@ -20,10 +20,10 @@ EtherCAT协议提供极快的IO Data更新和支持准确同步的功能。
 <br>
 
 {% hint style="info" %}
-\.      EtherCAT Master在Hi6控制器中使用通用LAN Port。
+   - EtherCAT Master在Hi6控制器中使用通用LAN Port。
 
 
-\.      Remote IO Module使用Crevis公司的M9386 EtherCAT Network Adapter。
+   - Remote IO Module使用Crevis公司的M9386 EtherCAT Network Adapter。
 {% endhint %}
 
 

@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      **[PROFIBUS-DP Slave GSD File下载]**
+   **[PROFIBUS-DP Slave GSD File下载]**
 
-\.      请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
+   - 请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
 {% endhint %}
 
 <br>
@@ -42,44 +42,44 @@
 **4. 各项目说明**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      PROFIBUS-DP通过Station Address识别Slave。
+   - PROFIBUS-DP通过Station Address识别Slave。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [输入字节数（Input Byte）]
+   [输入字节数（Input Byte）]
 
-\.      输入字节数：设置 Master -> Slave 输入的数据大小。
+   - 输入字节数：设置 Master -> Slave 输入的数据大小。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [输出字节数（Output Byte）]
+   [输出字节数（Output Byte）]
 
-\.      输出字节数：设置 Slave -> Master 输出的数据大小。
+   - 输出字节数：设置 Slave -> Master 输出的数据大小。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [**Master中设置Module时**]
+   [**Master中设置Module时**]
 
-\.      必须在Master中指定Module，使其与所设置的字节数一致。
+   - 必须在Master中指定Module，使其与所设置的字节数一致。
 
-\.      顺序：Master Input（64 ～ 1） -> Master Output（64 ～ 1）
+   - 顺序：Master Input（64 ～ 1） -> Master Output（64 ～ 1）
 
-\.      EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
-\.          Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+   - EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
+         - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-\.      EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
-\.          Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
+   - EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
+         - Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
 
 
-\.      EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
-\.          Input 12 Bytes : 8Byte + 4Byte
+   - EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
+         - Input 12 Bytes : 8Byte + 4Byte
 
-\.      EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
-\.          Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
+   - EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
+         - Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
 
-\.      输入模块必须位于输出模块之前。
+   - 输入模块必须位于输出模块之前。
 {% endhint %}
 
 ![[图 1.3.6.4-5 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>)
@@ -98,5 +98,5 @@
 **6. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配IO Block来使用输入输出信号。请确认（“[**4. 工业通信IO Block分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

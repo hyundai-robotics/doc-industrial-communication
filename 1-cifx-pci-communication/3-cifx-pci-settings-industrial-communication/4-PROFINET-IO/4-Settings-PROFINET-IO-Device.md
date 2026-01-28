@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      **[PROFINET IO Device GSDML File下载]**
+   **[PROFINET IO Device GSDML File下载]**
 
-\.      请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
+   - 请参考“[**5. Slave设备说明文件**](../../../5-slave-config-file.md)”。
 {% endhint %}
 
 <br>
@@ -42,43 +42,43 @@
 **4. 各项目说明**
 
 {% hint style="info" %}
-\.      [Station Name]
+   [Station Name]
 
-\.      PROFINET IO通过Station Name识别Slave。
+   - PROFINET IO通过Station Name识别Slave。
 
-\.      Naming Rule
-\.       > 通过PROFINET IO连接的Device名称不能重复。  
-\.       > 名称最多可设置为240个字符。  
-\.       > 特殊字符可使用“.”、“-”。  
-\.       > 字符可使用英文小写字母和数字。  
-\.       > 名称的开头和结尾必须以英文小写字母或数字组成。  
+   - Naming Rule
+      - 通过PROFINET IO连接的Device名称不能重复。  
+      - 名称最多可设置为240个字符。  
+      - 特殊字符可使用“.”、“-”。  
+      - 字符可使用英文小写字母和数字。  
+      - 名称的开头和结尾必须以英文小写字母或数字组成。  
 {% endhint %}
 
 {% hint style="info" %}
-\.      [输入字节数（Input Byte）]
+   [输入字节数（Input Byte）]
 
-\.      输入字节数：设置 Master -> Slave 输入的数据大小。
+   - 输入字节数：设置 Master -> Slave 输入的数据大小。
 {% endhint %}
 
 {% hint style="info" %}
-\.      [输出字节数（Output Byte）]
+   [输出字节数（Output Byte）]
 
-\.      输出字节数：设置Slave -> Master输出的数据大小。
+   - 输出字节数：设置Slave -> Master输出的数据大小。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      [**Master中设置插槽时**]
+   [**Master中设置插槽时**]
 
-\.      Master Input (32byte)  <--  Slave Output (32bytes)
+   - Master Input (32byte)  <--  Slave Output (32bytes)
 
-\.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
+   - Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
-\.      4、8、16、32、64 Bytes -> 指定与各字节对应的插槽  
-\.      128、256 Bytes -> 指定多个64字节插槽（2个、4个）
+   - 4、8、16、32、64 Bytes -> 指定与各字节对应的插槽  
+   - 128、256 Bytes -> 指定多个64字节插槽（2个、4个）
 
-\.      输入插槽必须位于输出插槽之前。
+   - 输入插槽必须位于输出插槽之前。
 {% endhint %}
 
 <br>
@@ -99,5 +99,5 @@
 **6. 通信设置完成后分配IO Block。**
 
 {% hint style="info" %}
-\.      **通信设置完成后，可以通过分配 IO Block 来使用输入输出信号。请确认（“[**4. 工业通信 IO Block 分配**](../../../4-io-block-allocation.md)”）。**
+   **通信设置完成后，可以通过分配 IO Block 来使用输入输出信号。请确认（“[**4. 工业通信 IO Block 分配**](../../../4-io-block-allocation.md)”）。**
 {% endhint %}

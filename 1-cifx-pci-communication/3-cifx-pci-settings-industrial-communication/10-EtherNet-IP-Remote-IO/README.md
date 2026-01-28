@@ -7,9 +7,9 @@
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP Scanner（Master）使用 CIFX-50 Real Time Ethernet PCI。
+   - EtherNet/IP Scanner（Master）使用 CIFX-50 Real Time Ethernet PCI。
 
 
-\.      Remote IO Module 使用 Crevis 公司的 M9289 EtherNet/IP Network Adapter。
+   - Remote IO Module 使用 Crevis 公司的 M9289 EtherNet/IP Network Adapter。
 {% endhint %}
 
