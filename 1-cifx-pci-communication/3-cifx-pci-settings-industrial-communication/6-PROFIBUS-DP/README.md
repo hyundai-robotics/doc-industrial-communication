@@ -1,4 +1,4 @@
-﻿## 1.3.6 PROFIBUS-DP
+﻿### 1.3.6 PROFIBUS-DP
 
 This chapter describes the characteristics of the PROFIBUS-DP master and slave and how to set them. 
 

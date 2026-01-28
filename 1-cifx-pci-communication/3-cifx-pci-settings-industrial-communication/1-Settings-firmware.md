@@ -1,4 +1,4 @@
-﻿## 1.3.1 CIFX PCI Slot Settings.
+﻿### 1.3.1 CIFX PCI Slot Settings.
 
 Configure the communication method for the CIFX PCI slot. To apply the settings, please disconnect the controller power and then supply it again.
 

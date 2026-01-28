@@ -1,4 +1,4 @@
-﻿## 1.3.5 EtherCAT
+﻿### 1.3.5 EtherCAT
 
 This chapter describes the characteristics of EtherCAT master and slave and how to set them.
 

@@ -1,4 +1,4 @@
-﻿## 1.3.10.2 Remote IO IP Address Settings
+﻿#### 1.3.10.2 Remote IO IP Address Settings
 
 This is how to set the IP address of the M9289 EtherNet/IP network adapter from Crevis.
 

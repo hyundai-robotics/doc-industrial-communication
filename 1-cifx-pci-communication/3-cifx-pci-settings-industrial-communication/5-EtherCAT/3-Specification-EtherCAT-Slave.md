@@ -1,4 +1,4 @@
-## 1.3.5.3 EtherCAT Slave Specifications
+#### 1.3.5.3 EtherCAT Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}

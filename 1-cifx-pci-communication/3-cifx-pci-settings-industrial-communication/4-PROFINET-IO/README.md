@@ -1,4 +1,4 @@
-﻿## 1.3.4 PROFINET IO
+﻿### 1.3.4 PROFINET IO
 
 This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and how to set them. 
 

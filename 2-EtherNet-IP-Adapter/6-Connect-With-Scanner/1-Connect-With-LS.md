@@ -1,4 +1,4 @@
-## 2.6.1 Connection with LS ELECTRIC PLC
+### 2.6.1 Connection with LS ELECTRIC PLC
 
 <br>
 
