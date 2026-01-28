@@ -1,4 +1,4 @@
-﻿## 5. Industrial Communication IO Reading and Writing
+﻿# 5. Industrial Communication IO Reading and Writing
 
 This is the method for assigning IO blocks for the communication with the controller after completing industrial communication settings.
 

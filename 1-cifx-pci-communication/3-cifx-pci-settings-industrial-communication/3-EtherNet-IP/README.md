@@ -1,4 +1,4 @@
-﻿## 1.3.3 EtherNet/IP
+﻿### 1.3.3 EtherNet/IP
 
 This chapter describes the characteristics of the EtherNet/IP master (scanner) and slave (adapter) and how to set them. 
 

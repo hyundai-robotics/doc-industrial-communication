@@ -1,4 +1,4 @@
-﻿## 1.3.8 CC-Link
+﻿### 1.3.8 CC-Link
 
 This chapter describes the characteristics of CC-Link slaves and how to set them. 
 

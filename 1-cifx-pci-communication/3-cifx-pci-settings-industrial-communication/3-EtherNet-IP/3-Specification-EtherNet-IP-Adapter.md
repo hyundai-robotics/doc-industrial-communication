@@ -1,4 +1,4 @@
-## 1.3.3.3 EtherNet/IP Adapter Specifications
+#### 1.3.3.3 EtherNet/IP Adapter Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}

@@ -1,4 +1,4 @@
-## 1.3.3.5 EtherNet/IP Error Handling
+#### 1.3.3.5 EtherNet/IP Error Handling
 
 This is a method for resolving major errors that may occur during EtherNet/IP settings.
 

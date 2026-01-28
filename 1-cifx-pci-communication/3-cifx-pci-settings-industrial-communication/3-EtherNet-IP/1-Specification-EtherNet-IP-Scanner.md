@@ -1,4 +1,4 @@
-﻿## 1.3.3.1 EtherNet/IP Scanner Specifications
+﻿#### 1.3.3.1 EtherNet/IP Scanner Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}

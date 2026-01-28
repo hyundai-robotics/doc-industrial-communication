@@ -1,4 +1,4 @@
-﻿## 1.3.7 DeviceNet
+﻿### 1.3.7 DeviceNet
 
 This chapter describes the characteristics of the DeviceNet master and slave and how to set them. 
 
