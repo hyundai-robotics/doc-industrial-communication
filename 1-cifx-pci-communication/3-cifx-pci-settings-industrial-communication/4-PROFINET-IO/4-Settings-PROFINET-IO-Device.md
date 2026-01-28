@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      **[PROFINET IO Device GSDML File 다운로드]**
+   **[PROFINET IO Device GSDML File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -43,43 +43,43 @@
 **4. 각 항목 별 설명**
 
 {% hint style="info" %}
-\.      [Station Name]
+   [Station Name]
 
-\.      PROFINET IO는 Station Name을 통해 Slave를 식별합니다.
+   - PROFINET IO는 Station Name을 통해 Slave를 식별합니다.
 
-\.      Naming Rule
-\.       > PROFINET IO 로 연결된 Device들의 이름이 중복될 수 없습니다.  
-\.       > 최대 240자로 이름을 설정할 수 있습니다.  
-\.       > 특수 문자는 "." , "-" 를 사용할 수 있습니다.  
-\.       > 문자는 영어 소문자와 숫자를 사용할 수 있습니다.  
-\.       > 이름 시작과 끝은 영어 소문자 또는 숫자로 시작해야 합니다.  
+   - Naming Rule
+      - PROFINET IO 로 연결된 Device들의 이름이 중복될 수 없습니다.  
+      - 최대 240자로 이름을 설정할 수 있습니다.  
+      - 특수 문자는 "." , "-" 를 사용할 수 있습니다.  
+      - 문자는 영어 소문자와 숫자를 사용할 수 있습니다.  
+      - 이름 시작과 끝은 영어 소문자 또는 숫자로 시작해야 합니다.  
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      [**Master 에서 Slot 설정 시**]
+   [**Master 에서 Slot 설정 시**]
 
-\.      Master Input (32byte)  <--  Slave Output (32bytes)
+   - Master Input (32byte)  <--  Slave Output (32bytes)
 
-\.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
+   - Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
-\.      4, 8, 16, 32, 64 Bytes -> 각 Bytes 에 맞는 Slot 지정  
-\.      128, 256 Bytes -> 64 Bytes Slot 다수 지정 (2개, 4개)
+   - 4, 8, 16, 32, 64 Bytes -> 각 Bytes 에 맞는 Slot 지정  
+   - 128, 256 Bytes -> 64 Bytes Slot 다수 지정 (2개, 4개)
 
-\.      입력 Slot이 출력 Slot 보다 앞에 위치 합니다.
+   - 입력 Slot이 출력 Slot 보다 앞에 위치 합니다.
 {% endhint %}
 
 <br>
@@ -100,5 +100,5 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

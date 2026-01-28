@@ -7,7 +7,7 @@
 **1. SYCON.net 최신 버전 다운로드 경로**
 
 {% hint style="info" %}
-\.      **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net** 를 클릭합니다.
+   **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net** 를 클릭합니다.
 {% endhint %}
 
 <br>
@@ -21,7 +21,7 @@
 <br>
 
 {% hint style="info" %}
-\.      최신버전 (Current Release)을 선택하고 다운로드 합니다.
+   - 최신버전 (Current Release)을 선택하고 다운로드 합니다.
 {% endhint %}
 
 <br>
@@ -35,7 +35,7 @@
 <br>
 
 {% hint style="info" %}
-\.      다운로드한 SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
+   - 다운로드한 SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
 {% endhint %}
 
 <br>
@@ -49,7 +49,7 @@
 <br>
 
 {% hint style="info" %}
-\.      설치한 SYCON.NET 프로그램을 실행하여 정상적으로 설치가 완료되었는지 확인합니다.
+   - 설치한 SYCON.NET 프로그램을 실행하여 정상적으로 설치가 완료되었는지 확인합니다.
 {% endhint %}
 
 <br>
@@ -62,19 +62,19 @@
 **2. 현대 로보틱스 홈페이지에서 프로그램 다운로드**
 
 {% hint style="info" %}
-\.      [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Sycon.net**”을 다운로드 합니다.
+   [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Sycon.net**”을 다운로드 합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      압축 해제 -> SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
+   - 압축 해제 -> SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      당사 홈페이지에서 제공하는 SYCON.net 프로그램은 최신버전과 다를 수 있습니다.
+   - 당사 홈페이지에서 제공하는 SYCON.net 프로그램은 최신버전과 다를 수 있습니다.
 {% endhint %}
 
 <br>

@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      **[EtherNet/IP Adapter EDS File 다운로드]**
+   **[EtherNet/IP Adapter EDS File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -43,64 +43,64 @@
 **4. 각 항목 별 설명**
 
 {% hint style="info" %}
-\.      [IP 설정 (IP Setting)]
+   [IP 설정 (IP Setting)]
 
-\.      고정 IP : 사용자가 IP 주소, 서브넷 마스크, 게이트 웨이 정보를 설정합니다.
+   - 고정 IP : 사용자가 IP 주소, 서브넷 마스크, 게이트 웨이 정보를 설정합니다.
 
-\.      동적할당(DHCP) : DHCP 서버에서 IP 주소를 할당 받습니다.
+   - 동적할당(DHCP) : DHCP 서버에서 IP 주소를 할당 받습니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 에러시 입력 (Action in Bus Error)]
+   [통신 에러시 입력 (Action in Bus Error)]
 
-\.      Clear : 통신 에러 발생시 모든 입력을 0 으로 초기화 합니다.
+   - Clear : 통신 에러 발생시 모든 입력을 0 으로 초기화 합니다.
 
-\.      Hold : 통신 에러 발생시 마지막 유효 입력 값을 유지합니다.
+   - Hold : 통신 에러 발생시 마지막 유효 입력 값을 유지합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 에러 허용시간 (Error Allowed Time)]
+   [통신 에러 허용시간 (Error Allowed Time)]
 
-\.      지정한 허용 시간동안 통신에러가 지속되면 필드버스 이상 신호와 알람을 출력합니다.
+   - 지정한 허용 시간동안 통신에러가 지속되면 필드버스 이상 신호와 알람을 출력합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 
-\.      O -> T : Originator(Master) -> Target (Slave)
+   - O -> T : Originator(Master) -> Target (Slave)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 
-\.      T -> O : Target (Slave) -> Originator(Master)
+   - T -> O : Target (Slave) -> Originator(Master)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Run / Idle Header]
+   [Run / Idle Header]
 
-\.      제어기에 적용된 CIFX-50 RE EtherNet/IP Adapter 는 Scanner와 IO 교환 시 32Bit Run / Idle Header 를 사용합니다. (Default)
+   - 제어기에 적용된 CIFX-50 RE EtherNet/IP Adapter 는 Scanner와 IO 교환 시 32Bit Run / Idle Header 를 사용합니다. (Default)
 
-\.      Scanner 사양에 따라 입력 및 출력 32Bit Run / Idle Header 사용 여부를 적절히 설정하여 주십시오.
+   - Scanner 사양에 따라 입력 및 출력 32Bit Run / Idle Header 사용 여부를 적절히 설정하여 주십시오.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP는 Quick Connect 기능을 지원합니다.
+   - EtherNet/IP는 Quick Connect 기능을 지원합니다.
 
-\.        Quick Connect 기능 사용이 필요한 경우 Sycon.net 을 이용하여 EtherNet/IP Adapter를 설정해 주십시오.
+   - Quick Connect 기능 사용이 필요한 경우 Sycon.net 을 이용하여 EtherNet/IP Adapter를 설정해 주십시오.
 
-\.        (1) Master, Slave Quick Connect 지원 제품 필요  
-\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
-\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
-\.        (4) 100 Mbit/s, Full Duplex 사용 필요  
+      (1) Master, Slave Quick Connect 지원 제품 필요  
+      (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
+      (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
+      (4) 100 Mbit/s, Full Duplex 사용 필요  
 {% endhint %}
 
 <br>
@@ -116,5 +116,5 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

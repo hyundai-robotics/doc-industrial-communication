@@ -23,18 +23,18 @@
 <br>
 
 {% hint style="info" %}
-\.      [Protocol 설정]
+   [Protocol 설정]
 
-\.      * OFF : EtherNet/IP 사용 안함   
-\.      * Adapter : EtherNet/IP Adapter 모드   
-\.      * Scanner : EtherNet/IP Scanner 모드   
-\.      * Adapter + Scanner : EtherNet/IP Adapter + Scanner 동시 사용 모드    (같은 LAN Port)
+      - OFF : EtherNet/IP 사용 안함   
+      - Adapter : EtherNet/IP Adapter 모드   
+      - Scanner : EtherNet/IP Scanner 모드   
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner 동시 사용 모드    (같은 LAN Port)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Port 설정]
+   [Port 설정]
 
-\.      * 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
+      - 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
 {% endhint %}
 
 <br>
@@ -52,36 +52,36 @@
 <br>
 
 {% hint style="info" %}
-\.      [장치 설정]
+   [장치 설정]
 
-\.      * Device No. : 장치 연결 순서 (IO 데이터 배치 순서)   
-\.      * IP Address : 장치의 IP 주소   
-\.      * Device Name : 장치 이름 (통신 연결과는 무관, 단순 식별용)   
-\.      * RPI (ms) : IO 데이터 갱신 주기   
-\.      * Connection Type   
-\.          - Exclusive Owner (I/O) : Scanner - Adapter 입출력 연결   
-\.          - Input Only : Adapter의 입력 신호만 연결   
-\.          - Listen Only : Adapter 가 다른 Scanner와 I/O 연결 되어있는 상태에서 입력 신호만 연결   
+      - Device No. : 장치 연결 순서 (IO 데이터 배치 순서)   
+      - IP Address : 장치의 IP 주소   
+      - Device Name : 장치 이름 (통신 연결과는 무관, 단순 식별용)   
+      - RPI (ms) : IO 데이터 갱신 주기   
+      - Connection Type   
+            - Exclusive Owner (I/O) : Scanner - Adapter 입출력 연결   
+            - Input Only : Adapter의 입력 신호만 연결   
+            - Listen Only : Adapter 가 다른 Scanner와 I/O 연결 되어있는 상태에서 입력 신호만 연결   
 
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      * Run/Idle Header : IO 데이터 헤더 유무 선택   
-\.      * Instance No. : IO 데이터 교환을 위한 Input / Output Assembly의 Instance 번호   
-\.      * IO Size : IO 데이터 크기 (bytes 단위)   
+      - Run/Idle Header : IO 데이터 헤더 유무 선택   
+      - Instance No. : IO 데이터 교환을 위한 Input / Output Assembly의 Instance 번호   
+      - IO Size : IO 데이터 크기 (bytes 단위)   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      연결 예시는 아래 매뉴얼을 참고해주십시오.    
-\.      “[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - 연결 예시는 아래 매뉴얼을 참고해주십시오.    
+   - “[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
 
-\.      “[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - “[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
 
-\.      “[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - “[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
 
-\.      “[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - “[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -107,15 +107,15 @@
 <br>
 
 {% hint style="info" %}
-\.      [통신 상태 확인]   
-\.       - License: 현재 라이선스 상태   
-\.       - Run: EtherNet/IP 기능 동작 상태 표시   
-\.       - Communication: EtherNet/IP 통신 연결 상태 표시   
-\.       - Error: EtherNet/IP 오류 상태 표시   
+   [통신 상태 확인]   
+      - License: 현재 라이선스 상태   
+      - Run: EtherNet/IP 기능 동작 상태 표시   
+      - Communication: EtherNet/IP 통신 연결 상태 표시   
+      - Error: EtherNet/IP 오류 상태 표시   
 
-\.      장치 번호 색상   
-\.       - 초록색 : 통신 연결 OK   
-\.       - 빨간색 : 통신 연결 NG   
+   - 장치 번호 색상   
+      - 초록색 : 통신 연결 OK   
+      - 빨간색 : 통신 연결 NG   
 {% endhint %}
 
 <br>
@@ -127,5 +127,5 @@
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

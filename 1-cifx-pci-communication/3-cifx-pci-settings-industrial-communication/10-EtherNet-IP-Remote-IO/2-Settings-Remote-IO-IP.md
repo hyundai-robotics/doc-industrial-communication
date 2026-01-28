@@ -5,9 +5,9 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 <br>
 
 {% hint style="info" %}
-\.      Remote IO Crevis M9289 의 공장 출하시 설정 IP는 192.168.100.99 입니다.
+   - Remote IO Crevis M9289 의 공장 출하시 설정 IP는 192.168.100.99 입니다.
 
-\.      Remote IO 의 IP를 알지 못하거나 변경이 필요한 경우 아래를 따라 주십시오.
+   - Remote IO 의 IP를 알지 못하거나 변경이 필요한 경우 아래를 따라 주십시오.
 {% endhint %}
 
 <br>
@@ -34,7 +34,7 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 <br>
 
 {% hint style="info" %}
-\.      Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
+   - Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
 {% endhint %}
 
 ![[그림 1.3.10.2-5 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_5.png>)  
@@ -58,7 +58,7 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 **6. IP 설정이 끝난 Adapter의 DIP Switch를 모두 OFF로 변경한 후 장치를 재부팅합니다.**
 
 {% hint style="info" %}
-\.      DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
+   - DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.10.2-9 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_9.png>) 
@@ -74,5 +74,5 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 **8. IP 주소가 정상적으로 변경이 되었다면 설정을 진행합니다.**
 
 {% hint style="info" %}
-\.      "[**1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
+   - "[**1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
 {% endhint %}

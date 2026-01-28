@@ -5,9 +5,9 @@
 <br>
 
 {% hint style="info" %}
-\.      **[PROFIBUS-DP Slave GSD File 다운로드]**
+   **[PROFIBUS-DP Slave GSD File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -43,44 +43,44 @@
 **4. 각 항목 별 설명**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      PROFIBUS-DP는 Station Address를 통해 Slave를 식별합니다.
+   - PROFIBUS-DP는 Station Address를 통해 Slave를 식별합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [**Master 에서 Module 설정 시**]
+   [**Master 에서 Module 설정 시**]
 
-\.      설정한 바이트 수와 일치하도록 Master에서 Module을 지정해 주어야합니다.
+   - 설정한 바이트 수와 일치하도록 Master에서 Module을 지정해 주어야합니다.
 
-\.      순서 : Master Input (64 ~ 1) -> Master Output (64 ~ 1)
+   - 순서 : Master Input (64 ~ 1) -> Master Output (64 ~ 1)
 
-\.      EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
-\.          Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+   - EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
+         - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-\.      EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
-\.          Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
+   - EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
+         - Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
 
 
-\.      EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
-\.          Input 12 Bytes : 8Byte + 4Byte
+   - EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
+         - Input 12 Bytes : 8Byte + 4Byte
 
-\.      EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
-\.          Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
+   - EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
+         - Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
 
-\.      입력 Module이 출력 Module 보다 앞에 위치합니다.
+   - 입력 Module이 출력 Module 보다 앞에 위치합니다.
 {% endhint %}
 
 ![[그림 1.3.6.4-5 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>) 
@@ -99,5 +99,5 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}

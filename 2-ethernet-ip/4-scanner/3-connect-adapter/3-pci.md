@@ -3,15 +3,15 @@
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      해당 장치의 IP 설정은 Hilscher 매뉴얼을 참조하여 진행해 주십시오.
+   - 해당 장치의 IP 설정은 Hilscher 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
@@ -31,12 +31,12 @@
 <br>
 
 {% hint style="info" %}
-\.      Connection Manager에서 연결 타입 확인   
-\.      * 예시에서는 Exclusive Owner
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
 
-\.      Real Time Transfer Format에서 헤더 여부 확인   
-\.      * Input (T > O) : 32-bit run/idle header   
-\.      * Output (O > T) : 32-bit run/idle header   
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 32-bit run/idle header   
+      - Output (O > T) : 32-bit run/idle header   
 {% endhint %}
 
 <br>
@@ -46,9 +46,9 @@
 <br>
 
 {% hint style="info" %}
-\.      Param에서 Instance ID 확인   
-\.      * Input (T > O) : 101   
-\.      * Output (O > T) : 100   
+   - Param에서 Instance ID 확인   
+      - Input (T > O) : 101   
+      - Output (O > T) : 100   
 {% endhint %}
 
 <br>
@@ -58,7 +58,7 @@
 <br>
 
 {% hint style="info" %}
-\.      현재 연결할 장치의 IO Size 확인 (해당 PCI 장치 설정 참조)   
+   - 현재 연결할 장치의 IO Size 확인 (해당 PCI 장치 설정 참조)   
 {% endhint %}
 
 <br>
@@ -72,20 +72,20 @@
 <br>
 
 {% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 240 bytes (PCI 장치에 설정된 값)   
-\.      - Instance: 101   
-\.      - Run/Idle Header: 32Bit   
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 240 bytes (PCI 장치에 설정된 값)   
+      - Instance: 101   
+      - Run/Idle Header: 32Bit   
 
-\.      [O > T]    
-\.      - Size: 240 bytes (PCI 장치에 설정된 값)   
-\.      - Instance: 100   
-\.      - Run/Idle Header: 32Bit   
+   [O > T]    
+      - Size: 240 bytes (PCI 장치에 설정된 값)   
+      - Instance: 100   
+      - Run/Idle Header: 32Bit   
 {% endhint %}
 
 <br>

@@ -8,9 +8,9 @@
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-\.      DeviceNet 종단 저항 : 120옴
+   - DeviceNet 종단 저항 : 120옴
 
-\.      CC-Link 종단 저항 : 110옴
+   - CC-Link 종단 저항 : 110옴
 {% endhint %}
 
 <br>
