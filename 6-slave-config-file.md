@@ -10,19 +10,19 @@ Beschreibungsdateien für Slave-Geräte können von unserer Website heruntergela
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP: EDS-Datei
+   - EtherNet/IP: EDS-Datei
 
-\.      PROFINET IO: GSDML-Datei (.XML)
+   - PROFINET IO: GSDML-Datei (.XML)
 
-\.      EtherCAT: ESI-Datei (.XML)
+   - EtherCAT: ESI-Datei (.XML)
 
-\.      PROFIBUS-DP: GSD-Datei
+   - PROFIBUS-DP: GSD-Datei
 
-\.      DeviceNet: EDS-Datei
+   - DeviceNet: EDS-Datei
 
-\.      CC-Link IE Field: CSPP-Datei
+   - CC-Link IE Field: CSPP-Datei
 
-\.      CC-Link IE Basic: CSPP-Datei
+   - CC-Link IE Basic: CSPP-Datei
 {% endhint %}
 
 <br>

@@ -36,7 +36,7 @@
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 1
+   - CC-Link Version 1
 {% endhint %}
 
 <br>
@@ -47,9 +47,9 @@
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Erweiterungszyklus: Einzeln
+   - Erweiterungszyklus: Einzeln
 {% endhint %}
 
 <br>
@@ -59,9 +59,9 @@
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Double
+   - Extension Cycle : Double
 {% endhint %}
 
 <br>
@@ -71,9 +71,9 @@
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Erweiterungszyklus: Vierfach
+   - Erweiterungszyklus: Vierfach
 {% endhint %}
 
 <br>
@@ -83,9 +83,9 @@
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Erweiterungszyklus: Achtfach
+   - Erweiterungszyklus: Achtfach
 {% endhint %}
 
 <br>

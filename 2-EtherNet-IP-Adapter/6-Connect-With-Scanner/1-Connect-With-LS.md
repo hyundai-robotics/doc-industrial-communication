@@ -117,5 +117,5 @@ Das Hi6 EtherNet/IP-Adaptergerät wird in der Liste angezeigt, wie in der Abbild
 **2.6.1.8 E/A-Block nach Abschluss der Kommunikationseinstellungen zuweisen**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../4-io-block-allocation.md)“).**
 {% endhint %}

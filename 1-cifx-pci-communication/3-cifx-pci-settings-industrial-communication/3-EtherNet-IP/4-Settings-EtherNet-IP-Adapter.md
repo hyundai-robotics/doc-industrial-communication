@@ -5,9 +5,9 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 <br>
 
 {% hint style="info" %}
-\.      **[EtherNet/IP-Adapter-EDS-Datei herunterladen]**
+   **[EtherNet/IP-Adapter-EDS-Datei herunterladen]**
 
-\.      Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
+   - Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
 {% endhint %}
 
 <br>
@@ -42,64 +42,64 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 **4. Beschreibung der einzelnen Elemente**
 
 {% hint style="info" %}
-\.      [IP-Einstellung]
+   [IP-Einstellung]
 
-\.      Feste IP: Der Anwender legt die IP-Adresse, die Subnetzmaske und die Gateway-Informationen fest.
+   - Feste IP: Der Anwender legt die IP-Adresse, die Subnetzmaske und die Gateway-Informationen fest.
 
-\.      DHCP: Die IP-Adresse wird vom DHCP-Server zugewiesen.
+   - DHCP: Die IP-Adresse wird vom DHCP-Server zugewiesen.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Aktion bei Busfehler]
+   [Aktion bei Busfehler]
 
-\.      Löschen: Initialisieren Sie bei einem Kommunikationsfehler alle Eingänge auf 0.
+   - Löschen: Initialisieren Sie bei einem Kommunikationsfehler alle Eingänge auf 0.
 
-\.      Beibehalten: Behalten Sie bei einem Kommunikationsfehler den letzten gültigen Eingangswert bei.
+   - Beibehalten: Behalten Sie bei einem Kommunikationsfehler den letzten gültigen Eingangswert bei.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Zulässige Fehlerzeit]
+   [Zulässige Fehlerzeit]
 
-\.      Wenn der Kommunikationsfehler länger als die angegebene zulässige Zeit andauert, werden ein Feldbus-Fehlersignal und ein Alarm ausgegeben.
+   - Wenn der Kommunikationsfehler länger als die angegebene zulässige Zeit andauert, werden ein Feldbus-Fehlersignal und ein Alarm ausgegeben.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Eingangsbytes]
+   [Eingangsbytes]
 
-\.      Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
+   - Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
 
-\.      O -> T: Originator (Master) -> Target (Slave)
+   - O -> T: Originator (Master) -> Target (Slave)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Ausgangsbytes]
+   [Ausgangsbytes]
 
-\.      Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
+   - Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
 
-\.      T -> O : Target (Slave) -> Originator(Master)
+   - T -> O : Target (Slave) -> Originator(Master)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Run / Idle Header]
+   [Run / Idle Header]
 
-\.      Der CIFX-50 RE EtherNet/IP-Adapter, der für die Steuerung verwendet wird, nutzt beim Austausch von E/A mit dem Scanner einen 32-Bit-Run-/Idle-Header. (Standard)
+   - Der CIFX-50 RE EtherNet/IP-Adapter, der für die Steuerung verwendet wird, nutzt beim Austausch von E/A mit dem Scanner einen 32-Bit-Run-/Idle-Header. (Standard)
 
-\.      Bitte stellen Sie die Verwendung des 32-Bit-Run/Idle-Headers für Ein- und Ausgabe entsprechend den Scanner-Spezifikationen ein.
+   - Bitte stellen Sie die Verwendung des 32-Bit-Run/Idle-Headers für Ein- und Ausgabe entsprechend den Scanner-Spezifikationen ein.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP unterstützt die Quick-Connect-Funktion.
+   - EtherNet/IP unterstützt die Quick-Connect-Funktion.
 
-\.        Wenn die Quick-Connect-Funktion erforderlich ist, stellen Sie den EtherNet/IP-Adapter bitte mit Sycon.net ein.
+   - Wenn die Quick-Connect-Funktion erforderlich ist, stellen Sie den EtherNet/IP-Adapter bitte mit Sycon.net ein.
 
-\.        (1) Produkte, die Master-, Slave-Quick-Connect unterstützen, sind erforderlich.  
-\.        (2) Quick Connect kann nicht verwendet werden, wenn Auto-Negotiation genutzt wird  
-\.        (3) Quick Connect kann nicht verwendet werden, wenn Auto-MDI-X genutzt wird  
-\.        (4) 100 Mbit/s, Vollduplex erforderlich  
+      (1) Produkte, die Master-, Slave-Quick-Connect unterstützen, sind erforderlich.  
+      (2) Quick Connect kann nicht verwendet werden, wenn Auto-Negotiation genutzt wird  
+      (3) Quick Connect kann nicht verwendet werden, wenn Auto-MDI-X genutzt wird  
+      (4) 100 Mbit/s, Vollduplex erforderlich  
 {% endhint %}
 
 <br>
@@ -115,5 +115,5 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP
 **6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie E/A-Signale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie E/A-Signale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

@@ -7,10 +7,10 @@ Die industrielle Kommunikations-E/A muss dem Bereich fb0 bis fb9 zugewiesen werd
 <br>
 
 {% hint style="info" %}
-\.      Informationen zu den Methoden zum Lesen/Schreiben von E/A für fb-Blöcke finden Sie im folgenden Handbuch.
+   - Informationen zu den Methoden zum Lesen/Schreiben von E/A für fb-Blöcke finden Sie im folgenden Handbuch.
 
-\.   **\[Steuerungshandbuch: Allgemeiner Eingang]**   
-\.   **\[Steuerungshandbuch: Allgemeiner Ausgang]**   
+      **\[Steuerungshandbuch: Allgemeiner Eingang]**   
+      **\[Steuerungshandbuch: Allgemeiner Ausgang]**   
 {% endhint %}
 
 <br>

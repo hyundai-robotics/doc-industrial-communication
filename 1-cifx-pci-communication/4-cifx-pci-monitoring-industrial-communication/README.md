@@ -5,11 +5,11 @@ Nach den Kommunikationseinstellungen gemäß den Verfahren „[**1.2 Installatio
 **\[Service > 19: Überwachung der industriellen Kommunikation]** Sie können durch Antippen darauf zugreifen und auf diesem Bildschirm die konfigurierten Firmware-Informationen, den Kommunikationsstatus, den Kommunikationskonfigurationsstatus usw. überprüfen.
 
 {% hint style="info" %}
-\.      **\[Neustart]** Mit der Schaltfläche können Sie die industrielle Kommunikation der PCI-Kommunikationskarte neu starten.
+   **\[Neustart]** Mit der Schaltfläche können Sie die industrielle Kommunikation der PCI-Kommunikationskarte neu starten.
 
-\.      Bitte überprüfen Sie den Slot, die Firmware und den Gerätestatus.
+   - Bitte überprüfen Sie den Slot, die Firmware und den Gerätestatus.
 
-\.      Überprüfen Sie bei Mastern, ob die Slave-Konfiguration und die aktiven Slaves mit der Anzahl der konfigurierten Slaves übereinstimmen.
+   - Überprüfen Sie bei Mastern, ob die Slave-Konfiguration und die aktiven Slaves mit der Anzahl der konfigurierten Slaves übereinstimmen.
 {% endhint %}
 
 ![[Abbildung 1.4-1 Überwachung der industriellen Kommunikation]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_1.png>)

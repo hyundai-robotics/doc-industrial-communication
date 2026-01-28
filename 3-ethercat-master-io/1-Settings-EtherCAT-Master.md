@@ -12,7 +12,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Überprüfen Sie die ausgewählte LAN-Portnummer der Steuerung auf dem Bildschirm „EtherCAT-Master-Einstellungen“. 
+   - Überprüfen Sie die ausgewählte LAN-Portnummer der Steuerung auf dem Bildschirm „EtherCAT-Master-Einstellungen“. 
 {% endhint %}
 
 **2. Verbinden Sie den LAN-Anschluss der Steuerung und die Kabel der Remote-E/A usw. für die Kommunikation und überprüfen Sie den Status.**
@@ -25,11 +25,11 @@
 <br>
 
 {% hint style="info" %}
-\.      Bitte verbinden Sie die Steuerung und die Remote-E/A über ein LAN-Kabel.
+   - Bitte verbinden Sie die Steuerung und die Remote-E/A über ein LAN-Kabel.
 
-\.      Stellen Sie alle DIP-Schalter des Remote-E/A auf AUS.
+   - Stellen Sie alle DIP-Schalter des Remote-E/A auf AUS.
 
-\.      Schließen Sie sowohl die Remote-E/A-Stromversorgung als auch die Feldstromversorgung an. (24 V DC)
+   - Schließen Sie sowohl die Remote-E/A-Stromversorgung als auch die Feldstromversorgung an. (24 V DC)
 {% endhint %}
 
 <br>
@@ -43,9 +43,9 @@
 <br>
 
 {% hint style="info" %}
-\.      Stellen Sie den Kommunikationszyklus entsprechend Ihrer Umgebung ein.
+   - Stellen Sie den Kommunikationszyklus entsprechend Ihrer Umgebung ein.
 
-\.      Es werden Kommunikationszyklen von 1 ms, 2 ms und 5 ms unterstützt.
+   - Es werden Kommunikationszyklen von 1 ms, 2 ms und 5 ms unterstützt.
 {% endhint %}
 
 <br>
@@ -59,28 +59,28 @@
 <br>
 
 {% hint style="info" %}
-\.      Überprüfen Sie die Anzahl der Eingangs- und Ausgangs-Bytes.
+   - Überprüfen Sie die Anzahl der Eingangs- und Ausgangs-Bytes.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF: Digital 16 Punkte
-\.      M3534: Analog 4 Punkte
+   - Input Module  
+   - M12DF: Digital 16 Punkte
+   - M3534: Analog 4 Punkte
 {% endhint %}
 
 {% hint style="info" %}
-\.      Ausgabemodul  
-\.      M225F: Digital 16 Punkte  
-\.      M226F: Digital 16 Punkte  
-\.      M2768: Digital 8 Punkte   
-\.      M4534: Analog 4 Punkte  
+   - Ausgabemodul  
+   - M225F: Digital 16 Punkte  
+   - M226F: Digital 16 Punkte  
+   - M2768: Digital 8 Punkte   
+   - M4534: Analog 4 Punkte  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
+   - Special Module  
+   - M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
@@ -100,7 +100,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Bitte starten Sie die Steuerung nach Abschluss der Einstellungen neu.
+   - Bitte starten Sie die Steuerung nach Abschluss der Einstellungen neu.
 {% endhint %}
 
 <br>
@@ -112,7 +112,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Überprüfen Sie den Status der Kommunikationsverbindung und den Fehlerstatus.
+   - Überprüfen Sie den Status der Kommunikationsverbindung und den Fehlerstatus.
 {% endhint %}
 
 <br>
@@ -122,13 +122,13 @@
 <br>
 
 {% hint style="info" %}
-\.      Überprüfen Sie anhand der LEDs am Remote-E/A-Modul, ob die Kommunikation ordnungsgemäß hergestellt wurde.
+   - Überprüfen Sie anhand der LEDs am Remote-E/A-Modul, ob die Kommunikation ordnungsgemäß hergestellt wurde.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **Sollte ein Fehler (ERROR) im Kommunikationsstatus auftreten, beachten Sie bitte den Abschnitt („[**3.2 Fehlerbehandlung bei EtherCAT-Master-E/A**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)“).**
+   **Sollte ein Fehler (ERROR) im Kommunikationsstatus auftreten, beachten Sie bitte den Abschnitt („[**3.2 Fehlerbehandlung bei EtherCAT-Master-E/A**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)“).**
 {% endhint %}
 
 <br>
@@ -136,6 +136,6 @@
 **7. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../4-io-block-allocation.md)“).**
 {% endhint %}
 

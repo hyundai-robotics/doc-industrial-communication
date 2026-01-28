@@ -5,7 +5,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 <br>
 
 {% hint style="info" %}
-\.      Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, ziehen Sie bitte die Funktion „[**1.3.2 SYCON.NET-Hilfe**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)“ zu Rate.
+   - Wenn Sie SYCON.net verwenden und die Erläuterungen im Handbuch nicht ausreichen, ziehen Sie bitte die Funktion „[**1.3.2 SYCON.NET-Hilfe**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)“ zu Rate.
 {% endhint %}
 
 <br>
@@ -52,13 +52,13 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 **7. Legen Sie die IP-Adresse des Adapters (Slave) für die EtherNet/IP-Kommunikationsverbindung fest.**
 
 {% hint style="info" %}
-\.      Einstellung der IP-Adresse über DIP-Schalter
+   - Einstellung der IP-Adresse über DIP-Schalter
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>) 
 
 {% hint style="info" %}
-\.      Einstellung der IP-Adresse über BootpSvr.exe
+   - Einstellung der IP-Adresse über BootpSvr.exe
 {% endhint %}
 
 <br>
@@ -82,7 +82,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 ![[Abbildung 1.3.3.2-12 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_12.png>)
 
 {% hint style="info" %}
-\.      Halten Sie „Start BootP“ gedrückt, trennen Sie das M9289-Modul vom Stromnetz und schließen Sie es wieder an, um es neu zu starten.
+   - Halten Sie „Start BootP“ gedrückt, trennen Sie das M9289-Modul vom Stromnetz und schließen Sie es wieder an, um es neu zu starten.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-13 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_13.png>)
@@ -104,7 +104,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 **12. Nachdem die IP-Einstellung abgeschlossen ist, schalten Sie alle DIP-Schalter des Adapters auf AUS und starten Sie das Gerät neu.**
 
 {% hint style="info" %}
-\.      Überprüfen Sie unbedingt den Status der DIP-Schalter und ob der Adapter neu gestartet wurde.
+   - Überprüfen Sie unbedingt den Status der DIP-Schalter und ob der Adapter neu gestartet wurde.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-17 Crevis DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_17.png>)
@@ -114,17 +114,17 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 **13. Registrieren Sie die EDS-Datei des Slave-Geräts.**
 
 {% hint style="info" %}
-\.      Für die Verwendung von Geräten, die nicht in Sycon.net registriert sind, ist eine EDS-Datei erforderlich.
+   - Für die Verwendung von Geräten, die nicht in Sycon.net registriert sind, ist eine EDS-Datei erforderlich.
 
-\.      Die EDS-Datei für den M9289-Adapter kann von der Crevis-Website heruntergeladen werden.
+   - Die EDS-Datei für den M9289-Adapter kann von der Crevis-Website heruntergeladen werden.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-18 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_18.png>)
 
 {% hint style="info" %}
-\.      Registrieren Sie die heruntergeladene EDS-Datei in Sycon.net.
+   - Registrieren Sie die heruntergeladene EDS-Datei in Sycon.net.
 
-\.      Bitte überprüfen Sie bei der Registrierung von EDS-Dateien das industrielle Kommunikationsprotokoll (EtherNet/IP).
+   - Bitte überprüfen Sie bei der Registrierung von EDS-Dateien das industrielle Kommunikationsprotokoll (EtherNet/IP).
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-19 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_19.png>)![[Abbildung 1.3.3.2-20 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_20.png>)
@@ -137,7 +137,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 **14. Netzwerk-Scan**
 
 {% hint style="info" %}
-\.      Der EtherNet/IP-Scanner unterstützt keine Netzwerkscan-Funktion.
+   - Der EtherNet/IP-Scanner unterstützt keine Netzwerkscan-Funktion.
 {% endhint %}
 
 <br>
@@ -145,17 +145,17 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 **15. Konfiguration des Slave-Geräts (Adapter)**
 
 {% hint style="info" %}
-\.      Ziehen Sie das registrierte Gerät und platzieren Sie es auf der EtherNet/IP-Master-Busleitung.
+   - Ziehen Sie das registrierte Gerät und platzieren Sie es auf der EtherNet/IP-Master-Busleitung.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-23 Sycon.net Bus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-\.      Doppelklicken Sie auf das Gerät (Adapter), um mit den Einstellungen fortzufahren.
+   - Doppelklicken Sie auf das Gerät (Adapter), um mit den Einstellungen fortzufahren.
 
-\.      Legen Sie die Anzahl der Eingangs-/Ausgangs-Bytes fest, die für das in diesem Gerät installierte E/A-Gerät geeignet ist.
+   - Legen Sie die Anzahl der Eingangs-/Ausgangs-Bytes fest, die für das in diesem Gerät installierte E/A-Gerät geeignet ist.
 
-\.      In diesem Beispiel wurden die folgenden Einstellungen vorgenommen.
+   - In diesem Beispiel wurden die folgenden Einstellungen vorgenommen.
 {% endhint %}
 
 <br>
@@ -163,13 +163,13 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 ![[Abbildung 1.3.3.2-24 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        O -> T : Originator(Master) -> Target (Slave)
+   - O -> T : Originator(Master) -> Target (Slave)
 
-\.        Output : EtherNet/IP Scanner  -> M9289
+   - Output : EtherNet/IP Scanner  -> M9289
 
-\.        [Output Module]   
-\.         1. M225F (2Bytes)   
-\.         **=> 2Bytes**   
+   [Output Module]   
+      (1) M225F (2Bytes)   
+      **=> 2Bytes**   
 {% endhint %}
 
 <br>
@@ -177,19 +177,19 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 ![[Abbildung 1.3.3.2-25 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-\.        T -> O : Ziel (Slave) -> Originator (Master)
+   - T -> O : Ziel (Slave) -> Originator (Master)
 
-\.        Eingang : M9289 -> EtherNet/IP-Scanner
+   - Eingang : M9289 -> EtherNet/IP-Scanner
 
-\.        [Eingangsmodul]   
-\.         1. M7001  (1 Byte)   
-\.         2. M12DF  (2 Byte)   
-\.         **=> 3Bytes**
+   [Eingangsmodul]   
+      (1) M7001  (1 Byte)   
+      (2) M12DF  (2 Byte)   
+      **=> 3Bytes**
 
 
-\.         1.M7002 (0Byte)
-\.         2.M12DF (2Bytes)
-\.         **=> 2Bytes**  
+      (1) M7002 (0Byte)
+      (2) M12DF (2Bytes)
+      **=> 2Bytes**  
 {% endhint %}
 
 <br>
@@ -198,58 +198,58 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 
 {% hint style="info" %}
-\.        Klicken Sie mit der rechten Maustaste auf das Master-Gerät und wählen Sie „Trennen“.
+   - Klicken Sie mit der rechten Maustaste auf das Master-Gerät und wählen Sie „Trennen“.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-26 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.        Doppelklicken Sie auf das Master-Gerät.
+   - Doppelklicken Sie auf das Master-Gerät.
 
-\.        Legen Sie die IP-Adresse des Master-Geräts fest. 
+   - Legen Sie die IP-Adresse des Master-Geräts fest. 
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-27 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-\.        Legen Sie die IP-Adresse des Slave-Geräts fest.
+   - Legen Sie die IP-Adresse des Slave-Geräts fest.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-28 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-\.        Legen Sie die Scan-Zeit des Slave-Geräts fest. 
+   - Legen Sie die Scan-Zeit des Slave-Geräts fest. 
 
-\.        Bitte passen Sie diesen Wert an, um die geeignete Kommunikationsgeschwindigkeit festzulegen.
+   - Bitte passen Sie diesen Wert an, um die geeignete Kommunikationsgeschwindigkeit festzulegen.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-29 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.        Überprüfen Sie die Einstellungen des Slave-Geräts in der Adressentabelle.
+   - Überprüfen Sie die Einstellungen des Slave-Geräts in der Adressentabelle.
 
-\.        Überprüfen Sie die Anzahl der Eingangs-/Ausgangs-E/A-Bytes und die Startadresse.
+   - Überprüfen Sie die Anzahl der Eingangs-/Ausgangs-E/A-Bytes und die Startadresse.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-30 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP unterstützt die Quick-Connect-Funktion.
+   - EtherNet/IP unterstützt die Quick-Connect-Funktion.
 {% endhint %}
 
 {% hint style="info" %}
-\.        Die folgenden Bedingungen müssen erfüllt sein, um die Quick-Connect-Funktion nutzen zu können.
+   - Die folgenden Bedingungen müssen erfüllt sein, um die Quick-Connect-Funktion nutzen zu können.
 
-\.        (1) Produkte, die Master-, Slave-Quick-Connect unterstützen, sind erforderlich  
-\.        (2) Quick Connect kann nicht verwendet werden, wenn Auto-Negotiation genutzt wird  
-\.        (3) Quick Connect kann nicht verwendet werden, wenn Auto-MDI-X genutzt wird  
-\.        (4) 100 Mbit/s, Vollduplex erforderlich  
+      (1) Produkte, die Master-, Slave-Quick-Connect unterstützen, sind erforderlich  
+      (2) Quick Connect kann nicht verwendet werden, wenn Auto-Negotiation genutzt wird  
+      (3) Quick Connect kann nicht verwendet werden, wenn Auto-MDI-X genutzt wird  
+      (4) 100 Mbit/s, Vollduplex erforderlich  
 {% endhint %}
 
 {% hint style="info" %}
-\.        Fahren Sie nach Abschluss der Einstellungen mit dem Herunterladen fort.
+   - Fahren Sie nach Abschluss der Einstellungen mit dem Herunterladen fort.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-31 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
@@ -259,13 +259,13 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 **17. Überprüfen Sie den Kommunikationsstatus**
 
 {% hint style="info" %}
-\.        Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
+   - Überprüfen Sie den Kommunikationsstatus in Sycon.net und TP.
 
-\.        Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („[**1.4 Überwachen der CIFX-PCI-Kommunikation**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)“).
+   - Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP finden Sie unter („[**1.4 Überwachen der CIFX-PCI-Kommunikation**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)“).
 {% endhint %}
 
 {% hint style="info" %}
-\.      Doppelklicken Sie auf das angeschlossene Master-Gerät, um den Kommunikationsstatus zu überprüfen.
+   - Doppelklicken Sie auf das angeschlossene Master-Gerät, um den Kommunikationsstatus zu überprüfen.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-32 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_32.png>)
@@ -274,7 +274,7 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 
 
 {% hint style="info" %}
-\.        Mit der Diagnosefunktion von Sycon.net können Sie den Kommunikationsstatus und den Status der E/A-Ein- und Ausgänge überwachen.
+   - Mit der Diagnosefunktion von Sycon.net können Sie den Kommunikationsstatus und den Status der E/A-Ein- und Ausgänge überwachen.
 {% endhint %}
 
 ![[Abbildung 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
@@ -284,5 +284,5 @@ Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstel
 **18. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

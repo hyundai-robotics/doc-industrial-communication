@@ -13,9 +13,9 @@ Nachdem Sie den LAN-Port für die EtherNet/IP-Kommunikation ausgewählt haben, �
 *[Abbildung 2.2.2 Netzwerkeinstellungen]*<br>
 
 {% hint style="info" %}
-\.      Die IP-Adressen von LAN1/LAN2/LAN3 müssen jeweils unterschiedliche Subnetz-Teile aufweisen.
+   - Die IP-Adressen von LAN1/LAN2/LAN3 müssen jeweils unterschiedliche Subnetz-Teile aufweisen.
 
-\.      Starten Sie nach dem Ändern der Einstellungen die Robotersteuerung neu.
+   - Starten Sie nach dem Ändern der Einstellungen die Robotersteuerung neu.
 {% endhint %}
 
 **2.2.3 Überprüfung des Verbindungsstatus**

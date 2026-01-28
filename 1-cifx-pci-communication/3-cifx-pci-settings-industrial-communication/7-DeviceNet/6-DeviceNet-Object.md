@@ -32,15 +32,15 @@ Der DeviceNet-Master kann über explizite Meldungen auf Objekte bestimmter Slave
 <br>
 
 {% hint style="info" %}
-\.      Beispiel: Objekt von Crevis GN-9212 (Diese Informationen finden Sie im Crevis-Handbuch.)
+   - Beispiel: Objekt von Crevis GN-9212 (Diese Informationen finden Sie im Crevis-Handbuch.)
 
-\.      Lesen des Vendor-ID-Werts des Identitätsobjekts (Klassencode 0x01)
+   - Lesen des Vendor-ID-Werts des Identitätsobjekts (Klassencode 0x01)
 
-\.      Instanz: 1
+   - Instanz: 1
 
-\.      Attribut-ID: 1
+   - Attribut-ID: 1
 
-\.      Berechtigung: Abrufen (nur Lesen möglich)
+   - Berechtigung: Abrufen (nur Lesen möglich)
 {% endhint %}
 
 
@@ -54,15 +54,15 @@ Jedes Objekt, jede Instanz und jedes Attribut im Inneren verfügt über untersch
 <br>
 
 {% hint style="info" %}
-\.      Zugriffsberechtigungen
+   - Zugriffsberechtigungen
 
-\.      Abrufen: Leseberechtigung
+   - Abrufen: Leseberechtigung
 
-\.      Festlegen: Schreibberechtigung
+   - Festlegen: Schreibberechtigung
 
-\.      Einzelnes Attribut: Es kann jeweils nur auf ein Attributelement zugegriffen werden.
+   - Einzelnes Attribut: Es kann jeweils nur auf ein Attributelement zugegriffen werden.
 
-\.      Alle Attribute: Es kann auf alle Attribute in der Instanz gleichzeitig zugegriffen werden.
+   - Alle Attribute: Es kann auf alle Attribute in der Instanz gleichzeitig zugegriffen werden.
 {% endhint %}
 
 <br>

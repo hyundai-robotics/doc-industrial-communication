@@ -8,7 +8,7 @@
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-\.      DeviceNet-Abschlusswiderstand: 120 Ohm
+   - DeviceNet-Abschlusswiderstand: 120 Ohm
 
-\.      CC-Link-Abschlusswiderstand: 110 Ohm
+   - CC-Link-Abschlusswiderstand: 110 Ohm
 {% endhint %}

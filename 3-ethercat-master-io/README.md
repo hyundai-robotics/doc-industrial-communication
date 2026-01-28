@@ -20,10 +20,10 @@ Das EtherCAT-Protokoll bietet Funktionen für sehr schnelle E/A-Datenaktualisier
 <br>
 
 {% hint style="info" %}
-\.      EtherCAT Master verwendet den allgemeinen LAN-Port der Hi6-Steuerung.
+   - EtherCAT Master verwendet den allgemeinen LAN-Port der Hi6-Steuerung.
 
 
-\.      Das Remote-E/A-Modul verwendet den Crevis M9386 EtherCAT-Netzwerkadapter.
+   - Das Remote-E/A-Modul verwendet den Crevis M9386 EtherCAT-Netzwerkadapter.
 {% endhint %}
 
 
