@@ -1,4 +1,4 @@
-## 1.3.2 SYCON.NET-Einstellungen
+### 1.3.2 SYCON.NET-Einstellungen
 
 Die Hi6-Steuerung führt die industriellen Kommunikationseinstellungen mit dem Programm „**Sycon.net**“ durch. Die Einstellung erfolgt wie folgt. (Bitte installieren Sie das Programm gemäß „[**1.1 Installation von Sycon.net**](../../1-cifx-pci-install-program/1-sycon-net.md)“.)
 
