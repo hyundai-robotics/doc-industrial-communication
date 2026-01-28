@@ -5,9 +5,9 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 <br>
 
 {% hint style="info" %}
-\.      **[PROFINET IO-Geräte-GSDML-Datei herunterladen]**
+   **[PROFINET IO-Geräte-GSDML-Datei herunterladen]**
 
-\.      Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
+   - Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
 {% endhint %}
 
 <br>
@@ -42,43 +42,43 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 **4. Beschreibung der einzelnen Elemente**
 
 {% hint style="info" %}
-\.      [Station Name]
+   [Station Name]
 
-\.      PROFINET IO identifiziert Slaves über die Stationsadresse.
+   - PROFINET IO identifiziert Slaves über die Stationsadresse.
 
-\.      Benennungsregel
-\.       > Gerätenamen, die über PROFINET IO verbunden sind, dürfen nicht doppelt vorkommen.  
-\.       > Namen können bis zu 240 Zeichen lang sein.  
-\.       > Die Sonderzeichen „.“ und „-“ dürfen verwendet werden.  
-\.       > Englische Kleinbuchstaben und Zahlen dürfen verwendet werden.  
-\.       > Namen müssen mit englischen Kleinbuchstaben oder Zahlen beginnen und enden.  
+   - Benennungsregel
+      - Gerätenamen, die über PROFINET IO verbunden sind, dürfen nicht doppelt vorkommen.  
+      - Namen können bis zu 240 Zeichen lang sein.  
+      - Die Sonderzeichen „.“ und „-“ dürfen verwendet werden.  
+      - Englische Kleinbuchstaben und Zahlen dürfen verwendet werden.  
+      - Namen müssen mit englischen Kleinbuchstaben oder Zahlen beginnen und enden.  
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Eingangsbytes]
+   [Eingangsbytes]
 
-\.      Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
+   - Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Ausgangsbytes]
+   [Ausgangsbytes]
 
-\.      Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
+   - Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      [**Bei der Einstellung von Slot im Master**]
+   [**Bei der Einstellung von Slot im Master**]
 
-\.      Master Input (32byte)  <--  Slave Output (32bytes)
+   - Master Input (32byte)  <--  Slave Output (32bytes)
 
-\.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
+   - Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
-\.      4, 8, 16, 32, 64 Bytes -> Geben Sie den Slot für jedes Byte an
-\.      128, 256 Bytes -> Geben Sie mehrere 64-Byte-Slots an (2, 4)
+   - 4, 8, 16, 32, 64 Bytes -> Geben Sie den Slot für jedes Byte an
+   - 128, 256 Bytes -> Geben Sie mehrere 64-Byte-Slots an (2, 4)
 
-\.      Der Eingangsslot befindet sich vor dem Ausgangsslot.
+   - Der Eingangsslot befindet sich vor dem Ausgangsslot.
 {% endhint %}
 
 <br>
@@ -99,5 +99,5 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP
 **6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

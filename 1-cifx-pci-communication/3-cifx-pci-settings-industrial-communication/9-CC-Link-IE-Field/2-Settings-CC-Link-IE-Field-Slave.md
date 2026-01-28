@@ -35,51 +35,51 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 **4. Beschreibung der einzelnen Elemente**
 
 {% hint style="info" %}
-\.      [Network Number]
+   [Network Number]
 
-\.      CC-Link IE Field-Netzwerknummer (1–239)
+   - CC-Link IE Field-Netzwerknummer (1–239)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      Geräte-ID innerhalb des verbundenen Netzwerks (1–120)
+   - Geräte-ID innerhalb des verbundenen Netzwerks (1–120)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Type]
+   [IO Type]
 
-\.      Der E/A-Typ wird durch die Einstellungen des Master-Geräts bestimmt   
-\.      - Gemischt: Eingang und Ausgang verwenden unterschiedliche Indizes (unterschiedliche Adressen)   
-\.      - Eingang: Nur Eingang   
-\.      - Ausgang: Nur Ausgang   
-\.      - FrontBackMixture: Eingang und Ausgang verwenden denselben Index (dieselbe Adresse)   
+   - Der E/A-Typ wird durch die Einstellungen des Master-Geräts bestimmt   
+      - Gemischt: Eingang und Ausgang verwenden unterschiedliche Indizes (unterschiedliche Adressen)   
+      - Eingang: Nur Eingang   
+      - Ausgang: Nur Ausgang   
+      - FrontBackMixture: Eingang und Ausgang verwenden denselben Index (dieselbe Adresse)   
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Gerätetyp]
+   [Gerätetyp]
 
-\.      Die maximal einstellbare E/A-Größe hängt vom Gerätetyp ab.
+   - Die maximal einstellbare E/A-Größe hängt vom Gerätetyp ab.
 
-\.      Intelligent Device Station   
-\.      - RY, RX (max): 256 bytes   
-\.      - RWw, RWr (max.): 1024 Wörter
+   - Intelligent Device Station   
+      - RY, RX (max): 256 bytes   
+      - RWw, RWr (max.): 1024 Wörter
 
-\.      Remote-Gerätestation   
-\.      - RY, RX (max.): 16 Byte   
-\.      - RWw, RWr (max.): 64 Wörter
+   - Remote-Gerätestation   
+      - RY, RX (max.): 16 Byte   
+      - RWw, RWr (max.): 64 Wörter
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Size]
+   [IO Size]
 
-\.      Master -> Slave   
-\.      - RWw (word data)   
-\.      - RY (bit data)   
+   - Master -> Slave   
+      - RWw (word data)   
+      - RY (bit data)   
 
-\.      Slave -> Master   
-\.      - RWr (Wortdaten)   
-\.      - RX (Bitdaten)  
+   - Slave -> Master   
+      - RWr (Wortdaten)   
+      - RX (Bitdaten)  
 {% endhint %}
 
 <br>
@@ -93,7 +93,7 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP
 **6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}
 
 <br>

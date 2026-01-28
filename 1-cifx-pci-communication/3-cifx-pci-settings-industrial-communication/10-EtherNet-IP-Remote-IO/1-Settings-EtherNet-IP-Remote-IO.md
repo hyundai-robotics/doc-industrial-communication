@@ -25,21 +25,21 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 <br>
 
 {% hint style="info" %}
-\.      Verbinden Sie den PCI und den Remote-E/A mit einem LAN-Kabel.
+   - Verbinden Sie den PCI und den Remote-E/A mit einem LAN-Kabel.
 
-\.      Stellen Sie alle DIP-Schalter des Remote-E/A auf AUS.
+   - Stellen Sie alle DIP-Schalter des Remote-E/A auf AUS.
 
-\.      Schließen Sie sowohl die Remote-E/A-Stromversorgung als auch die Feldstromversorgung an. (24 V DC)
+   - Schließen Sie sowohl die Remote-E/A-Stromversorgung als auch die Feldstromversorgung an. (24 V DC)
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Die werkseitige Standard-IP des Crevis M9289 Remote-E/A lautet 192.168.100.99.
+   - Die werkseitige Standard-IP des Crevis M9289 Remote-E/A lautet 192.168.100.99.
 
-\.      Die Remote-E/A-IP muss für die Kommunikationsverbindung auf 192.168.100.99 eingestellt werden.
+   - Die Remote-E/A-IP muss für die Kommunikationsverbindung auf 192.168.100.99 eingestellt werden.
 
-\.      „[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)“
+   - „[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)“
 {% endhint %}
 
 <br>
@@ -55,32 +55,32 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 <br>
 
 {% hint style="info" %}
-\.      Die IP wird als fester Wert festgelegt.
+   - Die IP wird als fester Wert festgelegt.
 
-\.      Überprüfen Sie die Anzahl der Eingangs- und Ausgangs-Bytes.
+   - Überprüfen Sie die Anzahl der Eingangs- und Ausgangs-Bytes.
 
-\.      Die ausgewählten Eingangs- und Ausgangszahlen müssen kleiner oder gleich der Anzahl der E/As auf den in den Remote-E/A-Slots installierten Karten sein.
+   - Die ausgewählten Eingangs- und Ausgangszahlen müssen kleiner oder gleich der Anzahl der E/As auf den in den Remote-E/A-Slots installierten Karten sein.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF: Digital 16 Punkte  
-\.      M3534: Analog 4 Punkte  
+   - Input Module  
+   - M12DF: Digital 16 Punkte  
+   - M3534: Analog 4 Punkte  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Ausgabemodul  
-\.      M225F: Digital 16 Punkte  
-\.      M226F: Digital 16 Punkte  
-\.      M2768: Digital 8 Punkte   
-\.      M4534: Analog 4 Punkte  
+   - Ausgabemodul  
+   - M225F: Digital 16 Punkte  
+   - M226F: Digital 16 Punkte  
+   - M2768: Digital 8 Punkte   
+   - M4534: Analog 4 Punkte  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
+   - Special Module  
+   - M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
@@ -92,7 +92,7 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 ![[Abbildung 1.3.10.1-8 Slave-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
-\.      Bitte starten Sie die Steuerung nach Abschluss der Einstellungen neu.
+   - Bitte starten Sie die Steuerung nach Abschluss der Einstellungen neu.
 {% endhint %}
 
 <br>
@@ -106,11 +106,11 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf de
 ![[Abbildung 1.3.10.1-10 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>)
 
 {% hint style="info" %}
-\.      Wenn keine Kommunikation hergestellt werden kann, überprüfen Sie bitte die IP-Adresse des Remote-E/A.
+   - Wenn keine Kommunikation hergestellt werden kann, überprüfen Sie bitte die IP-Adresse des Remote-E/A.
 
-\.      Bitte befolgen Sie die folgenden Schritte. (Falls nicht 192.168.100.99)
+   - Bitte befolgen Sie die folgenden Schritte. (Falls nicht 192.168.100.99)
 
-\.      „[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)“
+   - „[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)“
 {% endhint %}
 
 ![[Abbildung 1.3.10.1-11 Überwachung der industriellen Kommunikation]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
@@ -122,5 +122,5 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf de
 **7. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

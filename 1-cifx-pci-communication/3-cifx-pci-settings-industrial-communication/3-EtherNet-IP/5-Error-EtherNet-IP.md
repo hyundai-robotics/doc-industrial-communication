@@ -13,9 +13,9 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 **1. Fehler: Kommunikationskabel unterbrochen**
 
 {% hint style="info" %}
-\.      Überprüfen Sie den Verbindungsstatus des LAN-Kabels.
+   - Überprüfen Sie den Verbindungsstatus des LAN-Kabels.
 
-\.      Bitte überprüfen Sie, ob das Adaptergerät eingeschaltet ist.
+   - Bitte überprüfen Sie, ob das Adaptergerät eingeschaltet ist.
 {% endhint %}
 
 ![[Abbildung 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
@@ -26,9 +26,9 @@ Bitte beachten Sie „[**1.4.1 FEHLERCODE**](../../../1-cifx-pci-communication/4
 **2. Fehler bei der IP-Adresseinstellung**
 
 {% hint style="info" %}
-\.      Bitte überprüfen Sie die IP-Adressen des Master- und Slave-Geräts.
+   - Bitte überprüfen Sie die IP-Adressen des Master- und Slave-Geräts.
 
-\.      Ein Fehler tritt auf, wenn die eingestellte IP-Adresse des Adaptergeräts von dem in Sycon.net eingegebenen Wert abweicht.
+   - Ein Fehler tritt auf, wenn die eingestellte IP-Adresse des Adaptergeräts von dem in Sycon.net eingegebenen Wert abweicht.
 
 {% endhint %}
 

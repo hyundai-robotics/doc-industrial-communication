@@ -11,7 +11,7 @@ Die Hi6-Steuerung führt die industriellen Kommunikationseinstellungen mit dem P
 ![[Abbildung 1.3.2-2 Netzwerk-IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
-\.      Die IP-Adresse kann entsprechend den Benutzereinstellungen geändert werden.
+   - Die IP-Adresse kann entsprechend den Benutzereinstellungen geändert werden.
 {% endhint %}
 
 <br>
@@ -32,27 +32,27 @@ Die Hi6-Steuerung führt die industriellen Kommunikationseinstellungen mit dem P
 **4. Doppelklicken Sie auf das importierte Element, um die Einstellungen zu konfigurieren.**
 
 {% hint style="info" %}
-\.      „Doppelklicken“ Sie auf das importierte CIFX PCI (Abbildung).
+   - „Doppelklicken“ Sie auf das importierte CIFX PCI (Abbildung).
 
-\.      Settings -> Driver
+   - Settings -> Driver
 
-\.      Wählen Sie den netX-Treiber aus.
+   - Wählen Sie den netX-Treiber aus.
 {% endhint %}
 
 ![[Abbildung 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-\.     Setting -> Driver -> netX Driver -> TCP Connection 
+   - Setting -> Driver -> netX Driver -> TCP Connection 
 
-\.     IP-Adresse: Bitte geben Sie die allgemeine LAN-Port-IP-Adresse der angeschlossenen Steuerung ein.
+   - IP-Adresse: Bitte geben Sie die allgemeine LAN-Port-IP-Adresse der angeschlossenen Steuerung ein.
 {% endhint %}
 
 ![[Abbildung 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 {% hint style="info" %}
-\.      Gerätezuweisung -> Klicken Sie auf „Scannen“.
+   - Gerätezuweisung -> Klicken Sie auf „Scannen“.
 
-\.      Wählen Sie die Kommunikation aus (überprüfen Sie das Kanalprotokoll), klicken Sie dann auf „Übernehmen“ und „OK“.
+   - Wählen Sie die Kommunikation aus (überprüfen Sie das Kanalprotokoll), klicken Sie dann auf „Übernehmen“ und „OK“.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -67,7 +67,7 @@ Die Hi6-Steuerung führt die industriellen Kommunikationseinstellungen mit dem P
 
 
 {% hint style="info" %}
-\.      Klicken Sie mit der rechten Maustaste auf die CIFX PCI-Abbildung -> DOWNLOAD
+   - Klicken Sie mit der rechten Maustaste auf die CIFX PCI-Abbildung -> DOWNLOAD
 {% endhint %}
 
 ![[Abbildung 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)

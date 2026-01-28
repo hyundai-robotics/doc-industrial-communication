@@ -5,17 +5,17 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 <br>
 
 {% hint style="info" %}
-\.      **[DeviceNet-Slave-EDS-Datei herunterladen]**
+   **[DeviceNet-Slave-EDS-Datei herunterladen]**
 
-\.      Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
+   - Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Informationen zum Anschluss des DeviceNet-Steckers finden Sie im Folgenden.
+   - Informationen zum Anschluss des DeviceNet-Steckers finden Sie im Folgenden.
 
-\.      („[**1.2.2 Stecker**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)“)
+      („[**1.2.2 Stecker**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)“)
 {% endhint %}
 
 <br>
@@ -50,27 +50,27 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 **4. Beschreibung der einzelnen Elemente**
 
 {% hint style="info" %}
-\.      [Stationsadresse = MAC-ID]
+   [Stationsadresse = MAC-ID]
 
-\.      DeviceNet identifiziert Slaves über die Stationsadresse (MAC-ID). (1–63)
+   - DeviceNet identifiziert Slaves über die Stationsadresse (MAC-ID). (1–63)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Kommunikationsgeschwindigkeit (Baudrate)]
+   [Kommunikationsgeschwindigkeit (Baudrate)]
 
-\.      Sie können zwischen 125, 250 und 500 Kbit/s wählen.
+   - Sie können zwischen 125, 250 und 500 Kbit/s wählen.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Eingangsbytes]
+   [Eingangsbytes]
 
-\.      Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
+   - Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Ausgangsbytes]
+   [Ausgangsbytes]
 
-\.      Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
+   - Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
 {% endhint %}
 
 
@@ -87,5 +87,5 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP
 **6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

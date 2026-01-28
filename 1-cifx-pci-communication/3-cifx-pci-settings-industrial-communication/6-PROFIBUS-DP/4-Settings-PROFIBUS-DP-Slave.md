@@ -5,9 +5,9 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 <br>
 
 {% hint style="info" %}
-\.      **[PROFIBUS-DP-Slave-GSD-Datei herunterladen]**
+   **[PROFIBUS-DP-Slave-GSD-Datei herunterladen]**
 
-\.      Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
+   - Bitte beachten Sie „[**5. Beschreibungsdatei für Slave-Geräte**](../../../5-slave-config-file.md)“.
 {% endhint %}
 
 <br>
@@ -42,44 +42,44 @@ Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**]
 **4. Beschreibung der einzelnen Elemente**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      PROFIBUS-DP identifiziert Slaves über die Stationsadresse.
+   - PROFIBUS-DP identifiziert Slaves über die Stationsadresse.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Eingangsbytes]
+   [Eingangsbytes]
 
-\.      Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
+   - Eingangsbytes: Legen Sie die Datengröße für die Eingabe von Master -> Slave fest.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Ausgangsbytes]
+   [Ausgangsbytes]
 
-\.      Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
+   - Ausgangsbytes: Legen Sie die Datengröße für die Ausgabe von Slave -> Master fest.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [**Bei der Einstellung des Moduls im Master**]
+   [**Bei der Einstellung des Moduls im Master**]
 
-\.      Die Module müssen im Master so festgelegt werden, dass sie mit der eingestellten Byteanzahl übereinstimmen.
+   - Die Module müssen im Master so festgelegt werden, dass sie mit der eingestellten Byteanzahl übereinstimmen.
 
-\.      Reihenfolge: Master-Eingang (64–1) -> Master-Ausgang (64–1)
+   - Reihenfolge: Master-Eingang (64–1) -> Master-Ausgang (64–1)
 
-\.      Bsp.) Master Input 109 Bytes  <---  Slave Output 109 Bytes   
-\.          Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+   - Bsp.) Master Input 109 Bytes  <---  Slave Output 109 Bytes   
+         - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-\.      Bsp.) Master Output 120 Bytes  --->  Slave Input 120 Bytes   
-\.          Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
+   - Bsp.) Master Output 120 Bytes  --->  Slave Input 120 Bytes   
+         - Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
 
 
-\.      Bsp.) Master Input 12 Bytes  <---  Slave Output 12 Bytes   
-\.          Eingang 12 Bytes : 8 Byte + 4 Byte
+   - Bsp.) Master Input 12 Bytes  <---  Slave Output 12 Bytes   
+         - Eingang 12 Bytes : 8 Byte + 4 Byte
 
-\.      Bsp.) Master-Ausgang 200 Bytes  --->  Slave-Eingang 200 Bytes   
-\.          Ausgang 200 Bytes : 64 Byte + 64 Byte + 64 Byte + 8 Byte
+   - Bsp.) Master-Ausgang 200 Bytes  --->  Slave-Eingang 200 Bytes   
+         - Ausgang 200 Bytes : 64 Byte + 64 Byte + 64 Byte + 8 Byte
 
-\.      Das Eingangsmodul befindet sich vor dem Ausgangsmodul.
+   - Das Eingangsmodul befindet sich vor dem Ausgangsmodul.
 {% endhint %}
 
 ![[Abbildung 1.3.6.4-5 Slave-Einstellungen]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>)
@@ -98,5 +98,5 @@ Informationen zum Überprüfen des Status der industriellen Kommunikation auf TP
 **6. Weisen Sie nach Abschluss der Kommunikationseinstellungen einen E/A-Block zu.**
 
 {% hint style="info" %}
-\.      **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
+   **Nach Abschluss der Kommunikationseinstellungen können Sie Eingangs-/Ausgangssignale verwenden, indem Sie E/A-Blöcke zuweisen. Bitte beachten Sie („[**4. Zuweisung von E/A-Blöcken für die industrielle Kommunikation**](../../../4-io-block-allocation.md)“).**
 {% endhint %}

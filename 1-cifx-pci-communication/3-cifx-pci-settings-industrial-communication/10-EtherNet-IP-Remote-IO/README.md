@@ -7,9 +7,9 @@ In diesem Kapitel wird erläutert, wie mehrere von unserem Unternehmen ausgewäh
 <br>
 
 {% hint style="info" %}
-\.      Der EtherNet/IP-Scanner (Master) verwendet CIFX-50 Real Time Ethernet PCI.
+   - Der EtherNet/IP-Scanner (Master) verwendet CIFX-50 Real Time Ethernet PCI.
 
 
-\.      Das Remote-E/A-Modul verwendet den Crevis M9289 EtherNet/IP-Netzwerkadapter.
+   - Das Remote-E/A-Modul verwendet den Crevis M9289 EtherNet/IP-Netzwerkadapter.
 {% endhint %}
 

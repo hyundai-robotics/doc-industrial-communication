@@ -7,7 +7,7 @@
 **1. Downloadpfad für die neueste Version von SYCON.net**
 
 {% hint style="info" %}
-\.      Klicken Sie auf **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
+   - Klicken Sie auf **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
 {% endhint %}
 
 <br>
@@ -21,7 +21,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Wählen Sie die neueste Version (aktuelle Version) aus und laden Sie sie herunter.
+   - Wählen Sie die neueste Version (aktuelle Version) aus und laden Sie sie herunter.
 {% endhint %}
 
 <br>
@@ -35,7 +35,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Führen Sie die heruntergeladene Datei „SYCON.NET Setup.exe“ aus, um das Programm zu installieren.
+   - Führen Sie die heruntergeladene Datei „SYCON.NET Setup.exe“ aus, um das Programm zu installieren.
 {% endhint %}
 
 <br>
@@ -49,7 +49,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Führen Sie das installierte SYCON.NET-Programm aus, um zu überprüfen, ob die Installation erfolgreich abgeschlossen wurde.
+   - Führen Sie das installierte SYCON.NET-Programm aus, um zu überprüfen, ob die Installation erfolgreich abgeschlossen wurde.
 {% endhint %}
 
 <br>
@@ -62,19 +62,19 @@
 **2. Programm von der Hyundai Robotics-Website herunterladen**
 
 {% hint style="info" %}
-\.      [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Website für Industrieroboter -> Kundensupport -> Laden Sie „**Sycon.net**“ aus dem Bereich „Anwendungssoftware“ herunter.
+   [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Website für Industrieroboter -> Kundensupport -> Laden Sie „**Sycon.net**“ aus dem Bereich „Anwendungssoftware“ herunter.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Entpacken Sie die Datei „SYCON.NET Setup.exe“ und führen Sie sie aus, um das Programm zu installieren.
+   - Entpacken Sie die Datei „SYCON.NET Setup.exe“ und führen Sie sie aus, um das Programm zu installieren.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Das auf unserer Website bereitgestellte SYCON.net-Programm kann von der neuesten Version abweichen.
+   - Das auf unserer Website bereitgestellte SYCON.net-Programm kann von der neuesten Version abweichen.
 {% endhint %}
 
 <br>
