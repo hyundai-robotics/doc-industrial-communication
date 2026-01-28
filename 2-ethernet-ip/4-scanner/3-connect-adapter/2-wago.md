@@ -1,4 +1,4 @@
-## 2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO
+#### 2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO
 
 <br>
 
