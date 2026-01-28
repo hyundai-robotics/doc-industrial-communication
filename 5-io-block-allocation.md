@@ -1,4 +1,4 @@
-## 5. Lesen und Schreiben von industriellen Kommunikations-E/A
+# 5. Lesen und Schreiben von industriellen Kommunikations-E/A
 
 Dies ist die Methode zur Zuweisung von E/A-Blöcken für die Kommunikation mit der Steuerung nach Abschluss der Einstellungen für die industrielle Kommunikation.
 

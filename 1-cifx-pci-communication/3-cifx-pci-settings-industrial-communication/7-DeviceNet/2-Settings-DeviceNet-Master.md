@@ -1,4 +1,4 @@
-## 1.3.7.2 DeviceNet-Master-Einstellungen
+#### 1.3.7.2 DeviceNet-Master-Einstellungen
 
 Bitte befolgen Sie die Anweisungen unter „[**1.3.1 CIFX-PCI-Steckplatz-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und „[**1.3.2 SYCON.NET-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)“ und fahren Sie dann mit der folgenden Methode fort.
 

@@ -1,4 +1,4 @@
-## 1.3.7.4 DeviceNet-Slave-Einstellungen
+#### 1.3.7.4 DeviceNet-Slave-Einstellungen
 
 Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und fahren Sie dann mit der folgenden Methode fort.
 

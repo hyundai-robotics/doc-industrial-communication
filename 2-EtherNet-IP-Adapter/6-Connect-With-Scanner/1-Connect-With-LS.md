@@ -1,4 +1,4 @@
-## 2.6.1 Verbindung mit der LS ELECTRIC-SPS
+### 2.6.1 Verbindung mit der LS ELECTRIC-SPS
 
 In diesem Abschnitt wird erläutert, wie Sie die LS ELECTRIC-SPS mit Hi6 EtherNet/IP verbinden.  
 Die unten verwendete SPS und das Kommunikationsmodul sind wie folgt.  

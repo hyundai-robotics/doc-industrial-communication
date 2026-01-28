@@ -1,4 +1,4 @@
-﻿## 6. Beschreibungsdateien für Slave-Geräte
+﻿# 6. Beschreibungsdateien für Slave-Geräte
 
 Zur Konfiguration der Slave-Kommunikation im industriellen Kommunikations-Master wird eine Beschreibungsdatei für das Slave-Gerät für jedes Protokoll verwendet.
 

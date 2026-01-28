@@ -1,4 +1,4 @@
-## 1.3.10.1 EtherNet/IP – Standard-Einstellungen für die Remote-E/A-Verbindung
+#### 1.3.10.1 EtherNet/IP – Standard-Einstellungen für die Remote-E/A-Verbindung
 
 Befolgen Sie bitte die Schritte unter „[**1.3.1 CIFX-PCI-Slot-Einstellungen**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)“ und fahren Sie dann mit der folgenden Methode fort.
 

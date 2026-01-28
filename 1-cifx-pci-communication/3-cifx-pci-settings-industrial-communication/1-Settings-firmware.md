@@ -1,4 +1,4 @@
-﻿## 1.3.1 CIFX-PCI-Slot-Einstellungen.
+﻿### 1.3.1 CIFX-PCI-Slot-Einstellungen.
 
 Konfigurieren Sie die Kommunikationsmethode für den CIFX-PCI-Slot. Um die Einstellungen zu übernehmen, trennen Sie bitte die Stromversorgung der Steuerung und schalten Sie sie dann wieder ein.
 

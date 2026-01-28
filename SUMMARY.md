@@ -1,4 +1,4 @@
-﻿# Inhaltsverzeichnis
+﻿## Inhaltsverzeichnis
 
 * [Handbuch zu den Funktionen der Hi6-Robotersteuerung – Industrielle Kommunikation](README.md)
 
