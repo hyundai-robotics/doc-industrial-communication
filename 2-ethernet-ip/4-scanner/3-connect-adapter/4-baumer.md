@@ -1,4 +1,4 @@
-## 2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70
+#### 2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70
 
 <br>
 

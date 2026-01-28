@@ -1,4 +1,4 @@
-## 2.3.1 EtherNet/IP 어댑터 사양 (슬레이브)
+### 2.3.1 EtherNet/IP 어댑터 사양 (슬레이브)
 
 
 <style type="text/css">

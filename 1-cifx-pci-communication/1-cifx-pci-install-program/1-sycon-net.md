@@ -1,4 +1,4 @@
-﻿## 1.1.1 SYCON.net 설치
+﻿### 1.1.1 SYCON.net 설치
 
 "Sycon.net" 은 Hilscher 에서 제공하는 PCI 통신 카드의 Configuration을 구성하는 프로그램 입니다.
 
