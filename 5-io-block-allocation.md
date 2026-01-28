@@ -7,10 +7,10 @@ To use the industrial communication IO, the IO blocks should be assigned to the 
 <br>
 
 {% hint style="info" %}
-\.      For the IO reading/writing methods for fb blocks, please refer to the manual below.
+   - For the IO reading/writing methods for fb blocks, please refer to the manual below.
 
-\.   **\[Controller Operation Manual: General Input]**   
-\.   **\[Controller Operation Manual: General Output]**   
+      **\[Controller Operation Manual: General Input]**   
+      **\[Controller Operation Manual: General Output]**   
 {% endhint %}
 
 <br>

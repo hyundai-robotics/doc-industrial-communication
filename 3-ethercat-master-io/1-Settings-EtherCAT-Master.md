@@ -12,7 +12,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Check the selected controller LAN port number on the EtherCAT master settings screen. 
+   - Check the selected controller LAN port number on the EtherCAT master settings screen. 
 {% endhint %}
 
 **2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.**
@@ -25,11 +25,11 @@
 <br>
 
 {% hint style="info" %}
-\.      Please connect the controller and Remote IO using a LAN Cable.
+   - Please connect the controller and Remote IO using a LAN Cable.
 
-\.      Set all DIP switches of the Remote IO to OFF.
+   - Set all DIP switches of the Remote IO to OFF.
 
-\.      Connect both the Remote IO power and Field Power (24 V DC).
+   - Connect both the Remote IO power and Field Power (24 V DC).
 {% endhint %}
 
 <br>
@@ -43,9 +43,9 @@
 <br>
 
 {% hint style="info" %}
-\.      Set the communication cycle according to your usage environment.
+   - Set the communication cycle according to your usage environment.
 
-\.      Communication cycles of 1 ms, 2 ms, and 5 ms are supported.
+   - Communication cycles of 1 ms, 2 ms, and 5 ms are supported.
 {% endhint %}
 
 <br>
@@ -59,28 +59,28 @@
 <br>
 
 {% hint style="info" %}
-\.      Check the input and output byte counts.
+   - Check the input and output byte counts.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF: Digital 16 points  
-\.      M3534: Analog 4 points  
+   - Input Module  
+   - M12DF: Digital 16 points  
+   - M3534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Output Module  
-\.      M225F: Digital 16 points  
-\.      M226F: Digital 16 points  
-\.      M2768: Digital 8 points   
-\.      M4534: Analog 4 points  
+   - Output Module  
+   - M225F: Digital 16 points  
+   - M226F: Digital 16 points  
+   - M2768: Digital 8 points   
+   - M4534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
+   - Special Module  
+   - M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
@@ -100,7 +100,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Please reboot the controller after completing the settings.
+   - Please reboot the controller after completing the settings.
 {% endhint %}
 
 <br>
@@ -112,7 +112,7 @@
 <br>
 
 {% hint style="info" %}
-\.      Please check the communication connection status and check for any error.
+   - Please check the communication connection status and check for any error.
 {% endhint %}
 
 <br>
@@ -122,13 +122,13 @@
 <br>
 
 {% hint style="info" %}
-\.      Please check if communication is properly established using LEDs on the Remote IO Module.
+   - Please check if communication is properly established using LEDs on the Remote IO Module.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **If an error occurs during communication, refer to ("[**3.2 EtherCAT Master IO Error Handling**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)").**
+   **If an error occurs during communication, refer to ("[**3.2 EtherCAT Master IO Error Handling**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)").**
 {% endhint %}
 
 <br>
@@ -136,6 +136,6 @@
 **7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../4-io-block-allocation.md)").**
 {% endhint %}
 

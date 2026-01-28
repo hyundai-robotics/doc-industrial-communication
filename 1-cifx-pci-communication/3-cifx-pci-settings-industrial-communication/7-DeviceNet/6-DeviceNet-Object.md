@@ -32,15 +32,15 @@ The DeviceNet master can access an object of a specific slave through a explicit
 <br>
 
 {% hint style="info" %}
-\.      EX) Object of Crevis GN-9212 (The corresponding information can be found in the Crevis manual.)
+   - EX) Object of Crevis GN-9212 (The corresponding information can be found in the Crevis manual.)
 
-\.      Reading the vendor ID value of the identity object (class code 0x01)
+   - Reading the vendor ID value of the identity object (class code 0x01)
 
-\.      Instance : 1
+   - Instance : 1
 
-\.      Attribute ID : 1
+   - Attribute ID : 1
 
-\.      Permission: Get (Read only possible)
+   - Permission: Get (Read only possible)
 {% endhint %}
 
 
@@ -54,15 +54,15 @@ Each Object, Instance, and Attribute inside has different access permissions.
 <br>
 
 {% hint style="info" %}
-\.      Access permissions
+   - Access permissions
 
-\.      Get: Read permission
+   - Get: Read permission
 
-\.      Set: Write permission 
+   - Set: Write permission 
 
-\.      Attribute Single: Can access only one attribute item at a time.
+   - Attribute Single: Can access only one attribute item at a time.
 
-\.      Attribute All: Can access all attributes in Instance at once.
+   - Attribute All: Can access all attributes in Instance at once.
 {% endhint %}
 
 <br>

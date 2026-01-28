@@ -5,9 +5,9 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="info" %}
-\.      **[EtherNet/IP Adapter EDS File Download]**
+   **[EtherNet/IP Adapter EDS File Download]**
 
-\.      Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
 {% endhint %}
 
 <br>
@@ -42,64 +42,64 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **4. Description of each item**
 
 {% hint style="info" %}
-\.      [IP Setting]
+   [IP Setting]
 
-\.      Fixed IP: User sets the IP address, subnet mask, and gateway information.
+   - Fixed IP: User sets the IP address, subnet mask, and gateway information.
 
-\.      Dynamic Allocation (DHCP): An IP address is assigned from the DHCP server.
+   - Dynamic Allocation (DHCP): An IP address is assigned from the DHCP server.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Input Upon Communication Error (Action in Bus Error)]
+   [Input Upon Communication Error (Action in Bus Error)]
 
-\.      Clear: Initializes all inputs to 0 when a communication error occurs.
+   - Clear: Initializes all inputs to 0 when a communication error occurs.
 
-\.      Hold: Maintains the last valid input value when a communication error occurs.
+   - Hold: Maintains the last valid input value when a communication error occurs.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Communication Error Allowable Time (Error Allowed Time)]
+   [Communication Error Allowable Time (Error Allowed Time)]
 
-\.      If a communication error persists for the specified allowed time, a fieldbus error signal and alarm are output.
+   - If a communication error persists for the specified allowed time, a fieldbus error signal and alarm are output.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Input Byte Count (Input Byte)]
+   [Input Byte Count (Input Byte)]
 
-\.      Input Byte Count: Sets the size of the data input from the master -> slave.
+   - Input Byte Count: Sets the size of the data input from the master -> slave.
 
-\.      O -> T: Originator(Master) -> Target (Slave)
+   - O -> T: Originator(Master) -> Target (Slave)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Output Byte Count (Output Byte)]
+   [Output Byte Count (Output Byte)]
 
-\.      Output Byte Count: Sets the size of the data output from the slave -> master.
+   - Output Byte Count: Sets the size of the data output from the slave -> master.
 
-\.      T -> O: Target (Slave) -> Originator (Master)
+   - T -> O: Target (Slave) -> Originator (Master)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Run / Idle Header]
+   [Run / Idle Header]
 
-\.      The CIFX-50 RE EtherNet/IP Adapter applied to the controller uses 32-bit Run/Idle header when exchanging IO with the scanner (default).
+   - The CIFX-50 RE EtherNet/IP Adapter applied to the controller uses 32-bit Run/Idle header when exchanging IO with the scanner (default).
 
-\.      Please set whether to use the input and output 32-bit Run/Idle Header appropriately according to the scanner specifications.
+   - Please set whether to use the input and output 32-bit Run/Idle Header appropriately according to the scanner specifications.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP supports the Quick Connect function.
+   - EtherNet/IP supports the Quick Connect function.
 
-\.        If the Quick Connect function is required, please set the EtherNet/IP Adapter using Sycon.net.
+   - If the Quick Connect function is required, please set the EtherNet/IP Adapter using Sycon.net.
 
-\.        (1) Products that support the Quick Connection function for the master and slaves are required  
-\.        (2) Quick Connect cannot be used when using Auto Negotiation  
-\.        (3) Quick Connect cannot be used when using Auto MDI-X  
-\.        (4) 100 Mbit/s, Full Duplex required  
+      (1) Products that support the Quick Connection function for the master and slaves are required  
+      (2) Quick Connect cannot be used when using Auto Negotiation  
+      (3) Quick Connect cannot be used when using Auto MDI-X  
+      (4) 100 Mbit/s, Full Duplex required  
 {% endhint %}
 
 <br>
@@ -115,5 +115,5 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

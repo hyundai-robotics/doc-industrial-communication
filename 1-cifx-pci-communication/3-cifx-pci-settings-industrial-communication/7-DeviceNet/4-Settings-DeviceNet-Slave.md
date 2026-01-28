@@ -5,17 +5,17 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="info" %}
-\.      **[DeviceNet Slave EDS File Download]**
+   **[DeviceNet Slave EDS File Download]**
 
-\.      Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)."
+   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)."
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      For DeviceNet connector connection, please refer to the following.
+   - For DeviceNet connector connection, please refer to the following.
 
-\.      ("[**1.2.2 Connector**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[**1.2.2 Connector**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -50,27 +50,27 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **4. Description of each item**
 
 {% hint style="info" %}
-\.      [Station Address = Mac ID]
+   [Station Address = Mac ID]
 
-\.      The DeviceNet identifies a slave through the station address (MAC ID) (1–63).
+   - The DeviceNet identifies a slave through the station address (MAC ID) (1–63).
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Communication Speed (Baudrate)]
+   [Communication Speed (Baudrate)]
 
-\.      You can select among 125, 250, and 500 Kbit/s.
+   - You can select among 125, 250, and 500 Kbit/s.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Input Byte Count (Input Byte)]
+   [Input Byte Count (Input Byte)]
 
-\.      Input Byte Count: Sets the size of the data input from the master -> slave.
+   - Input Byte Count: Sets the size of the data input from the master -> slave.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Output Byte Count (Output Byte)]
+   [Output Byte Count (Output Byte)]
 
-\.      Output Byte Count: Sets the size of the data output from the slave -> master.
+   - Output Byte Count: Sets the size of the data output from the slave -> master.
 {% endhint %}
 
 
@@ -87,5 +87,5 @@ For the procedure to check the industrial communication status on the TP, please
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

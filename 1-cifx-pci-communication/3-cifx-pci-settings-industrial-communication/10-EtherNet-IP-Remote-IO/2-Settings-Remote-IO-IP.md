@@ -5,9 +5,9 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 <br>
 
 {% hint style="info" %}
-\.      The factory default IP of the Crevis M9289 Remote IO is 192.168.100.99.
+   - The factory default IP of the Crevis M9289 Remote IO is 192.168.100.99.
 
-\.      If you do not know the Remote IO IP or need to change it, please follow the steps below.
+   - If you do not know the Remote IO IP or need to change it, please follow the steps below.
 {% endhint %}
 
 <br>
@@ -34,7 +34,7 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 <br>
 
 {% hint style="info" %}
-\.      With Start BootP being pressed, disconnect and reapply power to the M9289 module to reboot it.
+   - With Start BootP being pressed, disconnect and reapply power to the M9289 module to reboot it.
 {% endhint %}
 
 ![[Figure 1.3.10.2-5 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_5.png>)  
@@ -58,7 +58,7 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 **6. After completing the IP setting, turn all DIP switches of the adapter to OFF and reboot the device.**
 
 {% hint style="info" %}
-\.      Be sure to check the DIP switch status and whether the adapter is rebooted.
+   - Be sure to check the DIP switch status and whether the adapter is rebooted.
 {% endhint %}
 
 ![[Figure 1.3.10.2-9 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_9.png>) 
@@ -74,5 +74,5 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 **8. If the IP address has been changed successfully, proceed with settings.**
 
 {% hint style="info" %}
-\.      Please proceed with the settings according to the "[**1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" procedure.
+   - Please proceed with the settings according to the "[**1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" procedure.
 {% endhint %}

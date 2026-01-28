@@ -5,9 +5,9 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="info" %}
-\.      For CC-Link connector connection, please refer to the following.
+   - For CC-Link connector connection, please refer to the following.
 
-\.      ("[**1.2.2 Connector**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[**1.2.2 Connector**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -42,51 +42,51 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **4. Description of each item**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      The CC-Link identifies the slave through the Station Address (1–64).
+   - The CC-Link identifies the slave through the Station Address (1–64).
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Communication Speed (Baudrate)]
+   [Communication Speed (Baudrate)]
 
-\.      You can select from 156, 625, 2500, 5000, and 10000 Kbit/s.
+   - You can select from 156, 625, 2500, 5000, and 10000 Kbit/s.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [CC-Link Version]
+   [CC-Link Version]
 
-\.      Version 1: IO Station available, Extension Cycle not available
+   - Version 1: IO Station available, Extension Cycle not available
 
-\.      Version 2: IO Station not available, Extension Cycle available
+   - Version 2: IO Station not available, Extension Cycle available
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Occupied Station Count]
+   [Occupied Station Count]
 
-\.      IO Station: Occupies 1
+   - IO Station: Occupies 1
 
-\.      Remote Device: 1–4 selectable
+   - Remote Device: 1–4 selectable
 
-\.      The size of the assigned IO byte area varies depending on the number of stations occupied.
+   - The size of the assigned IO byte area varies depending on the number of stations occupied.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Extension Cycle]
+   [Extension Cycle]
 
-\.      Available in Version 2
+   - Available in Version 2
 
-\.      Remote Device: You can select from Single (1x), Double (2x), Quadruple (4x), and Octuple (8x).
+   - Remote Device: You can select from Single (1x), Double (2x), Quadruple (4x), and Octuple (8x).
 
-\.      The size of the assigned IO byte area varies depending on the Extension Cycle.
+   - The size of the assigned IO byte area varies depending on the Extension Cycle.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **For the IO Byte area, please refer to the link below.**
+   **For the IO Byte area, please refer to the link below.**
 
-\.      **(["**1.3.8.1 CC-Link Slave Specifications**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md))**
+   **(["**1.3.8.1 CC-Link Slave Specifications**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md))**
 {% endhint %}
 
 <br>
@@ -100,5 +100,5 @@ For the procedure to check the industrial communication status on the TP, please
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

@@ -15,11 +15,11 @@ You can enter the screens by touching **\[Service > 19: Industrial Communication
 <br>
 
 {% hint style="info" %}
-\.      Using the **\[Restart]** button, you can restart the industrial communication of the PCI communication card.
+   - Using the **\[Restart]** button, you can restart the industrial communication of the PCI communication card.
 
-\.      Please check the status of the slot, firmware, and device.
+   - Please check the status of the slot, firmware, and device.
 
-\.      For the master, check whether the number of the configured and active slaves matches the number of configured slaves.
+   - For the master, check whether the number of the configured and active slaves matches the number of configured slaves.
 {% endhint %}
 
 <br>
@@ -29,18 +29,18 @@ You can enter the screens by touching **\[Service > 19: Industrial Communication
 <br>
 
 {% hint style="info" %}
-\.      [Status Information]   
-\.       Communication: Communication link established and I/O data exchanging   
-\.       Run: Communication card (PCI) is operating   
-\.       Ready: Communication is in standby state   
-\.       Error: Communication error state   
+   [Status Information]   
+      - Communication: Communication link established and I/O data exchanging   
+      - Run: Communication card (PCI) is operating   
+      - Ready: Communication is in standby state   
+      - Error: Communication error state   
 
-\.       Communication Error: Error code occurred during communication   
-\.       Error Count: Accumulated number of communication errors   
-\.       Active Slaves: Number of slaves currently connected and exchanging I/O data   
-\.       Configured Slaves: Number of slaves configured for communication   
-\.       Diag Slave: Number of slaves under communication diagnostics   
-\.       Watchdog Time (ms): Timeout value for monitoring communication program activity   
+      - Communication Error: Error code occurred during communication   
+      - Error Count: Accumulated number of communication errors   
+      - Active Slaves: Number of slaves currently connected and exchanging I/O data   
+      - Configured Slaves: Number of slaves configured for communication   
+      - Diag Slave: Number of slaves under communication diagnostics   
+      - Watchdog Time (ms): Timeout value for monitoring communication program activity   
 {% endhint %}
 
 <br>
@@ -56,15 +56,15 @@ Click the Node Statue button at the bottom of the monitoring screen to monitor t
 ![[그림 1.4-2 Industrial Communication Monitoring]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_2.png>)
 
 {% hint style="info" %}
-\.      [Node Status Information]   
-\.       Green: Node currently connected and exchanging I/O data   
-\.       Red: Node configured but not connected   
+   [Node Status Information]   
+      - Green: Node currently connected and exchanging I/O data   
+      - Red: Node configured but not connected   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      In the case of DeviceNet Master, you can monitor by scanning the node information list
+   - In the case of DeviceNet Master, you can monitor by scanning the node information list
 {% endhint %}
 
 <br>

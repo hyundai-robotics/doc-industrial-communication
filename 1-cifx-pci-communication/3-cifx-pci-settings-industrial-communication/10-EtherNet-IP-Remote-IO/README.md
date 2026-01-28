@@ -7,9 +7,9 @@ This chapter explains how to connect several standard Remote IO modules selected
 <br>
 
 {% hint style="info" %}
-\.      The EtherNet/IP scanner (master) uses the CIFX-50 real time Ethernet PCI.
+   - The EtherNet/IP scanner (master) uses the CIFX-50 real time Ethernet PCI.
 
 
-\.      Remote IO module uses the M9289 EtherNet/IP network adapter from Crevis.
+   - Remote IO module uses the M9289 EtherNet/IP network adapter from Crevis.
 {% endhint %}
 

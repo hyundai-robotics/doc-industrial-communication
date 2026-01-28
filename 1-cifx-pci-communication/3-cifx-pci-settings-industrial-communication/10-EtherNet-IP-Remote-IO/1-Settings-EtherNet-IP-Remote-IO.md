@@ -25,21 +25,21 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="info" %}
-\.      Please connect the PCI and Remote IO using a LAN cable.
+   - Please connect the PCI and Remote IO using a LAN cable.
 
-\.      Set all DIP switches of the Remote IO to OFF.
+   - Set all DIP switches of the Remote IO to OFF.
 
-\.      Connect both the Remote IO power and Field Power (24 V DC).
+   - Connect both the Remote IO power and Field Power (24 V DC).
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      The factory default IP of the Crevis M9289 Remote IO is 192.168.100.99.
+   - The factory default IP of the Crevis M9289 Remote IO is 192.168.100.99.
 
-\.      The Remote IO IP should be set to 192.168.100.99 to enable communication connection.
+   - The Remote IO IP should be set to 192.168.100.99 to enable communication connection.
 
-\.      "[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
@@ -54,32 +54,32 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="info" %}
-\.      The IP is set as a fixed value.
+   - The IP is set as a fixed value.
 
-\.      Check the input and output byte counts.
+   - Check the input and output byte counts.
 
-\.      The selected input and output byte counts should be less than or equal to the IO byte counts of the card installed in the Remote IO slot.
+   - The selected input and output byte counts should be less than or equal to the IO byte counts of the card installed in the Remote IO slot.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF: Digital 16 points  
-\.      M3534: Analog 4 points  
+   - Input Module  
+   - M12DF: Digital 16 points  
+   - M3534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Output Module  
-\.      M225F: Digital 16 points  
-\.      M226F: Digital 16 points  
-\.      M2768: Digital 8 points   
-\.      M4534: Analog 4 points  
+   - Output Module  
+   - M225F: Digital 16 points  
+   - M226F: Digital 16 points  
+   - M2768: Digital 8 points   
+   - M4534: Analog 4 points  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F
+   - Special Module  
+   - M5112 : Conveyer I/F
 {% endhint %}
 
 <br>
@@ -91,7 +91,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 ![[Figure 1.3.10.1-8 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
-\.      Please reboot the controller after completing the settings.
+   - Please reboot the controller after completing the settings.
 {% endhint %}
 
 <br>
@@ -105,11 +105,11 @@ For the procedure to check the industrial communication status on the TP, refer 
 ![[Figure 1.3.10.1-10 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>)
 
 {% hint style="info" %}
-\.      If communication is not connected, you should check the Remote IO IP.
+   - If communication is not connected, you should check the Remote IO IP.
 
-\.      Please follow the steps below. (If not 192.168.100.99)
+   - Please follow the steps below. (If not 192.168.100.99)
 
-\.      "[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 ![[Figure 1.3.10.1-11 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
@@ -121,5 +121,5 @@ For the procedure to check the industrial communication status on the TP, refer 
 **7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

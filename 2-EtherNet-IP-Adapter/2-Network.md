@@ -25,9 +25,9 @@ Select a LAN port to connect EtherNet/IP communication and then check the settin
 <br>
 
 {% hint style="info" %}
-\.      The subnet portion of each IP address of LAN1/LAN2/LAN3 should be set differently.
+   - The subnet portion of each IP address of LAN1/LAN2/LAN3 should be set differently.
 
-\.      After changing the settings, reboot the robot controller.
+   - After changing the settings, reboot the robot controller.
 {% endhint %}
 
 <br>

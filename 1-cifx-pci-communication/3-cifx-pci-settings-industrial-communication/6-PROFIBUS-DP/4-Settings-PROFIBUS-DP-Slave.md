@@ -5,9 +5,9 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="info" %}
-\.      **[PROFIBUS-DP Slave GSD File Download]**
+   **[PROFIBUS-DP Slave GSD File Download]**
 
-\.      Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
 {% endhint %}
 
 <br>
@@ -42,44 +42,44 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **4. Description of each item**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      The PROFIBUS-DP identifies a slave through the station address.
+   - The PROFIBUS-DP identifies a slave through the station address.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Input Byte Count (Input Byte)]
+   [Input Byte Count (Input Byte)]
 
-\.      Input Byte Count: Sets the size of the data input from the master -> slave.
+   - Input Byte Count: Sets the size of the data input from the master -> slave.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Output Byte Count (Output Byte)]
+   [Output Byte Count (Output Byte)]
 
-\.      Output Byte Count: Sets the size of the data output from the slave -> master.
+   - Output Byte Count: Sets the size of the data output from the slave -> master.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [**When Setting a Module from the Master**]
+   [**When Setting a Module from the Master**]
 
-\.      Modules should be specified from the master to match the set byte count.
+   - Modules should be specified from the master to match the set byte count.
 
-\.      Order: Master Input (64–1) -> Master Output (64–1)
+   - Order: Master Input (64–1) -> Master Output (64–1)
 
-\.      EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
-\.          Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+   - EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
+         - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-\.      EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
-\.          Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
+   - EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
+         - Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
 
 
-\.      EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
-\.          Input 12 Bytes : 8Byte + 4Byte
+   - EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
+         - Input 12 Bytes : 8Byte + 4Byte
 
-\.      EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
-\.          Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
+   - EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
+         - Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
 
-\.      The input module is located before the output module.
+   - The input module is located before the output module.
 {% endhint %}
 
 ![[Figure 1.3.6.4-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>)
@@ -98,5 +98,5 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-\.      **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
 {% endhint %}

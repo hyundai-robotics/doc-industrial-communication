@@ -8,9 +8,9 @@
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-\.      DeviceNet termination resistor: 120 ohms
+   - DeviceNet termination resistor: 120 ohms
 
-\.      CC-Link termination resistor: 110 ohms
+   - CC-Link termination resistor: 110 ohms
 {% endhint %}
 
 <br>
