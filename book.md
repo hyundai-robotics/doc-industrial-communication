@@ -1,11 +1,11 @@
 ﻿# Hi7 제어기 기능설명서 - 산업용 통신
-## 1. CIFX PCI 통신
+# 1. CIFX PCI 통신
 
 CIFX PCI를 이용한 산업용 통신 매뉴얼입니다. 
 ## 1.1 CIFX PCI 프로그램 설치
 
 산업용 통신 관련 프로그램 설치 방법입니다.
-## 1.1.1 SYCON.net 설치
+### 1.1.1 SYCON.net 설치
 
 "Sycon.net" 은 Hilscher 에서 제공하는 PCI 통신 카드의 Configuration을 구성하는 프로그램 입니다.
 
@@ -14,7 +14,7 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 **1. SYCON.net 최신 버전 다운로드 경로**
 
 {% hint style="info" %}
-\.      **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net** 를 클릭합니다.
+   **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net** 를 클릭합니다.
 {% endhint %}
 
 <br>
@@ -28,7 +28,7 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 <br>
 
 {% hint style="info" %}
-\.      최신버전 (Current Release)을 선택하고 다운로드 합니다.
+   - 최신버전 (Current Release)을 선택하고 다운로드 합니다.
 {% endhint %}
 
 <br>
@@ -42,7 +42,7 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 <br>
 
 {% hint style="info" %}
-\.      다운로드한 SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
+   - 다운로드한 SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
 {% endhint %}
 
 <br>
@@ -56,7 +56,7 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 <br>
 
 {% hint style="info" %}
-\.      설치한 SYCON.NET 프로그램을 실행하여 정상적으로 설치가 완료되었는지 확인합니다.
+   - 설치한 SYCON.NET 프로그램을 실행하여 정상적으로 설치가 완료되었는지 확인합니다.
 {% endhint %}
 
 <br>
@@ -69,25 +69,25 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 **2. 현대 로보틱스 홈페이지에서 프로그램 다운로드**
 
 {% hint style="info" %}
-\.      [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Sycon.net**”을 다운로드 합니다.
+   [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Sycon.net**”을 다운로드 합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      압축 해제 -> SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
+   - 압축 해제 -> SYCON.NET  Setup.exe 파일을 실행하여 프로그램을 설치합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      당사 홈페이지에서 제공하는 SYCON.net 프로그램은 최신버전과 다를 수 있습니다.
+   - 당사 홈페이지에서 제공하는 SYCON.net 프로그램은 최신버전과 다를 수 있습니다.
 {% endhint %}
 
 <br>## 1.2 CIFX PCI 통신 카드 장착 및 설정
 
 산업용 통신을 사용하기 위해서는 PCI 통신 카드(hilscher 사)가 필요합니다. 필요한 통신에 맞추어서 통신 카드의 설정과 커넥터를 결선합니다.
-## 1.2.1 PCI 산업용 통신 카드
+### 1.2.1 PCI 산업용 통신 카드
 
 
 <br>
@@ -120,7 +120,7 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 **\[주의]**: Rotary Switch번호는 PCI 카드마다 다르게 설정하시기 바랍니다.
 {% endhint %}
 
-## 1.2.2 커넥터
+### 1.2.2 커넥터
 
 <br>
 
@@ -130,9 +130,9 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-\.      DeviceNet 종단 저항 : 120옴
+   - DeviceNet 종단 저항 : 120옴
 
-\.      CC-Link 종단 저항 : 110옴
+   - CC-Link 종단 저항 : 110옴
 {% endhint %}
 
 <br>
@@ -141,7 +141,7 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 **\[주의]**: 통신 케이블 전원과 IO 전원은 서로 분리하여 구성해 주십시오.
 {% endhint %}
 
-<br>## 1.2.3 LED 설명
+<br>### 1.2.3 LED 설명
 
 <br>
 
@@ -228,7 +228,7 @@ CIFX PCI를 이용한 산업용 통신 매뉴얼입니다.
 ## 1.3 CIFX PCI 통신 설정
 
 산업용 통신을 사용하기 위해 PCI 통신 카드 장착한 후, 티치 팬던트 및 Sycon.net프로그램을 이용하여 설정을 진행해 주십시오.
-## 1.3.1 CIFX PCI 슬롯 설정.
+### 1.3.1 CIFX PCI 슬롯 설정.
 
 CIFX PCI 슬롯의 통신 방식을 설정합니다. 설정 적용을 위해서는 제어기 전원을 차단한 후 다시 공급해주시기 바랍니다.
 
@@ -287,7 +287,7 @@ CIFX PCI 슬롯의 통신 방식을 설정합니다. 설정 적용을 위해서�
 {% hint style="warning" %}
 **\[주의]**: 슬롯 설정 후 제어기를 재부팅 할 때 설정값이 적용됩니다.
 {% endhint %}
-## 1.3.2 SYCON.NET 설정
+### 1.3.2 SYCON.NET 설정
 
 PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. (“[**1.1 Sycon.net 설치**](../../1-cifx-pci-install-program/1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
 
@@ -300,7 +300,7 @@ PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 
 ![[그림 1.3.2-2 네트워크 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
-\.      IP Address는 사용자 설정에 따라 변경 가능합니다.
+   - IP Address는 사용자 설정에 따라 변경 가능합니다.
 {% endhint %}
 
 <br>
@@ -321,27 +321,27 @@ PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 
 **4. 가져온 항목을 더블클릭하여 설정합니다.**
 
 {% hint style="info" %}
-\.      가져온 CIFX PCI (그림) “Double Click”
+   - 가져온 CIFX PCI (그림) “Double Click”
 
-\.      Settings -> Driver 
+   - Settings -> Driver 
 
-\.      netX Driver를 선택합니다.
+   - netX Driver를 선택합니다.
 {% endhint %}
 
 ![[그림 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-\.     Setting -> Driver -> netX Driver -> TCP Connection 
+   - Setting -> Driver -> netX Driver -> TCP Connection 
 
-\.     IP Address : 연결된 제어기의 범용 LAN Port IP 주소를 입력해 주십시오.
+   - IP Address : 연결된 제어기의 범용 LAN Port IP 주소를 입력해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 {% hint style="info" %}
-\.      Device Assignment -> Scan클릭
+   - Device Assignment -> Scan클릭
 
-\.      통신(Channel Protocol 확인)을 선택 후 “Apply” 이후 “OK”
+   - 통신(Channel Protocol 확인)을 선택 후 “Apply” 이후 “OK”
 {% endhint %}
 
 {% hint style="warning" %}
@@ -356,10 +356,10 @@ PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 
 
 
 {% hint style="info" %}
-\.      CIFX PCI 그림 우클릭 -> DOWNLOAD
+   - CIFX PCI 그림 우클릭 -> DOWNLOAD
 {% endhint %}
 
-![[그림 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)## 1.3.2.1 SYCON.NET 도움말
+![[그림 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)#### 1.3.2.1 SYCON.NET 도움말
 
 
 
@@ -375,7 +375,7 @@ PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 
 
 ![[그림 1.3.2.1-2 SYCON.net help]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/1-Help-SYCON/image_2.png>) 
 
-<br>## 1.3.3 EtherNet/IP
+<br>### 1.3.3 EtherNet/IP
 
 이 장에서는 EtherNet/IP Master(Scanner) 와 Slave(Adapter)의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -409,7 +409,7 @@ EtherNet/IP 는 통신 기능에 따라 아래와 같이 구분합니다.
 **Messaging Class**
    * 모든 Class 의 제품의 대해 Explicit 메세지 송수신이 가능한 제품들로 Real-Time I/O 데이터 송수신은 지원하지 않습니다.
    
-   * 예를 들면 프로그램 업로드 / 다운로드용 컴퓨터 인터페이스 카드, 네트워크 설정 Tool 등이 해당 될 수 있습니다.## 1.3.3.1 EtherNet/IP Scanner 사양
+   * 예를 들면 프로그램 업로드 / 다운로드용 컴퓨터 인터페이스 카드, 네트워크 설정 Tool 등이 해당 될 수 있습니다.#### 1.3.3.1 EtherNet/IP Scanner 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -542,14 +542,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.3.2 EtherNet/IP Scanner 설정
+#### 1.3.3.2 EtherNet/IP Scanner 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -565,7 +565,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -604,13 +604,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **7. EtherNet/IP 통신 연결을 위해 Apdapter(Slave) 의 IP Address를 설정합니다.**
 
 {% hint style="info" %}
-\.      Dip Switch 를 이용한 IP Address 설정
+   - Dip Switch 를 이용한 IP Address 설정
 {% endhint %}
 
 ![[그림 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>) 
 
 {% hint style="info" %}
-\.      BootpSvr.exe 을 이용한 IP Address 설정 방법
+   - BootpSvr.exe 을 이용한 IP Address 설정 방법
 {% endhint %}
 
 <br>
@@ -634,7 +634,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.3.2-12 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_12.png>)
 
 {% hint style="info" %}
-\.      Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
+   - Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
 {% endhint %}
 
 ![[그림 1.3.3.2-13 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_13.png>)
@@ -656,7 +656,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **12. IP 설정이 끝난 Adapter의 DIP Switch를 모두 OFF로 변경한 후 장치를 재부팅합니다.**
 
 {% hint style="info" %}
-\.      DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
+   - DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.3.2-17 Crevis DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_17.png>)
@@ -666,17 +666,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. Slave 장치의 EDS 파일을 등록합니다.**
 
 {% hint style="info" %}
-\.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
+   - Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
 
-\.      M9289 Adapter의 EDS 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
+   - M9289 Adapter의 EDS 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.3.2-18 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_18.png>)
 
 {% hint style="info" %}
-\.      다운로드한 EDS 파일을 Sycon.net 에 등록합니다.
+   - 다운로드한 EDS 파일을 Sycon.net 에 등록합니다.
 
-\.      EDS File 등록시 산업용 통신 Protocol (EtherNet/IP)를 확인해 주십시오.
+   - EDS File 등록시 산업용 통신 Protocol (EtherNet/IP)를 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.3.2-19 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_19.png>)![[그림 1.3.3.2-20 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_20.png>)
@@ -689,7 +689,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **14. Network Scan**
 
 {% hint style="info" %}
-\.      EtherNet/IP Scanner 는 Network Scan 기능을 지원하지 않습니다.
+   - EtherNet/IP Scanner 는 Network Scan 기능을 지원하지 않습니다.
 {% endhint %}
 
 <br>
@@ -697,17 +697,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **15. Slave(Adapter) 장치 Configuration**
 
 {% hint style="info" %}
-\.      동록한 Device를 끌어와 EtherNet/IP Master 버스 라인에 올려 놓습니다.
+   - 동록한 Device를 끌어와 EtherNet/IP Master 버스 라인에 올려 놓습니다.
 {% endhint %}
 
 ![[그림 1.3.3.2-23 Sycon.net Bus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-\.      해당 Device (Adapter)를 더블클릭하여 설정을 진행합니다.
+   - 해당 Device (Adapter)를 더블클릭하여 설정을 진행합니다.
 
-\.      해당 Device에 장착된 IO 장치에 알맞게 Input / Output Byte 수를 설정합니다.
+   - 해당 Device에 장착된 IO 장치에 알맞게 Input / Output Byte 수를 설정합니다.
 
-\.      이 예제에서는 아래와 같이 설정했습니다.
+   - 이 예제에서는 아래와 같이 설정했습니다.
 {% endhint %}
 
 <br>
@@ -715,13 +715,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.3.2-24 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        O -> T : Originator(Master) -> Target (Slave)
+   - O -> T : Originator(Master) -> Target (Slave)
 
-\.        Output : EtherNet/IP Scanner  -> M9289
+   - Output : EtherNet/IP Scanner  -> M9289
 
-\.        [Output Module]   
-\.         1. M225F (2Bytes)   
-\.         **=> 2Bytes**   
+   [Output Module]   
+      (1) M225F (2Bytes)   
+      **=> 2Bytes**   
 {% endhint %}
 
 <br>
@@ -729,19 +729,19 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.3.2-25 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-\.        T -> O : Target (Slave) -> Originator(Master)
+   - T -> O : Target (Slave) -> Originator(Master)
 
-\.        Input : M9289 -> EtherNet/IP Scanner
+   - Input : M9289 -> EtherNet/IP Scanner
 
-\.        [Input Module]   
-\.         1. M7001  (1Byte)   
-\.         2. M12DF  (2Bytes)   
-\.         **=> 3Bytes**
+   [Input Module]   
+      (1) M7001  (1Byte)   
+      (2) M12DF  (2Bytes)   
+      **=> 3Bytes**
 
 
-\.         1.M7002 (0Byte)
-\.         2.M12DF (2Bytes)
-\.         **=> 2Bytes**  
+      (1) M7002 (0Byte)
+      (2) M12DF (2Bytes)
+      **=> 2Bytes**  
 {% endhint %}
 
 <br>
@@ -750,58 +750,58 @@ td {border-color:gray;border-style:solid;border-width:1px;}
     
 
 {% hint style="info" %}
-\.        Master Device를 우클릭하여 Disconnect 합니다.
+   - Master Device를 우클릭하여 Disconnect 합니다.
 {% endhint %}
 
 ![[그림 1.3.3.2-26 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.        Master Device를 더블클릭합니다.
+   - Master Device를 더블클릭합니다.
 
-\.        Master Device의 IP Address를 설정합니다. 
+   - Master Device의 IP Address를 설정합니다. 
 {% endhint %}
 
 ![[그림 1.3.3.2-27 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-\.        Slave Device의 IP Address를 설정합니다. 
+   - Slave Device의 IP Address를 설정합니다. 
 {% endhint %}
 
 ![[그림 1.3.3.2-28 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-\.        Slave Device의 Scan Time을 설정합니다. 
+   - Slave Device의 Scan Time을 설정합니다. 
 
-\.        해당 값을 조절하여 적절한 통신 속도를 설정해 주십시오.
+   - 해당 값을 조절하여 적절한 통신 속도를 설정해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.3.2-29 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.        Address Table에서 Slave 장치의 설정을 확인해 주십시오.
+   - Address Table에서 Slave 장치의 설정을 확인해 주십시오.
 
-\.        Input / Output IO Byte 수와 시작 Address 를 확인해 주십시오.
+   - Input / Output IO Byte 수와 시작 Address 를 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.3.2-30 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP는 Quick Connect 기능을 지원합니다.
+   - EtherNet/IP는 Quick Connect 기능을 지원합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.        Quick Connect 기능 사용을 위해 아래 조건을 만족해야 합니다.
+   - Quick Connect 기능 사용을 위해 아래 조건을 만족해야 합니다.
 
-\.        (1) Master, Slave Quick Connect 지원 제품 필요  
-\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
-\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
-\.        (4) 100 Mbit/s, Full Duplex 사용 필요  
+      (1) Master, Slave Quick Connect 지원 제품 필요  
+      (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
+      (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
+      (4) 100 Mbit/s, Full Duplex 사용 필요  
 {% endhint %}
 
 {% hint style="info" %}
-\.        설정을 완료 후 Download를 진행해 주십시오.
+   - 설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.3.2-31 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
@@ -811,13 +811,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **17. 통신 상태 확인**
 
 {% hint style="info" %}
-\.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
+   - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
+   - Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.3.2-32 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_32.png>)
@@ -826,7 +826,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 
 {% hint style="info" %}
-\.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
+   - Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
@@ -836,8 +836,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **18. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.3.3 EtherNet/IP Adapter 사양
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.3.3 EtherNet/IP Adapter 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -954,16 +954,16 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.3.4 EtherNet/IP Adapter 설정
+#### 1.3.3.4 EtherNet/IP Adapter 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      **[EtherNet/IP Adapter EDS File 다운로드]**
+   **[EtherNet/IP Adapter EDS File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -999,64 +999,64 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **4. 각 항목 별 설명**
 
 {% hint style="info" %}
-\.      [IP 설정 (IP Setting)]
+   [IP 설정 (IP Setting)]
 
-\.      고정 IP : 사용자가 IP 주소, 서브넷 마스크, 게이트 웨이 정보를 설정합니다.
+   - 고정 IP : 사용자가 IP 주소, 서브넷 마스크, 게이트 웨이 정보를 설정합니다.
 
-\.      동적할당(DHCP) : DHCP 서버에서 IP 주소를 할당 받습니다.
+   - 동적할당(DHCP) : DHCP 서버에서 IP 주소를 할당 받습니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 에러시 입력 (Action in Bus Error)]
+   [통신 에러시 입력 (Action in Bus Error)]
 
-\.      Clear : 통신 에러 발생시 모든 입력을 0 으로 초기화 합니다.
+   - Clear : 통신 에러 발생시 모든 입력을 0 으로 초기화 합니다.
 
-\.      Hold : 통신 에러 발생시 마지막 유효 입력 값을 유지합니다.
+   - Hold : 통신 에러 발생시 마지막 유효 입력 값을 유지합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 에러 허용시간 (Error Allowed Time)]
+   [통신 에러 허용시간 (Error Allowed Time)]
 
-\.      지정한 허용 시간동안 통신에러가 지속되면 필드버스 이상 신호와 알람을 출력합니다.
+   - 지정한 허용 시간동안 통신에러가 지속되면 필드버스 이상 신호와 알람을 출력합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 
-\.      O -> T : Originator(Master) -> Target (Slave)
+   - O -> T : Originator(Master) -> Target (Slave)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 
-\.      T -> O : Target (Slave) -> Originator(Master)
+   - T -> O : Target (Slave) -> Originator(Master)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Run / Idle Header]
+   [Run / Idle Header]
 
-\.      제어기에 적용된 CIFX-50 RE EtherNet/IP Adapter 는 Scanner와 IO 교환 시 32Bit Run / Idle Header 를 사용합니다. (Default)
+   - 제어기에 적용된 CIFX-50 RE EtherNet/IP Adapter 는 Scanner와 IO 교환 시 32Bit Run / Idle Header 를 사용합니다. (Default)
 
-\.      Scanner 사양에 따라 입력 및 출력 32Bit Run / Idle Header 사용 여부를 적절히 설정하여 주십시오.
+   - Scanner 사양에 따라 입력 및 출력 32Bit Run / Idle Header 사용 여부를 적절히 설정하여 주십시오.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.        [Quick Connect]
+   [Quick Connect]
 
-\.        EtherNet/IP는 Quick Connect 기능을 지원합니다.
+   - EtherNet/IP는 Quick Connect 기능을 지원합니다.
 
-\.        Quick Connect 기능 사용이 필요한 경우 Sycon.net 을 이용하여 EtherNet/IP Adapter를 설정해 주십시오.
+   - Quick Connect 기능 사용이 필요한 경우 Sycon.net 을 이용하여 EtherNet/IP Adapter를 설정해 주십시오.
 
-\.        (1) Master, Slave Quick Connect 지원 제품 필요  
-\.        (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
-\.        (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
-\.        (4) 100 Mbit/s, Full Duplex 사용 필요  
+      (1) Master, Slave Quick Connect 지원 제품 필요  
+      (2) Auto Negotiation 사용시 Quick Connect 사용 불가  
+      (3) Auto MDI-X 사용시 Quick Connect 사용 불가  
+      (4) 100 Mbit/s, Full Duplex 사용 필요  
 {% endhint %}
 
 <br>
@@ -1072,8 +1072,8 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.3.5 EtherNet/IP 에러 조치
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.3.5 EtherNet/IP 에러 조치
 
 EthernNet/IP 설정 중 발생할 수 있는 주요 Error 를 해결하기 위한 방법입니다.
 
@@ -1088,9 +1088,9 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 **1. 통신 케이블 단선 에러**
 
 {% hint style="info" %}
-\.      LAN Cable 의 연결 상태를 확인해 주십시오.
+   - LAN Cable 의 연결 상태를 확인해 주십시오.
 
-\.      Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
+   - Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
@@ -1101,9 +1101,9 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 **2. IP Address 설정 Error**
 
 {% hint style="info" %}
-\.      Master - Slave Device 의 IP Address 를 확인해 주십시오.
+   - Master - Slave Device 의 IP Address 를 확인해 주십시오.
 
-\.      Adapter Device의 설정된 IP Address 와 Sycon.net 에서 입력한 값이 다른 경우 Error 가 발생합니다.
+   - Adapter Device의 설정된 IP Address 와 Sycon.net 에서 입력한 값이 다른 경우 Error 가 발생합니다.
 
 {% endhint %}
 
@@ -1112,7 +1112,7 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 ![[그림 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>) 
 
 
-## 1.3.4 PROFINET IO
+### 1.3.4 PROFINET IO
 
 이 장에서는 PROFINET IO Master(Controller) 와 Slave(Device)의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -1144,7 +1144,7 @@ PROFINET IO 는 PROFIBUS-DP와 산업용 이더넷으로부터 진보적으로 �
 
 **IO Supervisor Class**
    * 기존 PROFIBUS-DP 에서 Class 2 마스터(Master)에 해당되는 제품으로 네트워크 구성 및 진단을 목적으로 한 프로그래밍 장치, PC, HMI 등이 있습니다.
-## 1.3.4.1 PRFINET IO Controller 사양
+#### 1.3.4.1 PRFINET IO Controller 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1273,14 +1273,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.4.2 PROFINET IO Controller 설정
+#### 1.3.4.2 PROFINET IO Controller 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1296,7 +1296,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1333,11 +1333,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      DIP Switch 을 이용한 PROFINET IO Device 이름 설정 방법
+   - DIP Switch 을 이용한 PROFINET IO Device 이름 설정 방법
 
-\.      M9287-XX : Dip Switch 로 설정한 번호
+   - M9287-XX : Dip Switch 로 설정한 번호
 
-\.      이번 예제에서는 1번 Dip Switch를 이용해 이름을 M9287-01 로 설정하였습니다.
+   - 이번 예제에서는 1번 Dip Switch를 이용해 이름을 M9287-01 로 설정하였습니다.
 {% endhint %}
 
 <br>
@@ -1349,7 +1349,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.4.2-8 Crevis M9287 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-\.      DIP Switch 설정 후 장치를 재부팅 해주십시오.
+   - DIP Switch 설정 후 장치를 재부팅 해주십시오.
 {% endhint %}
 
 <br>
@@ -1357,17 +1357,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **8. Slave 장치의 GSDML 파일을 등록합니다.**
 
 {% hint style="info" %}
-\.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 GSDML 파일이 필요합니다.
+   - Sycon.net에 등록되지 않은 Device를 사용하기 위해 GSDML 파일이 필요합니다.
 
-\.      M9287 Device의 GSDML 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
+   - M9287 Device의 GSDML 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-9 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_9.png>)
 
 {% hint style="info" %}
-\.      다운로드한 GSDML 파일을 Sycon.net 에 등록합니다.
+   - 다운로드한 GSDML 파일을 Sycon.net 에 등록합니다.
 
-\.      GSDML File 등록시 산업용 통신 Protocol (PROFINET IO)를 확인해 주십시오.
+   - GSDML File 등록시 산업용 통신 Protocol (PROFINET IO)를 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.4.2-10 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_10.png>)![[그림 1.3.4.2-11 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_11.png>)
@@ -1381,23 +1381,23 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **9. Network Scan**
 
 {% hint style="info" %}
-\.      PROFINET IO Controller 는 Network Scan 기능을 지원합니다.
+   - PROFINET IO Controller 는 Network Scan 기능을 지원합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      PROFINET IO Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
+   - PROFINET IO Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_14.png>)
 
 {% hint style="warning" %}
-\.      GSDML 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
+   - GSDML 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-15 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-\.      정상적으로 GSDML 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
+   - 정상적으로 GSDML 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-16 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_16.png>)
@@ -1411,23 +1411,23 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **10. Slave(Device) 장치 Configuration**
 
 {% hint style="info" %}
-\.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
+   - Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-19 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-\.      Slave 장치를 더블클릭합니다.
+   - Slave 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-20 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-\.      PROFINET IO Slave(Device) 설정을 위해 M9287에 연결되어 있는 Slot을 추가합니다.
+   - PROFINET IO Slave(Device) 설정을 위해 M9287에 연결되어 있는 Slot을 추가합니다.
 
-\.      Slot 1 : M7001  
-\.      Slot 2 : M12DF  
-\.      Slot 3 : M225F  
+   - Slot 1 : M7001  
+   - Slot 2 : M12DF  
+   - Slot 3 : M225F  
 {% endhint %}
 
 ![[그림 1.3.4.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_21.png>)
@@ -1439,17 +1439,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **11. Master(Controller) 장치 Configuration**
 
 {% hint style="info" %}
-\.      Master 장치를 더블클릭합니다.
+   - Master 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-\.      Master 장치와 Slave 장치의 IP 주소를 설정해줍니다.
+   - Master 장치와 Slave 장치의 IP 주소를 설정해줍니다.
 
-\.      PROFINET IO Device의 Slave IP 주소는 Master 에서 설정합니다.
+   - PROFINET IO Device의 Slave IP 주소는 Master 에서 설정합니다.
 
-\.      IP 주소는 Master와 Slave가 같은 대역안에서 서로 중복되지 않도록 해주십시오.
+   - IP 주소는 Master와 Slave가 같은 대역안에서 서로 중복되지 않도록 해주십시오.
 {% endhint %}
 
 ![[그림 1.3.4.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_24.png>)
@@ -1457,25 +1457,25 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.4.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-\.      Master 장치에서 Slave 장치의 Slot 정보가 올바른지 확인해주십시오.
+   - Master 장치에서 Slave 장치의 Slot 정보가 올바른지 확인해주십시오.
 {% endhint %}
 
 ![[그림 1.3.4.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.      Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
+   - Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-\.      PROFINET IO의 IO 통신속도를 설정합니다.
+   - PROFINET IO의 IO 통신속도를 설정합니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-28 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-\.      설정을 완료 후 Download를 진행해 주십시오.
+   - 설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.4.2-29 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_29.png>)
@@ -1485,13 +1485,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **12. 통신 상태 확인**
 
 {% hint style="info" %}
-\.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
+   - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
+   - Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_30.png>)
@@ -1499,7 +1499,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.4.2-31 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_31.png>)
 
 {% hint style="info" %}
-\.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
+   - Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.4.2-32 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_32.png>)
@@ -1509,8 +1509,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.4.3 PROFINET IO Deivce 사양
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.4.3 PROFINET IO Deivce 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1623,16 +1623,16 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.4.4 PROFINET IO Device 설정
+#### 1.3.4.4 PROFINET IO Device 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      **[PROFINET IO Device GSDML File 다운로드]**
+   **[PROFINET IO Device GSDML File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1668,43 +1668,43 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **4. 각 항목 별 설명**
 
 {% hint style="info" %}
-\.      [Station Name]
+   [Station Name]
 
-\.      PROFINET IO는 Station Name을 통해 Slave를 식별합니다.
+   - PROFINET IO는 Station Name을 통해 Slave를 식별합니다.
 
-\.      Naming Rule
-\.       > PROFINET IO 로 연결된 Device들의 이름이 중복될 수 없습니다.  
-\.       > 최대 240자로 이름을 설정할 수 있습니다.  
-\.       > 특수 문자는 "." , "-" 를 사용할 수 있습니다.  
-\.       > 문자는 영어 소문자와 숫자를 사용할 수 있습니다.  
-\.       > 이름 시작과 끝은 영어 소문자 또는 숫자로 시작해야 합니다.  
+   - Naming Rule
+      - PROFINET IO 로 연결된 Device들의 이름이 중복될 수 없습니다.  
+      - 최대 240자로 이름을 설정할 수 있습니다.  
+      - 특수 문자는 "." , "-" 를 사용할 수 있습니다.  
+      - 문자는 영어 소문자와 숫자를 사용할 수 있습니다.  
+      - 이름 시작과 끝은 영어 소문자 또는 숫자로 시작해야 합니다.  
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      [**Master 에서 Slot 설정 시**]
+   [**Master 에서 Slot 설정 시**]
 
-\.      Master Input (32byte)  <--  Slave Output (32bytes)
+   - Master Input (32byte)  <--  Slave Output (32bytes)
 
-\.      Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
+   - Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
 
-\.      4, 8, 16, 32, 64 Bytes -> 각 Bytes 에 맞는 Slot 지정  
-\.      128, 256 Bytes -> 64 Bytes Slot 다수 지정 (2개, 4개)
+   - 4, 8, 16, 32, 64 Bytes -> 각 Bytes 에 맞는 Slot 지정  
+   - 128, 256 Bytes -> 64 Bytes Slot 다수 지정 (2개, 4개)
 
-\.      입력 Slot이 출력 Slot 보다 앞에 위치 합니다.
+   - 입력 Slot이 출력 Slot 보다 앞에 위치 합니다.
 {% endhint %}
 
 <br>
@@ -1725,8 +1725,8 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.4.5 PROFINET IO 에러 조치
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.4.5 PROFINET IO 에러 조치
 
 <br>
 
@@ -1734,7 +1734,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 
 
 
-## 1.3.5 EtherCAT
+### 1.3.5 EtherCAT
 
 이 장에서는 EtherCAT Master 와 Slave의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -1755,7 +1755,7 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 
 **EtherCAT Slave**
    * 기존 필드버스 슬레이브(Slave)에 해당되는 제품으로 EtherCAT Master 장치에 연결됩니다.
-## 1.3.5.1 EtherCAT Master 사양
+#### 1.3.5.1 EtherCAT Master 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1888,14 +1888,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.5.2 EtherCAT Master 설정
+#### 1.3.5.2 EtherCAT Master 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1911,7 +1911,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1950,7 +1950,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **7. Slave 장치의 Station Address**
 
 {% hint style="info" %}
-\.      EtherCAT Slave 장치의 Station Address 는 Master 에서 설정합니다.
+   - EtherCAT Slave 장치의 Station Address 는 Master 에서 설정합니다.
 {% endhint %}
 
 <br>
@@ -1958,17 +1958,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **8. Slave 장치의 XML 파일을 등록합니다.**
 
 {% hint style="info" %}
-\.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 XML 파일이 필요합니다.
+   - Sycon.net에 등록되지 않은 Device를 사용하기 위해 XML 파일이 필요합니다.
 
-\.      M9386 Device의 XML 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
+   - M9386 Device의 XML 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-8 Crevis XML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-\.      다운로드한 XML 파일을 Sycon.net 에 등록합니다.
+   - 다운로드한 XML 파일을 Sycon.net 에 등록합니다.
 
-\.      XML File 등록시 산업용 통신 Protocol (EtherCAT)를 확인해 주십시오.
+   - XML File 등록시 산업용 통신 Protocol (EtherCAT)를 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.5.2-9 Crevis XML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_9.png>)
@@ -1991,27 +1991,27 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **9. Network Scan**
 
 {% hint style="warning" %}
-\.      **EtherCAT 은 사용할 수 있는 Cable 결선과 Port 가 지정되어 있습니다.**
+   **EtherCAT 은 사용할 수 있는 Cable 결선과 Port 가 지정되어 있습니다.**
 
-\.      **원활한 통신 연결을 위해 (“[**1.3.5.5 EtherCAT 케이블 결선**](../5-EtherCAT/5-EtherCAT-Topology.md)”)을 반드시 확인해 주십시오.**
+   **원활한 통신 연결을 위해 (“[**1.3.5.5 EtherCAT 케이블 결선**](../5-EtherCAT/5-EtherCAT-Topology.md)”)을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
-\.      EtherCAT Master 는 Network Scan 기능을 지원합니다.
+   - EtherCAT Master 는 Network Scan 기능을 지원합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      EtherCAT Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
+   - EtherCAT Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-13 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_13.png>)
 
 {% hint style="warning" %}
-\.      XML 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
+   - XML 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      정상적으로 XML 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
+   - 정상적으로 XML 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_14.png>)
@@ -2021,23 +2021,23 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **10. Slave 장치 Configuration**
 
 {% hint style="info" %}
-\.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
+   - Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-15 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-\.      Slave 장치를 더블클릭합니다.
+   - Slave 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-16 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_16.png>)
 
 {% hint style="info" %}
-\.      EtherCAT Slave 설정을 위해 M9386에 연결되어 있는 Slot을 추가합니다.
+   - EtherCAT Slave 설정을 위해 M9386에 연결되어 있는 Slot을 추가합니다.
 
-\.      Slot 1 : M7001  
-\.      Slot 2 : M12DF  
-\.      Slot 3 : M225F  
+   - Slot 1 : M7001  
+   - Slot 2 : M12DF  
+   - Slot 3 : M225F  
 {% endhint %}
 
 ![[그림 1.3.5.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_17.png>)
@@ -2050,36 +2050,36 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **11. Master 장치 Configuration**
 
 {% hint style="info" %}
-\.      Master 장치를 더블클릭합니다.
+   - Master 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-19 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-\.      Synchronization : Freerun / DC(Distributed Clocks) 선택
+   - Synchronization : Freerun / DC(Distributed Clocks) 선택
 
-\.      Redundancy 사용 유무 (Distributed Clocks 과 함께 사용 불가)
+   - Redundancy 사용 유무 (Distributed Clocks 과 함께 사용 불가)
 
-\.      Bus Cycle Time : 최소 250us 지원 가능 (1ms 이상 권장)
+   - Bus Cycle Time : 최소 250us 지원 가능 (1ms 이상 권장)
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      각 Slave의 Station Address 를 설정할 수 있습니다.
+   - 각 Slave의 Station Address 를 설정할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-20 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-\.      Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
+   - Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-21 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_21.png>)
 
 
 {% hint style="info" %}
-\.      설정을 완료 후 Download를 진행해 주십시오.
+   - 설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.5.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_22.png>)
@@ -2089,13 +2089,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **12. 통신 상태 확인**
 
 {% hint style="info" %}
-\.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
+   - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
+   - Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-23 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_23.png>)
@@ -2103,7 +2103,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.5.2-24 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
+   - Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.5.2-25 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_25.png>)
@@ -2113,8 +2113,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.5.3 EtherCAT Slave 사양
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.5.3 EtherCAT Slave 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2227,18 +2227,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.5.4 EtherCAT Slave 설정
+#### 1.3.5.4 EtherCAT Slave 설정
 
 매뉴얼 준비중입니다.
 
 <br>
 
 {% hint style="info" %}
-\.      **[EtherCAT Slave ESI File 다운로드]**
+   **[EtherCAT Slave ESI File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
-## 1.3.5.5 EtherCAT 케이블 결선 (Topology)
+#### 1.3.5.5 EtherCAT 케이블 결선 (Topology)
 
 <br>
 
@@ -2247,21 +2247,21 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 **1. Ethernet Port**
 
 {% hint style="info" %}
-\.      EthreCAT Master와 Slave를 연결하는 경우 Port 0번을 사용해야 합니다.
+   - EthreCAT Master와 Slave를 연결하는 경우 Port 0번을 사용해야 합니다.
 {% endhint %}
 
 ![[그림 1.3.5.5-1 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_1.png>) 
 
 {% hint style="info" %}
-\.      Master에 Slave 가 1개 연결되는 경우
+   - Master에 Slave 가 1개 연결되는 경우
 {% endhint %}
 
 ![[그림 1.3.5.5-2 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_2.png>) 
 
 {% hint style="info" %}
-\.      Master에 Slave 가 2개 이상 연결되는 경우
+   - Master에 Slave 가 2개 이상 연결되는 경우
 
-\.      Slave Port 1번에서 다음 Slave Port 0번으로 연결합니다.
+   - Slave Port 1번에서 다음 Slave Port 0번으로 연결합니다.
 {% endhint %}
 
 ![[그림 1.3.5.5-3 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_3.png>) 
@@ -2271,9 +2271,9 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 **2. Redundancy**
 
 {% hint style="info" %}
-\.      Master에서 Redundancy 기능을 사용하는 경우 
+   - Master에서 Redundancy 기능을 사용하는 경우 
 
-\.      마지막 Slave의 Port 1번과 Master의 Port 1번을 연결하여 Ring 구조를 형성합니다.
+   - 마지막 Slave의 Port 1번과 Master의 Port 1번을 연결하여 Ring 구조를 형성합니다.
 {% endhint %}
 
 ![[그림 1.3.5.5-4 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_4.png>) 
@@ -2289,27 +2289,27 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 <br>
 
 {% hint style="info" %}
-\.      Network Scan 이 안되는 경우
+   - Network Scan 이 안되는 경우
 
-\.      Master에 연결된 Port와 Cable을 확인해 주십시오.
+   - Master에 연결된 Port와 Cable을 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.5.5-5 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_5.png>)
 
 {% hint style="info" %}
-\.      Topology Error (Configuration 에서 Error)
+   - Topology Error (Configuration 에서 Error)
 
-\.      Master와 Slave 간 Cable 결선을 확인해 주십시오.
+   - Master와 Slave 간 Cable 결선을 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.5.5-6 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_6.png>)
 
 {% hint style="info" %}
-\.      Topology Error 2 (Configuration 에서는 정상이나 진단시 Error)
+   - Topology Error 2 (Configuration 에서는 정상이나 진단시 Error)
 
-\.      Master와 Slave 간 Cable 결선을 확인해 주십시오.
+   - Master와 Slave 간 Cable 결선을 확인해 주십시오.
 
-\.      Slave와 Slave 간 Cable 결선을 확인해 주십시오.
+   - Slave와 Slave 간 Cable 결선을 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.5.5-7 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_7.png>)
@@ -2317,12 +2317,12 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 ![[그림 1.3.5.5-8 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_8.png>)
 
 {% hint style="info" %}
-\.      Mandatory Slave Missing Error
+   - Mandatory Slave Missing Error
 
-\.      Slave와 Slave 간 Cable 결선을 확인해 주십시오.
+   - Slave와 Slave 간 Cable 결선을 확인해 주십시오.
 {% endhint %}
 
-![[그림 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)## 1.3.6 PROFIBUS-DP
+![[그림 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)### 1.3.6 PROFIBUS-DP
 
 이 장에서는 PROFIBUS-DP Master 와 Slave의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -2347,7 +2347,7 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 1개의 필드버스 네트워크에는 1개의 마스터 (Master) 장치와 다수의 슬레이브(Slave) 장치가 연결됩니다.
 마스터 장치는 네트워크 전체를 검색 / 관리하고 슬레이브 장치들과 데이터를 교환합니다.
 
-일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.## 1.3.6.1 PROFIBUS-DP Master 사양
+일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.#### 1.3.6.1 PROFIBUS-DP Master 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2437,7 +2437,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.6.2 PROFIBUS-DP Master 설정
+#### 1.3.6.2 PROFIBUS-DP Master 설정
 
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
@@ -2445,7 +2445,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2461,7 +2461,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2502,16 +2502,16 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **7. Slave 장치의 설정**
 
 {% hint style="info" %}
-\.      PROFIBUS-DP Slave 장치의 Node 번호와 종단을 설정합니다.
+   - PROFIBUS-DP Slave 장치의 Node 번호와 종단을 설정합니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-8 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_8.png>) 
 
 
 {% hint style="info" %}
-\.      종단 : DIP Switch를 사용하여 종단 설정 (예제 : 종단 처리 ON)
+   - 종단 : DIP Switch를 사용하여 종단 설정 (예제 : 종단 처리 ON)
 
-\.      Node ID (Station Number) : DIP Switch를 사용하여 설정 (예제 : Node 3번)
+   - Node ID (Station Number) : DIP Switch를 사용하여 설정 (예제 : Node 3번)
 {% endhint %}
 
 <br>
@@ -2519,17 +2519,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **8. Slave 장치의 GSD 파일을 등록합니다.**
 
 {% hint style="info" %}
-\.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 GSD 파일이 필요합니다.
+   - Sycon.net에 등록되지 않은 Device를 사용하기 위해 GSD 파일이 필요합니다.
 
-\.      GN-9222 Device의 GSD 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
+   - GN-9222 Device의 GSD 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-9 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_9.png>)
 
 {% hint style="info" %}
-\.      다운로드한 GSD 파일을 Sycon.net 에 등록합니다.
+   - 다운로드한 GSD 파일을 Sycon.net 에 등록합니다.
 
-\.      GSD File 등록시 산업용 통신 Protocol (PROFIBUS-DP)를 확인해 주십시오.
+   - GSD File 등록시 산업용 통신 Protocol (PROFIBUS-DP)를 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.6.2-10 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_10.png>)
@@ -2547,28 +2547,28 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **9. Network Scan**
 
 {% hint style="warning" %}
-\.      **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
+   **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
 
-\.      **(1) 케이블 연결 여부**  
-\.      **(2) 종단 DIP Switch 사용 여부**  
+   **(1) 케이블 연결 여부**  
+   **(2) 종단 DIP Switch 사용 여부**  
 {% endhint %}
 
 {% hint style="info" %}
-\.      PROFIBUS-DP Master 는 Network Scan 기능을 지원합니다.
+   - PROFIBUS-DP Master 는 Network Scan 기능을 지원합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      PROFIBUS-DP Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
+   - PROFIBUS-DP Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-13 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_13.png>)
 
 {% hint style="warning" %}
-\.      GSD 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
+   - GSD 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      정상적으로 GSD 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
+   - 정상적으로 GSD 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_14.png>)
@@ -2578,25 +2578,25 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **10. Slave 장치 Configuration**
 
 {% hint style="info" %}
-\.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
+   - Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-15 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-\.      Slave 장치를 더블클릭합니다.
+   - Slave 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-16 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_16.png>)
 
 {% hint style="info" %}
-\.      PROFIBUS-DP Slave의 설정을 확인 합니다.
+   - PROFIBUS-DP Slave의 설정을 확인 합니다.
 
-\.      Slot 1 : GN-9222  
-\.      Slot 2 : GT-12DF (Input 2 Byte)  
-\.      Slot 3 : GT-227F (Output 2 Byte)  
-\.      Slot 4 : GT-3154 (Input 8 Byte)  
-\.      Slot 5 : GT-4254 (Output 8 Byte)  
+   - Slot 1 : GN-9222  
+   - Slot 2 : GT-12DF (Input 2 Byte)  
+   - Slot 3 : GT-227F (Output 2 Byte)  
+   - Slot 4 : GT-3154 (Input 8 Byte)  
+   - Slot 5 : GT-4254 (Output 8 Byte)  
 {% endhint %}
 
 ![[그림 1.3.6.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_17.png>)
@@ -2611,41 +2611,41 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **11. Master 장치 Configuration**
 
 {% hint style="info" %}
-\.      Master 장치를 더블클릭합니다.
+   - Master 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-19 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_19.png>)
 
 
 {% hint style="info" %}
-\.      PROFIBUS-DP 통신 속도를 설정합니다.
+   - PROFIBUS-DP 통신 속도를 설정합니다.
 
-\.      9.6 ~ 12000 Kbit/s 
+   - 9.6 ~ 12000 Kbit/s 
 {% endhint %}
 
 ![[그림 1.3.6.2-20 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-\.      Master 장치에서 Slave 장치의 Slot 정보가 올바른지 확인해주십시오.
+   - Master 장치에서 Slave 장치의 Slot 정보가 올바른지 확인해주십시오.
 {% endhint %}
 
 ![[그림 1.3.6.2-21 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_21.png>)
 
 {% hint style="info" %}
-\.      Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
+   - Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_22.png>)
 
 {% hint style="info" %}
-\.      Station Table 에서 각 장치가 활성 상태인지 확인합니다.
+   - Station Table 에서 각 장치가 활성 상태인지 확인합니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_23.png>)
 
 
 {% hint style="info" %}
-\.      설정을 완료 후 Download를 진행해 주십시오.
+   - 설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.6.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_24.png>)
@@ -2655,13 +2655,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **12. 통신 상태 확인**
 
 {% hint style="info" %}
-\.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
+   - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
+   - Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-25 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_25.png>)
@@ -2669,7 +2669,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.6.2-26 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-\.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
+   - Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.6.2-27 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_27.png>)
@@ -2679,9 +2679,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}
-## 1.3.6.3 PROFIBUS-DP Slave 사양
+#### 1.3.6.3 PROFIBUS-DP Slave 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2755,16 +2755,16 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.6.4 PROFIBUS-DP Slave 설정
+#### 1.3.6.4 PROFIBUS-DP Slave 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      **[PROFIBUS-DP Slave GSD File 다운로드]**
+   **[PROFIBUS-DP Slave GSD File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2800,44 +2800,44 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **4. 각 항목 별 설명**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      PROFIBUS-DP는 Station Address를 통해 Slave를 식별합니다.
+   - PROFIBUS-DP는 Station Address를 통해 Slave를 식별합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [**Master 에서 Module 설정 시**]
+   [**Master 에서 Module 설정 시**]
 
-\.      설정한 바이트 수와 일치하도록 Master에서 Module을 지정해 주어야합니다.
+   - 설정한 바이트 수와 일치하도록 Master에서 Module을 지정해 주어야합니다.
 
-\.      순서 : Master Input (64 ~ 1) -> Master Output (64 ~ 1)
+   - 순서 : Master Input (64 ~ 1) -> Master Output (64 ~ 1)
 
-\.      EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
-\.          Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+   - EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
+         - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-\.      EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
-\.          Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
+   - EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
+         - Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
 
 
-\.      EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
-\.          Input 12 Bytes : 8Byte + 4Byte
+   - EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
+         - Input 12 Bytes : 8Byte + 4Byte
 
-\.      EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
-\.          Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
+   - EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
+         - Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
 
-\.      입력 Module이 출력 Module 보다 앞에 위치합니다.
+   - 입력 Module이 출력 Module 보다 앞에 위치합니다.
 {% endhint %}
 
 ![[그림 1.3.6.4-5 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>) 
@@ -2856,13 +2856,13 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.6.5 PROFIBUS-DP 에러 조치
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.6.5 PROFIBUS-DP 에러 조치
 
 <br>
 
 "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
-## 1.3.7 DeviceNet
+### 1.3.7 DeviceNet
 
 이 장에서는 DeviceNet Master 와 Slave의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -2887,7 +2887,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 1개의 필드버스 네트워크에는 1개의 마스터 (Master) 장치와 다수의 슬레이브(Slave) 장치가 연결됩니다.
 마스터 장치는 네트워크 전체를 검색 / 관리하고 슬레이브 장치들과 데이터를 교환합니다.
 
-일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.## 1.3.7.1 DeviceNet Master 사양
+일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.#### 1.3.7.1 DeviceNet Master 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2977,22 +2977,22 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.7.2 DeviceNet Master 설정
+#### 1.3.7.2 DeviceNet Master 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      DeviceNet Connector 연결은 아래를 참고해 주십시오.
+   - DeviceNet Connector 연결은 아래를 참고해 주십시오.
 
-\.      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
 {% endhint %}
 
 <br>
@@ -3008,7 +3008,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -3033,7 +3033,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **5. 통신 속도를 설정합니다.**
 
 {% hint style="warning" %}
-\.      Master 와 Slave의 통신속도가 다르면 Network Scan이 정상적으로 이루어지지 않습니다.
+   - Master 와 Slave의 통신속도가 다르면 Network Scan이 정상적으로 이루어지지 않습니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>) 
@@ -3057,7 +3057,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **8. Slave 장치의 설정**
 
 {% hint style="info" %}
-\.      DeviceNet Slave 장치의 MAC ID와 통신속도, 종단저항 설정합니다.
+   - DeviceNet Slave 장치의 MAC ID와 통신속도, 종단저항 설정합니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>) 
@@ -3065,13 +3065,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.7.2-10 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_10.png>)
 
 {% hint style="info" %}
-\.      [예제 설정]
+   [예제 설정]
 
-\.      종단 저항 : Cable에 종단 저항 장착하여 사용 (종단 DIP Switch OFF)
+   - 종단 저항 : Cable에 종단 저항 장착하여 사용 (종단 DIP Switch OFF)
 
-\.      MAC ID (Station Number) : 4로 설정 (3번 DIP Switch만 ON)
+   - MAC ID (Station Number) : 4로 설정 (3번 DIP Switch만 ON)
 
-\.      통신 속도 (Baudrate) : Auto 로 설정 (7번, 8번 DIP Switch ON)
+   - 통신 속도 (Baudrate) : Auto 로 설정 (7번, 8번 DIP Switch ON)
 {% endhint %}
 
 <br>
@@ -3079,17 +3079,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **9. Slave 장치의 EDS 파일을 등록합니다.**
 
 {% hint style="info" %}
-\.      Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
+   - Sycon.net에 등록되지 않은 Device를 사용하기 위해 EDS 파일이 필요합니다.
 
-\.      NA-9211 Device의 EDS 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
+   - NA-9211 Device의 EDS 파일은 Crevis 홈페이지에서 다운로드 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-11 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_11.png>)
 
 {% hint style="info" %}
-\.      다운로드한 EDS 파일을 모두 Sycon.net 에 등록합니다.
+   - 다운로드한 EDS 파일을 모두 Sycon.net 에 등록합니다.
 
-\.      EDS File 등록시 산업용 통신 Protocol (DeviceNet)를 확인해 주십시오.
+   - EDS File 등록시 산업용 통신 Protocol (DeviceNet)를 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.7.2-12 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_12.png>)
@@ -3105,31 +3105,31 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **10. Network Scan**
 
 {% hint style="warning" %}
-\.      **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
+   **Network Scan 시 아래 사항을 반드시 확인해 주십시오.**
 
-\.      **(1) 케이블 연결 여부**  
-\.      **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**  
-\.      **(3) Master - Slave 통신 속도 설정 여부**  
+   **(1) 케이블 연결 여부**  
+   **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**  
+   **(3) Master - Slave 통신 속도 설정 여부**  
 
-\.      **원활한 통신 연결을 위해 (“[**1.3.7.5 DeviceNet ERROR 조치**](../7-DeviceNet/5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
+   **원활한 통신 연결을 위해 (“[**1.3.7.5 DeviceNet ERROR 조치**](../7-DeviceNet/5-Error-DeviceNet.md)”)을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
-\.      DeviceNet Master 는 Network Scan 기능을 지원합니다.
+   - DeviceNet Master 는 Network Scan 기능을 지원합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      DeviceNet Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
+   - DeviceNet Master 장치에서 우클릭 후 Network Scan을 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_14.png>)
 
 {% hint style="warning" %}
-\.      EDS 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
+   - EDS 파일이 등록되지 않은 경우 Network Scan을 하면 Slave 정보는 나타나지만 등록은 불가능합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      정상적으로 EDS 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
+   - 정상적으로 EDS 파일이 등록된 경우 Network Scan을 통해 Slave 장치를 추가할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-15 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_15.png>)
@@ -3141,13 +3141,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **11. Slave 장치 Configuration**
 
 {% hint style="info" %}
-\.      Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
+   - Slave 장치 Configuration을 위해 Master 장치의 Disconnect를 클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_17.png>)
 
 {% hint style="info" %}
-\.      Slave 장치를 더블클릭합니다.
+   - Slave 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-18 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_18.png>)
@@ -3156,17 +3156,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Slave 장치의 연결 타입을 설정합니다.
+   - Slave 장치의 연결 타입을 설정합니다.
 
-\.      DeviceNet 통신을 연결을 위한 메세지 전송 방식을 선택합니다.
+   - DeviceNet 통신을 연결을 위한 메세지 전송 방식을 선택합니다.
 
-\.      ** UCMM 미 체크시 UCMM Group 2 기본 값으로 설정됨**   
+   **UCMM 미 체크시 UCMM Group 2 기본 값으로 설정됨**   
 
-\.      UCMM GROUP 1 : IO Message   
-\.      UCMM GROUP 2 : Network 초기화 시 Master - Slave 연결 Message (기본 설정)   
-\.      UCMM GROUP 3 : Explicit Message   
+   - UCMM GROUP 1 : IO Message   
+   - UCMM GROUP 2 : Network 초기화 시 Master - Slave 연결 Message (기본 설정)   
+   - UCMM GROUP 3 : Explicit Message   
 
-\.      특정 Device의 경우 UCMM Group 3을 사용할 수 있으니 제품 사양서를 확인 후 진행하십시오.
+   - 특정 Device의 경우 UCMM Group 3을 사용할 수 있으니 제품 사양서를 확인 후 진행하십시오.
 {% endhint %}
 
 ![[그림 1.3.7.2-19 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_19.png>)
@@ -3174,7 +3174,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Crevis NA-9211 은 UCMM 미체크 후 진행합니다. (Group2 기본 값 사용)
+   - Crevis NA-9211 은 UCMM 미체크 후 진행합니다. (Group2 기본 값 사용)
 {% endhint %}
 
 ![[그림 1.3.7.2-20 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_20.png>)
@@ -3183,16 +3183,16 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 
 {% hint style="info" %}
-\.      DeviceNet Slave의 설정을 확인 합니다.
+   - DeviceNet Slave의 설정을 확인 합니다.
 
-\.      Output : ST-2318 (1 Byte)  
-\.      Input : ST-1218 (1 Byte)  
+   - Output : ST-2318 (1 Byte)  
+   - Input : ST-1218 (1 Byte)  
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      통신 방식 (Poll, Change of State, Cyclic, Bit-Strobe)에 따라 설정 필요  
+   - 통신 방식 (Poll, Change of State, Cyclic, Bit-Strobe)에 따라 설정 필요  
 {% endhint %}
 
 <br>
@@ -3202,22 +3202,22 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      [Production Inhibit Time]
+   [Production Inhibit Time]
 
-\.      슬레이브 장치의 IO 데이터 생성 주기 설정 (ms)  
-\.  
-\.      예시) 10ms  :  10ms 주기로 IO 데이터를 생성  
-\.      예시) 0ms   :  Slave가 가능한 가장 빠른 시간 안에 IO 데이터 생성  
+   - 슬레이브 장치의 IO 데이터 생성 주기 설정 (ms)  
 
-\.      주기가 짧을 수록 Slave 장치에 걸리는 부하가 커질 수 있습니다. (각 Slave 별 사양 확인 필요) 
+   - 예시) 10ms  :  10ms 주기로 IO 데이터를 생성  
+   - 예시) 0ms   :  Slave가 가능한 가장 빠른 시간 안에 IO 데이터 생성  
+
+   - 주기가 짧을 수록 Slave 장치에 걸리는 부하가 커질 수 있습니다. (각 Slave 별 사양 확인 필요) 
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      [Expected Packet Rate]
+   [Expected Packet Rate]
 
-\.      마스터와 슬레이브 간 IO 데이터 업데이트 시간 설정  
+   - 마스터와 슬레이브 간 IO 데이터 업데이트 시간 설정  
 {% endhint %}
 
 <br>
@@ -3231,33 +3231,33 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **12. Master 장치 Configuration**
 
 {% hint style="info" %}
-\.      Master 장치를 더블클릭합니다.
+   - Master 장치를 더블클릭합니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
 
 
 {% hint style="info" %}
-\.      DeviceNet 통신 속도를 설정합니다. (Slave 통신 속도와 동일하도록)
+   - DeviceNet 통신 속도를 설정합니다. (Slave 통신 속도와 동일하도록)
 {% endhint %}
 
 ![[그림 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-\.      Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
+   - Address Table에서 각 Slave Slot의 할당된 IO 및 시작 주소를 확인 합니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-\.      Quick Connect 기능 사용 유무를 설정합니다.
+   - Quick Connect 기능 사용 유무를 설정합니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
 
 
 {% hint style="info" %}
-\.      설정을 완료 후 Download를 진행해 주십시오.
+   - 설정을 완료 후 Download를 진행해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.7.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
@@ -3267,13 +3267,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 상태 확인**
 
 {% hint style="info" %}
-\.        Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
+   - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-\.        TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
-\.      Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
+   - Connected 된 Master 장치를 더블클릭하여 통신 상태를 확인 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-28 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_28.png>)
@@ -3281,7 +3281,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 ![[그림 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-\.        Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
+   - Sycon.net 의 Diagnosis 기능을 이용하여 통신 상태와 함게 IO 입출력 상태를 모니터링 할 수 있습니다.
 {% endhint %}
 
 ![[그림 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
@@ -3291,8 +3291,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **14. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.7.3 DeviceNet Slave 사양
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.7.3 DeviceNet Slave 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -3365,24 +3365,24 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>## 1.3.7.4 DeviceNet Slave 설정
+<br>#### 1.3.7.4 DeviceNet Slave 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      **[DeviceNet Slave EDS File 다운로드]**
+   **[DeviceNet Slave EDS File 다운로드]**
 
-\.      “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - “[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      DeviceNet Connector 연결은 아래를 참고해 주십시오.
+   - DeviceNet Connector 연결은 아래를 참고해 주십시오.
 
-\.      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
 {% endhint %}
 
 <br>
@@ -3418,27 +3418,27 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **4. 각 항목별 설명**
 
 {% hint style="info" %}
-\.      [Station Address = Mac ID]
+   [Station Address = Mac ID]
 
-\.      DeviceNet는 Station Address (MAC ID)을 통해 Slave를 식별합니다. (1 ~ 63)
+   - DeviceNet는 Station Address (MAC ID)을 통해 Slave를 식별합니다. (1 ~ 63)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 속도(Baudrate)]
+   [통신 속도(Baudrate)]
 
-\.      125, 250, 500 Kbit/s 중 선택 가능합니다.
+   - 125, 250, 500 Kbit/s 중 선택 가능합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [입력 바이트 수 (Input Byte)]
+   [입력 바이트 수 (Input Byte)]
 
-\.      입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
+   - 입력 바이트 수 : Master -> Slave 로 입력되는 데이터 크기를 설정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [출력 바이트 수 (Output Byte)]
+   [출력 바이트 수 (Output Byte)]
 
-\.      출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
+   - 출력 바이트 수 : Slave -> Master 로 출력하는 데이터 크기를 설정합니다.
 {% endhint %}
 
 
@@ -3455,8 +3455,8 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.7.5 DeviceNet 에러 조치
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.7.5 DeviceNet 에러 조치
 
 <br>
 
@@ -3467,21 +3467,21 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **1. DeviceNet 종단 저항**
 
 {% hint style="info" %}
-\.      DeviceNet Cable 연결 시 종단에는 저항을 추가해야합니다.
+   - DeviceNet Cable 연결 시 종단에는 저항을 추가해야합니다.
 
-\.      Network Scan이 안되는 경우 종단 저항을 확인해 주십시오.
+   - Network Scan이 안되는 경우 종단 저항을 확인해 주십시오.
 
-\.      DeviceNet 종단 저항 : 120옴
+   - DeviceNet 종단 저항 : 120옴
 {% endhint %}
 
 {% hint style="info" %}
-\.      아래 그림과 같이 CIFX-50 DN PCI가 DeviceNet의 종단인 경우 종단 저항을 추가해 주십시오.
+   - 아래 그림과 같이 CIFX-50 DN PCI가 DeviceNet의 종단인 경우 종단 저항을 추가해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.7.5-1 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
 
 {% hint style="info" %}
-\.      아래 그림과 같이 DeviceNet Remote IO 가 종단인 경우 종단 저항을 추가하거나 DIP Switch를 조작해 주십시오.
+   - 아래 그림과 같이 DeviceNet Remote IO 가 종단인 경우 종단 저항을 추가하거나 DIP Switch를 조작해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.7.5-2 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
@@ -3491,9 +3491,9 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **2. 통신 속도**
 
 {% hint style="info" %}
-\.      DeviceNet Master와 Slave 간 통신 속도가 다른 경우 Network Scan이 안될 수 있습니다.
+   - DeviceNet Master와 Slave 간 통신 속도가 다른 경우 Network Scan이 안될 수 있습니다.
 
-\.      Network Scan이 안되는 경우 통신 속도를 확인해 주십시오.
+   - Network Scan이 안되는 경우 통신 속도를 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
@@ -3503,12 +3503,12 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **3. DeviceNet ERROR**
 
 {% hint style="info" %}
-\.      DeviceNet Cable에 24V 전원 공급이 안되는 경우 아래와 같은 ERROR가 나타납니다.
+   - DeviceNet Cable에 24V 전원 공급이 안되는 경우 아래와 같은 ERROR가 나타납니다.
 
-\.      24V 전원 공급을 확인해 주십시오.
+   - 24V 전원 공급을 확인해 주십시오.
 {% endhint %}
 
-![[그림 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) ## 1.3.7.6 DeviceNet Object
+![[그림 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) #### 1.3.7.6 DeviceNet Object
 
 
 <br>
@@ -3542,15 +3542,15 @@ DeviceNet Master 에서 Explicit Message를 통해 특정 Slave의 Object 에 �
 <br>
 
 {% hint style="info" %}
-\.      EX) Crevis GN-9212 의 Object (해당 자료는 Crevis 매뉴얼에서 확인 하실 수 있습니다.)
+   - EX) Crevis GN-9212 의 Object (해당 자료는 Crevis 매뉴얼에서 확인 하실 수 있습니다.)
 
-\.      Identity Object (Class Code 0x01) 의 Vendor ID 값 읽기
+   - Identity Object (Class Code 0x01) 의 Vendor ID 값 읽기
 
-\.      Instance : 1
+   - Instance : 1
 
-\.      Attribute ID : 1
+   - Attribute ID : 1
 
-\.      권한 : Get (읽기만 가능)
+   - 권한 : Get (읽기만 가능)
 {% endhint %}
 
 
@@ -3564,18 +3564,18 @@ DeviceNet Master 에서 Explicit Message를 통해 특정 Slave의 Object 에 �
 <br>
 
 {% hint style="info" %}
-\.      접근 권한
+   - 접근 권한
 
-\.      Get : 읽기 권한
+   - Get : 읽기 권한
 
-\.      Set : 쓰기 권한 
+   - Set : 쓰기 권한 
 
-\.      Attribute Single : 한번에 1개의 Attribute 항목만 접근 가능
+   - Attribute Single : 한번에 1개의 Attribute 항목만 접근 가능
 
-\.      Attribute All : 한번에 Instance내의 모든 Attribute 접근 가능
+   - Attribute All : 한번에 Instance내의 모든 Attribute 접근 가능
 {% endhint %}
 
-<br>## 1.3.8 CC-Link
+<br>### 1.3.8 CC-Link
 
 이 장에서는 CC-Link Slave의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -3601,7 +3601,7 @@ DeviceNet Master 에서 Explicit Message를 통해 특정 Slave의 Object 에 �
 1개의 필드버스 네트워크에는 1개의 마스터 (Master) 장치와 다수의 슬레이브(Slave) 장치가 연결됩니다.
 마스터 장치는 네트워크 전체를 검색 / 관리하고 슬레이브 장치들과 데이터를 교환합니다.
 
-일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.## 1.3.8.1 CC-Link Slave 사양
+일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.#### 1.3.8.1 CC-Link Slave 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -3696,7 +3696,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 1
+   - CC-Link Version 1
 {% endhint %}
 
 <br>
@@ -3707,9 +3707,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Single
+   - Extension Cycle : Single
 {% endhint %}
 
 <br>
@@ -3719,9 +3719,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Double
+   - Extension Cycle : Double
 {% endhint %}
 
 <br>
@@ -3731,9 +3731,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Quadruple
+   - Extension Cycle : Quadruple
 {% endhint %}
 
 <br>
@@ -3743,25 +3743,25 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.        CC-Link Version 2
+   - CC-Link Version 2
 
-\.        Extension Cycle : Octuple
+   - Extension Cycle : Octuple
 {% endhint %}
 
 <br>
 
 ![[그림 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_5.png>)
 
-<br>## 1.3.8.2 CC-Link Slave 설정
+<br>#### 1.3.8.2 CC-Link Slave 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-\.      CC-Link Connector 연결은 아래를 참고해 주십시오.
+   - CC-Link Connector 연결은 아래를 참고해 주십시오.
 
-\.      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
 {% endhint %}
 
 <br>
@@ -3797,51 +3797,51 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **4. 각 항목별 설명**
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      CC-Link는 Station Address를 통해 Slave를 식별합니다. (1 ~ 64)
+   - CC-Link는 Station Address를 통해 Slave를 식별합니다. (1 ~ 64)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [통신 속도(Baudrate)]
+   [통신 속도(Baudrate)]
 
-\.      156, 625, 2500, 5000, 10000 Kbit/s  중 선택 가능합니다.
+   - 156, 625, 2500, 5000, 10000 Kbit/s  중 선택 가능합니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [CC-Link Version]
+   [CC-Link Version]
 
-\.      Version 1 : IO Station 사용 가능, Extension Cycle 사용 불가
+   - Version 1 : IO Station 사용 가능, Extension Cycle 사용 불가
 
-\.      Version 2 : IO Station 사용 불가, Extension Cycle 사용 가능
+   - Version 2 : IO Station 사용 불가, Extension Cycle 사용 가능
 {% endhint %}
 
 {% hint style="info" %}
-\.      [점유 Station 수]
+   [점유 Station 수]
 
-\.      IO Station : 1개 점유
+   - IO Station : 1개 점유
 
-\.      Remote Device : 1 ~ 4 개 선택 가능 
+   - Remote Device : 1 ~ 4 개 선택 가능 
 
-\.      점유하는 Station 수에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
+   - 점유하는 Station 수에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Extension Cycle]
+   [Extension Cycle]
 
-\.      Version 2에서 사용 가능
+   - Version 2에서 사용 가능
 
-\.      Remote Device : 1배(Single), 2배(Double), 4배(Quadruple), 8배(Octuple) 선택 가능 
+   - Remote Device : 1배(Single), 2배(Double), 4배(Quadruple), 8배(Octuple) 선택 가능 
 
-\.      Extension Cycle에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
+   - Extension Cycle에 따라 할당되는 IO Byte 영역의 크기가 달라집니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **IO Byte 영역에 대해서는 아래 링크를 참고해 주십시오.**
+   **IO Byte 영역에 대해서는 아래 링크를 참고해 주십시오.**
 
-\.      **(“[**1.3.8.1 CC-Link Slave 사양**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)”)**
+   **(“[**1.3.8.1 CC-Link Slave 사양**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)”)**
 {% endhint %}
 
 <br>
@@ -3855,8 +3855,8 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.8.3 CC-Link Slave 에러 조치
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.8.3 CC-Link Slave 에러 조치
 
 <br>
 
@@ -3867,15 +3867,15 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **1. CC-Link 종단 저항**
 
 {% hint style="info" %}
-\.      CC-Link Cable 연결 시 종단에는 저항을 추가해야합니다.
+   - CC-Link Cable 연결 시 종단에는 저항을 추가해야합니다.
 
-\.      통신 연결이 안되는 경우 종단 저항을 확인해 주십시오.
+   - 통신 연결이 안되는 경우 종단 저항을 확인해 주십시오.
 
-\.      CC-Link 종단 저항 : 110옴
+   - CC-Link 종단 저항 : 110옴
 {% endhint %}
 
 {% hint style="info" %}
-\.      아래 그림과 같이 CIFX-50 CC PCI가 CC-Link의 종단인 경우 종단 저항을 추가해 주십시오.
+   - 아래 그림과 같이 CIFX-50 CC PCI가 CC-Link의 종단인 경우 종단 저항을 추가해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.8.5-1 CC-Link 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>) 
@@ -3885,11 +3885,11 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **2. CC-Link ERROR**
 
 {% hint style="info" %}
-\.      통신 연결을 위해 CC-Link Cable에 24V 전원 공급이 필요합니다.
+   - 통신 연결을 위해 CC-Link Cable에 24V 전원 공급이 필요합니다.
 
-\.      통신 연결이 안되는 경우 24V 전원 공급을 확인해 주십시오.
+   - 통신 연결이 안되는 경우 24V 전원 공급을 확인해 주십시오.
 {% endhint %}
-## 1.3.9 CC-Link IE Field
+### 1.3.9 CC-Link IE Field
 
 이 장에서는 CC-Link IE Field Slave의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -3916,7 +3916,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 마스터 장치는 네트워크 전체를 검색 / 관리하고 슬레이브 장치들과 데이터를 교환합니다.
 
 일반적으로 PLC는 마스터 장치이고, 그 외에 센서나 버튼, 제어기등이 슬레이브 장치로 구성될 수 있습니다.
-## 1.3.9.1 CC-Link IE Field Slave 사양
+#### 1.3.9.1 CC-Link IE Field Slave 사양
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -4036,7 +4036,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 1.3.9.2 CC-Link IE Field Slave 설정
+#### 1.3.9.2 CC-Link IE Field Slave 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
@@ -4074,51 +4074,51 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **4. 각 항목별 설명**
 
 {% hint style="info" %}
-\.      [Network Number]
+   [Network Number]
 
-\.      CC-Link IE Field network 번호 (1~239)
+   - CC-Link IE Field network 번호 (1~239)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Station Address]
+   [Station Address]
 
-\.      연결된 network 내에 장치 ID (1 ~ 120)
+   - 연결된 network 내에 장치 ID (1 ~ 120)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Type]
+   [IO Type]
 
-\.      IO Type은 master 장치 설정에 의해 결정됨   
-\.      - Mixed: 입력과 출력이 다른 인덱스 사용 (서로 다른 주소)   
-\.      - Input: 입력 전용   
-\.      - Output: 출력 전용   
-\.      - FrontBackMixture: 입력과 출력이 같은 인덱스 사용 (동일한 주소)   
+   - IO Type은 master 장치 설정에 의해 결정됨   
+      - Mixed: 입력과 출력이 다른 인덱스 사용 (서로 다른 주소)   
+      - Input: 입력 전용   
+      - Output: 출력 전용   
+      - FrontBackMixture: 입력과 출력이 같은 인덱스 사용 (동일한 주소)   
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Device Type]
+   [Device Type]
 
-\.      Device Type에 따라 설정 가능한 IO 최대 크기가 상이합니다.
+   - Device Type에 따라 설정 가능한 IO 최대 크기가 상이합니다.
 
-\.      Intelligent Device Station   
-\.      - RY, RX (max): 256 bytes   
-\.      - RWw, RWr (max): 1024 words
+   - Intelligent Device Station   
+      - RY, RX (max): 256 bytes   
+      - RWw, RWr (max): 1024 words
 
-\.      Remote Device Station   
-\.      - RY, RX (max): 16 bytes   
-\.      - RWw, RWr (max): 64 words
+   - Remote Device Station   
+      - RY, RX (max): 16 bytes   
+      - RWw, RWr (max): 64 words
 {% endhint %}
 
 {% hint style="info" %}
-\.      [IO Size]
+   [IO Size]
 
-\.      Master -> Slave   
-\.      - RWw (word data)   
-\.      - RY (bit data)   
+   - Master -> Slave   
+      - RWw (word data)   
+      - RY (bit data)   
 
-\.      Slave -> Master   
-\.      - RWr (word data)   
-\.      - RX (bit data)  
+   - Slave -> Master   
+      - RWr (word data)   
+      - RX (bit data)  
 {% endhint %}
 
 <br>
@@ -4132,17 +4132,17 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}
 
 <br>
 
-![[그림 1.3.9.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) ## 1.3.9.3 CC-Link IE Field Slave 에러 조치
+![[그림 1.3.9.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) #### 1.3.9.3 CC-Link IE Field Slave 에러 조치
 
 <br>
 
 "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
-## 1.3.10 EtherNet/IP - 표준 Remote IO 연결
+### 1.3.10 EtherNet/IP - 표준 Remote IO 연결
 
 <br>
 
@@ -4151,13 +4151,13 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP Scanner(Master) 는 CIFX-50 Real Time Ethernet PCI 를 사용합니다.
+   - EtherNet/IP Scanner(Master) 는 CIFX-50 Real Time Ethernet PCI 를 사용합니다.
 
 
-\.      Remote IO Module은 Crevis 사의 M9289 EtherNet/IP Network Adapter를 사용합니다.
+   - Remote IO Module은 Crevis 사의 M9289 EtherNet/IP Network Adapter를 사용합니다.
 {% endhint %}
 
-## 1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정
+#### 1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정
 
 “[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
@@ -4184,21 +4184,21 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 <br>
 
 {% hint style="info" %}
-\.      PCI 와 Remote IO를 LAN Cable을 이용하여 연결해 주십시오.
+   - PCI 와 Remote IO를 LAN Cable을 이용하여 연결해 주십시오.
 
-\.      Remote IO 의 DIP Switch는 모두 OFF로 설정해 주십시오.
+   - Remote IO 의 DIP Switch는 모두 OFF로 설정해 주십시오.
 
-\.      Remote IO 전원과 Field Power를 모두 연결해 주십시오. (24V DC)
+   - Remote IO 전원과 Field Power를 모두 연결해 주십시오. (24V DC)
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Remote IO Crevis M9289 의 공장 출하시 설정 IP는 192.168.100.99 입니다.
+   - Remote IO Crevis M9289 의 공장 출하시 설정 IP는 192.168.100.99 입니다.
 
-\.      Remote IO 의 IP가 192.168.100.99 로 설정되어 있어야 통신 연결이 가능합니다.
+   - Remote IO 의 IP가 192.168.100.99 로 설정되어 있어야 통신 연결이 가능합니다.
 
-\.      “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
@@ -4213,32 +4213,32 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 <br>
 
 {% hint style="info" %}
-\.      IP는 고정값으로 설정되어 있습니다.
+   - IP는 고정값으로 설정되어 있습니다.
 
-\.      Input, Output Byte 수를 확인합니다.
+   - Input, Output Byte 수를 확인합니다.
 
-\.      선택한 Input, Output 수가 Remote IO Slot에 장착된 카드의 IO 수 보다 작거나 같아야 합니다.
+   - 선택한 Input, Output 수가 Remote IO Slot에 장착된 카드의 IO 수 보다 작거나 같아야 합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF : Digital 16점  
-\.      M3534 : Analog 4점  
+   - Input Module  
+   - M12DF : Digital 16점  
+   - M3534 : Analog 4점  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Output Module  
-\.      M225F : Digital 16점  
-\.      M226F : Digital 16점  
-\.      M2768 : Digital 8점   
-\.      M4534 : Analog 4점  
+   - Output Module  
+   - M225F : Digital 16점  
+   - M226F : Digital 16점  
+   - M2768 : Digital 8점   
+   - M4534 : Analog 4점  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
+   - Special Module  
+   - M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
@@ -4250,7 +4250,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 ![[그림 1.3.10.1-8 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
-\.      설정 완료 후 제어기를 재부팅해 주십시오.
+   - 설정 완료 후 제어기를 재부팅해 주십시오.
 {% endhint %}
 
 <br>
@@ -4264,11 +4264,11 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 ![[그림 1.3.10.1-10 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>) 
 
 {% hint style="info" %}
-\.      통신 연결이 안되는 경우 Remote IO의 IP를 확인해야합니다.
+   - 통신 연결이 안되는 경우 Remote IO의 IP를 확인해야합니다.
 
-\.      아래를 따라 확인해 주십시오. (192.168.100.99 가 아닌 경우)
+   - 아래를 따라 확인해 주십시오. (192.168.100.99 가 아닌 경우)
 
-\.      “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - “[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 ![[그림 1.3.10.1-11 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
@@ -4280,17 +4280,17 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 
 **7. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 1.3.10.2 Remote IO IP 주소 설정
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}#### 1.3.10.2 Remote IO IP 주소 설정
 
 Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 
 <br>
 
 {% hint style="info" %}
-\.      Remote IO Crevis M9289 의 공장 출하시 설정 IP는 192.168.100.99 입니다.
+   - Remote IO Crevis M9289 의 공장 출하시 설정 IP는 192.168.100.99 입니다.
 
-\.      Remote IO 의 IP를 알지 못하거나 변경이 필요한 경우 아래를 따라 주십시오.
+   - Remote IO 의 IP를 알지 못하거나 변경이 필요한 경우 아래를 따라 주십시오.
 {% endhint %}
 
 <br>
@@ -4317,7 +4317,7 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 <br>
 
 {% hint style="info" %}
-\.      Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
+   - Start BootP를 누른 상태에서 M9289 모듈의 전원을 분리하고 다시 인가하여 재부팅합니다.
 {% endhint %}
 
 ![[그림 1.3.10.2-5 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_5.png>)  
@@ -4341,7 +4341,7 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 **6. IP 설정이 끝난 Adapter의 DIP Switch를 모두 OFF로 변경한 후 장치를 재부팅합니다.**
 
 {% hint style="info" %}
-\.      DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
+   - DIP Switch의 상태 Adapter 재부팅 여부를 반드시 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.10.2-9 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_9.png>) 
@@ -4357,7 +4357,7 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 **8. IP 주소가 정상적으로 변경이 되었다면 설정을 진행합니다.**
 
 {% hint style="info" %}
-\.      "[**1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
+   - "[**1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
 {% endhint %}
 ## 1.4 CIFX PCI 통신 모니터링
 
@@ -4376,11 +4376,11 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 <br>
 
 {% hint style="info" %}
-\.      **\[재시작]** 버튼을 이용하여 해당 PCI 통신 카드의 산업용 통신을 재시작 시킬 수 있습니다.
+   **\[재시작]** 버튼을 이용하여 해당 PCI 통신 카드의 산업용 통신을 재시작 시킬 수 있습니다.
 
-\.      슬롯, 펌웨어, 장치 상태를 확인해 주십시오.
+   - 슬롯, 펌웨어, 장치 상태를 확인해 주십시오.
 
-\.      Master의 경우 슬레이브 구성 및 활성 슬레이가 구성한 슬레이브 수와 동일한지 확인해 주십시오.
+   - Master의 경우 슬레이브 구성 및 활성 슬레이가 구성한 슬레이브 수와 동일한지 확인해 주십시오.
 {% endhint %}
 
 <br>
@@ -4390,18 +4390,18 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 <br>
 
 {% hint style="info" %}
-\.      [상태 정보]   
-\.       통신 상태 (Communication) : 통신 연결 및 IO 교환 중   
-\.       동작 (Run) : 통신 카드 동작 중   
-\.       준비 (Ready) : 통신 준비 상태   
-\.       에러 (Error) : 통신 에러 상태   
+   [상태 정보]   
+      - 통신 상태 (Communication) : 통신 연결 및 IO 교환 중   
+      - 동작 (Run) : 통신 카드 동작 중   
+      - 준비 (Ready) : 통신 준비 상태   
+      - 에러 (Error) : 통신 에러 상태   
 
-\.       통신 에러 (Communication Error) : 통신 중 발생한 에러 코드   
-\.       에러 횟수 (Error Count) : 에러 발생 누적 횟수   
-\.       활성 슬레이브 (Active Slaves) : 통신 연결 및 IO 교환 중인 슬레이브 수   
-\.       슬레이브 구성 (Configured Slaves) : 통신 연결 설정한 슬레이브 수   
-\.       진단 슬레이브 (Diag Slave) : 통신 진단 중인 슬레이브 수   
-\.       Watchdog time (ms) : 통신 프로그램 동작 감지 기능 Timeout 시간   
+      - 통신 에러 (Communication Error) : 통신 중 발생한 에러 코드   
+      - 에러 횟수 (Error Count) : 에러 발생 누적 횟수   
+      - 활성 슬레이브 (Active Slaves) : 통신 연결 및 IO 교환 중인 슬레이브 수   
+      - 슬레이브 구성 (Configured Slaves) : 통신 연결 설정한 슬레이브 수   
+      - 진단 슬레이브 (Diag Slave) : 통신 진단 중인 슬레이브 수   
+      - Watchdog time (ms) : 통신 프로그램 동작 감지 기능 Timeout 시간   
 {% endhint %}
 
 <br>
@@ -4417,20 +4417,20 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 ![[그림 1.4-2 산업용 통신 모니터터링]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_2.png>)
 
 {% hint style="info" %}
-\.      [노드 상태 정보]   
-\.       초록색 : 통신 연결 및 IO 교환 중인 노드   
-\.       빨간색 : 통신 설정은 했으나 연결 안된 노드   
+   [노드 상태 정보]   
+      - 초록색 : 통신 연결 및 IO 교환 중인 노드   
+      - 빨간색 : 통신 설정은 했으나 연결 안된 노드   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      DeviceNet Master의 경우 노드 정보 리스트를 스캔하여 모니터링 할 수 있습니다.
+   - DeviceNet Master의 경우 노드 정보 리스트를 스캔하여 모니터링 할 수 있습니다.
 {% endhint %}
 
 <br>
 
-![[그림 1.4-3 산업용 통신 모니터터링]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_3.png>)## 1.4.1 ERROR Code
+![[그림 1.4-3 산업용 통신 모니터터링]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_3.png>)### 1.4.1 ERROR Code
 
 <br>
 
@@ -4516,7 +4516,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 
-## 2. EtherNet/IP
+# 2. EtherNet/IP
 
 이 장에서는 내장형 EtherNet/IP Master(Scanner) 와 Slave(Adapter)의 특성과 설정 방법에 대해 기술합니다. 
 
@@ -4599,9 +4599,9 @@ EtherNet/IP 통신을 연결할 LAN Port를 선택한 뒤 아래와 같이 TP화
 <br>
 
 {% hint style="info" %}
-\.      LAN1/LAN2/LAN3 각각의 IP주소는 서브넷 부분을 다르게 설정해야 합니다.
+   - LAN1/LAN2/LAN3 각각의 IP주소는 서브넷 부분을 다르게 설정해야 합니다.
 
-\.      설정을 변경한 후에는 로봇제어기를 재부팅 하십시오.
+   - 설정을 변경한 후에는 로봇제어기를 재부팅 하십시오.
 {% endhint %}
 
 <br>
@@ -4678,7 +4678,7 @@ EtherNet/IP Network와 Factory Network는 서로 분리된 네트워크로 구�
 
 <br>
 
-## 2.3.1 EtherNet/IP 어댑터 사양 (슬레이브)
+### 2.3.1 EtherNet/IP 어댑터 사양 (슬레이브)
 
 
 <style type="text/css">
@@ -4810,7 +4810,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>## 2.3.2 EtherNet/IP 어댑터 (슬레이브) 설정
+<br>### 2.3.2 EtherNet/IP 어댑터 (슬레이브) 설정
 
 <br>
 
@@ -4848,11 +4848,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 - 에러(Error) : Ethernet/IP 어댑터의 알람 또는 경고 상태 표시 (On : 알람/경고 상태, Off : 정상)
 - 버전 : Ethernet/IP 어댑터 S/W 버전 정보 표시
 - 에러코드: 알람 또는 경고가 발생했을 경우 알람/경고 코드 표시 
-## 2.3.3 외부 Scanner 장치 연결
+### 2.3.3 외부 Scanner 장치 연결
 
 <br>
 
-이 장에서는 EtherNet/IP 어댑터와의 외부 스캐너 장치 연결 방법을 설명합니다.## 2.3.3.1 LS ELECTRIC PLC와의 연결
+이 장에서는 EtherNet/IP 어댑터와의 외부 스캐너 장치 연결 방법을 설명합니다.#### 2.3.3.1 LS ELECTRIC PLC와의 연결
 
 <br>
 
@@ -5018,8 +5018,8 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 <br>
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 2.3.4 EtherNet/IP 어댑터 (슬레이브) 알람코드
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}### 2.3.4 EtherNet/IP 어댑터 (슬레이브) 알람코드
 
 |코드|메시지|
 |------|---|
@@ -5055,7 +5055,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 <br>
 
 내장형 EtherNet/IP 스캐너 (마스터) 에 대한 설명입니다.<br>
-## 2.4.1 EtherNet/IP 스캐너 (마스터) 사양
+### 2.4.1 EtherNet/IP 스캐너 (마스터) 사양
 
 <br>
 
@@ -5175,7 +5175,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>## 2.4.2 EtherNet/IP 스캐너 (마스터) 설정
+<br>### 2.4.2 EtherNet/IP 스캐너 (마스터) 설정
 
 <br>
 
@@ -5200,18 +5200,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      [Protocol 설정]
+   [Protocol 설정]
 
-\.      * OFF : EtherNet/IP 사용 안함   
-\.      * Adapter : EtherNet/IP Adapter 모드   
-\.      * Scanner : EtherNet/IP Scanner 모드   
-\.      * Adapter + Scanner : EtherNet/IP Adapter + Scanner 동시 사용 모드    (같은 LAN Port)
+      - OFF : EtherNet/IP 사용 안함   
+      - Adapter : EtherNet/IP Adapter 모드   
+      - Scanner : EtherNet/IP Scanner 모드   
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner 동시 사용 모드    (같은 LAN Port)
 {% endhint %}
 
 {% hint style="info" %}
-\.      [Port 설정]
+   [Port 설정]
 
-\.      * 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
+      - 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
 {% endhint %}
 
 <br>
@@ -5229,36 +5229,36 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      [장치 설정]
+   [장치 설정]
 
-\.      * Device No. : 장치 연결 순서 (IO 데이터 배치 순서)   
-\.      * IP Address : 장치의 IP 주소   
-\.      * Device Name : 장치 이름 (통신 연결과는 무관, 단순 식별용)   
-\.      * RPI (ms) : IO 데이터 갱신 주기   
-\.      * Connection Type   
-\.          - Exclusive Owner (I/O) : Scanner - Adapter 입출력 연결   
-\.          - Input Only : Adapter의 입력 신호만 연결   
-\.          - Listen Only : Adapter 가 다른 Scanner와 I/O 연결 되어있는 상태에서 입력 신호만 연결   
+      - Device No. : 장치 연결 순서 (IO 데이터 배치 순서)   
+      - IP Address : 장치의 IP 주소   
+      - Device Name : 장치 이름 (통신 연결과는 무관, 단순 식별용)   
+      - RPI (ms) : IO 데이터 갱신 주기   
+      - Connection Type   
+            - Exclusive Owner (I/O) : Scanner - Adapter 입출력 연결   
+            - Input Only : Adapter의 입력 신호만 연결   
+            - Listen Only : Adapter 가 다른 Scanner와 I/O 연결 되어있는 상태에서 입력 신호만 연결   
 
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      * Run/Idle Header : IO 데이터 헤더 유무 선택   
-\.      * Instance No. : IO 데이터 교환을 위한 Input / Output Assembly의 Instance 번호   
-\.      * IO Size : IO 데이터 크기 (bytes 단위)   
+      - Run/Idle Header : IO 데이터 헤더 유무 선택   
+      - Instance No. : IO 데이터 교환을 위한 Input / Output Assembly의 Instance 번호   
+      - IO Size : IO 데이터 크기 (bytes 단위)   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      연결 예시는 아래 매뉴얼을 참고해주십시오.    
-\.      “[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - 연결 예시는 아래 매뉴얼을 참고해주십시오.    
+   - “[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
 
-\.      “[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - “[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
 
-\.      “[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - “[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
 
-\.      “[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - “[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -5284,15 +5284,15 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      [통신 상태 확인]   
-\.       - License: 현재 라이선스 상태   
-\.       - Run: EtherNet/IP 기능 동작 상태 표시   
-\.       - Communication: EtherNet/IP 통신 연결 상태 표시   
-\.       - Error: EtherNet/IP 오류 상태 표시   
+   [통신 상태 확인]   
+      - License: 현재 라이선스 상태   
+      - Run: EtherNet/IP 기능 동작 상태 표시   
+      - Communication: EtherNet/IP 통신 연결 상태 표시   
+      - Error: EtherNet/IP 오류 상태 표시   
 
-\.      장치 번호 색상   
-\.       - 초록색 : 통신 연결 OK   
-\.       - 빨간색 : 통신 연결 NG   
+   - 장치 번호 색상   
+      - 초록색 : 통신 연결 OK   
+      - 빨간색 : 통신 연결 NG   
 {% endhint %}
 
 <br>
@@ -5304,8 +5304,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)”)를 확인해 주십시오.**
-{% endhint %}## 2.4.3 외부 Adapter 장치 연결
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)”)를 확인해 주십시오.**
+{% endhint %}### 2.4.3 외부 Adapter 장치 연결
 
 <br>
 
@@ -5322,13 +5322,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      IO size는 외부 장치에 연결된 Input / Output 크기와 일치하게 설정해 주십시오.   
+   - IO size는 외부 장치에 연결된 Input / Output 크기와 일치하게 설정해 주십시오.   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      자세한 사양은 장치 Maker에서 제공하는 매뉴얼을 참고해주십시오.    
+   - 자세한 사양은 장치 Maker에서 제공하는 매뉴얼을 참고해주십시오.    
 {% endhint %}
 
 <br>
@@ -5447,22 +5447,22 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	</tr>
 </tbody>
 </table>
-<br>## 2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO
+<br>#### 2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO
 
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      예시의 Remote IO의 IP 설정은 아래 매뉴얼 링크를 참조하여 진행해 주십시오.
+   - 예시의 Remote IO의 IP 설정은 아래 매뉴얼 링크를 참조하여 진행해 주십시오.
 
-\.      “[**1.3.10.2 Remote IO IP Setting**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - “[**1.3.10.2 Remote IO IP Setting**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
@@ -5490,14 +5490,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Connection Manager에서 연결 타입 확인   
-\.      * 예시에서는 Exclusive Owner
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
 
-\.      Real Time Transfer Format에서 헤더 여부 확인   
-\.      * Input (T > O) : 헤더 없음   
-\.      * Output (O > T) : 32-bit run/idle header   
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 헤더 없음   
+      - Output (O > T) : 32-bit run/idle header   
 
-\.      Create / Decode path 를 눌러 Instance ID 확인   
+   - Create / Decode path 를 눌러 Instance ID 확인   
 {% endhint %}
 
 <br>
@@ -5507,8 +5507,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      * Input (T > O) : 1   
-\.      * Output (O > T) : 2   
+      - Input (T > O) : 1   
+      - Output (O > T) : 2   
 {% endhint %}
 
 <br>
@@ -5518,7 +5518,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      현재 연결할 장치의 IO 구성 확인 
+   - 현재 연결할 장치의 IO 구성 확인 
 {% endhint %}
 
 <br>
@@ -5528,7 +5528,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      슬롯 구성별 매뉴얼을 참고하여 IO size 확인
+   - 슬롯 구성별 매뉴얼을 참고하여 IO size 확인
 {% endhint %}
 
 <br>
@@ -5550,46 +5550,46 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      [Adapter 구성]   
-\.      Crevis M9289   
-\.      - M7002 : None   
-\.      - M2768 : 1byte (O > T)   
-\.      - M2768 : 1byte (O > T)   
-\.      - M12DF : 2bytes (T > O)   
-\.      - M12DF : 2bytes (T > O)   
-\.      - M2768 : 1byte (O > T)   
-\.      - M2768 : 1byte (O > T)   
+   [Adapter 구성]   
+   - Crevis M9289   
+      - M7002 : None   
+      - M2768 : 1byte (O > T)   
+      - M2768 : 1byte (O > T)   
+      - M12DF : 2bytes (T > O)   
+      - M12DF : 2bytes (T > O)   
+      - M2768 : 1byte (O > T)   
+      - M2768 : 1byte (O > T)   
 
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 4bytes   
-\.      - Instance: 1   
-\.      - Run/Idle Header: No   
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 4bytes   
+      - Instance: 1   
+      - Run/Idle Header: No   
 
-\.      [O > T]    
-\.      - Size: 4bytes   
-\.      - Instance: 2   
-\.      - Run/Idle Header: 32Bit   
+   [O > T]    
+      - Size: 4bytes   
+      - Instance: 2   
+      - Run/Idle Header: 32Bit   
 {% endhint %}
 
-<br>## 2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO
+<br>#### 2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO
 
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      해당 장치의 IP 설정은 Wago 매뉴얼을 참조하여 진행해 주십시오.
+   - 해당 장치의 IP 설정은 Wago 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
@@ -5609,18 +5609,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Input (T > O)   
-\.      * 104: Status  + Analog  + Digital   
-\.      * 105: Status  + Digital   
-\.      * 106: Status  + Analog   
-\.      * 107: Analog  + Digital   
-\.      * 108: Digital   
-\.      * 109: Analog   
+   - Input (T > O)   
+      - 104: Status  + Analog  + Digital   
+      - 105: Status  + Digital   
+      - 106: Status  + Analog   
+      - 107: Analog  + Digital   
+      - 108: Digital   
+      - 109: Analog   
 
-\.      Output (O > T)   
-\.      * 101: Analog + Digital   
-\.      * 102: Digital   
-\.      * 103: Analog   
+   - Output (O > T)   
+      - 101: Analog + Digital   
+      - 102: Digital   
+      - 103: Analog   
 {% endhint %}
 
 <br>
@@ -5634,12 +5634,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Connection Manager에서 연결 타입 확인   
-\.      * 예시에서는 Exclusive Owner
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
 
-\.      Real Time Transfer Format에서 헤더 여부 확인   
-\.      * Input (T > O) : 헤더 없음   
-\.      * Output (O > T) : 32-bit run/idle header   
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 헤더 없음   
+      - Output (O > T) : 32-bit run/idle header   
 {% endhint %}
 
 <br>
@@ -5649,7 +5649,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      현재 연결할 장치의 IO 구성 확인 
+   - 현재 연결할 장치의 IO 구성 확인 
 {% endhint %}
 
 <br>
@@ -5659,7 +5659,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      슬롯 구성별 매뉴얼을 참고하여 IO size 확인
+   - 슬롯 구성별 매뉴얼을 참고하여 IO size 확인
 {% endhint %}
 
 <br>
@@ -5681,42 +5681,42 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      [Adapter 구성]   
-\.      Wago 750-366   
-\.      - Status 1byte (T > O) (Instance ID 104, 105, 106 선택시)   
-\.      - 753-436 : 1byte (T > O)   
-\.      - 753-536 : 1byte (O > T)   
+   [Adapter 구성]   
+   - Wago 750-366   
+      - Status 1byte (T > O) (Instance ID 104, 105, 106 선택시)   
+      - 753-436 : 1byte (T > O)   
+      - 753-536 : 1byte (O > T)   
 
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 2bytes   
-\.      - Instance: 105   
-\.      - Run/Idle Header: No   
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 2bytes   
+      - Instance: 105   
+      - Run/Idle Header: No   
 
-\.      [O > T]    
-\.      - Size: 1bytes   
-\.      - Instance: 101   
-\.      - Run/Idle Header: 32Bit   
+   [O > T]    
+      - Size: 1bytes   
+      - Instance: 101   
+      - Run/Idle Header: 32Bit   
 {% endhint %}
 
-<br>## 2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter
+<br>#### 2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter
 
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      해당 장치의 IP 설정은 Hilscher 매뉴얼을 참조하여 진행해 주십시오.
+   - 해당 장치의 IP 설정은 Hilscher 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
@@ -5736,12 +5736,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Connection Manager에서 연결 타입 확인   
-\.      * 예시에서는 Exclusive Owner
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
 
-\.      Real Time Transfer Format에서 헤더 여부 확인   
-\.      * Input (T > O) : 32-bit run/idle header   
-\.      * Output (O > T) : 32-bit run/idle header   
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 32-bit run/idle header   
+      - Output (O > T) : 32-bit run/idle header   
 {% endhint %}
 
 <br>
@@ -5751,9 +5751,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Param에서 Instance ID 확인   
-\.      * Input (T > O) : 101   
-\.      * Output (O > T) : 100   
+   - Param에서 Instance ID 확인   
+      - Input (T > O) : 101   
+      - Output (O > T) : 100   
 {% endhint %}
 
 <br>
@@ -5763,7 +5763,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      현재 연결할 장치의 IO Size 확인 (해당 PCI 장치 설정 참조)   
+   - 현재 연결할 장치의 IO Size 확인 (해당 PCI 장치 설정 참조)   
 {% endhint %}
 
 <br>
@@ -5777,36 +5777,36 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 240 bytes (PCI 장치에 설정된 값)   
-\.      - Instance: 101   
-\.      - Run/Idle Header: 32Bit   
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 240 bytes (PCI 장치에 설정된 값)   
+      - Instance: 101   
+      - Run/Idle Header: 32Bit   
 
-\.      [O > T]    
-\.      - Size: 240 bytes (PCI 장치에 설정된 값)   
-\.      - Instance: 100   
-\.      - Run/Idle Header: 32Bit   
+   [O > T]    
+      - Size: 240 bytes (PCI 장치에 설정된 값)   
+      - Instance: 100   
+      - Run/Idle Header: 32Bit   
 {% endhint %}
 
-<br>## 2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70
+<br>#### 2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70
 
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      해당 장치의 IP 설정은 Baumer 매뉴얼을 참조하여 진행해 주십시오.
+   - 해당 장치의 IP 설정은 Baumer 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
@@ -5826,15 +5826,15 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      [Input Only Connection]   
+   [Input Only Connection]   
 
-\.      Input (T > O)   
-\.      * Instance ID: 100   
-\.      * Size : 34 bytes   
+   - Input (T > O)   
+      - Instance ID: 100   
+      - Size : 34 bytes   
 
-\.      Output (O > T)   
-\.      * Instance ID: 238   
-\.      * Size : 0 byte    
+   - Output (O > T)   
+      - Instance ID: 238   
+      - Size : 0 byte    
 {% endhint %}
 
 <br>
@@ -5845,20 +5845,20 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 ![[그림 2.4.3.4-3 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>)
 
-<br>## 2.4.3.5 외부 Adapter 장치 연결 - Beckhoff Remote IO
+<br>#### 2.4.3.5 외부 Adapter 장치 연결 - Beckhoff Remote IO
 
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      해당 장치의 IP 설정은 Beckhoff 매뉴얼을 참조하여 진행해 주십시오.
+   - 해당 장치의 IP 설정은 Beckhoff 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
@@ -5874,7 +5874,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      예시에서 초기 IP 설정은 192.168.1.2 로 되어있습니다. (DIP 스위치 2번 ON)
+   - 예시에서 초기 IP 설정은 192.168.1.2 로 되어있습니다. (DIP 스위치 2번 ON)
 {% endhint %}
 
 <br>
@@ -5888,9 +5888,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      예시에서는 IP를 192.168.10.95로 설정합니다. 
+   - 예시에서는 IP를 192.168.10.95로 설정합니다. 
 
-\.      IP 주소 입력 후 체크 버튼을 눌러 저장합니다. 
+   - IP 주소 입력 후 체크 버튼을 눌러 저장합니다. 
 {% endhint %}
 
 <br>
@@ -5900,9 +5900,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      DIP 스위치를 아래와 같이 설정한 후 장치를 재부팅합니다.   
-\.      * 1 ~ 8번  : ON   
-\.      * 9 ~ 10번 : OFF   
+   - DIP 스위치를 아래와 같이 설정한 후 장치를 재부팅합니다.   
+      - 1 ~ 8번  : ON   
+      - 9 ~ 10번 : OFF   
 {% endhint %}
 
 <br>
@@ -5920,7 +5920,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      설정한 IP 주소로 다시 접속하여 IP 주소 및 EtherNet/IP 구성 정보를 확인합니다.
+   - 설정한 IP 주소로 다시 접속하여 IP 주소 및 EtherNet/IP 구성 정보를 확인합니다.
 {% endhint %}
 
 <br>
@@ -5934,13 +5934,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Input (T > O)   
-\.      * Instance ID: 129   
-\.      * Byte Size: 6      
+   - Input (T > O)   
+      - Instance ID: 129   
+      - Byte Size: 6      
 
-\.      Output (O > T)   
-\.      * Instance ID: 130   
-\.      * Byte Size: 6   
+   - Output (O > T)   
+      - Instance ID: 130   
+      - Byte Size: 6   
 {% endhint %}
 
 <br>
@@ -5954,41 +5954,41 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      [Adapter 구성]   
-\.      Beckhoff EK-9500   
-\.      - EK-1008 : 1byte (T > O)   
-\.      - EK-2008 : 1byte (O > T)   
+   [Adapter 구성]   
+   - Beckhoff EK-9500   
+      - EK-1008 : 1byte (T > O)   
+      - EK-2008 : 1byte (O > T)   
 
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 6bytes   
-\.      - Instance: 129   
-\.      - Run/Idle Header: No   
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 6bytes   
+      - Instance: 129   
+      - Run/Idle Header: No   
 
-\.      [O > T]    
-\.      - Size: 6bytes   
-\.      - Instance: 130   
-\.      - Run/Idle Header: 32Bit   
+   [O > T]    
+      - Size: 6bytes   
+      - Instance: 130   
+      - Run/Idle Header: 32Bit   
 {% endhint %}
 
-<br>## 2.4.3.6 외부 Adapter 장치 연결 - Rockwell Automation (AB) Remote IO
+<br>#### 2.4.3.6 외부 Adapter 장치 연결 - Rockwell Automation (AB) Remote IO
 
 <br>
 
 {% hint style="info" %}
-\.      EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-\.      “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - “[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      해당 장치의 IP 설정은 Rockwell Automation (AB) Point I/O 1734-AENTR 매뉴얼을 참조하여 진행해 주십시오.
+   - 해당 장치의 IP 설정은 Rockwell Automation (AB) Point I/O 1734-AENTR 매뉴얼을 참조하여 진행해 주십시오.
 {% endhint %}
 
 <br>
@@ -6018,17 +6018,17 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      Connection Manager에서 연결 타입 확인   
-\.      * 예시에서는 Exclusive Owner
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
 
-\.      Real Time Transfer Format에서 헤더 여부 확인   
-\.      * Input (T > O) : 헤더 없음   
-\.      * Output (O > T) : 32-bit run/idle header   
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 헤더 없음   
+      - Output (O > T) : 32-bit run/idle header   
 
-\.      Create / Decode path 를 눌러 Instance ID 확인   
-\.      * Input (T > O) : 101   
-\.      * Output (O > T) : 100   
-\.      * Configuration : 102   
+   - Create / Decode path 를 눌러 Instance ID 확인   
+      - Input (T > O) : 101   
+      - Output (O > T) : 100   
+      - Configuration : 102   
 {% endhint %}
 
 <br>
@@ -6038,7 +6038,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      현재 연결할 장치의 IO 구성 확인 
+   - 현재 연결할 장치의 IO 구성 확인 
 {% endhint %}
 
 <br>
@@ -6048,7 +6048,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      슬롯 구성별 매뉴얼을 참고하여 IO size 확인
+   - 슬롯 구성별 매뉴얼을 참고하여 IO size 확인
 {% endhint %}
 
 <br>
@@ -6070,26 +6070,26 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      [Adapter 구성]   
-\.      Point I/O 1734-AENTR    
-\.      - 상태 값 : 8byte (T > O)    
-\.      - 1734-IB8 : 1byte (T > O)   
-\.      - 1734-OB8E : 1byte (O > T) + 1byte (T > O, 상태 값)   
+   [Adapter 구성]   
+   - Point I/O 1734-AENTR    
+      - 상태 값 : 8byte (T > O)    
+      - 1734-IB8 : 1byte (T > O)   
+      - 1734-OB8E : 1byte (O > T) + 1byte (T > O, 상태 값)   
 
-\.      [IO Assembly 정보]   
-\.      [T > O]   
-\.      - Size: 10bytes   
-\.      - Instance: 101   
-\.      - Run/Idle Header: No   
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 10bytes   
+      - Instance: 101   
+      - Run/Idle Header: No   
 
-\.      [O > T]    
-\.      - Size: 1byte   
-\.      - Instance: 100   
-\.      - Run/Idle Header: 32Bit   
+   [O > T]    
+      - Size: 1byte   
+      - Instance: 100   
+      - Run/Idle Header: 32Bit   
 {% endhint %}
 
 <br>
@@ -6099,30 +6099,30 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-\.      연결할 장치의 매뉴얼을 확인하여 부가 설정값을 올바르게 입력해 주십시오.   
-\.      * Input (T > O) : Slave > Master 연결   
-\.      * Output (O > T) : Master > Slave 연결   
+   - 연결할 장치의 매뉴얼을 확인하여 부가 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
 
-\.      [부가 설정 값]   
-\.      - Config Segment : ON   
-\.      - Instance: 102   
-\.      - Size: 10bytes    
+   [부가 설정 값]   
+      - Config Segment : ON   
+      - Instance: 102   
+      - Size: 10bytes    
 
-\.      [Config Segment 정보]    
-\.      - (4bytes) 1 : 헤더    
-\.      - (2bytes) 3 : 연결된 슬롯 + 1   
-\.      - (1byte)  0 : T > O Alignment (byte 단위)      
-\.      - (1byte)  1 : T > O 슬롯별 데이터 크기      
-\.      - (1byte)  0 : O > T Alignment (byte 단위)      
-\.      - (1byte)  1 : O > T 슬롯별 데이터 크기      
+   [Config Segment 정보]    
+      - (4bytes) 1 : 헤더    
+      - (2bytes) 3 : 연결된 슬롯 + 1   
+      - (1byte)  0 : T > O Alignment (byte 단위)      
+      - (1byte)  1 : T > O 슬롯별 데이터 크기      
+      - (1byte)  0 : O > T Alignment (byte 단위)      
+      - (1byte)  1 : O > T 슬롯별 데이터 크기      
 {% endhint %}
 
-<br>## 2.4.4 EtherNet/IP 스캐너 (마스터) 에러 코드
+<br>### 2.4.4 EtherNet/IP 스캐너 (마스터) 에러 코드
 
 <br>
 
 {% hint style="info" %}
-\.      각 장치별 통신 상태를 CIP 표준 General Status 코드로 표시하여 실시간 진단 기능을 제공합니다.
+   - 각 장치별 통신 상태를 CIP 표준 General Status 코드로 표시하여 실시간 진단 기능을 제공합니다.
 {% endhint %}
 
 <br>
@@ -6389,7 +6389,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </tbody>
 </table>
 <br>
-## 3. EtherCAT Master IO
+# 3. EtherCAT Master IO
 
 <br>
 
@@ -6411,10 +6411,10 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      EtherCAT Master 는 제어기의 범용 LAN Port 를 사용합니다.
+   - EtherCAT Master 는 제어기의 범용 LAN Port 를 사용합니다.
 
 
-\.      Remote IO Module은 Crevis 사의 M9386 EtherCAT Network Adapter를 사용합니다.
+   - Remote IO Module은 Crevis 사의 M9386 EtherCAT Network Adapter를 사용합니다.
 {% endhint %}
 
 
@@ -6435,7 +6435,7 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      EtherCAT Master 설정 화면에서 선택된 제어기 LAN Port 번호를 확인합니다. 
+   - EtherCAT Master 설정 화면에서 선택된 제어기 LAN Port 번호를 확인합니다. 
 {% endhint %}
 
 **2. 통신을 위해 제어기 LAN 포트와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.**
@@ -6448,11 +6448,11 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      제어기 와 Remote IO를 LAN Cable을 이용하여 연결해 주십시오.
+   - 제어기 와 Remote IO를 LAN Cable을 이용하여 연결해 주십시오.
 
-\.      Remote IO 의 DIP Switch는 모두 OFF로 설정해 주십시오.
+   - Remote IO 의 DIP Switch는 모두 OFF로 설정해 주십시오.
 
-\.      Remote IO 전원과 Field Power를 모두 연결해 주십시오. (24V DC)
+   - Remote IO 전원과 Field Power를 모두 연결해 주십시오. (24V DC)
 {% endhint %}
 
 <br>
@@ -6466,9 +6466,9 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      사용하는 환경에 맞게 통신 주기를 설정합니다.
+   - 사용하는 환경에 맞게 통신 주기를 설정합니다.
 
-\.      통신 주기는 1ms, 2ms, 5ms 를 지원합니다.
+   - 통신 주기는 1ms, 2ms, 5ms 를 지원합니다.
 {% endhint %}
 
 <br>
@@ -6482,28 +6482,28 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      Input, Output Byte 수를 확인합니다.
+   - Input, Output Byte 수를 확인합니다.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      Input Module  
-\.      M12DF : Digital 16점  
-\.      M3534 : Analog 4점  
+   - Input Module  
+   - M12DF : Digital 16점  
+   - M3534 : Analog 4점  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Output Module  
-\.      M225F : Digital 16점  
-\.      M226F : Digital 16점  
-\.      M2768 : Digital 8점   
-\.      M4534 : Analog 4점  
+   - Output Module  
+   - M225F : Digital 16점  
+   - M226F : Digital 16점  
+   - M2768 : Digital 8점   
+   - M4534 : Analog 4점  
 {% endhint %}
 
 {% hint style="info" %}
-\.      Special Module  
-\.      M5112 : Conveyer I/F 
+   - Special Module  
+   - M5112 : Conveyer I/F 
 {% endhint %}
 
 <br>
@@ -6523,7 +6523,7 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      설정 완료 후 제어기를 재부팅해 주십시오.
+   - 설정 완료 후 제어기를 재부팅해 주십시오.
 {% endhint %}
 
 <br>
@@ -6535,7 +6535,7 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      통신 연결 상태와 Error 여부를 확인해 주십시오.
+   - 통신 연결 상태와 Error 여부를 확인해 주십시오.
 {% endhint %}
 
 <br>
@@ -6545,13 +6545,13 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 <br>
 
 {% hint style="info" %}
-\.      Remote IO Module 에서 LED를 이용해 정상적으로 통신이 개통되어 있는지 확인해 주십시오.
+   - Remote IO Module 에서 LED를 이용해 정상적으로 통신이 개통되어 있는지 확인해 주십시오.
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-\.      **통신 상태에서 ERROR 발생시 (“[**3.2 EtherCAT Master IO 에러 조치**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)”)를 확인해 주십시오.**
+   **통신 상태에서 ERROR 발생시 (“[**3.2 EtherCAT Master IO 에러 조치**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)”)를 확인해 주십시오.**
 {% endhint %}
 
 <br>
@@ -6559,7 +6559,7 @@ EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기�
 **7. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-\.      **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../4-io-block-allocation.md)”)를 확인해 주십시오.**
 {% endhint %}
 
 ## 3.2 EtherCAT Master IO 에러 조치
@@ -6571,15 +6571,15 @@ EtherCAT Master IO 설정 중 발생할 수 있는 주요 Error 를 해결하기
 ![[그림 3.2-1 EtherCAT Master 상태]](<../_assets/3-ethercat-master-io/2-Error/image_1.png>) 
 
 {% hint style="info" %}
-\.      LAN Cable 의 연결 상태를 확인해 주십시오.
+   - LAN Cable 의 연결 상태를 확인해 주십시오.
 
-\.      Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
+   - Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
 
-\.      Remote IO Module 의 IO 조합과 동일하게 설정이 되었는지 확인해 주십시오.
+   - Remote IO Module 의 IO 조합과 동일하게 설정이 되었는지 확인해 주십시오.
 {% endhint %}
 
 <br>
-## 4. PROFINET I/O (Hi7)
+# 4. PROFINET I/O (Hi7)
 
 <br>
 
@@ -6723,7 +6723,7 @@ PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.
 <img src="../_assets/4-pnio/profinet_LED.png"></img>
 <em><p align="center">BD671(PROFINET) </p></em>
 </p>
-## 5. 산업용 통신 IO 읽기 및 쓰기
+# 5. 산업용 통신 IO 읽기 및 쓰기
 
 산업용 통신 설정 완료 후 제어기와의 통신을 위한 IO Block 할당 방법 입니다.
 
@@ -6732,10 +6732,10 @@ PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.
 <br>
 
 {% hint style="info" %}
-\.      fb 블록의 IO 읽기/쓰기 방법은 아래 매뉴얼을 참조해 주십시오.
+   - fb 블록의 IO 읽기/쓰기 방법은 아래 매뉴얼을 참조해 주십시오.
 
-\.   **\[제어기 조작설명서 : 범용 입력]**   
-\.   **\[제어기 조작설명서 : 범용 출력]**   
+      **\[제어기 조작설명서 : 범용 입력]**   
+      **\[제어기 조작설명서 : 범용 출력]**   
 {% endhint %}
 
 <br>
@@ -6758,7 +6758,7 @@ PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.
 {% hint style="warning" %}
 **\[주의]**: EtherNet/IP 어댑터의 경우 최대 블록사이즈는 120 Bytes 이며 최대 2개까지 선택할 수 있습니다. 2개를 초과하는 선택은 무시 됩니다. 
 {% endhint %}
-## 6. Slave 장치 설명 파일
+# 6. Slave 장치 설명 파일
 
 산업용 통신 Master에서 Slave 통신 구성을 위해 각 Protocol 별 Slave 장치의 대한 설명 파일을 사용합니다.
 
@@ -6770,19 +6770,19 @@ Slave 장치 설명 파일은 당사 홈페이지에 다운로드 받을 수 있
 <br>
 
 {% hint style="info" %}
-\.      EtherNet/IP : EDS 파일
+   - EtherNet/IP : EDS 파일
 
-\.      PROFINET IO : GSDML (.XML) 파일
+   - PROFINET IO : GSDML (.XML) 파일
 
-\.      EtherCAT : ESI (.XML) 파일
+   - EtherCAT : ESI (.XML) 파일
 
-\.      PROFIBUS-DP : GSD 파일
+   - PROFIBUS-DP : GSD 파일
 
-\.      DeviceNet : EDS 파일
+   - DeviceNet : EDS 파일
 
-\.      CC-Link IE Field : CSPP 파일
+   - CC-Link IE Field : CSPP 파일
 
-\.      CC-Link IE Basic : CSPP 파일
+   - CC-Link IE Basic : CSPP 파일
 {% endhint %}
 
 <br>
