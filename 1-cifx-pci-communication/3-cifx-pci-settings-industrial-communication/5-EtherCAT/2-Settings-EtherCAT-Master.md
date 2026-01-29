@@ -1,6 +1,6 @@
 ﻿#### 1.3.5.2 EtherCAT Master 설정
 
-“[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
@@ -21,7 +21,7 @@
 <br>
 
 {% hint style="info" %}
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -103,7 +103,7 @@
 {% hint style="warning" %}
    **EtherCAT 은 사용할 수 있는 Cable 결선과 Port 가 지정되어 있습니다.**
 
-   **원활한 통신 연결을 위해 (“[**1.3.5.5 EtherCAT 케이블 결선**](../5-EtherCAT/5-EtherCAT-Topology.md)”)을 반드시 확인해 주십시오.**
+   **원활한 통신 연결을 위해 ("[**1.3.5.5 EtherCAT 케이블 결선**](../5-EtherCAT/5-EtherCAT-Topology.md)")을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
@@ -201,7 +201,7 @@
 {% hint style="info" %}
    - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
@@ -223,5 +223,5 @@
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}

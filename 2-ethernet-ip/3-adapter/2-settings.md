@@ -1,4 +1,4 @@
-### 2.3.2 EtherNet/IP 어댑터 (슬레이브) 설정
+﻿### 2.3.2 EtherNet/IP 어댑터 (슬레이브) 설정
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-초기화면에서 “SYSTEM” > “Control Parameter” > “Industrial Communication” > ”Ethernet/IP 어댑터” 로 이동
+초기화면에서 "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP 어댑터" 로 이동
 
 <br>
 

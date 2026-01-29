@@ -2,7 +2,7 @@
 
 <br>
 
-“[**1.2 CIFX PCI 통신 카드 장착 및 설정**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)” 및 “[**1.3  CIFX PCI 통신 설정**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)” 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
+"[**1.2 CIFX PCI 통신 카드 장착 및 설정**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" 및 "[**1.3  CIFX PCI 통신 설정**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
 
 <br>
 
