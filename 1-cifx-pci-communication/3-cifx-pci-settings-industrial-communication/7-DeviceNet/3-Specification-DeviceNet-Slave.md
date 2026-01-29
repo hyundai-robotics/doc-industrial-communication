@@ -1,4 +1,4 @@
-#### 1.3.7.3 DeviceNet Slave Specifications
+﻿#### 1.3.7.3 DeviceNet Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}

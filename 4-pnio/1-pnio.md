@@ -1,4 +1,4 @@
-## 4.1 PROFINET ?
+﻿## 4.1 PROFINET ?
 
  **1. PROFINET**
 - PROFINET is an Ethernet-based communication standard for industrial automation.
@@ -28,7 +28,7 @@
 **3.1.1 LAN Cable Connection**
 1) Connect the PROFINET controller and BD671 using a LAN cable.
 2) Check if the Link LED is blinking.
-3) Connect the Hi7 COM’s LAN3 connector and BD671 using a LAN cable.
+3) Connect the Hi7 COM's LAN3 connector and BD671 using a LAN cable.
 4) Check if the Link LED is blinking.
 
 ![](../_assets/4-pnio/profisafe_connect.png)
@@ -38,7 +38,7 @@
 2) Configure as shown below.
 - EtherCAT Master : ON
 - Port : LAN3
-3) Select "OptionBD – PROFINET_IO" from the slave list and press the Apply button.
+3) Select "OptionBD - PROFINET_IO" from the slave list and press the Apply button.
 4) Reboot the Hi7 robot controller.
 5) After rebooting, check the status of the Run, Communication, Error LEDs.
 
@@ -50,7 +50,7 @@
 **3.2 GSDML File Registration (TIA portal)**
 1) Run the TIA portal.
 2) Navigate as shown on the right in the menu: [Options] → [Manage general station description file (GSD)].
-3) Click the "…" button and set the directory where the GSDML file is located.
+3) Click the "..." button and set the directory where the GSDML file is located.
 4) Select "GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml" from the list displayed on the screen and press the [Install] button.
 5) Check if it has been registered as a new device in the hardware catalog. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)

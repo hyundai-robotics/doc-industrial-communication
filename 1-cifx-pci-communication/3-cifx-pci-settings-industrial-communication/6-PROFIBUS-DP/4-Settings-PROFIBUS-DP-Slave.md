@@ -1,4 +1,4 @@
-#### 1.3.6.4 PROFIBUS-DP Slave Settings
+﻿#### 1.3.6.4 PROFIBUS-DP Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -64,7 +64,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
    - Modules should be specified from the master to match the set byte count.
 
-   - Order: Master Input (64–1) -> Master Output (64–1)
+   - Order: Master Input (64-1) -> Master Output (64-1)
 
    - EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
          - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte

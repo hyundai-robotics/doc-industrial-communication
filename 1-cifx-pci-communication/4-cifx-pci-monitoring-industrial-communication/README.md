@@ -1,8 +1,8 @@
-## 1.4 CIFX PCI Communication Monitoring
+﻿## 1.4 CIFX PCI Communication Monitoring
 
 <br>
 
-After setting the communication according to the procedures of “[**1.2 CIFX PCI - Installing and Setting Industrial Communication Cards**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)” and “[**1.3 CIFX PCI - Setting Industrial Communication**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md),” you can check the operations in the following screens.
+After setting the communication according to the procedures of "[**1.2 CIFX PCI - Installing and Setting Industrial Communication Cards**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" and "[**1.3 CIFX PCI - Setting Industrial Communication**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)," you can check the operations in the following screens.
 
 <br>
 

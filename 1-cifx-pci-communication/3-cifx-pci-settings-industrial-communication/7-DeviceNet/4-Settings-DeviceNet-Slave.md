@@ -52,7 +52,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    [Station Address = Mac ID]
 
-   - The DeviceNet identifies a slave through the station address (MAC ID) (1–63).
+   - The DeviceNet identifies a slave through the station address (MAC ID) (1-63).
 {% endhint %}
 
 {% hint style="info" %}

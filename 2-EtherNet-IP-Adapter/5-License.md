@@ -1,4 +1,4 @@
-## 2.5 EtherNet/IP Adapter License
+﻿## 2.5 EtherNet/IP Adapter License
 
 <br>
 

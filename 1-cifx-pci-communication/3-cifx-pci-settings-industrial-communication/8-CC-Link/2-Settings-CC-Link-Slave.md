@@ -1,4 +1,4 @@
-#### 1.3.8.2 CC-Link Slave Settings
+﻿#### 1.3.8.2 CC-Link Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -44,7 +44,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    [Station Address]
 
-   - The CC-Link identifies the slave through the Station Address (1–64).
+   - The CC-Link identifies the slave through the Station Address (1-64).
 {% endhint %}
 
 {% hint style="info" %}
@@ -66,7 +66,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
    - IO Station: Occupies 1
 
-   - Remote Device: 1–4 selectable
+   - Remote Device: 1-4 selectable
 
    - The size of the assigned IO byte area varies depending on the number of stations occupied.
 {% endhint %}
