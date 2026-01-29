@@ -1,6 +1,6 @@
 ﻿### 1.3.2 SYCON.NET 설정
 
-PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. (“[**1.1 Sycon.net 설치**](../../1-cifx-pci-install-program/1-sycon-net.md)”을 참고하여 설치해주시기 바랍니다.)
+PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. ("[**1.1 Sycon.net 설치**](../../1-cifx-pci-install-program/1-sycon-net.md)"을 참고하여 설치해주시기 바랍니다.)
 
 <br>
 
@@ -32,7 +32,7 @@ PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 
 **4. 가져온 항목을 더블클릭하여 설정합니다.**
 
 {% hint style="info" %}
-   - 가져온 CIFX PCI (그림) “Double Click”
+   - 가져온 CIFX PCI (그림) "Double Click"
 
    - Settings -> Driver 
 
@@ -52,7 +52,7 @@ PCI 통신 카드는 “**Sycon.net**” 프로그램을 이용하여 산업용 
 {% hint style="info" %}
    - Device Assignment -> Scan클릭
 
-   - 통신(Channel Protocol 확인)을 선택 후 “Apply” 이후 “OK”
+   - 통신(Channel Protocol 확인)을 선택 후 "Apply" 이후 "OK"
 {% endhint %}
 
 {% hint style="warning" %}

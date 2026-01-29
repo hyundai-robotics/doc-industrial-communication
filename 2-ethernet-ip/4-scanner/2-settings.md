@@ -1,8 +1,8 @@
-### 2.4.2 EtherNet/IP 스캐너 (마스터) 설정
+﻿### 2.4.2 EtherNet/IP 스캐너 (마스터) 설정
 
 <br>
 
-“[**2.1 네트워크 설정**](../../2-ethernet-ip/1-network.md)" 및 "[**2.2 라이선스 설정**](../../2-ethernet-ip/2-license.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[**2.1 네트워크 설정**](../../2-ethernet-ip/1-network.md)" 및 "[**2.2 라이선스 설정**](../../2-ethernet-ip/2-license.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
@@ -75,13 +75,13 @@
 
 {% hint style="info" %}
    - 연결 예시는 아래 매뉴얼을 참고해주십시오.    
-   - “[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - "[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
 
-   - “[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
 
-   - “[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
 
-   - “[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -127,5 +127,5 @@
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}

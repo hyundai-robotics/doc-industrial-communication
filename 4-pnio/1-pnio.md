@@ -1,4 +1,4 @@
-
+﻿
 ## 4.1 PROFINET ?
 
  **1. PROFINET**
@@ -39,7 +39,7 @@
 2) 아래와 같이 설정
 - EtherCAT Master : ON
 - Port : LAN3
-3) 슬레이브 리스트에서 "OptionBD – PROFINET_IO"를 선택하고 적용 버튼을 누른다.
+3) 슬레이브 리스트에서 "OptionBD - PROFINET_IO"를 선택하고 적용 버튼을 누른다.
 4) Hi7 로봇제어기를 재부팅한다.
 5) 재부팅후 Run & Communication & Error LED 점등 상태를 확인한다.
 
@@ -51,8 +51,8 @@
 **3.2 GSDML 파일 등록 (TIA Portal)**
 1) TIA Portal을 실행
 2) 메뉴에서 우측과 같이 이동 [Options] → [Manage general station description file (GSD)].
-3) “…” 버튼 클릭 후 and GSDML file이 있는 디렉토리를 설정한다.
-4) 화면에 표시된 리스트에서 “GSDML-V2.43-Hyundai-Robotics-HI6-20251127.xml”를 선택하고 [Install] 버튼을 누른다.
+3) "..." 버튼 클릭 후 and GSDML file이 있는 디렉토리를 설정한다.
+4) 화면에 표시된 리스트에서 "GSDML-V2.43-Hyundai-Robotics-HI6-20251127.xml"를 선택하고 [Install] 버튼을 누른다.
 5) 하드웨어 카탈로그에 새로운 장치로 등록되었는지 확인한다. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
@@ -66,16 +66,16 @@
 5) 두 장치 그림에서 랜포트를 마우스 드래그&드랍으로 서로 연결한다.<br>
 ![](../_assets/4-pnio/profisafe_device_network2.png)
 
-6) “Device & Network”화면에서 HRC-IO 장치를 더블 클릭
+6) "Device & Network"화면에서 HRC-IO 장치를 더블 클릭
 7) 원하는 슬롯을 선택한다.
 8) 오른쪽 카탈로그에서 원하는 모듈을(DI, DO, or PROFIsafe I/O) 드래그하여 "Device Overview window"로 이동시킨다.<br>
 ![](../_assets/4-pnio/profisafe_device_network3.png)
 
-9) “Device & Network”화면에서 HRC-IO 장치를 더블 클릭
+9) "Device & Network"화면에서 HRC-IO 장치를 더블 클릭
 10) HRC-IO장치를 다시 클릭하여 Setting화면을 오픈
 11) 아래에서 General 탭으로 이동
 12) 왼쪽 메뉴에서 Ethernet addresses 선택
-13) “Generate PROFINET device name automatically.” 부분 체크 해제
+13) "Generate PROFINET device name automatically." 부분 체크 해제
 14) "PROFINET device name"을 "hd-hrc-hi7"로 설정하고 저장함.<br>
 ![](../_assets/4-pnio/profisafe_device_network4.png)
 

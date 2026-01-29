@@ -1,4 +1,4 @@
-#### 2.3.3.1 LS ELECTRIC PLC와의 연결
+﻿#### 2.3.3.1 LS ELECTRIC PLC와의 연결
 
 <br>
 
@@ -25,7 +25,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 
 <br>
 
-메뉴 > 도구 > EDS(D) > EDS파일 등록 클릭 > “Hi6_EIP_240402.eds” 선택
+메뉴 > 도구 > EDS(D) > EDS파일 등록 클릭 > "Hi6_EIP_240402.eds" 선택
 
 아래 그림과 같이 EDS 파일 등록 확인
 
@@ -164,5 +164,5 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 <br>
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}

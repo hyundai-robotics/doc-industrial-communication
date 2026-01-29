@@ -62,7 +62,7 @@
 **2. 현대 로보틱스 홈페이지에서 프로그램 다운로드**
 
 {% hint style="info" %}
-   [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 “**Sycon.net**”을 다운로드 합니다.
+   [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 산업용 로봇 홈페이지 -> 고객지원 -> 응용소프트웨어에서 "**Sycon.net**"을 다운로드 합니다.
 {% endhint %}
 
 <br>

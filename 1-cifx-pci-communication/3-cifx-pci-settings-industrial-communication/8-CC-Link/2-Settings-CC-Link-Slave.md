@@ -1,13 +1,13 @@
 ﻿#### 1.3.8.2 CC-Link Slave 설정
 
-“[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
    - CC-Link Connector 연결은 아래를 참고해 주십시오.
 
-      (“[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)”)
+      ("[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -87,19 +87,19 @@
 {% hint style="info" %}
    **IO Byte 영역에 대해서는 아래 링크를 참고해 주십시오.**
 
-   **(“[**1.3.8.1 CC-Link Slave 사양**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)”)**
+   **("[**1.3.8.1 CC-Link Slave 사양**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)")**
 {% endhint %}
 
 <br>
 
 **5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 (“[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)”)참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
 <br>
 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  (“[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)”)를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
