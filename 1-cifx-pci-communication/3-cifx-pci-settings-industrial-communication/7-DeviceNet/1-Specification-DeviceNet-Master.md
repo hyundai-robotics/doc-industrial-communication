@@ -1,4 +1,4 @@
-#### 1.3.7.1 DeviceNet Master Specifications
+﻿#### 1.3.7.1 DeviceNet Master Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}

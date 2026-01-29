@@ -1,4 +1,4 @@
-#### 1.3.9.2 CC-Link IE Field Slave Settings
+﻿#### 1.3.9.2 CC-Link IE Field Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -37,13 +37,13 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    [Network Number]
 
-   - CC-Link IE field network number (1–239)
+   - CC-Link IE field network number (1-239)
 {% endhint %}
 
 {% hint style="info" %}
    [Station Address]
 
-   - Device ID within the connected network (1–120)
+   - Device ID within the connected network (1-120)
 {% endhint %}
 
 {% hint style="info" %}

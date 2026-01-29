@@ -1,4 +1,4 @@
-## 2.3 EtherNet/IP Adapter
+﻿## 2.3 EtherNet/IP Adapter
 
 <br>
 
@@ -13,7 +13,7 @@
 |Output Assembly Instance|112|
 |Input Size Range(bytes)|0 - 240|
 |Output Size Range(bytes)|0 - 240|
-|RPI Range (ms)|5 – 3000|<br>
+|RPI Range (ms)|5 - 3000|<br>
 
 <br>
 
@@ -32,8 +32,8 @@ On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial 
 -	Ethernet Port Selection: Select the LAN port to be connected to the Ethernet/IP scanner. (The information of the selected LAN port is displayed on the line immediately below.)<br>
 
 **[I/O Size]**
--	Input Byte Count: 0–240 can be set.
--	Output Byte Count: 0–240 can be set.<br>
+-	Input Byte Count: 0-240 can be set.
+-	Output Byte Count: 0-240 can be set.<br>
 
 **[Monitoring]**
 - Run: Indicates the I/O data exchange status of Ethernet/IP (On: Normal communication. Off: No communication).

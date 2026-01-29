@@ -1,4 +1,4 @@
-## 2.6 Connecting with EtherNet/IP Scanner
+﻿## 2.6 Connecting with EtherNet/IP Scanner
 
 <br>
 

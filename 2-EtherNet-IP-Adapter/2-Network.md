@@ -1,4 +1,4 @@
-## 2.2 EtherNet/IP Adapter Network Settings
+﻿## 2.2 EtherNet/IP Adapter Network Settings
 
 <br>
 

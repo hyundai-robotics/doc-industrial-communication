@@ -1,4 +1,4 @@
-## 2.4 EtherNet/IP Adapter Alarm Codes
+﻿## 2.4 EtherNet/IP Adapter Alarm Codes
 
 <br>
 

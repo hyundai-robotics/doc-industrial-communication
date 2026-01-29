@@ -1,4 +1,4 @@
-#### 1.3.5.1 EtherCAT Master Specifications
+﻿#### 1.3.5.1 EtherCAT Master Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
