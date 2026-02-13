@@ -2,6 +2,11 @@
 [__SOURCE](README.md)
 # Hi6 제어기 기능설명서 - 산업용 통신
 
+[__SOURCE](0-about-this-manual/precautions.md)
+# 사전 주의사항
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI 통신
 

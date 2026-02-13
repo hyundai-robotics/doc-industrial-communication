@@ -2,6 +2,8 @@
 
 * [Hi6 제어기 기능설명서 - 산업용 통신](README.md)
 
+* [사전 주의사항](0-about-this-manual/precautions.md)
+
 * [1. CIFX PCI 통신](1-cifx-pci-communication/README.md)
   * [1.1 CIFX PCI 프로그램 설치](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)
     * [1.1.1 Sycon.net 설치](1-cifx-pci-communication/1-cifx-pci-install-program/1-sycon-net.md)
