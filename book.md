@@ -2,6 +2,11 @@
 [__SOURCE](README.md)
 # Hi7 제어기 기능설명서 - 산업용 통신
 
+[__SOURCE](0-about-this-manual/precautions.md)
+# 사전 주의사항
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI 통신
 
@@ -5767,7 +5772,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**2. EZ-EDS 프로그램으로 EDS 파일을 열어 장치 정보를 확인합니다.**
+**3. EZ-EDS 프로그램으로 EDS 파일을 열어 장치 정보를 확인합니다.**
 
 <br>
 
@@ -5786,7 +5791,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**3. 장치 매뉴얼에서 IO size를 확인합니다.**
+**4. 장치 매뉴얼에서 IO size를 확인합니다.**
 
 <br>
 
@@ -5814,7 +5819,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**4. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
+**5. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
 
 <br>
 
