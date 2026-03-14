@@ -1,4 +1,4 @@
-﻿{
+{
     "langCode": "en",
     "series": "Hi6 Controller",
     "title": "Function Manual - Industrial Communication",
@@ -7,6 +7,9 @@
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
     "docId": "HI6INDUSTRIALCOMM_EN_001",
     "references": [
-        { "rpath" : "doc-hi6-operation/en-tp630" }
+        {
+            "title": "Operation Manual - TP630",
+            "id": "${cont_model:upper}OPTP630_EN"
+        }
     ]
 }
