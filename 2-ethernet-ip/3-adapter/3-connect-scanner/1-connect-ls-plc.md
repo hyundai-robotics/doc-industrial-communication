@@ -25,7 +25,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 
 <br>
 
-메뉴 > 도구 > EDS(D) > EDS파일 등록 클릭 > "Hi6_EIP_240402.eds" 선택
+메뉴 > 도구 > EDS(D) > EDS파일 등록 클릭 > "Hi7_EIP_251023.eds" 선택
 
 아래 그림과 같이 EDS 파일 등록 확인
 
@@ -109,7 +109,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 ![auto6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto6.png)<br>
 *[그림 2.6.1.15 오토 스캔6]*<br>
 
-아래 그림과 같이 Hi6 EtherNet/IP 어댑터 장치가 리스트에 나타납니다.  <br>
+아래 그림과 같이 Hi7 EtherNet/IP 어댑터 장치가 리스트에 나타납니다.  <br>
 ![auto7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto7.png)<br>
 *[그림 2.6.1.16 오토 스캔7]*<br>
 
@@ -133,7 +133,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 
 <br>
 
-[1] 좌측 리스트에서 EB01(Hi6 EtherNet/IP 어댑터)를 더블 클릭 합니다.<br>
+[1] 좌측 리스트에서 EB01(Hi7 EtherNet/IP 어댑터)를 더블 클릭 합니다.<br>
 
 [2] EIP 상세 설정 버튼을 누릅니다.<br>
 ![AdapterSetting1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting1.png)<br>
