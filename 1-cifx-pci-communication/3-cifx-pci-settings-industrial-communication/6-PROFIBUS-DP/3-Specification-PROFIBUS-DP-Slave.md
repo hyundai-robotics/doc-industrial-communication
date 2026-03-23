@@ -1,4 +1,4 @@
-﻿#### 1.3.6.3 PROFIBUS-DP Slave Specifications
+#### 1.3.6.3 PROFIBUS-DP Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,68 +8,67 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>244 bytes</td>
+		<td>最大输入大小</td>
+		<td>244 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>244 bytes</td>
+		<td>最大输出大小</td>
+		<td>244 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
+		<td>IO更新周期</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
+		<td>通信速度</td>
 		<td>9.6 ~ 12,000 Kbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
+		<td>拓扑结构</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Auto Baudrate Detection</td>
-		<td>Supported</td>
+		<td>自动波特率检测</td>
+		<td>支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>PROFIBUS FDL</td>
 	</tr>
 </tbody>
 </table>
 <br>
-

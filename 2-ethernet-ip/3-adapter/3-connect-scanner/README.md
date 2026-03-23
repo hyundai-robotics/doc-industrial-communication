@@ -1,5 +1,5 @@
-﻿### 2.3.3 Connecting External Scanner Devices
+### 2.3.3 连接外部扫描仪设备
 
 <br>
 
-This section explains how to connect the external EtherNet/IP Scanner to the EtherNet/IP Adapter.
+本节解释如何将外部 EtherNet/IP 扫描仪连接到 EtherNet/IP 适配器。

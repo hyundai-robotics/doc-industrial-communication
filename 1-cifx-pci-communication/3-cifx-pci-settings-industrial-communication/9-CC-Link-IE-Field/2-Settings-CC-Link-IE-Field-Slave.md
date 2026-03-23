@@ -1,4 +1,4 @@
-﻿#### 1.3.9.2 CC-Link IE Field Slave Settings
+#### 1.3.9.2 CC-Link IE Field Slave Settings
 
 Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -18,7 +18,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[Caution]**: 如果使用 Sycon.net 配置的文件下载到相应的 PCI 槽，TP 设置将被忽略。
 {% endhint %}
 
 <br>
@@ -43,23 +43,23 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    [Station Address]
 
-   - Device ID within the connected network (1-120)
+   - 连接网络中的设备 ID (1-120)
 {% endhint %}
 
 {% hint style="info" %}
    [IO Type]
 
-   - IO type is determined by the master device settings.   
-      - Mixed: Input and output use different indexes (different addresses).   
-      - Input: Input only   
-      - Output: Output only   
-      - FrontBackMixture: Input and output use the same index (same address).   
+   - IO 类型由主设备设置决定。   
+      - Mixed: 输入和输出使用不同的索引（不同的地址）。   
+      - Input: 仅输入   
+      - Output: 仅输出   
+      - FrontBackMixture: 输入和输出使用相同的索引（相同的地址）。   
 {% endhint %}
 
 {% hint style="info" %}
    [Device Type]
 
-   - The maximum IO size that can be set varies depending on the Device Type.
+   - 可设置的最大 IO 大小因设备类型而异。
 
    - Intelligent Device Station   
       - RY, RX (max): 256 bytes   
@@ -74,12 +74,12 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
    [IO Size]
 
    - Master -> Slave
-      - RWw (word data)
-      - RY (bit data)
+      - RWw (字数据)
+      - RY (位数据)
 
    - Slave -> Master   
-      - RWr (word data)   
-      - RX (bit data)  
+      - RWr (字数据)   
+      - RX (位数据)  
 {% endhint %}
 
 <br>
@@ -93,9 +93,9 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参阅 ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)")。**
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) 
+![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>)

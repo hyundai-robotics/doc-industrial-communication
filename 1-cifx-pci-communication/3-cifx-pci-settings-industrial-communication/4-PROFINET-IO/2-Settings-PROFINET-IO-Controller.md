@@ -1,238 +1,236 @@
-﻿#### 1.3.4.2 PROFINET IO Controller Settings
+#### 1.3.4.2 PROFINET IO 控制器设置
 
-Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[**1.3.2 SYCON.NET Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
-
-<br>
-
-{% hint style="info" %}
-   - When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""[**1.3.2 SYCON.NET Help**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" function.
-{% endhint %}
-
-<br>
-
-**1. Select the PROFINET IO master in the PCI slot settings and reboot the robot controller.**
-
-![[Figure 1.3.4.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_1.png>) 
-
-<br>
-
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+请遵循 "[**1.3.1 CIFX PCI 插槽设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 和 "[**1.3.2 SYCON.NET 设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 程序，然后继续以下方法。
 
 <br>
 
 {% hint style="info" %}
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 使用 SYCON.net 时，如果手册中的说明不足，请参考 "[**1.3.2 SYCON.NET 帮助**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" 功能。
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.4.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_2.png>) 
+**1. 在 PCI 插槽设置中选择 PROFINET IO 主控并重启机器人控制器。**
+
+![[Figure 1.3.4.2-1 PCI 插槽设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_1.png>) 
 
 <br>
 
-**3. Select the PROFINET IO controller PCI device by using Sycon.net.**
-
-![[Figure 1.3.4.2-3 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_3.png>)
-![[Figure 1.3.4.2-4 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_4.png>) 
+**2. 在工业通信监控菜单中检查所选协议的就绪状态。**
 
 <br>
 
-**4. Scan the PCI device and apply the PROFINET IO controller.**
-
-![[Figure 1.3.4.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_5.png>) 
-
-<br>
-
-**5. Download the settings.**
-
-![[Figure 1.3.4.2-6 PROFINET IO Controller Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_6.png>) 
+{% hint style="info" %}
+   - 有关在 TP 上检查工业通信状态的程序，请参考 ("[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
+{% endhint %}
 
 <br>
 
-**6. Prepare the device (slave) module to be connected to the PROFINET IO controller.**
-   * In this example, we use the M9287 PROFINET IO device from Crevis.
-   * Please supply the system power and field power to activate the module.
+![[Figure 1.3.4.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_2.png>) 
+
+<br>
+
+**3. 使用 Sycon.net 选择 PROFINET IO 控制器 PCI 设备。**
+
+![[Figure 1.3.4.2-3 PROFINET IO 主控 PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_3.png>)
+![[Figure 1.3.4.2-4 PROFINET IO 主控 PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_4.png>) 
+
+<br>
+
+**4. 扫描 PCI 设备并应用 PROFINET IO 控制器。**
+
+![[Figure 1.3.4.2-5 Sycon.net 扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_5.png>) 
+
+<br>
+
+**5. 下载设置。**
+
+![[Figure 1.3.4.2-6 PROFINET IO 控制器下载]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_6.png>) 
+
+<br>
+
+**6. 准备要连接到 PROFINET IO 控制器的设备（从属）模块。**
+   * 在本示例中，我们使用 Crevis 的 M9287 PROFINET IO 设备。
+   * 请供应系统电源和现场电源以激活模块。
 
 ![[Figure 1.3.4.2-7 Crevis M9287]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_7.png>) 
 
 <br>
 
 {% hint style="info" %}
-   - How to set the PROFINET IO device name using the DIP switch
+   - 如何使用 DIP 开关设置 PROFINET IO 设备名称
 
-   - M9287-XX: Number set using the DIP switch
+   - M9287-XX: 使用 DIP 开关设置的编号
 
-   - In this example, the name was set to M9287-01 using DIP switch 1.
+   - 在本示例中，名称使用 DIP 开关 1 设置为 M9287-01。
 {% endhint %}
 
 <br>
 
-**7. (DIP switch use example) Set the slave device name using the DIP Switch.**
-   * Change only DIP Switch 1 to ON.
+**7. （DIP 开关使用示例）使用 DIP 开关设置从属设备名称。**
+   * 仅更改 DIP 开关 1 为 ON。
 
-
-![[Figure 1.3.4.2-8 Crevis M9287 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_8.png>)
+![[Figure 1.3.4.2-8 Crevis M9287 DIP 开关]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-   - Please reboot the device after setting the DIP switch.
+   - 设置 DIP 开关后，请重启设备。
 {% endhint %}
 
 <br>
 
-**8. Register the slave device GSDML file.**
+**8. 注册从属设备 GSDML 文件。**
 
 {% hint style="info" %}
-   - A GSDML file is required to use a device not registered in Sycon.net.
+   - 使用未在 Sycon.net 中注册的设备时，需要 GSDML 文件。
 
-   - The GSDML file for the M9287 device can be downloaded from the Crevis website.
+   - M9287 设备的 GSDML 文件可以从 Crevis 网站下载。
 {% endhint %}
 
-![[Figure 1.3.4.2-9 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_9.png>)
+![[Figure 1.3.4.2-9 Crevis GSDML 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_9.png>)
 
 {% hint style="info" %}
-   - Register the downloaded GSDML file in Sycon.net.
+   - 在 Sycon.net 中注册下载的 GSDML 文件。
 
-   - When registering a GSDML file, please check the industrial communication Protocol (PROFINET IO).
+   - 注册 GSDML 文件时，请检查工业通信协议（PROFINET IO）。
 {% endhint %}
 
-![[Figure 1.3.4.2-10 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_10.png>)![[Figure 1.3.4.2-11 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_11.png>)
-![[Figure 1.3.4.2-12 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_12.png>)
+![[Figure 1.3.4.2-10 Crevis GSDML 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_10.png>)![[Figure 1.3.4.2-11 Crevis GSDML 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_11.png>)
+![[Figure 1.3.4.2-12 Crevis GSDML 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_12.png>)
 
-![[Figure 1.3.4.2-13 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_13.png>)
-
+![[Figure 1.3.4.2-13 Crevis GSDML 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_13.png>)
 
 <br>
 
-**9. Network Scan**
+**9. 网络扫描**
 
 {% hint style="info" %}
-   - The PROFINET IO controller supports the Network Scan function.
+   - PROFINET IO 控制器支持网络扫描功能。
 {% endhint %}
 
 {% hint style="info" %}
-   - Right-click the PROFINET IO master device and click Network Scan.
+   - 右击 PROFINET IO 主控设备并单击网络扫描。
 {% endhint %}
 
-![[Figure 1.3.4.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_14.png>)
+![[Figure 1.3.4.2-14 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_14.png>)
 
 {% hint style="warning" %}
-   - If there is no GSDML file registered, the slave information will appear when the Network Scan function is performed, but registration is not possible.
+   - 如果没有注册 GSDML 文件，则在执行网络扫描功能时，将出现从属信息，但无法注册。
 {% endhint %}
 
-![[Figure 1.3.4.2-15 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_15.png>)
+![[Figure 1.3.4.2-15 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-   - If a GSDML file is normally registered, a slave device can be added using the Network Scan function.
+   - 如果正常注册了 GSDML 文件，则可以使用网络扫描功能添加从属设备。
 {% endhint %}
 
-![[Figure 1.3.4.2-16 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_16.png>)
+![[Figure 1.3.4.2-16 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_16.png>)
 
-![[Figure 1.3.4.2-17 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_17.png>)
+![[Figure 1.3.4.2-17 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_17.png>)
 
-![[Figure 1.3.4.2-18 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_18.png>)
+![[Figure 1.3.4.2-18 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_18.png>)
 
 <br>
 
-**10. Configure the slave (device).**
+**10. 配置从属（设备）。**
 
 {% hint style="info" %}
-   - Click Disconnect on the master device to configure the slave device.
+   - 单击主控设备上的断开连接以配置从属设备。
 {% endhint %}
 
-![[Figure 1.3.4.2-19 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_19.png>)
+![[Figure 1.3.4.2-19 从属配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-   - Double-click the slave device.
+   - 双击从属设备。
 {% endhint %}
 
-![[Figure 1.3.4.2-20 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_20.png>)
+![[Figure 1.3.4.2-20 从属配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-   - Add a slot connected to M9287 to set the PROFINET IO slave (device).
+   - 添加连接到 M9287 的插槽以设置 PROFINET IO 从属（设备）。
 
-   - Slot 1 : M7001  
-   - Slot 2 : M12DF  
-   - Slot 3 : M225F  
+   - 插槽 1 : M7001  
+   - 插槽 2 : M12DF  
+   - 插槽 3 : M225F  
 {% endhint %}
 
-![[Figure 1.3.4.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_21.png>)
+![[Figure 1.3.4.2-21 从属配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_21.png>)
 
-![[Figure 1.3.4.2-22 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_22.png>)
+![[Figure 1.3.4.2-22 从属配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_22.png>)
 
 <br>
 
-**11. Configure the master (controller) device**
+**11. 配置主控（控制器）设备**
 
 {% hint style="info" %}
-   - Double-click the Master device.
+   - 双击主控设备。
 {% endhint %}
 
-![[Figure 1.3.4.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_23.png>)
+![[Figure 1.3.4.2-23 主控配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-   - Set the IP addresses of the master and slave devices.
+   - 设置主控和从属设备的 IP 地址。
 
-   - The slave IP address of the PROFINET IO Device is to be set from the master.
+   - PROFINET IO 设备的从属 IP 地址应从主控设置。
 
-   - Please ensure that the IP addresses of the master and slave do not overlap within the same band.
+   - 请确保主控和从属的 IP 地址在同一段内不重叠。
 {% endhint %}
 
-![[Figure 1.3.4.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_24.png>)
+![[Figure 1.3.4.2-24 主控配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_24.png>)
 
-![[Figure 1.3.4.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_25.png>)
+![[Figure 1.3.4.2-25 主控配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-   - Check from the master device if the slot information of the slave device is correct.
+   - 从主控设备检查从属设备的插槽信息是否正确。
 {% endhint %}
 
-![[Figure 1.3.4.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_26.png>)
+![[Figure 1.3.4.2-26 主控配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-   - Check the assigned IO and start address for each slave slot in the address table.
+   - 在地址表中检查每个从属插槽的 IO 和起始地址分配。
 {% endhint %}
 
-![[Figure 1.3.4.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_27.png>)
+![[Figure 1.3.4.2-27 主控配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-   - Set the IO communication speed for the PROFINET IO.
+   - 设置 PROFINET IO 的 IO 通信速度。
 {% endhint %}
 
-![[Figure 1.3.4.2-28 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_28.png>)
+![[Figure 1.3.4.2-28 主控配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-   - After completing settings, proceed with downloading.
+   - 完成设置后，请继续下载。
 {% endhint %}
 
-![[Figure 1.3.4.2-29 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_29.png>)
+![[Figure 1.3.4.2-29 主控配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_29.png>)
 
 <br>
 
-**12. Check the communication status.**
+**12. 检查通信状态。**
 
 {% hint style="info" %}
-   - Check the communication status in Sycon.net and TP.
+   - 在 Sycon.net 和 TP 中检查通信状态。
 
-   - For the procedure to check the industrial communication status on the TP, refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 有关在 TP 上检查工业通信状态的程序，请参阅 ("[**1.4 CIFX PCI 通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 {% hint style="info" %}
-   - Double-click the connected master device to check the communication status.
+   - 双击连接的主控设备以检查通信状态。
 {% endhint %}
 
-![[Figure 1.3.4.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_30.png>)
+![[Figure 1.3.4.2-30 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_30.png>)
 
-![[Figure 1.3.4.2-31 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_31.png>)
+![[Figure 1.3.4.2-31 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_31.png>)
 
 {% hint style="info" %}
-   - Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+   - 使用 Sycon.net 的诊断功能，您可以监控通信状态和输入/输出状态。
 {% endhint %}
 
-![[Figure 1.3.4.2-32 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_32.png>)
+![[Figure 1.3.4.2-32 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_32.png>)
 
 <br>
 
-**13. Assign IO blocks after completing the settings.**
+**13. 在完成设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参见 ("[**4. 工业通信 IO 块分配**](../../../4-io-block-allocation.md)")。**
 {% endhint %}

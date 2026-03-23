@@ -1,29 +1,26 @@
-﻿# 3. EtherCAT Master IO
+# 3. EtherCAT 主控 IO
 
 <br>
 
-This chapter explains how to connect several standard Remote IO modules selected by our company using an EtherCAT Master.
+本章解释如何使用 EtherCAT 主控连接我公司选择的多个标准远程 IO 模块。
 
 <br>
 
-**EtherCAT Overview**
+**EtherCAT 概述**
 
-EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
+EtherCAT 是由 Beckhoff Automation 开发的基于以太网的现场总线系统。
 
-The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization. 
+EtherCAT 协议提供非常快速的 IO 数据更新和精确的同步功能。
 
 <br>
 
-**EtherCAT Master IO**
-   * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
+**EtherCAT 主控 IO**
+   * 对应现有现场总线主控的产品，可以要求 EtherCAT 从设备执行 I/O 数据连接。
 
 <br>
 
 {% hint style="info" %}
-   - An EtherCAT Master uses the general LAN port for the controller.
+   - EtherCAT 主控使用控制器的普通 LAN 端口。
 
-
-   - A Remote IO module uses the M9386 EtherCAT network adapter from Crevis.
+   - 远程 IO 模块使用 Crevis 的 M9386 EtherCAT 网络适配器。
 {% endhint %}
-
-

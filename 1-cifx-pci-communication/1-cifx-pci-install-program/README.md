@@ -1,3 +1,3 @@
-﻿## 1.1 CIFX PCI Program Installation
+## 1.1 CIFX PCI 程序安装
 
-This is the method for installing programs related to industrial communication.
+这是安装与工业通信相关程序的方法。

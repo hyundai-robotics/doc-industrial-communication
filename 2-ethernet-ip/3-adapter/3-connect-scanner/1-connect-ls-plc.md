@@ -1,14 +1,14 @@
-﻿#### 2.3.3.1 LS ELECTRIC PLC
+#### 2.3.3.1 LS ELECTRIC PLC
 
 <br>
 
-This section explains how to connect the LS ELECTRIC PLC with EtherNet/IP.  
-The PLC and communication module used below are as follows.  
-(PLC: XGI-CPUS, Communication Module: XGL-EFMTB)
+本节解释如何将 LS ELECTRIC PLC 与 EtherNet/IP 连接。  
+以下是使用的 PLC 和通讯模块。  
+(PLC: XGI-CPUS, 通信模块: XGL-EFMTB)
 
 <br>
 
-**1. XG5000 Running**
+**1. XG5000 运行**
 
 <br>
 
@@ -16,16 +16,16 @@ The PLC and communication module used below are as follows.
 
 <br>
 
-For downloading the XG5000 program and detailed usage methods, please refer to the LS ELECTRIC website.
+有关下载 XG5000 程序和详细使用方法，请参考 LS ELECTRIC 网站。
 
 <br>
 
-**2. EDS File Registration**
+**2. EDS 文件注册**
 
 <br>
 
-Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi6_EIP_240402.eds."
-Confirm EDS file registration as shown in the figure below.
+点击菜单 > 工具 > EDS(D) > EDS 文件注册，然后选择 "Hi6_EIP_240402.eds."  
+确认如下面图所示的 EDS 文件注册。
 
 <br>
 
@@ -33,14 +33,14 @@ Confirm EDS file registration as shown in the figure below.
 
 <br>
 
-**3. Device Connection**
+**3. 设备连接**
 
 <br>
 
-[1] Create a project.<br>
+[1] 创建项目。<br>
 ![newProject_1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_1.png)<br>
 
-[2] Add a communication module.<br>
+[2] 添加通讯模块。<br>
 ![newProject_2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_2.png)<br>
 
 ![newProject_3.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_3.png)<br>
@@ -49,100 +49,100 @@ Confirm EDS file registration as shown in the figure below.
 
 <br>
 
-[3] Set a communication module <br>
-Double-click XGL-EFMT shown in the left tab in the figure below.<br>
+[3] 设置通讯模块 <br>
+双击下图左侧选项卡中的 XGL-EFMT。<br>
 ![newProject_6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_6.png)
 
 <br>
 
-- Set the IP address, subnet mask, gateway, etc.  
-- To use the two LAN ports of the PLC as a relay function, select the "Relay" checkbox.  
-- Change the RAPIEnet setting to Disable.
+- 设置 IP 地址、子网掩码、网关等。  
+- 要将 PLC 的两个 LAN 端口用作继电器功能，请选择 "Relay" 复选框。  
+- 将 RAPIEnet 设置更改为禁用。
 
 <br>
 
-**4. Online Connection Settings**
+**4. 在线连接设置**
 
 <br>
 
-[1] Connect the PLC with a USB cable.<br>
+[1] 使用 USB 数据线连接 PLC。<br>
 ![newProject_7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_7.png)<br>
 
-[2] Press the button shown on the left in the figure below to download the entire settings.<br>
+[2] 按照下图左侧所示的按钮下载所有设置。<br>
 ![newProject_8.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_8.png)<br>
 
 <br>
 
-**5. Auto Scan**
+**5. 自动扫描**
 
 <br>
 
-[1] Auto Scan is possible when connected to the PLC.<br>
-If the current state is not online, click Menu > Online > Connect to change to online status.<br>
+[1] 连接到 PLC 后，自动扫描是可能的。<br>
+如果当前状态不是在线，请点击菜单 > 在线 > 连接以更改为在线状态。<br>
 
-[2] Right-click XGL-EFMT > Add Item > Smart Expansion<br>
+[2] 右键单击 XGL-EFMT > 添加项目 > 智能扩展<br>
 ![auto1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto1.png)<br>
 
-[3] Click Next. <br>
+[3] 点击下一步。 <br>
 ![auto2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto2.png)<br>
 
-[4] Click Auto Scan. <br>
+[4] 点击自动扫描。 <br>
 ![auto3.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto3.png)<br>
 
 ![auto4.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto4.png)<br>
 
-[5] Check the automatically scanned devices.  
+[5] 检查自动扫描到的设备。  
 ![auto5.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto5.png)<br>
 
 ![auto6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto6.png)<br>
 
-The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure below. <br>
+Hi6 EtherNet/IP 适配器设备出现在下图所示的列表中。 <br>
 ![auto7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto7.png)<br>
 
 <br>
 
-**6. Program Variable Registration**
+**6. 程序变量注册**
 
 <br>
 
-[1] Scan Program > NewProgram > Local Variables (double-click)<br>
+[1] 扫描程序 > NewProgram > 本地变量 (双击)<br>
 ![variable1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/variable1.png)<br>
 
-[2] Set the input/output data to be used in communication.<br>
+[2] 设置要在通信中使用的输入/输出数据。<br>
 ![variable2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/variable2.png)<br>
 
 <br>
 
-**7. EtherNet/IP Adapter Settings**
+**7. EtherNet/IP 适配器设置**
 
 <br>
 
-[1] Double-click EB01 (Hi6 EtherNet/IP adapter) in the list on the left.<br>
+[1] 在左侧列表中双击 EB01 (Hi6 EtherNet/IP 适配器)。<br>
 
-[2] Press the EIP detailed settings button.<br>
+[2] 按下 EIP 详细设置按钮。<br>
 ![AdapterSetting1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting1.png)<br>
 
-[3] Refer to the figure below to select the setting values for the EtherNet/IP adapter. <br>
-- Connection type
-- T2O RPI Range, O2T RPI Range
-- T2O Input, O2T Output size
-- Transmission cycle
-- Timeout
-- Local tag, Remote tag <br>
+[3] 请参考下图选择 EtherNet/IP 适配器的设置值。 <br>
+- 连接类型
+- T2O RPI 范围，O2T RPI 范围
+- T2O 输入，O2T 输出大小
+- 传输周期
+- 超时
+- 本地标签，远程标签 <br>
 ![AdapterSetting2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting2.png) <br>
 
-[4] Click Online > Communication Module Settings and Diagnostics > Service Enable.<br>
+[4] 点击在线 > 通讯模块设置和诊断 > 服务启用。<br>
 ![AdapterSetting3.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting3.png)<br>
 
-[5] Check the FEnet I/O Service checkbox.<br>
+[5] 勾选 FEnet I/O 服务复选框。<br>
 ![AdapterSetting4.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting4.png)<br>
 
 <br>
 
-**8. Assignment of IO Blocks after Completion of Communication Settings**
+**8. 通信设置完成后的 IO 块分配**
 
 <br>
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../4-io-block-allocation.md)").**
+   **完成通信设置后，可以通过分配 IO 块来使用输入/输出信号。请参阅 ("[**4. 工业通信 IO 块分配**](../../4-io-block-allocation.md)")。**
 {% endhint %}

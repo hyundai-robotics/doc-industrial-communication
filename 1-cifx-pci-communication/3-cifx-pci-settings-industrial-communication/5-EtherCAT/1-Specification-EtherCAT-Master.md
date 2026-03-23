@@ -1,4 +1,4 @@
-﻿#### 1.3.5.1 EtherCAT Master Specifications
+#### 1.3.5.1 EtherCAT Master Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,125 +8,125 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Maximum Connectable Slave Count</td>
+		<td>最大可连接从设备数量</td>
 		<td>200</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>1200 bytes</td>
+		<td>最大输入大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>1200 bytes</td>
+		<td>最大输出大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size (1 slave)</td>
-		<td>256 bytes</td>
+		<td>最大输入大小（1 个从设备）</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size (1 slave)</td>
-		<td>256 bytes</td>
+		<td>最大输出大小（1 个从设备）</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO 连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 250us (1ms Recommended)</td>
+		<td>IO 更新周期</td>
+		<td>最小 250us (推荐 1ms)</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>100 Mbit/s (Full-duplex)</td>
+		<td>通信速度</td>
+		<td>100 Mbit/s (全双工)</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Line, Ring</td>
+		<td>拓扑结构</td>
+		<td>线型，环形</td>
 	</tr>
     <tr>
-		<td>Network Slave Scan</td>
-		<td>Supported</td>
+		<td>网络从设备扫描</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Redendance</td>
-		<td>Supported (Cannot be applied simultaneously with synchronization)</td>
+		<td>冗余</td>
+		<td>支持（与同步无法同时应用）</td>
 	</tr>
     <tr>
-		<td>Synchronization</td>
-		<td>DC (Distributed Clocks)</td>
+		<td>同步</td>
+		<td>DC（分布式时钟）</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>Ethernet II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
+		<td>接口类型</td>
 		<td>100 BASE-T Ethernet</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Not supported</td>
+		<td>自动协商</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Forbidden</td>
+		<td>集线器</td>
+		<td>禁止</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Only allowed between Master and 1st Slave</td>
+		<td>交换机</td>
+		<td>仅允许在主设备和第一个从设备之间</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>最低 Cat5，STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大 100m</td>
 	</tr>
 </tbody>
 </table>

@@ -1,53 +1,53 @@
-﻿#### 1.3.7.5 DeviceNet Error Handling
+#### 1.3.7.5 DeviceNet 错误处理
 
 <br>
 
-Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+请参阅 "[**1.4.1 错误代码**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 
 <br>
 
-**1. DeviceNet termination resistor**
+**1. DeviceNet 终端电阻**
 
 {% hint style="info" %}
-   - A resistor should be added at the termination when connecting the DeviceNet cable.
+   - 连接 DeviceNet 电缆时，应在终端处添加电阻器。
 
-   - If the Network Scan function does not work, please check the termination resistor.
+   - 如果网络扫描功能无法正常工作，请检查终端电阻器。
 
-   - DeviceNet termination resistor: 120 ohms
+   - DeviceNet 终端电阻：120 欧姆
 {% endhint %}
 
 {% hint style="info" %}
-   - As shown in the figure below, if the CIFX-50 DN PCI is at the DeviceNet termination, please add a termination resistor.
+   - 如下图所示，如果 CIFX-50 DN PCI 位于 DeviceNet 终端，请添加终端电阻。
 {% endhint %}
 
 ![[Figure 1.3.7.5-1 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
 
 {% hint style="info" %}
-   - As shown in the figure below, if the DeviceNet Remote IO is at the termination, please add a termination resistor or operate the DIP switch.
+   - 如下图所示，如果 DeviceNet 远程 IO 位于终端，请添加终端电阻或操作 DIP 开关。
 {% endhint %}
 
 ![[Figure 1.3.7.5-2 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
 
 <br>
 
-**2. Communication Speed**
+**2. 通信速度**
 
 {% hint style="info" %}
-   - If the communication speed differs between the DeviceNet master and slave, the Network Scan function may not work.
+   - 如果 DeviceNet 主设备和从设备之间的通信速度不同，则网络扫描功能可能无法正常工作。
 
-   - If the Network Scan function does not work, please check the communication speed.
+   - 如果网络扫描功能无法正常工作，请检查通信速度。
 {% endhint %}
 
 ![[Figure 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
 
 <br>
 
-**3. DeviceNet ERROR**
+**3. DeviceNet 错误**
 
 {% hint style="info" %}
-   - If a 24V power is not supplied to the DeviceNet cable, the following error will appear.
+   - 如果未向 DeviceNet 电缆提供 24V 电源，则会出现以下错误。
 
-   - Please check the 24V power supply.
+   - 请检查 24V 电源供应。
 {% endhint %}
 
-![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
+![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>)

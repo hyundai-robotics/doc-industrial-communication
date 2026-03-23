@@ -1,26 +1,25 @@
-﻿### 1.3.6 PROFIBUS-DP
+### 1.3.6 PROFIBUS-DP
 
-This chapter describes the characteristics of the PROFIBUS-DP master and slave and how to set them. 
-
-<br>
-
-**Fieldbus Overview**
-
-Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
-
-Fieldbus provides intelligent services such as central monitoring of the status of the entire network and reconfiguration of the network.
-
-For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
-
-Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
-
-Also, unlike protocols with non-deterministic response characteristics of general communications, fieldbuses guarantee data response speed to satisfy industrial applications where critical time characteristics are important.
-
-![[Figure 1.3.6-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/image_1.png>) 
+本章描述了PROFIBUS-DP主设备和从设备的特性以及如何设置它们。
 
 <br>
 
-One fieldbus network connects one master device and multiple slave devices.
-The master device searches and manages the entire network and exchanges data with slave devices.
+**现场总线概述**
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
+现场总线是一个行业标准，旨在通过单一电缆将传感器、按钮、电机驱动器和操作界面等设备连接到PLC（可编程逻辑控制器）并在工厂中运行。
+
+现场总线提供智能服务，例如对整个网络状态的中央监控和网络的重新配置。
+
+例如，可以为传感器和开关设置详细的信息、操作和模式，而不仅仅是简单的开/关。
+
+使用单一电缆可以减少布线的时间和成本，简化配置，并提供维护上的优势。
+
+此外，与一般通信的非确定性响应特性协议不同，现场总线保证数据响应速度以满足对时间特性重要的工业应用。
+
+![[Figure 1.3.6-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/image_1.png>)
+
+<br>
+
+一个现场总线网络连接一个主设备和多个从设备。 主设备搜索和管理整个网络，并与从设备交换数据。
+
+通常，PLC是主设备，而传感器、按钮、控制器等可以配置为从设备。

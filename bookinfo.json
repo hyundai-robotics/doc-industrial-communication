@@ -1,15 +1,15 @@
-{
-    "langCode": "en",
-    "series": "Hi7 Controller",
-    "title": "Function Manual - Industrial Communication",
+﻿{
+    "langCode": "zh",
+    "series": "Hi7 控制器",
+    "title": "功能手册 - 工业通讯",
     "publisher": "HD Hyundai Robotics",
-    "tocTitle": "Table of Contents",
+    "tocTitle": "目录",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
-    "docId": "HI7INDUSTRIALCOMM_EN_001",
+    "docId": "HI7INDUSTRIALCOMM_ZH_001",
     "references": [
         {
-            "title": "${cont_model} Controller Operation Manual - TP630",
-            "id": "${cont_model:upper}OPTP630_EN"
+            "title": "${cont_model} 控制器操作手册 - TP630",
+            "id": "${cont_model:upper}OPTP630_ZH"
         }
     ]
 }

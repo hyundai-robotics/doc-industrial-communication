@@ -1,5 +1,4 @@
-﻿### 2.3.1 EtherNet/IP Adapter Specifications (Slave)
-
+### 2.3.1 EtherNet/IP适配器规格 (从站)
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -9,124 +8,124 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th colspan=2, class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th colspan=2, class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-        <td>Connection</td>
-        <td>O (Master) -> T (Slave)</td>
-		<td>T (Slave) -> O (Master)</td>
+        <td>连接</td>
+        <td>O (主站) -> T (从站)</td>
+		<td>T (从站) -> O (主站)</td>
 	</tr>
     <tr>
-        <td>Maximum IO Size</td>
-        <td>240 bytes</td>
-		<td>240 bytes</td>
+        <td>最大IO大小</td>
+        <td>240字节</td>
+		<td>240字节</td>
 	</tr>
     <tr>
-        <td>Instance No.</td>
+        <td>实例号</td>
         <td>112 (0x70)</td>
 		<td>100 (0x64)</td>
 	</tr>
     <tr>
-        <td>Real-Time Transfer Format</td>
-        <td>32-bit run/idle header</td>
-		<td>None</td>
+        <td>实时传输格式</td>
+        <td>32位运行/空闲头部</td>
+		<td>无</td>
 	</tr>
 	<tr>
-        <td>Connection Type</td>
-        <td>Point to Point</td>
-		<td>Point to Point</td>
+        <td>连接类型</td>
+        <td>点对点</td>
+		<td>点对点</td>
 	</tr>
 	<tr>
-        <td>Priority</td>
-        <td>Scheduled</td>
-		<td>Scheduled</td>
+        <td>优先级</td>
+        <td>计划</td>
+		<td>计划</td>
 	</tr>
     <tr>
-		<td>IO Cycle Time (RPI)</td>
-		<td colspan=2>Min. 5ms</td>
+		<td>IO周期时间 (RPI)</td>
+		<td colspan=2>最小 5ms</td>
 	</tr>
     <tr>
-		<td>Device Type</td>
-		<td colspan=2>General Purpose Discrete I/O</td>
+		<td>设备类型</td>
+		<td colspan=2>通用离散I/O</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td colspan=2>10 or 100 Mbit/s</td>
+		<td>通信速度</td>
+		<td colspan=2>10或100 Mbit/s</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td colspan=2>Not supported</td>
+		<td>快速连接</td>
+		<td colspan=2>不支持</td>
 	</tr>
     <tr>
-		<td >IP Allocation Method</td>
-		<td colspan=2>Static IP Address</td>
+		<td >IP分配方法</td>
+		<td colspan=2>静态IP地址</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>Ethernet II, IEEE 802.3</td>
+		<td>数据传输层</td>
+		<td>以太网 II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>10 or 100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>10或100 BASE-T以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Supported</td>
+		<td>自协商</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Allowed</td>
+		<td>集线器</td>
+		<td>允许</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Allowed</td>
+		<td>交换机</td>
+		<td>允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>最低Cat5, STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大100m</td>
 	</tr>
 </tbody>
 </table>

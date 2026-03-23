@@ -1,114 +1,114 @@
-﻿## 4.1 PROFINET ?
+## 4.1 PROFINET ?
 
  **1. PROFINET**
-- PROFINET is an Ethernet-based communication standard for industrial automation.
-- It supports real-time data exchange between controllers (PLCs, robot controllers, etc.) and distributed I/O devices (drives, sensors, modules, etc.).
+- PROFINET是一个基于以太网的工业自动化通信标准。
+- 它支持控制器（PLC、机器人控制器等）与分布式I/O设备（驱动器、传感器、模块等）之间的实时数据交换。
 
-**2. PROFINET Specifications**
-- Digital input: 50, 120, and 240 bytes (select one type of byte count)
-- Digital output: 50, 120, and 240 bytes (select one type of byte count)
-- Safety I/O: 8/8 bytes (activated or deactivated)
-- Minimum communication cycle: 1 msec
-- Supported communication speed: 10 or 100 Mbps
-- Conformance Class: B
-- Netload Class: II
-- Optional Feature: Legacy, MRP
+**2. PROFINET规格**
+- 数字输入：50、120和240字节（选择一种字节计数类型）
+- 数字输出：50、120和240字节（选择一种字节计数类型）
+- 安全I/O：8/8字节（激活或禁用）
+- 最小通信周期：1毫秒
+- 支持的通信速度：10或100 Mbps
+- 合规性等级：B
+- 网络负载等级：II
+- 可选功能：遗留、MRP
 
-**3. PROFINET Configuration Procedure**
+**3. PROFINET配置程序**
 
-1) Connection of BD671, PROFINET controller and Hi7 Com
-2) GSDML file registration (TIA portal)
-3) PROFINET controller settings (TIA portal)
-4) Hi7 settings (TP UI)
-5) PROFINET communication verification
-6) PROFINET I/O signal assignment (FB block settings)
+1) 连接BD671、PROFINET控制器和Hi7 Com
+2) GSDML文件注册（TIA portal）
+3) PROFINET控制器设置（TIA portal）
+4) Hi7设置（TP UI）
+5) PROFINET通信验证
+6) PROFINET I/O信号分配（FB块设置）
 
-**3.1 Connection of BD671, F-Host and Hi7 Com**
+**3.1 连接BD671、F-Host和Hi7 Com**
 
-**3.1.1 LAN Cable Connection**
-1) Connect the PROFINET controller and BD671 using a LAN cable.
-2) Check if the Link LED is blinking.
-3) Connect the Hi7 COM's LAN3 connector and BD671 using a LAN cable.
-4) Check if the Link LED is blinking.
+**3.1.1 LAN电缆连接**
+1) 使用LAN电缆连接PROFINET控制器和BD671。
+2) 检查链接LED是否在闪烁。
+3) 使用LAN电缆连接Hi7 COM的LAN3接口和BD671。
+4) 检查链接LED是否在闪烁。
 
 ![](../_assets/4-pnio/profisafe_connect.png)
 
-**3.1.2 Hi7 Com Connection Settings**
-1) Navigate to the menu as follows: System -> Control Parameters -> Industrial Communication -> EtherCAT Master Settings
-2) Configure as shown below.
-- EtherCAT Master : ON
-- Port : LAN3
-3) Select "OptionBD - PROFINET_IO" from the slave list and press the Apply button.
-4) Reboot the Hi7 robot controller.
-5) After rebooting, check the status of the Run, Communication, Error LEDs.
+**3.1.2 Hi7 Com连接设置**
+1) 按如下菜单导航：系统 -> 控制参数 -> 工业通信 -> EtherCAT主设置
+2) 按如下设置。
+- EtherCAT主：开启
+- 端口：LAN3
+3) 从从站列表中选择“OptionBD - PROFINET_IO”，然后按应用按钮。
+4) 重启Hi7机器人控制器。
+5) 重启后，检查运行、通信、错误LED的状态。
 
 ![](../_assets/4-pnio/EC_master_setting1.png)
 <br> <br>
 ![](../_assets/4-pnio/EC_master_setting2.png)
 
 
-**3.2 GSDML File Registration (TIA portal)**
-1) Run the TIA portal.
-2) Navigate as shown on the right in the menu: [Options] → [Manage general station description file (GSD)].
-3) Click the "..." button and set the directory where the GSDML file is located.
-4) Select "GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml" from the list displayed on the screen and press the [Install] button.
-5) Check if it has been registered as a new device in the hardware catalog. <br>
+**3.2 GSDML文件注册（TIA portal）**
+1) 运行TIA portal。
+2) 在菜单中按如下导航：[选项] → [管理通用站描述文件（GSD）]。
+3) 点击“...”按钮，设置GSDML文件所在的目录。
+4) 从屏幕上显示的列表中选择“GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml”，然后按[安装]按钮。
+5) 检查其是否已作为新设备在硬件目录中注册。 <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
-**3.3 PROFINET Controller Settings (TIA portal)**
-1) Run the TIA portal and create a new project.
-2) Double-click the Device & Network section to open it.<br>
+**3.3 PROFINET控制器设置（TIA portal）**
+1) 运行TIA portal并创建一个新项目。
+2) 双击设备与网络部分以打开。<br>
 ![](../_assets/4-pnio/profisafe_device_network.png)
 
-3) Select a controller that supports PROFINET communication (e.g., CPU 1511F-1 PN) and drag it to the network view.
-4) Add the device (HRC, PROFINET I/O DAP) added in the previous step from the hardware catalog and drag it to the network view.
-5) Connect the two devices by dragging and dropping the LAN ports in the two device figures.<br>
+3) 选择支持PROFINET通信的控制器（例如，CPU 1511F-1 PN），并将其拖到网络视图中。
+4) 从硬件目录中添加上一步中添加的设备（HRC，PROFINET I/O DAP）并拖到网络视图中。
+5) 通过拖动和放置两个设备图形中的LAN端口连接这两个设备。<br>
 ![](../_assets/4-pnio/profisafe_device_network2.png)
 
-6) Double-click the HRC-IO device in the "Device & Network" screen.
-7) Select the desired slot.
-8) Drag the desired module (DI, DO, or PROFIsafe I/O) from the catalog on the right and move it to the "Device Overview window."<br>
+6) 双击“设备与网络”屏幕中的HRC-IO设备。
+7) 选择所需插槽。
+8) 从右侧目录中拖动所需模块（DI、DO或PROFIsafe I/O）并移动到“设备概述窗口”。<br>
 ![](../_assets/4-pnio/profisafe_device_network3.png)
 
-9) Double-click the HRC-IO device in the "Device & Network" screen.
-10) Click the HRC-IO device again to open the Settings screen.
-11) Navigate to the General tab below.
-12) Select Ethernet addresses from the menu on the left.
-13) Uncheck "Generate PROFINET device name automatically."
-14) Set "PROFINET device name" to "hd-hrc-0" and save.<br>
+9) 双击“设备与网络”屏幕中的HRC-IO设备。
+10) 再次单击HRC-IO设备以打开设置屏幕。
+11) 导航到下方的常规选项卡。
+12) 从左侧菜单中选择以太网地址。
+13) 取消勾选“自动生成PROFINET设备名称”。
+14) 将“PROFINET设备名称”设置为“hd-hrc-0”，并保存。<br>
 ![](../_assets/4-pnio/profisafe_device_network4.png)
 
-**3.4 Hi7 Settings (TP UI)**
-1) Set the parameters to the values below, which are the same as those set in the PNIO controller.
-- PROFINET IO Device Name : hd-hrc-0
-- Slot 1 : Digital Input : 240
-- Slot 2 : Digital Output : 240
-- Slot 3 : Safety I/O : No
-- (No need to change the IP address.)
-2) Press the "Apply" button.<br>
+**3.4 Hi7设置（TP UI）**
+1) 将参数设置为以下值，这些值与PNIO控制器中的设置相同。
+- PROFINET IO设备名称：hd-hrc-0
+- 插槽1：数字输入：240
+- 插槽2：数字输出：240
+- 插槽3：安全I/O：无
+- （无需更改IP地址。）
+2) 按“应用”按钮。<br>
 ![](../_assets/4-pnio/4_1_profinet_config.png)
 
-**3.5 PROFINET Communication Verification**
-**3.5.1 Ladder Program (TIA portal)**
-1) In the Device Overview tab, create a ladder program as shown below and download it to the controller.<br>
+**3.5 PROFINET通信验证**
+**3.5.1 梯形图程序（TIA portal）**
+1) 在设备概述选项卡中，创建如下所示的梯形图程序并下载到控制器中。<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder.png)
-2) After downloading, check if a green checkbox is displayed on the Distribution I/O screen.<br>
+2) 下载后，检查在分配I/O屏幕上是否显示绿色勾选框。<br>
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
-**3.5.2 TP Screen**
-In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Status.<br>
+**3.5.2 TP屏幕**
+在菜单中，导航到系统 -> 安全系统 -> 监控 -> PROFINET状态。<br>
 ![](../_assets/4-pnio/5_2_pnio_status.png)
-- Check the status information of each slot.
-- Check if the counter continuously increases.
+- 检查每个插槽的状态信息。
+- 检查计数器是否持续增加。
 
 
-**3.6 PROFINET I/O Signal Assignment (FB block settings)**
-1) Navigate to System → Control Parameters → Input/Output Signal Settings → FB Block Assignment
-2) Change the block settings to PROFINET I/O as many as needed (up to two).
- (The maximum PROFINET I/O size is 240 bytes and the individual FB block size is 120 bytes. Therefore, **any settings exceeding two will be ignored.**)<br>
+**3.6 PROFINET I/O信号分配（FB块设置）**
+1) 导航到系统 → 控制参数 → 输入/输出信号设置 → FB块分配
+2) 根据需要将块设置更改为PROFINET I/O（最多两个）。
+ （最大PROFINET I/O大小为240字节，单个FB块大小为120字节。因此，**任何超过两个的设置将被忽略。**）<br>
 ![](../_assets/4-pnio/6_fb_block.png)
 
-3) Additionally, navigate to the Condition Settings menu and check if the PLC operation mode is OFF.<br>
+3) 此外，导航到条件设置菜单并检查PLC操作模式是否为OFF。<br>
 ![](../_assets/4-pnio/6_1_condition.png)
-4) Check the input/output signals on the TIA portal screen and General I/O screen.<br>
+4) 检查TIA portal屏幕和通用I/O屏幕上的输入/输出信号。<br>
 ![](../_assets/4-pnio/6_3_public_io.png)

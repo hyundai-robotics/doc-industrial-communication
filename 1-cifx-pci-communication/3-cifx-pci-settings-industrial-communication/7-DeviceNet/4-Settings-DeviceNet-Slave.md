@@ -1,91 +1,90 @@
-﻿#### 1.3.7.4 DeviceNet Slave Settings
+#### 1.3.7.4 DeviceNet从站设置
 
-Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循 "[**1.3.1 CIFX PCI插槽设置**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 过程，然后继续以下方法。
 
 <br>
 
 {% hint style="info" %}
-   **[DeviceNet Slave EDS File Download]**
+   **[DeviceNet从站EDS文件下载]**
 
-   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)."
+   - 请参考 "[**5. 从设备描述文件**](../../../5-slave-config-file.md)." 
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - For DeviceNet connector connection, please refer to the following.
+   - 关于DeviceNet连接器连接，请参见以下内容。
 
-      ("[**1.2.2 Connector**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[**1.2.2 连接器**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select a DeviceNet slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用TP，在工业通信固件设置中选择DeviceNet从站，并重新启动机器人控制器。**
 
-![[Figure 1.3.7.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[图 1.3.7.4-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 检查工业通信监控菜单中的当前通信协议就绪状态。**
 
-![[Figure 1.3.7.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_2.png>) 
+![[图 1.3.7.4-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[警告]**: 如果使用Sycon.net设置的配置文件被下载到相应的PCI插槽，TP设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > DeviceNet Slave]**
+**3. 触摸菜单以进入从站设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI从槽设置 > DeviceNet从站]**
 
-![[Figure 1.3.7.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
+![[图 1.3.7.4-3 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.7.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_4.png>) 
-
-<br>
-
-**4. Description of each item**
-
-{% hint style="info" %}
-   [Station Address = Mac ID]
-
-   - The DeviceNet identifies a slave through the station address (MAC ID) (1-63).
-{% endhint %}
-
-{% hint style="info" %}
-   [Communication Speed (Baudrate)]
-
-   - You can select among 125, 250, and 500 Kbit/s.
-{% endhint %}
-
-{% hint style="info" %}
-   [Input Byte Count (Input Byte)]
-
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
-{% endhint %}
-
-{% hint style="info" %}
-   [Output Byte Count (Output Byte)]
-
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
-{% endhint %}
-
+![[图 1.3.7.4-4 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_4.png>) 
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+**4. 各项描述**
 
-For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+{% hint style="info" %}
+   [站地址 = Mac ID]
 
-![[Figure 1.3.7.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_5.png>) 
+   - DeviceNet通过站地址（MAC ID）识别从站（1-63）。
+{% endhint %}
+
+{% hint style="info" %}
+   [通讯速度 (波特率)]
+
+   - 您可以选择125、250和500 Kbit/s。
+{% endhint %}
+
+{% hint style="info" %}
+   [输入字节计数 (输入字节)]
+
+   - 输入字节计数：设置从主站到从站的数据输入大小。
+{% endhint %}
+
+{% hint style="info" %}
+   [输出字节计数 (输出字节)]
+
+   - 输出字节计数：设置从站到主站的数据输出大小。
+{% endhint %}
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**5. 完成设置后，请按照以下程序检查通信状态。**
+
+有关在TP上检查工业通信状态的程序，请参考 ("[**1.4 CIFX PCI通信监控**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
+
+![[图 1.3.7.4-5 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_5.png>) 
+
+<br>
+
+**6. 完成通信设置后分配IO块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../../../4-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配IO块使用输入/输出信号。请参考 ("[**4. 工业通信IO块分配**](../../../4-io-block-allocation.md)").**
 {% endhint %}

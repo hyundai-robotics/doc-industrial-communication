@@ -1,4 +1,4 @@
-﻿### 1.4.1 ERROR Code
+### 1.4.1 错误代码
 
 <br>
 
@@ -14,73 +14,72 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table class="tg">
 <thead>
 	<tr>
-		<th>Error Code</th>
-		<th>Description</th>
-		<th>Action</th>
+		<th>错误代码</th>
+		<th>描述</th>
+		<th>操作</th>
 	</tr>
 </thead>
 
 <tbody>
 	<tr>
 		<td>0x00000000</td>
-		<td>Normal</td>
+		<td>正常</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0xC000000C</td>
-		<td>Watchdog timeout between controller and PCI</td>
-		<td>Please check the status of the controller and device. They can be reset by restarting communication.</td>
+		<td>控制器和PCI之间的看门狗超时</td>
+		<td>请检查控制器和设备的状态。可以通过重新启动通信来重置它们。</td>
 	</tr>
     <tr>
 		<td>0xC0000123</td>
-		<td>No license</td>
-		<td>Please check if you have a license for master. </td>
+		<td>无许可证</td>
+		<td>请检查您是否拥有主控的许可证。</td>
 	</tr>
     <tr>
 		<td>0xC0000140</td>
-		<td>Communication error</td>
-		<td>Please check the status or connection of the device.</td>
+		<td>通信错误</td>
+		<td>请检查设备的状态或连接。</td>
 	</tr>
     <tr>
 		<td>0xC0000141</td>
-		<td>Connection lost</td>
-		<td>Please check the status or connection of the device.</td>
+		<td>连接丢失</td>
+		<td>请检查设备的状态或连接。</td>
 	</tr>
     <tr>
 		<td>0xC0000142</td>
-		<td>Connection waiting timeout</td>
-		<td>Please check the status or connection of the device.</td>
+		<td>连接等待超时</td>
+		<td>请检查设备的状态或连接。</td>
 	</tr>
     <tr>
 		<td>0xC0000144</td>
-		<td>Duplicate IP address</td>
-		<td>Check the IP addresses of connected devices and change the duplicate addresses.</td>
+		<td>重复IP地址</td>
+		<td>检查连接设备的IP地址并更改重复的地址。</td>
 	</tr>
     <tr>
 		<td>0xC0000145</td>
-		<td>Cable not connected</td>
-		<td>Please check the connection status of the communication cable.</td>
+		<td>电缆未连接</td>
+		<td>请检查通讯电缆的连接状态。</td>
 	</tr>
     <tr>
 		<td>0xC0000180</td>
-		<td>Communication bus off flag set <br> [Possible causes] <br> - CAN High/Low communication line short circuit detected <br> - Unstable power supply voltage <br> - Continuous network errors due to noise, etc.</td>
-		<td>Check the contact status or wiring of the communication cable, and reset the device.</td>
+		<td>通信总线关闭标志已设置 <br> [可能的原因] <br> - 检测到CAN高/低通信线路短路 <br> - 不稳定的电源电压 <br> - 由于噪声等原因导致的持续网络错误</td>
+		<td>检查通信电缆的接触状态或接线，并重置设备。</td>
 	</tr>
     <tr>
 		<td>0xC0470298</td>
-		<td>DeviceNet 24V not supplied</td>
-		<td>Please check the DeviceNet 24V power supply.</td>
+		<td>未提供DeviceNet 24V电源</td>
+		<td>请检查DeviceNet 24V电源。</td>
 	</tr>
 	<tr>
 		<td>0xC0620023</td>
-		<td>DeviceNet slave bus off detected <br> [Possible causes] <br>  - CAN High/Low communication line short circuit detected <br>  - Unstable power supply voltage <br>  - Continuous network errors due to noise, etc.</td>
-		<td>Check the contact status or wiring of the communication cable, and reset the device. </td>
+		<td>检测到DeviceNet从站总线关闭 <br> [可能的原因] <br>  - 检测到CAN高/低通信线路短路 <br>  - 不稳定的电源电压 <br>  - 由于噪声等原因导致的持续网络错误</td>
+		<td>检查通信电缆的接触状态或接线，并重置设备。</td>
 	</tr>
     <tr>
 		<td>0xC062002C</td>
-		<td>DeviceNet slave 24V not supplied</td>
-		<td>Please check the DeviceNet 24V power supply.</td>
+		<td>未提供DeviceNet 24V电源</td>
+		<td>请检查DeviceNet 24V电源。</td>
 	</tr>
 </tbody>
 </table>
-

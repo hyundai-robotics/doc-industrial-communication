@@ -1,28 +1,28 @@
-﻿#### 2.4.3.2 Connecting External Adapter Devices - Wago Remote IO
+#### 2.4.3.2 连接外部适配器设备 - Wago Remote IO
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置信息。
 
-   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[**下载 EDS 文件工具 (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Wago manual for the IP configuration of the device.
+   - 请查阅 Wago 手册以获取设备的 IP 配置。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.2-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_1.png>) 
 
 <br>
 
-**2. Check the Instance ID provided in the device manual**
+**2. 检查设备手册中提供的实例 ID**
 
 <br>
 
@@ -31,47 +31,47 @@
 <br>
 
 {% hint style="info" %}
-   - Input (T > O)   
-      - 104: Status  + Analog  + Digital   
-      - 105: Status  + Digital   
-      - 106: Status  + Analog   
-      - 107: Analog  + Digital   
-      - 108: Digital   
-      - 109: Analog   
+   - 输入 (T > O)   
+      - 104: 状态  + 模拟  + 数字   
+      - 105: 状态  + 数字   
+      - 106: 状态  + 模拟   
+      - 107: 模拟  + 数字   
+      - 108: 数字   
+      - 109: 模拟   
 
-   - Output (O > T)   
-      - 101: Analog + Digital   
-      - 102: Digital   
-      - 103: Analog   
+   - 输出 (O > T)   
+      - 101: 模拟 + 数字   
+      - 102: 数字   
+      - 103: 模拟   
 {% endhint %}
 
 <br>
 
-**3. Open the EDS file using the EZ-EDS program and verify the device information.**
+**3. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
-![[figure 2.4.3.2-3 EDS Info](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
+![[figure 2.4.3.2-3 EDS 信息](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
 
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 在连接管理器中检查连接类型   
+      - 示例：独占所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : No header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中头的存在   
+      - 输入 (T > O) : 无头   
+      - 输出 (O > T) : 32 位运行/空闲头   
 {% endhint %}
 
 <br>
 
-**4. Check the I/O size in the device manual.**
+**4. 检查设备手册中的 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
@@ -81,48 +81,48 @@
 <br>
 
 {% hint style="info" %}
-   - Refer to the manual for each slot configuration to determine the total I/O size.
+   - 请查阅每个槽位的手册以确定总 I/O 大小。
 {% endhint %}
 
 <br>
 
-![[figure 2.4.3.2-5 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_5.png>) 
+![[figure 2.4.3.2-5 I/O 大小]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_5.png>) 
 
 <br>
 
-![[figure 2.4.3.2-6 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_6.png>) 
+![[figure 2.4.3.2-6 I/O 大小]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_6.png>) 
 
 <br>
 
-**5. Enter the communication settings based on the Adapter device information.**
+**5. 根据适配器设备信息输入通信设置。**
 
 <br>
 
-![[figure 2.4.3.2-7 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_7.png>)
+![[figure 2.4.3.2-7 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_7.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参考目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从属 > 主   
+      - 输出 (O > T) : 主 > 从   
 
-   [Adapter Configuration]   
+   [适配器配置]   
    - Wago 750-366   
-      - Status 1byte (T > O) (When selecting Instance ID 104, 105, 106)   
+      - 状态 1byte (T > O) (选择实例 ID 104, 105, 106 时)   
       - 753-436 : 1byte (T > O)   
       - 753-536 : 1byte (O > T)   
 
-   [IO Assembly Information]   
+   [IO 部件信息]   
    [T > O]   
-      - Size: 2bytes   
-      - Instance: 105   
-      - Run/Idle Header: No   
+      - 大小: 2bytes   
+      - 实例: 105   
+      - 运行/空闲头: 无   
 
    [O > T]    
-      - Size: 1bytes   
-      - Instance: 101   
-      - Run/Idle Header: 32Bit   
+      - 大小: 1bytes   
+      - 实例: 101   
+      - 运行/空闲头: 32Bit   
 {% endhint %}
 
 <br>

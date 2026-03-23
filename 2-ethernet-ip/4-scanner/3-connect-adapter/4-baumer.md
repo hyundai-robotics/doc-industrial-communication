@@ -1,28 +1,28 @@
-﻿#### 2.4.3.4 Connecting External Adapter Devices - Baumer OM-70
+#### 2.4.3.4 连接外部适配器设备 - Baumer OM-70
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置信息。
 
-   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[**下载 EDS 文件工具 (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Baumer manual for the IP configuration of the device.
+   - 请参考 Baumer 手册获取设备的 IP 配置。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.4-1 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_1.png>) 
 
 <br>
 
-**2. Verify the Instance ID and I/O Size in the device manual.**
+**2. 验证设备手册中的实例 ID 和 I/O 大小。**
 
 <br>
 
@@ -31,23 +31,23 @@
 <br>
 
 {% hint style="info" %}
-   [Input Only Connection]   
+   [仅输入连接]   
 
-   - Input (T > O)   
-      - Instance ID: 100   
-      - Size : 34 bytes   
+   - 输入 (T > O)   
+      - 实例 ID: 100   
+      - 大小: 34 字节   
 
-   - Output (O > T)   
-      - Instance ID: 238   
-      - Size : 0 byte    
+   - 输出 (O > T)   
+      - 实例 ID: 238   
+      - 大小: 0 字节    
 {% endhint %}
 
 <br>
 
-**3. Enter the communication settings based on the Adapter device information.**
+**3. 根据适配器设备信息输入通信设置。**
 
 <br>
 
-![[figure 2.4.3.4-3 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>)
+![[figure 2.4.3.4-3 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>) 
 
 <br>

@@ -1,22 +1,22 @@
-﻿### 1.2.2 Connector
+### 1.2.2 连接器
 
 <br>
 
-**Use connectors and cables suitable for the industrial communication method.**
+**使用适合工业通信方式的连接器和电缆。**
 
 ![[Figure 1.2.2-1 Industrial Communication Connector]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-   - DeviceNet termination resistor: 120 ohms
+   - DeviceNet 终端电阻：120 欧姆
 
-   - CC-Link termination resistor: 110 ohms
+   - CC-Link 终端电阻：110 欧姆
 {% endhint %}
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: Please use separate power sources for the communication cable and the IO.
+**\[注意]**：请为通信电缆和IO使用独立的电源。
 {% endhint %}
 
 <br>

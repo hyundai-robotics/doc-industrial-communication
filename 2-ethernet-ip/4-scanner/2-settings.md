@@ -1,16 +1,16 @@
-﻿### 2.4.2 EtherNet/IP Scanner (Master) Settings
+### 2.4.2 EtherNet/IP 扫描仪 (主设备) 设置
 
 <br>
 
-After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-ip/1-network.md)" and "[**2.2 License Settings**](../../2-ethernet-ip/2-license.md)" please proceed with the following steps.
+在完成 "[**2.1 网络设置**](../../2-ethernet-ip/1-network.md)" 和 "[**2.2 许可设置**](../../2-ethernet-ip/2-license.md)" 中的程序后，请继续进行以下步骤。
 
 <br>
 
-**1. Touch the menu to enter the settings screen.**
+**1. 触摸菜单以进入设置屏幕。**
 
 <br>
 
-**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 3: EtherNet/IP 设置]**
 
 <br>
 
@@ -23,23 +23,23 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 <br>
 
 {% hint style="info" %}
-   [Protocol Settings]
+   [协议设置]
 
-      - OFF : EtherNet/IP disable   
-      - Adapter : EtherNet/IP Adapter mode   
-      - Scanner : EtherNet/IP Scanner mode   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode (using the same LAN Port)
+      - 关闭 : 禁用 EtherNet/IP   
+      - 适配器 : EtherNet/IP 适配器模式   
+      - 扫描仪 : EtherNet/IP 扫描仪模式   
+      - 适配器 + 扫描仪 : EtherNet/IP 适配器 + 扫描仪模式（使用同一局域网端口）
 {% endhint %}
 
 {% hint style="info" %}
-   [Port Settings]
+   [端口设置]
 
-      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+      - 通用控制器 LAN1 到 LAN3 可用（确保状态为“OK”）
 {% endhint %}
 
 <br>
 
-**2. Select "Scanner" mode and click the "Add Device" button to proceed to the next screen.**
+**2. 选择“扫描仪”模式并点击“添加设备”按钮以继续到下一个屏幕。**
 
 <br>
 
@@ -47,41 +47,41 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 <br>
 
-**3. Enter the settings to match the target device and save.**
+**3. 输入设置以匹配目标设备并保存。**
 
 <br>
 
 {% hint style="info" %}
-   [Device Settings]
+   [设备设置]
 
-      - Device No. : Device connection order (sequence of I/O data allocation)   
-      - IP Address : IP address of the device   
-      - Device Name : Name of the device (for identification purposes only; does not affect communication)   
-      - RPI (ms) : Requested Packet Interval (I/O data update cycle)   
-      - Connection Type   
-            - Exclusive Owner (I/O) : Establishes a bidirectional I/O connection between the Scanner and Adapter   
-            - Input Only : Connects to the Adapter's input signals only   
-            - Listen Only : Connects to the input signals only while the Adapter is already connected to another Scanner   
+      - 设备编号 : 设备连接顺序（I/O 数据分配顺序）   
+      - IP 地址 : 设备的 IP 地址   
+      - 设备名称 : 设备名称（仅用于识别；不影响通信）   
+      - RPI (毫秒) : 请求的数据包间隔 (I/O 数据更新周期)   
+      - 连接类型   
+            - 独占所有者 (I/O) : 在扫描仪和适配器之间建立双向 I/O 连接   
+            - 仅输入 : 仅连接到适配器的输入信号   
+            - 仅监听 : 在适配器已经连接到另一台扫描仪时，仅连接到输入信号   
 
-      - Input (T > O) : Slave > Master connection   
-      - Output (O > T) : Master > Slave connection   
+      - 输入 (T > O) : 从设备 > 主设备连接   
+      - 输出 (O > T) : 主设备 > 从设备连接   
 
-      - Run/Idle Header : Select whether to include the I/O data header   
-      - Instance No. : Instance number of the Input/Output Assembly for I/O data exchange   
-      - IO Size : Size of I/O data (in bytes)   
+      - 运行/空闲头 : 选择是否包括 I/O 数据头   
+      - 实例编号 : I/O 数据交换的输入/输出组实例编号   
+      - I/O 大小 : I/O 数据大小（以字节为单位）   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - For connection examples, please refer to the manuals below.    
-   - "[**2.3.3.1 Connecting External Adapter Devices - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - 有关连接示例，请参阅以下手册。    
+   - "[**2.3.3.1 连接外部适配器设备 - Crevis 远程 IO**](3-connect-adapter/1-crevis.md)"
 
-   - "[**2.3.3.2 Connecting External Adapter Devices - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[**2.3.3.2 连接外部适配器设备 - Wago 远程 IO**](3-connect-adapter/2-wago.md)"
 
-   - "[**2.3.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[**2.3.3.3 连接外部适配器设备 - Hilscher CIFX PCI EtherNet/IP 适配器**](3-connect-adapter/3-pci.md)"
 
-   - "[**2.3.3.4 Connecting External Adapter Devices - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[**2.3.3.4 连接外部适配器设备 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -90,7 +90,7 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 <br>
 
-**4. Click the "OK" button to transmit the communication settings.**
+**4. 点击“确定”按钮以传输通信设置。**
 
 <br>
 
@@ -98,7 +98,7 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 <br>
 
-**5. Check the status to verify if the communication is successfully established.**
+**5. 检查状态以验证通信是否成功建立。**
 
 <br>
 
@@ -107,15 +107,15 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 <br>
 
 {% hint style="info" %}
-   [Communication Status Check]   
-      - License: Current license status   
-      - Run: Indicates the operational status of the EtherNet/IP function   
-      - Communication: Indicates the EtherNet/IP connection status   
-      - Error: Indicates the EtherNet/IP error status   
+   [通信状态检查]   
+      - 许可: 当前许可状态   
+      - 运行: 指示 EtherNet/IP 功能的操作状态   
+      - 通信: 指示 EtherNet/IP 连接状态   
+      - 错误: 指示 EtherNet/IP 错误状态   
 
-   - Device Number Color   
-      - Green: Communication connection OK   
-      - Red: Communication connection NG (Failed)   
+   - 设备编号颜色   
+      - 绿色: 通信连接 OK   
+      - 红色: 通信连接 NG (失败)   
 {% endhint %}
 
 <br>
@@ -124,8 +124,8 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 <br>
 
-**6. After completing the communication settings, allocate the I/O Blocks.**
+**6. 完成通信设置后，分配 I/O 块。**
 
 {% hint style="info" %}
-   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")**
+   **完成通信设置后，可以通过分配 I/O 块使用输入/输出信号。请参阅 ("[**4. 工业通信 IO 块分配**](../../5-io-block-allocation.md)")**
 {% endhint %}

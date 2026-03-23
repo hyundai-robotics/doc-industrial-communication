@@ -1,10 +1,10 @@
-﻿## 2.1 Network Settings
+## 2.1 网络设置
 
-**1. Main Module**
+**1. 主模块**
 
 <br>
 
-The LAN ports that can connect with the EtherNet/IP adapter are LAN1/LAN2/LAN3.
+可以与 EtherNet/IP 适配器连接的 LAN 端口为 LAN1/LAN2/LAN3。
 
 <br>
 
@@ -12,11 +12,11 @@ The LAN ports that can connect with the EtherNet/IP adapter are LAN1/LAN2/LAN3.
 
 <br>
 
-**2. Network Settings**
+**2. 网络设置**
 
 <br>
 
-Select a LAN port to connect EtherNet/IP communication and then check the settings of the LAN port through the TP screen as shown below and change the settings as needed.
+选择一个 LAN 端口以连接 EtherNet/IP 通信，然后通过 TP 屏幕检查 LAN 端口的设置，如下所示，并根据需要更改设置。
 
 <br>
 
@@ -25,22 +25,22 @@ Select a LAN port to connect EtherNet/IP communication and then check the settin
 <br>
 
 {% hint style="info" %}
-   - The subnet portion of each IP address of LAN1/LAN2/LAN3 should be set differently.
+   - LAN1/LAN2/LAN3 每个 IP 地址的子网部分应设置为不同。
 
-   - After changing the settings, reboot the robot controller.
+   - 更改设置后，请重启机器人控制器。
 {% endhint %}
 
 <br>
 
-**3. Connection Status Check**
+**3. 连接状态检查**
 
 <br>
 
-The status of the physical connection with the EtherNet/IP scanner can be checked according to the status of the Link/Act LED of the LAN port.
+可以根据 LAN 端口的 Link/Act LED 状态检查与 EtherNet/IP 扫描仪的物理连接状态。
 
 <br>
 
-Connect the EtherNet/IP adapter and scanner with a LAN cable and then check the LED status. If the LED on the left does not light up or blink, it means there is a problem with the cable or adapter or scanner device. Please check the connection status of the cable or device.
+使用 LAN 电缆连接 EtherNet/IP 适配器和扫描仪，然后检查 LED 状态。如果左侧的 LED 不亮或不闪烁，则表示电缆或适配器或扫描仪设备存在问题。请检查电缆或设备的连接状态。
 
 <br>
 
@@ -48,11 +48,11 @@ Connect the EtherNet/IP adapter and scanner with a LAN cable and then check the 
 
 <br>
 
-**4. Network Configuration**
+**4. 网络配置**
 
 <br>
 
-It is recommended to configure the EtherNet/IP Network and Factory Network as separate networks. As shown in the figure below, if you configure the EtherNet/IP Network and Factory Network as one network, they will share one transmission medium, increasing the network load. Therefore, it is recommended to use a separately configured network for the EtherNet/IP Network if possible.
+建议将 EtherNet/IP 网络和工厂网络配置为独立网络。如下面的图所示，如果将 EtherNet/IP 网络和工厂网络配置为一个网络，它们将共享一个传输介质，从而增加网络负载。因此，建议尽可能为 EtherNet/IP 网络使用独立配置的网络。
 
 <br>
 

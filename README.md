@@ -1,1 +1,1 @@
-﻿# Hi7 Controller Function Manual - Industrial Communication
+# Hi7 控制器功能手册 - 工业通信

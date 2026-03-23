@@ -1,68 +1,66 @@
-﻿#### 1.3.7.6 DeviceNet Object
+#### 1.3.7.6 DeviceNet 对象
 
 
 <br>
 
-**1. Object**
+**1. 对象**
 
 
-The inside of the DeviceNet device is composed of a collection of objects. Each object represents a specific component inside the device.
-
-<br>
-
-![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
-
+DeviceNet 设备内部由一系列对象组成。每个对象代表设备内部的一个特定组件。
 
 <br>
 
-Individual objects are distinguished using a class code.
-
-<br>
-
-![[Figure 1.3.7.6-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
-
-<br>
-
-The inside of an object is composed of an instance number and attribute ID.
-
-<br>
-
-The DeviceNet master can access an object of a specific slave through a explicit message.
-
-<br>
-
-{% hint style="info" %}
-   - EX) Object of Crevis GN-9212 (The corresponding information can be found in the Crevis manual.)
-
-   - Reading the vendor ID value of the identity object (class code 0x01)
-
-   - Instance : 1
-
-   - Attribute ID : 1
-
-   - Permission: Get (Read only possible)
-{% endhint %}
-
-
-![[Figure 1.3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+![[Figure 1.3.7.6-1 DeviceNet 对象]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
 
 
 <br>
 
-Each Object, Instance, and Attribute inside has different access permissions.
+单独的对象通过类代码区分。
+
+<br>
+
+![[Figure 1.3.7.6-2 DeviceNet 对象]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
+
+<br>
+
+一个对象内部由实例编号和属性 ID 组成。
+
+<br>
+
+DeviceNet 主站可以通过显性消息访问特定从站的对象。
 
 <br>
 
 {% hint style="info" %}
-   - Access permissions
+   - EX) Crevis GN-9212 的对象（相应的信息可以在 Crevis 手册中找到。）
 
-   - Get: Read permission
+   - 读取身份对象的供应商 ID 值（类代码 0x01）
 
-   - Set: Write permission 
+   - 实例 : 1
 
-   - Attribute Single: Can access only one attribute item at a time.
+   - 属性 ID : 1
 
-   - Attribute All: Can access all attributes in Instance at once.
+   - 权限: 获取（仅允许读取）
 {% endhint %}
 
+
+![[Figure 1.3.7.6-3 DeviceNet 对象 Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+
+
 <br>
+
+每个对象、实例和属性内部具有不同的访问权限。
+
+<br>
+
+{% hint style="info" %}
+   - 访问权限
+
+   - 获取: 读取权限
+
+   - 设置: 写入权限 
+
+   - 属性单个: 一次只能访问一个属性项目。
+
+   - 属性全部: 可以一次访问实例中的所有属性。
+{% endhint %}

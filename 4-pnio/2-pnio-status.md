@@ -1,15 +1,15 @@
-﻿## 5.3 PROFINET Monitoring
+## 5.3 PROFINET 监控
 
-By selecting the **\[System > 8: Safety System > 3: Monitoring > 4: PROFINET Status]** menu, you can monitor the PROFINET status by slot.
+通过选择 **\[System > 8: Safety System > 3: Monitoring > 4: PROFINET Status]** 菜单，您可以按插槽监控 PROFINET 状态。
 
 <p align="center">
 <img src="../_assets/4-pnio/PROFINET_monitoring.png"></img>
-<em><p align="center">PROFINET Status Monitoring Screen</p></em>
+<em><p align="center">PROFINET 状态监控屏幕</p></em>
 </p>
 
-- Size: Indicates the set I/O size (unit: byte).
-- Status: BAD (not in use or communication error), GOOD (communication normal)
-- Counter: I/O update count (communication normal if it continuously increases)
+- 大小：指设置的 I/O 大小（单位：字节）。
+- 状态：BAD（未使用或通信错误），GOOD（通信正常）
+- 计数器：I/O 更新计数（如果持续增加则通信正常）
 
 <p align="center">
 <img src="../_assets/4-pnio/profinet_LED.png"></img>

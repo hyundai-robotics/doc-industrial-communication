@@ -1,10 +1,10 @@
-﻿## 2.2 License Settings
+## 2.2 许可证设置
 
-**1. License Activation**
+**1. 许可证激活**
 
 <br>
 
-On the initial screen, navigate to "System" > "2: Control Parameters" > "10: License Key Registration for Optional Functions"
+在初始屏幕上，导航到 "系统" > "2: 控制参数" > "10: 选用功能的许可证密钥注册"
 
 <br>
 
@@ -12,11 +12,10 @@ On the initial screen, navigate to "System" > "2: Control Parameters" > "10: Lic
 
 <br>
 
-1. Select "Valid" for the EtherNet/IP adapter from the license list.
-2. Deliver the system serial number to the license administrator
-3. Obtain the license key from the administrator, enter it, and press the "Confirm" button
-4. License Key [XXXXXX] ==>OK Confirm
-5. Confirm that the warning message about no license has disappeared when entering the Ethernet/IP adapter menu.<br>
+1. 从许可证列表中选择以太网/IP适配器的 "有效"。
+2. 将系统序列号交给许可证管理员
+3. 从管理员那里获取许可证密钥，输入并按 "确认" 按钮
+4. 许可证密钥 [XXXXXX] ==> 确认
+5. 确认当进入以太网/IP适配器菜单时，关于没有许可证的警告信息已消失。<br>
 
 <br>
-

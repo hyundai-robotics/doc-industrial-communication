@@ -1,35 +1,35 @@
-﻿# 5. Industrial Communication IO Reading and Writing
+﻿# 5. 工业通信 IO 读取和写入
 
-This is the method for assigning IO blocks for the communication with the controller after completing industrial communication settings.
+这是在完成工业通信设置后，为与控制器进行通信分配 IO 块的方法。
 
-To use the industrial communication IO, the IO blocks should be assigned to the fb0 - fb9 area.
+要使用工业通信 IO，必须将 IO 块分配到 fb0 - fb9 区域。
 
 <br>
 
 {% hint style="info" %}
-   - For the IO reading/writing methods for fb blocks, please refer to the manual below.
+   - 有关 fb 块的 IO 读取/写入方法，请参考以下手册。
 
-      **\[Controller Operation Manual: General Input]**   
-      **\[Controller Operation Manual: General Output]**   
+      **\[控制器操作手册: 一般输入]**   
+      **\[控制器操作手册: 一般输出]**   
 {% endhint %}
 
 <br>
 
-**1. Select the IO block assignment menu.**
-   Touch the **\[System > 2: Control Parameters > 2: Input/Output Signal Settings > 6: FB Block Assignment]** menu.
+**1. 选择 IO 块分配菜单。**
+   触摸 **\[系统 > 2: 控制参数 > 2: 输入/输出信号设置 > 6: FB 块分配]** 菜单。
 
 <br>
 
-**2. Specify industrial communication type for the desired fb area.**
-   After specifying it, touch the **\[OK]** button.
+**2. 为所需 fb 区域指定工业通信类型。**
+   指定后，触摸 **\[确定]** 按钮。
 
 ![[Figure 5-1]](<_assets/4-io-block-allocation/image_1.png>)
 
 
 {% hint style="warning" %}
-**\[Caution]**: When using together with an embedded PLC, please check IO attributes and DI/DO - X/Y.
+**\[注意]**: 使用嵌入式 PLC 时，请检查 IO 属性和 DI/DO - X/Y。
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: For an EtherNet/IP adapter, the maximum block size is 120 bytes and up to 2 blocks can be selected. Any selection exceeding 2 will be ignored. 
+**\[注意]**: 对于 EtherNet/IP 适配器，最大块大小为 120 字节，最多可以选择 2 个块。任何超过 2 的选择将被忽略。
 {% endhint %}

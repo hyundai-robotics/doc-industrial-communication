@@ -1,4 +1,4 @@
-﻿#### 1.3.3.3 EtherNet/IP Adapter Specifications
+#### 1.3.3.3 EtherNet/IP 适配器规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,109 +8,109 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>240 bytes (TP) / 504 bytes (Sycon.net)</td>
+		<td>最大输入大小</td>
+		<td>240 字节 (TP) / 504 字节 (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>240 bytes (TP) / 504 bytes (Sycon.net)</td>
+		<td>最大输出大小</td>
+		<td>240 字节 (TP) / 504 字节 (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
-		<td>1 exlusive Owner <br>1 Listen Only <br>1 Input Only</td>
+		<td>IO 连接</td>
+		<td>1 个独占所有者 <br>1 个仅监听 <br>1 个仅输入</td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 1ms</td>
+		<td>IO 更新周期</td>
+		<td>最小 1 毫秒</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>10 or 100 Mbit/s</td>
+		<td>通信速度</td>
+		<td>10 或 100 Mbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Tree, Line, Ring</td>
+		<td>拓扑</td>
+		<td>树形, 线形, 环形</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Supported</td>
+		<td>快速连接</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>DLR V2 (Device Level Ring)</td>
-		<td>Supported</td>
+		<td>DLR V2 (设备级环)</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Additional Features</td>
-		<td>DHCP, BOOTP, ACD supported</td>
+		<td>附加功能</td>
+		<td>支持 DHCP, BOOTP, ACD</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>Ethernet II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>10 or 100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>10 或 100 BASE-T 以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Supported</td>
+		<td>自动协商</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Allowed</td>
+		<td>集线器</td>
+		<td>允许</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Allowed</td>
+		<td>交换机</td>
+		<td>允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>至少 Cat5, STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大 100 米</td>
 	</tr>
 </tbody>
 </table>

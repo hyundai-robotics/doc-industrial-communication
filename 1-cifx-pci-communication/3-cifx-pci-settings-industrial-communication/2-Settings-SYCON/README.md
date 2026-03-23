@@ -1,73 +1,73 @@
-﻿### 1.3.2 SYCON.NET Settings
+### 1.3.2 SYCON.NET 设置
 
-For the PCI communication card, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "[**1.1 Sycon.net Installation**](../../1-cifx-pci-install-program/1-sycon-net.md)".)
+对于 PCI 通信卡，请使用 "**Sycon.net**" 程序进行工业通信设置。设置方法如下。 (请参考 "[**1.1 Sycon.net 安装**](../../1-cifx-pci-install-program/1-sycon-net.md)" 进行安装。)
 
 <br>
 
-**1. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).**
-Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
+**1. 将安装了 Sycon.net 的 PC 连接到机器人控制器的一般 LAN 端口 (而不是 PCI LAN 端口)。**
+触摸 **\[System > 2: Control Parameters > 9: Network]** 菜单以检查一般 LAN 端口的 IP。请通过 ping 测试等检查连接状态。
 
 ![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
 ![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
 
 {% hint style="info" %}
-   - IP Address can be changed according to user settings.
+   - IP 地址可以根据用户设置进行更改。
 {% endhint %}
 
 <br>
 
-**2. Execute Sycon.net.**
+**2. 执行 Sycon.net。**
 
 ![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 
 <br>
 
-**3. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.**
+**3. 在屏幕右侧的设备目录菜单中，单击与设置的通信协议匹配的项目，并将其通过拖放放置在中间的总线行上。**
 
 ![[Figure 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
 ![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
-**4. Double-click the imported item to set it.**
+**4. 双击导入的项目以进行设置。**
 
 {% hint style="info" %}
-   - "Double-click" the imported CIFX PCI (figure).
+   - "双击" 导入的 CIFX PCI (图)。
 
-   - Settings -> Driver
+   - 设置 -> 驱动程序
 
-   - Select netX Driver.
+   - 选择 netX 驱动程序。
 {% endhint %}
 
 ![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-   - Setting -> Driver -> netX Driver -> TCP Connection
+   - 设置 -> 驱动程序 -> netX 驱动程序 -> TCP 连接
 
-   - IP Address: Please enter the general LAN port IP address of the connected controller.
+   - IP 地址：请输入连接控制器的一般 LAN 端口 IP 地址。
 {% endhint %}
 
 ![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 {% hint style="info" %}
-   - Device Assignment -> Click Scan
+   - 设备分配 -> 点击扫描
 
-   - Select communication (check the channel protocol) then "Apply" and "OK."
+   - 选择通信 (检查通道协议) 然后 "应用" 和 "确定。"
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: Please be sure to check the Channel Protocol and Slot number.
+**\[注意]**：请务必检查通道协议和插槽编号。
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
+**\[注意]**：如果扫描不起作用，请检查与控制器之间的电缆连接状态以及固件设置。
 {% endhint %}
 
 ![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 
 
 {% hint style="info" %}
-   - Right-click the CIFX PCI figure -> Download
+   - 右键单击 CIFX PCI 图形 -> 下载
 {% endhint %}
 
 ![[Figure 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
