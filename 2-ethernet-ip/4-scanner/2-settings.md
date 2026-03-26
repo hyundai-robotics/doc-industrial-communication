@@ -26,10 +26,12 @@
    [Protocol 설정]
 
       - OFF : EtherNet/IP 사용 안함   
-      - Adapter : EtherNet/IP Adapter 모드   
-      - Scanner : EtherNet/IP Scanner 모드   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner 동시 사용 모드    (같은 LAN Port)
+      - 어댑터 : EtherNet/IP Adapter 모드   
+      - 스캐너 : EtherNet/IP Scanner 모드   
+      - 어댑터 + 스캐너 : EtherNet/IP Adapter + Scanner 동시 사용 모드   
 {% endhint %}
+
+<br>
 
 {% hint style="info" %}
    [Port 설정]
@@ -108,12 +110,18 @@
 
 {% hint style="info" %}
    [통신 상태 확인]   
-      - License: 현재 라이선스 상태   
-      - Run: EtherNet/IP 기능 동작 상태 표시   
-      - Communication: EtherNet/IP 통신 연결 상태 표시   
-      - Error: EtherNet/IP 오류 상태 표시   
 
-   - 장치 번호 색상   
+      - 라이선스: 현재 라이선스 상태   
+      - 실행: EtherNet/IP 기능 동작 상태 표시   
+      - 통신: EtherNet/IP 통신 연결 상태 표시   
+      - 에러: EtherNet/IP 오류 상태 표시   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [장치 번호 색상]   
+
       - 초록색 : 통신 연결 OK   
       - 빨간색 : 통신 연결 NG   
 {% endhint %}
