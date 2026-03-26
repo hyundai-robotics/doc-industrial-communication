@@ -12,11 +12,19 @@ On the initial screen, navigate to "System" > "2: Control Parameters" > "10: Lic
 
 <br>
 
-1. Select "Valid" for the EtherNet/IP adapter from the license list.
-2. Deliver the system serial number to the license administrator
-3. Obtain the license key from the administrator, enter it, and press the "Confirm" button
-4. License Key [XXXXXX] ==>OK Confirm
-5. Confirm that the warning message about no license has disappeared when entering the Ethernet/IP adapter menu.<br>
+1. Deliver the system serial number to the license administrator
+2. Obtain the license key from the administrator, enter it, and press the "Confirm" button
+3. License Key [XXXXXX] ==>OK Confirm
+4. Select "Valid" for the "Embedded EtherNet/IP slave" or "Embedded EtherNet/IP master" from the license list.
 
 <br>
 
+{% hint style="info" %}
+   [EtherNet/IP Licensing Policy]
+
+   - Slave License : Supports EtherNet/IP Slave only
+
+   - Master License : Supports both EtherNet/IP Master and Slave
+{% endhint %}
+
+<br>
