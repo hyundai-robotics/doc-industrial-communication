@@ -6,7 +6,7 @@
 
 <br>
 
-초기화면에서 "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP 어댑터" 로 이동
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 3: EtherNet/IP 설정]**
 
 <br>
 
@@ -15,24 +15,40 @@
 
 <br>
 
-**[Network]**
+{% hint style="info" %}
+   [프로토콜 설정]
 
--	기능사용 : Ethernet/IP 어댑터의 사용여부 선택
--	이더넷 포트 선택 : Ethernet/IP Scanner와 연결할 LAN Port 선택 (선택된 LAN Port의 정보는 바로 아래 줄에 표시 됨)
-
-<br>
-
-**[I/O Size]**
-
--	입력 바이트 수 : 0 ~ 240 설정 가능
--	출력 바이트 수 : 0 ~ 240 설정 가능
+      - OFF : EtherNet/IP 사용 안함   
+      - 어댑터 : EtherNet/IP Adapter 모드   
+      - 스캐너 : EtherNet/IP Scanner 모드   
+      - 어댑터 + 스캐너 : EtherNet/IP Adapter + Scanner 동시 사용 모드   
+{% endhint %}
 
 <br>
 
-**[Monitoring]**
+{% hint style="info" %}
+   [Port 설정]
 
-- 동작(Run) : Ethernet/IP의 I/O Data 교환의 상태를 나타냄 (On : 정상 통신 중 , Off : 통신 중 아님)
-- 준비(Ready) : Ethernet/IP 어댑터의 초기화 상태를 나타냄 (On : 초기화 정상, Off : 초기화 비정상)
-- 에러(Error) : Ethernet/IP 어댑터의 알람 또는 경고 상태 표시 (On : 알람/경고 상태, Off : 정상)
-- 버전 : Ethernet/IP 어댑터 S/W 버전 정보 표시
-- 에러코드: 알람 또는 경고가 발생했을 경우 알람/경고 코드 표시 
+      - 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [IO 설정]
+
+      - 입력 및 출력 바이트 수 : 0 ~ 240 바이트 설정 가능
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [통신 상태 확인]   
+   
+      - 라이선스: 현재 라이선스 상태   
+      - 실행: EtherNet/IP 기능 동작 상태 표시   
+      - 통신: EtherNet/IP 통신 연결 상태 표시   
+      - 에러: EtherNet/IP 오류 상태 표시   
+{% endhint %}
+
+<br>
