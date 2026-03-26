@@ -28,8 +28,10 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
       - OFF : EtherNet/IP disable   
       - Adapter : EtherNet/IP Adapter mode   
       - Scanner : EtherNet/IP Scanner mode   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode (using the same LAN Port)
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
 {% endhint %}
+
+<br>
 
 {% hint style="info" %}
    [Port Settings]
@@ -108,12 +110,18 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 {% hint style="info" %}
    [Communication Status Check]   
+
       - License: Current license status   
       - Run: Indicates the operational status of the EtherNet/IP function   
       - Communication: Indicates the EtherNet/IP connection status   
-      - Error: Indicates the EtherNet/IP error status   
+      - Error: Indicates the EtherNet/IP error status    
+{% endhint %}
 
-   - Device Number Color   
+<br>
+
+{% hint style="info" %}
+   [Device Number Color]   
+
       - Green: Communication connection OK   
       - Red: Communication connection NG (Failed)   
 {% endhint %}

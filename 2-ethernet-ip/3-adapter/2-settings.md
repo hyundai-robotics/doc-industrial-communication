@@ -6,7 +6,7 @@
 
 <br>
 
-On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP Setting"<br>
+**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
 
 <br>
 
@@ -14,25 +14,39 @@ On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial 
 
 <br>
 
-**[Network]**
+{% hint style="info" %}
+   [Protocol Settings]
 
--	Protocol : Select whether to use the Ethernet/IP adapter.
--	Port : Select the LAN port to be connected to the Ethernet/IP scanner. (The information of the selected LAN port is displayed on the line immediately.)
-
-<br>
-
-**[I/O Size]**
-
--	Input Byte Count: 0-240 can be set.
--	Output Byte Count: 0-240 can be set.
+      - OFF : EtherNet/IP disable   
+      - Adapter : EtherNet/IP Adapter mode   
+      - Scanner : EtherNet/IP Scanner mode   
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
+{% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Status Information]   
-      - Communication: Communication link established and I/O data exchanging   
-      - Run: Communication card (PCI) is operating   
-      - Ready: Communication is in standby state   
-      - Error: Communication error state   
+   [Port Settings]
 
+      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [IO Size]
+
+      -	Input Byte Count: 0-240 can be set.   
+      -	Output Byte Count: 0-240 can be set.
+{% endhint %}   
+
+<br>
+
+{% hint style="info" %}
+   [Communication Status Check]   
+
+      - License: Current license status   
+      - Run: Indicates the operational status of the EtherNet/IP function   
+      - Communication: Indicates the EtherNet/IP connection status   
+      - Error: Indicates the EtherNet/IP error status    
 {% endhint %}
