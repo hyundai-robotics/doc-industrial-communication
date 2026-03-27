@@ -5,7 +5,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # Precautions
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
+{% include file="en/precautions.md" %}
 
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI Communication
@@ -323,8 +323,11 @@ For the PCI communication card, proceed with industrial communication settings u
 **1. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).**
 Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
 
+<br>
+
 ![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
-![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
+
+<br>
 
 {% hint style="info" %}
    - IP Address can be changed according to user settings.
@@ -334,14 +337,14 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 
 **2. Execute Sycon.net.**
 
-![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
+![[Figure 1.3.2-2 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
 
 <br>
 
 **3. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.**
 
+![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 ![[Figure 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
-![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
@@ -355,7 +358,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
    - Select netX Driver.
 {% endhint %}
 
-![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
+![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 {% hint style="info" %}
    - Setting -> Driver -> netX Driver -> TCP Connection
@@ -363,7 +366,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
    - IP Address: Please enter the general LAN port IP address of the connected controller.
 {% endhint %}
 
-![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
+![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
    - Device Assignment -> Click Scan
@@ -379,14 +382,14 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 **\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
 {% endhint %}
 
-![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
+![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 
 {% hint style="info" %}
    - Right-click the CIFX PCI figure -> Download
 {% endhint %}
 
-![[Figure 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
+![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)
 #### 1.3.2.1 SYCON.NET Help
 
@@ -3940,6 +3943,8 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
+![[Figure 1.3.8.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_5.png>) 
+
 <br>
 
 **6. Assign IO blocks after completing the communication settings.**
@@ -4764,15 +4769,22 @@ On the initial screen, navigate to "System" > "2: Control Parameters" > "10: Lic
 
 <br>
 
-1. Select "Valid" for the EtherNet/IP adapter from the license list.
-2. Deliver the system serial number to the license administrator
-3. Obtain the license key from the administrator, enter it, and press the "Confirm" button
-4. License Key [XXXXXX] ==>OK Confirm
-5. Confirm that the warning message about no license has disappeared when entering the Ethernet/IP adapter menu.<br>
+1. Deliver the system serial number to the license administrator
+2. Obtain the license key from the administrator, enter it, and press the "Confirm" button
+3. License Key [XXXXXX] ==>OK Confirm
+4. Select "Valid" for the "Embedded EtherNet/IP slave" or "Embedded EtherNet/IP master" from the license list.
 
 <br>
 
+{% hint style="info" %}
+   [EtherNet/IP Licensing Policy]
 
+   - Slave License : Supports EtherNet/IP Slave only
+
+   - Master License : Supports both EtherNet/IP Master and Slave
+{% endhint %}
+
+<br>
 [__SOURCE](2-ethernet-ip/3-adapter/README.md)
 ## 2.3 EtherNet/IP Adapter (Slave)
 
@@ -4926,7 +4938,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP Setting"<br>
+**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
 
 <br>
 
@@ -4934,27 +4946,41 @@ On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial 
 
 <br>
 
-**[Network]**
+{% hint style="info" %}
+   [Protocol Settings]
 
--	Protocol : Select whether to use the Ethernet/IP adapter.
--	Port : Select the LAN port to be connected to the Ethernet/IP scanner. (The information of the selected LAN port is displayed on the line immediately.)
-
-<br>
-
-**[I/O Size]**
-
--	Input Byte Count: 0-240 can be set.
--	Output Byte Count: 0-240 can be set.
+      - OFF : EtherNet/IP disable   
+      - Adapter : EtherNet/IP Adapter mode   
+      - Scanner : EtherNet/IP Scanner mode   
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
+{% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Status Information]   
-      - Communication: Communication link established and I/O data exchanging   
-      - Run: Communication card (PCI) is operating   
-      - Ready: Communication is in standby state   
-      - Error: Communication error state   
+   [Port Settings]
 
+      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [IO Size]
+
+      -	Input Byte Count: 0-240 can be set.   
+      -	Output Byte Count: 0-240 can be set.
+{% endhint %}   
+
+<br>
+
+{% hint style="info" %}
+   [Communication Status Check]   
+
+      - License: Current license status   
+      - Run: Indicates the operational status of the EtherNet/IP function   
+      - Communication: Indicates the EtherNet/IP connection status   
+      - Error: Indicates the EtherNet/IP error status    
 {% endhint %}
 
 [__SOURCE](2-ethernet-ip/3-adapter/3-connect-scanner/README.md)
@@ -5144,6 +5170,1417 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 
 
 
+
+[__SOURCE](2-ethernet-ip/4-scanner/README.md)
+## 2.4 EtherNet/IP Scanner (Master)
+
+<br>
+
+This section provides an overview and instructions for the built-in EtherNet/IP Scanner (Master)
+
+<br>
+
+[__SOURCE](2-ethernet-ip/4-scanner/1-specification.md)
+### 2.4.1 EtherNet/IP Scanner (Master) Specifications
+
+<br>
+
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
+<br>
+
+**Protocol Characteristics**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th colspan=2, class='powderblued'>Category</th>
+		<th class='powderblued'>Specifications</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td colspan=2>Maximum Connectable Slave Count</td>
+		<td>20</td>
+	</tr>
+    <tr>
+		<td rowspan=2>IO Size</td>
+        <td>Maximum I/O Size</td>
+		<td>Max 1200 bytes</td>
+	</tr>
+    <tr>
+        <td>Maximum I/O Size (1 slave)</td>
+		<td>Max 240 bytes</td>
+	</tr>
+    <tr>
+		<td colspan=2>IO Connection</td>
+		<td>Cyclic</td>
+	</tr>
+    <tr>
+		<td colspan=2>IO Update Time</td>
+		<td>Min. 5ms</td>
+	</tr>
+    <tr>
+		<td colspan=2>Communication Speed</td>
+		<td>10 or 100 Mbit/s</td>
+	</tr>
+    <tr>
+		<td colspan=2>Quick Connect</td>
+		<td>Not supported</td>
+	</tr>
+    <tr>
+		<td colspan=2>Topology</td>
+		<td>Tree, Line</td>
+	</tr>
+    <tr>
+		<td colspan=2>IP Allocation Method</td>
+		<td>Static IP Address</td>
+	</tr>
+</tbody>
+</table>
+<br>
+
+**Network Characteristics**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>Category</th>
+		<th class='powderblued'>Specifications</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Data Transport Layer</td>
+		<td>Ethernet II, IEEE 802.3</td>
+	</tr>
+	<tr>
+		<td>Interface Type</td>
+		<td>10 or 100 BASE-T Ethernet</td>
+	</tr>
+    <tr>
+		<td>Auto-Negotiation</td>
+		<td>Supported</td>
+	</tr>
+    <tr>
+		<td>Hub</td>
+		<td>Allowed</td>
+	</tr>
+    <tr>
+		<td>Switch</td>
+		<td>Allowed</td>
+	</tr>
+</tbody>
+</table>
+<br>
+
+**Connection**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>Category</th>
+		<th class='powderblued'>Specifications</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Cable</td>
+		<td>Minimum of Cat5, STP</td>
+	</tr>
+	<tr>
+		<td>length</td>
+		<td>Max. 100m</td>
+	</tr>
+</tbody>
+</table>
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/2-settings.md)
+### 2.4.2 EtherNet/IP Scanner (Master) Settings
+
+<br>
+
+After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-ip/1-network.md)" and "[**2.2 License Settings**](../../2-ethernet-ip/2-license.md)" please proceed with the following steps.
+
+<br>
+
+**1. Touch the menu to enter the settings screen.**
+
+<br>
+
+**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
+
+<br>
+
+![[figure 2.4.2-1 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_1.png>) 
+
+<br>
+
+![[figure 2.4.2-2 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   [Protocol Settings]
+
+      - OFF : EtherNet/IP disable   
+      - Adapter : EtherNet/IP Adapter mode   
+      - Scanner : EtherNet/IP Scanner mode   
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [Port Settings]
+
+      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+{% endhint %}
+
+<br>
+
+**2. Select "Scanner" mode and click the "Add Device" button to proceed to the next screen.**
+
+<br>
+
+![[figure 2.4.2-3 Scanner Add Device]](<../../_assets/2-ethernet-ip/4-scanner/img_3.png>) 
+
+<br>
+
+**3. Enter the settings to match the target device and save.**
+
+<br>
+
+{% hint style="info" %}
+   [Device Settings]
+
+      - Device No. : Device connection order (sequence of I/O data allocation)   
+      - IP Address : IP address of the device   
+      - Device Name : Name of the device (for identification purposes only; does not affect communication)   
+      - RPI (ms) : Requested Packet Interval (I/O data update cycle)   
+      - Connection Type   
+            - Exclusive Owner (I/O) : Establishes a bidirectional I/O connection between the Scanner and Adapter   
+            - Input Only : Connects to the Adapter's input signals only   
+            - Listen Only : Connects to the input signals only while the Adapter is already connected to another Scanner   
+
+      - Input (T > O) : Slave > Master connection   
+      - Output (O > T) : Master > Slave connection   
+
+      - Run/Idle Header : Select whether to include the I/O data header   
+      - Instance No. : Instance number of the Input/Output Assembly for I/O data exchange   
+      - IO Size : Size of I/O data (in bytes)   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - For connection examples, please refer to the manuals below.    
+   - "[**2.3.3.1 Connecting External Adapter Devices - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+
+   - "[**2.3.3.2 Connecting External Adapter Devices - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+
+   - "[**2.3.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+
+   - "[**2.3.3.4 Connecting External Adapter Devices - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+{% endhint %}
+
+<br>
+
+![[figure 2.4.2-4 Scanner Add Device]](<../../_assets/2-ethernet-ip/4-scanner/img_4.png>) 
+
+<br>
+
+**4. Click the "OK" button to transmit the communication settings.**
+
+<br>
+
+![[figure 2.4.2-5 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_5.png>) 
+
+<br>
+
+**5. Check the status to verify if the communication is successfully established.**
+
+<br>
+
+![[figure 2.4.2-6 Communication Status]](<../../_assets/2-ethernet-ip/4-scanner/img_6.png>) 
+
+<br>
+
+{% hint style="info" %}
+   [Communication Status Check]   
+
+      - License: Current license status   
+      - Run: Indicates the operational status of the EtherNet/IP function   
+      - Communication: Indicates the EtherNet/IP connection status   
+      - Error: Indicates the EtherNet/IP error status    
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [Device Number Color]   
+
+      - Green: Communication connection OK   
+      - Red: Communication connection NG (Failed)   
+{% endhint %}
+
+<br>
+
+![[figure 2.4.2-7 Communication Status]](<../../_assets/2-ethernet-ip/4-scanner/img_7.png>) 
+
+<br>
+
+**6. After completing the communication settings, allocate the I/O Blocks.**
+
+{% hint style="info" %}
+   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../5-io-block-allocation.md)")**
+{% endhint %}
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
+### 2.4.3 Connecting External Adapter Devices
+
+<br>
+
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
+<br>
+
+**Configuration Values for Connecting External Adapter Devices**
+
+<br>
+
+{% hint style="info" %}
+   - Please set the IO size to match the Input/Output size configured on the external device.   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - For detailed specifications, please refer to the manual provided by the device manufacturer    
+{% endhint %}
+
+<br>
+
+<table class="tg">
+<thead>
+	<tr>
+    	<th rowspan=2, class='powderblued'>Maker</th>
+		<th rowspan=2, class='powderblued'>Product</th>
+		<th rowspan=2, class='powderblued'>Connection Type</th>
+        <th colspan=2, class='powderblued'>T -> O</th>
+        <th colspan=2, class='powderblued'>O -> T</th>
+        <th colspan=5, class='powderblued'>Additional Configuration</th>
+	</tr>
+    <tr>
+        <th class='powderblued'>Instance ID</th>
+        <th class='powderblued'>Run Idle Header</th>
+        <th class='powderblued'>Instance ID</th>
+        <th class='powderblued'>Run Idle Header</th>
+		<th class='powderblued'>Instance ID</th>
+        <th class='powderblued'>Total Size</th>
+		<th class='powderblued'>Data Size</th>
+        <th class='powderblued'>Data Type</th>
+		<th class='powderblued'>Data</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Crevis</td>
+		<td>M9289</td>
+        <td>Exclusive Owner</td>
+		<td>1</td>
+		<td>No</td>
+        <td>2</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Wago</td>
+		<td>750-366</td>
+        <td>Exclusive Owner</td>
+		<td>104: Status + AI + DI<br>105: Status + DI<br>106: Status + AI<br>107: AI + DI<br>108: DI<br>109: AI</td>
+		<td>No</td>
+        <td>101: AO + DO<br>102: DO<br>103: AO</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Hilscher</td>
+		<td>CIFX PCI EtherNet/IP Adapter</td>
+        <td>Exclusive Owner</td>
+		<td>101</td>
+		<td>Yes</td>
+        <td>100</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Baumer</td>
+		<td>OM-70 EtherNet/IP</td>
+        <td>Input Only</td>
+		<td>100</td>
+		<td>No</td>
+        <td>238</td>
+		<td>-</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Beckhoff</td>
+		<td>EK-9500</td>
+        <td>Exclusive Owner</td>
+		<td>129</td>
+		<td>No</td>
+        <td>130</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+	<tr>
+		<td rowspan=6>Rockwell Automation (AB)</td>
+		<td rowspan=6>Point I/O 1734-AENTR</td>
+        <td rowspan=6>Exclusive Owner</td>
+		<td rowspan=6>101</td>
+		<td rowspan=6>No</td>
+        <td rowspan=6>100</td>
+		<td rowspan=6>Yes</td>
+		<td rowspan=6>102</td>
+		<td rowspan=6>10</td>
+		<td>4byte</td>
+		<td>unsigned int</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>2byte</td>
+		<td>unsigned int</td>
+		<td>IO slot + 1</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(T -> O) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(T -> O) Fixed Size per Slot</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(O -> T) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(O -> T) Fixed Size per Slot</td>
+	</tr>
+</tbody>
+</table>
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis.md)
+#### 2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+
+   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - For the IP settings of the Remote I/O used in the example, please refer to the manual link below.
+
+   - "[**1.3.10.2 Remote IO IP Setting**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+{% endhint %}
+
+<br>
+
+**1. Prepare the manual and the EDS file for the Adapter device.**
+
+![[figure 2.4.3.1-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_1.png>) 
+
+<br>
+
+![[figure 2.4.3.1-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_2.png>) 
+
+<br>
+
+![[figure 2.4.3.1-3 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_3.png>) 
+
+<br>
+
+**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+
+<br>
+
+![[figure 2.4.3.1-4 EDS Info]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Check the connection type in the Connection Manager   
+      - Example: Exclusive Owner
+
+   - Check for the presence of headers in the Real Time Transfer Format   
+      - Input (T > O) : No header   
+      - Output (O > T) : 32-bit run/idle header   
+
+   - Click "Create / Decode Path" to verify the Instance ID   
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.1-5 EDS Info]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_5.png>) 
+
+<br>
+
+{% hint style="info" %}
+      - Input (T > O) : 1   
+      - Output (O > T) : 2   
+{% endhint %}
+
+<br>
+
+**3. Check the I/O size in the device manual.**
+
+<br>
+
+{% hint style="info" %}
+   - Verify the I/O configuration of the device to be connected. 
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.1-6 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_6.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Refer to the manual for each slot configuration to determine the total I/O size.
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.1-7 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_7.png>) 
+
+<br>
+
+![[그림 2.4.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_8.png>) 
+
+<br>
+
+**4. Enter the communication settings based on the Adapter device information.**
+
+<br>
+
+![[figure 2.4.3.1-8 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_9.png>)
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the manual of the target device to enter the settings correctly.   
+      - Input (T > O) : Slave > Master   
+      - Output (O > T) : Master > Slave   
+
+   [Adapter Configuration]   
+   - Crevis M9289   
+      - M7002 : None   
+      - M2768 : 1byte (O > T)   
+      - M2768 : 1byte (O > T)   
+      - M12DF : 2bytes (T > O)   
+      - M12DF : 2bytes (T > O)   
+      - M2768 : 1byte (O > T)   
+      - M2768 : 1byte (O > T)   
+
+   [IO Assembly Information]   
+   [T > O]   
+      - Size: 4bytes   
+      - Instance: 1   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 4bytes   
+      - Instance: 2   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/2-wago.md)
+#### 2.4.3.2 Connecting External Adapter Devices - Wago Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+
+   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the Wago manual for the IP configuration of the device.
+{% endhint %}
+
+<br>
+
+**1. Prepare the manual and the EDS file for the Adapter device.**
+
+![[figure 2.4.3.2-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_1.png>) 
+
+<br>
+
+**2. Check the Instance ID provided in the device manual**
+
+<br>
+
+![[figure 2.4.3.2-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Input (T > O)   
+      - 104: Status  + Analog  + Digital   
+      - 105: Status  + Digital   
+      - 106: Status  + Analog   
+      - 107: Analog  + Digital   
+      - 108: Digital   
+      - 109: Analog   
+
+   - Output (O > T)   
+      - 101: Analog + Digital   
+      - 102: Digital   
+      - 103: Analog   
+{% endhint %}
+
+<br>
+
+**3. Open the EDS file using the EZ-EDS program and verify the device information.**
+
+<br>
+
+![[figure 2.4.3.2-3 EDS Info](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Check the connection type in the Connection Manager   
+      - Example: Exclusive Owner
+
+   - Check for the presence of headers in the Real Time Transfer Format   
+      - Input (T > O) : No header   
+      - Output (O > T) : 32-bit run/idle header   
+{% endhint %}
+
+<br>
+
+**4. Check the I/O size in the device manual.**
+
+<br>
+
+{% hint style="info" %}
+   - Verify the I/O configuration of the device to be connected. 
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.2-4 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Refer to the manual for each slot configuration to determine the total I/O size.
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.2-5 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_5.png>) 
+
+<br>
+
+![[figure 2.4.3.2-6 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_6.png>) 
+
+<br>
+
+**5. Enter the communication settings based on the Adapter device information.**
+
+<br>
+
+![[figure 2.4.3.2-7 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_7.png>)
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the manual of the target device to enter the settings correctly.   
+      - Input (T > O) : Slave > Master   
+      - Output (O > T) : Master > Slave   
+
+   [Adapter Configuration]   
+   - Wago 750-366   
+      - Status 1byte (T > O) (When selecting Instance ID 104, 105, 106)   
+      - 753-436 : 1byte (T > O)   
+      - 753-536 : 1byte (O > T)   
+
+   [IO Assembly Information]   
+   [T > O]   
+      - Size: 2bytes   
+      - Instance: 105   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 1bytes   
+      - Instance: 101   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/3-pci.md)
+#### 2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter
+
+<br>
+
+{% hint style="info" %}
+   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+
+   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the Hilscher manual for the IP configuration of the device.
+{% endhint %}
+
+<br>
+
+**1. Prepare the manual and the EDS file for the Adapter device.**
+
+![[figure 2.4.3.3-1 CIFX PCI]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_1.png>) 
+
+<br>
+
+**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+
+<br>
+
+![[figure 2.4.3.3-2 EDS Info]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Check the connection type in the Connection Manager   
+      - Example: Exclusive Owner
+
+   - Check for the presence of headers in the Real Time Transfer Format   
+      - Input (T > O) : 32-bit run/idle header   
+      - Output (O > T) : 32-bit run/idle header   
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.3-3 EDS Info]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_3.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Check the Instance ID in Param   
+      - Input (T > O) : 101   
+      - Output (O > T) : 100   
+{% endhint %}
+
+<br>
+
+**3. Check the I/O size in the device manual.**
+
+<br>
+
+{% hint style="info" %}
+   - Check the I/O Size of the current device to be connected (Refer to the corresponding PCI device settings)   
+{% endhint %}
+
+<br>
+
+**4. Enter the communication settings based on the Adapter device information.**
+
+<br>
+
+![[figure 2.4.3.3-4 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_4.png>)
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the manual of the target device to enter the settings correctly.   
+      - Input (T > O) : Slave > Master   
+      - Output (O > T) : Master > Slave   
+
+   [IO Assembly Information]   
+   [T > O]   
+      - Size: 240 bytes (Value configured in the PCI device)   
+      - Instance: 101   
+      - Run/Idle Header: 32Bit   
+
+   [O > T]    
+      - Size: 240 bytes (Value configured in the PCI device)   
+      - Instance: 100   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer.md)
+#### 2.4.3.4 Connecting External Adapter Devices - Baumer OM-70
+
+<br>
+
+{% hint style="info" %}
+   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+
+   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the Baumer manual for the IP configuration of the device.
+{% endhint %}
+
+<br>
+
+**1. Prepare the manual and the EDS file for the Adapter device.**
+
+![[figure 2.4.3.4-1 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_1.png>) 
+
+<br>
+
+**2. Verify the Instance ID and I/O Size in the device manual.**
+
+<br>
+
+![[figure 2.4.3.4-2 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   [Input Only Connection]   
+
+   - Input (T > O)   
+      - Instance ID: 100   
+      - Size : 34 bytes   
+
+   - Output (O > T)   
+      - Instance ID: 238   
+      - Size : 0 byte    
+{% endhint %}
+
+<br>
+
+**3. Enter the communication settings based on the Adapter device information.**
+
+<br>
+
+![[figure 2.4.3.4-3 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>)
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff.md)
+#### 2.4.3.5 Connecting External Adapter Devices - Beckhoff Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+
+   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the Beckhoff manual for the IP configuration of the device.
+{% endhint %}
+
+<br>
+
+**1. Prepare the manual and the EDS file for the Adapter device.**
+
+![[figure 2.4.3.5-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_1.png>) 
+
+<br>
+
+**2. Access the device's webpage to configure the IP address.**
+
+<br>
+
+{% hint style="info" %}
+   - In this example, the initial IP address is set to 192.168.1.2 (DIP switch No. 2 is ON)
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.5-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_2.png>) 
+
+<br>
+
+![[figure 2.4.3.5-3 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_3.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - In this example, the IP address is changed to 192.168.10.95. 
+
+   - After entering the IP address, click the Check button to save. 
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.5-4 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Set the DIP switches as shown below and reboot the device:   
+      - 1 ~ 8  : ON   
+      - 9 ~ 10 : OFF   
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.5-5 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_5.png>) 
+
+<br>
+
+![[figure 2.4.3.5-6 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_6.png>) 
+
+<br>
+
+**3. Access the device's webpage to verify the EtherNet/IP configuration information.**
+
+<br>
+
+{% hint style="info" %}
+   - Re-access the webpage using the newly configured IP address and verify the IP address and EtherNet/IP configuration details.
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.5-7 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_7.png>) 
+
+<br>
+
+![[figure 2.4.3.5-8 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_8.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Input (T > O)   
+      - Instance ID: 129   
+      - Byte Size: 6      
+
+   - Output (O > T)   
+      - Instance ID: 130   
+      - Byte Size: 6   
+{% endhint %}
+
+<br>
+
+**4. Enter the communication settings based on the Adapter device information.**
+
+<br>
+
+![[figure 2.4.3.5-9 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_9.png>)
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the manual of the target device to enter the settings correctly.   
+      - Input (T > O) : Slave > Master    
+      - Output (O > T) : Master > Slave   
+
+   [Adapter Configuration]   
+   - Beckhoff EK-9500   
+      - EK-1008 : 1byte (T > O)   
+      - EK-2008 : 1byte (O > T)   
+
+   [IO Assembly Information]   
+   [T > O]   
+      - Size: 6bytes   
+      - Instance: 129   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 6bytes   
+      - Instance: 130   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell.md)
+#### 2.4.3.6 Connecting External Adapter Devices - Rockwell Automation (AB) Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+
+   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the Rockwell Automation manual for the IP configuration of the device.
+{% endhint %}
+
+<br>
+
+**1. Prepare the manual and the EDS file for the Adapter device.**
+
+<br>
+
+![[figure 2.4.3.6-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_1.png>) 
+
+<br>
+
+![[figure 2.4.3.6-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_2.png>) 
+
+<br>
+
+**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+
+<br>
+
+![[figure 2.4.3.6-3 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_3.png>) 
+
+<br>
+
+![[figure 2.4.3.6-4 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Check the connection type in the Connection Manager   
+      - Example: Exclusive Owner
+
+   - Check for the presence of headers in the Real Time Transfer Format   
+      - Input (T > O) : No header   
+      - Output (O > T) : 32-bit run/idle header   
+
+   - Click "Create / Decode Path" to verify the Instance ID   
+      - Input (T > O) : 101   
+      - Output (O > T) : 100   
+      - Configuration : 102   
+{% endhint %}
+
+<br>
+
+**3. Check the I/O size in the device manual.**
+
+<br>
+
+{% hint style="info" %}
+   - Verify the I/O configuration of the device to be connected. 
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.6-5 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_5.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Verify the I/O configuration of the device to be connected. 
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.6-6 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_6.png>) 
+
+<br>
+
+![[figure 2.4.3.6-7 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_7.png>) 
+
+<br>
+
+**4. Enter the communication settings based on the Adapter device information.**
+
+<br>
+
+![[figure 2.4.3.6-8 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_8.png>)
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the manual of the target device to enter the settings correctly.   
+      - Input (T > O) : Slave > Master    
+      - Output (O > T) : Master > Slave    
+
+   [Adapter Configuration]   
+   - Point I/O 1734-AENTR    
+      - Status : 8byte (T > O)    
+      - 1734-IB8 : 1byte (T > O)   
+      - 1734-OB8E : 1byte (O > T) + 1byte (T > O, Status)   
+
+   [IO Assembly Information]   
+   [T > O]   
+      - Size: 10bytes   
+      - Instance: 101   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 1byte   
+      - Instance: 100   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+
+![[figure 2.4.3.6-9 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_9.png>)
+
+<br>
+
+{% hint style="info" %}
+   - Please refer to the manual of the target device to enter the additional settings correctly.   
+      - Input (T > O) : Slave > Master   
+      - Output (O > T) : Master > Slave   
+
+   [Additional Settings]   
+      - Config Segment : ON   
+      - Instance: 102   
+      - Size: 10bytes    
+
+   [Config Segment Information]    
+      - (4bytes) 1 : Header    
+      - (2bytes) 3 : Connected Slots + 1   
+      - (1byte)  0 : T > O Alignment (in bytes)      
+      - (1byte)  1 : T > O Data Size per slot      
+      - (1byte)  0 : O > T Alignment (in bytes)      
+      - (1byte)  1 : O > T Data Size per slot      
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/4-error.md)
+### 2.4.4 Error Codes
+
+<br>
+
+{% hint style="info" %}
+   - Provides a real-time diagnostic function by displaying the communication status of each device using CIP standard General Status codes.
+{% endhint %}
+
+<br>
+
+![[figure 2.4.4-1 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_8.png>) 
+
+<br>
+
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
+<br>
+
+**General Status Codes**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>Status Value (Hex)</th>
+		<th class='powderblued'>Name</th>
+		<th class='powderblued'>Description</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>-</td>
+		<td>Communication not configured or changed</td>
+		<td>Communication settings have not been applied or are in the process of changing</td>
+	</tr>
+	<tr>
+		<td>0x00</td>
+		<td>Success</td>
+		<td>The service has successfully been performed by the specified
+object.</td>
+	</tr>
+	<tr>
+		<td>0x00 (In case of error)</td>
+		<td>No reponse</td>
+		<td>No communication response (e.g., cable disconnected, invalid IP address, etc.)</td>
+	</tr>
+	<tr>
+		<td>0x01</td>
+		<td>Connection failed</td>
+		<td>A connection-elated service failed. This happened at any
+location along the connection path.</td>
+	</tr>
+	<tr>
+		<td>0x02</td>
+		<td>Resource unavailable</td>
+		<td>Some resources which were required for the object to perform
+the requested service were not available.</td>
+	</tr>
+	<tr>
+		<td>0x03</td>
+		<td>Invalid parameter value</td>
+		<td>See status code 0x20, which is usually applied in this situation.</td>
+	</tr>
+	<tr>
+		<td>0x04</td>
+		<td>Path segment error</td>
+		<td>A path segment error has been encountered. Evaluation of the
+supplied path information failed.</td>
+	</tr>
+	<tr>
+		<td>0x05</td>
+		<td>Path destination unknown</td>
+		<td>The path references an unknown object class, instance or
+structure element causing the abort of path processing.</td>
+	</tr>
+	<tr>
+		<td>0x06</td>
+		<td>Partial transfer</td>
+		<td>Only a part of the expected data could be transferred.</td>
+	</tr>
+	<tr>
+		<td>0x07</td>
+		<td>Connection lost</td>
+		<td>The connection for messaging has been lost.</td>
+	</tr>
+	<tr>
+		<td>0x08</td>
+		<td>Service not supported</td>
+		<td>The requested service has not been implemented or has not
+been defined for this object class or instance</td>
+	</tr>
+	<tr>
+		<td>0x09</td>
+		<td>Invalid attribute value</td>
+		<td>Detection of invalid attribute data</td>
+	</tr>
+	<tr>
+		<td>0x0A</td>
+		<td>Attribute list error</td>
+		<td>An attribute in the Get_Attribute_List or Set_Attribute_List
+response has a status not equal to 0.</td>
+	</tr>
+	<tr>
+		<td>0x0B</td>
+		<td>Already in requested state</td>
+		<td>The object is already in the mode or state which has been
+requested by the service</td>
+	</tr>
+	<tr>
+		<td>0x0C</td>
+		<td>Object state conflict</td>
+		<td>The object is not able to perform the requested service in the
+current mode or state</td>
+	</tr>
+	<tr>
+		<td>0x0D</td>
+		<td>Object already exists</td>
+		<td>It has been tried to create an instance of an object which
+already exists.</td>
+	</tr>
+	<tr>
+		<td>0x0E</td>
+		<td>Attribute not settable</td>
+		<td>It has been tried to change a non-modifiable attribute.</td>
+	</tr>
+	<tr>
+		<td>0x0F</td>
+		<td>Privilege violation</td>
+		<td>A check of permissions or privileges failed</td>
+	</tr>
+	<tr>
+		<td>0x10</td>
+		<td>Device state conflict</td>
+		<td>The current mode or state of the device prevents the execution
+of the requested service.</td>
+	</tr>
+	<tr>
+		<td>0x11</td>
+		<td>Reply data too large</td>
+		<td>The data to be transmitted in the response buffer requires more
+space than the size of the allocated response buffer</td>
+	</tr>
+	<tr>
+		<td>0x12</td>
+		<td>Fragmentation of primitive value</td>
+		<td>The service specified an operation that is going to fragment a
+primitive data value, i.e. half a REAL data type.</td>
+	</tr>
+	<tr>
+		<td>0x13</td>
+		<td>Not enough data</td>
+		<td>The service did not supply all required data to perform the
+specified operation</td>
+	</tr>
+	<tr>
+		<td>0x14</td>
+		<td>Attribute not supported</td>
+		<td>An unsupported attribute has been specified in the request</td>
+	</tr>
+	<tr>
+		<td>0x15</td>
+		<td>Too much data</td>
+		<td>More data than was expected were supplied by the service.</td>
+	</tr>
+	<tr>
+		<td>0x16</td>
+		<td>Object does not exist</td>
+		<td>The specified object does not exist in the device.</td>
+	</tr>
+	<tr>
+		<td>0x17</td>
+		<td>Service fragmentation sequence erroruccess</td>
+		<td>Fragmentation sequence for this service is not currently active
+for this data</td>
+	</tr>
+	<tr>
+		<td>0x18</td>
+		<td>No stored attribute data</td>
+		<td>The attribute data of this object has not been saved prior to the
+requested service.</td>
+	</tr>
+	<tr>
+		<td>0x19</td>
+		<td>Store operation failure</td>
+		<td>The attribute data of this object could not be saved due to a
+failure during the storage attempt</td>
+	</tr>
+	<tr>
+		<td>0x1A</td>
+		<td>Routing failure, request packet too large</td>
+		<td>The service request packet was too large for transmission on a
+network in the path to the destination. The routing device was
+forced to abort the service</td>
+	</tr>
+	<tr>
+		<td>0x1B</td>
+		<td>Routing failure, response packet too large</td>
+		<td>The service response packet was too large for transmission on
+a network in the path from the destination. The routing device
+was forced to abort the service</td>
+	</tr>
+	<tr>
+		<td>0x1C</td>
+		<td>Missing attribute list entry data</td>
+		<td>The service did not supply an attribute in a list of attributes that
+was needed by the service to perform the requested behavior</td>
+	</tr>
+	<tr>
+		<td>0x1D</td>
+		<td>Invalid attribute value list</td>
+		<td>The service returns the list of attributes containing status
+information for invalid attributes</td>
+	</tr>
+	<tr>
+		<td>0x1E</td>
+		<td>Embedded service error</td>
+		<td>An embedded service caused an error</td>
+	</tr>
+	<tr>
+		<td>0x1F</td>
+		<td>Vendor specific error</td>
+		<td>A vendor specific error has occurred. This error should only
+occur when none of the other general error codes can correctly
+be applied</td>
+	</tr>
+	<tr>
+		<td>0x20</td>
+		<td>Invalid parameter</td>
+		<td>A parameter which was associated with the request was invalid.
+The parameter does not meet the requirements of the CIP
+specification and/or the requirements defined in the specification
+of an application object.</td>
+	</tr>
+	<tr>
+		<td>0x21</td>
+		<td>Write-once value already written</td>
+		<td>An attempt was made to write to a write-once medium for the
+second time, or to modify a value that cannot be changed after
+being established once</td>
+	</tr>
+	<tr>
+		<td>0x22</td>
+		<td>Invalid reply received</td>
+		<td>An invalid reply is received. Possible causes can for instance be
+among others a reply service code not matching the request
+service code or a reply message shorter than the expectable
+minimum size</td>
+	</tr>
+	<tr>
+		<td>0x23</td>
+		<td>Reserved</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>0x24</td>
+		<td>Reserved</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>0x25</td>
+		<td>Key failure in path</td>
+		<td>The key segment (i.e. the first segment in the path) does not
+match the destination module. More information about which
+part of the key check failed can be derived from the object
+specific status.</td>
+	</tr>
+	<tr>
+		<td>0x26</td>
+		<td>Path size invalid</td>
+		<td>Path cannot be routed to an object due to lacking information or
+too much routing data have been included</td>
+	</tr>
+	<tr>
+		<td>0x27</td>
+		<td>Unexpected attribute in list</td>
+		<td>It has been attempted to set an attribute which may not be set in
+the current situation</td>
+	</tr>
+	<tr>
+		<td>0x28</td>
+		<td>Invalid member ID</td>
+		<td>The Member ID specified in the request is not available within
+the specified class/ instance or attribute</td>
+	</tr>
+	<tr>
+		<td>0x29</td>
+		<td>Member cannot be set</td>
+		<td>A request to modify a member which cannot be modified has
+occurred</td>
+	</tr>
+	<tr>
+		<td>0x2A</td>
+		<td>Group 2 only server general failure</td>
+		<td>This DeviceNet-specific error cannot occur in EtherNet/IP</td>
+	</tr>
+	<tr>
+		<td>0x2B - 0xCF</td>
+		<td>Reserved</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>0xD0 - 0xFF</td>
+		<td>Vendor specific Codes</td>
+		<td>An object class specific error has occurred</td>
+	</tr>
+</tbody>
+</table>
+<br>
 
 [__SOURCE](3-ethercat-master-io/README.md)
 # 3. EtherCAT Master IO
