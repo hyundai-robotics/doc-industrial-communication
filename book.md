@@ -5,7 +5,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # 사전 주의사항
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+{% include file="ko/precautions.md" %}
 
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI 통신
@@ -323,8 +323,11 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 **1. Sycon.net 설치된 PC와 로봇 제어기의 범용 LAN포트를 연결 합니다. (PCI LAN Port X)**
 **\[시스템 > 2: 제어 파라미터 > 9: 네트워크]** 메뉴를 터치하여 범용 LAN포트의 IP를 확인합니다. Ping Test 등을 통해 연결 여부를 확인해 주십시오.
 
+<br>
+
 ![[그림 1.3.2-1 네트워크 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
-![[그림 1.3.2-2 네트워크 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
+
+<br>
 
 {% hint style="info" %}
    - IP Address는 사용자 설정에 따라 변경 가능합니다.
@@ -334,14 +337,14 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 
 **2. Sycon.net 을 실행합니다.**
 
-![[그림 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
+![[그림 1.3.2-2 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
 
 <br>
 
 **3. 화면 오른쪽 Device Catalog 에서 설정한 통신 Protocol에 맞는 항목을 클릭하여 Drag & Drop 으로 중앙의 버스 라인에 놓습니다.**
 
+![[그림 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 ![[그림 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
-![[그림 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
@@ -355,7 +358,7 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
    - netX Driver를 선택합니다.
 {% endhint %}
 
-![[그림 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
+![[그림 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 {% hint style="info" %}
    - Setting -> Driver -> netX Driver -> TCP Connection 
@@ -363,7 +366,7 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
    - IP Address : 연결된 제어기의 범용 LAN Port IP 주소를 입력해 주십시오.
 {% endhint %}
 
-![[그림 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
+![[그림 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
    - Device Assignment -> Scan클릭
@@ -379,14 +382,14 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 **\[주의]**: Scan 이 안되는 경우 제어기와의 Cable 연결 상태, 펌웨어 설정을 확인해 주십시오.
 {% endhint %}
 
-![[그림 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
+![[그림 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 
 {% hint style="info" %}
    - CIFX PCI 그림 우클릭 -> DOWNLOAD
 {% endhint %}
 
-![[그림 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
+![[그림 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)
 #### 1.3.2.1 SYCON.NET 도움말
 
@@ -3947,6 +3950,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
+![[그림 1.3.8.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_5.png>) 
+
 <br>
 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
@@ -3954,6 +3959,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 {% hint style="info" %}
    **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
+
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
 #### 1.3.8.3 CC-Link Slave 에러 조치
 
@@ -4775,25 +4781,22 @@ EtherNet/IP Network와 Factory Network는 서로 분리된 네트워크로 구�
 
 <br>
 
-1. 라이선스 리스트 중 "EtherNet/IP 어댑터를 "유효"로 선택
-2. 시스템 일련번호를 라이선스 관리자에게 전달
-3. 관리자로부터 라이선스키를 얻어 입력 후 "확인"버튼을 누름
-4. License Key [XXXXXX] ==>OK 확인
-5. Ethernet/IP 어댑터 메뉴 진입시 라이런스 없다는 경고 메시지가 사라진 것을 확인
+1. 시스템 일련번호를 라이선스 관리자에게 전달
+2. 관리자로부터 라이선스키를 얻어 입력 후 "확인"버튼을 누름
+3. License Key [XXXXXX] ==>OK 확인
+4. 라이선스 리스트 중 "내장 이더넷/IP 슬레이브" 또는 "내장 이더넷/IP 마스터"를 "유효"로 선택
 
 <br>
 
-~ 참고
+{% hint style="info" %}
+   [EtherNet/IP 라이선스 정책]
+
+   - 슬레이브 라이선스 : EtherNet/IP 슬레이브만 사용 가능
+
+   - 마스터 라이선스 : EtherNet/IP 슬레이브 + 마스터 모두 사용 가능
+{% endhint %}
 
 <br>
-
-![그림 2.2-2 license](../_assets/2-ethernet-ip/2-license/license_ng.png)
-*[그림 2.5.1-2 라이선스 활성화 안될시 나오는 메시지]*
-
-<br>
-
-
-
 [__SOURCE](2-ethernet-ip/3-adapter/README.md)
 ## 2.3 EtherNet/IP 어댑터 (슬레이브)
 
@@ -4947,7 +4950,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-초기화면에서 "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP 어댑터" 로 이동
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 3: EtherNet/IP 설정]**
 
 <br>
 
@@ -4956,28 +4959,43 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**[Network]**
+{% hint style="info" %}
+   [프로토콜 설정]
 
--	기능사용 : Ethernet/IP 어댑터의 사용여부 선택
--	이더넷 포트 선택 : Ethernet/IP Scanner와 연결할 LAN Port 선택 (선택된 LAN Port의 정보는 바로 아래 줄에 표시 됨)
-
-<br>
-
-**[I/O Size]**
-
--	입력 바이트 수 : 0 ~ 240 설정 가능
--	출력 바이트 수 : 0 ~ 240 설정 가능
+      - OFF : EtherNet/IP 사용 안함   
+      - 어댑터 : EtherNet/IP Adapter 모드   
+      - 스캐너 : EtherNet/IP Scanner 모드   
+      - 어댑터 + 스캐너 : EtherNet/IP Adapter + Scanner 동시 사용 모드   
+{% endhint %}
 
 <br>
 
-**[Monitoring]**
+{% hint style="info" %}
+   [Port 설정]
 
-- 동작(Run) : Ethernet/IP의 I/O Data 교환의 상태를 나타냄 (On : 정상 통신 중 , Off : 통신 중 아님)
-- 준비(Ready) : Ethernet/IP 어댑터의 초기화 상태를 나타냄 (On : 초기화 정상, Off : 초기화 비정상)
-- 에러(Error) : Ethernet/IP 어댑터의 알람 또는 경고 상태 표시 (On : 알람/경고 상태, Off : 정상)
-- 버전 : Ethernet/IP 어댑터 S/W 버전 정보 표시
-- 에러코드: 알람 또는 경고가 발생했을 경우 알람/경고 코드 표시 
+      - 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
+{% endhint %}
 
+<br>
+
+{% hint style="info" %}
+   [IO 설정]
+
+      - 입력 및 출력 바이트 수 : 0 ~ 240 바이트 설정 가능
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [통신 상태 확인]   
+   
+      - 라이선스: 현재 라이선스 상태   
+      - 실행: EtherNet/IP 기능 동작 상태 표시   
+      - 통신: EtherNet/IP 통신 연결 상태 표시   
+      - 에러: EtherNet/IP 오류 상태 표시   
+{% endhint %}
+
+<br>
 [__SOURCE](2-ethernet-ip/3-adapter/3-connect-scanner/README.md)
 ### 2.3.3 외부 Scanner 장치 연결
 
@@ -5012,7 +5030,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 
 <br>
 
-메뉴 > 도구 > EDS(D) > EDS파일 등록 클릭 > "Hi6_EIP_240402.eds" 선택
+메뉴 > 도구 > EDS(D) > EDS파일 등록 클릭 > "Hi7_EIP_251023.eds" 선택
 
 아래 그림과 같이 EDS 파일 등록 확인
 
@@ -5096,7 +5114,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 ![auto6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto6.png)<br>
 *[그림 2.6.1.15 오토 스캔6]*<br>
 
-아래 그림과 같이 Hi6 EtherNet/IP 어댑터 장치가 리스트에 나타납니다.  <br>
+아래 그림과 같이 Hi7 EtherNet/IP 어댑터 장치가 리스트에 나타납니다.  <br>
 ![auto7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto7.png)<br>
 *[그림 2.6.1.16 오토 스캔7]*<br>
 
@@ -5120,7 +5138,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 
 <br>
 
-[1] 좌측 리스트에서 EB01(Hi6 EtherNet/IP 어댑터)를 더블 클릭 합니다.<br>
+[1] 좌측 리스트에서 EB01(Hi7 EtherNet/IP 어댑터)를 더블 클릭 합니다.<br>
 
 [2] EIP 상세 설정 버튼을 누릅니다.<br>
 ![AdapterSetting1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting1.png)<br>
@@ -5344,10 +5362,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
    [Protocol 설정]
 
       - OFF : EtherNet/IP 사용 안함   
-      - Adapter : EtherNet/IP Adapter 모드   
-      - Scanner : EtherNet/IP Scanner 모드   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner 동시 사용 모드    (같은 LAN Port)
+      - 어댑터 : EtherNet/IP Adapter 모드   
+      - 스캐너 : EtherNet/IP Scanner 모드   
+      - 어댑터 + 스캐너 : EtherNet/IP Adapter + Scanner 동시 사용 모드   
 {% endhint %}
+
+<br>
 
 {% hint style="info" %}
    [Port 설정]
@@ -5426,12 +5446,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 {% hint style="info" %}
    [통신 상태 확인]   
-      - License: 현재 라이선스 상태   
-      - Run: EtherNet/IP 기능 동작 상태 표시   
-      - Communication: EtherNet/IP 통신 연결 상태 표시   
-      - Error: EtherNet/IP 오류 상태 표시   
 
-   - 장치 번호 색상   
+      - 라이선스: 현재 라이선스 상태   
+      - 실행: EtherNet/IP 기능 동작 상태 표시   
+      - 통신: EtherNet/IP 통신 연결 상태 표시   
+      - 에러: EtherNet/IP 오류 상태 표시   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [장치 번호 색상]   
+
       - 초록색 : 통신 연결 OK   
       - 빨간색 : 통신 연결 NG   
 {% endhint %}
@@ -6547,204 +6573,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 
-[__SOURCE](3-ethercat-master-io/README.md)
-# 3. EtherCAT Master IO
-
-<br>
-
-이 장에서는 EtherCAT Master 를 이용하여 당사에서 선정한 몇가지의 표준 Remote IO Module을 연결하는 방법에 대해 설명합니다.
-
-<br>
-
-**EtherCAT 개요**
-
-EtherCAT은 Beckhoff Automation 에서 개발된 이더넷 기반의 Fieldbus 시스템입니다.
-
-EtherCAT 프로토콜은 매우빠른 IO Data 업데이트와 정확한 동기화를 위한 기능을 제공합니다. 
-
-<br>
-
-**EtherCAT Master IO**
-   * 기존 필드버스 마스터(Master)에 해당되는 제품으로 EtherCAT 슬레이브(Slave) 장치들에게 IO 데이터 연결을 요청할 수 있습니다.
-
-<br>
-
-{% hint style="info" %}
-   - EtherCAT Master 는 제어기의 범용 LAN Port 를 사용합니다.
-
-
-   - Remote IO Module은 Crevis 사의 M9386 EtherCAT Network Adapter를 사용합니다.
-{% endhint %}
-
-
-
-[__SOURCE](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
-## 3.1 EtherCAT Master IO 설정
-
-<br>
-
-**1. 메뉴를 터치하여 설정 화면으로 진입 합니다.**
-
-<br>
-
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 4: EtherCAT Master 설정]**
-
-<br>
-
-![[그림 3.1-1 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_1.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - EtherCAT Master 설정 화면에서 선택된 제어기 LAN Port 번호를 확인합니다. 
-{% endhint %}
-
-**2. 통신을 위해 제어기 LAN 포트와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.**
-
-<br>
-
-![[그림 3.1-2 하드웨어 연결]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_2.png>) 
-![[그림 3.1-3 하드웨어 연결]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_3.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - 제어기 와 Remote IO를 LAN Cable을 이용하여 연결해 주십시오.
-
-   - Remote IO 의 DIP Switch는 모두 OFF로 설정해 주십시오.
-
-   - Remote IO 전원과 Field Power를 모두 연결해 주십시오. (24V DC)
-{% endhint %}
-
-<br>
-
-**3. 설정 메뉴에서 EtherCAT Master 사용을 "ON" 으로 선택합니다.**
-
-<br>
-
-![[그림 3.1-4 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_4.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - 사용하는 환경에 맞게 통신 주기를 설정합니다.
-
-   - 통신 주기는 1ms, 2ms, 5ms 를 지원합니다.
-{% endhint %}
-
-<br>
-
-**4. 설정 메뉴의 슬레이브 리스트에서 연결한 Remote IO 모듈과 동일한 구성을 선택합니다.**
-
-<br>
-
-![[그림 3.1-5 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_5.png>)
-
-<br>
-
-{% hint style="info" %}
-   - Input, Output Byte 수를 확인합니다.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-   - Input Module  
-   - M12DF : Digital 16점  
-   - M3534 : Analog 4점  
-{% endhint %}
-
-{% hint style="info" %}
-   - Output Module  
-   - M225F : Digital 16점  
-   - M226F : Digital 16점  
-   - M2768 : Digital 8점   
-   - M4534 : Analog 4점  
-{% endhint %}
-
-{% hint style="info" %}
-   - Special Module  
-   - M5112 : Conveyer I/F 
-{% endhint %}
-
-<br>
-
-![[그림 3.1-6 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_6.png>) 
-
-<br>
-
-**5. 설정 완료 후 제어기를 재부팅합니다.**
-
-![[그림 3.1-7 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
-
-<br>
-
-![[그림 3.1-8 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_8.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - 설정 완료 후 제어기를 재부팅해 주십시오.
-{% endhint %}
-
-<br>
-
-**6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.**
-
-![[그림 3.1-9 EtherCAT Master 설정]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - 통신 연결 상태와 Error 여부를 확인해 주십시오.
-{% endhint %}
-
-<br>
-
-![[그림 3.1-10 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_10.png>)
-
-<br>
-
-{% hint style="info" %}
-   - Remote IO Module 에서 LED를 이용해 정상적으로 통신이 개통되어 있는지 확인해 주십시오.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-   **통신 상태에서 ERROR 발생시 ("[**3.2 EtherCAT Master IO 에러 조치**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)")를 확인해 주십시오.**
-{% endhint %}
-
-<br>
-
-**7. 통신 설정 완료 후 IO Block 을 할당합니다.**
-
-{% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../4-io-block-allocation.md)")를 확인해 주십시오.**
-{% endhint %}
-
-
-[__SOURCE](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
-## 3.2 EtherCAT Master IO 에러 조치
-
-EtherCAT Master IO 설정 중 발생할 수 있는 주요 Error 를 해결하기 위한 방법입니다.
-
-<br>
-
-![[그림 3.2-1 EtherCAT Master 상태]](<../_assets/3-ethercat-master-io/2-Error/image_1.png>) 
-
-{% hint style="info" %}
-   - LAN Cable 의 연결 상태를 확인해 주십시오.
-
-   - Adapter Device 의 전원이 켜져 있는지 확인해 주십시오.
-
-   - Remote IO Module 의 IO 조합과 동일하게 설정이 되었는지 확인해 주십시오.
-{% endhint %}
-
-<br>
-
 [__SOURCE](4-pnio/README.md)
-# 4. PROFINET I/O (Hi7)
+# 4. PROFINET I/O
 
 <br>
 
