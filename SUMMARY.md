@@ -85,6 +85,17 @@
       * [2.3.3.1 LS ELECTRIC PLC](2-ethernet-ip/3-adapter/3-connect-scanner/1-connect-ls-plc.md)
     * [2.3.4 Error Codes](2-ethernet-ip/3-adapter/4-error_code.md)
 
+  * [2.4 EtherNet/IP Scanner](2-ethernet-ip/4-scanner/README.md)
+    * [2.4.1 EtherNet/IP Scanner Specifications](2-ethernet-ip/4-scanner/1-specification.md)
+    * [2.4.2 EtherNet/IP Scanner Settings](2-ethernet-ip/4-scanner/2-settings.md)
+    * [2.4.3 Connecting External Adapter Devices](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
+      * [2.4.3.1 Crevis Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis.md)
+      * [2.4.3.2 Wago Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/2-wago.md)
+      * [2.4.3.3 Hilscher CIFX PCI](2-ethernet-ip/4-scanner/3-connect-adapter/3-pci.md)
+      * [2.4.3.4 Baumer Sensor](2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer.md)
+      * [2.4.3.5 Beckhoff Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff.md)
+      * [2.4.3.6 Rockwell Automation (AB) Remote IO](2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell.md)
+    * [2.4.4 Error Codes](2-ethernet-ip/4-scanner/4-error.md)
 
 * [3. EtherCAT Master IO](3-ethercat-master-io/README.md)
   * [3.1 EtherCAT Master IO Settings](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
