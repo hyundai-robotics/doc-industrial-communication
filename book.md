@@ -5,7 +5,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # 사전 주의사항
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+{% include file="ko/precautions.md" %}
 
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI 통신
@@ -323,8 +323,11 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 **1. Sycon.net 설치된 PC와 로봇 제어기의 범용 LAN포트를 연결 합니다. (PCI LAN Port X)**
 **\[시스템 > 2: 제어 파라미터 > 9: 네트워크]** 메뉴를 터치하여 범용 LAN포트의 IP를 확인합니다. Ping Test 등을 통해 연결 여부를 확인해 주십시오.
 
+<br>
+
 ![[그림 1.3.2-1 네트워크 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
-![[그림 1.3.2-2 네트워크 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
+
+<br>
 
 {% hint style="info" %}
    - IP Address는 사용자 설정에 따라 변경 가능합니다.
@@ -334,14 +337,14 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 
 **2. Sycon.net 을 실행합니다.**
 
-![[그림 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
+![[그림 1.3.2-2 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
 
 <br>
 
 **3. 화면 오른쪽 Device Catalog 에서 설정한 통신 Protocol에 맞는 항목을 클릭하여 Drag & Drop 으로 중앙의 버스 라인에 놓습니다.**
 
+![[그림 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 ![[그림 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
-![[그림 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
@@ -355,7 +358,7 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
    - netX Driver를 선택합니다.
 {% endhint %}
 
-![[그림 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
+![[그림 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 {% hint style="info" %}
    - Setting -> Driver -> netX Driver -> TCP Connection 
@@ -363,7 +366,7 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
    - IP Address : 연결된 제어기의 범용 LAN Port IP 주소를 입력해 주십시오.
 {% endhint %}
 
-![[그림 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
+![[그림 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
    - Device Assignment -> Scan클릭
@@ -379,14 +382,14 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 **\[주의]**: Scan 이 안되는 경우 제어기와의 Cable 연결 상태, 펌웨어 설정을 확인해 주십시오.
 {% endhint %}
 
-![[그림 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
+![[그림 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 
 {% hint style="info" %}
    - CIFX PCI 그림 우클릭 -> DOWNLOAD
 {% endhint %}
 
-![[그림 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
+![[그림 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)
 #### 1.3.2.1 SYCON.NET 도움말
 
@@ -3947,6 +3950,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
+![[그림 1.3.8.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_5.png>) 
+
 <br>
 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
@@ -3954,6 +3959,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 {% hint style="info" %}
    **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../../../4-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
+
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
 #### 1.3.8.3 CC-Link Slave 에러 조치
 
@@ -4775,25 +4781,22 @@ EtherNet/IP Network와 Factory Network는 서로 분리된 네트워크로 구�
 
 <br>
 
-1. 라이선스 리스트 중 "EtherNet/IP 어댑터를 "유효"로 선택
-2. 시스템 일련번호를 라이선스 관리자에게 전달
-3. 관리자로부터 라이선스키를 얻어 입력 후 "확인"버튼을 누름
-4. License Key [XXXXXX] ==>OK 확인
-5. Ethernet/IP 어댑터 메뉴 진입시 라이런스 없다는 경고 메시지가 사라진 것을 확인
+1. 시스템 일련번호를 라이선스 관리자에게 전달
+2. 관리자로부터 라이선스키를 얻어 입력 후 "확인"버튼을 누름
+3. License Key [XXXXXX] ==>OK 확인
+4. 라이선스 리스트 중 "내장 이더넷/IP 슬레이브" 또는 "내장 이더넷/IP 마스터"를 "유효"로 선택
 
 <br>
 
-~ 참고
+{% hint style="info" %}
+   [EtherNet/IP 라이선스 정책]
+
+   - 슬레이브 라이선스 : EtherNet/IP 슬레이브만 사용 가능
+
+   - 마스터 라이선스 : EtherNet/IP 슬레이브 + 마스터 모두 사용 가능
+{% endhint %}
 
 <br>
-
-![그림 2.2-2 license](../_assets/2-ethernet-ip/2-license/license_ng.png)
-*[그림 2.5.1-2 라이선스 활성화 안될시 나오는 메시지]*
-
-<br>
-
-
-
 [__SOURCE](2-ethernet-ip/3-adapter/README.md)
 ## 2.3 EtherNet/IP 어댑터 (슬레이브)
 
@@ -4947,7 +4950,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-초기화면에서 "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP 어댑터" 로 이동
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 3: EtherNet/IP 설정]**
 
 <br>
 
@@ -4956,28 +4959,43 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**[Network]**
+{% hint style="info" %}
+   [프로토콜 설정]
 
--	기능사용 : Ethernet/IP 어댑터의 사용여부 선택
--	이더넷 포트 선택 : Ethernet/IP Scanner와 연결할 LAN Port 선택 (선택된 LAN Port의 정보는 바로 아래 줄에 표시 됨)
-
-<br>
-
-**[I/O Size]**
-
--	입력 바이트 수 : 0 ~ 240 설정 가능
--	출력 바이트 수 : 0 ~ 240 설정 가능
+      - OFF : EtherNet/IP 사용 안함   
+      - 어댑터 : EtherNet/IP Adapter 모드   
+      - 스캐너 : EtherNet/IP Scanner 모드   
+      - 어댑터 + 스캐너 : EtherNet/IP Adapter + Scanner 동시 사용 모드   
+{% endhint %}
 
 <br>
 
-**[Monitoring]**
+{% hint style="info" %}
+   [Port 설정]
 
-- 동작(Run) : Ethernet/IP의 I/O Data 교환의 상태를 나타냄 (On : 정상 통신 중 , Off : 통신 중 아님)
-- 준비(Ready) : Ethernet/IP 어댑터의 초기화 상태를 나타냄 (On : 초기화 정상, Off : 초기화 비정상)
-- 에러(Error) : Ethernet/IP 어댑터의 알람 또는 경고 상태 표시 (On : 알람/경고 상태, Off : 정상)
-- 버전 : Ethernet/IP 어댑터 S/W 버전 정보 표시
-- 에러코드: 알람 또는 경고가 발생했을 경우 알람/경고 코드 표시 
+      - 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
+{% endhint %}
 
+<br>
+
+{% hint style="info" %}
+   [IO 설정]
+
+      - 입력 및 출력 바이트 수 : 0 ~ 240 바이트 설정 가능
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [통신 상태 확인]   
+   
+      - 라이선스: 현재 라이선스 상태   
+      - 실행: EtherNet/IP 기능 동작 상태 표시   
+      - 통신: EtherNet/IP 통신 연결 상태 표시   
+      - 에러: EtherNet/IP 오류 상태 표시   
+{% endhint %}
+
+<br>
 [__SOURCE](2-ethernet-ip/3-adapter/3-connect-scanner/README.md)
 ### 2.3.3 외부 Scanner 장치 연결
 
@@ -5185,6 +5203,1375 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 
 
 
+
+[__SOURCE](2-ethernet-ip/4-scanner/README.md)
+## 2.4 EtherNet/IP 스캐너 (마스터)
+
+<br>
+
+내장형 EtherNet/IP 스캐너 (마스터) 에 대한 설명입니다.<br>
+
+[__SOURCE](2-ethernet-ip/4-scanner/1-specification.md)
+### 2.4.1 EtherNet/IP 스캐너 (마스터) 사양
+
+<br>
+
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
+<br>
+
+**Protocol 특성**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th colspan=2, class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td colspan=2>최대 연결 가능한 slave 수</td>
+		<td>20개</td>
+	</tr>
+    <tr>
+		<td rowspan=2>IO Size</td>
+        <td>전체 입출력</td>
+		<td>Max 1200 bytes</td>
+	</tr>
+    <tr>
+        <td>Slave 장치당 입출력</td>
+		<td>Max 240 bytes</td>
+	</tr>
+    <tr>
+		<td colspan=2>IO 연결</td>
+		<td>Cyclic</td>
+	</tr>
+    <tr>
+		<td colspan=2>IO 최소 Cycle Time</td>
+		<td>5ms</td>
+	</tr>
+    <tr>
+		<td colspan=2>통신 속도</td>
+		<td>10 or 100 Mbit/s</td>
+	</tr>
+    <tr>
+		<td colspan=2>Quick Connect</td>
+		<td>미지원</td>
+	</tr>
+    <tr>
+		<td colspan=2>Topology</td>
+		<td>Tree, Line</td>
+	</tr>
+    <tr>
+		<td colspan=2>IP 할당 방식</td>
+		<td>고정 IP 주소</td>
+	</tr>
+</tbody>
+</table>
+<br>
+
+**Network 특성**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Data Transport Layer</td>
+		<td>Ethernet II, IEEE 802.3</td>
+	</tr>
+	<tr>
+		<td>Interface Type</td>
+		<td>10 or 100 BASE-T Ethernet</td>
+	</tr>
+    <tr>
+		<td>Auto-Negotiation</td>
+		<td>지원</td>
+	</tr>
+    <tr>
+		<td>Hub</td>
+		<td>사용 가능</td>
+	</tr>
+    <tr>
+		<td>Switch</td>
+		<td>사용 가능</td>
+	</tr>
+</tbody>
+</table>
+<br>
+
+**물리적 연결**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>구분</th>
+		<th class='powderblued'>사양</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>케이블</td>
+		<td>최소 Cat5 이상, STP 케이블</td>
+	</tr>
+	<tr>
+		<td>길이</td>
+		<td>Max. 100m</td>
+	</tr>
+</tbody>
+</table>
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/2-settings.md)
+### 2.4.2 EtherNet/IP 스캐너 (마스터) 설정
+
+<br>
+
+"[**2.1 네트워크 설정**](../../2-ethernet-ip/1-network.md)" 및 "[**2.2 라이선스 설정**](../../2-ethernet-ip/2-license.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+
+<br>
+
+**1. 메뉴를 터치하여 설정 화면으로 진입 합니다.**
+
+<br>
+
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 3: EtherNet/IP 설정]**
+
+<br>
+
+![[그림 2.4.2-1 스캐너 설정]](<../../_assets/2-ethernet-ip/4-scanner/img_1.png>) 
+
+<br>
+
+![[그림 2.4.2-2 스캐너 설정]](<../../_assets/2-ethernet-ip/4-scanner/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   [Protocol 설정]
+
+      - OFF : EtherNet/IP 사용 안함   
+      - 어댑터 : EtherNet/IP Adapter 모드   
+      - 스캐너 : EtherNet/IP Scanner 모드   
+      - 어댑터 + 스캐너 : EtherNet/IP Adapter + Scanner 동시 사용 모드   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [Port 설정]
+
+      - 제어기 범용 LAN1 ~ 3 사용 가능 (상태 OK 확인 필요)
+{% endhint %}
+
+<br>
+
+**2. Scanner 모드를 선택하고 "장치 추가(Add Device)" 버튼을 눌러 다음 화면으로 진입합니다.**
+
+<br>
+
+![[그림 2.4.2-3 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/4-scanner/img_3.png>) 
+
+<br>
+
+**3. 연결할 장치와 동일하게 설정을 입력하고 저장합니다.**
+
+<br>
+
+{% hint style="info" %}
+   [장치 설정]
+
+      - Device No. : 장치 연결 순서 (IO 데이터 배치 순서)   
+      - IP Address : 장치의 IP 주소   
+      - Device Name : 장치 이름 (통신 연결과는 무관, 단순 식별용)   
+      - RPI (ms) : IO 데이터 갱신 주기   
+      - Connection Type   
+            - Exclusive Owner (I/O) : Scanner - Adapter 입출력 연결   
+            - Input Only : Adapter의 입력 신호만 연결   
+            - Listen Only : Adapter 가 다른 Scanner와 I/O 연결 되어있는 상태에서 입력 신호만 연결   
+
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
+
+      - Run/Idle Header : IO 데이터 헤더 유무 선택   
+      - Instance No. : IO 데이터 교환을 위한 Input / Output Assembly의 Instance 번호   
+      - IO Size : IO 데이터 크기 (bytes 단위)   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 연결 예시는 아래 매뉴얼을 참고해주십시오.    
+   - "[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+
+   - "[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+
+   - "[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+
+   - "[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+{% endhint %}
+
+<br>
+
+![[그림 2.4.2-4 스캐너 장치 추가]](<../../_assets/2-ethernet-ip/4-scanner/img_4.png>) 
+
+<br>
+
+**4. OK 버튼을 눌러 통신 설정을 전송합니다.**
+
+<br>
+
+![[그림 2.4.2-5 스캐너 설정]](<../../_assets/2-ethernet-ip/4-scanner/img_5.png>) 
+
+<br>
+
+**5. 통신이 정상적으로 연결되었는지 상태를 확인합니다.**
+
+<br>
+
+![[그림 2.4.2-6 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/4-scanner/img_6.png>) 
+
+<br>
+
+{% hint style="info" %}
+   [통신 상태 확인]   
+
+      - 라이선스: 현재 라이선스 상태   
+      - 실행: EtherNet/IP 기능 동작 상태 표시   
+      - 통신: EtherNet/IP 통신 연결 상태 표시   
+      - 에러: EtherNet/IP 오류 상태 표시   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [장치 번호 색상]   
+
+      - 초록색 : 통신 연결 OK   
+      - 빨간색 : 통신 연결 NG   
+{% endhint %}
+
+<br>
+
+![[그림 2.4.2-7 통신 상태 모니터링]](<../../_assets/2-ethernet-ip/4-scanner/img_7.png>) 
+
+<br>
+
+**6. 통신 설정 완료 후 IO Block 을 할당합니다.**
+
+{% hint style="info" %}
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")를 확인해 주십시오.**
+{% endhint %}
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
+### 2.4.3 외부 Adapter 장치 연결
+
+<br>
+
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
+<br>
+
+**외부 Adapter 장치 연결 시 설정 값**
+
+<br>
+
+{% hint style="info" %}
+   - IO size는 외부 장치에 연결된 Input / Output 크기와 일치하게 설정해 주십시오.   
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 자세한 사양은 장치 Maker에서 제공하는 매뉴얼을 참고해주십시오.    
+{% endhint %}
+
+<br>
+
+<table class="tg">
+<thead>
+	<tr>
+    	<th rowspan=2, class='powderblued'>Maker</th>
+		<th rowspan=2, class='powderblued'>제품</th>
+		<th rowspan=2, class='powderblued'>연결 방식</th>
+        <th colspan=2, class='powderblued'>T -> O</th>
+        <th colspan=2, class='powderblued'>O -> T</th>
+        <th colspan=5, class='powderblued'>Additional Configuration</th>
+	</tr>
+    <tr>
+        <th class='powderblued'>Instance ID</th>
+        <th class='powderblued'>Run Idle Header</th>
+        <th class='powderblued'>Instance ID</th>
+        <th class='powderblued'>Run Idle Header</th>
+		<th class='powderblued'>Instance ID</th>
+        <th class='powderblued'>Total Size</th>
+		<th class='powderblued'>Data Size</th>
+        <th class='powderblued'>Data Type</th>
+		<th class='powderblued'>Data</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Crevis</td>
+		<td>M9289</td>
+        <td>Exclusive Owner</td>
+		<td>1</td>
+		<td>No</td>
+        <td>2</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Wago</td>
+		<td>750-366</td>
+        <td>Exclusive Owner</td>
+		<td>104: Status + AI + DI<br>105: Status + DI<br>106: Status + AI<br>107: AI + DI<br>108: DI<br>109: AI</td>
+		<td>No</td>
+        <td>101: AO + DO<br>102: DO<br>103: AO</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Hilscher</td>
+		<td>CIFX PCI EtherNet/IP Adapter</td>
+        <td>Exclusive Owner</td>
+		<td>101</td>
+		<td>Yes</td>
+        <td>100</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Baumer</td>
+		<td>OM-70 EtherNet/IP</td>
+        <td>Input Only</td>
+		<td>100</td>
+		<td>No</td>
+        <td>238</td>
+		<td>-</td>
+		<td colspan=5>-</td>
+	</tr>
+    <tr>
+		<td>Beckhoff</td>
+		<td>EK-9500</td>
+        <td>Exclusive Owner</td>
+		<td>129</td>
+		<td>No</td>
+        <td>130</td>
+		<td>Yes</td>
+		<td colspan=5>-</td>
+	</tr>
+	<tr>
+		<td rowspan=6>Rockwell Automation (AB)</td>
+		<td rowspan=6>Point I/O 1734-AENTR</td>
+        <td rowspan=6>Exclusive Owner</td>
+		<td rowspan=6>101</td>
+		<td rowspan=6>No</td>
+        <td rowspan=6>100</td>
+		<td rowspan=6>Yes</td>
+		<td rowspan=6>102</td>
+		<td rowspan=6>10</td>
+		<td>4byte</td>
+		<td>unsigned int</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>2byte</td>
+		<td>unsigned int</td>
+		<td>IO slot + 1</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(T -> O) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(T -> O) Fixed Size per Slot</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(O -> T) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+	</tr>
+	<tr>
+		<td>1byte</td>
+		<td>unsigned int</td>
+		<td>(O -> T) Fixed Size per Slot</td>
+	</tr>
+</tbody>
+</table>
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis.md)
+#### 2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+
+   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 예시의 Remote IO의 IP 설정은 아래 매뉴얼 링크를 참조하여 진행해 주십시오.
+
+   - "[**1.3.10.2 Remote IO IP Setting**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+{% endhint %}
+
+<br>
+
+**1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.**
+
+![[그림 2.4.3.1-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_1.png>) 
+
+<br>
+
+![[그림 2.4.3.1-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_2.png>) 
+
+<br>
+
+![[그림 2.4.3.1-3 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_3.png>) 
+
+<br>
+
+**2. EZ-EDS 프로그램으로 EDS 파일을 열어 장치 정보를 확인합니다.**
+
+<br>
+
+![[그림 2.4.3.1-4 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
+
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 헤더 없음   
+      - Output (O > T) : 32-bit run/idle header   
+
+   - Create / Decode path 를 눌러 Instance ID 확인   
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.1-5 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_5.png>) 
+
+<br>
+
+{% hint style="info" %}
+      - Input (T > O) : 1   
+      - Output (O > T) : 2   
+{% endhint %}
+
+<br>
+
+**3. 장치 매뉴얼에서 IO size를 확인합니다.**
+
+<br>
+
+{% hint style="info" %}
+   - 현재 연결할 장치의 IO 구성 확인 
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.1-6 Remote IO 구성]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_6.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - 슬롯 구성별 매뉴얼을 참고하여 IO size 확인
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.1-7 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_7.png>) 
+
+<br>
+
+![[그림 2.4.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_8.png>) 
+
+<br>
+
+**4. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
+
+<br>
+
+![[그림 2.4.3.1-8 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_9.png>)
+
+<br>
+
+{% hint style="info" %}
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
+
+   [Adapter 구성]   
+   - Crevis M9289   
+      - M7002 : None   
+      - M2768 : 1byte (O > T)   
+      - M2768 : 1byte (O > T)   
+      - M12DF : 2bytes (T > O)   
+      - M12DF : 2bytes (T > O)   
+      - M2768 : 1byte (O > T)   
+      - M2768 : 1byte (O > T)   
+
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 4bytes   
+      - Instance: 1   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 4bytes   
+      - Instance: 2   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/2-wago.md)
+#### 2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+
+   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 해당 장치의 IP 설정은 Wago 매뉴얼을 참조하여 진행해 주십시오.
+{% endhint %}
+
+<br>
+
+**1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.**
+
+![[그림 2.4.3.2-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_1.png>) 
+
+<br>
+
+**2. 장치 매뉴얼에서 Instance ID를 확인합니다.**
+
+<br>
+
+![[그림 2.4.3.2-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Input (T > O)   
+      - 104: Status  + Analog  + Digital   
+      - 105: Status  + Digital   
+      - 106: Status  + Analog   
+      - 107: Analog  + Digital   
+      - 108: Digital   
+      - 109: Analog   
+
+   - Output (O > T)   
+      - 101: Analog + Digital   
+      - 102: Digital   
+      - 103: Analog   
+{% endhint %}
+
+<br>
+
+**3. EZ-EDS 프로그램으로 EDS 파일을 열어 장치 정보를 확인합니다.**
+
+<br>
+
+![[그림 2.4.3.2-3 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
+
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 헤더 없음   
+      - Output (O > T) : 32-bit run/idle header   
+{% endhint %}
+
+<br>
+
+**4. 장치 매뉴얼에서 IO size를 확인합니다.**
+
+<br>
+
+{% hint style="info" %}
+   - 현재 연결할 장치의 IO 구성 확인 
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.2-4 Remote IO 구성]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - 슬롯 구성별 매뉴얼을 참고하여 IO size 확인
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.2-5 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_5.png>) 
+
+<br>
+
+![[그림 2.4.3.2-6 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_6.png>) 
+
+<br>
+
+**5. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
+
+<br>
+
+![[그림 2.4.3.2-7 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_7.png>)
+
+<br>
+
+{% hint style="info" %}
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
+
+   [Adapter 구성]   
+   - Wago 750-366   
+      - Status 1byte (T > O) (Instance ID 104, 105, 106 선택시)   
+      - 753-436 : 1byte (T > O)   
+      - 753-536 : 1byte (O > T)   
+
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 2bytes   
+      - Instance: 105   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 1bytes   
+      - Instance: 101   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/3-pci.md)
+#### 2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter
+
+<br>
+
+{% hint style="info" %}
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+
+   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 해당 장치의 IP 설정은 Hilscher 매뉴얼을 참조하여 진행해 주십시오.
+{% endhint %}
+
+<br>
+
+**1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.**
+
+![[그림 2.4.3.3-1 CIFX PCI]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_1.png>) 
+
+<br>
+
+**2. EZ-EDS 프로그램으로 EDS 파일을 열어 장치 정보를 확인합니다.**
+
+<br>
+
+![[그림 2.4.3.3-2 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
+
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 32-bit run/idle header   
+      - Output (O > T) : 32-bit run/idle header   
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.3-3 EDS 파일 정보]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_3.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Param에서 Instance ID 확인   
+      - Input (T > O) : 101   
+      - Output (O > T) : 100   
+{% endhint %}
+
+<br>
+
+**3. 장치에 설정된 IO size를 확인합니다.**
+
+<br>
+
+{% hint style="info" %}
+   - 현재 연결할 장치의 IO Size 확인 (해당 PCI 장치 설정 참조)   
+{% endhint %}
+
+<br>
+
+**4. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
+
+<br>
+
+![[그림 2.4.3.3-4 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_4.png>)
+
+<br>
+
+{% hint style="info" %}
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
+
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 240 bytes (PCI 장치에 설정된 값)   
+      - Instance: 101   
+      - Run/Idle Header: 32Bit   
+
+   [O > T]    
+      - Size: 240 bytes (PCI 장치에 설정된 값)   
+      - Instance: 100   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer.md)
+#### 2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70
+
+<br>
+
+{% hint style="info" %}
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+
+   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 해당 장치의 IP 설정은 Baumer 매뉴얼을 참조하여 진행해 주십시오.
+{% endhint %}
+
+<br>
+
+**1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.**
+
+![[그림 2.4.3.4-1 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_1.png>) 
+
+<br>
+
+**2. 장치 매뉴얼에서 Instance ID 및 IO Size를 확인합니다.**
+
+<br>
+
+![[그림 2.4.3.4-2 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_2.png>) 
+
+<br>
+
+{% hint style="info" %}
+   [Input Only Connection]   
+
+   - Input (T > O)   
+      - Instance ID: 100   
+      - Size : 34 bytes   
+
+   - Output (O > T)   
+      - Instance ID: 238   
+      - Size : 0 byte    
+{% endhint %}
+
+<br>
+
+**3. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
+
+<br>
+
+![[그림 2.4.3.4-3 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>)
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff.md)
+#### 2.4.3.5 외부 Adapter 장치 연결 - Beckhoff Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+
+   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 해당 장치의 IP 설정은 Beckhoff 매뉴얼을 참조하여 진행해 주십시오.
+{% endhint %}
+
+<br>
+
+**1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.**
+
+![[그림 2.4.3.5-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_1.png>) 
+
+<br>
+
+**2. 장치 웹페이지에 접속하여 IP 주소를 설정합니다.**
+
+<br>
+
+{% hint style="info" %}
+   - 예시에서 초기 IP 설정은 192.168.1.2 로 되어있습니다. (DIP 스위치 2번 ON)
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.5-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_2.png>) 
+
+<br>
+
+![[그림 2.4.3.5-3 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_3.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - 예시에서는 IP를 192.168.10.95로 설정합니다. 
+
+   - IP 주소 입력 후 체크 버튼을 눌러 저장합니다. 
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.5-4 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - DIP 스위치를 아래와 같이 설정한 후 장치를 재부팅합니다.   
+      - 1 ~ 8번  : ON   
+      - 9 ~ 10번 : OFF   
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.5-5 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_5.png>) 
+
+<br>
+
+![[그림 2.4.3.5-6 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_6.png>) 
+
+<br>
+
+**3. 장치 웹페이지에 접속하여 EtherNet/IP 설정 정보를 확인합니다.**
+
+<br>
+
+{% hint style="info" %}
+   - 설정한 IP 주소로 다시 접속하여 IP 주소 및 EtherNet/IP 구성 정보를 확인합니다.
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.5-7 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_7.png>) 
+
+<br>
+
+![[그림 2.4.3.5-8 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_8.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Input (T > O)   
+      - Instance ID: 129   
+      - Byte Size: 6      
+
+   - Output (O > T)   
+      - Instance ID: 130   
+      - Byte Size: 6   
+{% endhint %}
+
+<br>
+
+**4. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
+
+<br>
+
+![[그림 2.4.3.5-9 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_9.png>)
+
+<br>
+
+{% hint style="info" %}
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
+
+   [Adapter 구성]   
+   - Beckhoff EK-9500   
+      - EK-1008 : 1byte (T > O)   
+      - EK-2008 : 1byte (O > T)   
+
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 6bytes   
+      - Instance: 129   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 6bytes   
+      - Instance: 130   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell.md)
+#### 2.4.3.6 외부 Adapter 장치 연결 - Rockwell Automation (AB) Remote IO
+
+<br>
+
+{% hint style="info" %}
+   - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
+
+   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 해당 장치의 IP 설정은 Rockwell Automation (AB) Point I/O 1734-AENTR 매뉴얼을 참조하여 진행해 주십시오.
+{% endhint %}
+
+<br>
+
+**1. Adapter 장치의 매뉴얼과 EDS 파일을 준비합니다.**
+
+<br>
+
+![[그림 2.4.3.6-1 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_1.png>) 
+
+<br>
+
+![[그림 2.4.3.6-2 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_2.png>) 
+
+<br>
+
+**2. EZ-EDS 프로그램으로 EDS 파일을 열어 장치 정보를 확인합니다.**
+
+<br>
+
+![[그림 2.4.3.6-3 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_3.png>) 
+
+<br>
+
+![[그림 2.4.3.6-4 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_4.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - Connection Manager에서 연결 타입 확인   
+      - 예시에서는 Exclusive Owner
+
+   - Real Time Transfer Format에서 헤더 여부 확인   
+      - Input (T > O) : 헤더 없음   
+      - Output (O > T) : 32-bit run/idle header   
+
+   - Create / Decode path 를 눌러 Instance ID 확인   
+      - Input (T > O) : 101   
+      - Output (O > T) : 100   
+      - Configuration : 102   
+{% endhint %}
+
+<br>
+
+**3. 장치 매뉴얼에서 IO size를 확인합니다.**
+
+<br>
+
+{% hint style="info" %}
+   - 현재 연결할 장치의 IO 구성 확인 
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.6-5 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_5.png>) 
+
+<br>
+
+{% hint style="info" %}
+   - 슬롯 구성별 매뉴얼을 참고하여 IO size 확인
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.6-6 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_6.png>) 
+
+<br>
+
+![[그림 2.4.3.6-7 Remote IO 연결]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_7.png>) 
+
+<br>
+
+**4. Adapter 장치 정보에 따라 통신 설정값을 입력합니다.**
+
+<br>
+
+![[그림 2.4.3.6-8 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_8.png>)
+
+<br>
+
+{% hint style="info" %}
+   - 연결할 장치의 매뉴얼을 확인하여 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
+
+   [Adapter 구성]   
+   - Point I/O 1734-AENTR    
+      - 상태 값 : 8byte (T > O)    
+      - 1734-IB8 : 1byte (T > O)   
+      - 1734-OB8E : 1byte (O > T) + 1byte (T > O, 상태 값)   
+
+   [IO Assembly 정보]   
+   [T > O]   
+      - Size: 10bytes   
+      - Instance: 101   
+      - Run/Idle Header: No   
+
+   [O > T]    
+      - Size: 1byte   
+      - Instance: 100   
+      - Run/Idle Header: 32Bit   
+{% endhint %}
+
+<br>
+
+![[그림 2.4.3.6-9 EtherNet/IP Adapter 설정]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_9.png>)
+
+<br>
+
+{% hint style="info" %}
+   - 연결할 장치의 매뉴얼을 확인하여 부가 설정값을 올바르게 입력해 주십시오.   
+      - Input (T > O) : Slave > Master 연결   
+      - Output (O > T) : Master > Slave 연결   
+
+   [부가 설정 값]   
+      - Config Segment : ON   
+      - Instance: 102   
+      - Size: 10bytes    
+
+   [Config Segment 정보]    
+      - (4bytes) 1 : 헤더    
+      - (2bytes) 3 : 연결된 슬롯 + 1   
+      - (1byte)  0 : T > O Alignment (byte 단위)      
+      - (1byte)  1 : T > O 슬롯별 데이터 크기      
+      - (1byte)  0 : O > T Alignment (byte 단위)      
+      - (1byte)  1 : O > T 슬롯별 데이터 크기      
+{% endhint %}
+
+<br>
+[__SOURCE](2-ethernet-ip/4-scanner/4-error.md)
+### 2.4.4 EtherNet/IP 스캐너 (마스터) 에러 코드
+
+<br>
+
+{% hint style="info" %}
+   - 각 장치별 통신 상태를 CIP 표준 General Status 코드로 표시하여 실시간 진단 기능을 제공합니다.
+{% endhint %}
+
+<br>
+
+![[그림 2.4.4-1 스캐너 설정]](<../../_assets/2-ethernet-ip/4-scanner/img_8.png>) 
+
+<br>
+
+<style type="text/css">
+table  {border-collapse:collapse;}
+td {border-color:gray;border-style:solid;border-width:1px;}
+.grayed {background-color:lightgray;}
+.powderblued {background-color:powderblue;}
+</style>
+<br>
+
+**General Status Codes**
+
+<br>
+<table class="tg">
+<thead>
+	<tr>
+		<th class='powderblued'>상태 값 (16진수)</th>
+		<th class='powderblued'>명칭</th>
+		<th class='powderblued'>설명</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>-</td>
+		<td>통신 설정 안됨 또는 변경됨</td>
+		<td>통신 설정이 반영되지 않았거나 변경 중</td>
+	</tr>
+	<tr>
+		<td>0x00</td>
+		<td>Success</td>
+		<td>서비스가 성공적으로 수행됨</td>
+	</tr>
+	<tr>
+		<td>0x00 (에러 상태인 경우)</td>
+		<td>No reponse</td>
+		<td>통신 응답 없음 (케이블 연결 안됨, 유효하지 않은 IP 주소 등)</td>
+	</tr>
+	<tr>
+		<td>0x01</td>
+		<td>Connection failed</td>
+		<td>연결 시도 실패 (설정 값 또는 경로 문제)</td>
+	</tr>
+	<tr>
+		<td>0x02</td>
+		<td>Resource unavailable</td>
+		<td>장치 자원 부족 (연결 개수 초과 등)</td>
+	</tr>
+	<tr>
+		<td>0x03</td>
+		<td>Invalid parameter value</td>
+		<td>파라미터 값 오류 (주로 데이터 크기 불일치)</td>
+	</tr>
+	<tr>
+		<td>0x04</td>
+		<td>Path segment error</td>
+		<td>경로 세그먼트 오류 (Class, Instance 등 식별 불가)</td>
+	</tr>
+	<tr>
+		<td>0x05</td>
+		<td>Path destination unknown</td>
+		<td>대상 객체(Object)를 찾을 수 없음</td>
+	</tr>
+	<tr>
+		<td>0x06</td>
+		<td>Partial transfer</td>
+		<td>데이터의 일부만 전송됨</td>
+	</tr>
+	<tr>
+		<td>0x07</td>
+		<td>Connection lost</td>
+		<td>통신 중 연결이 끊어짐 (Timeout 등)</td>
+	</tr>
+	<tr>
+		<td>0x08</td>
+		<td>Service not supported</td>
+		<td>객체가 요청한 서비스(Get/Set 등)를 지원 안 함</td>
+	</tr>
+	<tr>
+		<td>0x09</td>
+		<td>Invalid attribute value</td>
+		<td>설정하려는 속성값이 유효 범위를 벗어남</td>
+	</tr>
+	<tr>
+		<td>0x0A</td>
+		<td>Attribute list error</td>
+		<td>속성 리스트 서비스 수행 중 오류 발생</td>
+	</tr>
+	<tr>
+		<td>0x0B</td>
+		<td>Already in requested state</td>
+		<td>객체가 이미 요청한 상태에 있음</td>
+	</tr>
+	<tr>
+		<td>0x0C</td>
+		<td>Object state conflict</td>
+		<td>객체의 현재 상태에서 허용되지 않는 서비스 요청</td>
+	</tr>
+	<tr>
+		<td>0x0D</td>
+		<td>Object already exists</td>
+		<td>이미 존재하는 객체를 생성하려고 시도함</td>
+	</tr>
+	<tr>
+		<td>0x0E</td>
+		<td>Attribute not settable</td>
+		<td>쓰기가 불가능한(Read-only) 속성에 쓰기 시도</td>
+	</tr>
+	<tr>
+		<td>0x0F</td>
+		<td>Privilege violation</td>
+		<td>권한 부족 (보안이나 접근 레벨 문제)</td>
+	</tr>
+	<tr>
+		<td>0x10</td>
+		<td>Device state conflict</td>
+		<td>장치의 현재 모드 또는 상태에서 요청된 서비스 실행 할 수 없음</td>
+	</tr>
+	<tr>
+		<td>0x11</td>
+		<td>Reply data too large</td>
+		<td>응답 데이터가 할당된 버퍼보다 커서 전송 실패</td>
+	</tr>
+	<tr>
+		<td>0x12</td>
+		<td>Fragmentation of primitive value</td>
+		<td>데이터 분할 전송 중 오류</td>
+	</tr>
+	<tr>
+		<td>0x13</td>
+		<td>Not enough data</td>
+		<td>요청을 수행하기에 데이터 양이 부족함</td>
+	</tr>
+	<tr>
+		<td>0x14</td>
+		<td>Attribute not supported</td>
+		<td>요청한 속성(Attribute) 번호가 존재하지 않음</td>
+	</tr>
+	<tr>
+		<td>0x15</td>
+		<td>Too much data</td>
+		<td>요청에 포함된 데이터가 너무 많음</td>
+	</tr>
+	<tr>
+		<td>0x16</td>
+		<td>Object does not exist</td>
+		<td>대상 객체가 존재 하지 않음</td>
+	</tr>
+	<tr>
+		<td>0x17</td>
+		<td>Service fragmentation sequence erroruccess</td>
+		<td>서비스 분할 전송 순서가 잘못됨</td>
+	</tr>
+	<tr>
+		<td>0x18</td>
+		<td>No stored attribute data</td>
+		<td>저장된 속성 데이터가 없음</td>
+	</tr>
+	<tr>
+		<td>0x19</td>
+		<td>Store operation failure</td>
+		<td>데이터 저장 작업 실패</td>
+	</tr>
+	<tr>
+		<td>0x1A</td>
+		<td>Routing failure, request packet too large</td>
+		<td>요청 데이터의 용량이 제한치를 초과하여 라우팅 서비스 중단</td>
+	</tr>
+	<tr>
+		<td>0x1B</td>
+		<td>Routing failure, response packet too large</td>
+		<td>응답 데이터의 용량이 제한치를 초과하여 라우팅 서비스 중단</td>
+	</tr>
+	<tr>
+		<td>0x1C</td>
+		<td>Missing attribute list entry data</td>
+		<td>요청된 동작을 수행하는데 필요한 속성이 누락됨</td>
+	</tr>
+	<tr>
+		<td>0x1D</td>
+		<td>Invalid attribute value list</td>
+		<td>유효하지 않은 속성들에 대한 상태 정보 반환</td>
+	</tr>
+	<tr>
+		<td>0x1E</td>
+		<td>Embedded service error</td>
+		<td>장치 내장 서비스 오류</td>
+	</tr>
+	<tr>
+		<td>0x1F</td>
+		<td>Vendor specific error</td>
+		<td>장치 제조사가 직접 정의한 에러</td>
+	</tr>
+	<tr>
+		<td>0x20</td>
+		<td>Invalid parameter</td>
+		<td>요청된 파라미터가 CIP 규격 또는 정의된 규격과 맞지 않음</td>
+	</tr>
+	<tr>
+		<td>0x21</td>
+		<td>Write-once value already written</td>
+		<td>한 번만 쓰기 가능한 값을 이미 썼음</td>
+	</tr>
+	<tr>
+		<td>0x22</td>
+		<td>Invalid reply received</td>
+		<td>잘못된 응답이 수신됨</td>
+	</tr>
+	<tr>
+		<td>0x23</td>
+		<td>Reserved</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>0x24</td>
+		<td>Reserved</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>0x25</td>
+		<td>Key failure in path</td>
+		<td>경로 내 키(Key) 일치 확인 실패</td>
+	</tr>
+	<tr>
+		<td>0x26</td>
+		<td>Path size invalid</td>
+		<td>경로 데이터 크기가 유효하지 않음</td>
+	</tr>
+	<tr>
+		<td>0x27</td>
+		<td>Unexpected attribute in list</td>
+		<td>현재 상태에서 설정할 수 없는 항목 설정 시도</td>
+	</tr>
+	<tr>
+		<td>0x28</td>
+		<td>Invalid member ID</td>
+		<td>지정된 클래스 / 인스턴스 또는 속성에 해당 항목이 존재하지 않음</td>
+	</tr>
+	<tr>
+		<td>0x29</td>
+		<td>Member cannot be set</td>
+		<td>수정할 수 없는 항목 수정 요청</td>
+	</tr>
+	<tr>
+		<td>0x2A</td>
+		<td>Group 2 only server general failure</td>
+		<td>DeviceNet Error (EtherNet/IP 에서 미사용)</td>
+	</tr>
+	<tr>
+		<td>0x2B - 0xCF</td>
+		<td>Reserved</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>0xD0 - 0xFF</td>
+		<td>Vendor specific Codes</td>
+		<td>장치 제조사가 직접 정의한 에러</td>
+	</tr>
+</tbody>
+</table>
+<br>
 
 [__SOURCE](3-ethercat-master-io/README.md)
 # 3. EtherCAT Master IO
