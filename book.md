@@ -5,7 +5,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # Precautions
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
+{% include file="en/precautions.md" %}
 
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI Communication
@@ -323,8 +323,11 @@ For the PCI communication card, proceed with industrial communication settings u
 **1. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).**
 Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
 
+<br>
+
 ![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
-![[Figure 1.3.2-2 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>) 
+
+<br>
 
 {% hint style="info" %}
    - IP Address can be changed according to user settings.
@@ -334,14 +337,14 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 
 **2. Execute Sycon.net.**
 
-![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
+![[Figure 1.3.2-2 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
 
 <br>
 
 **3. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.**
 
+![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 ![[Figure 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
-![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 <br>
 
@@ -355,7 +358,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
    - Select netX Driver.
 {% endhint %}
 
-![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
+![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 {% hint style="info" %}
    - Setting -> Driver -> netX Driver -> TCP Connection
@@ -363,7 +366,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
    - IP Address: Please enter the general LAN port IP address of the connected controller.
 {% endhint %}
 
-![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
+![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
    - Device Assignment -> Click Scan
@@ -379,14 +382,14 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 **\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
 {% endhint %}
 
-![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
+![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 
 {% hint style="info" %}
    - Right-click the CIFX PCI figure -> Download
 {% endhint %}
 
-![[Figure 1.3.2-9 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_9.png>)
+![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)
 #### 1.3.2.1 SYCON.NET Help
 
@@ -3940,6 +3943,8 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
+![[Figure 1.3.8.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_5.png>) 
+
 <br>
 
 **6. Assign IO blocks after completing the communication settings.**
@@ -4764,15 +4769,22 @@ On the initial screen, navigate to "System" > "2: Control Parameters" > "10: Lic
 
 <br>
 
-1. Select "Valid" for the EtherNet/IP adapter from the license list.
-2. Deliver the system serial number to the license administrator
-3. Obtain the license key from the administrator, enter it, and press the "Confirm" button
-4. License Key [XXXXXX] ==>OK Confirm
-5. Confirm that the warning message about no license has disappeared when entering the Ethernet/IP adapter menu.<br>
+1. Deliver the system serial number to the license administrator
+2. Obtain the license key from the administrator, enter it, and press the "Confirm" button
+3. License Key [XXXXXX] ==>OK Confirm
+4. Select "Valid" for the "Embedded EtherNet/IP slave" or "Embedded EtherNet/IP master" from the license list.
 
 <br>
 
+{% hint style="info" %}
+   [EtherNet/IP Licensing Policy]
 
+   - Slave License : Supports EtherNet/IP Slave only
+
+   - Master License : Supports both EtherNet/IP Master and Slave
+{% endhint %}
+
+<br>
 [__SOURCE](2-ethernet-ip/3-adapter/README.md)
 ## 2.3 EtherNet/IP Adapter (Slave)
 
@@ -4926,7 +4938,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial Communication" > "Ethernet/IP Setting"<br>
+**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
 
 <br>
 
@@ -4934,27 +4946,41 @@ On the initial screen, navigate to "SYSTEM" > "Control Parameter" > "Industrial 
 
 <br>
 
-**[Network]**
+{% hint style="info" %}
+   [Protocol Settings]
 
--	Protocol : Select whether to use the Ethernet/IP adapter.
--	Port : Select the LAN port to be connected to the Ethernet/IP scanner. (The information of the selected LAN port is displayed on the line immediately.)
-
-<br>
-
-**[I/O Size]**
-
--	Input Byte Count: 0-240 can be set.
--	Output Byte Count: 0-240 can be set.
+      - OFF : EtherNet/IP disable   
+      - Adapter : EtherNet/IP Adapter mode   
+      - Scanner : EtherNet/IP Scanner mode   
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
+{% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Status Information]   
-      - Communication: Communication link established and I/O data exchanging   
-      - Run: Communication card (PCI) is operating   
-      - Ready: Communication is in standby state   
-      - Error: Communication error state   
+   [Port Settings]
 
+      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [IO Size]
+
+      -	Input Byte Count: 0-240 can be set.   
+      -	Output Byte Count: 0-240 can be set.
+{% endhint %}   
+
+<br>
+
+{% hint style="info" %}
+   [Communication Status Check]   
+
+      - License: Current license status   
+      - Run: Indicates the operational status of the EtherNet/IP function   
+      - Communication: Indicates the EtherNet/IP connection status   
+      - Error: Indicates the EtherNet/IP error status    
 {% endhint %}
 
 [__SOURCE](2-ethernet-ip/3-adapter/3-connect-scanner/README.md)
@@ -5307,8 +5333,10 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
       - OFF : EtherNet/IP disable   
       - Adapter : EtherNet/IP Adapter mode   
       - Scanner : EtherNet/IP Scanner mode   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode (using the same LAN Port)
+      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
 {% endhint %}
+
+<br>
 
 {% hint style="info" %}
    [Port Settings]
@@ -5387,12 +5415,18 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 {% hint style="info" %}
    [Communication Status Check]   
+
       - License: Current license status   
       - Run: Indicates the operational status of the EtherNet/IP function   
       - Communication: Indicates the EtherNet/IP connection status   
-      - Error: Indicates the EtherNet/IP error status   
+      - Error: Indicates the EtherNet/IP error status    
+{% endhint %}
 
-   - Device Number Color   
+<br>
+
+{% hint style="info" %}
+   [Device Number Color]   
+
       - Green: Communication connection OK   
       - Red: Communication connection NG (Failed)   
 {% endhint %}
@@ -5406,7 +5440,7 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 **6. After completing the communication settings, allocate the I/O Blocks.**
 
 {% hint style="info" %}
-   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")**
+   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../5-io-block-allocation.md)")**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
 ### 2.4.3 Connecting External Adapter Devices
@@ -6546,199 +6580,6 @@ occurred</td>
 	</tr>
 </tbody>
 </table>
-<br>
-
-[__SOURCE](3-ethercat-master-io/README.md)
-# 3. EtherCAT Master IO
-
-<br>
-
-This chapter explains how to connect several standard Remote IO modules selected by our company using an EtherCAT Master.
-
-<br>
-
-**EtherCAT Overview**
-
-EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
-
-The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization. 
-
-<br>
-
-**EtherCAT Master IO**
-   * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
-
-<br>
-
-{% hint style="info" %}
-   - An EtherCAT Master uses the general LAN port for the controller.
-
-
-   - A Remote IO module uses the M9386 EtherCAT network adapter from Crevis.
-{% endhint %}
-
-
-
-[__SOURCE](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
-## 3.1 EtherCAT Master IO Settings
-
-<br>
-
-**1. Touch the menu to enter the settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
-
-<br>
-
-![[Figure 3.1-1 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_1.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - Check the selected controller LAN port number on the EtherCAT master settings screen. 
-{% endhint %}
-
-**2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.**
-
-<br>
-
-![[Figure 3.1-2 Hardware Connection]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_2.png>) 
-![[Figure 3.1-3 Hardware Connection]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_3.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - Please connect the controller and Remote IO using a LAN Cable.
-
-   - Set all DIP switches of the Remote IO to OFF.
-
-   - Connect both the Remote IO power and Field Power (24 V DC).
-{% endhint %}
-
-<br>
-
-**3. Select "ON" for the EtherCAT master usage in the settings menu.**
-
-<br>
-
-![[Figure 3.1-4 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_4.png>)
-
-<br>
-
-{% hint style="info" %}
-   - Set the communication cycle according to your usage environment.
-
-   - Communication cycles of 1 ms, 2 ms, and 5 ms are supported.
-{% endhint %}
-
-<br>
-
-**4. Select the same configuration as the connected Remote IO module from the slave list in the settings menu.**
-
-<br>
-
-![[Figure 3.1-5 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_5.png>)
-
-<br>
-
-{% hint style="info" %}
-   - Check the input and output byte counts.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-   - Input Module  
-   - M12DF: Digital 16 points  
-   - M3534: Analog 4 points  
-{% endhint %}
-
-{% hint style="info" %}
-   - Output Module  
-   - M225F: Digital 16 points  
-   - M226F: Digital 16 points  
-   - M2768: Digital 8 points   
-   - M4534: Analog 4 points  
-{% endhint %}
-
-{% hint style="info" %}
-   - Special Module  
-   - M5112 : Conveyer I/F 
-{% endhint %}
-
-<br>
-
-![[Figure 3.1-6 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_6.png>) 
-
-<br>
-
-**5. Reboot the controller after completing the settings.**
-
-![[Figure 3.1-7 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
-
-<br>
-
-![[Figure 3.1-8 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_8.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - Please reboot the controller after completing the settings.
-{% endhint %}
-
-<br>
-
-**6. After confirming that the setting values are reflected, check the communication status.**
-
-![[Figure 3.1-9 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
-
-<br>
-
-{% hint style="info" %}
-   - Please check the communication connection status and check for any error.
-{% endhint %}
-
-<br>
-
-![[Figure 3.1-10 Crevis M9386]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_10.png>)
-
-<br>
-
-{% hint style="info" %}
-   - Please check if communication is properly established using LEDs on the Remote IO Module.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-   **If an error occurs during communication, refer to ("[**3.2 EtherCAT Master IO Error Handling**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)").**
-{% endhint %}
-
-<br>
-
-**7. Assign IO blocks after completing the communication settings.**
-
-{% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**4. Industrial Communication IO Block Assignment**](../4-io-block-allocation.md)").**
-{% endhint %}
-
-
-[__SOURCE](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
-## 3.2 EtherCAT Master IO Error Handling
-
-This is a method for resolving major errors that may occur during EtherCAT master IO settings.
-
-<br>
-
-![[Figure 3.2-1 EtherCAT Master Status]](<../_assets/3-ethercat-master-io/2-Error/image_1.png>) 
-
-{% hint style="info" %}
-   - Please check the connection status of the LAN cable.
-
-   - Check if the adapter device power is on.
-
-   - Please check if the settings match the IO combination of the Remote IO module.
-{% endhint %}
-
 <br>
 
 [__SOURCE](4-pnio/README.md)
