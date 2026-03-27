@@ -135,5 +135,5 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 **6. After completing the communication settings, allocate the I/O Blocks.**
 
 {% hint style="info" %}
-   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")**
+   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../5-io-block-allocation.md)")**
 {% endhint %}
