@@ -7,7 +7,7 @@
 {% hint style="info" %}
    **[PROFIBUS-DP Slave GSD File 다운로드]**
 
-   - "[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
