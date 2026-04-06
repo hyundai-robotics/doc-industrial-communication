@@ -164,5 +164,5 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 <br>
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
