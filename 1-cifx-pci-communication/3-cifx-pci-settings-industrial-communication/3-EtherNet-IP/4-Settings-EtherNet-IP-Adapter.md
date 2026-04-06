@@ -7,7 +7,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    **[EtherNet/IP Adapter EDS File Download]**
 
-   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**6. Slave Device Description File**](../../../6-slave-config-file.md)".
 {% endhint %}
 
 <br>
