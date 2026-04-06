@@ -1005,7 +1005,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    **[EtherNet/IP Adapter EDS File 다운로드]**
 
-   - "[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1686,7 +1686,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    **[PROFINET IO Device GSDML File 다운로드]**
 
-   - "[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2302,7 +2302,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    **[EtherCAT Slave ESI File 다운로드]**
 
-   - "[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md)
@@ -2842,7 +2842,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    **[PROFIBUS-DP Slave GSD File 다운로드]**
 
-   - "[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -3464,7 +3464,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    **[DeviceNet Slave EDS File 다운로드]**
 
-   - "[**5. Slave 장치 설명 파일**](../../../5-slave-config-file.md)" 참고해 주십시오.
+   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
