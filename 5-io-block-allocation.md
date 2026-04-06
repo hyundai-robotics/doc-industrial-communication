@@ -23,7 +23,7 @@
 **2. 원하는 fb 영역에 산업용 통신 종류 지정**
    지정 후 **\[OK]** 버튼을 터치하십시오.
 
-![[그림 5-1]](<_assets/4-io-block-allocation/image_1.png>)
+![[그림 5-1]](<_assets/5-io-block-allocation/image_1.png>)
 
 
 {% hint style="warning" %}
