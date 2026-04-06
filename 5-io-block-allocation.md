@@ -23,7 +23,7 @@ To use the industrial communication IO, the IO blocks should be assigned to the 
 **2. Specify industrial communication type for the desired fb area.**
    After specifying it, touch the **\[OK]** button.
 
-![[Figure 5-1]](<_assets/4-io-block-allocation/image_1.png>)
+![[Figure 5-1]](<_assets/5-io-block-allocation/image_1.png>)
 
 
 {% hint style="warning" %}
