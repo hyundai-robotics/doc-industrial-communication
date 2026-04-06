@@ -135,5 +135,5 @@
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**4. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
