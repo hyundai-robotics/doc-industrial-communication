@@ -1005,7 +1005,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    **[EtherNet/IP Adapter EDS File Download]**
 
-   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**6. Slave Device Description File**](../../../6-slave-config-file.md)".
 {% endhint %}
 
 <br>
@@ -1684,7 +1684,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    **[PROFINET IO Device GSDML File Download]**
 
-   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**6. Slave Device Description File**](../../../6-slave-config-file.md)".
 {% endhint %}
 
 <br>
@@ -2298,7 +2298,7 @@ The manual is in preparation.
 {% hint style="info" %}
    **[EtherCAT Slave ESI File Download]**
 
-   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**6. Slave Device Description File**](../../../6-slave-config-file.md)".
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md)
@@ -2838,7 +2838,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    **[PROFIBUS-DP Slave GSD File Download]**
 
-   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)".
+   - Please refer to "[**6. Slave Device Description File**](../../../6-slave-config-file.md)".
 {% endhint %}
 
 <br>
@@ -3460,7 +3460,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    **[DeviceNet Slave EDS File Download]**
 
-   - Please refer to "[**5. Slave Device Description File**](../../../5-slave-config-file.md)."
+   - Please refer to "[**6. Slave Device Description File**](../../../6-slave-config-file.md)."
 {% endhint %}
 
 <br>
