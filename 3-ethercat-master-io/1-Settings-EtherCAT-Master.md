@@ -136,6 +136,6 @@
 **7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../5-io-block-allocation.md)").**
 {% endhint %}
 
