@@ -874,7 +874,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **18. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/3-Specification-EtherNet-IP-Adapter.md)
 #### 1.3.3.3 EtherNet/IP Adapter 사양
@@ -1114,7 +1114,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error-EtherNet-IP.md)
 #### 1.3.3.5 EtherNet/IP 에러 조치
@@ -1559,7 +1559,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/3-Specification-PROFINET-IO-Device.md)
 #### 1.3.4.3 PROFINET IO Deivce 사양
@@ -1779,7 +1779,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/5-Error-PROFINET-IO.md)
 #### 1.3.4.5 PROFINET IO 에러 조치
@@ -2175,7 +2175,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/3-Specification-EtherCAT-Slave.md)
 #### 1.3.5.3 EtherCAT Slave 사양
@@ -2753,7 +2753,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/3-Specification-PROFIBUS-DP-Slave.md)
@@ -2934,7 +2934,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/5-Error-PROFIBUS-DP.md)
 #### 1.3.6.5 PROFIBUS-DP 에러 조치
@@ -3377,7 +3377,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **14. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md)
 #### 1.3.7.3 DeviceNet Slave 사양
@@ -3545,7 +3545,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md)
 #### 1.3.7.5 DeviceNet 에러 조치
@@ -3957,7 +3957,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
@@ -4243,7 +4243,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 
 <br>
@@ -4397,7 +4397,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **7. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)
 #### 1.3.10.2 Remote IO IP 주소 설정
@@ -5169,7 +5169,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 <br>
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/3-adapter/4-error_code.md)
 ### 2.3.4 EtherNet/IP 어댑터 (슬레이브) 알람코드
@@ -5471,7 +5471,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO Block 할당**](../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
 ### 2.4.3 외부 Adapter 장치 연결
