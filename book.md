@@ -874,7 +874,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **18. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/3-Specification-EtherNet-IP-Adapter.md)
 #### 1.3.3.3 EtherNet/IP Adapter Specifications
@@ -1113,7 +1113,7 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error-EtherNet-IP.md)
 #### 1.3.3.5 EtherNet/IP Error Handling
@@ -1557,7 +1557,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **13. Assign IO blocks after completing the settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/3-Specification-PROFINET-IO-Device.md)
 #### 1.3.4.3 PROFINET IO Device Specifications
@@ -1776,7 +1776,7 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/5-Error-PROFINET-IO.md)
 #### 1.3.4.5 PROFINET IO Error Handling
@@ -2171,7 +2171,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **13. Assign IO blocks after completing the settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/3-Specification-EtherCAT-Slave.md)
 #### 1.3.5.3 EtherCAT Slave Specifications
@@ -2748,7 +2748,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **13. Assign IO blocks after completing the settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/3-Specification-PROFIBUS-DP-Slave.md)
@@ -2929,7 +2929,7 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/5-Error-PROFIBUS-DP.md)
 #### 1.3.6.5 PROFIBUS-DP Error Handling
@@ -3371,7 +3371,7 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 **14. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md)
 #### 1.3.7.3 DeviceNet Slave Specifications
@@ -3540,7 +3540,7 @@ For the procedure to check the industrial communication status on the TP, please
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md)
 #### 1.3.7.5 DeviceNet Error Handling
@@ -3950,7 +3950,7 @@ For the procedure to check the industrial communication status on the TP, please
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
 #### 1.3.8.3 CC-Link Slave Error Handling
@@ -4233,7 +4233,7 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 
 <br>
@@ -4387,7 +4387,7 @@ For the procedure to check the industrial communication status on the TP, refer 
 **7. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)
 #### 1.3.10.2 Remote IO IP Address Settings
@@ -5136,7 +5136,7 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 <br>
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Block Assignment**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/3-adapter/4-error_code.md)
 ### 2.3.4 Error Code
