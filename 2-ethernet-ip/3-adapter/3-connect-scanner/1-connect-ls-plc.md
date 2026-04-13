@@ -24,7 +24,7 @@ For downloading the XG5000 program and detailed usage methods, please refer to t
 
 <br>
 
-Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi6_EIP_240402.eds."
+Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi7_EIP_251023.eds"
 Confirm EDS file registration as shown in the figure below.
 
 <br>
@@ -96,7 +96,7 @@ If the current state is not online, click Menu > Online > Connect to change to o
 
 ![auto6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto6.png)<br>
 
-The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure below. <br>
+The Hi7 EtherNet/IP adapter device appears in the list as shown in the figure below. <br>
 ![auto7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto7.png)<br>
 
 <br>
@@ -117,7 +117,7 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 
 <br>
 
-[1] Double-click EB01 (Hi6 EtherNet/IP adapter) in the list on the left.<br>
+[1] Double-click EB01 (Hi7 EtherNet/IP adapter) in the list on the left.<br>
 
 [2] Press the EIP detailed settings button.<br>
 ![AdapterSetting1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting1.png)<br>
