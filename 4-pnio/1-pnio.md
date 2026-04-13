@@ -51,7 +51,7 @@
 1) Run the TIA portal.
 2) Navigate as shown on the right in the menu: [Options] → [Manage general station description file (GSD)].
 3) Click the "..." button and set the directory where the GSDML file is located.
-4) Select "GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml" from the list displayed on the screen and press the [Install] button.
+4) Select "GSDML-V2.43-Hyundai-Robotics-Hi7-20251127.xml" from the list displayed on the screen and press the [Install] button.
 5) Check if it has been registered as a new device in the hardware catalog. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
