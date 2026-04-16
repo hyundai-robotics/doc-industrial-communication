@@ -77,13 +77,13 @@
 
 {% hint style="info" %}
    - 연결 예시는 아래 매뉴얼을 참고해주십시오.    
-   - "[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - "[**2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
 
-   - "[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[**2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
 
-   - "[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[**2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
 
-   - "[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[**2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>

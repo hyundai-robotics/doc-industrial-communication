@@ -5413,13 +5413,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 {% hint style="info" %}
    - 연결 예시는 아래 매뉴얼을 참고해주십시오.    
-   - "[**2.3.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - "[**2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
 
-   - "[**2.3.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[**2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
 
-   - "[**2.3.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[**2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
 
-   - "[**2.3.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[**2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -6585,7 +6585,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 {% hint style="info" %}
 PROFINET I/O (BD671)의 기능은 Hi7 로봇제어기에서 지원합니다.<br>
-PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.0 링크](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/korean/3-safety-function/3-safety-function/4-safety-io/4-profisafe))
+PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.0 링크](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/ko/3-safety-function/3-safety-function/4-safety-io/5-profisafe))
 {% endhint %}
 [__SOURCE](4-pnio/1-pnio.md)
 
@@ -6642,7 +6642,7 @@ PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.
 1) TIA Portal을 실행
 2) 메뉴에서 우측과 같이 이동 [Options] → [Manage general station description file (GSD)].
 3) "..." 버튼 클릭 후 and GSDML file이 있는 디렉토리를 설정한다.
-4) 화면에 표시된 리스트에서 "GSDML-V2.43-Hyundai-Robotics-HI6-20251127.xml"를 선택하고 [Install] 버튼을 누른다.
+4) 화면에 표시된 리스트에서 "GSDML-V2.43-Hyundai-Robotics-Hi7-20251127.xml"를 선택하고 [Install] 버튼을 누른다.
 5) 하드웨어 카탈로그에 새로운 장치로 등록되었는지 확인한다. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
