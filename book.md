@@ -5016,7 +5016,7 @@ For downloading the XG5000 program and detailed usage methods, please refer to t
 
 <br>
 
-Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi6_EIP_240402.eds."
+Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi7_EIP_251023.eds"
 Confirm EDS file registration as shown in the figure below.
 
 <br>
@@ -5088,7 +5088,7 @@ If the current state is not online, click Menu > Online > Connect to change to o
 
 ![auto6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto6.png)<br>
 
-The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure below. <br>
+The Hi7 EtherNet/IP adapter device appears in the list as shown in the figure below. <br>
 ![auto7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto7.png)<br>
 
 <br>
@@ -5109,7 +5109,7 @@ The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure be
 
 <br>
 
-[1] Double-click EB01 (Hi6 EtherNet/IP adapter) in the list on the left.<br>
+[1] Double-click EB01 (Hi7 EtherNet/IP adapter) in the list on the left.<br>
 
 [2] Press the EIP detailed settings button.<br>
 ![AdapterSetting1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting1.png)<br>
@@ -5382,13 +5382,13 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 {% hint style="info" %}
    - For connection examples, please refer to the manuals below.    
-   - "[**2.3.3.1 Connecting External Adapter Devices - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - "[**2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
 
-   - "[**2.3.3.2 Connecting External Adapter Devices - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[**2.4.3.2 Connecting External Adapter Devices - Wago Remote IO**](3-connect-adapter/2-wago.md)"
 
-   - "[**2.3.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[**2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
 
-   - "[**2.3.3.4 Connecting External Adapter Devices - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[**2.4.3.4 Connecting External Adapter Devices - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -5771,7 +5771,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-![[figure 2.4.3.2-3 EDS Info](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
+![figure 2.4.3.2-3 EDS Info](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
 
 <br>
 
@@ -6594,7 +6594,7 @@ This chapter explains how to connect the robot controller's internal input/outpu
 
 {% hint style="info" %}
 The function of PROFINET I/O (BD671) is supported by the Hi7 robot controller.<br>
-For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2.0 link](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/korean/3-safety-function/3-safety-function/4-safety-io/4-profisafe))
+For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2.0 link](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/en/3-safety-function/3-safety-function/4-safety-io/5-profisafe))
 {% endhint %}
 [__SOURCE](4-pnio/1-pnio.md)
 ## 4.1 PROFINET ?
@@ -6650,7 +6650,7 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 1) Run the TIA portal.
 2) Navigate as shown on the right in the menu: [Options] → [Manage general station description file (GSD)].
 3) Click the "..." button and set the directory where the GSDML file is located.
-4) Select "GSDML-V2.43-Hyundai-Robotics-HI6-20250418.xml" from the list displayed on the screen and press the [Install] button.
+4) Select "GSDML-V2.43-Hyundai-Robotics-Hi7-20251127.xml" from the list displayed on the screen and press the [Install] button.
 5) Check if it has been registered as a new device in the hardware catalog. <br>
 ![](../_assets/4-pnio/profisafe_gsdmal.png)
 
