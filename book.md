@@ -5382,13 +5382,13 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 {% hint style="info" %}
    - For connection examples, please refer to the manuals below.    
-   - "[**2.3.3.1 Connecting External Adapter Devices - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - "[**2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
 
-   - "[**2.3.3.2 Connecting External Adapter Devices - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[**2.4.3.2 Connecting External Adapter Devices - Wago Remote IO**](3-connect-adapter/2-wago.md)"
 
-   - "[**2.3.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[**2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
 
-   - "[**2.3.3.4 Connecting External Adapter Devices - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[**2.4.3.4 Connecting External Adapter Devices - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -5771,7 +5771,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-![[figure 2.4.3.2-3 EDS Info](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
+![figure 2.4.3.2-3 EDS Info](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_3.png>) 
 
 <br>
 
