@@ -1,5 +1,5 @@
 ﻿
-## 4.1 PROFINET ?
+## 4.1 PROFINET 통신의 설정
 
  **1. PROFINET**
 - PROFINET은 산업 자동화를 위한 이더넷 기반 통신 표준입니다.
