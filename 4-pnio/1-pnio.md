@@ -1,4 +1,4 @@
-﻿## 4.1 PROFINET ?
+﻿## 4.1 PROFINET Communication Settings
 
  **1. PROFINET**
 - PROFINET is an Ethernet-based communication standard for industrial automation.
