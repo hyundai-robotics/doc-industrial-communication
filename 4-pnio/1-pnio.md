@@ -97,7 +97,7 @@
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
 **3.5.2 TP 화면**
-메뉴에서 시스템 -> 안전시스템 -> 모니터링 -> PROFINET 상태로 이동한다.<br>
+메뉴에서 시스템 -> 제어 파라미터 -> 산업용 통신 -> PROFINET 설정으로 이동한다.<br>
 ![](../_assets/4-pnio/5_2_pnio_status.png)
 - 각 슬롯의 상태 정보를 확인
 - Counter가 지속 증가하는지 확인
