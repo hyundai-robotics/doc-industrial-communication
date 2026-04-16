@@ -96,8 +96,8 @@
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
 **3.5.2 TP Screen**
-In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Status.<br>
-![](../_assets/4-pnio/5_2_pnio_status.png)
+In the menu, navigate to **\[System > 2: Control Parameter > 11: Industrial Communication > 5: PROFINET Settings]**<br>
+![](../_assets/4-pnio/PROFINET_monitoring.png)
 - Check the status information of each slot.
 - Check if the counter continuously increases.
 
