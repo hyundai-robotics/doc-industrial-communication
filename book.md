@@ -5449,6 +5449,7 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 <style type="text/css">
 table  {border-collapse:collapse;}
+.sm-font-table th, .sm-font-table td {font-size:9px;}
 td {border-color:gray;border-style:solid;border-width:1px;}
 .grayed {background-color:lightgray;}
 .powderblued {background-color:powderblue;}
@@ -5471,7 +5472,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-<table class="tg">
+<table class="tg sm-font-table">
 <thead>
 	<tr>
     	<th rowspan=2, class='powderblued'>Maker</th>
@@ -6597,7 +6598,7 @@ The function of PROFINET I/O (BD671) is supported by the Hi7 robot controller.<b
 For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2.0 link](https://hrbook-hrc.web.app/#/view/doc-safespace2.0/en/3-safety-function/3-safety-function/4-safety-io/5-profisafe))
 {% endhint %}
 [__SOURCE](4-pnio/1-pnio.md)
-## 4.1 PROFINET ?
+## 4.1 PROFINET Communication Settings
 
  **1. PROFINET**
 - PROFINET is an Ethernet-based communication standard for industrial automation.
@@ -6695,8 +6696,8 @@ For the PROFIsafe manual, please refer to the SafeSpace 2.0 manual ([SafeSpace 2
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
 **3.5.2 TP Screen**
-In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Status.<br>
-![](../_assets/4-pnio/5_2_pnio_status.png)
+In the menu, navigate to **\[System > 2: Control Parameter > 11: Industrial Communication > 5: PROFINET Settings]**<br>
+![](../_assets/4-pnio/PROFINET_monitoring.png)
 - Check the status information of each slot.
 - Check if the counter continuously increases.
 
@@ -6713,9 +6714,9 @@ In the menu, navigate to System -> Safety System -> Monitoring -> PROFINET Statu
 ![](../_assets/4-pnio/6_3_public_io.png)
 
 [__SOURCE](4-pnio/2-pnio-status.md)
-## 5.3 PROFINET Monitoring
+## 4.2 PROFINET Status Monitoring
 
-By selecting the **\[System > 8: Safety System > 3: Monitoring > 4: PROFINET Status]** menu, you can monitor the PROFINET status by slot.
+By selecting the **\[System > 2: Control Parameter > 11: Industrial Communication > 5: PROFINET Settings]** menu, you can monitor the PROFINET status by slot.
 
 <p align="center">
 <img src="../_assets/4-pnio/PROFINET_monitoring.png"></img>
