@@ -5480,6 +5480,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <style type="text/css">
 table  {border-collapse:collapse;}
+th, td {font-size:9pt;}
 td {border-color:gray;border-style:solid;border-width:1px;}
 .grayed {background-color:lightgray;}
 .powderblued {background-color:powderblue;}
@@ -6589,7 +6590,7 @@ PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.
 {% endhint %}
 [__SOURCE](4-pnio/1-pnio.md)
 
-## 4.1 PROFINET ?
+## 4.1 PROFINET 통신의 설정
 
  **1. PROFINET**
 - PROFINET은 산업 자동화를 위한 이더넷 기반 통신 표준입니다.
@@ -6687,7 +6688,7 @@ PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.
 ![](../_assets/4-pnio/5_1_Safety_Ladder2.png)
 
 **3.5.2 TP 화면**
-메뉴에서 시스템 -> 안전시스템 -> 모니터링 -> PROFINET 상태로 이동한다.<br>
+메뉴에서 시스템 -> 제어 파라미터 -> 산업용 통신 -> PROFINET 설정으로 이동한다.<br>
 ![](../_assets/4-pnio/5_2_pnio_status.png)
 - 각 슬롯의 상태 정보를 확인
 - Counter가 지속 증가하는지 확인
@@ -6705,7 +6706,7 @@ PROFIsafe 메뉴얼은 SafeSpace 2.0 메뉴얼을 참고하세요 ([SafeSpace 2.
 ![](../_assets/4-pnio/6_3_public_io.png)
 
 [__SOURCE](4-pnio/2-pnio-status.md)
-## 5.3 PROFINET 모니터링
+## 4.2 PROFINET 상태 모니터링
 
 **\[시스템 > 8: 안전 시스템 > 3: 모니터링 > 4: PROFINET 상태]** 메뉴를 선택하여 PROFINET 상태를 슬롯별로 모니터링 할 수 있습니다.
 

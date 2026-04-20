@@ -4,6 +4,7 @@
 
 <style type="text/css">
 table  {border-collapse:collapse;}
+th, td {font-size:9pt;}
 td {border-color:gray;border-style:solid;border-width:1px;}
 .grayed {background-color:lightgray;}
 .powderblued {background-color:powderblue;}
