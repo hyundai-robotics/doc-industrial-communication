@@ -5480,7 +5480,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <style type="text/css">
 table  {border-collapse:collapse;}
-th, td {font-size:9pt;}
+.sm-font-table th, .sm-font-table td {font-size:9px;}
 td {border-color:gray;border-style:solid;border-width:1px;}
 .grayed {background-color:lightgray;}
 .powderblued {background-color:powderblue;}
@@ -5503,7 +5503,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-<table class="tg">
+<table class="tg sm-font-table">
 <thead>
 	<tr>
     	<th rowspan=2, class='powderblued'>Maker</th>
