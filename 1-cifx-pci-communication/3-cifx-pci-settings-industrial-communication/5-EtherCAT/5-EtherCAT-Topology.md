@@ -44,7 +44,7 @@ Unlike existing industrial communications, EtherCAT has restrictions in cable wi
 **3. Cable wiring error**
 
 
-Please refer to "[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
 
 <br>
 

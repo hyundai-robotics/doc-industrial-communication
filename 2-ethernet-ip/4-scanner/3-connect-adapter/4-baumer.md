@@ -5,7 +5,7 @@
 {% hint style="info" %}
    - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
 
-   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>

@@ -2,7 +2,7 @@
 
 <br>
 
-After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-ip/1-network.md)" and "[**2.2 License Settings**](../../2-ethernet-ip/2-license.md)" please proceed with the following steps.
+After completing the procedures in "[2.1 Network Settings](../../2-ethernet-ip/1-network.md)" and "[2.2 License Settings](../../2-ethernet-ip/2-license.md)" please proceed with the following steps.
 
 <br>
 
@@ -77,13 +77,13 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 
 {% hint style="info" %}
    - For connection examples, please refer to the manuals below.    
-   - "[**2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - "[2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO](3-connect-adapter/1-crevis.md)"
 
-   - "[**2.4.3.2 Connecting External Adapter Devices - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[2.4.3.2 Connecting External Adapter Devices - Wago Remote IO](3-connect-adapter/2-wago.md)"
 
-   - "[**2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter](3-connect-adapter/3-pci.md)"
 
-   - "[**2.4.3.4 Connecting External Adapter Devices - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[2.4.3.4 Connecting External Adapter Devices - Baumer OM-70](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -135,5 +135,5 @@ After completing the procedures in "[**2.1 Network Settings**](../../2-ethernet-
 **6. After completing the communication settings, allocate the I/O Blocks.**
 
 {% hint style="info" %}
-   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../5-io-block-allocation.md)")**
+   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../5-io-block-allocation.md)")**
 {% endhint %}

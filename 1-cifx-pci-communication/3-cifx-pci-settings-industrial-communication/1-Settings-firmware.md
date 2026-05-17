@@ -4,7 +4,7 @@ Configure the communication method for the CIFX PCI slot. To apply the settings,
 
 <br>
 
-Refer to "[**1.2.1 PCI Industrial Communication Card**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" and proceed with the method below.
+Refer to "[1.2.1 PCI Industrial Communication Card](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" and proceed with the method below.
 
 <br>
 

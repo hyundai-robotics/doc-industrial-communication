@@ -1,6 +1,6 @@
 ﻿### 1.3.2 SYCON.NET Settings
 
-For the PCI communication card, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "[**1.1 Sycon.net Installation**](../../1-cifx-pci-install-program/1-sycon-net.md)".)
+For the PCI communication card, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "[1.1 Sycon.net Installation](../../1-cifx-pci-install-program/1-sycon-net.md)".)
 
 <br>
 
