@@ -259,7 +259,7 @@ CIFX PCI 슬롯의 통신 방식을 설정합니다. 설정 적용을 위해서�
 
 <br>
 
-"[**1.2.1 PCI 산업용 통신 카드**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" 참고하여 아래 방법을 진행해 주십시오.
+"[1.2.1 PCI 산업용 통신 카드](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" 참고하여 아래 방법을 진행해 주십시오.
 
 <br>
 
@@ -316,7 +316,7 @@ CIFX PCI 슬롯의 통신 방식을 설정합니다. 설정 적용을 위해서�
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)
 ### 1.3.2 SYCON.NET 설정
 
-PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. ("[**1.1 Sycon.net 설치**](../../1-cifx-pci-install-program/1-sycon-net.md)"을 참고하여 설치해주시기 바랍니다.)
+PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통신 설정을 진행합니다. 설정 방법은 다음과 같습니다. ("[1.1 Sycon.net 설치](../../1-cifx-pci-install-program/1-sycon-net.md)"을 참고하여 설치해주시기 바랍니다.)
 
 <br>
 
@@ -582,12 +582,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Settings-EtherNet-IP-Scanner.md)
 #### 1.3.3.2 EtherNet/IP Scanner 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[1.3.2 SYCON.NET 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[1.3.2 SYCON.NET 도움말](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -603,7 +603,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -851,7 +851,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
@@ -874,7 +874,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **18. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/3-Specification-EtherNet-IP-Adapter.md)
 #### 1.3.3.3 EtherNet/IP Adapter 사양
@@ -998,14 +998,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Settings-EtherNet-IP-Adapter.md)
 #### 1.3.3.4 EtherNet/IP Adapter 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
    **[EtherNet/IP Adapter EDS File 다운로드]**
 
-   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
+   - "[6. Slave 장치 설명 파일](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1105,7 +1105,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
 ![[그림 1.3.3.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_5.png>) 
 
@@ -1114,7 +1114,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error-EtherNet-IP.md)
 #### 1.3.3.5 EtherNet/IP 에러 조치
@@ -1125,7 +1125,7 @@ Sycon.Net 의 Diagnosis 를 이용해 Error를 확인 할 수 있습니다.
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
@@ -1325,12 +1325,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Settings-PROFINET-IO-Controller.md)
 #### 1.3.4.2 PROFINET IO Controller 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[1.3.2 SYCON.NET 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[1.3.2 SYCON.NET 도움말](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1346,7 +1346,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1537,7 +1537,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
@@ -1559,7 +1559,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/3-Specification-PROFINET-IO-Device.md)
 #### 1.3.4.3 PROFINET IO Deivce 사양
@@ -1679,14 +1679,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Settings-PROFINET-IO-Device.md)
 #### 1.3.4.4 PROFINET IO Device 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
    **[PROFINET IO Device GSDML File 다운로드]**
 
-   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
+   - "[6. Slave 장치 설명 파일](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1749,7 +1749,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   [**Master 에서 Slot 설정 시**]
+   [Master 에서 Slot 설정 시]
 
    - Master Input (32byte)  <--  Slave Output (32bytes)
 
@@ -1770,7 +1770,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
 ![[그림 1.3.4.4-6 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_6.png>) 
 
@@ -1779,14 +1779,14 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/5-Error-PROFINET-IO.md)
 #### 1.3.4.5 PROFINET IO 에러 조치
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 
 
@@ -1952,12 +1952,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Settings-EtherCAT-Master.md)
 #### 1.3.5.2 EtherCAT Master 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[1.3.2 SYCON.NET 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[1.3.2 SYCON.NET 도움말](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -1973,7 +1973,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2055,7 +2055,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="warning" %}
    **EtherCAT 은 사용할 수 있는 Cable 결선과 Port 가 지정되어 있습니다.**
 
-   **원활한 통신 연결을 위해 ("[**1.3.5.5 EtherCAT 케이블 결선**](../5-EtherCAT/5-EtherCAT-Topology.md)")을 반드시 확인해 주십시오.**
+   **원활한 통신 연결을 위해 ("[1.3.5.5 EtherCAT 케이블 결선](../5-EtherCAT/5-EtherCAT-Topology.md)")을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
@@ -2153,7 +2153,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
@@ -2175,7 +2175,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/3-Specification-EtherCAT-Slave.md)
 #### 1.3.5.3 EtherCAT Slave 사양
@@ -2302,7 +2302,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    **[EtherCAT Slave ESI File 다운로드]**
 
-   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
+   - "[6. Slave 장치 설명 파일](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md)
@@ -2352,7 +2352,7 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 **3. Cable 결선 ERROR**
 
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
@@ -2514,12 +2514,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 #### 1.3.6.2 PROFIBUS-DP Master 설정
 
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[1.3.2 SYCON.NET 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[1.3.2 SYCON.NET 도움말](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2535,7 +2535,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2731,7 +2731,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
@@ -2753,7 +2753,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **13. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/3-Specification-PROFIBUS-DP-Slave.md)
@@ -2835,14 +2835,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Settings-PROFIBUS-DP-Slave.md)
 #### 1.3.6.4 PROFIBUS-DP Slave 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
    **[PROFIBUS-DP Slave GSD File 다운로드]**
 
-   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
+   - "[6. Slave 장치 설명 파일](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -2896,7 +2896,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% endhint %}
 
 {% hint style="info" %}
-   [**Master 에서 Module 설정 시**]
+   [Master 에서 Module 설정 시]
 
    - 설정한 바이트 수와 일치하도록 Master에서 Module을 지정해 주어야합니다.
 
@@ -2925,7 +2925,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
 ![[그림 1.3.6.4-6 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_6.png>) 
 
@@ -2934,14 +2934,14 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/5-Error-PROFIBUS-DP.md)
 #### 1.3.6.5 PROFIBUS-DP 에러 조치
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/README.md)
 ### 1.3.7 DeviceNet
@@ -3065,12 +3065,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Settings-DeviceNet-Master.md)
 #### 1.3.7.2 DeviceNet Master 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[1.3.2 SYCON.NET 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[1.3.2 SYCON.NET 도움말](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -3078,7 +3078,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - DeviceNet Connector 연결은 아래를 참고해 주십시오.
 
-      ("[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[1.2.2 커넥터](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -3094,7 +3094,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -3197,7 +3197,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
    **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**  
    **(3) Master - Slave 통신 속도 설정 여부**  
 
-   **원활한 통신 연결을 위해 ("[**1.3.7.5 DeviceNet ERROR 조치**](../7-DeviceNet/5-Error-DeviceNet.md)")을 반드시 확인해 주십시오.**
+   **원활한 통신 연결을 위해 ("[1.3.7.5 DeviceNet ERROR 조치](../7-DeviceNet/5-Error-DeviceNet.md)")을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
@@ -3355,7 +3355,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
@@ -3377,7 +3377,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **14. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md)
 #### 1.3.7.3 DeviceNet Slave 사양
@@ -3457,14 +3457,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Settings-DeviceNet-Slave.md)
 #### 1.3.7.4 DeviceNet Slave 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
    **[DeviceNet Slave EDS File 다운로드]**
 
-   - "[**6. Slave 장치 설명 파일**](../../../6-slave-config-file.md)" 참고해 주십시오.
+   - "[6. Slave 장치 설명 파일](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -3472,7 +3472,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - DeviceNet Connector 연결은 아래를 참고해 주십시오.
 
-      ("[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[1.2.2 커넥터](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -3536,7 +3536,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
 ![[그림 1.3.7.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_5.png>) 
 
@@ -3545,14 +3545,14 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md)
 #### 1.3.7.5 DeviceNet 에러 조치
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
@@ -3854,14 +3854,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/2-Settings-CC-Link-Slave.md)
 #### 1.3.8.2 CC-Link Slave 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
    - CC-Link Connector 연결은 아래를 참고해 주십시오.
 
-      ("[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[1.2.2 커넥터](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -3941,14 +3941,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    **IO Byte 영역에 대해서는 아래 링크를 참고해 주십시오.**
 
-   **("[**1.3.8.1 CC-Link Slave 사양**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)")**
+   **("[1.3.8.1 CC-Link Slave 사양](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)")**
 {% endhint %}
 
 <br>
 
 **5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
 ![[그림 1.3.8.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_5.png>) 
 
@@ -3957,7 +3957,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
@@ -3965,7 +3965,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 
@@ -4149,7 +4149,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/2-Settings-CC-Link-IE-Field-Slave.md)
 #### 1.3.9.2 CC-Link IE Field Slave 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 
 <br>
@@ -4236,14 +4236,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
 <br>
 
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 
 <br>
@@ -4254,7 +4254,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 
 <br>
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/README.md)
 ### 1.3.10 EtherNet/IP - 표준 Remote IO 연결
@@ -4276,27 +4276,27 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)
 #### 1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 **1. 산업용 통신 펌웨어 설정에서 EtherNet/IP Master를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.10.1-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
+![그림 1.3.10.1-1 펌웨어 설정](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
 **2. 산업용 통신 모니터링에서 선택한 Protocol의 준비 상태를 확인합니다.**
 
-![[그림 1.3.10.1-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
+![그림 1.3.10.1-2 산업용 통신 모니터링](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
 **3. 통신을 위해 PCI와 Remote IO의 Cable 등을 연결하고 상태를 확인합니다.**
 
-![[그림 1.3.10.1-3 하드웨어 연결]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
+![그림 1.3.10.1-3 하드웨어 연결](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
-![[그림 1.3.10.1-4 하드웨어 연결]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_4.png>) 
+![그림 1.3.10.1-4 하드웨어 연결](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_4.png>) 
 
 <br>
 
@@ -4315,7 +4315,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 
    - Remote IO 의 IP가 192.168.100.99 로 설정되어 있어야 통신 연결이 가능합니다.
 
-   - "[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 Remote IO IP Setting](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
@@ -4323,9 +4323,9 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 **4. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  EtherNet/IP Remote IO Setting]**
 
-![[그림 1.3.10.1-5 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 
+![그림 1.3.10.1-5 슬레이브 설정](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 
 
-![[그림 1.3.10.1-6 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_6.png>) 
+![그림 1.3.10.1-6 슬레이브 설정](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_6.png>) 
 
 <br>
 
@@ -4362,9 +4362,9 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 
 **5. 설정 완료 후 제어기를 재부팅합니다.**
 
-![[그림 1.3.10.1-7 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>) 
+![그림 1.3.10.1-7 슬레이브 설정](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>) 
 
-![[그림 1.3.10.1-8 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
+![그림 1.3.10.1-8 슬레이브 설정](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
    - 설정 완료 후 제어기를 재부팅해 주십시오.
@@ -4374,30 +4374,30 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI �
 
 **6. 설정값이 반영되어있는지 확인 후, 통신 상태를 확인합니다.**
 
-![[그림 1.3.10.1-9 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>) 
+![그림 1.3.10.1-9 슬레이브 설정](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>) 
 
-TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
-![[그림 1.3.10.1-10 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>) 
+![그림 1.3.10.1-10 산업용 통신 모니터링](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>) 
 
 {% hint style="info" %}
    - 통신 연결이 안되는 경우 Remote IO의 IP를 확인해야합니다.
 
    - 아래를 따라 확인해 주십시오. (192.168.100.99 가 아닌 경우)
 
-   - "[**1.3.10.2 Remote IO IP Setting**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 Remote IO IP Setting](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
-![[그림 1.3.10.1-11 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
+![그림 1.3.10.1-11 산업용 통신 모니터링](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
 
-![[그림 1.3.10.1-12 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_12.png>) 
+![그림 1.3.10.1-12 산업용 통신 모니터링](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_12.png>) 
 
 <br>
 
 **7. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)
 #### 1.3.10.2 Remote IO IP 주소 설정
@@ -4476,7 +4476,7 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 **8. IP 주소가 정상적으로 변경이 되었다면 설정을 진행합니다.**
 
 {% hint style="info" %}
-   - "[**1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
+   - "[1.3.10.1 EtherNet/IP - 표준 Remote IO 연결 설정](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" 절차를 따라 설정을 진행해 주십시오.
 {% endhint %}
 
 [__SOURCE](1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)
@@ -4484,7 +4484,7 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 
 <br>
 
-"[**1.2 CIFX PCI 통신 카드 장착 및 설정**](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" 및 "[**1.3  CIFX PCI 통신 설정**](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
+"[1.2 CIFX PCI 통신 카드 장착 및 설정](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" 및 "[1.3  CIFX PCI 통신 설정](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 통신 설정 이후 동작여부를 다음과 같은 화면에서 확인 가능합니다.
 
 <br>
 
@@ -5169,7 +5169,7 @@ XG5000 프로그램의 다운로드 및 자세한 사용방법은 LS ELECTRIC �
 <br>
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/3-adapter/4-error_code.md)
 ### 2.3.4 EtherNet/IP 어댑터 (슬레이브) 알람코드
@@ -5338,7 +5338,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-"[**2.1 네트워크 설정**](../../2-ethernet-ip/1-network.md)" 및 "[**2.2 라이선스 설정**](../../2-ethernet-ip/2-license.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[2.1 네트워크 설정](../../2-ethernet-ip/1-network.md)" 및 "[2.2 라이선스 설정](../../2-ethernet-ip/2-license.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
@@ -5413,13 +5413,13 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 {% hint style="info" %}
    - 연결 예시는 아래 매뉴얼을 참고해주십시오.    
-   - "[**2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO**](3-connect-adapter/1-crevis.md)"
+   - "[2.4.3.1 외부 Adapter 장치 연결 - Crevis Remote IO](3-connect-adapter/1-crevis.md)"
 
-   - "[**2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO**](3-connect-adapter/2-wago.md)"
+   - "[2.4.3.2 외부 Adapter 장치 연결 - Wago Remote IO](3-connect-adapter/2-wago.md)"
 
-   - "[**2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter**](3-connect-adapter/3-pci.md)"
+   - "[2.4.3.3 외부 Adapter 장치 연결 - Hilscher CIFX PCI EtherNet/IP Adapter](3-connect-adapter/3-pci.md)"
 
-   - "[**2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70**](3-connect-adapter/4-baumer.md)"  
+   - "[2.4.3.4 외부 Adapter 장치 연결 - Baumer OM-70](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
@@ -5471,7 +5471,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 **6. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
 ### 2.4.3 외부 Adapter 장치 연결
@@ -5626,7 +5626,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[EDS 파일 도구 (EZ-EDS) 다운로드](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
@@ -5634,7 +5634,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - 예시의 Remote IO의 IP 설정은 아래 매뉴얼 링크를 참조하여 진행해 주십시오.
 
-   - "[**1.3.10.2 Remote IO IP Setting**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 Remote IO IP Setting](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
@@ -5757,7 +5757,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[EDS 파일 도구 (EZ-EDS) 다운로드](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
@@ -5886,7 +5886,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[EDS 파일 도구 (EZ-EDS) 다운로드](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
@@ -5978,7 +5978,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[EDS 파일 도구 (EZ-EDS) 다운로드](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
@@ -6032,7 +6032,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[EDS 파일 도구 (EZ-EDS) 다운로드](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
@@ -6164,7 +6164,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 {% hint style="info" %}
    - EZ-EDS 프로그램을 통해 EtherNet/IP Adapter 장치의 설정 정보를 쉽게 확인할 수 있습니다.
 
-   - "[**EDS 파일 도구 (EZ-EDS) 다운로드**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[EDS 파일 도구 (EZ-EDS) 다운로드](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>

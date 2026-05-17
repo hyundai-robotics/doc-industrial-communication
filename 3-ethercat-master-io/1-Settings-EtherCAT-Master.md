@@ -131,7 +131,7 @@
 <br>
 
 {% hint style="info" %}
-   **통신 상태에서 ERROR 발생시 ("[**3.2 EtherCAT Master IO 에러 조치**](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)")를 확인해 주십시오.**
+   **통신 상태에서 ERROR 발생시 ("[3.2 EtherCAT Master IO 에러 조치](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)")를 확인해 주십시오.**
 {% endhint %}
 
 <br>
@@ -139,6 +139,6 @@
 **7. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}
 
