@@ -1,11 +1,11 @@
 ﻿#### 1.3.7.2 DeviceNet Master 설정
 
-"[**1.3.1 CIFX PCI 슬롯 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[**1.3.2 SYCON.NET 설정**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[1.3.2 SYCON.NET 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
 <br>
 
 {% hint style="info" %}
-   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[**1.3.2 SYCON.NET 도움말**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
+   - SYCON.net 이용 중 매뉴얼에 설명이 부족한 부분은  ""[1.3.2 SYCON.NET 도움말](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" 기능을 참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -13,7 +13,7 @@
 {% hint style="info" %}
    - DeviceNet Connector 연결은 아래를 참고해 주십시오.
 
-      ("[**1.2.2 커넥터**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[1.2.2 커넥터](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -29,7 +29,7 @@
 <br>
 
 {% hint style="info" %}
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 <br>
@@ -132,7 +132,7 @@
    **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**  
    **(3) Master - Slave 통신 속도 설정 여부**  
 
-   **원활한 통신 연결을 위해 ("[**1.3.7.5 DeviceNet ERROR 조치**](../7-DeviceNet/5-Error-DeviceNet.md)")을 반드시 확인해 주십시오.**
+   **원활한 통신 연결을 위해 ("[1.3.7.5 DeviceNet ERROR 조치](../7-DeviceNet/5-Error-DeviceNet.md)")을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}
@@ -290,7 +290,7 @@
 {% hint style="info" %}
    - Sycon.net 과 TP 에서 통신 상태를 확인 합니다.
 
-   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[**1.4 CIFX PCI 통신 모니터링**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+   - TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 {% endhint %}
 
 {% hint style="info" %}
@@ -312,5 +312,5 @@
 **14. 통신 설정 완료 후 IO Block 을 할당합니다.**
 
 {% hint style="info" %}
-   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[**5. 산업용 통신 IO 읽기 및 쓰기**](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
 {% endhint %}

@@ -44,7 +44,7 @@ EtherCAT 기존 산업용 통신들과 달리 Cable 결선과 사용할 수 있�
 **3. Cable 결선 ERROR**
 
 
-"[**1.4.1 ERROR Code**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
+"[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)" 참고해 주십시오.
 
 <br>
 

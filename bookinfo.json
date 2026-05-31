@@ -11,5 +11,6 @@
             "title": "${cont_model} 제어기 조작 설명서 - TP630",
             "id": "${cont_model:upper}OPTP630_KO"
         }
-    ]
+    ],
+    "permittedStrs": ["Hi6"]
 }
