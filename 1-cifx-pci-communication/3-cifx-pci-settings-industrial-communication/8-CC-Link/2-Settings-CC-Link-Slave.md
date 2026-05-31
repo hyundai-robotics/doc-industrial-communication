@@ -1,13 +1,13 @@
 ﻿#### 1.3.8.2 CC-Link Slave Settings
 
-Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 <br>
 
 {% hint style="info" %}
    - For CC-Link connector connection, please refer to the following.
 
-      ("[**1.2.2 Connector**](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[1.2.2 Connector](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
@@ -86,14 +86,14 @@ Please follow the "[**1.3.1 CIFX PCI Slot Settings**](../../../1-cifx-pci-commun
 {% hint style="info" %}
    **For the IO Byte area, please refer to the link below.**
 
-   **(["**1.3.8.1 CC-Link Slave Specifications**](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md))**
+   **(["**1.3.8.1 CC-Link Slave Specifications](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md))**
 {% endhint %}
 
 <br>
 
 **5. After completing the settings, check the communication status according to the procedure below.**
 
-For the procedure to check the industrial communication status on the TP, please refer to ("[**1.4 CIFX PCI Communication Monitoring**](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
 ![[Figure 1.3.8.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_5.png>) 
 
@@ -102,5 +102,5 @@ For the procedure to check the industrial communication status on the TP, please
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[**5. Industrial Communication IO Reading and Writing**](../../../5-io-block-allocation.md)").**
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
 {% endhint %}

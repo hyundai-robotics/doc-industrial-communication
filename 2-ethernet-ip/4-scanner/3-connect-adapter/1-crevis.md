@@ -5,7 +5,7 @@
 {% hint style="info" %}
    - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
 
-   - "[**Download EDS File Tool (EZ-EDS)**](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
@@ -13,7 +13,7 @@
 {% hint style="info" %}
    - For the IP settings of the Remote I/O used in the example, please refer to the manual link below.
 
-   - "[**1.3.10.2 Remote IO IP Setting**](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 Remote IO IP Setting](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>

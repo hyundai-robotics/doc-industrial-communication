@@ -74,5 +74,5 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 **8. If the IP address has been changed successfully, proceed with settings.**
 
 {% hint style="info" %}
-   - Please proceed with the settings according to the "[**1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings**](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" procedure.
+   - Please proceed with the settings according to the "[1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" procedure.
 {% endhint %}
