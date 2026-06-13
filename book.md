@@ -1,10 +1,18 @@
 ﻿
 [__SOURCE](README.md)
 # Hi7 控制器功能手册 - 工业通信
+[__SOURCE](0-about-this-manual/README.md)
+# 关于手册
+
 [__SOURCE](0-about-this-manual/precautions.md)
 # 注意事项
 
 {% include file="zh/precautions.md" %}
+[__SOURCE](0-about-this-manual/safety-notice.md)
+# 安全注意事项
+
+{% include file="zh/safety-notice.md" %}
+
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI 通信
 

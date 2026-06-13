@@ -1,7 +1,9 @@
 ﻿# Table of contents
 
 * [Hi7 控制器功能手册 - 工业通信](README.md)
-* [注意事项](0-about-this-manual/precautions.md)
+* [关于手册](0-about-this-manual/README.md)
+  * [注意事项](0-about-this-manual/precautions.md)
+  * [安全注意事项](0-about-this-manual/safety-notice.md)
 * [1. CIFX PCI 通信](1-cifx-pci-communication/README.md)
   * [1.1 CIFX PCI 程序安装](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)
     * [1.1.1 SYCON.net 安装](1-cifx-pci-communication/1-cifx-pci-install-program/1-sycon-net.md)
