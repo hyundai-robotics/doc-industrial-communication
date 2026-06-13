@@ -2,7 +2,9 @@
 
 * [Hi6 Controller Function Manual - Industrial Communication](README.md)
 
-* [Precautions](0-about-this-manual/precautions.md)
+* [About the Manual](0-about-this-manual/README.md)
+  * [Precautions](0-about-this-manual/precautions.md)
+  * [Safety Cautions](0-about-this-manual/safety-notice.md)
 
 * [1. CIFX PCI Communication](1-cifx-pci-communication/README.md)
   * [1.1 CIFX PCI Program Installation](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)
