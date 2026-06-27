@@ -1,143 +1,143 @@
-﻿#### 2.4.3.6 Connecting External Adapter Devices - Rockwell Automation (AB) Remote IO
+#### 2.4.3.6 连接外部适配器设备 - Rockwell Automation (AB) 远程 IO
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置文件信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Rockwell Automation manual for the IP configuration of the device.
+   - 请参阅 Rockwell Automation 手册以进行设备的 IP 配置。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 <br>
 
-![[figure 2.4.3.6-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_1.png>) 
+![[figure 2.4.3.6-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_1.png>)
 
 <br>
 
-![[figure 2.4.3.6-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_2.png>) 
+![[figure 2.4.3.6-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_2.png>)
 
 <br>
 
-**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+**2. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
-![[figure 2.4.3.6-3 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_3.png>) 
+![[figure 2.4.3.6-3 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_3.png>)
 
 <br>
 
-![[figure 2.4.3.6-4 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_4.png>) 
+![[figure 2.4.3.6-4 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_4.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 在连接管理器中检查连接类型   
+      - 例如：独占所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : No header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中的标题存在   
+      - 输入 (T > O) : 没有标题   
+      - 输出 (O > T) : 32位运行/空闲标题   
 
-   - Click "Create / Decode Path" to verify the Instance ID   
-      - Input (T > O) : 101   
-      - Output (O > T) : 100   
-      - Configuration : 102   
+   - 点击 "创建 / 解码路径" 验证实例 ID   
+      - 输入 (T > O) : 101   
+      - 输出 (O > T) : 100   
+      - 配置 : 102   
 {% endhint %}
 
 <br>
 
-**3. Check the I/O size in the device manual.**
+**3. 检查设备手册中的 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
 
-![[figure 2.4.3.6-5 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_5.png>) 
+![[figure 2.4.3.6-5 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_5.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
 
-![[figure 2.4.3.6-6 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_6.png>) 
+![[figure 2.4.3.6-6 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_6.png>)
 
 <br>
 
-![[figure 2.4.3.6-7 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_7.png>) 
+![[figure 2.4.3.6-7 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_7.png>)
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
-![[figure 2.4.3.6-8 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_8.png>)
+![[figure 2.4.3.6-8 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_8.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master    
-      - Output (O > T) : Master > Slave    
+   - 请参阅目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从属 > 主设备    
+      - 输出 (O > T) : 主设备 > 从属    
 
-   [Adapter Configuration]   
-   - Point I/O 1734-AENTR    
-      - Status : 8byte (T > O)    
-      - 1734-IB8 : 1byte (T > O)   
-      - 1734-OB8E : 1byte (O > T) + 1byte (T > O, Status)   
+   [适配器配置]   
+   - 点 I/O 1734-AENTR    
+      - 状态 : 8字节 (T > O)    
+      - 1734-IB8 : 1字节 (T > O)   
+      - 1734-OB8E : 1字节 (O > T) + 1字节 (T > O, 状态)   
 
-   [IO Assembly Information]   
+   [IO 组件信息]   
    [T > O]   
-      - Size: 10bytes   
-      - Instance: 101   
-      - Run/Idle Header: No   
+      - 大小: 10字节   
+      - 实例: 101   
+      - 运行/空闲标题: 无   
 
    [O > T]    
-      - Size: 1byte   
-      - Instance: 100   
-      - Run/Idle Header: 32Bit   
+      - 大小: 1字节   
+      - 实例: 100   
+      - 运行/空闲标题: 32位   
 {% endhint %}
 
 <br>
 
-![[figure 2.4.3.6-9 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_9.png>)
+![[figure 2.4.3.6-9 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_9.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the additional settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参阅目标设备的手册以正确输入附加设置。   
+      - 输入 (T > O) : 从属 > 主设备   
+      - 输出 (O > T) : 主设备 > 从属   
 
-   [Additional Settings]   
-      - Config Segment : ON   
-      - Instance: 102   
-      - Size: 10bytes    
+   [附加设置]   
+      - 配置段 : 开   
+      - 实例: 102   
+      - 大小: 10字节    
 
-   [Config Segment Information]    
-      - (4bytes) 1 : Header    
-      - (2bytes) 3 : Connected Slots + 1   
-      - (1byte)  0 : T > O Alignment (in bytes)      
-      - (1byte)  1 : T > O Data Size per slot      
-      - (1byte)  0 : O > T Alignment (in bytes)      
-      - (1byte)  1 : O > T Data Size per slot      
+   [配置段信息]    
+      - (4字节) 1 : 标头    
+      - (2字节) 3 : 连接插槽 + 1   
+      - (1字节)  0 : T > O 对齐 (以字节为单位)      
+      - (1字节)  1 : T > O 每个插槽的数据大小      
+      - (1字节)  0 : O > T 对齐 (以字节为单位)      
+      - (1字节)  1 : O > T 每个插槽的数据大小      
 {% endhint %}
 
 <br>

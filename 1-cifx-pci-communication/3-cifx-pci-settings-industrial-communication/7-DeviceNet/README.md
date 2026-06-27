@@ -1,26 +1,25 @@
-﻿### 1.3.7 DeviceNet
+### 1.3.7 DeviceNet
 
-This chapter describes the characteristics of the DeviceNet master and slave and how to set them. 
+本章描述了 DeviceNet 主设备和从设备的特性以及如何设置它们。
 
 <br>
 
-**Fieldbus Overview**
+**现场总线概述**
 
-Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
+现场总线是一个行业标准，用于通过单根电缆连接传感器、按钮、电机驱动器和操作界面等设备到 PLC（可编程逻辑控制器），并在工厂中操作它们。
 
-Fieldbus provides intelligent services such as central monitoring of the entire network status and reconfiguration of the network.
+现场总线提供智能服务，例如对整个网络状态的中央监控和网络的重新配置。
 
-For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
+例如，可以为传感器和开关设置详细的信息、操作和模式，而不仅仅是简单的开/关。
 
-Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
+使用单根电缆可以减少布线的时间和成本，简化配置，并在维护中提供优势。
 
-Also, unlike protocols with non-deterministic response characteristics of general communications, fieldbuses guarantee data response speed to satisfy industrial applications where critical time characteristics are important.
+此外，与响应特性非确定性的普通通信协议不同，现场总线保证数据响应速度，以满足对时间特性至关重要的工业应用。
 
 ![[Figure 1.3.7-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/image_1.png>)
 
 <br>
 
-One fieldbus network connects one master device and multiple slave devices.
-The master device searches and manages the entire network and exchanges data with slave devices.
+一个现场总线网络连接一个主设备和多个从设备。主设备搜索并管理整个网络，并与从设备交换数据。
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
+通常，PLC 是主设备，而传感器、按钮、控制器等可以配置为从设备。

@@ -1,24 +1,21 @@
-﻿### 1.2.1 PCI Industrial Communication Card
-
-
-<br>
-
-**1. Install the purchased PCI communication card inside the controller's Main Module.**
+### 1.2.1 PCI工业通信卡
 
 <br>
 
-**2. Rotate the rotary switch of the PCI communication card to set the Slot number.**
+**1. 在控制器的主模块内部安装采购的PCI通信卡。**
 
 <br>
+
+**2. 旋转PCI通信卡的旋转开关以设置插槽编号。**
 
 {% hint style="warning" %}
-**\[Caution]**: The physical location of the PCI slot is independent of the rotary switch settings on the communication card.
+**\[注意]**: PCI插槽的物理位置与通信卡上的旋转开关设置无关。
 {% endhint %}
 
 <br>
 
-**3. Set the slot number separately for each PCI communication card within the number ranging 1 \~ 3.**
-  (When multiple PCI communication cards are used, individual numbers should be set differently.)
+**3. 为每个PCI通信卡单独设置插槽编号，范围为1 \~ 3。**
+  (当使用多个PCI通信卡时，个别编号应设置为不同的值。)
 
 ![[Figure 1.2.1-1 PCI Communication Card]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_2.png>)
@@ -28,6 +25,5 @@
 ![[Figure 1.2.1-2 PCI Communication Card]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_3.png>)
 
 {% hint style="warning" %}
-**\[Caution]**: Please set the rotary switch number differently for each PCI card.
+**\[注意]**: 请为每个PCI卡设置不同的旋转开关编号。
 {% endhint %}
-

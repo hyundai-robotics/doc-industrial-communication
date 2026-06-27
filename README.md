@@ -1,1 +1,1 @@
-﻿# Hi6 Controller Function Manual - Industrial Communication
+# Hi6 控制器功能手册 - 工业通信

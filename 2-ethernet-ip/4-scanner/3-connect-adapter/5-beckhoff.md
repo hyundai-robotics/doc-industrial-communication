@@ -1,33 +1,33 @@
-﻿#### 2.4.3.5 Connecting External Adapter Devices - Beckhoff Remote IO
+#### 2.4.3.5 连接外部适配器设备 - Beckhoff 远程 IO
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Beckhoff manual for the IP configuration of the device.
+   - 请参考 Beckhoff 手册以获取设备的 IP 配置信息。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.5-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_1.png>) 
 
 <br>
 
-**2. Access the device's webpage to configure the IP address.**
+**2. 访问设备的网页以配置 IP 地址。**
 
 <br>
 
 {% hint style="info" %}
-   - In this example, the initial IP address is set to 192.168.1.2 (DIP switch No. 2 is ON)
+   - 在此示例中，初始 IP 地址设置为 192.168.1.2（DIP 开关 No. 2 为 ON）
 {% endhint %}
 
 <br>
@@ -41,9 +41,9 @@
 <br>
 
 {% hint style="info" %}
-   - In this example, the IP address is changed to 192.168.10.95. 
+   - 在此示例中，IP 地址更改为 192.168.10.95。
 
-   - After entering the IP address, click the Check button to save. 
+   - 输入 IP 地址后，单击“检查”按钮以保存。 
 {% endhint %}
 
 <br>
@@ -53,7 +53,7 @@
 <br>
 
 {% hint style="info" %}
-   - Set the DIP switches as shown below and reboot the device:   
+   - 按照如下所示设置 DIP 开关并重启设备：   
       - 1 ~ 8  : ON   
       - 9 ~ 10 : OFF   
 {% endhint %}
@@ -68,12 +68,12 @@
 
 <br>
 
-**3. Access the device's webpage to verify the EtherNet/IP configuration information.**
+**3. 访问设备的网页以验证 EtherNet/IP 配置信息。**
 
 <br>
 
 {% hint style="info" %}
-   - Re-access the webpage using the newly configured IP address and verify the IP address and EtherNet/IP configuration details.
+   - 使用新配置的 IP 地址重新访问网页，验证 IP 地址和 EtherNet/IP 配置信息。
 {% endhint %}
 
 <br>
@@ -87,45 +87,45 @@
 <br>
 
 {% hint style="info" %}
-   - Input (T > O)   
-      - Instance ID: 129   
-      - Byte Size: 6      
+   - 输入 (T > O)   
+      - 实例 ID: 129   
+      - 字节大小: 6      
 
-   - Output (O > T)   
-      - Instance ID: 130   
-      - Byte Size: 6   
+   - 输出 (O > T)   
+      - 实例 ID: 130   
+      - 字节大小: 6   
 {% endhint %}
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
-![[figure 2.4.3.5-9 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_9.png>)
+![[figure 2.4.3.5-9 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_9.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master    
-      - Output (O > T) : Master > Slave   
+   - 请参考目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从站 > 主站    
+      - 输出 (O > T) : 主站 > 从站   
 
-   [Adapter Configuration]   
+   [适配器配置]   
    - Beckhoff EK-9500   
       - EK-1008 : 1byte (T > O)   
       - EK-2008 : 1byte (O > T)   
 
-   [IO Assembly Information]   
+   [IO 组装信息]   
    [T > O]   
-      - Size: 6bytes   
-      - Instance: 129   
-      - Run/Idle Header: No   
+      - 大小: 6bytes   
+      - 实例: 129   
+      - 运行/空闲头: 否   
 
    [O > T]    
-      - Size: 6bytes   
-      - Instance: 130   
-      - Run/Idle Header: 32Bit   
+      - 大小: 6bytes   
+      - 实例: 130   
+      - 运行/空闲头: 32Bit   
 {% endhint %}
 
 <br>

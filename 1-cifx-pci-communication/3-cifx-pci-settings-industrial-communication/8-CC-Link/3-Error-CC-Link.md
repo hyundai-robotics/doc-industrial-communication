@@ -1,33 +1,33 @@
-﻿#### 1.3.8.3 CC-Link Slave Error Handling
+#### 1.3.8.3 CC-Link 从属设备错误处理
 
 <br>
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+请参阅 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 
 <br>
 
-**1. CC-Link termination resistor**
+**1. CC-Link 终端电阻**
 
 {% hint style="info" %}
-   - A resistor should be added at the termination when connecting the CC-Link cable.
+   - 连接 CC-Link 电缆时，应在终端处添加一个电阻。
 
-   - If communication is not connected, please check the termination resistor.
+   - 如果通信未连接，请检查终端电阻。
 
-   - CC-Link termination resistor: 110 ohms
+   - CC-Link 终端电阻: 110 欧姆
 {% endhint %}
 
 {% hint style="info" %}
-   - As shown in the figure below, if the CIFX-50 CC PCI is at the CC-Link termination, please add a termination resistor.
+   - 如下图所示，如果 CIFX-50 CC PCI 在 CC-Link 终端，请添加终端电阻。
 {% endhint %}
 
 ![[Figure 1.3.8.5-1 CC-Link Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>) 
 
 
 
-**2. CC-Link ERROR**
+**2. CC-Link 错误**
 
 {% hint style="info" %}
-   - A 24V power supply to the CC-Link cable is required for communication connection.
+   - 需要 24V 电源为 CC-Link 电缆提供通信连接。
 
-   - If communication is not connected, please check the 24V power supply.
+   - 如果通信未连接，请检查 24V 电源。
 {% endhint %}

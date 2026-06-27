@@ -1,7 +1,7 @@
-﻿## 2.4 EtherNet/IP Scanner (Master)
+## 2.4 EtherNet/IP 扫描器 (主)
 
 <br>
 
-This section provides an overview and instructions for the built-in EtherNet/IP Scanner (Master)
+本节提供内置 EtherNet/IP 扫描器 (主) 的概述和说明。
 
 <br>

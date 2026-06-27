@@ -1,10 +1,10 @@
-﻿## 2.2 License Settings
+## 2.2 许可证设置
 
-**1. License Activation**
+**1. 许可证激活**
 
 <br>
 
-On the initial screen, navigate to "System" > "2: Control Parameters" > "10: License Key Registration for Optional Functions"
+在初始屏幕上，导航到“系统” > “2: 控制参数” > “10: 可选功能的许可证密钥注册”
 
 <br>
 
@@ -12,19 +12,19 @@ On the initial screen, navigate to "System" > "2: Control Parameters" > "10: Lic
 
 <br>
 
-1. Deliver the system serial number to the license administrator
-2. Obtain the license key from the administrator, enter it, and press the "Confirm" button
-3. License Key [XXXXXX] ==>OK Confirm
-4. Select "Valid" for the "Embedded EtherNet/IP slave" or "Embedded EtherNet/IP master" from the license list.
+1. 将系统序列号交给许可证管理员
+2. 从管理员处获取许可证密钥，输入后按“确认”按钮
+3. 许可证密钥 [XXXXXX] ==>确认成功
+4. 从许可证列表中选择“嵌入式 EtherNet/IP 从设备”或“嵌入式 EtherNet/IP 主设备”作为“有效”。
 
 <br>
 
 {% hint style="info" %}
-   [EtherNet/IP Licensing Policy]
+   [EtherNet/IP 许可政策]
 
-   - Slave License : Supports EtherNet/IP Slave only
+   - 从设备许可证：仅支持 EtherNet/IP 从设备
 
-   - Master License : Supports both EtherNet/IP Master and Slave
+   - 主设备许可证：支持 EtherNet/IP 主设备和从设备
 {% endhint %}
 
 <br>

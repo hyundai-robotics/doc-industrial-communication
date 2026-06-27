@@ -1,10 +1,10 @@
-﻿#### 1.3.2.1 SYCON.NET Help
+#### 1.3.2.1 SYCON.NET 帮助
 
 
 
 <br>
 
-**When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "help" function below.**
+**使用 SYCON.net 时，如果手册中的说明不足，请参考下面的“帮助”功能。**
 
 <br>
 

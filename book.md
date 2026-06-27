@@ -1,138 +1,127 @@
 ﻿
 [__SOURCE](README.md)
-# Hi6 Controller Function Manual - Industrial Communication
-
+# Hi6 控制器功能手册 - 工业通信
 [__SOURCE](0-about-this-manual/README.md)
-# About the Manual
-
+# 关于手册
 [__SOURCE](0-about-this-manual/precautions.md)
-# Precautions
+# 注意事项
 
-{% include file="en/precautions.md" %}
-
+{% include file="zh/precautions.md" %}
 [__SOURCE](0-about-this-manual/safety-notice.md)
-# Safety Cautions
+# 安全注意事项
 
-{% include file="en/safety-notice.md" %}
-
+{% include file="zh/safety-notice.md" %}
 [__SOURCE](1-cifx-pci-communication/README.md)
 # 1. CIFX PCI Communication
 
-This is a manual for the industrial communication that uses a CIFX PCI. 
-
+这是使用CIFX PCI的工业通信手册。
 [__SOURCE](1-cifx-pci-communication/1-cifx-pci-install-program/README.md)
-## 1.1 CIFX PCI Program Installation
+## 1.1 CIFX PCI 程序安装
 
-This is the method for installing programs related to industrial communication.
-
+这是与工业通信相关程序安装的方法。
 [__SOURCE](1-cifx-pci-communication/1-cifx-pci-install-program/1-sycon-net.md)
-### 1.1.1 SYCON.net Installation
+### 1.1.1 SYCON.net 安装
 
-"Sycon.net" is a program provided by Hilscher for configuring the PCI communication card.
+"Sycon.net" 是 Hilscher 提供的用于配置 PCI 通信卡的程序。
 
 <br>
 
-**1. SYCON.net Latest Version Download Path**
+**1. SYCON.net 最新版本下载路径**
 
 {% hint style="info" %}
-   - Click **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**.
+   - 点击 **[https://hilscher.atlassian.net/](https://hilscher.atlassian.net/wiki/spaces/HILKB/overview?mode=global) -> Software -> SYCON.net**。
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-1 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_1.png>)
+![[图 1.1.1-1 Sycon.net 安装屏幕]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_1.png>)
 
 <br>
 
-![[Figure 1.1.1-2 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_2.png>)
+![[图 1.1.1-2 Sycon.net 安装屏幕]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_2.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Select the latest version (current release) and download it.
+   - 选择最新版本（当前发布）并下载。
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-3 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_3.png>)
+![[图 1.1.1-3 Sycon.net 安装屏幕]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_3.png>)
 
 <br>
 
-![[Figure 1.1.1-4 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_4.png>)
+![[图 1.1.1-4 Sycon.net 安装屏幕]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_4.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Execute the downloaded SYCON.NET Setup.exe file to install the program.
+   - 执行下载的 SYCON.NET Setup.exe 文件以安装程序。
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-5 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_5.png>)
+![[图 1.1.1-5 Sycon.net 安装屏幕]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_5.png>)
 
 <br>
 
-![[Figure 1.1.1-6 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_6.png>)
+![[图 1.1.1-6 Sycon.net 安装屏幕]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_6.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Execute the installed SYCON.NET program to check that the installation has been completed successfully.
+   - 执行已安装的 SYCON.NET 程序以检查安装是否成功完成。
 {% endhint %}
 
 <br>
 
-![[Figure 1.1.1-7 Sycon.net Installation Screen]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_7.png>)
+![[图 1.1.1-7 Sycon.net 安装屏幕]](<../../_assets/1-cifx-pci-communication/1-cifx-pci-install-program/1-Sycon/image_7.png>)
 
 <br>
 
-
-**2. Download the Program from the Hyundai Robotics Website.**
-
-{% hint style="info" %}
-   - Download "**Sycon.net**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
-{% endhint %}
-
-<br>
+**2. 从现代机器人网站下载程序。**
 
 {% hint style="info" %}
-   - Extract -> Execute the SYCON.NET Setup.exe file to install the program.
+   - 从 [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人网站 -> 客户支持 -> 应用软件下载 "**Sycon.net**"。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - The SYCON.net program provided on our website may differ from the latest version.
+   - 解压 -> 执行 SYCON.NET Setup.exe 文件以安装程序。
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   - 我们网站提供的 SYCON.net 程序可能与最新版本不同。
 {% endhint %}
 
 <br>
 [__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/README.md)
-## 1.2 CIFX PCI Communication Card Installation and Settings
+## 1.2 CIFX PCI 通信卡安装和设置
 
-To use industrial communication, a PCI communication card (from Hilscher) is required. Set the communication card and wire the connectors according to the required communication.
-
+要使用工业通信，需使用 PCI 通信卡（来自 Hilscher）。根据所需通信设置通信卡并连接接头。
 [__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)
-### 1.2.1 PCI Industrial Communication Card
-
-
-<br>
-
-**1. Install the purchased PCI communication card inside the controller's Main Module.**
+### 1.2.1 PCI工业通信卡
 
 <br>
 
-**2. Rotate the rotary switch of the PCI communication card to set the Slot number.**
+**1. 在控制器的主模块内部安装采购的PCI通信卡。**
 
 <br>
+
+**2. 旋转PCI通信卡的旋转开关以设置插槽编号。**
 
 {% hint style="warning" %}
-**\[Caution]**: The physical location of the PCI slot is independent of the rotary switch settings on the communication card.
+**\[注意]**: PCI插槽的物理位置与通信卡上的旋转开关设置无关。
 {% endhint %}
 
 <br>
 
-**3. Set the slot number separately for each PCI communication card within the number ranging 1 \~ 3.**
-  (When multiple PCI communication cards are used, individual numbers should be set differently.)
+**3. 为每个PCI通信卡单独设置插槽编号，范围为1 \~ 3。**
+  (当使用多个PCI通信卡时，个别编号应设置为不同的值。)
 
 ![[Figure 1.2.1-1 PCI Communication Card]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_2.png>)
@@ -142,39 +131,37 @@ To use industrial communication, a PCI communication card (from Hilscher) is req
 ![[Figure 1.2.1-2 PCI Communication Card]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI/image_3.png>)
 
 {% hint style="warning" %}
-**\[Caution]**: Please set the rotary switch number differently for each PCI card.
+**\[注意]**: 请为每个PCI卡设置不同的旋转开关编号。
 {% endhint %}
-
-
 [__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)
-### 1.2.2 Connector
+### 1.2.2 连接器
 
 <br>
 
-**Use connectors and cables suitable for the industrial communication method.**
+**使用适合工业通信方法的连接器和电缆。**
 
-![[Figure 1.2.2-1 Industrial Communication Connector]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_1.png>)
+![[图 1.2.2-1 工业通信连接器]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_1.png>)
 ![](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector/image_2.png>)
 
 {% hint style="info" %}
-   - DeviceNet termination resistor: 120 ohms
+   - DeviceNet 终端电阻：120 欧姆
 
-   - CC-Link termination resistor: 110 ohms
+   - CC-Link 终端电阻：110 欧姆
 {% endhint %}
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: Please use separate power sources for the communication cable and the IO.
+**\[注意]**：请为通信电缆和IO使用独立的电源。
 {% endhint %}
 
 <br>
 [__SOURCE](1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/3-Led.md)
-### 1.2.3 LED Description
+### 1.2.3 LED 描述
 
 <br>
 
-**PCI LED Description**
+**PCI LED 描述**
 
 <br>
 
@@ -254,158 +241,154 @@ To use industrial communication, a PCI communication card (from Hilscher) is req
 ![[Figure 1.2.3-20 PCI LED]](<../../_assets/1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/3-Led/image_20.png>)
 
 <br>
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/README.md)
-## 1.3 CIFX PCI Communication Settings
+## 1.3 CIFX PCI 通信设置
 
-To use industrial communication, install a PCI communication card, and proceed with settings using the teach pendant and Sycon.net program.
-
+要使用工业通信，请安装 PCI 通信卡，并使用教导 Pendant 和 Sycon.net 程序进行设置。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)
-### 1.3.1 CIFX PCI Slot Settings.
+### 1.3.1 CIFX PCI 插槽设置.
 
-Configure the communication method for the CIFX PCI slot. To apply the settings, please disconnect the controller power and then supply it again.
-
-<br>
-
-Refer to "[1.2.1 PCI Industrial Communication Card](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" and proceed with the method below.
+配置 CIFX PCI 插槽的通信方法。要应用设置，请断开控制器电源，然后再次供电。
 
 <br>
 
-**1. Touch the menu to enter the slot settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 1: PCI Slot Settings > Channel 1]** 
-
+请参考 "[1.2.1 PCI 工业通信卡](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" 并按照以下方法进行操作。
 
 <br>
 
-**2. Refer to the screen below to select the slot, communication method (master/slave), and protocol.**
-   * The slot number is the rotary switch number of the PCI communication card.
-   * If you do not want to change the communication settings, touch the **\[OK]** button to exit.
+**1. 点击菜单进入插槽设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 1: PCI 插槽设置 > 通道 1]** 
+
+<br>
+
+**2. 请参考下面的屏幕选择插槽、通信方法（主/从）和协议。**
+   * 插槽号是 PCI 通信卡的旋转开关编号。
+   * 如果您不想更改通信设置，请点击 **\[确定]** 按钮以退出。
 
 {% hint style="warning" %}
-**\[Caution]**: Touching the **\[Initialize]** or **\[Apply]** button will initialize the slot information on the current tab. The Config file will also be initialized, so please be aware.
+**\[注意]**: 点击 **\[初始化]** 或 **\[应用]** 按钮将初始化当前选项卡上的插槽信息。配置文件也将被初始化，请注意。
 {% endhint %}
 
-![[Figure 1.3.1-1 PCI Slot Settings]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_1.png>)
+![[图 1.3.1-1 PCI 插槽设置]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_1.png>)
 
-![[Figure 1.3.1-2 PCI Slot Settings (master)]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_2.png>) ![[Figure 1.3.1-3 PCI Slot Settings (Slave)]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_3.png>)
+![[图 1.3.1-2 PCI 插槽设置 (主)]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_2.png>) ![[图 1.3.1-3 PCI 插槽设置 (从)]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_3.png>)
 
 <br>
 
-**3. Complete the slot settings.**
-Touch the **\[Apply]** menu.
+**3. 完成插槽设置。**
+点击 **\[应用]** 菜单。
 
-![[Figure 1.3.1-4 PCI Slot Settings]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_4.png>)
+![[图 1.3.1-4 PCI 插槽设置]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_4.png>)
 
 {% hint style="warning" %}
-**\[Caution]**
+**\[注意]**
 
-<1>. When applying the settings by touching the **\[Apply]** button, all CONFIG files applied to the corresponding slot will be deleted and changed. It is recommended to keep a separate backup of existing settings when changing communication.
+<1>. 当通过点击 **\[应用]** 按钮应用设置时，将删除并更改所有应用于相应插槽的 CONFIG 文件。更改通信时，建议保留现有设置的单独备份。
 
-<2>. If you touch the **\[OK]** button without touching the **\[Apply]** button, the selected communication will not be applied.
+<2>. 如果您点击 **\[确定]** 按钮而不点击 **\[应用]** 按钮，则所选通信将不被应用。
 {% endhint %}
 
 <br>
 
-**4. Repeat steps 2. \~ 3. for each slot.**
+**4. 对每个插槽重复步骤 2. \~ 3.。**
 
 <br>
 
-**5. Reboot the controller to apply the set communication.**
-Touch the **\[Service > 19: Industrial Communication Monitoring]** menu to check if the set communication has been applied.
+**5. 重新启动控制器以应用设置的通信。**
+点击 **\[服务 > 19: 工业通信监控]** 菜单以检查设置的通信是否已被应用。
 
-![[Figure 1.3.1-5 Industrial Communication Settings Screen]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_5.png>)
+![[图 1.3.1-5 工业通信设置屏幕]](<../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Setting-Firmware/image_5.png>)
 
 
 
 {% hint style="warning" %}
-**\[Caution]**: Settings are applied when the controller is rebooted after slot settings.
+**\[注意]**: 设置在插槽设置后重新启动控制器时被应用。
 {% endhint %}
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)
-### 1.3.2 SYCON.NET Settings
+### 1.3.2 SYCON.NET 设置
 
-For the PCI communication card, proceed with industrial communication settings using the "**Sycon.net**" program. The setting method is as follows. (Please install by referring to "[1.1 Sycon.net Installation](../../1-cifx-pci-install-program/1-sycon-net.md)".)
-
-<br>
-
-**1. Connect the PC with Sycon.net installed and the general LAN port of the robot controller (not the PCI LAN port).**
-Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the IP of the general LAN port. Please check the connection status through a ping test, etc.
+对于 PCI 通信卡，使用 "**Sycon.net**" 程序进行工业通信设置。设置方法如下。 (请参考 "[1.1 Sycon.net 安装](../../1-cifx-pci-install-program/1-sycon-net.md)" 进行安装。)
 
 <br>
 
-![[Figure 1.3.2-1 Network IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
+**1. 将安装了 Sycon.net 的 PC 连接到机器人控制器的一般 LAN 端口（不是 PCI LAN 端口）。**
+触摸 **\[System > 2: 控制参数 > 9: 网络]** 菜单以检查一般 LAN 端口的 IP。请通过 ping 测试等检查连接状态。
+
+<br>
+
+![[Figure 1.3.2-1 网络 IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_1.png>)
 
 <br>
 
 {% hint style="info" %}
-   - IP Address can be changed according to user settings.
+   - IP 地址可以根据用户设置进行更改。
 {% endhint %}
 
 <br>
 
-**2. Execute Sycon.net.**
+**2. 执行 Sycon.net。**
 
 ![[Figure 1.3.2-2 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_2.png>)
 
 <br>
 
-**3. In the Device Catalog menu on the right side of the screen, click the item matching the set communication protocol and place it on the bus line in the center by dragging and dropping it.**
+**3. 在屏幕右侧的设备目录菜单中，单击与设置的通信协议匹配的项目，然后将其拖放到中间的总线线路上。**
 
 ![[Figure 1.3.2-3 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_3.png>)
 ![[Figure 1.3.2-4 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_4.png>)
 
 <br>
 
-**4. Double-click the imported item to set it.**
+**4. 双击导入的项目进行设置。**
 
 {% hint style="info" %}
-   - "Double-click" the imported CIFX PCI (figure).
+   - “双击”导入的 CIFX PCI（图）。
 
-   - Settings -> Driver
+   - 设置 -> 驱动程序
 
-   - Select netX Driver.
+   - 选择 netX 驱动程序。
 {% endhint %}
 
 ![[Figure 1.3.2-5 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_5.png>)
 
 {% hint style="info" %}
-   - Setting -> Driver -> netX Driver -> TCP Connection
+   - 设置 -> 驱动程序 -> netX 驱动程序 -> TCP 连接
 
-   - IP Address: Please enter the general LAN port IP address of the connected controller.
+   - IP 地址：请输入连接控制器的一般 LAN 端口 IP 地址。
 {% endhint %}
 
 ![[Figure 1.3.2-6 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_6.png>)
 
 {% hint style="info" %}
-   - Device Assignment -> Click Scan
+   - 设备分配 -> 点击扫描
 
-   - Select communication (check the channel protocol) then "Apply" and "OK."
+   - 选择通信（检查通道协议），然后“应用”和“确定”。
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: Please be sure to check the Channel Protocol and Slot number.
+**\[注意]**：请务必检查通道协议和插槽编号。
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
+**\[注意]**：如果扫描不起作用，请检查与控制器的电缆连接状态以及固件设置。
 {% endhint %}
 
 ![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
 
 
 {% hint style="info" %}
-   - Right-click the CIFX PCI figure -> Download
+   - 右键单击 CIFX PCI 图形 -> 下载
 {% endhint %}
 
 ![[Figure 1.3.2-8 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_8.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)
-#### 1.3.2.1 SYCON.NET Help
+#### 1.3.2.1 SYCON.NET 帮助
 
 
 
 <br>
 
-**When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "help" function below.**
+**使用 SYCON.net 时，如果手册中的说明不足，请参考下面的“帮助”功能。**
 
 <br>
 
@@ -419,41 +402,40 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/README.md)
 ### 1.3.3 EtherNet/IP
 
-This chapter describes the characteristics of the EtherNet/IP master (scanner) and slave (adapter) and how to set them. 
+本章描述了EtherNet/IP主控（扫描器）和从控（适配器）的特性及其设置方法。
 
 <br>
 
-**EtherNet/IP Overview**
+**EtherNet/IP概述**
 
-EtherNet/IP is an Ethernet-based open industrial communication protocol developed by CI (ControlNet International) and ODVA (Open DeviceNet Vendors Association).
+EtherNet/IP是一种基于以太网的开放工业通信协议，由CI（ControlNet International）和ODVA（开放设备网供应商协会）开发。
 
-In the factory, various devices such as sensors, remote IOs, motor drivers, HMIs, PLCs, and robot controllers can be connected to one EtherNet/IP network regardless of manufacturer.
+在工厂中，各种设备如传感器、远程IO、马达驱动器、HMI、PLC和机器人控制器可以在不考虑制造商的情况下连接到一个EtherNet/IP网络。
 
 ![[Figure 1.3.3-1 EtherNet/IP]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/image_1.png>)
 
+<br>
+
+根据通信功能，EtherNet/IP可分为以下几类。
+
+**扫描器类**
+   * 对应于现有现场总线主控的产品，可以要求EtherNet/IP适配器或扫描器执行I/O数据连接。
 
 <br>
 
-EtherNet/IP is classified as follows according to the communication function.
+**适配器类**
+  * 对应于现有现场总线从控的产品，是EtherNet/IP扫描器请求的实时I/O数据连接的目标。
 
-**Scanner Class**
-   * Products that correspond to existing fieldbus masters and can ask the EtherNet/IP adapters or scanners to perform I/O data connection.
-
-<br>
-
-**Adapter Class**
-  * Products that correspond to existing fieldbus slaves and are the targets of Real-Time I/O data connections requested by EtherNet/IP scanners.
-
-  * An adapter cannot send and receive Real-Time I/O data on their own without the scanner.
+  * 适配器无法在没有扫描器的情况下独立发送和接收实时I/O数据。
 
 <br>
 
-**Messaging Class**
-   * Products that can send and receive explicit messages for the products of all classes, but do not support Real-Time I/O data transmission and reception.
+**消息类**
+   * 能够发送和接收对所有类产品的显式消息，但不支持实时I/O数据的传输和接收。
 
-   * For example, the products can be computer interface cards for program upload/download and network setting tools, etc.
+   * 例如，这些产品可以是用于程序上传/下载的计算机接口卡和网络设置工具等。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/1-Specification-EtherNet-IP-Scanner.md)
-#### 1.3.3.1 EtherNet/IP Scanner Specifications
+#### 1.3.3.1 EtherNet/IP 扫描仪规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -463,155 +445,154 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Maximum Connectable Slave Count</td>
+		<td>最大可连接从设备数</td>
 		<td>64</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size</td>
+		<td>最大输入大小</td>
 		<td>1200 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
+		<td>最大输出大小</td>
 		<td>1200 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size (1 slave)</td>
+		<td>最大输入大小 (1 个从设备)</td>
 		<td>504 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size (1 slave)</td>
+		<td>最大输出大小 (1 个从设备)</td>
 		<td>504 bytes</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
-		<td>Cyclic</td>
+		<td>IO 连接</td>
+		<td>周期性</td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 1ms</td>
+		<td>IO 更新周期</td>
+		<td>最小 1ms</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>10 or 100 Mbit/s</td>
+		<td>通信速度</td>
+		<td>10 或 100 Mbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Tree, Line, Ring</td>
+		<td>拓扑</td>
+		<td>树形、线形、环形</td>
 	</tr>
     <tr>
-		<td>Network Slave Scan</td>
-		<td>Not supported</td>
+		<td>网络从设备扫描</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Supported</td>
+		<td>快速连接</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>DLR (Device Level Ring)</td>
-		<td>Beacon based 'Ring Node'</td>
+		<td>DLR (设备级环)</td>
+		<td>基于信标的 '环节点'</td>
 	</tr>
     <tr>
-		<td>Additional Features</td>
-		<td>DHCP, BOOTP, ACD supported</td>
+		<td>附加特性</td>
+		<td>支持 DHCP、BOOTP、ACD</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>Ethernet II, IEEE 802.3</td>
+		<td>数据传输层</td>
+		<td>以太网 II、IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>10 or 100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>10 或 100 BASE-T 以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Supported</td>
+		<td>自动协商</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Allowed</td>
+		<td>集线器</td>
+		<td>允许</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Allowed</td>
+		<td>交换机</td>
+		<td>允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>至少 Cat5，STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大 100m</td>
 	</tr>
 </tbody>
 </table>
 <br>
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Settings-EtherNet-IP-Scanner.md)
-#### 1.3.3.2 EtherNet/IP Scanner Settings
+#### 1.3.3.2 EtherNet/IP 扫描器设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[1.3.2 SYCON.NET Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 和 "[1.3.2 SYCON.NET 设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 过程，然后按照以下方法进行。
 
 <br>
 
 {% hint style="info" %}
-   - When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "[1.3.2 SYCON.NET Help](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" function.
+   - 在使用 SYCON.net 时，如果手册中缺乏说明，请参阅 "[1.3.2 SYCON.NET 帮助](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" 功能。
 {% endhint %}
 
 <br>
 
-**1. Select EtherNet/IP Master in the PCI slot settings and reboot the robot controller.**
+**1. 在 PCI 插槽设置中选择 EtherNet/IP 主机并重启机器人控制器。**
 
 ![[Figure 1.3.3.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_1.png>)
 
 <br>
 
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查所选协议的就绪状态。**
 
 <br>
 
 {% hint style="info" %}
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 要查看在 TP 上检查工业通信状态的过程，请参阅 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 <br>
@@ -620,109 +601,109 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**3. Select the EtherNet/IP scanner PCI device by using Sycon.net.**
+**3. 使用 Sycon.net 选择 EtherNet/IP 扫描器 PCI 设备。**
 
 ![[Figure 1.3.3.2-3 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_3.png>)
 ![[Figure 1.3.3.2-4 EtherNet/IP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_4.png>) 
 
 <br>
 
-**4. Scan the PCI device and apply the EtherNet/IP scanner.**
+**4. 扫描 PCI 设备并应用 EtherNet/IP 扫描器。**
 
 ![[Figure 1.3.3.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_5.png>) 
 
 <br>
 
-**5. Download the settings.**
+**5. 下载设置。**
 
 ![[Figure 1.3.3.2-6 EtherNet/IP Scanner Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_6.png>) 
 
 <br>
 
-**6. Prepare the adapter (slave) module to be connected to the EtherNet/IP scanner.**
-   * In this example, we use the M9289 EtherNet/IP adapter from Crevis.
-   * Please supply the system power and field power to activate the module.
+**6. 准备要连接到 EtherNet/IP 扫描器的适配器（从设备）模块。**
+   * 在本例中，我们使用 Crevis 的 M9289 EtherNet/IP 适配器。
+   * 请供电给系统电源和现场电源以启用该模块。
 
 ![[Figure 1.3.3.2-7 Crevis M9289]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_7.png>) 
 
 <br>
 
-**7. Set the IP address of the adapter (slave) for EtherNet/IP communication connection.**
+**7. 设置适配器（从设备）的 IP 地址以进行 EtherNet/IP 通信连接。**
 
 {% hint style="info" %}
-   - Setting an IP address using the dip switch.
+   - 使用拨码开关设置 IP 地址。
 {% endhint %}
 
 ![[Figure 1.3.3.2-8 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_8.png>) 
 
 {% hint style="info" %}
-   - How to set an IP address using BootpSvr.exe
+   - 如何使用 BootpSvr.exe 设置 IP 地址
 {% endhint %}
 
 <br>
 
-**8. (Bootp example) Set the slave device IP address using Bootp.**
-   * Change only DIP switch 9 to ON.
+**8. （Bootp 示例）使用 Bootp 设置从设备的 IP 地址。**
+   * 仅将 DIP 开关 9 更改为 ON。
 
 ![[Figure 1.3.3.2-9 Crevis M9289 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_9.png>)
 
-   * Connect the PC to the M9289 adapter LAN port.
+   * 将 PC 连接到 M9289 适配器的 LAN 端口。
 
 ![[Figure 1.3.3.2-10 Crevis M9289 LAN Port]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_10.png>)
 
 <br>
 
-**9. Execute BootpSvr.exe on the PC.**
-   * This program is provided by Crevis. (Download and install IO Guide Pro from the website.)
+**9. 在 PC 上执行 BootpSvr.exe。**
+   * 该程序由 Crevis 提供。 （从网站下载并安装 IO Guide Pro。）
 
 ![[Figure 1.3.3.2-11 Crevis IO Guide Pro]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_11.png>)
 
 ![[Figure 1.3.3.2-12 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_12.png>)
 
 {% hint style="info" %}
-   - With Start BootP being pressed, disconnect and reapply power to the M9289 module to reboot it.
+   - 按下“开始 BootP”时，请断开并重新供电给 M9289 模块以重新启动其。
 {% endhint %}
 
 ![[Figure 1.3.3.2-13 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_13.png>)
 
 <br>
 
-**10. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.**
+**10. 当适配器设备重新启动时，设备信息将出现在 BootpSvr.exe 程序中。**
 
 ![[Figure 1.3.3.2-14 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_14.png>)
 
 <br>
 
-**11. Select the device and set the IP.**
+**11. 选择设备并设置 IP。**
 
 ![[Figure 1.3.3.2-15 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_15.png>)![[Figure 1.3.3.2-16 Crevis Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_16.png>)
 
 <br>
 
-**12. After setting the IP, turn all DIP switches of the adapter to OFF and reboot the device.**
+**12. 设置 IP 后，将适配器的所有 DIP 开关都切换为 OFF 并重启设备。**
 
 {% hint style="info" %}
-   - Be sure to check the DIP switch status and whether the adapter is rebooted.
+   - 确保检查 DIP 开关状态及适配器是否已重新启动。
 {% endhint %}
 
 ![[Figure 1.3.3.2-17 Crevis DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_17.png>)
 
 <br>
 
-**13. Register the slave device EDS file.**
+**13. 注册从设备 EDS 文件。**
 
 {% hint style="info" %}
-   - An EDS file is required to use a device not registered in Sycon.net.
+   - 使用未在 Sycon.net 中注册的设备需要 EDS 文件。
 
-   - The EDS file for M9289 adapter can be downloaded from the Crevis website.
+   - M9289 适配器的 EDS 文件可以从 Crevis 网站下载。
 {% endhint %}
 
 ![[Figure 1.3.3.2-18 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_18.png>)
 
 {% hint style="info" %}
-   - Register the downloaded EDS file in Sycon.net.
+   - 在 Sycon.net 中注册下载的 EDS 文件。
 
-   - When registering an EDS file, please check the industrial communication protocol (EtherNet/IP).
+   - 注册 EDS 文件时，请检查工业通信协议（EtherNet/IP）。
 {% endhint %}
 
 ![[Figure 1.3.3.2-19 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_19.png>)![[Figure 1.3.3.2-20 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_20.png>)
@@ -732,28 +713,28 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**14. Network Scan**
+**14. 网络扫描**
 
 {% hint style="info" %}
-   - The EtherNet/IP scanner does not support the Network Scan function.
+   - EtherNet/IP 扫描器不支持网络扫描功能。
 {% endhint %}
 
 <br>
 
-**15. Configure the slave (adapter) device**
+**15. 配置从设备（适配器）**
 
 {% hint style="info" %}
-   - Drag the registered device and place it on the EtherNet/IP master bus line.
+   - 拖动注册的设备并将其放置在 EtherNet/IP 主站总线线中。
 {% endhint %}
 
 ![[Figure 1.3.3.2-23 Sycon.net Bus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-   - Double-click the device (adapter) to proceed with settings.
+   - 双击设备（适配器）以继续设置。
 
-   - Set the input/output byte count appropriate for the IO device installed in that device.
+   - 设置适合安装在该设备中的 IO 设备的输入/输出字节数。
 
-   - In this example, settings were made as follows.
+   - 在本例中，设置如下。
 {% endhint %}
 
 <br>
@@ -761,11 +742,11 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 ![[Figure 1.3.3.2-24 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-   - O -> T : Originator(Master) -> Target (Slave)
+   - O -> T : 原发器（主机） -> 目标（从设备）
 
-   - Output : EtherNet/IP Scanner  -> M9289
+   - 输出 : EtherNet/IP 扫描器  -> M9289
 
-   [Output Module]   
+   [输出模块]   
       (1) M225F (2Bytes)   
       **=> 2Bytes**   
 {% endhint %}
@@ -775,11 +756,11 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 ![[Figure 1.3.3.2-25 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-   - T -> O : Target (Slave) -> Originator(Master)
+   - T -> O : 目标（从设备） -> 原发器（主机）
 
-   - Input : M9289 -> EtherNet/IP Scanner
+   - 输入 : M9289 -> EtherNet/IP 扫描器
 
-   [Input Module]
+   [输入模块]
       (1) M7001  (1Byte)
       (2) M12DF  (2Bytes)
       **=> 3Bytes**
@@ -792,78 +773,77 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**16. Configure the master (scanner) device.**
-
+**16. 配置主设备（扫描器）。**
 
 {% hint style="info" %}
-   - Right-click the master device to disconnect it.
+   - 右键单击主设备以断开连接。
 {% endhint %}
 
 ![[Figure 1.3.3.2-26 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-   - Double-click the master device.
+   - 双击主设备。
 
-   - Set the master device IP address. 
+   - 设置主设备 IP 地址。 
 {% endhint %}
 
 ![[Figure 1.3.3.2-27 Adapter Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-   - Set the slave device IP address.
+   - 设置从设备 IP 地址。
 {% endhint %}
 
 ![[Figure 1.3.3.2-28 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-   - Set the slave device scan time. 
+   - 设置从设备扫描时间。 
 
-   - Please adjust the corresponding values to set an appropriate communication speed.
+   - 请调整相应的值以设置适当的通信速度。
 {% endhint %}
 
 ![[Figure 1.3.3.2-29 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-   - Check the slave device settings in the address table.
+   - 在地址表中检查从设备设置。
 
-   - Check the input/output IO byte count and start address.
+   - 检查输入/输出 IO 字节数和起始地址。
 {% endhint %}
 
 ![[Figure 1.3.3.2-30 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_30.png>)
 
 {% hint style="info" %}
-   [Quick Connect]
+   [快速连接]
 
-   - EtherNet/IP supports the Quick Connect function.
+   - EtherNet/IP 支持快速连接功能。
 {% endhint %}
 
 {% hint style="info" %}
-   - The following conditions should be met to use the Quick Connect function.
+   - 使用快速连接功能需满足以下条件。
 
-      (1) Products that support the Quick Connection function for the master and slaves are required  
-      (2) Quick Connect cannot be used when using Auto Negotiation  
-      (3) Quick Connect cannot be used when using Auto MDI-X  
-      (4) 100 Mbit/s, Full Duplex required  
+      (1) 必须有支持快速连接功能的主机和从设备  
+      (2) 使用自动协商时不能使用快速连接  
+      (3) 使用自动 MDI-X 时不能使用快速连接  
+      (4) 需要 100 Mbit/s, 全双工  
 {% endhint %}
 
 {% hint style="info" %}
-   - After completing the settings, proceed with downloading.
+   - 完成设置后，进行下载。
 {% endhint %}
 
 ![[Figure 1.3.3.2-31 Scanner Device Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_31.png>)
 
 <br>
 
-**17. Check the communication status**
+**17. 检查通信状态**
 
 {% hint style="info" %}
-   - Check the communication status in Sycon.net and TP.
+   - 在 Sycon.net 和 TP 中检查通信状态。
 
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 要查看在 TP 上检查工业通信状态的过程，请参阅 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 {% hint style="info" %}
-   - Double-click the connected master device to check the communication status.
+   - 双击连接的主设备以检查通信状态。
 {% endhint %}
 
 ![[Figure 1.3.3.2-32 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_32.png>)
@@ -872,20 +852,20 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 
 {% hint style="info" %}
-   - Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+   - 使用 Sycon.net 的诊断功能，您可以监控通信状态和输入/输出状态。
 {% endhint %}
 
 ![[Figure 1.3.3.2-34 Communication State]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/2-Master_setting/image_34.png>)
 
 <br>
 
-**18. Assign IO blocks after completing the communication settings.**
+**18. 完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+**完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**  
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/3-Specification-EtherNet-IP-Adapter.md)
-#### 1.3.3.3 EtherNet/IP Adapter Specifications
+#### 1.3.3.3 EtherNet/IP适配器规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -895,253 +875,252 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
+		<td>最大输入大小</td>
 		<td>240 bytes (TP) / 504 bytes (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
+		<td>最大输出大小</td>
 		<td>240 bytes (TP) / 504 bytes (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
-		<td>1 exlusive Owner <br>1 Listen Only <br>1 Input Only</td>
+		<td>IO连接</td>
+		<td>1个独占所有者 <br>1个仅接收 <br>1个仅输入</td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 1ms</td>
+		<td>IO更新周期</td>
+		<td>最小1ms</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>10 or 100 Mbit/s</td>
+		<td>通信速度</td>
+		<td>10或100 Mbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Tree, Line, Ring</td>
+		<td>拓扑</td>
+		<td>树形、线型、环形</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Supported</td>
+		<td>快速连接</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>DLR V2 (Device Level Ring)</td>
-		<td>Supported</td>
+		<td>DLR V2（设备级环）</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Additional Features</td>
-		<td>DHCP, BOOTP, ACD supported</td>
+		<td>附加功能</td>
+		<td>支持DHCP、BOOTP、ACD</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>Ethernet II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>10 or 100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>10或100 BASE-T以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Supported</td>
+		<td>自动协商</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Allowed</td>
+		<td>集线器</td>
+		<td>允许</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Allowed</td>
+		<td>交换机</td>
+		<td>允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>最少Cat5，STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大100m</td>
 	</tr>
 </tbody>
 </table>
 <br>
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Settings-EtherNet-IP-Adapter.md)
-#### 1.3.3.4 EtherNet/IP Adapter Settings
+#### 1.3.3.4 EtherNet/IP 适配器设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 程序，然后继续以下方法。
 
 <br>
 
 {% hint style="info" %}
-   **[EtherNet/IP Adapter EDS File Download]**
+   **[EtherNet/IP 适配器 EDS 文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - 请参考 "[6. 从设备描述文件](../../../6-slave-config-file.md)"。
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select an EtherNet/IP slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用 TP，在工业通信固件设置中选择 EtherNet/IP 从设备并重启机器人控制器。**
 
-![[Figure 1.3.3.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.3.4-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查当前通信协议准备状态。**
 
-![[Figure 1.3.3.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_2.png>) 
+![[Figure 1.3.3.4-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用 Sycon.net 设置的配置文件下载到相应的 PCI 插槽，TP 设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherNet/IP Slave]**
+**3. 触摸菜单以进入从设备设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI 从设备插槽设置 > EtherNet/IP 从设备]**
 
-![[Figure 1.3.3.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_3.png>) 
+![[Figure 1.3.3.4-3 从设备设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.3.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_4.png>) 
-
-<br>
-
-**4. Description of each item**
-
-{% hint style="info" %}
-   [IP Setting]
-
-   - Fixed IP: User sets the IP address, subnet mask, and gateway information.
-
-   - Dynamic Allocation (DHCP): An IP address is assigned from the DHCP server.
-{% endhint %}
-
-{% hint style="info" %}
-   [Input Upon Communication Error (Action in Bus Error)]
-
-   - Clear: Initializes all inputs to 0 when a communication error occurs.
-
-   - Hold: Maintains the last valid input value when a communication error occurs.
-{% endhint %}
-
-{% hint style="info" %}
-   [Communication Error Allowable Time (Error Allowed Time)]
-
-   - If a communication error persists for the specified allowed time, a fieldbus error signal and alarm are output.
-{% endhint %}
-
-{% hint style="info" %}
-   [Input Byte Count (Input Byte)]
-
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
-
-   - O -> T: Originator(Master) -> Target (Slave)
-{% endhint %}
-
-{% hint style="info" %}
-   [Output Byte Count (Output Byte)]
-
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
-
-   - T -> O: Target (Slave) -> Originator (Master)
-{% endhint %}
-
-{% hint style="info" %}
-   [Run / Idle Header]
-
-   - The CIFX-50 RE EtherNet/IP Adapter applied to the controller uses 32-bit Run/Idle header when exchanging IO with the scanner (default).
-
-   - Please set whether to use the input and output 32-bit Run/Idle Header appropriately according to the scanner specifications.
-{% endhint %}
+![[Figure 1.3.3.4-4 从设备设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_4.png>) 
 
 <br>
 
+**4. 每个项目的描述**
+
 {% hint style="info" %}
-   [Quick Connect]
+   [IP 设置]
 
-   - EtherNet/IP supports the Quick Connect function.
+   - 固定 IP: 用户设置 IP 地址、子网掩码和网关信息。
 
-   - If the Quick Connect function is required, please set the EtherNet/IP Adapter using Sycon.net.
+   - 动态分配 (DHCP): 从 DHCP 服务器分配一个 IP 地址。
+{% endhint %}
 
-      (1) Products that support the Quick Connection function for the master and slaves are required  
-      (2) Quick Connect cannot be used when using Auto Negotiation  
-      (3) Quick Connect cannot be used when using Auto MDI-X  
-      (4) 100 Mbit/s, Full Duplex required  
+{% hint style="info" %}
+   [通信错误时输入 (总线错误下的操作)]
+
+   - 清除: 当发生通信错误时，将所有输入初始化为 0。
+
+   - 保持: 当发生通信错误时，保持最后有效的输入值。
+{% endhint %}
+
+{% hint style="info" %}
+   [通信错误允许时间 (允许的错误时间)]
+
+   - 如果通信错误持续超过指定的允许时间，将输出现场总线错误信号和警报。
+{% endhint %}
+
+{% hint style="info" %}
+   [输入字节计数 (输入字节)]
+
+   - 输入字节计数: 设置从主设备 -> 从设备的数据输入大小。
+
+   - O -> T: 发起者(主设备) -> 目标 (从设备)
+{% endhint %}
+
+{% hint style="info" %}
+   [输出字节计数 (输出字节)]
+
+   - 输出字节计数: 设置从从设备 -> 主设备的数据输出大小。
+
+   - T -> O: 目标 (从设备) -> 发起者 (主设备)
+{% endhint %}
+
+{% hint style="info" %}
+   [运行 / 待机标头]
+
+   - 应用于控制器的 CIFX-50 RE EtherNet/IP 适配器在与扫描仪交换 IO 时使用 32 位运行/待机标头 (默认)。
+
+   - 请根据扫描仪规格适当设置是否使用输入和输出 32 位运行/待机标头。
 {% endhint %}
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+{% hint style="info" %}
+   [快速连接]
 
-For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - EtherNet/IP 支持快速连接功能。
 
-![[Figure 1.3.3.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_5.png>)
+   - 如果需要快速连接功能，请使用 Sycon.net 设置 EtherNet/IP 适配器。
+
+      (1) 需要支持主设备和从设备的快速连接功能的产品  
+      (2) 使用自动协商时无法使用快速连接  
+      (3) 使用自动 MDI-X 时无法使用快速连接  
+      (4) 需要 100 Mbit/s，双工  
+{% endhint %}
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**5. 完成设置后，请按照以下程序检查通信状态。**
+
+有关在 TP 上检查工业通信状态的程序，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
+
+![[Figure 1.3.3.4-5 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_5.png>)
+
+<br>
+
+**6. 在完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error-EtherNet-IP.md)
-#### 1.3.3.5 EtherNet/IP Error Handling
+#### 1.3.3.5 EtherNet/IP 错误处理
 
-This is a method for resolving major errors that may occur during EtherNet/IP settings.
+这是解决在 EtherNet/IP 设置过程中可能发生的重大错误的方法。
 
-Errors can be checked using the diagnosis function of Sycon.Net.
-
-<br>
-
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+可以使用 Sycon.Net 的诊断功能检查错误。
 
 <br>
 
-**1. Communication cable disconnection error**
+请参考 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
+
+<br>
+
+**1. 通信电缆断开错误**
 
 {% hint style="info" %}
-   - Please check the connection status of the LAN cable.
+   - 请检查 LAN 电缆的连接状态。
 
-   - Check if the adapter device power is on.
+   - 检查适配器设备的电源是否开启。
 {% endhint %}
 
 ![[Figure 1.3.3.5-1 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_1.png>) 
@@ -1149,55 +1128,51 @@ Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci
 
 <br>
 
-**2. IP Address setting error**
+**2. IP 地址设置错误**
 
 {% hint style="info" %}
-   - Please check the IP addresses of the master and slave devices.
+   - 请检查主设备和从设备的 IP 地址。
 
-   - An error occurs if the set IP address of the adapter device differs from the value entered in Sycon.net.
+   - 如果适配器设备的设置 IP 地址与 Sycon.net 中输入的值不同，则会发生错误。
 
 {% endhint %}
 
 ![[Figure 1.3.3.5-2 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_2.png>) 
 
 ![[Figure 1.3.3.5-3 Communication Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/5-Error/image_3.png>) 
-
-
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/README.md)
 ### 1.3.4 PROFINET IO
 
-This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and how to set them. 
+本章节描述了PROFINET IO主控（控制器）和从设备（设备）的特性以及如何设置它们。
 
 <br>
 
-**PROFINET IO Overview**
+**PROFINET IO 概述**
 
-PROFINET IO is an Ethernet-based open industrial communication protocol that has progressively evolved from PROFIBUS-DP and industrial Ethernet.
+PROFINET IO是一种基于以太网的开放工业通信协议，逐步从PROFIBUS-DP和工业以太网演变而来。
 
-![[Figure 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>) 
-
-<br>
-
-It follows the Provider-Consumer model for data exchange and can be classified into the following three classes of products.
-
-**IO Controller Class**
-   * Products that correspond to existing PROFIBUS-DP class 1 masters and are types of products in which automation programs such PLCs are running.
-
-   * An IO controller supplies output data to the IO devices set to it and consumes the input data from them.
+![[Figure 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>)
 
 <br>
 
-**IO Device Class**
-  * Products that correspond to existing PROFIBUS-DP slaves and are connected to IO controllers such as PLCs through PROFINET IO.
+它遵循提供者-消费者模型进行数据交换，并可以分为以下三类产品。
 
-  * An IO device supplies output data to the IO controller, provides input data, and consumes output data.
+**IO 控制器类**
+   * 与现有PROFIBUS-DP类1主控对应的产品，这些产品是运行自动化程序如PLC的类型。
+
+   * IO 控制器向设置的IO设备提供输出数据，并从它们那里消费输入数据。
 
 <br>
 
-**IO Supervisor Class**
-   * Products that correspond to existing PROFIBUS-DP class 2 masters and include those programming devices, PCs, HMIs that are designed for network configuration and diagnosis.
+**IO 设备类**
+  * 与现有PROFIBUS-DP从设备对应的产品，通过PROFINET IO与PLC等IO控制器连接。
 
+  * IO设备向IO控制器提供输出数据，提供输入数据，并消费输出数据。
+
+<br>
+
+**IO 监督类**
+   * 与现有PROFIBUS-DP类2主控对应的产品，包括用于网络配置和诊断的编程设备、PC、HMI。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/1-Specification-PROFINET-IO-Controller.md)
 #### 1.3.4.1 PROFINET IO Controller Specifications
 
@@ -1209,150 +1184,150 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Maximum Connectable Slave Count</td>
+		<td>最大可连接从设备数量</td>
 		<td>128</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size</td>
+		<td>最大输入大小</td>
 		<td>1200 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
+		<td>最大输出大小</td>
 		<td>1200 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size (1 slave)</td>
+		<td>最大输入大小（1 从设备）</td>
 		<td>1024 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size (1 slave)</td>
+		<td>最大输出大小（1 从设备）</td>
 		<td>1024 bytes</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO 连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 1ms</td>
+		<td>IO 更新周期</td>
+		<td>最小 1ms</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>100 Mbit/s (Full-duplex)</td>
+		<td>通信速度</td>
+		<td>100 Mbit/s (全双工)</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Tree, Line</td>
+		<td>拓扑</td>
+		<td>树型，线型</td>
 	</tr>
     <tr>
-		<td>Network Slave Scan</td>
-		<td>Supported</td>
+		<td>网络从设备扫描</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
 		<td>DCP</td>
-		<td>Supported</td>
+		<td>支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>Ethernet II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
+		<td>接口类型</td>
 		<td>100 BASE-T Ethernet</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Not supported</td>
+		<td>自动协商</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Forbidden</td>
+		<td>集线器</td>
+		<td>禁止</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Only allowed if the switch supports, Priority Tagging and LLDP</td>
+		<td>交换机</td>
+		<td>仅在交换机支持时允许，优先级标记和LLDP</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>至少 Cat5, STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大 100m</td>
 	</tr>
 </tbody>
 </table>
 <br>
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Settings-PROFINET-IO-Controller.md)
-#### 1.3.4.2 PROFINET IO Controller Settings
+#### 1.3.4.2 PROFINET IO 控制器设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[1.3.2 SYCON.NET Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 和 "[1.3.2 SYCON.NET 设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 程序，然后继续以下方法。
 
 <br>
 
 {% hint style="info" %}
-   - When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""[1.3.2 SYCON.NET Help](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" function.
+   - 当使用 SYCON.net 时，如果手册中的说明不足，请参考 "[1.3.2 SYCON.NET 帮助](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" 功能。
 {% endhint %}
 
 <br>
 
-**1. Select the PROFINET IO master in the PCI slot settings and reboot the robot controller.**
+**1. 在 PCI 插槽设置中选择 PROFINET IO 主控，并重启机器人控制器。**
 
 ![[Figure 1.3.4.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_1.png>) 
 
 <br>
 
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+**2. 检查工业通信监控菜单中所选协议的准备状态。**
 
 <br>
 
 {% hint style="info" %}
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 有关在 TP 上检查工业通信状态的程序，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 <br>
@@ -1361,69 +1336,69 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**3. Select the PROFINET IO controller PCI device by using Sycon.net.**
+**3. 使用 Sycon.net 选择 PROFINET IO 控制器 PCI 设备。**
 
 ![[Figure 1.3.4.2-3 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_3.png>)
 ![[Figure 1.3.4.2-4 PROFINET IO Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_4.png>) 
 
 <br>
 
-**4. Scan the PCI device and apply the PROFINET IO controller.**
+**4. 扫描 PCI 设备并应用 PROFINET IO 控制器。**
 
 ![[Figure 1.3.4.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_5.png>) 
 
 <br>
 
-**5. Download the settings.**
+**5. 下载设置。**
 
 ![[Figure 1.3.4.2-6 PROFINET IO Controller Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_6.png>) 
 
 <br>
 
-**6. Prepare the device (slave) module to be connected to the PROFINET IO controller.**
-   * In this example, we use the M9287 PROFINET IO device from Crevis.
-   * Please supply the system power and field power to activate the module.
+**6. 准备要连接到 PROFINET IO 控制器的设备（从设备）模块。**
+   * 在此示例中，我们使用 Crevis 的 M9287 PROFINET IO 设备。
+   * 请提供系统电源和现场电源以激活模块。
 
 ![[Figure 1.3.4.2-7 Crevis M9287]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_7.png>) 
 
 <br>
 
 {% hint style="info" %}
-   - How to set the PROFINET IO device name using the DIP switch
+   - 如何使用 DIP 开关设置 PROFINET IO 设备名称
 
-   - M9287-XX: Number set using the DIP switch
+   - M9287-XX: 使用 DIP 开关设置的编号
 
-   - In this example, the name was set to M9287-01 using DIP switch 1.
+   - 在此示例中，名称使用 DIP 开关 1 设置为 M9287-01。
 {% endhint %}
 
 <br>
 
-**7. (DIP switch use example) Set the slave device name using the DIP Switch.**
-   * Change only DIP Switch 1 to ON.
+**7. （DIP 开关使用示例）使用 DIP 开关设置从设备名称。**
+   * 仅将 DIP 开关 1 更改为开启。
 
 
 ![[Figure 1.3.4.2-8 Crevis M9287 Dip Swicth]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-   - Please reboot the device after setting the DIP switch.
+   - 设置 DIP 开关后，请重新启动设备。
 {% endhint %}
 
 <br>
 
-**8. Register the slave device GSDML file.**
+**8. 注册从设备 GSDML 文件。**
 
 {% hint style="info" %}
-   - A GSDML file is required to use a device not registered in Sycon.net.
+   - 使用未在 Sycon.net 中注册的设备需要 GSDML 文件。
 
-   - The GSDML file for the M9287 device can be downloaded from the Crevis website.
+   - M9287 设备的 GSDML 文件可以从 Crevis 网站下载。
 {% endhint %}
 
 ![[Figure 1.3.4.2-9 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_9.png>)
 
 {% hint style="info" %}
-   - Register the downloaded GSDML file in Sycon.net.
+   - 在 Sycon.net 中注册下载的 GSDML 文件。
 
-   - When registering a GSDML file, please check the industrial communication Protocol (PROFINET IO).
+   - 注册 GSDML 文件时，请检查工业通信协议（PROFINET IO）。
 {% endhint %}
 
 ![[Figure 1.3.4.2-10 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_10.png>)![[Figure 1.3.4.2-11 Crevis GSDML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_11.png>)
@@ -1434,26 +1409,26 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**9. Network Scan**
+**9. 网络扫描**
 
 {% hint style="info" %}
-   - The PROFINET IO controller supports the Network Scan function.
+   - PROFINET IO 控制器支持网络扫描功能。
 {% endhint %}
 
 {% hint style="info" %}
-   - Right-click the PROFINET IO master device and click Network Scan.
+   - 右键单击 PROFINET IO 主设备并点击网络扫描。
 {% endhint %}
 
 ![[Figure 1.3.4.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_14.png>)
 
 {% hint style="warning" %}
-   - If there is no GSDML file registered, the slave information will appear when the Network Scan function is performed, but registration is not possible.
+   - 如果没有注册 GSDML 文件，则在执行网络扫描功能时会出现从设备信息，但无法注册。
 {% endhint %}
 
 ![[Figure 1.3.4.2-15 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-   - If a GSDML file is normally registered, a slave device can be added using the Network Scan function.
+   - 如果 GSDML 文件正常注册，可以使用网络扫描功能添加从设备。
 {% endhint %}
 
 ![[Figure 1.3.4.2-16 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_16.png>)
@@ -1464,26 +1439,26 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**10. Configure the slave (device).**
+**10. 配置从设备。**
 
 {% hint style="info" %}
-   - Click Disconnect on the master device to configure the slave device.
+   - 点击主设备上的断开以配置从设备。
 {% endhint %}
 
 ![[Figure 1.3.4.2-19 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-   - Double-click the slave device.
+   - 双击从设备。
 {% endhint %}
 
 ![[Figure 1.3.4.2-20 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-   - Add a slot connected to M9287 to set the PROFINET IO slave (device).
+   - 添加连接到 M9287 的插槽以设置 PROFINET IO 从设备。
 
-   - Slot 1 : M7001  
-   - Slot 2 : M12DF  
-   - Slot 3 : M225F  
+   - 插槽 1 : M7001  
+   - 插槽 2 : M12DF  
+   - 插槽 3 : M225F  
 {% endhint %}
 
 ![[Figure 1.3.4.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_21.png>)
@@ -1492,20 +1467,20 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**11. Configure the master (controller) device**
+**11. 配置主设备**
 
 {% hint style="info" %}
-   - Double-click the Master device.
+   - 双击主设备。
 {% endhint %}
 
 ![[Figure 1.3.4.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-   - Set the IP addresses of the master and slave devices.
+   - 设置主设备和从设备的 IP 地址。
 
-   - The slave IP address of the PROFINET IO Device is to be set from the master.
+   - PROFINET IO 设备的从设备 IP 地址由主设备设置。
 
-   - Please ensure that the IP addresses of the master and slave do not overlap within the same band.
+   - 请确保主设备和从设备的 IP 地址在同一段内不重叠。
 {% endhint %}
 
 ![[Figure 1.3.4.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_24.png>)
@@ -1513,41 +1488,41 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 ![[Figure 1.3.4.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_25.png>)
 
 {% hint style="info" %}
-   - Check from the master device if the slot information of the slave device is correct.
+   - 从主设备检查从设备的插槽信息是否正确。
 {% endhint %}
 
 ![[Figure 1.3.4.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-   - Check the assigned IO and start address for each slave slot in the address table.
+   - 在地址表中检查每个从设备插槽的分配 IO 和起始地址。
 {% endhint %}
 
 ![[Figure 1.3.4.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_27.png>)
 
 {% hint style="info" %}
-   - Set the IO communication speed for the PROFINET IO.
+   - 设置 PROFINET IO 的 IO 通信速度。
 {% endhint %}
 
 ![[Figure 1.3.4.2-28 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_28.png>)
 
 {% hint style="info" %}
-   - After completing settings, proceed with downloading.
+   - 设置完成后，继续下载。
 {% endhint %}
 
 ![[Figure 1.3.4.2-29 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_29.png>)
 
 <br>
 
-**12. Check the communication status.**
+**12. 检查通信状态。**
 
 {% hint style="info" %}
-   - Check the communication status in Sycon.net and TP.
+   - 在 Sycon.net 和 TP 中检查通信状态。
 
-   - For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 有关在 TP 上检查工业通信状态的程序，请参阅 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 {% hint style="info" %}
-   - Double-click the connected master device to check the communication status.
+   - 双击连接的主设备以检查通信状态。
 {% endhint %}
 
 ![[Figure 1.3.4.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_30.png>)
@@ -1555,20 +1530,20 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 ![[Figure 1.3.4.2-31 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_31.png>)
 
 {% hint style="info" %}
-   - Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+   - 使用 Sycon.net 的诊断功能，您可以监控通信状态和输入/输出状态。
 {% endhint %}
 
 ![[Figure 1.3.4.2-32 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/2-Master_setting/image_32.png>)
 
 <br>
 
-**13. Assign IO blocks after completing the settings.**
+**13. 完成设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参阅 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/3-Specification-PROFINET-IO-Device.md)
-#### 1.3.4.3 PROFINET IO Device Specifications
+#### 1.3.4.3 PROFINET IO设备规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1578,249 +1553,242 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>256 bytes (TP) / 1024 bytes (Sycon.net)</td>
+		<td>最大输入大小</td>
+		<td>256字节 (TP) / 1024字节 (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>256 bytes (TP) / 1024 bytes (Sycon.net)</td>
+		<td>最大输出大小</td>
+		<td>256字节 (TP) / 1024字节 (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 1ms</td>
+		<td>IO更新周期</td>
+		<td>最小1ms</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>100 Mbit/s (Full-duplex)</td>
+		<td>通信速度</td>
+		<td>100 Mbit/s (全双工)</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Tree, Line</td>
+		<td>拓扑</td>
+		<td>树形、线型</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
 		<td>DCP</td>
-		<td>Supported</td>
+		<td>支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>Ethernet II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
+		<td>接口类型</td>
 		<td>100 BASE-T Ethernet</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Not supported</td>
+		<td>自动协商</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Forbidden</td>
+		<td>集线器</td>
+		<td>禁止</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Only allowed if the switch supports, Priority Tagging and LLDP</td>
+		<td>交换机</td>
+		<td>仅在交换机支持优先级标记和LLDP时允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>最小Cat5，STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大100m</td>
 	</tr>
 </tbody>
 </table>
 <br>
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Settings-PROFINET-IO-Device.md)
-#### 1.3.4.4 PROFINET IO Device Settings
+#### 1.3.4.4 PROFINET IO设备设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循"[1.3.1 CIFX PCI插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)"程序，然后继续以下方法。
 
 <br>
 
 {% hint style="info" %}
-   **[PROFINET IO Device GSDML File Download]**
+   **[PROFINET IO设备GSDML文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - 请参阅"[6. 从设备描述文件](../../../6-slave-config-file.md)"。
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select a PROFINET IO slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用TP，在工业通信固件设置中选择PROFINET IO从设备并重启机器人控制器。**
 
-![[Figure 1.3.4.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>)
+![[Figure 1.3.4.4-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>)
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查当前通信协议的就绪状态。**
 
-![[Figure 1.3.4.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_2.png>) 
+![[Figure 1.3.4.4-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用Sycon.net设置的配置文件下载到相应的PCI插槽，则TP设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFINET IO Slave]**
+**3. 点击菜单进入从设备设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI从设备插槽设置 > PROFINET IO从设备]**
 
-![[Figure 1.3.4.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_3.png>) 
+![[Figure 1.3.4.4-3 从设备设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.4.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_4.png>) 
-
-<br>
-
-**4. Description of each item**
-
-{% hint style="info" %}
-   [Station Name]
-
-   - The PROFINET IO identifies a slave through the station name.
-
-   - Naming Rule
-      - Device names connected by PROFINET IO cannot be duplicated.  
-      - A name can be set up to 240 characters.  
-      - Special characters "." and "-" can be used.  
-      - Lowercase English letters and numbers can be used.  
-      - Names should start and end with lowercase English letters or numbers.  
-{% endhint %}
-
-{% hint style="info" %}
-   [Input Byte Count (Input Byte)]
-
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
-{% endhint %}
-
-{% hint style="info" %}
-   [Output Byte Count (Output Byte)]
-
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
-{% endhint %}
+![[Figure 1.3.4.4-4 从设备设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_4.png>) 
 
 <br>
 
+**4. 各项的描述**
+
 {% hint style="info" %}
-   [When Setting a Slot from the Master]
+   [站名]
 
-   - Master Input (32byte)  <--  Slave Output (32bytes)
+   - PROFINET IO通过站名识别从设备。
 
-   - Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
+   - 命名规则
+      - 通过PROFINET IO连接的设备名称不能重复。  
+      - 名称可设置为最多240个字符。  
+      - 可以使用特殊字符"."和"-"。  
+      - 可以使用小写字母和数字。  
+      - 名称应以小写字母或数字开头和结尾。  
+{% endhint %}
 
-   - 4, 8, 16, 32, and 64 Bytes -> Specify the slot matching each byte count  
-   - 128 and 256 Bytes -> Specify multiple 64-byte slots (2, 4)
+{% hint style="info" %}
+   [输入字节计数（输入字节）]
 
-   - The input slot is located before the output slot.
+   - 输入字节计数：设置从主设备->从设备的数据输入大小。
+{% endhint %}
+
+{% hint style="info" %}
+   [输出字节计数（输出字节）]
+
+   - 输出字节计数：设置从设备->主设备的数据输出大小。
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.4.4-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_5.png>) 
+{% hint style="info" %}
+   [从主设备设置插槽时]
 
+   - 主设备输入（32字节）  <--  从设备输出（32字节）
+
+   - 主设备输出（256字节 = 64字节 * 4）  -->  从设备输入（256字节）
+
+   - 4, 8, 16, 32和64字节 -> 指定与每个字节计数匹配的插槽  
+   - 128和256字节 -> 指定多个64字节插槽（2, 4）
+
+   - 输入插槽位于输出插槽之前。
+{% endhint %}
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
-
-For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
-
-![[Figure 1.3.4.4-6 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_6.png>)
+![[Figure 1.3.4.4-5 从设备设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_5.png>) 
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**5. 完成设置后，按照以下程序检查通信状态。**
+
+检查TP上工业通信状态的程序，请参阅("[1.4 CIFX PCI通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
+
+![[Figure 1.3.4.4-6 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_6.png>)
+
+<br>
+
+**6. 完成通信设置后，分配IO块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，通过分配IO块可以使用输入/输出信号。请参阅("[5. 工业通信IO读写](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/5-Error-PROFINET-IO.md)
-#### 1.3.4.5 PROFINET IO Error Handling
+#### 1.3.4.5 PROFINET IO 错误处理
 
 <br>
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
-
-
-
-
+请参考 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/README.md)
 ### 1.3.5 EtherCAT
 
-This chapter describes the characteristics of EtherCAT master and slave and how to set them.
+本章描述了EtherCAT主设备和从设备的特性以及如何进行设置。
 
 <br>
 
-**EtherCAT Overview**
+**EtherCAT概述**
 
-EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
+EtherCAT是一种基于以太网的现场总线系统，由Beckhoff Automation开发。
 
-The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization. 
-
-<br>
-
-**EtherCAT Master**
-   * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
+EtherCAT协议提供非常快速的IO数据更新和精确的同步功能。
 
 <br>
 
-**EtherCAT Slave**
-   * Products that correspond to existing fieldbus slaves and are connected to the EtherCAT master device.
+**EtherCAT主设备**
+   * 与现有的现场总线主设备相对应的产品，并可以请求EtherCAT从设备执行I/O数据连接。
 
+<br>
+
+**EtherCAT从设备**
+   * 与现有的现场总线从设备相对应的产品，并与EtherCAT主设备连接。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/1-Specification-EtherCAT-Master.md)
-#### 1.3.5.1 EtherCAT Master Specifications
+#### 1.3.5.1 EtherCAT 主站规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -1830,125 +1798,125 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Maximum Connectable Slave Count</td>
+		<td>最大可连接从设备数量</td>
 		<td>200</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>1200 bytes</td>
+		<td>最大输入大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>1200 bytes</td>
+		<td>最大输出大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size (1 slave)</td>
-		<td>256 bytes</td>
+		<td>最大输入大小 (1 个从设备)</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size (1 slave)</td>
-		<td>256 bytes</td>
+		<td>最大输出大小 (1 个从设备)</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO 连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 250us (1ms Recommended)</td>
+		<td>IO 更新周期</td>
+		<td>最小 250us (推荐 1ms)</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>100 Mbit/s (Full-duplex)</td>
+		<td>通信速度</td>
+		<td>100 Mbit/s (全双工)</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Line, Ring</td>
+		<td>拓扑</td>
+		<td>线，环</td>
 	</tr>
     <tr>
-		<td>Network Slave Scan</td>
-		<td>Supported</td>
+		<td>网络从设备扫描</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Redendance</td>
-		<td>Supported (Cannot be applied simultaneously with synchronization)</td>
+		<td>冗余</td>
+		<td>支持（无法与同步同时应用）</td>
 	</tr>
     <tr>
-		<td>Synchronization</td>
-		<td>DC (Distributed Clocks)</td>
+		<td>同步</td>
+		<td>DC (分布时钟)</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>Ethernet II, IEEE 802.3</td>
+		<td>数据传输层</td>
+		<td>以太网 II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>100 BASE-T 以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Not supported</td>
+		<td>自动协商</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Forbidden</td>
+		<td>集线器</td>
+		<td>禁止</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Only allowed between Master and 1st Slave</td>
+		<td>交换机</td>
+		<td>仅允许在主站和第一个从设备之间</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>至少 Cat5, STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最长 100m</td>
 	</tr>
 </tbody>
 </table>
@@ -1961,23 +1929,23 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 <br>
 
 {% hint style="info" %}
-   - When using SYCON.net, if there are insufficient explanations in the manual, please refer to the "[1.3.2 SYCON.NET Help](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" function.
+   - 当使用 SYCON.net 时，如果手册中的解释不够，请参考 "[1.3.2 SYCON.NET 帮助](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" 功能。
 {% endhint %}
 
 <br>
 
-**1. Select the EtherCAT master in the PCI slot settings and reboot the robot controller.**
+**1. 在 PCI 槽设置中选择 EtherCAT 主控，并重启机器人控制器。**
 
 ![[Figure 1.3.5.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>) 
 
 <br>
 
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查所选协议的就绪状态。**
 
 <br>
 
 {% hint style="info" %}
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 要检查 TP 上的工业通信状态的程序，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 <br>
@@ -1986,55 +1954,55 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**3. Select the EtherCAT master PCI device by using Sycon.net.**
+**3. 使用 Sycon.net 选择 EtherCAT 主控 PCI 设备。**
 
 ![[Figure 1.3.5.2-3 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_3.png>)
 ![[Figure 1.3.5.2-4 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_4.png>) 
 
 <br>
 
-**4. Scan the PCI device and apply the EtherCAT master.**
+**4. 扫描 PCI 设备并应用 EtherCAT 主控。**
 
 ![[Figure 1.3.5.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_5.png>) 
 
 <br>
 
-**5. Download the settings.**
+**5. 下载设置。**
 
 ![[Figure 1.3.5.2-6 EtherCAT Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_6.png>) 
 
 <br>
 
-**6. Prepare the slave module to be connected to the EtherCAT master.**
-   * In this example, we use the M9386 EtherCAT slave from Crevis.
-   * Please supply the system power and field power to activate the module.
+**6. 准备要连接到 EtherCAT 主控的从模块。**
+   * 在此示例中，我们使用 Crevis 的 M9386 EtherCAT 从设备。
+   * 请提供系统电源和现场电源以激活模块。
 
 ![[Figure 1.3.5.2-7 Crevis M9386]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_7.png>) 
 
 <br>
 
-**7. Slave device station address**
+**7. 从设备站地址**
 
 {% hint style="info" %}
-   - The station address of the EtherCAT slave device is set by the master.
+   - EtherCAT 从设备的站地址由主控设置。
 {% endhint %}
 
 <br>
 
-**8. Register the slave device XML file.**
+**8. 注册从设备 XML 文件。**
 
 {% hint style="info" %}
-   - An XML file is required to use a device not registered in Sycon.net.
+   - 要使用未在 Sycon.net 注册的设备，需要一个 XML 文件。
 
-   - The XML file for the M9386 device can be downloaded from the Crevis website.
+   - M9386 设备的 XML 文件可以从 Crevis 网站下载。
 {% endhint %}
 
 ![[Figure 1.3.5.2-8 Crevis XML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_8.png>)
 
 {% hint style="info" %}
-   - Register the downloaded XML file in Sycon.net.
+   - 在 Sycon.net 中注册下载的 XML 文件。
 
-   - When registering an XML File, please check the industrial communication Protocol (EtherCAT).
+   - 注册 XML 文件时，请检查工业通信协议 (EtherCAT)。
 {% endhint %}
 
 ![[Figure 1.3.5.2-9 Crevis XML File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_9.png>)
@@ -2054,56 +2022,56 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**9. Network Scan**
+**9. 网络扫描**
 
 {% hint style="warning" %}
-   **For EtherCAT, the available cable connections and ports are specified.**
+   **对于 EtherCAT，指定了可用的电缆连接和端口。**
 
-   **For smooth communication connection, be sure to check ("[1.3.5.5 EtherCAT Cable Wiring](../5-EtherCAT/5-EtherCAT-Topology.md)").**
+   **为了顺利的通信连接，请务必检查 ("[1.3.5.5 EtherCAT 电缆接线](../5-EtherCAT/5-EtherCAT-Topology.md)")。**
 {% endhint %}
 
 {% hint style="info" %}
-   - The EtherCAT master supports the Network Scan function.
+   - EtherCAT 主控支持网络扫描功能。
 {% endhint %}
 
 {% hint style="info" %}
-   - Right-click the EtherCAT master device and click Network Scan.
+   - 右键单击 EtherCAT 主控设备并单击网络扫描。
 {% endhint %}
 
 ![[Figure 1.3.5.2-13 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_13.png>)
 
 {% hint style="warning" %}
-   - If there is no XML file registered, the slave information will appear when the Network Scan function is performed, but registration is not possible.
+   - 如果没有注册 XML 文件，进行网络扫描功能时会显示从设备信息，但无法注册。
 {% endhint %}
 
 {% hint style="info" %}
-   - If an XML file is normally registered, a slave device can be added using the Network Scan function.
+   - 如果 XML 文件正常注册，可以使用网络扫描功能添加从设备。
 {% endhint %}
 
 ![[Figure 1.3.5.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_14.png>)
 
 <br>
 
-**10. Configure the slave device.**
+**10. 配置从设备。**
 
 {% hint style="info" %}
-   - Click Disconnect on the master device to configure the slave device.
+   - 单击主控设备上的断开连接以配置从设备。
 {% endhint %}
 
 ![[Figure 1.3.5.2-15 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-   - Double-click the slave device.
+   - 双击从设备。
 {% endhint %}
 
 ![[Figure 1.3.5.2-16 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_16.png>)
 
 {% hint style="info" %}
-   - Add a slot connected to M9386 to set the EtherCAT slave.
+   - 添加一个连接到 M9386 的插槽以设置 EtherCAT 从设备。
 
-   - Slot 1 : M7001  
-   - Slot 2 : M12DF  
-   - Slot 3 : M225F  
+   - 插槽 1 : M7001  
+   - 插槽 2 : M12DF  
+   - 插槽 3 : M225F  
 {% endhint %}
 
 ![[Figure 1.3.5.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_17.png>)
@@ -2113,55 +2081,55 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**11. Configure the master device.**
+**11. 配置主设备。**
 
 {% hint style="info" %}
-   - Double-click the Master device.
+   - 双击主设备。
 {% endhint %}
 
 ![[Figure 1.3.5.2-19 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-   - Synchronization: Select Freerun/DC (Distributed Clocks).
+   - 同步：选择自由运行/DC（分布式时钟）。
 
-   - Whether to use Redundancy (cannot be used together with Distributed Clocks)
+   - 是否使用冗余（无法和分布式时钟一起使用）
 
-   - Bus Cycle Time: At least 250 us is supported. (1 ms or more is recommended.)
+   - 总线周期时间：至少支持 250 us。（建议 1 ms 或更多。）
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - You can set the station address for each slave.
+   - 您可以为每个从设备设置站地址。
 {% endhint %}
 
 ![[Figure 1.3.5.2-20 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-   - Check the assigned IO and start address for each slave slot in the address table.
+   - 在地址表中检查每个从设备插槽分配的 IO 和起始地址。
 {% endhint %}
 
 ![[Figure 1.3.5.2-21 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_21.png>)
 
 
 {% hint style="info" %}
-   - After completing settings, proceed with downloading.
+   - 完成设置后，继续下载。
 {% endhint %}
 
 ![[Figure 1.3.5.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_22.png>)
 
 <br>
 
-**12. Check the communication status.**
+**12. 检查通信状态。**
 
 {% hint style="info" %}
-   - Check the communication status in Sycon.net and TP.
+   - 在 Sycon.net 和 TP 中检查通信状态。
 
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 要检查 TP 上的工业通信状态的程序，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 {% hint style="info" %}
-   - Double-click the connected master device to check the communication status.
+   - 双击连接的主设备以检查通信状态。
 {% endhint %}
 
 ![[Figure 1.3.5.2-23 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_23.png>)
@@ -2169,20 +2137,20 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 ![[Figure 1.3.5.2-24 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_24.png>)
 
 {% hint style="info" %}
-   - Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+   - 使用 Sycon.net 的诊断功能，您可以监控通信状态和输入/输出状态。
 {% endhint %}
 
 ![[Figure 1.3.5.2-25 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_25.png>)
 
 <br>
 
-**13. Assign IO blocks after completing the settings.**
+**13. 完成设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/3-Specification-EtherCAT-Slave.md)
-#### 1.3.5.3 EtherCAT Slave Specifications
+#### 1.3.5.3 EtherCAT 从设备规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2192,160 +2160,158 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特征**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>256 bytes</td>
+		<td>最大输入大小</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>256 bytes</td>
+		<td>最大输出大小</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO 连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 250us (1ms Recommended)</td>
+		<td>IO 更新周期</td>
+		<td>最小 250us (建议 1ms)</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>100 Mbit/s (Full-duplex)</td>
+		<td>通信速度</td>
+		<td>100 Mbit/s (全双工)</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Line, Ring</td>
+		<td>拓扑</td>
+		<td>线性，环形</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Synchronization</td>
-		<td>DC (Distributed Clocks)</td>
+		<td>同步</td>
+		<td>DC (分布式时钟)</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特征**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>Ethernet II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>100 BASE-T 以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Not supported</td>
+		<td>自动协商</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Forbidden</td>
+		<td>集线器</td>
+		<td>禁止使用</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Only allowed between Master and 1st Slave</td>
+		<td>交换机</td>
+		<td>仅允许在主设备与第一个从设备之间</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>至少 Cat5, STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大 100m</td>
 	</tr>
 </tbody>
 </table>
 <br>
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Settings-EtherCAT-Slave.md)
-#### 1.3.5.4 EtherCAT Slave Settings
+#### 1.3.5.4 EtherCAT从设备设置
 
-The manual is in preparation.
+手册正在编写中。
 
 <br>
 
 {% hint style="info" %}
-   **[EtherCAT Slave ESI File Download]**
+   **[EtherCAT从设备ESI文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - 请参考 “[6. 从设备描述文件](../../../6-slave-config-file.md)”。
 {% endhint %}
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md)
-#### 1.3.5.5 EtherCAT Cable Wiring (Topology)
+#### 1.3.5.5 EtherCAT 电缆连接 (拓扑)
 
 <br>
 
-Unlike existing industrial communications, EtherCAT has restrictions in cable wiring and usable Ethernet Ports.
+与现有工业通信不同，EtherCAT 在电缆连接和可用的以太网端口方面有一定的限制。
 
-**1. Ethernet Port**
+**1. 以太网端口**
 
 {% hint style="info" %}
-   - When connecting the EtherCAT master and slave, port 0 should be used.
+   - 在连接 EtherCAT 主站与从站时，应使用端口 0。
 {% endhint %}
 
 ![[Figure 1.3.5.5-1 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_1.png>) 
 
 {% hint style="info" %}
-   - When one slave is connected to the master
+   - 当一个从站连接到主站时
 {% endhint %}
 
 ![[Figure 1.3.5.5-2 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_2.png>) 
 
 {% hint style="info" %}
-   - When two or more slaves are connected to the master
+   - 当两个或多个从站连接到主站时
 
-   - Connect from the slave port 1 to the next slave port 0.
+   - 从从站端口 1 连接到下一个从站端口 0。
 {% endhint %}
 
 ![[Figure 1.3.5.5-3 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_3.png>)
 
 <br>
 
-**2. Redundancy**
+**2. 冗余**
 
 {% hint style="info" %}
-   - When using the Redundancy function in the master 
+   - 当在主站使用冗余功能时 
 
-   - Connect port 1 of the last slave and port 1 of the master to form a ring structure.
+   - 将最后一个从站的端口 1 和主站的端口 1 连接以形成环形结构。
 {% endhint %}
 
 ![[Figure 1.3.5.5-4 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_4.png>) 
@@ -2353,35 +2319,35 @@ Unlike existing industrial communications, EtherCAT has restrictions in cable wi
 
 <br>
 
-**3. Cable wiring error**
+**3. 电缆连接错误**
 
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+请参考 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 
 <br>
 
 {% hint style="info" %}
-   - If the Network scan function is not working.
+   - 如果网络扫描功能无法工作。
 
-   - Please check the port and cable connected to the master.
+   - 请检查连接到主站的端口和电缆。
 {% endhint %}
 
 ![[Figure 1.3.5.5-5 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_5.png>)
 
 {% hint style="info" %}
-   - Topology Error (Error in Configuration)
+   - 拓扑错误 (配置错误)
 
-   - Please check the cable wiring between the master and slave.
+   - 请检查主站与从站之间的电缆连接。
 {% endhint %}
 
 ![[Figure 1.3.5.5-6 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_6.png>)
 
 {% hint style="info" %}
-   - Topology error 2 (normal during configuration but there is an error during diagnosis)
+   - 拓扑错误 2 (配置期间正常，但是在诊断时有错误)
 
-   - Please check the cable wiring between the master and slave.
+   - 请检查主站与从站之间的电缆连接。
 
-   - Please check the cable wiring between slaves.
+   - 请检查从站之间的电缆连接。
 {% endhint %}
 
 ![[Figure 1.3.5.5-7 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_7.png>)
@@ -2389,41 +2355,41 @@ Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci
 ![[Figure 1.3.5.5-8 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_8.png>)
 
 {% hint style="info" %}
-   - Mandatory Slave Missing Error
+   - 必须的从站缺失错误
 
-   - Please check the cable wiring between slaves.
+   - 请检查从站之间的电缆连接。
 {% endhint %}
 
 ![[Figure 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/README.md)
 ### 1.3.6 PROFIBUS-DP
 
-This chapter describes the characteristics of the PROFIBUS-DP master and slave and how to set them. 
+本章描述了PROFIBUS-DP主设备和从设备的特性以及如何设置它们。
 
 <br>
 
-**Fieldbus Overview**
+**Fieldbus 概述**
 
-Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
+Fieldbus是一种行业标准，旨在通过单根电缆连接传感器、按钮、电机驱动器和操作接口等设备到PLC（可编程逻辑控制器），并在工厂中操作它们。
 
-Fieldbus provides intelligent services such as central monitoring of the status of the entire network and reconfiguration of the network.
+Fieldbus提供智能服务，例如对整个网络状态的集中监控和网络的重新配置。
 
-For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
+例如，可以为传感器和开关设置详细信息、操作和模式，而不仅仅是简单的开/关。
 
-Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
+使用单根电缆可减少布线时间和成本，简化配置并在维护方面提供优势。
 
-Also, unlike protocols with non-deterministic response characteristics of general communications, fieldbuses guarantee data response speed to satisfy industrial applications where critical time characteristics are important.
+此外，与一般通信的非确定性响应特性协议不同，fieldbus保证数据响应速度，以满足对时间特性至关重要的工业应用。
 
 ![[Figure 1.3.6-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/image_1.png>) 
 
 <br>
 
-One fieldbus network connects one master device and multiple slave devices.
-The master device searches and manages the entire network and exchanges data with slave devices.
+一个fieldbus网络连接一个主设备和多个从设备。
+主设备搜索并管理整个网络，与从设备交换数据。
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
+通常，PLC是主设备，而传感器、按钮、控制器等可以配置为从设备。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/1-Specification-PROFIBUS-DP-Master.md)
-#### 1.3.6.1 PROFIBUS-DP Master Specifications
+#### 1.3.6.1 PROFIBUS-DP 主设备规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2433,334 +2399,324 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Maximum Connectable Slave Count</td>
+		<td>最大可连接从设备数量</td>
 		<td>125</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>1200 bytes</td>
+		<td>最大输入大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>1200 bytes</td>
+		<td>最大输出大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size (1 slave)</td>
-		<td>244 bytes</td>
+		<td>最大输入大小（1 从设备）</td>
+		<td>244 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size (1 slave)</td>
-		<td>244 bytes</td>
+		<td>最大输出大小（1 从设备）</td>
+		<td>244 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO 连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
+		<td>IO 更新周期</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
+		<td>通信速度</td>
 		<td>9.6 ~ 12,000 Kbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
+		<td>拓扑结构</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Network Slave Scan</td>
-		<td>Supported</td>
+		<td>网络从设备扫描</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Auto Baudrate Detection</td>
-		<td>Not supported</td>
+		<td>自动波特率检测</td>
+		<td>不支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>PROFIBUS FDL</td>
 	</tr>
 </tbody>
 </table>
 <br>
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Settings-PROFIBUS-DP-Master.md)
-#### 1.3.6.2 PROFIBUS-DP Master Settings
+#### 1.3.6.2 PROFIBUS-DP 主设置
 
-
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[1.3.2 SYCON.NET Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
-
-<br>
-
-{% hint style="info" %}
-   - When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""[1.3.2 SYCON.NET Help](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" function.
-{% endhint %}
-
-<br>
-
-**1. Select the PROFIBUS-DP master in the PCI slot settings and reboot the robot controller.**
-
-![[Figure 1.3.6.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>) 
-
-<br>
-
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+请按照 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 和 "[1.3.2 SYCON.NET 设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 的程序，然后进行以下方法。
 
 <br>
 
 {% hint style="info" %}
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 使用 SYCON.net 时，如果手册中没有足够的说明，请参考 "[1.3.2 SYCON.NET 帮助](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" 功能。
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.6.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_2.png>)
+**1. 在 PCI 插槽设置中选择 PROFIBUS-DP 主站并重启机器人控制器。**
+
+![[Figure 1.3.6.2-1 PCI 插槽设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_1.png>) 
 
 <br>
 
-**3. Select the PROFIBUS-DP master PCI device by using Sycon.net.**
-
-![[Figure 1.3.6.2-3 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_3.png>)
-![[Figure 1.3.6.2-4 PROFIBUS-DP Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>) 
+**2. 在工业通信监控菜单中检查所选协议的就绪状态。**
 
 <br>
 
-**4. Scan the PCI device and apply the PROFIBUS-DP master.**
-
-![[Figure 1.3.6.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>) 
-
-<br>
-
-
-**5. Download the settings.**
-
-![[Figure 1.3.6.2-6 PROFIBUS-DP Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>) 
+{% hint style="info" %}
+   - 检查 TP 上工业通信状态的步骤，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
+{% endhint %}
 
 <br>
 
-**6. Prepare the slave module to be connected to the PROFIBUS-DP Master.**
-   * In this example, we use the GN-9222 PROFIBUS-DP slave from Crevis.
-   * Please supply the system power and field power to activate the module.
+![[Figure 1.3.6.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_2.png>)
+
+<br>
+
+**3. 使用 Sycon.net 选择 PROFIBUS-DP 主 PCI 设备。**
+
+![[Figure 1.3.6.2-3 PROFIBUS-DP 主 PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_3.png>)
+![[Figure 1.3.6.2-4 PROFIBUS-DP 主 PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_4.png>) 
+
+<br>
+
+**4. 扫描 PCI 设备并应用 PROFIBUS-DP 主站。**
+
+![[Figure 1.3.6.2-5 Sycon.net 扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_5.png>) 
+
+<br>
+
+**5. 下载设置。**
+
+![[Figure 1.3.6.2-6 PROFIBUS-DP 主下载]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_6.png>) 
+
+<br>
+
+**6. 准备要连接到 PROFIBUS-DP 主站的从模块。**
+   * 在本例中，我们使用来自 Crevis 的 GN-9222 PROFIBUS-DP 从属设备。
+   * 请提供系统电源和现场电源以启动模块。
 
 ![[Figure 1.3.6.2-7 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_7.png>) 
 
-
 <br>
 
-**7. Set the slave device**
+**7. 设置从设备**
 
 {% hint style="info" %}
-   - Set the node number and termination of the PROFIBUS-DP slave device.
+   - 设置 PROFIBUS-DP 从设备的节点号和终端。
 {% endhint %}
 
 ![[Figure 1.3.6.2-8 Crevis GN-9222]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_8.png>) 
 
-
 {% hint style="info" %}
-   - Termination: To be set using the DIP switch (Example: Termination processing ON)
+   - 终端：使用 DIP 开关设置（示例：终端处理开启）
 
-   - Node ID (station number): To be set using the DIP switch (Example: Node 3)
+   - 节点 ID（站号）：使用 DIP 开关设置（示例：节点 3）
 {% endhint %}
 
 <br>
 
-**8. Register the slave device GSD file.**
+**8. 注册从设备 GSD 文件。**
 
 {% hint style="info" %}
-   - A GSD file is required to use a device not registered in Sycon.net.
+   - 使用未在 Sycon.net 中注册的设备需要 GSD 文件。
 
-   - The GSD file for the GN-9222 device can be downloaded from the Crevis website.
+   - GN-9222 设备的 GSD 文件可以从 Crevis 网站下载。
 {% endhint %}
 
-![[Figure 1.3.6.2-9 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_9.png>)
+![[Figure 1.3.6.2-9 Crevis GSD 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_9.png>)
 
 {% hint style="info" %}
-   - Register the downloaded GSD file in Sycon.net.
+   - 在 Sycon.net 中注册下载的 GSD 文件。
 
-   - When registering a GSD file, please check the industrial communication protocol (PROFIBUS-DP).
+   - 注册 GSD 文件时，请检查工业通信协议（PROFIBUS-DP）。
 {% endhint %}
 
-![[Figure 1.3.6.2-10 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_10.png>)
+![[Figure 1.3.6.2-10 Crevis GSD 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_10.png>)
 
 <br>
 
-![[Figure 1.3.6.5-11 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_11.png>)
+![[Figure 1.3.6.5-11 Crevis GSD 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_11.png>)
 
-![[Figure 1.3.6.5-12 Crevis GSD File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_12.png>)
-
-
+![[Figure 1.3.6.5-12 Crevis GSD 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_12.png>)
 
 <br>
 
-**9. Network Scan**
+**9. 网络扫描**
 
 {% hint style="warning" %}
-   **When performing the Network Scan function, be sure to check the following.**
+   **进行网络扫描功能时，请确保检查以下内容。**
 
-   **(1) Whether a cable is connected.**  
-   **(2) Whether a termination DIP switch is used.**  
+   **(1) 是否连接了电缆。**  
+   **(2) 是否使用了终端 DIP 开关。**  
 {% endhint %}
 
 {% hint style="info" %}
-   - PROFIBUS-DP master supports the Network Scan function.
+   - PROFIBUS-DP 主站支持网络扫描功能。
 {% endhint %}
 
 {% hint style="info" %}
-   - Right-click the PROFIBUS-DP master device and click Network Scan.
+   - 右键单击 PROFIBUS-DP 主设备并单击网络扫描。
 {% endhint %}
 
-![[Figure 1.3.6.2-13 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_13.png>)
+![[Figure 1.3.6.2-13 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_13.png>)
 
 {% hint style="warning" %}
-   - If there is no GSD file registered, the slave information will appear when the Network Scan function is performed, but registration is not possible.
+   - 如果没有注册 GSD 文件，执行网络扫描功能时会出现从设备信息，但无法注册。
 {% endhint %}
 
 {% hint style="info" %}
-   - If a GSD file is normally registered, a slave device can be added using the Network Scan function.
+   - 如果 GSD 文件正常注册，可以使用网络扫描功能添加从设备。
 {% endhint %}
 
-![[Figure 1.3.6.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_14.png>)
+![[Figure 1.3.6.2-14 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_14.png>)
 
 <br>
 
-**10. Configure the slave device**
+**10. 配置从设备**
 
 {% hint style="info" %}
-   - Click Disconnect on the master device to configure the slave device.
+   - 点击主设备上的断开连接，以配置从设备。
 {% endhint %}
 
-![[Figure 1.3.6.2-15 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_15.png>)
+![[Figure 1.3.6.2-15 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_15.png>)
 
 {% hint style="info" %}
-   - Double-click the slave device.
+   - 双击从设备。
 {% endhint %}
 
-![[Figure 1.3.6.2-16 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_16.png>)
+![[Figure 1.3.6.2-16 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_16.png>)
 
 {% hint style="info" %}
-   - Check the PROFIBUS-DP slave settings.
+   - 检查 PROFIBUS-DP 从设备设置。
 
-   - Slot 1 : GN-9222  
-   - Slot 2 : GT-12DF (Input 2 Byte)  
-   - Slot 3 : GT-227F (Output 2 Byte)  
-   - Slot 4 : GT-3154 (Input 8 Byte)  
-   - Slot 5 : GT-4254 (Output 8 Byte)  
+   - 插槽 1 : GN-9222  
+   - 插槽 2 : GT-12DF（输入 2 字节）  
+   - 插槽 3 : GT-227F（输出 2 字节）  
+   - 插槽 4 : GT-3154（输入 8 字节）  
+   - 插槽 5 : GT-4254（输出 8 字节）  
 {% endhint %}
 
-![[Figure 1.3.6.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_17.png>)
+![[Figure 1.3.6.2-17 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_17.png>)
 
 <br>
 
-![[Figure 1.3.6.2-18 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_18.png>)
-
+![[Figure 1.3.6.2-18 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_18.png>)
 
 <br>
 
-**11. Configure the master device.**
+**11. 配置主设备。**
 
 {% hint style="info" %}
-   - Double-click the Master device.
+   - 双击主设备。
 {% endhint %}
 
-![[Figure 1.3.6.2-19 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_19.png>)
-
+![[Figure 1.3.6.2-19 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_19.png>)
 
 {% hint style="info" %}
-   - Set the PROFIBUS-DP communication speed.
+   - 设置 PROFIBUS-DP 通信速度。
 
    - 9.6 - 12000 Kbit/s 
 {% endhint %}
 
-![[Figure 1.3.6.2-20 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_20.png>)
+![[Figure 1.3.6.2-20 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_20.png>)
 
 {% hint style="info" %}
-   - Check from the master device if the slot information of the slave device is correct.
+   - 从主设备检查从设备的插槽信息是否正确。
 {% endhint %}
 
-![[Figure 1.3.6.2-21 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_21.png>)
+![[Figure 1.3.6.2-21 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_21.png>)
 
 {% hint style="info" %}
-   - Check the assigned IO and start address for each slave slot in the address table.
+   - 在地址表中检查每个从插槽分配的 IO 和起始地址。
 {% endhint %}
 
-![[Figure 1.3.6.2-22 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_22.png>)
+![[Figure 1.3.6.2-22 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_22.png>)
 
 {% hint style="info" %}
-   - Check if each device in the station table is in active status.
+   - 检查站表中的每个设备是否处于活动状态。
 {% endhint %}
 
-![[Figure 1.3.6.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_23.png>)
-
+![[Figure 1.3.6.2-23 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_23.png>)
 
 {% hint style="info" %}
-   - After completing settings, proceed with downloading.
+   - 完成设置后，请继续下载。
 {% endhint %}
 
-![[Figure 1.3.6.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_24.png>)
+![[Figure 1.3.6.2-24 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_24.png>)
 
 <br>
 
-**12. Check the communication status.**
+**12. 检查通信状态。**
 
 {% hint style="info" %}
-   - Check the communication status in Sycon.net and TP.
+   - 在 Sycon.net 和 TP 中检查通信状态。
 
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 检查 TP 上工业通信状态的过程，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 {% hint style="info" %}
-   - Double-click the connected master device to check the communication status.
+   - 双击连接的主设备以检查通信状态。
 {% endhint %}
 
-![[Figure 1.3.6.2-25 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_25.png>)
+![[Figure 1.3.6.2-25 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_25.png>)
 
-![[Figure 1.3.6.2-26 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_26.png>)
+![[Figure 1.3.6.2-26 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_26.png>)
 
 {% hint style="info" %}
-   - Using Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+   - 使用 Sycon.net 的诊断功能，您可以监控通信状态和输入/输出状态。
 {% endhint %}
 
-![[Figure 1.3.6.2-27 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_27.png>)
+![[Figure 1.3.6.2-27 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/2-Master_setting/image_27.png>)
 
 <br>
 
-**13. Assign IO blocks after completing the settings.**
+**13. 完成设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)")。**
 {% endhint %}
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/3-Specification-PROFIBUS-DP-Slave.md)
-#### 1.3.6.3 PROFIBUS-DP Slave Specifications
+#### 1.3.6.3 PROFIBUS-DP 从站规范
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2770,107 +2726,105 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>244 bytes</td>
+		<td>最大输入大小</td>
+		<td>244 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>244 bytes</td>
+		<td>最大输出大小</td>
+		<td>244 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO 连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
+		<td>IO 更新周期</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
+		<td>通信速度</td>
 		<td>9.6 ~ 12,000 Kbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
+		<td>拓扑结构</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Auto Baudrate Detection</td>
-		<td>Supported</td>
+		<td>自动波特率检测</td>
+		<td>支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>PROFIBUS FDL</td>
 	</tr>
 </tbody>
 </table>
 <br>
-
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Settings-PROFIBUS-DP-Slave.md)
-#### 1.3.6.4 PROFIBUS-DP Slave Settings
+#### 1.3.6.4 PROFIBUS-DP 从站设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 程序，然后按照以下方法进行操作。
 
 <br>
 
 {% hint style="info" %}
-   **[PROFIBUS-DP Slave GSD File Download]**
+   **[PROFIBUS-DP 从站 GSD 文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - 请参考 "[6. 从站设备描述文件](../../../6-slave-config-file.md)"。
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select a PROFIBUS-DP slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用 TP，在工业通信固件设置中选择一个 PROFIBUS-DP 从站，并重启机器人控制器。**
 
 ![[Figure 1.3.6.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查当前通信协议的准备状态。**
 
 ![[Figure 1.3.6.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用 Sycon.net 设置的配置文件下载到相应的 PCI 插槽，TP 设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFIBUS-DP Slave]**
+**3. 触摸菜单以进入从站设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI 从站插槽设置 > PROFIBUS-DP 从站]**
 
 ![[Figure 1.3.6.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_3.png>) 
 
@@ -2878,47 +2832,47 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**4. Description of each item**
+**4. 各项描述**
 
 {% hint style="info" %}
-   [Station Address]
+   [站点地址]
 
-   - The PROFIBUS-DP identifies a slave through the station address.
+   - PROFIBUS-DP 通过站点地址识别从站。
 {% endhint %}
 
 {% hint style="info" %}
-   [Input Byte Count (Input Byte)]
+   [输入字节数 (Input Byte)]
 
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
+   - 输入字节数：设置从主站 -> 从站的数据输入大小。
 {% endhint %}
 
 {% hint style="info" %}
-   [Output Byte Count (Output Byte)]
+   [输出字节数 (Output Byte)]
 
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
+   - 输出字节数：设置从站 -> 主站的数据输出大小。
 {% endhint %}
 
 {% hint style="info" %}
-   [When Setting a Module from the Master]
+   [从主站设置模块时]
 
-   - Modules should be specified from the master to match the set byte count.
+   - 模块应从主站指定，以匹配设置的字节数。
 
-   - Order: Master Input (64-1) -> Master Output (64-1)
+   - 顺序：主输入 (64-1) -> 主输出 (64-1)
 
-   - EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
-         - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+   - EX) 主输入 109 字节  <---  从站输出 109 字节   
+         - 输入 109 字节 : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
 
-   - EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
-         - Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
+   - EX) 主输出 120 字节  --->  从站输入 120 字节   
+         - 输出 120 字节 : 64Byte + 32Byte + 16Byte + 8Byte
 
 
-   - EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
-         - Input 12 Bytes : 8Byte + 4Byte
+   - EX) 主输入 12 字节  <---  从站输出 12 字节   
+         - 输入 12 字节 : 8Byte + 4Byte
 
-   - EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
-         - Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
+   - EX) 主输出 200 字节  --->  从站输入 200 字节   
+         - 输出 200 字节 : 64Byte + 64Byte + 64Byte + 8Byte
 
-   - The input module is located before the output module.
+   - 输入模块位于输出模块之前。
 {% endhint %}
 
 ![[Figure 1.3.6.4-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>)
@@ -2926,55 +2880,53 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+**5. 完成设置后，按照以下步骤检查通信状态。**
 
-For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+有关在 TP 上检查工业通信状态的程序，请参阅 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 
 ![[Figure 1.3.6.4-6 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_6.png>)
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**6. 完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/5-Error-PROFIBUS-DP.md)
-#### 1.3.6.5 PROFIBUS-DP Error Handling
+#### 1.3.6.5 PROFIBUS-DP 错误处理
 
 <br>
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
-
+请参阅 "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/README.md)
 ### 1.3.7 DeviceNet
 
-This chapter describes the characteristics of the DeviceNet master and slave and how to set them. 
+本章描述了 DeviceNet 主设备和从设备的特性以及如何设置它们。
 
 <br>
 
-**Fieldbus Overview**
+**现场总线概述**
 
-Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
+现场总线是一个行业标准，用于通过单根电缆连接传感器、按钮、电机驱动器和操作界面等设备到 PLC（可编程逻辑控制器），并在工厂中操作它们。
 
-Fieldbus provides intelligent services such as central monitoring of the entire network status and reconfiguration of the network.
+现场总线提供智能服务，例如对整个网络状态的中央监控和网络的重新配置。
 
-For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
+例如，可以为传感器和开关设置详细的信息、操作和模式，而不仅仅是简单的开/关。
 
-Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
+使用单根电缆可以减少布线的时间和成本，简化配置，并在维护中提供优势。
 
-Also, unlike protocols with non-deterministic response characteristics of general communications, fieldbuses guarantee data response speed to satisfy industrial applications where critical time characteristics are important.
+此外，与响应特性非确定性的普通通信协议不同，现场总线保证数据响应速度，以满足对时间特性至关重要的工业应用。
 
 ![[Figure 1.3.7-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/image_1.png>)
 
 <br>
 
-One fieldbus network connects one master device and multiple slave devices.
-The master device searches and manages the entire network and exchanges data with slave devices.
+一个现场总线网络连接一个主设备和多个从设备。主设备搜索并管理整个网络，并与从设备交换数据。
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
+通常，PLC 是主设备，而传感器、按钮、控制器等可以配置为从设备。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/1-Specification-DeviceNet-Master.md)
-#### 1.3.7.1 DeviceNet Master Specifications
+#### 1.3.7.1 DeviceNet 主设备规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -2984,168 +2936,168 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Maximum Connectable Slave Count</td>
+		<td>最大可连接从设备数量</td>
 		<td>63</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>1200 bytes</td>
+		<td>最大输入大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>1200 bytes</td>
+		<td>最大输出大小</td>
+		<td>1200 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size (1 slave)</td>
-		<td>255 bytes</td>
+		<td>最大输入大小 (1 从设备)</td>
+		<td>255 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size (1 slave)</td>
-		<td>255 bytes</td>
+		<td>最大输出大小 (1 从设备)</td>
+		<td>255 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
-		<td>Bit Strobe <br>Change of State <br>Cyclic <br>Poll</td>
+		<td>IO 连接</td>
+		<td>位脉冲 <br>状态变化 <br>循环 <br>轮询</td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
+		<td>IO 更新周期</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
+		<td>通信速度</td>
 		<td>125 ~ 500 Kbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
+		<td>拓扑</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Network Slave Scan</td>
-		<td>Supported</td>
+		<td>网络从设备扫描</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Supported</td>
+		<td>快速连接</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Auto Baudrate Detection</td>
-		<td>Not supported</td>
+		<td>自动波特率检测</td>
+		<td>不支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>CAN Frames</td>
+		<td>数据传输层</td>
+		<td>CAN 帧</td>
 	</tr>
 </tbody>
 </table>
 <br>
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Settings-DeviceNet-Master.md)
-#### 1.3.7.2 DeviceNet Master Settings
+#### 1.3.7.2 DeviceNet 主控制器设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[1.3.2 SYCON.NET Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 和 "[1.3.2 SYCON.NET 设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 程序，然后继续以下方法。
 
 <br>
 
 {% hint style="info" %}
-   - When using SYCON.net, if there are insufficient explanations in the manual, please refer to the ""[1.3.2 SYCON.NET Help](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)"" function.
+   - 使用 SYCON.net 时，如果手册中说明不足，请参考 "[1.3.2 SYCON.NET 帮助](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/1-Help-SYCON.md)" 功能。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - For DeviceNet connector connection, please refer to the following.
+   - 有关 DeviceNet 连接器连接，请参考以下内容。
 
-      ("[1.2.2 Connector](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[1.2.2 连接器](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
 
-**1. Select the DeviceNet master in the PCI slot settings and reboot the robot controller.**
+**1. 在 PCI 插槽设置中选择 DeviceNet 主控制器并重新启动机器人控制器。**
 
-![[Figure 1.3.7.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>)
+![[Figure 1.3.7.2-1 PCI 插槽设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_1.png>)
 
 <br>
 
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查所选协议的准备状态。**
 
 <br>
 
 {% hint style="info" %}
-   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 有关在 TP 上检查工业通信状态的程序，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.7.2-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>) 
+![[Figure 1.3.7.2-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_2.png>) 
 
 <br>
 
-**3. Select the DeviceNet master PCI device by using Sycon.net.**
+**3. 使用 Sycon.net 选择 DeviceNet 主控制器 PCI 设备。**
 
-![[Figure 1.3.7.2-3 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
-![[Figure 1.3.7.2-4 DeviceNet Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
-
-<br>
-
-**4. Scan the PCI device and apply the DeviceNet master.**
-
-![[Figure 1.3.7.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
+![[Figure 1.3.7.2-3 DeviceNet 主控制器 PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_3.png>)
+![[Figure 1.3.7.2-4 DeviceNet 主控制器 PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_4.png>) 
 
 <br>
 
-**5. Set the communication speed.**
+**4. 扫描 PCI 设备并应用 DeviceNet 主控制器。**
+
+![[Figure 1.3.7.2-5 Sycon.net 扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_5.png>) 
+
+<br>
+
+**5. 设置通信速度。**
 
 {% hint style="warning" %}
-   - If the communication speed differs between the master and the slave, the Network Scan function does not work normally.
+   - 如果主控制器和从设备之间的通信速度不同，网络扫描功能将无法正常工作。
 {% endhint %}
 
-![[Figure 1.3.7.2-6 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>) 
+![[Figure 1.3.7.2-6 DeviceNet 主控制器下载]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_6.png>) 
 
 <br>
 
-**6. Download the settings.**
+**6. 下载设置。**
 
-![[Figure 1.3.7.2-7 DeviceNet Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
+![[Figure 1.3.7.2-7 DeviceNet 主控制器下载]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_7.png>) 
 
 <br>
 
-**7. Prepare the slave module to be connected to the DeviceNet master.**
-   * In this example, we use the NA-9211 DeviceNet slave from Crevis.
-   * Please supply the system power and field power to activate the module.
+**7. 准备要连接到 DeviceNet 主控制器的从模块。**
+   * 在本例中，我们使用 Crevis 的 NA-9211 DeviceNet 从设备。
+   * 请供给系统电源和外部电源以激活模块。
 
 ![[Figure 1.3.7.2-8 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_8.png>) 
 
 <br>
 
-**8. Set the slave device.**
+**8. 设置从设备。**
 
 {% hint style="info" %}
-   - Set the MAC ID, communication speed, and termination resistor of the DeviceNet slave device.
+   - 设置 DeviceNet 从设备的 MAC ID、通信速度和终端电阻。
 {% endhint %}
 
 ![[Figure 1.3.7.2-9 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_9.png>) 
@@ -3153,236 +3105,235 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 ![[Figure 1.3.7.2-10 Crevis NA-9211]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_10.png>)
 
 {% hint style="info" %}
-   [Example Settings]
+   [示例设置]
 
-   - Termination resistor: Used by being installed in the cable (termination DIP switch OFF)
+   - 终端电阻：通过安装在电缆中使用（终端 DIP 开关关闭）
 
-   - MAC ID (station number): Set to 4 (Only DIP switch 3 is ON.)
+   - MAC ID（站号）：设置为 4（仅 DIP 开关 3 开启。）
 
-   - Communication speed (baudrate): Set to Auto (DIP switches 7 and 8 are ON.)
+   - 通信速度（波特率）：设置为自动（DIP 开关 7 和 8 开启。）
 {% endhint %}
 
 <br>
 
-**9. Register the slave device EDS file.**
+**9. 注册从设备 EDS 文件。**
 
 {% hint style="info" %}
-   - An EDS file is required to use a device not registered in Sycon.net.
+   - 使用未在 Sycon.net 中注册的设备需要 EDS 文件。
 
-   - The EDS file for NA-9211 device can be downloaded from the Crevis website.
+   - NA-9211 设备的 EDS 文件可以从 Crevis 网站下载。
 {% endhint %}
 
-![[Figure 1.3.7.2-11 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_11.png>)
+![[Figure 1.3.7.2-11 Crevis EDS 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_11.png>)
 
 {% hint style="info" %}
-   - Register all downloaded EDS files in Sycon.net.
+   - 在 Sycon.net 中注册所有下载的 EDS 文件。
 
-   - When registering an EDS file, please check the industrial communication protocol (DeviceNet).
+   - 注册 EDS 文件时，请检查工业通信协议（DeviceNet）。
 {% endhint %}
 
-![[Figure 1.3.7.2-12 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_12.png>)
+![[Figure 1.3.7.2-12 Crevis EDS 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_12.png>)
 
 <br>
 
-![[Figure 1.3.7.5-13 Crevis EDS File]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_13.png>)
+![[Figure 1.3.7.5-13 Crevis EDS 文件]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_13.png>)
 
 
 
 <br>
 
-**10. Network Scan**
+**10. 网络扫描**
 
 {% hint style="warning" %}
-   **When performing the Network Scan function, be sure to check the following.**
+   **进行网络扫描功能时，请务必检查以下内容。**
 
-   **(1) Whether a cable is connected.**  
-   **(2) Whether a termination resistor is connected or a termination DIP switch is used.**  
-   **(3) Whether the master - slave communication speed is set.**  
+   **(1) 是否连接了电缆。**  
+   **(2) 是否连接了终端电阻或使用了终端 DIP 开关。**  
+   **(3) 是否设置了主控制器 - 从设备的通信速度。**  
 
-   **For smooth communication connection, be sure to check ("[1.3.7.5 DeviceNet ERROR Handling](../7-DeviceNet/5-Error-DeviceNet.md)").**
+   **如要顺利连接通信，请务必检查 ("[1.3.7.5 DeviceNet 错误处理](../7-DeviceNet/5-Error-DeviceNet.md)")。**
 {% endhint %}
 
 {% hint style="info" %}
-   - The DeviceNet master supports the Network Scan function.
+   - DeviceNet 主控制器支持网络扫描功能。
 {% endhint %}
 
 {% hint style="info" %}
-   - Right-click the DeviceNet master device and click Network Scan.
+   - 右键单击 DeviceNet 主控制器设备并点击网络扫描。
 {% endhint %}
 
-![[Figure 1.3.7.2-14 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_14.png>)
+![[Figure 1.3.7.2-14 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_14.png>)
 
 {% hint style="warning" %}
-   - If there is no EDS file registered, the slave information will appear when the Network Scan function is performed, but registration is not possible.
+   - 如果没有注册 EDS 文件，在执行网络扫描功能时将出现从设备信息，但无法注册。
 {% endhint %}
 
 {% hint style="info" %}
-   - If an EDS file is normally registered, a slave device can be added using the Network Scan function.
+   - 如果 EDS 文件正常注册，则可以使用网络扫描功能添加从设备。
 {% endhint %}
 
-![[Figure 1.3.7.2-15 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_15.png>)
+![[Figure 1.3.7.2-15 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_15.png>)
 
-![[Figure 1.3.7.2-16 Network Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_16.png>)
+![[Figure 1.3.7.2-16 网络扫描]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_16.png>)
 
 <br>
 
-**11. Configure the slave device**
+**11. 配置从设备**
 
 {% hint style="info" %}
-   - Click Disconnect on the master device to configure the slave device.
+   - 点击主设备上的断开连接以配置从设备。
 {% endhint %}
 
-![[Figure 1.3.7.2-17 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_17.png>)
+![[Figure 1.3.7.2-17 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_17.png>)
 
 {% hint style="info" %}
-   - Double-click the slave device.
+   - 双击从设备。
 {% endhint %}
 
-![[Figure 1.3.7.2-18 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_18.png>)
+![[Figure 1.3.7.2-18 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_18.png>)
 
-
-<br>
-
-{% hint style="info" %}
-   - Set the connection type of the slave device.
-
-   - Select the message transmission method for DeviceNet communication connection.
-
-   **If the UCMM checkbox is not checked, UCMM group 2 is set as the default value.**   
-
-   - UCMM GROUP 1 : IO Message   
-   - UCMM GROUP 2: Master - Slave connection message during network initialization (default setting)   
-   - UCMM GROUP 3: Explicit Message   
-
-   - For certain devices, UCMM group 3 may be used, so please check the product specifications before proceeding.
-{% endhint %}
-
-![[Figure 1.3.7.2-19 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_19.png>)
 
 <br>
 
 {% hint style="info" %}
-   - For Crevis NA-9211, proceed without checking the UCMM check box. (Use the group 2 default value.)
+   - 设置从设备的连接类型。
+
+   - 选择 DeviceNet 通信连接的消息传输方式。
+
+   **如果未选中 UCMM 复选框，则默认值设置为 UCMM 组 2。**   
+
+   - UCMM 组 1 : IO 消息   
+   - UCMM 组 2: 网络初始化期间的主 - 从连接消息（默认设置）   
+   - UCMM 组 3: 明确消息   
+
+   - 对于某些设备，可能使用 UCMM 组 3，因此请在继续之前查看产品规格。
 {% endhint %}
 
-![[Figure 1.3.7.2-20 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_20.png>)
+![[Figure 1.3.7.2-19 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_19.png>)
+
+<br>
+
+{% hint style="info" %}
+   - 对于 Crevis NA-9211，请在未选中 UCMM 复选框的情况下进行设置。（使用组 2 默认值。）
+{% endhint %}
+
+![[Figure 1.3.7.2-20 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_20.png>)
 
 <br>
 
 
 {% hint style="info" %}
-   - Check the DeviceNet slave settings.
+   - 检查 DeviceNet 从设备设置。
 
-   - Output: ST-2318 (1 byte)  
-   - Input: ST-1218 (1 byte)  
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-   - Required to set according to the communication method (Poll, Change of State, Cyclic, Bit-Strobe).
-{% endhint %}
-
-<br>
-
-![[Figure 1.3.7.2-21 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
-
-<br>
-
-{% hint style="info" %}
-   [Production Inhibit Time]
-
-   - Set the IO data generation cycle of the slave device (ms)  
-
-   - Example) 10 ms: IO data is generated every 10 ms.  
-   - Example) 0 ms: The slave generates IO data as quickly as possible.  
-
-   - The shorter the cycle, the greater the load on the slave device may be. (Specifications need to be checked for each slave.) 
+   - 输出：ST-2318（1 字节）  
+   - 输入：ST-1218（1 字节）  
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Expected Packet Rate]
-
-   - Set the time for IO data update between the master and the slave.  
+   - 需要根据通信方式（轮询、状态变化、循环、位冲击）进行设置。
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.7.2-22 Slave Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
+![[Figure 1.3.7.2-21 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_21.png>)
+
+<br>
+
+{% hint style="info" %}
+   [生产抑制时间]
+
+   - 设置从设备的 IO 数据生成周期（毫秒）  
+
+   - 示例）10 毫秒：每 10 毫秒生成 IO 数据。  
+   - 示例）0 毫秒：从设备尽快生成 IO 数据。  
+
+   - 周期越短，从设备的负载可能越大。（每个从设备的规格需要检查。） 
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [预期数据包速率]
+
+   - 设置主从之间的 IO 数据更新间隔。  
+{% endhint %}
+
+<br>
+
+![[Figure 1.3.7.2-22 从设备配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_22.png>)
 
 
 
 <br>
 
-**12. Configure the master device**
+**12. 配置主设备**
 
 {% hint style="info" %}
-   - Double-click the Master device.
+   - 双击主设备。
 {% endhint %}
 
-![[Figure 1.3.7.2-23 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
-
-
-{% hint style="info" %}
-   - Set the DeviceNet communication speed (to be the same as the slave communication speed).
-{% endhint %}
-
-![[Figure 1.3.7.2-24 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
-
-{% hint style="info" %}
-   - Check the assigned IO and start address for each slave slot in the address table.
-{% endhint %}
-
-![[Figure 1.3.7.2-25 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
-
-{% hint style="info" %}
-   - Set whether to use the Quick Connect function.
-{% endhint %}
-
-![[Figure 1.3.7.2-26 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
+![[Figure 1.3.7.2-23 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_23.png>)
 
 
 {% hint style="info" %}
-   - After completing settings, proceed with downloading.
+   - 设置 DeviceNet 通信速度（与从设备通信速度相同）。
 {% endhint %}
 
-![[Figure 1.3.7.2-27 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
+![[Figure 1.3.7.2-24 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_24.png>)
+
+{% hint style="info" %}
+   - 检查地址表中每个从设备插槽分配的 IO 和起始地址。
+{% endhint %}
+
+![[Figure 1.3.7.2-25 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_25.png>)
+
+{% hint style="info" %}
+   - 设置是否使用快速连接功能。
+{% endhint %}
+
+![[Figure 1.3.7.2-26 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_26.png>)
+
+
+{% hint style="info" %}
+   - 设置完成后，进行下载。
+{% endhint %}
+
+![[Figure 1.3.7.2-27 主配置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_27.png>)
 
 <br>
 
-**13. Check the communication status.**
+**13. 检查通信状态。**
 
 {% hint style="info" %}
-   - Check the communication status in Sycon.net and TP.
+   - 在 Sycon.net 和 TP 中检查通信状态。
 
-   - For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - 有关在 TP 上检查工业通信状态的程序，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 {% endhint %}
 
 {% hint style="info" %}
-   - Double-click the connected master device to check the communication status.
+   - 双击连接的主设备以检查通信状态。
 {% endhint %}
 
-![[Figure 1.3.7.2-28 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_28.png>)
+![[Figure 1.3.7.2-28 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_28.png>)
 
-![[Figure 1.3.7.2-29 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
+![[Figure 1.3.7.2-29 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_29.png>)
 
 {% hint style="info" %}
-   - Using the Sycon.net's diagnosis function, you can monitor the communication status and input/output status.
+   - 使用 Sycon.net 的诊断功能，您可以监控通信状态和输入/输出状态。
 {% endhint %}
 
-![[Figure 1.3.7.2-30 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
+![[Figure 1.3.7.2-30 状态诊断]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Master_setting/image_30.png>)
 
 <br>
 
-**14. Assign IO blocks after completing the communication settings.**
-
+**14. 在完成通信设置后分配 IO 块。**
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通讯设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考（"[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)"）。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md)
-#### 1.3.7.3 DeviceNet Slave Specifications
+#### 1.3.7.3 DeviceNet从设备规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -3392,83 +3343,81 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
-		<td>255 bytes</td>
+		<td>最大输入大小</td>
+		<td>255 字节</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
-		<td>255 bytes</td>
+		<td>最大输出大小</td>
+		<td>255 字节</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
-		<td>Bit Strobe <br>Change of State <br>Cyclic <br>Poll</td>
+		<td>IO连接</td>
+		<td>比特脉冲 <br>状态变化 <br>周期 <br>轮询</td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
+		<td>IO更新周期</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
+		<td>通信速度</td>
 		<td>125 ~ 500 Kbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
+		<td>拓扑</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
+		<td>快速连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Auto Baudrate Detection</td>
-		<td>Not supported</td>
+		<td>自动波特率检测</td>
+		<td>不支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>CAN Frames</td>
+		<td>数据传输层</td>
+		<td>CAN帧</td>
 	</tr>
 </tbody>
 </table>
 <br>
-
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Settings-DeviceNet-Slave.md)
-#### 1.3.7.4 DeviceNet Slave Settings
+#### 1.3.7.4 DeviceNet 从站设置
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 <br>
 
 {% hint style="info" %}
-   **[DeviceNet Slave EDS File Download]**
+   **[DeviceNet 从站 EDS 文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)."
+   - Please refer to "[6. 从设备描述文件](../../../6-slave-config-file.md)."
 {% endhint %}
 
 <br>
@@ -3476,233 +3425,230 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 {% hint style="info" %}
    - For DeviceNet connector connection, please refer to the following.
 
-      ("[1.2.2 Connector](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+      ("[1.2.2 连接器](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select a DeviceNet slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用 TP，在工业通信固件设置中选择一个 DeviceNet 从站并重启机器人控制器。**
 
-![[Figure 1.3.7.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.7.4-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查当前通信协议的准备状态。**
 
-![[Figure 1.3.7.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_2.png>) 
+![[Figure 1.3.7.4-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用 Sycon.net 设置的配置文件下载到相应的 PCI 插槽，则 TP 设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > DeviceNet Slave]**
+**3. 触摸菜单以进入从站设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI 从站插槽设置 > DeviceNet 从站]**
 
-![[Figure 1.3.7.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
+![[Figure 1.3.7.4-3 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.7.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_4.png>) 
-
-<br>
-
-**4. Description of each item**
-
-{% hint style="info" %}
-   [Station Address = Mac ID]
-
-   - The DeviceNet identifies a slave through the station address (MAC ID) (1-63).
-{% endhint %}
-
-{% hint style="info" %}
-   [Communication Speed (Baudrate)]
-
-   - You can select among 125, 250, and 500 Kbit/s.
-{% endhint %}
-
-{% hint style="info" %}
-   [Input Byte Count (Input Byte)]
-
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
-{% endhint %}
-
-{% hint style="info" %}
-   [Output Byte Count (Output Byte)]
-
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
-{% endhint %}
-
+![[Figure 1.3.7.4-4 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_4.png>) 
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+**4. 每个项目的描述**
+
+{% hint style="info" %}
+   [站地址 = Mac ID]
+
+   - DeviceNet 通过站地址（MAC ID）识别从站（1-63）。
+{% endhint %}
+
+{% hint style="info" %}
+   [通信速度（波特率）]
+
+   - 您可以选择 125、250 和 500 Kbit/s。
+{% endhint %}
+
+{% hint style="info" %}
+   [输入字节计数（输入字节）]
+
+   - 输入字节计数：设置从主站 -> 从站的数据大小。
+{% endhint %}
+
+{% hint style="info" %}
+   [输出字节计数（输出字节）]
+
+   - 输出字节计数：设置从站 -> 主站的数据大小。
+{% endhint %}
+
+<br>
+
+**5. 完成设置后，请按照以下程序检查通信状态。**
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
-![[Figure 1.3.7.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_5.png>) 
+![[Figure 1.3.7.4-5 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_5.png>) 
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**6. 完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参阅 ("[5. 工业通信 IO 读写](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md)
-#### 1.3.7.5 DeviceNet Error Handling
+#### 1.3.7.5 DeviceNet 错误处理
 
 <br>
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+请参考 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 
 <br>
 
-**1. DeviceNet termination resistor**
+**1. DeviceNet 终端电阻**
 
 {% hint style="info" %}
-   - A resistor should be added at the termination when connecting the DeviceNet cable.
+   - 在连接 DeviceNet 电缆时，应在终端处添加一个电阻。
 
-   - If the Network Scan function does not work, please check the termination resistor.
+   - 如果网络扫描功能不正常，请检查终端电阻。
 
-   - DeviceNet termination resistor: 120 ohms
+   - DeviceNet 终端电阻：120 欧姆
 {% endhint %}
 
 {% hint style="info" %}
-   - As shown in the figure below, if the CIFX-50 DN PCI is at the DeviceNet termination, please add a termination resistor.
+   - 如下图所示，如果 CIFX-50 DN PCI 位于 DeviceNet 终端，请添加终端电阻。
 {% endhint %}
 
 ![[Figure 1.3.7.5-1 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
 
 {% hint style="info" %}
-   - As shown in the figure below, if the DeviceNet Remote IO is at the termination, please add a termination resistor or operate the DIP switch.
+   - 如下图所示，如果 DeviceNet 远程 IO 位于终端，请添加终端电阻或操作 DIP 开关。
 {% endhint %}
 
 ![[Figure 1.3.7.5-2 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
 
 <br>
 
-**2. Communication Speed**
+**2. 通信速度**
 
 {% hint style="info" %}
-   - If the communication speed differs between the DeviceNet master and slave, the Network Scan function may not work.
+   - 如果 DeviceNet 主站和从站之间的通信速度不同，网络扫描功能可能将无法正常工作。
 
-   - If the Network Scan function does not work, please check the communication speed.
+   - 如果网络扫描功能不正常，请检查通信速度。
 {% endhint %}
 
 ![[Figure 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
 
 <br>
 
-**3. DeviceNet ERROR**
+**3. DeviceNet 错误**
 
 {% hint style="info" %}
-   - If a 24V power is not supplied to the DeviceNet cable, the following error will appear.
+   - 如果未向 DeviceNet 电缆提供 24V 电源，将出现以下错误。
 
-   - Please check the 24V power supply.
+   - 请检查 24V 电源。
 {% endhint %}
 
-![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
+![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-DeviceNet-Object.md)
-#### 1.3.7.6 DeviceNet Object
+#### 1.3.7.6 DeviceNet 对象
 
 
 <br>
 
-**1. Object**
+**1. 对象**
 
 
-The inside of the DeviceNet device is composed of a collection of objects. Each object represents a specific component inside the device.
-
-<br>
-
-![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
-
+DeviceNet 设备内部由一系列对象组成。每个对象代表设备内部的特定组件。
 
 <br>
 
-Individual objects are distinguished using a class code.
-
-<br>
-
-![[Figure 1.3.7.6-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
-
-<br>
-
-The inside of an object is composed of an instance number and attribute ID.
-
-<br>
-
-The DeviceNet master can access an object of a specific slave through a explicit message.
-
-<br>
-
-{% hint style="info" %}
-   - EX) Object of Crevis GN-9212 (The corresponding information can be found in the Crevis manual.)
-
-   - Reading the vendor ID value of the identity object (class code 0x01)
-
-   - Instance : 1
-
-   - Attribute ID : 1
-
-   - Permission: Get (Read only possible)
-{% endhint %}
-
-
-![[Figure 1.3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+![[图 1.3.7.6-1 DeviceNet 对象]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
 
 
 <br>
 
-Each Object, Instance, and Attribute inside has different access permissions.
+单个对象通过类代码进行区分。
+
+<br>
+
+![[图 1.3.7.6-2 DeviceNet 对象]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
+
+<br>
+
+对象内部由实例编号和属性 ID 组成。
+
+<br>
+
+DeviceNet 主站可以通过显式消息访问特定从站的对象。
 
 <br>
 
 {% hint style="info" %}
-   - Access permissions
+   - 例) Crevis GN-9212 的对象（相关信息可以在 Crevis 手册中找到。）
 
-   - Get: Read permission
+   - 读取身份对象的供应商 ID 值（类代码 0x01）
 
-   - Set: Write permission 
+   - 实例 : 1
 
-   - Attribute Single: Can access only one attribute item at a time.
+   - 属性 ID : 1
 
-   - Attribute All: Can access all attributes in Instance at once.
+   - 权限: 获取（仅可读）
 {% endhint %}
 
+
+![[图 1.3.7.6-3 DeviceNet 对象 Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+
+
 <br>
+
+每个对象、实例和属性都有不同的访问权限。
+
+<br>
+
+{% hint style="info" %}
+   - 访问权限
+
+   - 获取: 读取权限
+
+   - 设置: 写入权限 
+
+   - 属性单个: 每次只能访问一个属性项。
+
+   - 属性全部: 可以一次性访问实例中的所有属性。
+{% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/README.md)
 ### 1.3.8 CC-Link
 
-This chapter describes the characteristics of CC-Link slaves and how to set them. 
+本章描述了 CC-Link 从设备的特性及其设置方法。
 
 
 <br>
 
-**Fieldbus Overview**
+**现场总线概述**
 
-Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
+现场总线是一种行业标准，已被开放用于通过单根电缆将传感器、按钮、电机驱动器和操作接口等设备连接到 PLC（可编程逻辑控制器）并在工厂中操作。
 
-Fieldbus provides intelligent services such as central monitoring of the status of the entire network and reconfiguration of the network.
+现场总线提供智能服务，例如对整个网络状态的集中监控和网络的重新配置。
 
-For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
+例如，可以为传感器和开关设置详细信息、操作及模式，而不仅仅是简单的开/关。
 
-Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
+使用单根电缆减少了接线的时间和成本，简化了配置，也提供了维护上的优势。
 
-Also, unlike protocols with non-deterministic response characteristics of general communications, fieldbuses guarantee data response speed to satisfy industrial applications where critical time characteristics are important.
+此外，与一般通信的非确定性响应特性协议不同，现场总线保证数据响应速度，以满足对时间特性要求严格的工业应用。
 
 ![[Figure 1.3.8-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/image_1.png>)
 
 <br>
 
-One fieldbus network connects one master device and multiple slave devices.
-The master device searches and manages the entire network and exchanges data with slave devices.
+一个现场总线网络连接一个主设备和多个从设备。
+主设备搜索和管理整个网络，并与从设备交换数据。
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
+一般来说，PLC 是主设备，而传感器、按钮、控制器等可以配置为从设备。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)
-#### 1.3.8.1 CC-Link Slave Specifications
+#### 1.3.8.1 CC-Link 从设备规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -3712,182 +3658,180 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th colspan=3, class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications (Version 1.11)</th>
-		<th class='powderblued'>Specifications (Version 2.0)</th>
+		<th colspan=3, class='powderblued'>类别</th>
+		<th class='powderblued'>规格 (版本 1.11)</th>
+		<th class='powderblued'>规格 (版本 2.0)</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td colspan=3>Maximum Input Size</td>
-		<td>48 bytes</td>
-		<td>368 bytes</td>
+		<td colspan=3>最大输入大小</td>
+		<td>48 字节</td>
+		<td>368 字节</td>
 	</tr>
     <tr>
-		<td colspan=3>Maximum Output Size</td>
-		<td>48 bytes</td>
-		<td>368 bytes</td>
+		<td colspan=3>最大输出大小</td>
+		<td>48 字节</td>
+		<td>368 字节</td>
 	</tr>
     <tr>
-		<td rowspan=6>IO Size</td>
-		<td rowspan=2>IO Station</td>
+		<td rowspan=6>IO 大小</td>
+		<td rowspan=2>IO 站</td>
         <td>RY</td>
-		<td>4 bytes</td>
-		<td>Not supported</td>
+		<td>4 字节</td>
+		<td>不支持</td>
 	</tr>
     <tr>
         <td>RX</td>
-		<td>4 bytes</td>
-		<td>Not supported</td>
+		<td>4 字节</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td rowspan=4>Remote Device</td>
+		<td rowspan=4>远程设备</td>
         <td>RY</td>
-		<td>16 bytes</td>
-		<td>112 Bytes</td>
+		<td>16 字节</td>
+		<td>112 字节</td>
 	</tr>
     <tr>
         <td>RX</td>
-		<td>16 bytes</td>
-		<td>112 Bytes</td>
+		<td>16 字节</td>
+		<td>112 字节</td>
 	</tr>
     <tr>
         <td>RWw</td>
-		<td>32 bytes</td>
-		<td>256 Bytes</td>
+		<td>32 字节</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
         <td>RWr</td>
-		<td>32 bytes</td>
-		<td>256 Bytes</td>
+		<td>32 字节</td>
+		<td>256 字节</td>
 	</tr>
     <tr>
-        <td colspan=2, rowspan=2>Occupied Station</td>
-        <td>IO Station</td>
+        <td colspan=2, rowspan=2>被占用站</td>
+        <td>IO 站</td>
 		<td>1</td>
 		<td> - </td>
 	</tr>
     <tr>
-        <td>Remote Device</td>
+        <td>远程设备</td>
 		<td>1 ~ 4</td>
 		<td>1 ~ 4</td>
 	</tr>
     <tr>
-        <td colspan=3>Extension Cycle</td>
-		<td>Not supported</td>
+        <td colspan=3>扩展周期</td>
+		<td>不支持</td>
 		<td>1, 2, 4, 8</td>
 	</tr>
    <tr>
-		<td colspan=3>Communication Speed</td>
+		<td colspan=3>通信速度</td>
 		<td colspan=2>156 kbit/s ~ 10 Mbit/s</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**CC-Link IO Mapping**
+**CC-Link IO 映射**
 
 <br>
 
 {% hint style="info" %}
-   - CC-Link Version 1
+   - CC-Link 版本 1
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.8.1-1 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_1.png>)
+![[图 1.3.8.1-1 CC-Link IO 映射]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_1.png>)
 
 
 <br>
 
 {% hint style="info" %}
-   - CC-Link Version 2
+   - CC-Link 版本 2
 
-   - Extension Cycle : Single
+   - 扩展周期 : 单
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_2.png>)
+![[图 1.3.8.1-2 CC-Link IO 映射]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_2.png>)
 
 <br>
 
 {% hint style="info" %}
-   - CC-Link Version 2
+   - CC-Link 版本 2
 
-   - Extension Cycle : Double
+   - 扩展周期 : 双
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_3.png>)
+![[图 1.3.8.1-2 CC-Link IO 映射]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_3.png>)
 
 <br>
 
 {% hint style="info" %}
-   - CC-Link Version 2
+   - CC-Link 版本 2
 
-   - Extension Cycle: Quadruple
+   - 扩展周期 : 四倍
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_4.png>)
+![[图 1.3.8.1-2 CC-Link IO 映射]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_4.png>)
 
 <br>
 
 {% hint style="info" %}
-   - CC-Link Version 2
+   - CC-Link 版本 2
 
-   - Extension Cycle : Octuple
+   - 扩展周期 : 八倍
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.8.1-2 CC-Link IO Mapping]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_5.png>)
-
-<br>
+![[图 1.3.8.1-2 CC-Link IO 映射]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Slave_spec/image_5.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/2-Settings-CC-Link-Slave.md)
-#### 1.3.8.2 CC-Link Slave Settings
+#### 1.3.8.2 CC-Link 从站设置
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 <br>
 
 {% hint style="info" %}
-   - For CC-Link connector connection, please refer to the following.
+   - 对于 CC-Link 连接器连接，请参考以下内容。
 
       ("[1.2.2 Connector](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select CC-Link slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用 TP，在工业通信固件设置中选择 CC-Link 从站并重新启动机器人控制器。**
 
 ![[Figure 1.3.8.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查当前通信协议准备状态。**
 
 ![[Figure 1.3.8.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用 Sycon.net 设置的配置文件下载到相应的 PCI 插槽，TP 设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > CC-Link Slave]**
+**3. 触摸菜单以进入从站设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI 从站插槽设置 > CC-Link 从站]**
 
 ![[Figure 1.3.8.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>) 
 
@@ -3895,59 +3839,59 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**4. Description of each item**
+**4. 各项描述**
 
 {% hint style="info" %}
-   [Station Address]
+   [站地址]
 
-   - The CC-Link identifies the slave through the Station Address (1-64).
+   - CC-Link 通过站地址 (1-64) 识别从站。
 {% endhint %}
 
 {% hint style="info" %}
-   [Communication Speed (Baudrate)]
+   [通信速度 (波特率)]
 
-   - You can select from 156, 625, 2500, 5000, and 10000 Kbit/s.
+   - 可以选择 156, 625, 2500, 5000 和 10000 Kbit/s。
 {% endhint %}
 
 {% hint style="info" %}
-   [CC-Link Version]
+   [CC-Link 版本]
 
-   - Version 1: IO Station available, Extension Cycle not available
+   - 版本 1: 可用 IO 站，扩展周期不可用。
 
-   - Version 2: IO Station not available, Extension Cycle available
+   - 版本 2: 不可用 IO 站，扩展周期可用。
 {% endhint %}
 
 {% hint style="info" %}
-   [Occupied Station Count]
+   [占用的站数]
 
-   - IO Station: Occupies 1
+   - IO 站: 占用 1
 
-   - Remote Device: 1-4 selectable
+   - 远程设备: 可选择 1-4
 
-   - The size of the assigned IO byte area varies depending on the number of stations occupied.
+   - 分配的 IO 字节区域大小根据占用的站数而异。
 {% endhint %}
 
 {% hint style="info" %}
-   [Extension Cycle]
+   [扩展周期]
 
-   - Available in Version 2
+   - 在版本 2 可用
 
-   - Remote Device: You can select from Single (1x), Double (2x), Quadruple (4x), and Octuple (8x).
+   - 远程设备: 可以选择单个 (1x)、双重 (2x)、四重 (4x) 和八重 (8x)。
 
-   - The size of the assigned IO byte area varies depending on the Extension Cycle.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-   **For the IO Byte area, please refer to the link below.**
-
-   **(["**1.3.8.1 CC-Link Slave Specifications](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md))**
+   - 分配的 IO 字节区域大小根据扩展周期而异。
 {% endhint %}
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+{% hint style="info" %}
+   **有关 IO 字节区域，请参考以下链接。**
+
+   **(["**1.3.8.1 CC-Link 从站规格](../../3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md))**
+{% endhint %}
+
+<br>
+
+**5. 完成设置后，请按照以下程序检查通信状态。**
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
@@ -3955,75 +3899,73 @@ For the procedure to check the industrial communication status on the TP, please
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**6. 完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. 工业通信 IO 读写](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/3-Error-CC-Link.md)
-#### 1.3.8.3 CC-Link Slave Error Handling
+#### 1.3.8.3 CC-Link 从属设备错误处理
 
 <br>
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+请参阅 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 
 <br>
 
-**1. CC-Link termination resistor**
+**1. CC-Link 终端电阻**
 
 {% hint style="info" %}
-   - A resistor should be added at the termination when connecting the CC-Link cable.
+   - 连接 CC-Link 电缆时，应在终端处添加一个电阻。
 
-   - If communication is not connected, please check the termination resistor.
+   - 如果通信未连接，请检查终端电阻。
 
-   - CC-Link termination resistor: 110 ohms
+   - CC-Link 终端电阻: 110 欧姆
 {% endhint %}
 
 {% hint style="info" %}
-   - As shown in the figure below, if the CIFX-50 CC PCI is at the CC-Link termination, please add a termination resistor.
+   - 如下图所示，如果 CIFX-50 CC PCI 在 CC-Link 终端，请添加终端电阻。
 {% endhint %}
 
 ![[Figure 1.3.8.5-1 CC-Link Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/5-Error/image_1.png>) 
 
 
 
-**2. CC-Link ERROR**
+**2. CC-Link 错误**
 
 {% hint style="info" %}
-   - A 24V power supply to the CC-Link cable is required for communication connection.
+   - 需要 24V 电源为 CC-Link 电缆提供通信连接。
 
-   - If communication is not connected, please check the 24V power supply.
+   - 如果通信未连接，请检查 24V 电源。
 {% endhint %}
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/README.md)
 ### 1.3.9 CC-Link IE Field
 
-This chapter describes the characteristics of CC-Link IE field slaves and how to set them. 
+本章描述了 CC-Link IE 字段从属设备的特性及其设置方法。
 
 
 <br>
 
-**Fieldbus Overview**
+**现场总线概述**
 
-Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
+现场总线是一种行业标准，已开放用于通过单根电缆将传感器、按钮、电机驱动器和操作界面等设备连接到 PLC（可编程逻辑控制器）并在工厂中进行操作。
 
-Fieldbus provides intelligent services such as central monitoring of the status of the entire network or reconfiguration of the network.
+现场总线提供智能服务，例如对整个网络状态的集中监控或网络的重新配置。
 
-For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
+例如，可以为传感器和开关设置详细信息、操作和模式，而不仅仅是简单的开/关。
 
-Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
+使用单根电缆减少了布线的时间和成本，简化了配置，并在维护方面提供了优势。
 
-Also, unlike protocols with non-deterministic response characteristics of general communications, fieldbuses guarantee data response speed to satisfy industrial applications where critical time characteristics are important.
+此外，与一般通信的非确定性响应特性协议不同，现场总线保证数据响应速度，以满足对关键时间特性要求较高的工业应用。
 
 ![[Figure 1.3.9-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/image_1.png>)
 
 <br>
 
-One fieldbus network connects one master device and multiple slave devices.
-The master device searches and manages the entire network and exchanges data with slave devices.
+一个现场总线网络连接一个主设备和多个从设备。
+主设备搜索和管理整个网络，并与从设备交换数据。
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
-
+通常，PLC 是主设备，而传感器、按钮、控制器等可以配置为从设备。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/1-Specification-CC-Link-IE-Field-Slave.md)
 #### 1.3.9.1 CC-Link IE Field Slave Specifications
 
@@ -4035,112 +3977,112 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th colspan=2, class='powderblued'>Category</th>
-		<th colspan=2, class='powderblued'>Specifications</th>
+		<th colspan=2, class='powderblued'>类别</th>
+		<th colspan=2, class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td colspan=2>Network Number</td>
+		<td colspan=2>网络编号</td>
 		<td colspan=2>1-239</td>
 	</tr>
     <tr>
-		<td colspan=2>Station Number</td>
+		<td colspan=2>站点编号</td>
 		<td colspan=2>1-120</td>
 	</tr>
     <tr>
-		<td colspan=2>Communication Speed</td>
+		<td colspan=2>通信速度</td>
 		<td colspan=2>1Gbps</td>
 	</tr>
     <tr>
-		<td colspan=2>Device Type</td>
-		<td>Intelligent Device Station</td>
-        <td>Remote Device Station</td>
+		<td colspan=2>设备类型</td>
+		<td>智能设备站</td>
+        <td>远程设备站</td>
 	</tr>
     <tr>
-		<td rowspan=4>IO Size</td>
-        <td>RY data</td>
-		<td>4-256 bytes (32-2048 bits)</td>
-        <td>4-16 bytes (32-128 bits)</td>
+		<td rowspan=4>IO大小</td>
+        <td>RY数据</td>
+		<td>4-256字节（32-2048位）</td>
+        <td>4-16字节（32-128位）</td>
 	</tr>
     <tr>
-        <td>RX data</td>
-		<td>0 - 256 bytes (0 - 2048 bits)</td>
-        <td>0 - 16 bytes (0 - 128 bits)</td>
+        <td>RX数据</td>
+		<td>0 - 256字节（0 - 2048位）</td>
+        <td>0 - 16字节（0 - 128位）</td>
 	</tr>
     <tr>
-        <td>RWw data</td>
-		<td>0 - 1024 words</td>
-        <td>0 - 64 words</td>
+        <td>RWw数据</td>
+		<td>0 - 1024字</td>
+        <td>0 - 64字</td>
 	</tr>
     <tr>
-        <td>RWr data</td>
-		<td>0-1024 words</td>
-        <td>0-64 words</td>
+        <td>RWr数据</td>
+		<td>0-1024字</td>
+        <td>0-64字</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>Ethernet II, IEEE 802.3</td>
+		<td>数据传输层</td>
+		<td>以太网 II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>1000 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>1000 BASE-T以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Constantly On</td>
+		<td>自动协商</td>
+		<td>始终开启</td>
 	</tr>
     <tr>
-		<td>Auto-Crossover</td>
-		<td>Constantly On</td>
+		<td>自动交叉</td>
+		<td>始终开启</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat6, STP</td>
+		<td>电缆</td>
+		<td>至少Cat6，STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最多100m</td>
 	</tr>
 	<tr>
-		<td>Wiring</td>
-		<td>Fully occupied cable (all 8 cable cores)</td>
+		<td>布线</td>
+		<td>完全占用电缆（所有8个电缆芯）</td>
 	</tr>
 </tbody>
 </table>
@@ -4149,7 +4091,6 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 #### 1.3.9.2 CC-Link IE Field Slave Settings
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
-
 
 <br>
 
@@ -4166,7 +4107,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[Caution]**: 如果使用 Sycon.net 设置的配置文件被下载到相应的 PCI 插槽，将忽略 TP 设置。
 {% endhint %}
 
 <br>
@@ -4185,49 +4126,49 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 {% hint style="info" %}
    [Network Number]
 
-   - CC-Link IE field network number (1-239)
+   - CC-Link IE 现场网络编号 (1-239)
 {% endhint %}
 
 {% hint style="info" %}
    [Station Address]
 
-   - Device ID within the connected network (1-120)
+   - 连接网络中的设备ID (1-120)
 {% endhint %}
 
 {% hint style="info" %}
    [IO Type]
 
-   - IO type is determined by the master device settings.   
-      - Mixed: Input and output use different indexes (different addresses).   
-      - Input: Input only   
-      - Output: Output only   
-      - FrontBackMixture: Input and output use the same index (same address).   
+   - IO 类型由主设备设置决定。   
+      - Mixed: 输入和输出使用不同索引 (不同地址)。   
+      - Input: 仅输入   
+      - Output: 仅输出   
+      - FrontBackMixture: 输入和输出使用相同索引 (相同地址)。   
 {% endhint %}
 
 {% hint style="info" %}
    [Device Type]
 
-   - The maximum IO size that can be set varies depending on the Device Type.
+   - 可设置的最大 IO 大小因设备类型而异。
 
-   - Intelligent Device Station   
-      - RY, RX (max): 256 bytes   
-      - RWw, RWr (max): 1024 words
+   - 智能设备站   
+      - RY, RX (最大): 256 字节   
+      - RWw, RWr (最大): 1024 字
 
-   - Remote Device Station   
-      - RY, RX (max): 16 bytes   
-      - RWw, RWr (max): 64 words
+   - 远程设备站   
+      - RY, RX (最大): 16 字节   
+      - RWw, RWr (最大): 64 字
 {% endhint %}
 
 {% hint style="info" %}
    [IO Size]
 
    - Master -> Slave
-      - RWw (word data)
-      - RY (bit data)
+      - RWw (字数据)
+      - RY (位数据)
 
    - Slave -> Master   
-      - RWr (word data)   
-      - RX (bit data)  
+      - RWr (字数据)   
+      - RX (位数据)  
 {% endhint %}
 
 <br>
@@ -4241,56 +4182,53 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) 
+![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>)
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/3-Error-CC-Link-IE-Field.md)
-#### 1.3.9.3 CC-Link IE Field Slave Error Handling
+#### 1.3.9.3 CC-Link IE Field Slave 错误处理
 
 <br>
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
-
+请参阅 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/README.md)
-### 1.3.10 EtherNet/IP - Standard Remote IO Connection
+### 1.3.10 EtherNet/IP - 标准远程 IO 连接
 
 <br>
 
-This chapter explains how to connect several standard Remote IO modules selected by our company using the EtherNet/IP scanner (master).
+本章解释了如何使用 EtherNet/IP 扫描仪 (主) 连接我们公司选定的多个标准远程 IO 模块。
 
 <br>
 
 {% hint style="info" %}
-   - The EtherNet/IP scanner (master) uses the CIFX-50 real time Ethernet PCI.
+   - EtherNet/IP 扫描仪 (主) 使用 CIFX-50 实时 Ethernet PCI.
 
 
-   - Remote IO module uses the M9289 EtherNet/IP network adapter from Crevis.
+   - 远程 IO 模块使用来自 Crevis 的 M9289 EtherNet/IP 网络适配器。
 {% endhint %}
-
-
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)
-#### 1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings
+#### 1.3.10.1 EtherNet/IP - 标准远程 IO 连接设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 程序，然后继续以下方法。
 
 <br>
 
-**1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.**
+**1. 在工业通信固件设置中选择 EtherNet/IP 主站并重启机器人控制器。**
 
 ![[Figure 1.3.10.1-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查所选协议的就绪状态。**
 
 ![[Figure 1.3.10.1-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
-**3. Connect the PCI and Remote IO cables, etc. for communication and check the status.**
+**3. 连接 PCI 和远程 IO 电缆等以进行通信并检查状态。**
 
 ![[Figure 1.3.10.1-3 Hardware Connection]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
@@ -4299,27 +4237,27 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 <br>
 
 {% hint style="info" %}
-   - Please connect the PCI and Remote IO using a LAN cable.
+   - 请使用 LAN 电缆连接 PCI 和远程 IO。
 
-   - Set all DIP switches of the Remote IO to OFF.
+   - 将远程 IO 的所有 DIP 开关设置为 OFF。
 
-   - Connect both the Remote IO power and Field Power (24 V DC).
+   - 同时连接远程 IO 电源和现场电源 (24 V DC)。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - The factory default IP of the Crevis M9289 Remote IO is 192.168.100.99.
+   - Crevis M9289 远程 IO 的工厂默认 IP 为 192.168.100.99。
 
-   - The Remote IO IP should be set to 192.168.100.99 to enable communication connection.
+   - 远程 IO IP 应设置为 192.168.100.99 以启用通信连接。
 
-   - "[1.3.10.2 Remote IO IP Setting](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 远程 IO IP 设置](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
 
-**4. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherNet/IP Remote IO Setting]**
+**4. 触摸菜单以进入从站设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI 从站插槽设置 > EtherNet/IP 远程 IO 设置]**
 
 ![[Figure 1.3.10.1-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>)
 
@@ -4328,62 +4266,62 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 <br>
 
 {% hint style="info" %}
-   - The IP is set as a fixed value.
+   - IP 被设置为固定值。
 
-   - Check the input and output byte counts.
+   - 检查输入和输出字节计数。
 
-   - The selected input and output byte counts should be less than or equal to the IO byte counts of the card installed in the Remote IO slot.
+   - 所选的输入和输出字节计数应小于或等于安装在远程 IO 插槽中的卡的 IO 字节计数。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Input Module  
-   - M12DF: Digital 16 points  
-   - M3534: Analog 4 points  
+   - 输入模块  
+   - M12DF: 数字 16 点  
+   - M3534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Output Module  
-   - M225F: Digital 16 points  
-   - M226F: Digital 16 points  
-   - M2768: Digital 8 points   
-   - M4534: Analog 4 points  
+   - 输出模块  
+   - M225F: 数字 16 点  
+   - M226F: 数字 16 点  
+   - M2768: 数字 8 点   
+   - M4534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Special Module  
-   - M5112 : Conveyer I/F
+   - 特殊模块  
+   - M5112 : 输送机 I/F
 {% endhint %}
 
 <br>
 
-**5. Reboot the controller after completing the settings.**
+**5. 完成设置后重启控制器。**
 
 ![[Figure 1.3.10.1-7 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>)
 
 ![[Figure 1.3.10.1-8 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
-   - Please reboot the controller after completing the settings.
+   - 请在完成设置后重启控制器。
 {% endhint %}
 
 <br>
 
-**6. After confirming that the setting values are reflected, check the communication status.**
+**6. 在确认设置值已反映后，检查通信状态。**
 
 ![[Figure 1.3.10.1-9 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>)
 
-For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+要查看 TP 上工业通信状态的程序，请参考 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 
 ![[Figure 1.3.10.1-10 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>)
 
 {% hint style="info" %}
-   - If communication is not connected, you should check the Remote IO IP.
+   - 如果通信未连接，您应检查远程 IO IP。
 
-   - Please follow the steps below. (If not 192.168.100.99)
+   - 请遵循以下步骤。 (如果不是 192.168.100.99)
 
-   - "[1.3.10.2 Remote IO IP Setting](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 远程 IO IP 设置](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 ![[Figure 1.3.10.1-11 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
@@ -4392,40 +4330,40 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-**7. Assign IO blocks after completing the communication settings.**
+**7. 在完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)
-#### 1.3.10.2 Remote IO IP Address Settings
+#### 1.3.10.2 远程 IO IP 地址设置
 
-This is how to set the IP address of the M9289 EtherNet/IP network adapter from Crevis.
+这就是如何设置 Crevis 的 M9289 EtherNet/IP 网络适配器的 IP 地址。
 
 <br>
 
 {% hint style="info" %}
-   - The factory default IP of the Crevis M9289 Remote IO is 192.168.100.99.
+   - Crevis M9289 远程 IO 的出厂默认 IP 为 192.168.100.99。
 
-   - If you do not know the Remote IO IP or need to change it, please follow the steps below.
+   - 如果您不知道远程 IO IP 或需要更改它，请按照以下步骤操作。
 {% endhint %}
 
 <br>
 
-**1. Connect the PC and Remote IO directly using a LAN cable.**
+**1. 使用 LAN 电缆直接连接 PC 和远程 IO。**
 
 ![[Figure 1.3.10.2-1 LAN Connection]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_1.png>)  
 
 <br>
 
-**2. Change only DIP switch 9 of the Remote IO Adapter to ON.**
+**2. 仅将远程 IO 适配器的 DIP 开关 9 切换到 ON。**
 
 ![[Figure 1.3.10.2-2 DIP Switch]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_2.png>)  
 
 <br>
 
-**3. Execute the Bootpsvr.exe program.**
-   * This program is provided by Crevis. (Download and install IO Guide Pro from the website.)
+**3. 执行 Bootpsvr.exe 程序。**
+   * 该程序由 Crevis 提供。 (从网站上下载并安装 IO Guide Pro。)
 
 ![[Figure 1.3.10.2-3 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_3.png>)  
 
@@ -4434,122 +4372,120 @@ This is how to set the IP address of the M9289 EtherNet/IP network adapter from 
 <br>
 
 {% hint style="info" %}
-   - With Start BootP being pressed, disconnect and reapply power to the M9289 module to reboot it.
+   - 在按下 Start BootP 的同时，断开并重新连接 M9289 模块的电源以重启它。
 {% endhint %}
 
 ![[Figure 1.3.10.2-5 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_5.png>)  
 
 <br>
 
-
-**4. When the adapter device is rebooted, the device information will appear in the BootpSvr.exe program.**
+**4. 当适配器设备重新启动时，设备信息将出现在 BootpSvr.exe 程序中。**
 
 ![[Figure 1.3.10.2-6 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_6.png>) 
 
 <br>
 
-**5. Select the device and set the IP.**
+**5. 选择设备并设置 IP。**
 
 ![[Figure 1.3.10.2-7 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_7.png>)
 ![[Figure 1.3.10.2-8 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_8.png>) 
 
 <br>
 
-**6. After completing the IP setting, turn all DIP switches of the adapter to OFF and reboot the device.**
+**6. 完成 IP 设置后，将适配器的所有 DIP 开关切换到 OFF 并重启设备。**
 
 {% hint style="info" %}
-   - Be sure to check the DIP switch status and whether the adapter is rebooted.
+   - 一定要检查 DIP 开关状态以及适配器是否已重启。
 {% endhint %}
 
 ![[Figure 1.3.10.2-9 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_9.png>) 
 
 <br>
 
-**7. Use the ping test, etc. on the PC to verify the IP.**
+**7. 在 PC 上使用 ping 测试等验证 IP。**
 
 ![[Figure 1.3.10.2-10 Bootp]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-IP-Setting/image_10.png>) 
 
 <br>
 
-**8. If the IP address has been changed successfully, proceed with settings.**
+**8. 如果 IP 地址已成功更改，请继续设置。**
 
 {% hint style="info" %}
-   - Please proceed with the settings according to the "[1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)" procedure.
+   - 请按照“[1.3.10.1 EtherNet/IP - 标准远程 IO 连接设置](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Settings-EtherNet-IP-Remote-IO.md)”程序进行设置。
 {% endhint %}
-
 [__SOURCE](1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)
-## 1.4 CIFX PCI Communication Monitoring
+## 1.4 CIFX PCI 通信监控
 
 <br>
 
-After setting the communication according to the procedures of "[1.2 CIFX PCI - Installing and Setting Industrial Communication Cards](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)" and "[1.3 CIFX PCI - Setting Industrial Communication](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)," you can check the operations in the following screens.
+按照“[1.2 CIFX PCI - 安装和设置工业通信卡](../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/1-PCI-industrial-communication-card.md)”和“[1.3 CIFX PCI - 设置工业通信](../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”的程序设置好通信后，可以在以下屏幕中查看操作情况。
 
 <br>
 
-**1. Industrial Communication Monitoring**
+**1. 工业通信监控**
 
 <br>
 
-You can enter the screens by touching **\[Service > 19: Industrial Communication Monitoring]**, and check the details such as the set firmware information, communication status, and communication configuration in relevant screens.
-
-<br>
-
-{% hint style="info" %}
-   - Using the **\[Restart]** button, you can restart the industrial communication of the PCI communication card.
-
-   - Please check the status of the slot, firmware, and device.
-
-   - For the master, check whether the number of the configured and active slaves matches the number of configured slaves.
-{% endhint %}
-
-<br>
-
-![[Figure 1.4-1 Industrial Communication Monitoring]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_1.png>)
+您可以通过触摸 **\[Service > 19: 工业通信监控]** 进入屏幕，并在相关屏幕中检查设置的固件信息、通信状态和通信配置等详细信息。
 
 <br>
 
 {% hint style="info" %}
-   [Status Information]   
-      - Communication: Communication link established and I/O data exchanging   
-      - Run: Communication card (PCI) is operating   
-      - Ready: Communication is in standby state   
-      - Error: Communication error state   
+   - 使用 **\[重启]** 按钮，您可以重启 PCI 通信卡的工业通信。
 
-      - Communication Error: Error code occurred during communication   
-      - Error Count: Accumulated number of communication errors   
-      - Active Slaves: Number of slaves currently connected and exchanging I/O data   
-      - Configured Slaves: Number of slaves configured for communication   
-      - Diag Slave: Number of slaves under communication diagnostics   
-      - Watchdog Time (ms): Timeout value for monitoring communication program activity   
+   - 请检查槽位、固件和设备的状态。
+
+   - 对于主设备，请检查配置和活动从设备的数量是否与配置的从设备数量匹配。
 {% endhint %}
 
 <br>
 
-**2. Industrial Communication Node Monitoring**
+![[Figure 1.4-1 工业通信监控]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_1.png>)
+
+<br>
+
+{% hint style="info" %}
+   [状态信息]   
+      - 通信：通信链路已建立并正在交换 I/O 数据   
+      - 运行：通信卡（PCI）正在运行   
+      - 就绪：通信处于待机状态   
+      - 错误：通信错误状态   
+
+      - 通信错误：通信过程中发生的错误代码   
+      - 错误计数：累计的通信错误数量   
+      - 活动从设备：当前连接并交换 I/O 数据的从设备数量   
+      - 配置从设备：为通信配置的从设备数量   
+      - 诊断从设备：处于通信诊断中的从设备数量   
+      - 看门狗时间（毫秒）：用于监控通信程序活动的超时值   
+{% endhint %}
+
+<br>
+
+**2. 工业通信节点监控**
 
 <br> 
 
-Click the Node Statue button at the bottom of the monitoring screen to monitor the status of devices connected to the master protocol
+点击监控屏幕底部的节点状态按钮，以监控连接到主协议的设备状态
 
 <br>
 
-![[그림 1.4-2 Industrial Communication Monitoring]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_2.png>)
+![[图 1.4-2 工业通信监控]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_2.png>)
 
 {% hint style="info" %}
-   [Node Status Information]   
-      - Green: Node currently connected and exchanging I/O data   
-      - Red: Node configured but not connected   
+   [节点状态信息]   
+      - 绿色：节点当前已连接并交换 I/O 数据   
+      - 红色：节点已配置但未连接   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - In the case of DeviceNet Master, you can monitor by scanning the node information list
+   - 在 DeviceNet 主设备的情况下，您可以通过扫描节点信息列表进行监控
 {% endhint %}
 
 <br>
 
-![[그림 1.4-3 Industrial Communication Monitoring]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_3.png>)
+![[图 1.4-3 工业通信监控]](<../../_assets/1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/image_3.png>)
 [__SOURCE](1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)
 ### 1.4.1 ERROR Code
 
@@ -4567,142 +4503,139 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table class="tg">
 <thead>
 	<tr>
-		<th>Error Code</th>
-		<th>Description</th>
-		<th>Action</th>
+		<th>错误代码</th>
+		<th>描述</th>
+		<th>操作</th>
 	</tr>
 </thead>
 
 <tbody>
 	<tr>
 		<td>0x00000000</td>
-		<td>Normal</td>
+		<td>正常</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0xC000000C</td>
-		<td>Watchdog timeout between controller and PCI</td>
-		<td>Please check the status of the controller and device. They can be reset by restarting communication.</td>
+		<td>控制器和PCI之间的看门狗超时</td>
+		<td>请检查控制器和设备的状态。可以通过重启通信来重置它们。</td>
 	</tr>
     <tr>
 		<td>0xC0000123</td>
-		<td>No license</td>
-		<td>Please check if you have a license for master. </td>
+		<td>没有许可证</td>
+		<td>请检查您是否拥有主控的许可证。</td>
 	</tr>
     <tr>
 		<td>0xC0000140</td>
-		<td>Communication error</td>
-		<td>Please check the status or connection of the device.</td>
+		<td>通信错误</td>
+		<td>请检查设备的状态或连接。</td>
 	</tr>
     <tr>
 		<td>0xC0000141</td>
-		<td>Connection lost</td>
-		<td>Please check the status or connection of the device.</td>
+		<td>连接丢失</td>
+		<td>请检查设备的状态或连接。</td>
 	</tr>
     <tr>
 		<td>0xC0000142</td>
-		<td>Connection waiting timeout</td>
-		<td>Please check the status or connection of the device.</td>
+		<td>连接等待超时</td>
+		<td>请检查设备的状态或连接。</td>
 	</tr>
     <tr>
 		<td>0xC0000144</td>
-		<td>Duplicate IP address</td>
-		<td>Check the IP addresses of connected devices and change the duplicate addresses.</td>
+		<td>重复的IP地址</td>
+		<td>检查连接设备的IP地址并更改重复的地址。</td>
 	</tr>
     <tr>
 		<td>0xC0000145</td>
-		<td>Cable not connected</td>
-		<td>Please check the connection status of the communication cable.</td>
+		<td>电缆未连接</td>
+		<td>请检查通信电缆的连接状态。</td>
 	</tr>
     <tr>
 		<td>0xC0000180</td>
-		<td>Communication bus off flag set <br> [Possible causes] <br> - CAN High/Low communication line short circuit detected <br> - Unstable power supply voltage <br> - Continuous network errors due to noise, etc.</td>
-		<td>Check the contact status or wiring of the communication cable, and reset the device.</td>
+		<td>通信总线关闭标志设置 <br> [可能的原因] <br> - 检测到CAN高/低通信线短路 <br> - 不稳定的电源电压 <br> - 由于噪音等导致的持续网络错误</td>
+		<td>检查通信电缆的接触状态或接线，并重置设备。</td>
 	</tr>
     <tr>
 		<td>0xC0470298</td>
-		<td>DeviceNet 24V not supplied</td>
-		<td>Please check the DeviceNet 24V power supply.</td>
+		<td>未供电DeviceNet 24V</td>
+		<td>请检查DeviceNet 24V电源。</td>
 	</tr>
 	<tr>
 		<td>0xC0620023</td>
-		<td>DeviceNet slave bus off detected <br> [Possible causes] <br>  - CAN High/Low communication line short circuit detected <br>  - Unstable power supply voltage <br>  - Continuous network errors due to noise, etc.</td>
-		<td>Check the contact status or wiring of the communication cable, and reset the device. </td>
+		<td>检测到DeviceNet从站总线关闭 <br> [可能的原因] <br>  - 检测到CAN高/低通信线短路 <br>  - 不稳定的电源电压 <br>  - 由于噪音等导致的持续网络错误</td>
+		<td>检查通信电缆的接触状态或接线，并重置设备。</td>
 	</tr>
     <tr>
 		<td>0xC062002C</td>
-		<td>DeviceNet slave 24V not supplied</td>
-		<td>Please check the DeviceNet 24V power supply.</td>
+		<td>未供电DeviceNet从站24V</td>
+		<td>请检查DeviceNet 24V电源。</td>
 	</tr>
 </tbody>
 </table>
-
-
 [__SOURCE](2-ethernet-ip/README.md)
 # 2. EtherNet/IP
 
-This chapter describes the characteristics and configuration methods of the built-in EtherNet/IP Master (Scanner) and Slave (Adapter).
+本章描述了内置 EtherNet/IP 主站（扫描器）和从站（适配器）的特性和配置方法。
 <br>
 
-**EtherNet/IP Overview**
+**EtherNet/IP 概述**
 
 <br>
 
-EtherNet/IP is an Ethernet-based open industrial communication protocol developed by CI (ControlNet International) and ODVA (Open DeviceNet Vendors Association)
+EtherNet/IP 是由 CI (ControlNet International) 和 ODVA (Open DeviceNet Vendors Association) 开发的基于以太网的开放工业通信协议。
 
-In a factory environment, various devices such as sensors, remote I/Os, motor drivers, HMIs, PLCs and robot controllers can be connected to a single EtherNet/IP network, regardless of the manufacturer.
+在工厂环境中，各种设备，如传感器、远程 I/O、马达驱动器、HMI、PLC 和机器人控制器，可以连接到单一 EtherNet/IP 网络中，无论制造商如何。
 
 ![[Figure 2-1 EtherNet/IP]](<../_assets//2-ethernet-ip/image_1.png>)
- 
+
 
 <br>
 
-EtherNet/IP is classified as follows based on its communication functions:
+根据其通信功能，EtherNet/IP 被分类如下：
 
-**Scanner Class**
+**扫描器类**
 
-   * These products correspond to traditional Fieldbus Masters and can request I/O data connections from EtherNet/IP Adapters or Scanners.
+   * 这些产品对应于传统的现场总线主站，可以请求 EtherNet/IP 适配器或扫描器的 I/O 数据连接。
 
 <br>
 
-**Adapter Class**
+**适配器类**
 
-  * These products correspond to traditional Fieldbus Slaves and serve as the connection targets for real-time I/O data requested by an EtherNet/IP Scanner.
+  * 这些产品对应于传统的现场总线从站，并作为实时 I/O 数据请求的连接目标，由 EtherNet/IP 扫描器发起。
     
-  * An Adapter cannot transmit or receive real-time I/O data on its own without a request from a Scanner.
+  * 适配器不能在没有扫描器请求的情况下自行传输或接收实时 I/O 数据。
 
 <br>
 
-**Messaging Class**
+**消息类**
 
-   * These products are capable of sending and receiving explicit messages to and from products of all classes, but they do not support real-time I/O data transmission.
+   * 这些产品能够向所有类产品发送和接收明确消息，但不支持实时 I/O 数据传输。
    
-   * Examples include computer interface cards for program upload/download and network configuration tools.
+   * 示例包括用于程序上传/下载和网络配置工具的计算机接口卡。
 
 <br>
 
-**Abbreviation**
+**缩写**
 
 <br>
 
-|Abbreviation|Description|
+|缩写|描述|
 |---------------|------------------------------|
-|Adapter|A device that collects output data from and transmits input data to an EtherNet/IP Scanner|
-|Scanner|A device that sends output data to and collects input data from end devices (EtherNet/IP Adapters)|
-|LAN| Local Area Network|
-|RPI|Requested Packet Interval|
-|PLC|Programmable logic controller|
-|T2O|Target to Originator (Adapter -> Scanner)|
-|O2T|Originator to Target (Scanner -> Adapter)|
-
+|适配器|从 EtherNet/IP 扫描器收集输出数据并向其传输输入数据的设备|
+|扫描器|向最终设备（EtherNet/IP 适配器）发送输出数据并收集输入数据的设备|
+|LAN|局域网|
+|RPI|请求数据包间隔|
+|PLC|可编程逻辑控制器|
+|T2O|从目标到发起者（适配器 -> 扫描器）|
+|O2T|从发起者到目标（扫描器 -> 适配器)|
 [__SOURCE](2-ethernet-ip/1-network.md)
-## 2.1 Network Settings
+## 2.1 网络设置
 
-**1. Main Module**
+**1. 主模块**
 
 <br>
 
-The LAN ports that can connect with the EtherNet/IP adapter are LAN1/LAN2/LAN3.
+可以与 EtherNet/IP 适配器连接的 LAN 端口是 LAN1/LAN2/LAN3。
 
 <br>
 
@@ -4710,11 +4643,11 @@ The LAN ports that can connect with the EtherNet/IP adapter are LAN1/LAN2/LAN3.
 
 <br>
 
-**2. Network Settings**
+**2. 网络设置**
 
 <br>
 
-Select a LAN port to connect EtherNet/IP communication and then check the settings of the LAN port through the TP screen as shown below and change the settings as needed.
+选择一个 LAN 端口来连接 EtherNet/IP 通信，然后通过 TP 屏幕检查 LAN 端口的设置，如下所示，并根据需要更改设置。
 
 <br>
 
@@ -4723,22 +4656,22 @@ Select a LAN port to connect EtherNet/IP communication and then check the settin
 <br>
 
 {% hint style="info" %}
-   - The subnet portion of each IP address of LAN1/LAN2/LAN3 should be set differently.
+   - LAN1/LAN2/LAN3 每个 IP 地址的子网部分应该设置得不同。
 
-   - After changing the settings, reboot the robot controller.
+   - 更改设置后，请重新启动机器人控制器。
 {% endhint %}
 
 <br>
 
-**3. Connection Status Check**
+**3. 连接状态检查**
 
 <br>
 
-The status of the physical connection with the EtherNet/IP scanner can be checked according to the status of the Link/Act LED of the LAN port.
+可以根据 LAN 端口的 Link/Act LED 状态检查与 EtherNet/IP 扫描仪的物理连接状态。
 
 <br>
 
-Connect the EtherNet/IP adapter and scanner with a LAN cable and then check the LED status. If the LED on the left does not light up or blink, it means there is a problem with the cable or adapter or scanner device. Please check the connection status of the cable or device.
+使用 LAN 电缆连接 EtherNet/IP 适配器和扫描仪，然后检查 LED 状态。如果左侧的 LED 不亮或不闪烁，则表示电缆、适配器或扫描仪设备存在问题。请检查电缆或设备的连接状态。
 
 <br>
 
@@ -4746,11 +4679,11 @@ Connect the EtherNet/IP adapter and scanner with a LAN cable and then check the 
 
 <br>
 
-**4. Network Configuration**
+**4. 网络配置**
 
 <br>
 
-It is recommended to configure the EtherNet/IP Network and Factory Network as separate networks. As shown in the figure below, if you configure the EtherNet/IP Network and Factory Network as one network, they will share one transmission medium, increasing the network load. Therefore, it is recommended to use a separately configured network for the EtherNet/IP Network if possible.
+建议将 EtherNet/IP 网络和工厂网络配置为不同的网络。如下面的图所示，如果将 EtherNet/IP 网络和工厂网络配置为一个网络，它们将共享一个传输介质，增加网络负载。因此，建议如果可能的话，为 EtherNet/IP 网络使用单独配置的网络。
 
 <br>
 
@@ -4761,15 +4694,14 @@ It is recommended to configure the EtherNet/IP Network and Factory Network as se
 ![figure 2.1-5 Network](../_assets/2-ethernet-ip/1-network/Good_Network.png)
 
 <br>
-
 [__SOURCE](2-ethernet-ip/2-license.md)
-## 2.2 License Settings
+## 2.2 许可证设置
 
-**1. License Activation**
+**1. 许可证激活**
 
 <br>
 
-On the initial screen, navigate to "System" > "2: Control Parameters" > "10: License Key Registration for Optional Functions"
+在初始屏幕上，导航到“系统” > “2: 控制参数” > “10: 可选功能的许可证密钥注册”
 
 <br>
 
@@ -4777,35 +4709,32 @@ On the initial screen, navigate to "System" > "2: Control Parameters" > "10: Lic
 
 <br>
 
-1. Deliver the system serial number to the license administrator
-2. Obtain the license key from the administrator, enter it, and press the "Confirm" button
-3. License Key [XXXXXX] ==>OK Confirm
-4. Select "Valid" for the "Embedded EtherNet/IP slave" or "Embedded EtherNet/IP master" from the license list.
+1. 将系统序列号交给许可证管理员
+2. 从管理员处获取许可证密钥，输入后按“确认”按钮
+3. 许可证密钥 [XXXXXX] ==>确认成功
+4. 从许可证列表中选择“嵌入式 EtherNet/IP 从设备”或“嵌入式 EtherNet/IP 主设备”作为“有效”。
 
 <br>
 
 {% hint style="info" %}
-   [EtherNet/IP Licensing Policy]
+   [EtherNet/IP 许可政策]
 
-   - Slave License : Supports EtherNet/IP Slave only
+   - 从设备许可证：仅支持 EtherNet/IP 从设备
 
-   - Master License : Supports both EtherNet/IP Master and Slave
+   - 主设备许可证：支持 EtherNet/IP 主设备和从设备
 {% endhint %}
 
 <br>
 [__SOURCE](2-ethernet-ip/3-adapter/README.md)
-## 2.3 EtherNet/IP Adapter (Slave)
+## 2.3 EtherNet/IP 适配器 (从设备)
 
 <br>
 
-This section provides an overview and instructions for the built-in EtherNet/IP Adapter (Slave)
+本节提供内置 EtherNet/IP 适配器 (从设备) 的概述和说明
 
 <br>
-
-
 [__SOURCE](2-ethernet-ip/3-adapter/1-specification.md)
-### 2.3.1 EtherNet/IP Adapter Specifications (Slave)
-
+### 2.3.1 EtherNet/IP适配器规格（从设备）
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -4815,138 +4744,138 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th colspan=2, class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th colspan=2, class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-        <td>Connection</td>
-        <td>O (Master) -> T (Slave)</td>
-		<td>T (Slave) -> O (Master)</td>
+        <td>连接</td>
+        <td>O (主设备) -> T (从设备)</td>
+		<td>T (从设备) -> O (主设备)</td>
 	</tr>
     <tr>
-        <td>Maximum IO Size</td>
-        <td>240 bytes</td>
-		<td>240 bytes</td>
+        <td>最大IO大小</td>
+        <td>240字节</td>
+		<td>240字节</td>
 	</tr>
     <tr>
-        <td>Instance No.</td>
+        <td>实例号</td>
         <td>112 (0x70)</td>
 		<td>100 (0x64)</td>
 	</tr>
     <tr>
-        <td>Real-Time Transfer Format</td>
-        <td>32-bit run/idle header</td>
-		<td>None</td>
+        <td>实时传输格式</td>
+        <td>32位运行/空闲头部</td>
+		<td>无</td>
 	</tr>
 	<tr>
-        <td>Connection Type</td>
-        <td>Point to Point</td>
-		<td>Point to Point</td>
+        <td>连接类型</td>
+        <td>点对点</td>
+		<td>点对点</td>
 	</tr>
 	<tr>
-        <td>Priority</td>
-        <td>Scheduled</td>
-		<td>Scheduled</td>
+        <td>优先级</td>
+        <td>计划</td>
+		<td>计划</td>
 	</tr>
     <tr>
-		<td>IO Cycle Time (RPI)</td>
-		<td colspan=2>Min. 5ms</td>
+		<td>IO周期时间（RPI）</td>
+		<td colspan=2>最小5毫秒</td>
 	</tr>
     <tr>
-		<td>Device Type</td>
-		<td colspan=2>General Purpose Discrete I/O</td>
+		<td>设备类型</td>
+		<td colspan=2>通用离散I/O</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td colspan=2>10 or 100 Mbit/s</td>
+		<td>通信速度</td>
+		<td colspan=2>10或100 Mbit/s</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td colspan=2>Not supported</td>
+		<td>快速连接</td>
+		<td colspan=2>不支持</td>
 	</tr>
     <tr>
-		<td >IP Allocation Method</td>
-		<td colspan=2>Static IP Address</td>
+		<td >IP分配方法</td>
+		<td colspan=2>静态IP地址</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>Ethernet II, IEEE 802.3</td>
+		<td>数据传输层</td>
+		<td>以太网II，IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>10 or 100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>10或100 BASE-T以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Supported</td>
+		<td>自动协商</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Allowed</td>
+		<td>集线器</td>
+		<td>允许</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Allowed</td>
+		<td>交换机</td>
+		<td>允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>最小Cat5，STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大100米</td>
 	</tr>
 </tbody>
 </table>
 <br>
 [__SOURCE](2-ethernet-ip/3-adapter/2-settings.md)
-### 2.3.2 EtherNet/IP Adapter (Slave) Settings
+### 2.3.2 EtherNet/IP适配器（从属）设置
 
 <br>
 
-**1. EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant**
+**1. 通过教学挂件进行EtherNet/IP适配器设置和监控**
 
 <br>
 
-**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 3: EtherNet/IP设置]**
 
 <br>
 
@@ -4955,60 +4884,59 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   [Protocol Settings]
+   [协议设置]
 
-      - OFF : EtherNet/IP disable   
-      - Adapter : EtherNet/IP Adapter mode   
-      - Scanner : EtherNet/IP Scanner mode   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
+      - OFF : 禁用EtherNet/IP   
+      - Adapter : EtherNet/IP适配器模式   
+      - Scanner : EtherNet/IP扫描模式   
+      - Adapter + Scanner : EtherNet/IP适配器 + 扫描仪模式   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Port Settings]
+   [端口设置]
 
-      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+      - 通用控制器LAN1到LAN3可用（确保状态为“OK”）
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [IO Size]
+   [IO大小]
 
-      -	Input Byte Count: 0-240 can be set.   
-      -	Output Byte Count: 0-240 can be set.
+      - 输入字节数：可以设置为0-240。   
+      - 输出字节数：可以设置为0-240。
 {% endhint %}   
 
 <br>
 
 {% hint style="info" %}
-   [Communication Status Check]   
+   [通信状态检查]   
 
-      - License: Current license status   
-      - Run: Indicates the operational status of the EtherNet/IP function   
-      - Communication: Indicates the EtherNet/IP connection status   
-      - Error: Indicates the EtherNet/IP error status    
+      - License: 当前许可证状态   
+      - Run: 表示EtherNet/IP功能的操作状态   
+      - Communication: 表示EtherNet/IP连接状态   
+      - Error: 表示EtherNet/IP错误状态    
 {% endhint %}
-
 [__SOURCE](2-ethernet-ip/3-adapter/3-connect-scanner/README.md)
-### 2.3.3 Connecting External Scanner Devices
+### 2.3.3 连接外部扫描仪设备
 
 <br>
 
-This section explains how to connect the external EtherNet/IP Scanner to the EtherNet/IP Adapter.
+本节解释如何将外部 EtherNet/IP 扫描仪连接到 EtherNet/IP 适配器。
 [__SOURCE](2-ethernet-ip/3-adapter/3-connect-scanner/1-connect-ls-plc.md)
 #### 2.3.3.1 LS ELECTRIC PLC
 
 <br>
 
-This section explains how to connect the LS ELECTRIC PLC with EtherNet/IP.  
-The PLC and communication module used below are as follows.  
-(PLC: XGI-CPUS, Communication Module: XGL-EFMTB)
+本节解释如何将 LS ELECTRIC PLC 与 EtherNet/IP 连接。  
+下面使用的 PLC 和通信模块如下。  
+（PLC: XGI-CPUS，通信模块：XGL-EFMTB）
 
 <br>
 
-**1. XG5000 Running**
+**1. XG5000 运行**
 
 <br>
 
@@ -5016,16 +4944,16 @@ The PLC and communication module used below are as follows.
 
 <br>
 
-For downloading the XG5000 program and detailed usage methods, please refer to the LS ELECTRIC website.
+有关下载 XG5000 程序和详细使用方法，请参阅 LS ELECTRIC 网站。
 
 <br>
 
-**2. EDS File Registration**
+**2. EDS 文件注册**
 
 <br>
 
-Click Menu > Tools > EDS(D) > EDS File Registration, and then select "Hi6_EIP_240402.eds."
-Confirm EDS file registration as shown in the figure below.
+点击菜单 > 工具 > EDS(D) > EDS 文件注册，然后选择 "Hi6_EIP_240402.eds."  
+确认如下图所示的 EDS 文件注册。
 
 <br>
 
@@ -5033,14 +4961,14 @@ Confirm EDS file registration as shown in the figure below.
 
 <br>
 
-**3. Device Connection**
+**3. 设备连接**
 
 <br>
 
-[1] Create a project.<br>
+[1] 创建一个项目。<br>
 ![newProject_1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_1.png)<br>
 
-[2] Add a communication module.<br>
+[2] 添加通信模块。<br>
 ![newProject_2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_2.png)<br>
 
 ![newProject_3.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_3.png)<br>
@@ -5049,147 +4977,142 @@ Confirm EDS file registration as shown in the figure below.
 
 <br>
 
-[3] Set a communication module <br>
-Double-click XGL-EFMT shown in the left tab in the figure below.<br>
+[3] 设置通信模块 <br>
+双击下图左侧选项卡中的 XGL-EFMT。<br>
 ![newProject_6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_6.png)
 
 <br>
 
-- Set the IP address, subnet mask, gateway, etc.  
-- To use the two LAN ports of the PLC as a relay function, select the "Relay" checkbox.  
-- Change the RAPIEnet setting to Disable.
+- 设置 IP 地址、子网掩码、网关等。  
+- 要将 PLC 的两个 LAN 端口用作中继功能，请选择 "中继" 复选框。  
+- 将 RAPIEnet 设置更改为禁用。
 
 <br>
 
-**4. Online Connection Settings**
+**4. 在线连接设置**
 
 <br>
 
-[1] Connect the PLC with a USB cable.<br>
+[1] 用 USB 数据线连接 PLC。<br>
 ![newProject_7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_7.png)<br>
 
-[2] Press the button shown on the left in the figure below to download the entire settings.<br>
+[2] 按下图左侧所示的按钮以下载全部设置。<br>
 ![newProject_8.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/newProject_8.png)<br>
 
 <br>
 
-**5. Auto Scan**
+**5. 自动扫描**
 
 <br>
 
-[1] Auto Scan is possible when connected to the PLC.<br>
-If the current state is not online, click Menu > Online > Connect to change to online status.<br>
+[1] 连接到 PLC 后可以进行自动扫描。<br>
+如果当前状态不是在线状态，请点击菜单 > 在线 > 连接以更改为在线状态。<br>
 
-[2] Right-click XGL-EFMT > Add Item > Smart Expansion<br>
+[2] 右键单击 XGL-EFMT > 添加项 > 智能扩展<br>
 ![auto1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto1.png)<br>
 
-[3] Click Next. <br>
+[3] 点击下一步。 <br>
 ![auto2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto2.png)<br>
 
-[4] Click Auto Scan. <br>
+[4] 点击自动扫描。 <br>
 ![auto3.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto3.png)<br>
 
 ![auto4.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto4.png)<br>
 
-[5] Check the automatically scanned devices.  
+[5] 检查自动扫描到的设备。  
 ![auto5.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto5.png)<br>
 
 ![auto6.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto6.png)<br>
 
-The Hi6 EtherNet/IP adapter device appears in the list as shown in the figure below. <br>
+Hi6 EtherNet/IP 适配器设备将出现在如下图所示的列表中。 <br>
 ![auto7.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/auto7.png)<br>
 
 <br>
 
-**6. Program Variable Registration**
+**6. 程序变量注册**
 
 <br>
 
-[1] Scan Program > NewProgram > Local Variables (double-click)<br>
+[1] 扫描程序 > NewProgram > 本地变量（双击）<br>
 ![variable1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/variable1.png)<br>
 
-[2] Set the input/output data to be used in communication.<br>
+[2] 设置用于通信的输入/输出数据。<br>
 ![variable2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/variable2.png)<br>
 
 <br>
 
-**7. EtherNet/IP Adapter Settings**
+**7. EtherNet/IP 适配器设置**
 
 <br>
 
-[1] Double-click EB01 (Hi6 EtherNet/IP adapter) in the list on the left.<br>
+[1] 双击左侧列表中的 EB01（Hi6 EtherNet/IP 适配器）。<br>
 
-[2] Press the EIP detailed settings button.<br>
+[2] 按下 EIP 详细设置按钮。<br>
 ![AdapterSetting1.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting1.png)<br>
 
-[3] Refer to the figure below to select the setting values for the EtherNet/IP adapter. <br>
-- Connection type
-- T2O RPI Range, O2T RPI Range
-- T2O Input, O2T Output size
-- Transmission cycle
-- Timeout
-- Local tag, Remote tag <br>
+[3] 根据下图选择 EtherNet/IP 适配器的设置值。 <br>
+- 连接类型
+- T2O RPI 范围，O2T RPI 范围
+- T2O 输入，O2T 输出大小
+- 传输周期
+- 超时
+- 本地标签，远程标签 <br>
 ![AdapterSetting2.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting2.png) <br>
 
-[4] Click Online > Communication Module Settings and Diagnostics > Service Enable.<br>
+[4] 点击在线 > 通信模块设置和诊断 > 服务启用。<br>
 ![AdapterSetting3.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting3.png)<br>
 
-[5] Check the FEnet I/O Service checkbox.<br>
+[5] 勾选 FEnet I/O 服务复选框。<br>
 ![AdapterSetting4.png](../../../_assets/2-ethernet-ip/3-adapter/3-connect-scanner/AdapterSetting4.png)<br>
 
 <br>
 
-**8. Assignment of IO Blocks after Completion of Communication Settings**
+**8. 通信设置完成后的 IO 块分配**
 
 <br>
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)").**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/3-adapter/4-error_code.md)
-### 2.3.4 Error Code
+### 2.3.4 错误代码
 
 |Code|Message|
 |------|---|
-|W23101|EtherNet/IP initialization failed|
-|W23102|EtherNet/IP communication timeout occurred|
-|W23103|EIP adapter CPF O2T initialization failed|
-|W23104|EIP adapter CPF T2O initialization failed|
-|W23105|EIP adapter IO MSG O2T initialization failed|
-|W23106|EIP adapter IO MSG T2O initialization failed|
-|W23107|EIP adapter PIT initialization failed|
-|W23108|EIP adapter socket communication initialization failed|
-|W23109|EIP adapter socket communication (UDP 0) initialization failed|
-|W23110|EIP adapter socket communication (UDP 1) initialization failed|
-|W23111|EIP adapter socket communication (UDP 2) initialization failed|
-|W23112|EIP adapter socket communication (UDP 3) initialization failed|
-|W23113|EIP adapter socket communication (TCP 0) initialization failed|
-|W23114|EIP adapter socket communication (TCP 1) initialization failed|
-|W23115|EIP adapter socket communication (TCP 2) initialization failed|
-|W23116|EIP adapter socket communication (TCP 3) initialization failed|
-|W23117|EIP adapter internal communication1 (IO Write) problem|
-|W23118|EIP adapter internal communication1 (IO Read) problem|
-|W23119|EIP adapter internal communication1 (Status Write) problem|
-|W23120|EIP adapter internal communication1 (Config Read) problem|
-|W23150|EIP adapter internal communication2 (IO Read) problem|
-|W23151|EIP adapter internal communication2 (IO Write) problem|
-|W23152|EIP adapter internal communication2 (Status Read) problem|
-|W23153|EIP adapter internal communication2 (Config Write) problem|
-
-
-
-
+|W23101|EtherNet/IP 初始化失败|
+|W23102|发生 EtherNet/IP 通信超时|
+|W23103|EIP 适配器 CPF O2T 初始化失败|
+|W23104|EIP 适配器 CPF T2O 初始化失败|
+|W23105|EIP 适配器 IO MSG O2T 初始化失败|
+|W23106|EIP 适配器 IO MSG T2O 初始化失败|
+|W23107|EIP 适配器 PIT 初始化失败|
+|W23108|EIP 适配器套接字通信初始化失败|
+|W23109|EIP 适配器套接字通信 (UDP 0) 初始化失败|
+|W23110|EIP 适配器套接字通信 (UDP 1) 初始化失败|
+|W23111|EIP 适配器套接字通信 (UDP 2) 初始化失败|
+|W23112|EIP 适配器套接字通信 (UDP 3) 初始化失败|
+|W23113|EIP 适配器套接字通信 (TCP 0) 初始化失败|
+|W23114|EIP 适配器套接字通信 (TCP 1) 初始化失败|
+|W23115|EIP 适配器套接字通信 (TCP 2) 初始化失败|
+|W23116|EIP 适配器套接字通信 (TCP 3) 初始化失败|
+|W23117|EIP 适配器内部通信1 (IO 写入) 问题|
+|W23118|EIP 适配器内部通信1 (IO 读取) 问题|
+|W23119|EIP 适配器内部通信1 (状态写入) 问题|
+|W23120|EIP 适配器内部通信1 (配置读取) 问题|
+|W23150|EIP 适配器内部通信2 (IO 读取) 问题|
+|W23151|EIP 适配器内部通信2 (IO 写入) 问题|
+|W23152|EIP 适配器内部通信2 (状态读取) 问题|
+|W23153|EIP 适配器内部通信2 (配置写入) 问题|
 [__SOURCE](2-ethernet-ip/4-scanner/README.md)
-## 2.4 EtherNet/IP Scanner (Master)
+## 2.4 EtherNet/IP 扫描器 (主)
 
 <br>
 
-This section provides an overview and instructions for the built-in EtherNet/IP Scanner (Master)
+本节提供内置 EtherNet/IP 扫描器 (主) 的概述和说明。
 
 <br>
-
 [__SOURCE](2-ethernet-ip/4-scanner/1-specification.md)
-### 2.4.1 EtherNet/IP Scanner (Master) Specifications
+### 2.4.1 EtherNet/IP 扫描仪 (主) 规格
 
 <br>
 
@@ -5201,257 +5124,257 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th colspan=2, class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th colspan=2, class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td colspan=2>Maximum Connectable Slave Count</td>
+		<td colspan=2>最大可连接从设备数量</td>
 		<td>20</td>
 	</tr>
     <tr>
-		<td rowspan=2>IO Size</td>
-        <td>Maximum I/O Size</td>
-		<td>Max 1200 bytes</td>
+		<td rowspan=2>IO 大小</td>
+        <td>最大 I/O 大小</td>
+		<td>最大 1200 字节</td>
 	</tr>
     <tr>
-        <td>Maximum I/O Size (1 slave)</td>
-		<td>Max 240 bytes</td>
+        <td>最大 I/O 大小 (1 个从设备)</td>
+		<td>最大 240 字节</td>
 	</tr>
     <tr>
-		<td colspan=2>IO Connection</td>
-		<td>Cyclic</td>
+		<td colspan=2>IO 连接</td>
+		<td>循环</td>
 	</tr>
     <tr>
-		<td colspan=2>IO Update Time</td>
-		<td>Min. 5ms</td>
+		<td colspan=2>IO 更新时间</td>
+		<td>最小 5ms</td>
 	</tr>
     <tr>
-		<td colspan=2>Communication Speed</td>
-		<td>10 or 100 Mbit/s</td>
+		<td colspan=2>通信速度</td>
+		<td>10 或 100 Mbit/s</td>
 	</tr>
     <tr>
-		<td colspan=2>Quick Connect</td>
-		<td>Not supported</td>
+		<td colspan=2>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td colspan=2>Topology</td>
-		<td>Tree, Line</td>
+		<td colspan=2>拓扑</td>
+		<td>树形，线形</td>
 	</tr>
     <tr>
-		<td colspan=2>IP Allocation Method</td>
-		<td>Static IP Address</td>
+		<td colspan=2>IP 分配方法</td>
+		<td>静态IP地址</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
-		<td>Ethernet II, IEEE 802.3</td>
+		<td>数据传输层</td>
+		<td>以太网 II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
-		<td>10 or 100 BASE-T Ethernet</td>
+		<td>接口类型</td>
+		<td>10 或 100 BASE-T 以太网</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Supported</td>
+		<td>自动协商</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Allowed</td>
+		<td>集线器</td>
+		<td>允许</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Allowed</td>
+		<td>交换机</td>
+		<td>允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>最小 Cat5, STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大 100m</td>
 	</tr>
 </tbody>
 </table>
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/2-settings.md)
-### 2.4.2 EtherNet/IP Scanner (Master) Settings
+### 2.4.2 EtherNet/IP 扫描仪 (主控制器) 设置
 
 <br>
 
-After completing the procedures in "[2.1 Network Settings](../../2-ethernet-ip/1-network.md)" and "[2.2 License Settings](../../2-ethernet-ip/2-license.md)" please proceed with the following steps.
+完成 "[2.1 网络设置](../../2-ethernet-ip/1-network.md)" 和 "[2.2 许可证设置](../../2-ethernet-ip/2-license.md)" 中的程序后，请继续执行以下步骤。
 
 <br>
 
-**1. Touch the menu to enter the settings screen.**
+**1. 触摸菜单以进入设置屏幕。**
 
 <br>
 
-**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 3: EtherNet/IP 设置]**
 
 <br>
 
-![[figure 2.4.2-1 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_1.png>) 
+![[figure 2.4.2-1 扫描仪设置]](<../../_assets/2-ethernet-ip/4-scanner/img_1.png>) 
 
 <br>
 
-![[figure 2.4.2-2 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_2.png>) 
+![[figure 2.4.2-2 扫描仪设置]](<../../_assets/2-ethernet-ip/4-scanner/img_2.png>) 
 
 <br>
 
 {% hint style="info" %}
-   [Protocol Settings]
+   [协议设置]
 
-      - OFF : EtherNet/IP disable   
-      - Adapter : EtherNet/IP Adapter mode   
-      - Scanner : EtherNet/IP Scanner mode   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
+      - OFF : 关闭 EtherNet/IP   
+      - Adapter : EtherNet/IP 适配器模式   
+      - Scanner : EtherNet/IP 扫描仪模式   
+      - Adapter + Scanner : EtherNet/IP 适配器 + 扫描仪模式   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Port Settings]
+   [端口设置]
 
-      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+      - 通用控制器 LAN1 到 LAN3 可用（确保状态为 "OK"）
 {% endhint %}
 
 <br>
 
-**2. Select "Scanner" mode and click the "Add Device" button to proceed to the next screen.**
+**2. 选择 "扫描仪" 模式并单击 "添加设备" 按钮以继续到下一个屏幕。**
 
 <br>
 
-![[figure 2.4.2-3 Scanner Add Device]](<../../_assets/2-ethernet-ip/4-scanner/img_3.png>) 
+![[figure 2.4.2-3 扫描仪添加设备]](<../../_assets/2-ethernet-ip/4-scanner/img_3.png>) 
 
 <br>
 
-**3. Enter the settings to match the target device and save.**
-
-<br>
-
-{% hint style="info" %}
-   [Device Settings]
-
-      - Device No. : Device connection order (sequence of I/O data allocation)   
-      - IP Address : IP address of the device   
-      - Device Name : Name of the device (for identification purposes only; does not affect communication)   
-      - RPI (ms) : Requested Packet Interval (I/O data update cycle)   
-      - Connection Type   
-            - Exclusive Owner (I/O) : Establishes a bidirectional I/O connection between the Scanner and Adapter   
-            - Input Only : Connects to the Adapter's input signals only   
-            - Listen Only : Connects to the input signals only while the Adapter is already connected to another Scanner   
-
-      - Input (T > O) : Slave > Master connection   
-      - Output (O > T) : Master > Slave connection   
-
-      - Run/Idle Header : Select whether to include the I/O data header   
-      - Instance No. : Instance number of the Input/Output Assembly for I/O data exchange   
-      - IO Size : Size of I/O data (in bytes)   
-{% endhint %}
+**3. 输入与目标设备匹配的设置并保存。**
 
 <br>
 
 {% hint style="info" %}
-   - For connection examples, please refer to the manuals below.    
-   - "[2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO](3-connect-adapter/1-crevis.md)"
+   [设备设置]
 
-   - "[2.4.3.2 Connecting External Adapter Devices - Wago Remote IO](3-connect-adapter/2-wago.md)"
+      - 设备编号 : 设备连接顺序（I/O 数据分配的顺序）   
+      - IP 地址 : 设备的 IP 地址   
+      - 设备名称 : 设备的名称（仅用于识别，不影响通信）   
+      - RPI (毫秒) : 请求的数据包间隔（I/O 数据更新周期）   
+      - 连接类型   
+            - 独占所有者 (I/O) : 在扫描仪和适配器之间建立双向 I/O 连接   
+            - 仅输入 : 仅连接到适配器的输入信号   
+            - 仅监听 : 仅在适配器已连接到另一个扫描仪时连接到输入信号   
 
-   - "[2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter](3-connect-adapter/3-pci.md)"
+      - 输入 (T > O) : 从设备 > 主设备 连接   
+      - 输出 (O > T) : 主设备 > 从设备 连接   
 
-   - "[2.4.3.4 Connecting External Adapter Devices - Baumer OM-70](3-connect-adapter/4-baumer.md)"  
-{% endhint %}
-
-<br>
-
-![[figure 2.4.2-4 Scanner Add Device]](<../../_assets/2-ethernet-ip/4-scanner/img_4.png>) 
-
-<br>
-
-**4. Click the "OK" button to transmit the communication settings.**
-
-<br>
-
-![[figure 2.4.2-5 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_5.png>) 
-
-<br>
-
-**5. Check the status to verify if the communication is successfully established.**
-
-<br>
-
-![[figure 2.4.2-6 Communication Status]](<../../_assets/2-ethernet-ip/4-scanner/img_6.png>) 
-
-<br>
-
-{% hint style="info" %}
-   [Communication Status Check]   
-
-      - License: Current license status   
-      - Run: Indicates the operational status of the EtherNet/IP function   
-      - Communication: Indicates the EtherNet/IP connection status   
-      - Error: Indicates the EtherNet/IP error status    
+      - 运行/空闲标头 : 选择是否包含 I/O 数据标头   
+      - 实例编号 : I/O 数据交换的输入/输出组的实例编号   
+      - I/O 大小 : I/O 数据的大小（以字节为单位）   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Device Number Color]   
+   - 有关连接示例，请参阅以下手册。    
+   - "[2.4.3.1 连接外部适配器设备 - Crevis 远程 I/O](3-connect-adapter/1-crevis.md)"
 
-      - Green: Communication connection OK   
-      - Red: Communication connection NG (Failed)   
+   - "[2.4.3.2 连接外部适配器设备 - Wago 远程 I/O](3-connect-adapter/2-wago.md)"
+
+   - "[2.4.3.3 连接外部适配器设备 - Hilscher CIFX PCI EtherNet/IP 适配器](3-connect-adapter/3-pci.md)"
+
+   - "[2.4.3.4 连接外部适配器设备 - Baumer OM-70](3-connect-adapter/4-baumer.md)"  
 {% endhint %}
 
 <br>
 
-![[figure 2.4.2-7 Communication Status]](<../../_assets/2-ethernet-ip/4-scanner/img_7.png>) 
+![[figure 2.4.2-4 扫描仪添加设备]](<../../_assets/2-ethernet-ip/4-scanner/img_4.png>) 
 
 <br>
 
-**6. After completing the communication settings, allocate the I/O Blocks.**
+**4. 单击 "确认" 按钮以传输通信设置。**
+
+<br>
+
+![[figure 2.4.2-5 扫描仪设置]](<../../_assets/2-ethernet-ip/4-scanner/img_5.png>) 
+
+<br>
+
+**5. 检查状态以验证通信是否成功建立。**
+
+<br>
+
+![[figure 2.4.2-6 通信状态]](<../../_assets/2-ethernet-ip/4-scanner/img_6.png>) 
+
+<br>
 
 {% hint style="info" %}
-   **After the communication settings are complete, you can use the input/output signals by allocating I/O Blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../5-io-block-allocation.md)")**
+   [通信状态检查]   
+
+      - 许可证: 当前许可证状态   
+      - 运行: 表示 EtherNet/IP 功能的操作状态   
+      - 通信: 表示 EtherNet/IP 连接状态   
+      - 错误: 表示 EtherNet/IP 错误状态    
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [设备编号颜色]   
+
+      - 绿色: 通信连接正常   
+      - 红色: 通信连接不良（失败）   
+{% endhint %}
+
+<br>
+
+![[figure 2.4.2-7 通信状态]](<../../_assets/2-ethernet-ip/4-scanner/img_7.png>) 
+
+<br>
+
+**6. 完成通信设置后，分配 I/O 块。**
+
+{% hint style="info" %}
+   **完成通信设置后，您可以通过分配 I/O 块来使用输入/输出信号。请参阅 ("[5. 工业通信 I/O 读取和写入](../../5-io-block-allocation.md)")**
 {% endhint %}
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/README.md)
-### 2.4.3 Connecting External Adapter Devices
+### 2.4.3 连接外部适配器设备
 
 <br>
 
@@ -5463,18 +5386,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Configuration Values for Connecting External Adapter Devices**
+**连接外部适配器设备的配置值**
 
 <br>
 
 {% hint style="info" %}
-   - Please set the IO size to match the Input/Output size configured on the external device.   
+   - 请将IO大小设置为与外部设备上配置的输入/输出大小相匹配。   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - For detailed specifications, please refer to the manual provided by the device manufacturer    
+   - 有关详细规格，请参阅设备制造商提供的手册    
 {% endhint %}
 
 <br>
@@ -5482,62 +5405,62 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table class="tg">
 <thead>
 	<tr>
-    	<th rowspan=2, class='powderblued'>Maker</th>
-		<th rowspan=2, class='powderblued'>Product</th>
-		<th rowspan=2, class='powderblued'>Connection Type</th>
+    	<th rowspan=2, class='powderblued'>制造商</th>
+		<th rowspan=2, class='powderblued'>产品</th>
+		<th rowspan=2, class='powderblued'>连接类型</th>
         <th colspan=2, class='powderblued'>T -> O</th>
         <th colspan=2, class='powderblued'>O -> T</th>
-        <th colspan=5, class='powderblued'>Additional Configuration</th>
+        <th colspan=5, class='powderblued'>附加配置</th>
 	</tr>
     <tr>
-        <th class='powderblued'>Instance ID</th>
-        <th class='powderblued'>Run Idle Header</th>
-        <th class='powderblued'>Instance ID</th>
-        <th class='powderblued'>Run Idle Header</th>
-		<th class='powderblued'>Instance ID</th>
-        <th class='powderblued'>Total Size</th>
-		<th class='powderblued'>Data Size</th>
-        <th class='powderblued'>Data Type</th>
-		<th class='powderblued'>Data</th>
+        <th class='powderblued'>实例 ID</th>
+        <th class='powderblued'>运行空闲头部</th>
+        <th class='powderblued'>实例 ID</th>
+        <th class='powderblued'>运行空闲头部</th>
+		<th class='powderblued'>实例 ID</th>
+        <th class='powderblued'>总大小</th>
+		<th class='powderblued'>数据大小</th>
+        <th class='powderblued'>数据类型</th>
+		<th class='powderblued'>数据</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td>Crevis</td>
 		<td>M9289</td>
-        <td>Exclusive Owner</td>
+        <td>独占所有者</td>
 		<td>1</td>
-		<td>No</td>
+		<td>否</td>
         <td>2</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
     <tr>
 		<td>Wago</td>
 		<td>750-366</td>
-        <td>Exclusive Owner</td>
-		<td>104: Status + AI + DI<br>105: Status + DI<br>106: Status + AI<br>107: AI + DI<br>108: DI<br>109: AI</td>
-		<td>No</td>
+        <td>独占所有者</td>
+		<td>104: 状态 + AI + DI<br>105: 状态 + DI<br>106: 状态 + AI<br>107: AI + DI<br>108: DI<br>109: AI</td>
+		<td>否</td>
         <td>101: AO + DO<br>102: DO<br>103: AO</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
     <tr>
 		<td>Hilscher</td>
-		<td>CIFX PCI EtherNet/IP Adapter</td>
-        <td>Exclusive Owner</td>
+		<td>CIFX PCI EtherNet/IP 适配器</td>
+        <td>独占所有者</td>
 		<td>101</td>
-		<td>Yes</td>
+		<td>是</td>
         <td>100</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
     <tr>
 		<td>Baumer</td>
 		<td>OM-70 EtherNet/IP</td>
-        <td>Input Only</td>
+        <td>仅输入</td>
 		<td>100</td>
-		<td>No</td>
+		<td>否</td>
         <td>238</td>
 		<td>-</td>
 		<td colspan=5>-</td>
@@ -5545,21 +5468,21 @@ td {border-color:gray;border-style:solid;border-width:1px;}
     <tr>
 		<td>Beckhoff</td>
 		<td>EK-9500</td>
-        <td>Exclusive Owner</td>
+        <td>独占所有者</td>
 		<td>129</td>
-		<td>No</td>
+		<td>否</td>
         <td>130</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
 	<tr>
 		<td rowspan=6>Rockwell Automation (AB)</td>
 		<td rowspan=6>Point I/O 1734-AENTR</td>
-        <td rowspan=6>Exclusive Owner</td>
+        <td rowspan=6>独占所有者</td>
 		<td rowspan=6>101</td>
-		<td rowspan=6>No</td>
+		<td rowspan=6>否</td>
         <td rowspan=6>100</td>
-		<td rowspan=6>Yes</td>
+		<td rowspan=6>是</td>
 		<td rowspan=6>102</td>
 		<td rowspan=6>10</td>
 		<td>4byte</td>
@@ -5569,53 +5492,53 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	<tr>
 		<td>2byte</td>
 		<td>unsigned int</td>
-		<td>IO slot + 1</td>
+		<td>IO 插槽 + 1</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(T -> O) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+		<td>(T -> O) 对齐<br>0: 字节<br>2: 字<br>4: 双字<br>255: 固定</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(T -> O) Fixed Size per Slot</td>
+		<td>(T -> O) 每个插槽固定大小</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(O -> T) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+		<td>(O -> T) 对齐<br>0: 字节<br>2: 字<br>4: 双字<br>255: 固定</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(O -> T) Fixed Size per Slot</td>
+		<td>(O -> T) 每个插槽固定大小</td>
 	</tr>
 </tbody>
 </table>
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis.md)
-#### 2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO
+#### 2.4.3.1 连接外部适配器设备 - Crevis 远程 IO
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - For the IP settings of the Remote I/O used in the example, please refer to the manual link below.
+   - 有关示例中使用的远程 I/O 的 IP 设置，请参阅以下手册链接。
 
-   - "[1.3.10.2 Remote IO IP Setting](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 远程 IO IP 设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.1-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_1.png>) 
 
@@ -5629,7 +5552,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+**2. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
@@ -5638,14 +5561,14 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 在连接管理器中检查连接类型   
+      - 示例：独占所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : No header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中标题的存在   
+      - 输入 (T > O) : 无标题   
+      - 输出 (O > T) : 32位运行/空闲标题   
 
-   - Click "Create / Decode Path" to verify the Instance ID   
+   - 点击 "创建 / 解码路径" 来验证实例 ID   
 {% endhint %}
 
 <br>
@@ -5655,18 +5578,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-      - Input (T > O) : 1   
-      - Output (O > T) : 2   
+      - 输入 (T > O) : 1   
+      - 输出 (O > T) : 2   
 {% endhint %}
 
 <br>
 
-**3. Check the I/O size in the device manual.**
+**3. 检查设备手册中的 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
@@ -5676,7 +5599,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Refer to the manual for each slot configuration to determine the total I/O size.
+   - 请参考手册中每个插槽配置以确定总 I/O 大小。
 {% endhint %}
 
 <br>
@@ -5685,11 +5608,11 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-![[그림 2.4.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_8.png>) 
+![[figure 2.4.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_8.png>) 
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
@@ -5698,59 +5621,59 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参考目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从属 > 主设备   
+      - 输出 (O > T) : 主设备 > 从属   
 
-   [Adapter Configuration]   
+   [适配器配置]   
    - Crevis M9289   
-      - M7002 : None   
-      - M2768 : 1byte (O > T)   
-      - M2768 : 1byte (O > T)   
-      - M12DF : 2bytes (T > O)   
-      - M12DF : 2bytes (T > O)   
-      - M2768 : 1byte (O > T)   
-      - M2768 : 1byte (O > T)   
+      - M7002 : 无   
+      - M2768 : 1 字节 (O > T)   
+      - M2768 : 1 字节 (O > T)   
+      - M12DF : 2 字节 (T > O)   
+      - M12DF : 2 字节 (T > O)   
+      - M2768 : 1 字节 (O > T)   
+      - M2768 : 1 字节 (O > T)   
 
-   [IO Assembly Information]   
+   [IO 装配信息]   
    [T > O]   
-      - Size: 4bytes   
-      - Instance: 1   
-      - Run/Idle Header: No   
+      - 大小：4 字节   
+      - 实例：1   
+      - 运行/空闲标题：无   
 
    [O > T]    
-      - Size: 4bytes   
-      - Instance: 2   
-      - Run/Idle Header: 32Bit   
+      - 大小：4 字节   
+      - 实例：2   
+      - 运行/空闲标题：32 位   
 {% endhint %}
 
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/2-wago.md)
-#### 2.4.3.2 Connecting External Adapter Devices - Wago Remote IO
+#### 2.4.3.2 连接外部适配器设备 - Wago 远程 IO
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置文件信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Wago manual for the IP configuration of the device.
+   - 请参考 Wago 手册获取设备的 IP 配置。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.2-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/2-wago/img_1.png>) 
 
 <br>
 
-**2. Check the Instance ID provided in the device manual**
+**2. 检查设备手册中提供的实例 ID**
 
 <br>
 
@@ -5759,23 +5682,23 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Input (T > O)   
-      - 104: Status  + Analog  + Digital   
-      - 105: Status  + Digital   
-      - 106: Status  + Analog   
-      - 107: Analog  + Digital   
-      - 108: Digital   
-      - 109: Analog   
+   - 输入 (T > O)   
+      - 104: 状态 + 模拟 + 数字   
+      - 105: 状态 + 数字   
+      - 106: 状态 + 模拟   
+      - 107: 模拟 + 数字   
+      - 108: 数字   
+      - 109: 模拟   
 
-   - Output (O > T)   
-      - 101: Analog + Digital   
-      - 102: Digital   
-      - 103: Analog   
+   - 输出 (O > T)   
+      - 101: 模拟 + 数字   
+      - 102: 数字   
+      - 103: 模拟   
 {% endhint %}
 
 <br>
 
-**3. Open the EDS file using the EZ-EDS program and verify the device information.**
+**3. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
@@ -5784,22 +5707,22 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 在连接管理器中检查连接类型   
+      - 示例：排他性所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : No header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中是否存在头部   
+      - 输入 (T > O) : 无头部   
+      - 输出 (O > T) : 32位运行/空闲头部   
 {% endhint %}
 
 <br>
 
-**4. Check the I/O size in the device manual.**
+**4. 检查设备手册中的 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
@@ -5809,7 +5732,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Refer to the manual for each slot configuration to determine the total I/O size.
+   - 请参考每个插槽配置的手册，以确定总 I/O 大小。
 {% endhint %}
 
 <br>
@@ -5822,7 +5745,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**5. Enter the communication settings based on the Adapter device information.**
+**5. 根据适配器设备信息输入通信设置。**
 
 <br>
 
@@ -5831,55 +5754,55 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参考目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从设备 > 主设备   
+      - 输出 (O > T) : 主设备 > 从设备   
 
-   [Adapter Configuration]   
+   [适配器配置]   
    - Wago 750-366   
-      - Status 1byte (T > O) (When selecting Instance ID 104, 105, 106)   
-      - 753-436 : 1byte (T > O)   
-      - 753-536 : 1byte (O > T)   
+      - 状态 1字节 (T > O) (选择实例 ID 104、105、106 时)   
+      - 753-436 : 1字节 (T > O)   
+      - 753-536 : 1字节 (O > T)   
 
-   [IO Assembly Information]   
+   [IO 组装信息]   
    [T > O]   
-      - Size: 2bytes   
-      - Instance: 105   
-      - Run/Idle Header: No   
+      - 大小: 2字节   
+      - 实例: 105   
+      - 运行/空闲头部: 无   
 
    [O > T]    
-      - Size: 1bytes   
-      - Instance: 101   
-      - Run/Idle Header: 32Bit   
+      - 大小: 1字节   
+      - 实例: 101   
+      - 运行/空闲头部: 32位   
 {% endhint %}
 
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/3-pci.md)
-#### 2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter
+#### 2.4.3.3 连接外部适配器设备 - Hilscher CIFX PCI EtherNet/IP 适配器
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Hilscher manual for the IP configuration of the device.
+   - 请参阅 Hilscher 手册以获取设备的 IP 配置。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.3-1 CIFX PCI]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_1.png>) 
 
 <br>
 
-**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+**2. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
@@ -5888,12 +5811,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 检查连接管理器中的连接类型   
+      - 示例：独占所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : 32-bit run/idle header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中头部的存在   
+      - 输入 (T > O) : 32 位运行/空闲头部   
+      - 输出 (O > T) : 32 位运行/空闲头部   
 {% endhint %}
 
 <br>
@@ -5903,24 +5826,24 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Check the Instance ID in Param   
-      - Input (T > O) : 101   
-      - Output (O > T) : 100   
+   - 检查 Param 中的实例 ID   
+      - 输入 (T > O) : 101   
+      - 输出 (O > T) : 100   
 {% endhint %}
 
 <br>
 
-**3. Check the I/O size in the device manual.**
+**3. 在设备手册中检查 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Check the I/O Size of the current device to be connected (Refer to the corresponding PCI device settings)   
+   - 检查要连接的当前设备的 I/O 大小（参阅相应的 PCI 设备设置）   
 {% endhint %}
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
@@ -5929,49 +5852,49 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参阅目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从属 > 主设备   
+      - 输出 (O > T) : 主设备 > 从属   
 
-   [IO Assembly Information]   
+   [IO 组件信息]   
    [T > O]   
-      - Size: 240 bytes (Value configured in the PCI device)   
-      - Instance: 101   
-      - Run/Idle Header: 32Bit   
+      - 大小：240 字节（在 PCI 设备中配置的值）   
+      - 实例：101   
+      - 运行/空闲头部：32位   
 
    [O > T]    
-      - Size: 240 bytes (Value configured in the PCI device)   
-      - Instance: 100   
-      - Run/Idle Header: 32Bit   
+      - 大小：240 字节（在 PCI 设备中配置的值）   
+      - 实例：100   
+      - 运行/空闲头部：32位   
 {% endhint %}
 
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer.md)
-#### 2.4.3.4 Connecting External Adapter Devices - Baumer OM-70
+#### 2.4.3.4 连接外部适配器设备 - Baumer OM-70
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Baumer manual for the IP configuration of the device.
+   - 请参阅 Baumer 手册以获取设备的 IP 配置信息。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.4-1 Baumer OM-70]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_1.png>) 
 
 <br>
 
-**2. Verify the Instance ID and I/O Size in the device manual.**
+**2. 验证设备手册中的实例 ID 和 I/O 大小。**
 
 <br>
 
@@ -5980,57 +5903,57 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   [Input Only Connection]   
+   [仅输入连接]   
 
-   - Input (T > O)   
-      - Instance ID: 100   
-      - Size : 34 bytes   
+   - 输入 (T > O)   
+      - 实例 ID: 100   
+      - 大小 : 34 字节   
 
-   - Output (O > T)   
-      - Instance ID: 238   
-      - Size : 0 byte    
+   - 输出 (O > T)   
+      - 实例 ID: 238   
+      - 大小 : 0 字节    
 {% endhint %}
 
 <br>
 
-**3. Enter the communication settings based on the Adapter device information.**
+**3. 根据适配器设备信息输入通信设置。**
 
 <br>
 
-![[figure 2.4.3.4-3 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>)
+![[figure 2.4.3.4-3 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/4-baumer/img_3.png>) 
 
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff.md)
-#### 2.4.3.5 Connecting External Adapter Devices - Beckhoff Remote IO
+#### 2.4.3.5 连接外部适配器设备 - Beckhoff 远程 IO
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Beckhoff manual for the IP configuration of the device.
+   - 请参考 Beckhoff 手册以获取设备的 IP 配置信息。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.5-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_1.png>) 
 
 <br>
 
-**2. Access the device's webpage to configure the IP address.**
+**2. 访问设备的网页以配置 IP 地址。**
 
 <br>
 
 {% hint style="info" %}
-   - In this example, the initial IP address is set to 192.168.1.2 (DIP switch No. 2 is ON)
+   - 在此示例中，初始 IP 地址设置为 192.168.1.2（DIP 开关 No. 2 为 ON）
 {% endhint %}
 
 <br>
@@ -6044,9 +5967,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - In this example, the IP address is changed to 192.168.10.95. 
+   - 在此示例中，IP 地址更改为 192.168.10.95。
 
-   - After entering the IP address, click the Check button to save. 
+   - 输入 IP 地址后，单击“检查”按钮以保存。 
 {% endhint %}
 
 <br>
@@ -6056,7 +5979,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Set the DIP switches as shown below and reboot the device:   
+   - 按照如下所示设置 DIP 开关并重启设备：   
       - 1 ~ 8  : ON   
       - 9 ~ 10 : OFF   
 {% endhint %}
@@ -6071,12 +5994,12 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**3. Access the device's webpage to verify the EtherNet/IP configuration information.**
+**3. 访问设备的网页以验证 EtherNet/IP 配置信息。**
 
 <br>
 
 {% hint style="info" %}
-   - Re-access the webpage using the newly configured IP address and verify the IP address and EtherNet/IP configuration details.
+   - 使用新配置的 IP 地址重新访问网页，验证 IP 地址和 EtherNet/IP 配置信息。
 {% endhint %}
 
 <br>
@@ -6090,199 +6013,199 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   - Input (T > O)   
-      - Instance ID: 129   
-      - Byte Size: 6      
+   - 输入 (T > O)   
+      - 实例 ID: 129   
+      - 字节大小: 6      
 
-   - Output (O > T)   
-      - Instance ID: 130   
-      - Byte Size: 6   
+   - 输出 (O > T)   
+      - 实例 ID: 130   
+      - 字节大小: 6   
 {% endhint %}
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
-![[figure 2.4.3.5-9 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_9.png>)
+![[figure 2.4.3.5-9 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/5-beckhoff/img_9.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master    
-      - Output (O > T) : Master > Slave   
+   - 请参考目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从站 > 主站    
+      - 输出 (O > T) : 主站 > 从站   
 
-   [Adapter Configuration]   
+   [适配器配置]   
    - Beckhoff EK-9500   
       - EK-1008 : 1byte (T > O)   
       - EK-2008 : 1byte (O > T)   
 
-   [IO Assembly Information]   
+   [IO 组装信息]   
    [T > O]   
-      - Size: 6bytes   
-      - Instance: 129   
-      - Run/Idle Header: No   
+      - 大小: 6bytes   
+      - 实例: 129   
+      - 运行/空闲头: 否   
 
    [O > T]    
-      - Size: 6bytes   
-      - Instance: 130   
-      - Run/Idle Header: 32Bit   
+      - 大小: 6bytes   
+      - 实例: 130   
+      - 运行/空闲头: 32Bit   
 {% endhint %}
 
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell.md)
-#### 2.4.3.6 Connecting External Adapter Devices - Rockwell Automation (AB) Remote IO
+#### 2.4.3.6 连接外部适配器设备 - Rockwell Automation (AB) 远程 IO
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置文件信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Rockwell Automation manual for the IP configuration of the device.
+   - 请参阅 Rockwell Automation 手册以进行设备的 IP 配置。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 <br>
 
-![[figure 2.4.3.6-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_1.png>) 
+![[figure 2.4.3.6-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_1.png>)
 
 <br>
 
-![[figure 2.4.3.6-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_2.png>) 
+![[figure 2.4.3.6-2 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_2.png>)
 
 <br>
 
-**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+**2. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
-![[figure 2.4.3.6-3 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_3.png>) 
+![[figure 2.4.3.6-3 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_3.png>)
 
 <br>
 
-![[figure 2.4.3.6-4 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_4.png>) 
+![[figure 2.4.3.6-4 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_4.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 在连接管理器中检查连接类型   
+      - 例如：独占所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : No header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中的标题存在   
+      - 输入 (T > O) : 没有标题   
+      - 输出 (O > T) : 32位运行/空闲标题   
 
-   - Click "Create / Decode Path" to verify the Instance ID   
-      - Input (T > O) : 101   
-      - Output (O > T) : 100   
-      - Configuration : 102   
+   - 点击 "创建 / 解码路径" 验证实例 ID   
+      - 输入 (T > O) : 101   
+      - 输出 (O > T) : 100   
+      - 配置 : 102   
 {% endhint %}
 
 <br>
 
-**3. Check the I/O size in the device manual.**
+**3. 检查设备手册中的 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
 
-![[figure 2.4.3.6-5 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_5.png>) 
+![[figure 2.4.3.6-5 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_5.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
 
-![[figure 2.4.3.6-6 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_6.png>) 
+![[figure 2.4.3.6-6 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_6.png>)
 
 <br>
 
-![[figure 2.4.3.6-7 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_7.png>) 
+![[figure 2.4.3.6-7 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_7.png>)
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
-![[figure 2.4.3.6-8 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_8.png>)
+![[figure 2.4.3.6-8 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_8.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master    
-      - Output (O > T) : Master > Slave    
+   - 请参阅目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从属 > 主设备    
+      - 输出 (O > T) : 主设备 > 从属    
 
-   [Adapter Configuration]   
-   - Point I/O 1734-AENTR    
-      - Status : 8byte (T > O)    
-      - 1734-IB8 : 1byte (T > O)   
-      - 1734-OB8E : 1byte (O > T) + 1byte (T > O, Status)   
+   [适配器配置]   
+   - 点 I/O 1734-AENTR    
+      - 状态 : 8字节 (T > O)    
+      - 1734-IB8 : 1字节 (T > O)   
+      - 1734-OB8E : 1字节 (O > T) + 1字节 (T > O, 状态)   
 
-   [IO Assembly Information]   
+   [IO 组件信息]   
    [T > O]   
-      - Size: 10bytes   
-      - Instance: 101   
-      - Run/Idle Header: No   
+      - 大小: 10字节   
+      - 实例: 101   
+      - 运行/空闲标题: 无   
 
    [O > T]    
-      - Size: 1byte   
-      - Instance: 100   
-      - Run/Idle Header: 32Bit   
+      - 大小: 1字节   
+      - 实例: 100   
+      - 运行/空闲标题: 32位   
 {% endhint %}
 
 <br>
 
-![[figure 2.4.3.6-9 EtherNet/IP Settings]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_9.png>)
+![[figure 2.4.3.6-9 EtherNet/IP 设置]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/6-rockwell/img_9.png>)
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the additional settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参阅目标设备的手册以正确输入附加设置。   
+      - 输入 (T > O) : 从属 > 主设备   
+      - 输出 (O > T) : 主设备 > 从属   
 
-   [Additional Settings]   
-      - Config Segment : ON   
-      - Instance: 102   
-      - Size: 10bytes    
+   [附加设置]   
+      - 配置段 : 开   
+      - 实例: 102   
+      - 大小: 10字节    
 
-   [Config Segment Information]    
-      - (4bytes) 1 : Header    
-      - (2bytes) 3 : Connected Slots + 1   
-      - (1byte)  0 : T > O Alignment (in bytes)      
-      - (1byte)  1 : T > O Data Size per slot      
-      - (1byte)  0 : O > T Alignment (in bytes)      
-      - (1byte)  1 : O > T Data Size per slot      
+   [配置段信息]    
+      - (4字节) 1 : 标头    
+      - (2字节) 3 : 连接插槽 + 1   
+      - (1字节)  0 : T > O 对齐 (以字节为单位)      
+      - (1字节)  1 : T > O 每个插槽的数据大小      
+      - (1字节)  0 : O > T 对齐 (以字节为单位)      
+      - (1字节)  1 : O > T 每个插槽的数据大小      
 {% endhint %}
 
 <br>
 [__SOURCE](2-ethernet-ip/4-scanner/4-error.md)
-### 2.4.4 Error Codes
+### 2.4.4 错误代码
 
 <br>
 
 {% hint style="info" %}
-   - Provides a real-time diagnostic function by displaying the communication status of each device using CIP standard General Status codes.
+   - 通过显示每个设备的通信状态，提供实时诊断功能，使用CIP标准的一般状态代码。
 {% endhint %}
 
 <br>
@@ -6299,335 +6222,290 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**General Status Codes**
+**一般状态代码**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Status Value (Hex)</th>
-		<th class='powderblued'>Name</th>
-		<th class='powderblued'>Description</th>
+		<th class='powderblued'>状态值 (十六进制)</th>
+		<th class='powderblued'>名称</th>
+		<th class='powderblued'>描述</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td>-</td>
-		<td>Communication not configured or changed</td>
-		<td>Communication settings have not been applied or are in the process of changing</td>
+		<td>通信未配置或已更改</td>
+		<td>通信设置尚未应用或正在更改中</td>
 	</tr>
 	<tr>
 		<td>0x00</td>
-		<td>Success</td>
-		<td>The service has successfully been performed by the specified
-object.</td>
+		<td>成功</td>
+		<td>指定对象的服务已成功执行。</td>
 	</tr>
 	<tr>
-		<td>0x00 (In case of error)</td>
-		<td>No reponse</td>
-		<td>No communication response (e.g., cable disconnected, invalid IP address, etc.)</td>
+		<td>0x00 (在错误情况下)</td>
+		<td>无响应</td>
+		<td>没有通信响应（例如，电缆断开，IP地址无效等）</td>
 	</tr>
 	<tr>
 		<td>0x01</td>
-		<td>Connection failed</td>
-		<td>A connection-elated service failed. This happened at any
-location along the connection path.</td>
+		<td>连接失败</td>
+		<td>连接相关的服务失败。这发生在连接路径的任何位置。</td>
 	</tr>
 	<tr>
 		<td>0x02</td>
-		<td>Resource unavailable</td>
-		<td>Some resources which were required for the object to perform
-the requested service were not available.</td>
+		<td>资源不可用</td>
+		<td>执行请求服务所需的一些资源不可用。</td>
 	</tr>
 	<tr>
 		<td>0x03</td>
-		<td>Invalid parameter value</td>
-		<td>See status code 0x20, which is usually applied in this situation.</td>
+		<td>无效的参数值</td>
+		<td>请参见状态代码0x20，通常在这种情况下适用。</td>
 	</tr>
 	<tr>
 		<td>0x04</td>
-		<td>Path segment error</td>
-		<td>A path segment error has been encountered. Evaluation of the
-supplied path information failed.</td>
+		<td>路径段错误</td>
+		<td>遇到了路径段错误。提供的路径信息的评估失败。</td>
 	</tr>
 	<tr>
 		<td>0x05</td>
-		<td>Path destination unknown</td>
-		<td>The path references an unknown object class, instance or
-structure element causing the abort of path processing.</td>
+		<td>路径目标未知</td>
+		<td>路径引用了未知的对象类、实例或结构元素，导致路径处理中止。</td>
 	</tr>
 	<tr>
 		<td>0x06</td>
-		<td>Partial transfer</td>
-		<td>Only a part of the expected data could be transferred.</td>
+		<td>部分传输</td>
+		<td>只能传输预期数据的一部分。</td>
 	</tr>
 	<tr>
 		<td>0x07</td>
-		<td>Connection lost</td>
-		<td>The connection for messaging has been lost.</td>
+		<td>连接丢失</td>
+		<td>消息的连接已丢失。</td>
 	</tr>
 	<tr>
 		<td>0x08</td>
-		<td>Service not supported</td>
-		<td>The requested service has not been implemented or has not
-been defined for this object class or instance</td>
+		<td>不支持的服务</td>
+		<td>请求的服务未被实现或未为此对象类或实例定义</td>
 	</tr>
 	<tr>
 		<td>0x09</td>
-		<td>Invalid attribute value</td>
-		<td>Detection of invalid attribute data</td>
+		<td>无效的属性值</td>
+		<td>检测到无效的属性数据</td>
 	</tr>
 	<tr>
 		<td>0x0A</td>
-		<td>Attribute list error</td>
-		<td>An attribute in the Get_Attribute_List or Set_Attribute_List
-response has a status not equal to 0.</td>
+		<td>属性列表错误</td>
+		<td>Get_Attribute_List或Set_Attribute_List响应中的一个属性状态不等于0。</td>
 	</tr>
 	<tr>
 		<td>0x0B</td>
-		<td>Already in requested state</td>
-		<td>The object is already in the mode or state which has been
-requested by the service</td>
+		<td>已处于请求状态</td>
+		<td>对象已经处于服务请求的模式或状态</td>
 	</tr>
 	<tr>
 		<td>0x0C</td>
-		<td>Object state conflict</td>
-		<td>The object is not able to perform the requested service in the
-current mode or state</td>
+		<td>对象状态冲突</td>
+		<td>对象无法在当前模式或状态下执行请求的服务</td>
 	</tr>
 	<tr>
 		<td>0x0D</td>
-		<td>Object already exists</td>
-		<td>It has been tried to create an instance of an object which
-already exists.</td>
+		<td>对象已存在</td>
+		<td>尝试创建一个已经存在的对象实例。</td>
 	</tr>
 	<tr>
 		<td>0x0E</td>
-		<td>Attribute not settable</td>
-		<td>It has been tried to change a non-modifiable attribute.</td>
+		<td>属性不可设置</td>
+		<td>尝试更改一个不可修改的属性。</td>
 	</tr>
 	<tr>
 		<td>0x0F</td>
-		<td>Privilege violation</td>
-		<td>A check of permissions or privileges failed</td>
+		<td>权限违规</td>
+		<td>权限或特权检查失败</td>
 	</tr>
 	<tr>
 		<td>0x10</td>
-		<td>Device state conflict</td>
-		<td>The current mode or state of the device prevents the execution
-of the requested service.</td>
+		<td>设备状态冲突</td>
+		<td>设备的当前模式或状态阻止执行请求的服务。</td>
 	</tr>
 	<tr>
 		<td>0x11</td>
-		<td>Reply data too large</td>
-		<td>The data to be transmitted in the response buffer requires more
-space than the size of the allocated response buffer</td>
+		<td>回复数据太大</td>
+		<td>响应缓冲区中要传输的数据需要的空间超过分配的响应缓冲区大小</td>
 	</tr>
 	<tr>
 		<td>0x12</td>
-		<td>Fragmentation of primitive value</td>
-		<td>The service specified an operation that is going to fragment a
-primitive data value, i.e. half a REAL data type.</td>
+		<td>基元值碎片化</td>
+		<td>服务指定了一个将碎片化基元数据值的操作，即半个REAL数据类型。</td>
 	</tr>
 	<tr>
 		<td>0x13</td>
-		<td>Not enough data</td>
-		<td>The service did not supply all required data to perform the
-specified operation</td>
+		<td>数据不足</td>
+		<td>服务未提供执行指定操作所需的所有数据</td>
 	</tr>
 	<tr>
 		<td>0x14</td>
-		<td>Attribute not supported</td>
-		<td>An unsupported attribute has been specified in the request</td>
+		<td>属性不支持</td>
+		<td>请求中指定了不支持的属性</td>
 	</tr>
 	<tr>
 		<td>0x15</td>
-		<td>Too much data</td>
-		<td>More data than was expected were supplied by the service.</td>
+		<td>数据过多</td>
+		<td>服务提供的数据超出了预期。</td>
 	</tr>
 	<tr>
 		<td>0x16</td>
-		<td>Object does not exist</td>
-		<td>The specified object does not exist in the device.</td>
+		<td>对象不存在</td>
+		<td>指定的对象在设备中不存在。</td>
 	</tr>
 	<tr>
 		<td>0x17</td>
-		<td>Service fragmentation sequence erroruccess</td>
-		<td>Fragmentation sequence for this service is not currently active
-for this data</td>
+		<td>服务碎片化序列错误</td>
+		<td>此服务的碎片化序列当前未针对该数据处于活动状态</td>
 	</tr>
 	<tr>
 		<td>0x18</td>
-		<td>No stored attribute data</td>
-		<td>The attribute data of this object has not been saved prior to the
-requested service.</td>
+		<td>没有存储的属性数据</td>
+		<td>在请求的服务之前，此对象的属性数据未被保存。</td>
 	</tr>
 	<tr>
 		<td>0x19</td>
-		<td>Store operation failure</td>
-		<td>The attribute data of this object could not be saved due to a
-failure during the storage attempt</td>
+		<td>存储操作失败</td>
+		<td>由于存储尝试失败，此对象的属性数据无法保存</td>
 	</tr>
 	<tr>
 		<td>0x1A</td>
-		<td>Routing failure, request packet too large</td>
-		<td>The service request packet was too large for transmission on a
-network in the path to the destination. The routing device was
-forced to abort the service</td>
+		<td>路由失败，请求数据包过大</td>
+		<td>服务请求数据包对于传输到目标的网络来说太大。路由设备被迫中止服务</td>
 	</tr>
 	<tr>
 		<td>0x1B</td>
-		<td>Routing failure, response packet too large</td>
-		<td>The service response packet was too large for transmission on
-a network in the path from the destination. The routing device
-was forced to abort the service</td>
+		<td>路由失败，响应数据包过大</td>
+		<td>服务响应数据包对于从目标传输到网络来说太大。路由设备被迫中止服务</td>
 	</tr>
 	<tr>
 		<td>0x1C</td>
-		<td>Missing attribute list entry data</td>
-		<td>The service did not supply an attribute in a list of attributes that
-was needed by the service to perform the requested behavior</td>
+		<td>缺失的属性列表条目数据</td>
+		<td>服务未提供服务执行所需的属性列表中的一个属性</td>
 	</tr>
 	<tr>
 		<td>0x1D</td>
-		<td>Invalid attribute value list</td>
-		<td>The service returns the list of attributes containing status
-information for invalid attributes</td>
+		<td>无效的属性值列表</td>
+		<td>服务返回包含无效属性状态信息的属性列表</td>
 	</tr>
 	<tr>
 		<td>0x1E</td>
-		<td>Embedded service error</td>
-		<td>An embedded service caused an error</td>
+		<td>嵌入式服务错误</td>
+		<td>嵌入式服务导致错误</td>
 	</tr>
 	<tr>
 		<td>0x1F</td>
-		<td>Vendor specific error</td>
-		<td>A vendor specific error has occurred. This error should only
-occur when none of the other general error codes can correctly
-be applied</td>
+		<td>供应商特定错误</td>
+		<td>发生了供应商特定错误。此错误仅在无法正确应用其他一般错误代码时发生</td>
 	</tr>
 	<tr>
 		<td>0x20</td>
-		<td>Invalid parameter</td>
-		<td>A parameter which was associated with the request was invalid.
-The parameter does not meet the requirements of the CIP
-specification and/or the requirements defined in the specification
-of an application object.</td>
+		<td>无效的参数</td>
+		<td>与请求相关的参数无效。该参数不符合CIP规范的要求和/或应用对象规范中定义的要求。</td>
 	</tr>
 	<tr>
 		<td>0x21</td>
-		<td>Write-once value already written</td>
-		<td>An attempt was made to write to a write-once medium for the
-second time, or to modify a value that cannot be changed after
-being established once</td>
+		<td>一次性写入值已写入</td>
+		<td>尝试第二次写入一次性介质，或尝试更改已设定一次后不能更改的值</td>
 	</tr>
 	<tr>
 		<td>0x22</td>
-		<td>Invalid reply received</td>
-		<td>An invalid reply is received. Possible causes can for instance be
-among others a reply service code not matching the request
-service code or a reply message shorter than the expectable
-minimum size</td>
+		<td>收到无效的回复</td>
+		<td>收到无效回复。可能的原因例如回复服务代码与请求服务代码不匹配或回复消息短于可预期的最小大小</td>
 	</tr>
 	<tr>
 		<td>0x23</td>
-		<td>Reserved</td>
+		<td>保留</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0x24</td>
-		<td>Reserved</td>
+		<td>保留</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0x25</td>
-		<td>Key failure in path</td>
-		<td>The key segment (i.e. the first segment in the path) does not
-match the destination module. More information about which
-part of the key check failed can be derived from the object
-specific status.</td>
+		<td>路径中的关键故障</td>
+		<td>关键段（即路径中的第一个段）与目标模块不匹配。有关关键检查失败的详细信息可以从对象特定状态中获得。</td>
 	</tr>
 	<tr>
 		<td>0x26</td>
-		<td>Path size invalid</td>
-		<td>Path cannot be routed to an object due to lacking information or
-too much routing data have been included</td>
+		<td>路径大小无效</td>
+		<td>由于缺乏信息或包含过多路由数据，路径无法路由到对象</td>
 	</tr>
 	<tr>
 		<td>0x27</td>
-		<td>Unexpected attribute in list</td>
-		<td>It has been attempted to set an attribute which may not be set in
-the current situation</td>
+		<td>列表中出现意外属性</td>
+		<td>尝试设置在当前情况不可设置的属性</td>
 	</tr>
 	<tr>
 		<td>0x28</td>
-		<td>Invalid member ID</td>
-		<td>The Member ID specified in the request is not available within
-the specified class/ instance or attribute</td>
+		<td>无效的成员ID</td>
+		<td>请求中指定的成员ID在指定的类/实例或属性中不可用</td>
 	</tr>
 	<tr>
 		<td>0x29</td>
-		<td>Member cannot be set</td>
-		<td>A request to modify a member which cannot be modified has
-occurred</td>
+		<td>成员无法设置</td>
+		<td>发生了对无法修改的成员进行修改的请求</td>
 	</tr>
 	<tr>
 		<td>0x2A</td>
-		<td>Group 2 only server general failure</td>
-		<td>This DeviceNet-specific error cannot occur in EtherNet/IP</td>
+		<td>仅限组2服务器一般故障</td>
+		<td>此DeviceNet特定错误在EtherNet/IP中无法发生</td>
 	</tr>
 	<tr>
 		<td>0x2B - 0xCF</td>
-		<td>Reserved</td>
+		<td>保留</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0xD0 - 0xFF</td>
-		<td>Vendor specific Codes</td>
-		<td>An object class specific error has occurred</td>
+		<td>供应商特定代码</td>
+		<td>发生了对象类特定错误</td>
 	</tr>
 </tbody>
 </table>
 <br>
-
 [__SOURCE](3-ethercat-master-io/README.md)
-# 3. EtherCAT Master IO
+# 3. EtherCAT 主控 IO
 
 <br>
 
-This chapter explains how to connect several standard Remote IO modules selected by our company using an EtherCAT Master.
+本章解释如何使用 EtherCAT 主控连接我们公司选择的多个标准远程 IO 模块。
 
 <br>
 
-**EtherCAT Overview**
+**EtherCAT 概述**
 
-EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
+EtherCAT 是由 Beckhoff Automation 开发的基于以太网的现场总线系统。
 
-The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization. 
+EtherCAT 协议提供非常快速的 IO 数据更新和精确同步的功能。
 
 <br>
 
-**EtherCAT Master IO**
-   * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
+**EtherCAT 主控 IO**
+   * 与现有现场总线主控相对应的产品，可以请求 EtherCAT 从设备进行 I/O 数据连接。
 
 <br>
 
 {% hint style="info" %}
-   - An EtherCAT Master uses the general LAN port for the controller.
+   - EtherCAT 主控使用控制器的一般 LAN 端口。
 
-
-   - A Remote IO module uses the M9386 EtherCAT network adapter from Crevis.
+   - 远程 IO 模块使用 Crevis 的 M9386 EtherCAT 网络适配器。
 {% endhint %}
-
-
-
 [__SOURCE](3-ethercat-master-io/1-Settings-EtherCAT-Master.md)
-## 3.1 EtherCAT Master IO Settings
+## 3.1 EtherCAT 主控 IO 设置
 
 <br>
 
-**1. Touch the menu to enter the settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
+**1. 点击菜单以进入设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 4: EtherCAT 主控设置]**
 
 <br>
 
@@ -6636,10 +6514,10 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 <br>
 
 {% hint style="info" %}
-   - Check the selected controller LAN port number on the EtherCAT master settings screen. 
+   - 在 EtherCAT 主控设置屏幕上检查所选控制器 LAN 端口号。 
 {% endhint %}
 
-**2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.**
+**2. 连接控制器 LAN 端口和远程 IO 电缆等进行通信，并检查状态。**
 
 <br>
 
@@ -6649,16 +6527,16 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 <br>
 
 {% hint style="info" %}
-   - Please connect the controller and Remote IO using a LAN Cable.
+   - 请使用 LAN 电缆连接控制器和远程 IO。
 
-   - Set all DIP switches of the Remote IO to OFF.
+   - 将远程 IO 的所有 DIP 开关设置为关闭。
 
-   - Connect both the Remote IO power and Field Power (24 V DC).
+   - 连接远程 IO 电源和现场电源 (24 V DC)。
 {% endhint %}
 
 <br>
 
-**3. Select "ON" for the EtherCAT master usage in the settings menu.**
+**3. 在设置菜单中选择 "ON" 以使用 EtherCAT 主控。**
 
 <br>
 
@@ -6667,14 +6545,14 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 <br>
 
 {% hint style="info" %}
-   - Set the communication cycle according to your usage environment.
+   - 根据您的使用环境设置通信周期。
 
-   - Communication cycles of 1 ms, 2 ms, and 5 ms are supported.
+   - 支持 1 ms、2 ms 和 5 ms 的通信周期。
 {% endhint %}
 
 <br>
 
-**4. Select the same configuration as the connected Remote IO module from the slave list in the settings menu.**
+**4. 从设置菜单中的从站列表中选择与连接的远程 IO 模块相同的配置。**
 
 <br>
 
@@ -6683,28 +6561,28 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 <br>
 
 {% hint style="info" %}
-   - Check the input and output byte counts.
+   - 检查输入和输出字节数。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Input Module  
-   - M12DF: Digital 16 points  
-   - M3534: Analog 4 points  
+   - 输入模块  
+   - M12DF: 数字 16 点  
+   - M3534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Output Module  
-   - M225F: Digital 16 points  
-   - M226F: Digital 16 points  
-   - M2768: Digital 8 points   
-   - M4534: Analog 4 points  
+   - 输出模块  
+   - M225F: 数字 16 点  
+   - M226F: 数字 16 点  
+   - M2768: 数字 8 点   
+   - M4534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Special Module  
-   - M5112 : Conveyer I/F 
+   - 特殊模块  
+   - M5112 : 输送系统 I/F 
 {% endhint %}
 
 <br>
@@ -6713,7 +6591,7 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 
 <br>
 
-**5. Reboot the controller after completing the settings.**
+**5. 完成设置后重启控制器。**
 
 ![[Figure 3.1-7 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
 
@@ -6724,19 +6602,19 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 <br>
 
 {% hint style="info" %}
-   - Please reboot the controller after completing the settings.
+   - 设置完成后请重启控制器。
 {% endhint %}
 
 <br>
 
-**6. After confirming that the setting values are reflected, check the communication status.**
+**6. 确认设置值已应用后，检查通信状态。**
 
 ![[Figure 3.1-9 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
 
 <br>
 
 {% hint style="info" %}
-   - Please check the communication connection status and check for any error.
+   - 请检查通信连接状态并检查是否存在错误。
 {% endhint %}
 
 <br>
@@ -6746,106 +6624,102 @@ The EtherCAT protocol provides functions for very fast IO data updates and preci
 <br>
 
 {% hint style="info" %}
-   - Please check if communication is properly established using LEDs on the Remote IO Module.
+   - 请检查远程 IO 模块上的 LED，以确认通信是否正确建立。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   **If an error occurs during communication, refer to ("[3.2 EtherCAT Master IO Error Handling](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)").**
+   **如果通信过程中发生错误，请参阅 ("[3.2 EtherCAT 主控 IO 错误处理](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)")。**
 {% endhint %}
 
 <br>
 
-**7. Assign IO blocks after completing the communication settings.**
+**7. 完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块使用输入/输出信号。请参阅 ("[5. 工业通信 IO 读写](../5-io-block-allocation.md)")。**
 {% endhint %}
-
-
 [__SOURCE](3-ethercat-master-io/2-Error-EtherCAT-Master.md)
-## 3.2 EtherCAT Master IO Error Handling
+## 3.2 EtherCAT Master IO 错误处理
 
-This is a method for resolving major errors that may occur during EtherCAT master IO settings.
+这是解决在 EtherCAT 主 IO 设置期间可能发生的重大错误的方法。
 
 <br>
 
 ![[Figure 3.2-1 EtherCAT Master Status]](<../_assets/3-ethercat-master-io/2-Error/image_1.png>) 
 
 {% hint style="info" %}
-   - Please check the connection status of the LAN cable.
+   - 请检查 LAN 电缆的连接状态。
 
-   - Check if the adapter device power is on.
+   - 检查适配器设备的电源是否开启。
 
-   - Please check if the settings match the IO combination of the Remote IO module.
+   - 请检查设置是否与远程 IO 模块的 IO 组合匹配。
 {% endhint %}
 
 <br>
-
 [__SOURCE](5-io-block-allocation.md)
-# 5. Industrial Communication IO Reading and Writing
+# 5. 工业通信 IO 读取和写入
 
-This is the method for assigning IO blocks for the communication with the controller after completing industrial communication settings.
+这是在完成工业通信设置后，为与控制器通信分配 IO 块的方法。
 
-To use the industrial communication IO, the IO blocks should be assigned to the fb0 - fb9 area.
+要使用工业通信 IO，应该将 IO 块分配到 fb0 - fb9 区域。
 
 <br>
 
 {% hint style="info" %}
-   - For the IO reading/writing methods for fb blocks, please refer to the manual below.
+   - 有关 fb 块的 IO 读取/写入方法，请参考以下手册。
 
-      **\[Controller Operation Manual: General Input]**   
-      **\[Controller Operation Manual: General Output]**   
+      **\[控制器操作手册：一般输入]**   
+      **\[控制器操作手册：一般输出]**   
 {% endhint %}
 
 <br>
 
-**1. Select the IO block assignment menu.**
-   Touch the **\[System > 2: Control Parameters > 2: Input/Output Signal Settings > 6: FB Block Assignment]** menu.
+**1. 选择 IO 块分配菜单。**
+   点击 **\[系统 > 2: 控制参数 > 2: 输入/输出信号设置 > 6: FB 块分配]** 菜单。
 
 <br>
 
-**2. Specify industrial communication type for the desired fb area.**
-   After specifying it, touch the **\[OK]** button.
+**2. 为所需的 fb 区域指定工业通信类型。**
+   指定后，点击 **\[确定]** 按钮。
 
 ![[Figure 5-1]](<_assets/5-io-block-allocation/image_1.png>)
 
 
 {% hint style="warning" %}
-**\[Caution]**: When using together with an embedded PLC, please check IO attributes and DI/DO - X/Y.
+**\[警告]**: 当与嵌入式 PLC 一起使用时，请检查 IO 属性和 DI/DO - X/Y。
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: For an EtherNet/IP adapter, the maximum block size is 120 bytes and up to 2 blocks can be selected. Any selection exceeding 2 will be ignored. 
+**\[警告]**: 对于 EtherNet/IP 适配器，最大块大小为 120 字节，最多可以选择 2 块。超过 2 的任何选择将被忽略。 
 {% endhint %}
-
 [__SOURCE](6-slave-config-file.md)
-# 6. Slave Device Description Files
+# 6. 从属设备描述文件
 
-To configure the slave communication from the industrial communication master, a description file for the slave device for each protocol is used.
+要配置来自工业通信主设备的从属通信，使用每个协议的从属设备描述文件。
 
 <br>
 
-The slave device description files can be downloaded from our website.
-Download "**Hi6 Fieldbus Config**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
+从属设备描述文件可以从我们的网站下载。
+下载 "**Hi6 Fieldbus Config**" 从 [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人网站 -> 客户支持 -> 应用软件。
 
 <br>
 
 {% hint style="info" %}
-   - EtherNet/IP: EDS file
+   - EtherNet/IP: EDS 文件
 
-   - PROFINET IO: GSDML (.XML) file
+   - PROFINET IO: GSDML (.XML) 文件
 
-   - EtherCAT: ESI (.XML) file
+   - EtherCAT: ESI (.XML) 文件
 
-   - PROFIBUS-DP: GSD file
+   - PROFIBUS-DP: GSD 文件
 
-   - DeviceNet: EDS file
+   - DeviceNet: EDS 文件
 
-   - CC-Link IE Field: CSPP file
+   - CC-Link IE Field: CSPP 文件
 
-   - CC-Link IE Basic: CSPP file
+   - CC-Link IE Basic: CSPP 文件
 {% endhint %}
 
 <br>

@@ -1,55 +1,55 @@
 ﻿# 2. EtherNet/IP
 
-This chapter describes the characteristics and configuration methods of the built-in EtherNet/IP Master (Scanner) and Slave (Adapter).
+本章描述了内置 EtherNet/IP 主站（扫描器）和从站（适配器）的特性和配置方法。
 <br>
 
-**EtherNet/IP Overview**
+**EtherNet/IP 概述**
 
 <br>
 
-EtherNet/IP is an Ethernet-based open industrial communication protocol developed by CI (ControlNet International) and ODVA (Open DeviceNet Vendors Association)
+EtherNet/IP 是由 CI (ControlNet International) 和 ODVA (Open DeviceNet Vendors Association) 开发的基于以太网的开放工业通信协议。
 
-In a factory environment, various devices such as sensors, remote I/Os, motor drivers, HMIs, PLCs and robot controllers can be connected to a single EtherNet/IP network, regardless of the manufacturer.
+在工厂环境中，各种设备，如传感器、远程 I/O、马达驱动器、HMI、PLC 和机器人控制器，可以连接到单一 EtherNet/IP 网络中，无论制造商如何。
 
 ![[Figure 2-1 EtherNet/IP]](<../_assets//2-ethernet-ip/image_1.png>)
- 
+
 
 <br>
 
-EtherNet/IP is classified as follows based on its communication functions:
+根据其通信功能，EtherNet/IP 被分类如下：
 
-**Scanner Class**
+**扫描器类**
 
-   * These products correspond to traditional Fieldbus Masters and can request I/O data connections from EtherNet/IP Adapters or Scanners.
+   * 这些产品对应于传统的现场总线主站，可以请求 EtherNet/IP 适配器或扫描器的 I/O 数据连接。
 
 <br>
 
-**Adapter Class**
+**适配器类**
 
-  * These products correspond to traditional Fieldbus Slaves and serve as the connection targets for real-time I/O data requested by an EtherNet/IP Scanner.
+  * 这些产品对应于传统的现场总线从站，并作为实时 I/O 数据请求的连接目标，由 EtherNet/IP 扫描器发起。
     
-  * An Adapter cannot transmit or receive real-time I/O data on its own without a request from a Scanner.
+  * 适配器不能在没有扫描器请求的情况下自行传输或接收实时 I/O 数据。
 
 <br>
 
-**Messaging Class**
+**消息类**
 
-   * These products are capable of sending and receiving explicit messages to and from products of all classes, but they do not support real-time I/O data transmission.
+   * 这些产品能够向所有类产品发送和接收明确消息，但不支持实时 I/O 数据传输。
    
-   * Examples include computer interface cards for program upload/download and network configuration tools.
+   * 示例包括用于程序上传/下载和网络配置工具的计算机接口卡。
 
 <br>
 
-**Abbreviation**
+**缩写**
 
 <br>
 
-|Abbreviation|Description|
+|缩写|描述|
 |---------------|------------------------------|
-|Adapter|A device that collects output data from and transmits input data to an EtherNet/IP Scanner|
-|Scanner|A device that sends output data to and collects input data from end devices (EtherNet/IP Adapters)|
-|LAN| Local Area Network|
-|RPI|Requested Packet Interval|
-|PLC|Programmable logic controller|
-|T2O|Target to Originator (Adapter -> Scanner)|
-|O2T|Originator to Target (Scanner -> Adapter)|
+|适配器|从 EtherNet/IP 扫描器收集输出数据并向其传输输入数据的设备|
+|扫描器|向最终设备（EtherNet/IP 适配器）发送输出数据并收集输入数据的设备|
+|LAN|局域网|
+|RPI|请求数据包间隔|
+|PLC|可编程逻辑控制器|
+|T2O|从目标到发起者（适配器 -> 扫描器）|
+|O2T|从发起者到目标（扫描器 -> 适配器)|

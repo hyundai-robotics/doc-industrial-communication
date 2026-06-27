@@ -1,7 +1,6 @@
-﻿#### 1.3.9.2 CC-Link IE Field Slave Settings
+#### 1.3.9.2 CC-Link IE Field Slave Settings
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
-
 
 <br>
 
@@ -18,7 +17,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[Caution]**: 如果使用 Sycon.net 设置的配置文件被下载到相应的 PCI 插槽，将忽略 TP 设置。
 {% endhint %}
 
 <br>
@@ -37,49 +36,49 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 {% hint style="info" %}
    [Network Number]
 
-   - CC-Link IE field network number (1-239)
+   - CC-Link IE 现场网络编号 (1-239)
 {% endhint %}
 
 {% hint style="info" %}
    [Station Address]
 
-   - Device ID within the connected network (1-120)
+   - 连接网络中的设备ID (1-120)
 {% endhint %}
 
 {% hint style="info" %}
    [IO Type]
 
-   - IO type is determined by the master device settings.   
-      - Mixed: Input and output use different indexes (different addresses).   
-      - Input: Input only   
-      - Output: Output only   
-      - FrontBackMixture: Input and output use the same index (same address).   
+   - IO 类型由主设备设置决定。   
+      - Mixed: 输入和输出使用不同索引 (不同地址)。   
+      - Input: 仅输入   
+      - Output: 仅输出   
+      - FrontBackMixture: 输入和输出使用相同索引 (相同地址)。   
 {% endhint %}
 
 {% hint style="info" %}
    [Device Type]
 
-   - The maximum IO size that can be set varies depending on the Device Type.
+   - 可设置的最大 IO 大小因设备类型而异。
 
-   - Intelligent Device Station   
-      - RY, RX (max): 256 bytes   
-      - RWw, RWr (max): 1024 words
+   - 智能设备站   
+      - RY, RX (最大): 256 字节   
+      - RWw, RWr (最大): 1024 字
 
-   - Remote Device Station   
-      - RY, RX (max): 16 bytes   
-      - RWw, RWr (max): 64 words
+   - 远程设备站   
+      - RY, RX (最大): 16 字节   
+      - RWw, RWr (最大): 64 字
 {% endhint %}
 
 {% hint style="info" %}
    [IO Size]
 
    - Master -> Slave
-      - RWw (word data)
-      - RY (bit data)
+      - RWw (字数据)
+      - RY (位数据)
 
    - Slave -> Master   
-      - RWr (word data)   
-      - RX (bit data)  
+      - RWr (字数据)   
+      - RX (位数据)  
 {% endhint %}
 
 <br>
@@ -93,9 +92,9 @@ For the procedure to check the industrial communication status on the TP, refer 
 **6. Assign IO blocks after completing the communication settings.**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)")。**
 {% endhint %}
 
 <br>
 
-![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>) 
+![[Figure 1.3.9.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_5.png>)

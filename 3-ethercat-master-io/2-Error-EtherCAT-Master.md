@@ -1,17 +1,17 @@
-﻿## 3.2 EtherCAT Master IO Error Handling
+## 3.2 EtherCAT Master IO 错误处理
 
-This is a method for resolving major errors that may occur during EtherCAT master IO settings.
+这是解决在 EtherCAT 主 IO 设置期间可能发生的重大错误的方法。
 
 <br>
 
 ![[Figure 3.2-1 EtherCAT Master Status]](<../_assets/3-ethercat-master-io/2-Error/image_1.png>) 
 
 {% hint style="info" %}
-   - Please check the connection status of the LAN cable.
+   - 请检查 LAN 电缆的连接状态。
 
-   - Check if the adapter device power is on.
+   - 检查适配器设备的电源是否开启。
 
-   - Please check if the settings match the IO combination of the Remote IO module.
+   - 请检查设置是否与远程 IO 模块的 IO 组合匹配。
 {% endhint %}
 
 <br>

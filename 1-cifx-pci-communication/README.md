@@ -1,3 +1,3 @@
 ﻿# 1. CIFX PCI Communication
 
-This is a manual for the industrial communication that uses a CIFX PCI. 
+这是使用CIFX PCI的工业通信手册。

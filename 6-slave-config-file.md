@@ -1,28 +1,28 @@
-﻿# 6. Slave Device Description Files
+﻿# 6. 从属设备描述文件
 
-To configure the slave communication from the industrial communication master, a description file for the slave device for each protocol is used.
+要配置来自工业通信主设备的从属通信，使用每个协议的从属设备描述文件。
 
 <br>
 
-The slave device description files can be downloaded from our website.
-Download "**Hi6 Fieldbus Config**" from [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> Industrial Robot Website -> Customer Support -> Application Software.
+从属设备描述文件可以从我们的网站下载。
+下载 "**Hi6 Fieldbus Config**" 从 [www.hd-hyundairobotics.com](https://hd-hyundairobotics.com/) -> 工业机器人网站 -> 客户支持 -> 应用软件。
 
 <br>
 
 {% hint style="info" %}
-   - EtherNet/IP: EDS file
+   - EtherNet/IP: EDS 文件
 
-   - PROFINET IO: GSDML (.XML) file
+   - PROFINET IO: GSDML (.XML) 文件
 
-   - EtherCAT: ESI (.XML) file
+   - EtherCAT: ESI (.XML) 文件
 
-   - PROFIBUS-DP: GSD file
+   - PROFIBUS-DP: GSD 文件
 
-   - DeviceNet: EDS file
+   - DeviceNet: EDS 文件
 
-   - CC-Link IE Field: CSPP file
+   - CC-Link IE Field: CSPP 文件
 
-   - CC-Link IE Basic: CSPP file
+   - CC-Link IE Basic: CSPP 文件
 {% endhint %}
 
 <br>

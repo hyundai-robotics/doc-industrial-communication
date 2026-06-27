@@ -1,9 +1,9 @@
-﻿## 3.1 EtherCAT Master IO Settings
+## 3.1 EtherCAT 主控 IO 设置
 
 <br>
 
-**1. Touch the menu to enter the settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 4: EtherCAT Master Settings]**
+**1. 点击菜单以进入设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 4: EtherCAT 主控设置]**
 
 <br>
 
@@ -12,10 +12,10 @@
 <br>
 
 {% hint style="info" %}
-   - Check the selected controller LAN port number on the EtherCAT master settings screen. 
+   - 在 EtherCAT 主控设置屏幕上检查所选控制器 LAN 端口号。 
 {% endhint %}
 
-**2. Connect the controller LAN port and Remote IO cables, etc. for communication and check the status.**
+**2. 连接控制器 LAN 端口和远程 IO 电缆等进行通信，并检查状态。**
 
 <br>
 
@@ -25,16 +25,16 @@
 <br>
 
 {% hint style="info" %}
-   - Please connect the controller and Remote IO using a LAN Cable.
+   - 请使用 LAN 电缆连接控制器和远程 IO。
 
-   - Set all DIP switches of the Remote IO to OFF.
+   - 将远程 IO 的所有 DIP 开关设置为关闭。
 
-   - Connect both the Remote IO power and Field Power (24 V DC).
+   - 连接远程 IO 电源和现场电源 (24 V DC)。
 {% endhint %}
 
 <br>
 
-**3. Select "ON" for the EtherCAT master usage in the settings menu.**
+**3. 在设置菜单中选择 "ON" 以使用 EtherCAT 主控。**
 
 <br>
 
@@ -43,14 +43,14 @@
 <br>
 
 {% hint style="info" %}
-   - Set the communication cycle according to your usage environment.
+   - 根据您的使用环境设置通信周期。
 
-   - Communication cycles of 1 ms, 2 ms, and 5 ms are supported.
+   - 支持 1 ms、2 ms 和 5 ms 的通信周期。
 {% endhint %}
 
 <br>
 
-**4. Select the same configuration as the connected Remote IO module from the slave list in the settings menu.**
+**4. 从设置菜单中的从站列表中选择与连接的远程 IO 模块相同的配置。**
 
 <br>
 
@@ -59,28 +59,28 @@
 <br>
 
 {% hint style="info" %}
-   - Check the input and output byte counts.
+   - 检查输入和输出字节数。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Input Module  
-   - M12DF: Digital 16 points  
-   - M3534: Analog 4 points  
+   - 输入模块  
+   - M12DF: 数字 16 点  
+   - M3534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Output Module  
-   - M225F: Digital 16 points  
-   - M226F: Digital 16 points  
-   - M2768: Digital 8 points   
-   - M4534: Analog 4 points  
+   - 输出模块  
+   - M225F: 数字 16 点  
+   - M226F: 数字 16 点  
+   - M2768: 数字 8 点   
+   - M4534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Special Module  
-   - M5112 : Conveyer I/F 
+   - 特殊模块  
+   - M5112 : 输送系统 I/F 
 {% endhint %}
 
 <br>
@@ -89,7 +89,7 @@
 
 <br>
 
-**5. Reboot the controller after completing the settings.**
+**5. 完成设置后重启控制器。**
 
 ![[Figure 3.1-7 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_7.png>) 
 
@@ -100,19 +100,19 @@
 <br>
 
 {% hint style="info" %}
-   - Please reboot the controller after completing the settings.
+   - 设置完成后请重启控制器。
 {% endhint %}
 
 <br>
 
-**6. After confirming that the setting values are reflected, check the communication status.**
+**6. 确认设置值已应用后，检查通信状态。**
 
 ![[Figure 3.1-9 EtherCAT Master Settings]](<../_assets/3-ethercat-master-io/1-Settings-Master/image_9.png>) 
 
 <br>
 
 {% hint style="info" %}
-   - Please check the communication connection status and check for any error.
+   - 请检查通信连接状态并检查是否存在错误。
 {% endhint %}
 
 <br>
@@ -122,20 +122,19 @@
 <br>
 
 {% hint style="info" %}
-   - Please check if communication is properly established using LEDs on the Remote IO Module.
+   - 请检查远程 IO 模块上的 LED，以确认通信是否正确建立。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   **If an error occurs during communication, refer to ("[3.2 EtherCAT Master IO Error Handling](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)").**
+   **如果通信过程中发生错误，请参阅 ("[3.2 EtherCAT 主控 IO 错误处理](../3-ethercat-master-io/2-Error-EtherCAT-Master.md)")。**
 {% endhint %}
 
 <br>
 
-**7. Assign IO blocks after completing the communication settings.**
+**7. 完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块使用输入/输出信号。请参阅 ("[5. 工业通信 IO 读写](../5-io-block-allocation.md)")。**
 {% endhint %}
-

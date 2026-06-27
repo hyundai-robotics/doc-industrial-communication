@@ -1,31 +1,28 @@
-﻿### 2.3.4 Error Code
+### 2.3.4 错误代码
 
 |Code|Message|
 |------|---|
-|W23101|EtherNet/IP initialization failed|
-|W23102|EtherNet/IP communication timeout occurred|
-|W23103|EIP adapter CPF O2T initialization failed|
-|W23104|EIP adapter CPF T2O initialization failed|
-|W23105|EIP adapter IO MSG O2T initialization failed|
-|W23106|EIP adapter IO MSG T2O initialization failed|
-|W23107|EIP adapter PIT initialization failed|
-|W23108|EIP adapter socket communication initialization failed|
-|W23109|EIP adapter socket communication (UDP 0) initialization failed|
-|W23110|EIP adapter socket communication (UDP 1) initialization failed|
-|W23111|EIP adapter socket communication (UDP 2) initialization failed|
-|W23112|EIP adapter socket communication (UDP 3) initialization failed|
-|W23113|EIP adapter socket communication (TCP 0) initialization failed|
-|W23114|EIP adapter socket communication (TCP 1) initialization failed|
-|W23115|EIP adapter socket communication (TCP 2) initialization failed|
-|W23116|EIP adapter socket communication (TCP 3) initialization failed|
-|W23117|EIP adapter internal communication1 (IO Write) problem|
-|W23118|EIP adapter internal communication1 (IO Read) problem|
-|W23119|EIP adapter internal communication1 (Status Write) problem|
-|W23120|EIP adapter internal communication1 (Config Read) problem|
-|W23150|EIP adapter internal communication2 (IO Read) problem|
-|W23151|EIP adapter internal communication2 (IO Write) problem|
-|W23152|EIP adapter internal communication2 (Status Read) problem|
-|W23153|EIP adapter internal communication2 (Config Write) problem|
-
-
-
+|W23101|EtherNet/IP 初始化失败|
+|W23102|发生 EtherNet/IP 通信超时|
+|W23103|EIP 适配器 CPF O2T 初始化失败|
+|W23104|EIP 适配器 CPF T2O 初始化失败|
+|W23105|EIP 适配器 IO MSG O2T 初始化失败|
+|W23106|EIP 适配器 IO MSG T2O 初始化失败|
+|W23107|EIP 适配器 PIT 初始化失败|
+|W23108|EIP 适配器套接字通信初始化失败|
+|W23109|EIP 适配器套接字通信 (UDP 0) 初始化失败|
+|W23110|EIP 适配器套接字通信 (UDP 1) 初始化失败|
+|W23111|EIP 适配器套接字通信 (UDP 2) 初始化失败|
+|W23112|EIP 适配器套接字通信 (UDP 3) 初始化失败|
+|W23113|EIP 适配器套接字通信 (TCP 0) 初始化失败|
+|W23114|EIP 适配器套接字通信 (TCP 1) 初始化失败|
+|W23115|EIP 适配器套接字通信 (TCP 2) 初始化失败|
+|W23116|EIP 适配器套接字通信 (TCP 3) 初始化失败|
+|W23117|EIP 适配器内部通信1 (IO 写入) 问题|
+|W23118|EIP 适配器内部通信1 (IO 读取) 问题|
+|W23119|EIP 适配器内部通信1 (状态写入) 问题|
+|W23120|EIP 适配器内部通信1 (配置读取) 问题|
+|W23150|EIP 适配器内部通信2 (IO 读取) 问题|
+|W23151|EIP 适配器内部通信2 (IO 写入) 问题|
+|W23152|EIP 适配器内部通信2 (状态读取) 问题|
+|W23153|EIP 适配器内部通信2 (配置写入) 问题|

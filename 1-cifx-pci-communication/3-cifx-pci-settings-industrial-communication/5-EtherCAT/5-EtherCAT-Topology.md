@@ -1,39 +1,39 @@
-﻿#### 1.3.5.5 EtherCAT Cable Wiring (Topology)
+#### 1.3.5.5 EtherCAT 电缆连接 (拓扑)
 
 <br>
 
-Unlike existing industrial communications, EtherCAT has restrictions in cable wiring and usable Ethernet Ports.
+与现有工业通信不同，EtherCAT 在电缆连接和可用的以太网端口方面有一定的限制。
 
-**1. Ethernet Port**
+**1. 以太网端口**
 
 {% hint style="info" %}
-   - When connecting the EtherCAT master and slave, port 0 should be used.
+   - 在连接 EtherCAT 主站与从站时，应使用端口 0。
 {% endhint %}
 
 ![[Figure 1.3.5.5-1 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_1.png>) 
 
 {% hint style="info" %}
-   - When one slave is connected to the master
+   - 当一个从站连接到主站时
 {% endhint %}
 
 ![[Figure 1.3.5.5-2 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_2.png>) 
 
 {% hint style="info" %}
-   - When two or more slaves are connected to the master
+   - 当两个或多个从站连接到主站时
 
-   - Connect from the slave port 1 to the next slave port 0.
+   - 从从站端口 1 连接到下一个从站端口 0。
 {% endhint %}
 
 ![[Figure 1.3.5.5-3 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_3.png>)
 
 <br>
 
-**2. Redundancy**
+**2. 冗余**
 
 {% hint style="info" %}
-   - When using the Redundancy function in the master 
+   - 当在主站使用冗余功能时 
 
-   - Connect port 1 of the last slave and port 1 of the master to form a ring structure.
+   - 将最后一个从站的端口 1 和主站的端口 1 连接以形成环形结构。
 {% endhint %}
 
 ![[Figure 1.3.5.5-4 EtherCAT Topology]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_4.png>) 
@@ -41,35 +41,35 @@ Unlike existing industrial communications, EtherCAT has restrictions in cable wi
 
 <br>
 
-**3. Cable wiring error**
+**3. 电缆连接错误**
 
 
-Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)".
+请参考 "[1.4.1 错误代码](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/1-error-code.md)"。
 
 <br>
 
 {% hint style="info" %}
-   - If the Network scan function is not working.
+   - 如果网络扫描功能无法工作。
 
-   - Please check the port and cable connected to the master.
+   - 请检查连接到主站的端口和电缆。
 {% endhint %}
 
 ![[Figure 1.3.5.5-5 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_5.png>)
 
 {% hint style="info" %}
-   - Topology Error (Error in Configuration)
+   - 拓扑错误 (配置错误)
 
-   - Please check the cable wiring between the master and slave.
+   - 请检查主站与从站之间的电缆连接。
 {% endhint %}
 
 ![[Figure 1.3.5.5-6 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_6.png>)
 
 {% hint style="info" %}
-   - Topology error 2 (normal during configuration but there is an error during diagnosis)
+   - 拓扑错误 2 (配置期间正常，但是在诊断时有错误)
 
-   - Please check the cable wiring between the master and slave.
+   - 请检查主站与从站之间的电缆连接。
 
-   - Please check the cable wiring between slaves.
+   - 请检查从站之间的电缆连接。
 {% endhint %}
 
 ![[Figure 1.3.5.5-7 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_7.png>)
@@ -77,9 +77,9 @@ Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci
 ![[Figure 1.3.5.5-8 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_8.png>)
 
 {% hint style="info" %}
-   - Mandatory Slave Missing Error
+   - 必须的从站缺失错误
 
-   - Please check the cable wiring between slaves.
+   - 请检查从站之间的电缆连接。
 {% endhint %}
 
 ![[Figure 1.3.5.5-9 EtherCAT ERROR]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-Error/image_9.png>)
