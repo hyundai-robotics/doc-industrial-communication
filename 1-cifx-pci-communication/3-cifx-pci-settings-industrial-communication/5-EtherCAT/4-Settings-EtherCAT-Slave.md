@@ -1,11 +1,11 @@
-﻿#### 1.3.5.4 EtherCAT Slave Settings
+#### 1.3.5.4 EtherCAT从设备设置
 
-The manual is in preparation.
+手册正在准备中。
 
 <br>
 
 {% hint style="info" %}
-   **[EtherCAT Slave ESI File Download]**
+   **[EtherCAT从设备 ESI 文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - 请参考 "[6. 从设备描述文件](../../../6-slave-config-file.md)"。
 {% endhint %}

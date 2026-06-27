@@ -1,21 +1,21 @@
-﻿### 1.3.5 EtherCAT
+### 1.3.5 EtherCAT
 
-This chapter describes the characteristics of EtherCAT master and slave and how to set them.
-
-<br>
-
-**EtherCAT Overview**
-
-EtherCAT is an Ethernet-based fieldbus system developed by Beckhoff Automation.
-
-The EtherCAT protocol provides functions for very fast IO data updates and precise synchronization. 
+本章描述了EtherCAT主站和从站的特性及其设置方法。
 
 <br>
 
-**EtherCAT Master**
-   * Products that correspond to existing fieldbus masters and can ask EtherCAT slave devices to perform I/O data connection.
+**EtherCAT 概述**
+
+EtherCAT是由Beckhoff Automation开发的基于以太网的现场总线系统。
+
+EtherCAT协议提供非常快速的IO数据更新和精确的同步功能。
 
 <br>
 
-**EtherCAT Slave**
-   * Products that correspond to existing fieldbus slaves and are connected to the EtherCAT master device.
+**EtherCAT 主站**
+   * 对应于现有现场总线主站的产品，可以请求EtherCAT从设备执行I/O数据连接。
+
+<br>
+
+**EtherCAT 从站**
+   * 对应于现有现场总线从站的产品，连接到EtherCAT主设备。

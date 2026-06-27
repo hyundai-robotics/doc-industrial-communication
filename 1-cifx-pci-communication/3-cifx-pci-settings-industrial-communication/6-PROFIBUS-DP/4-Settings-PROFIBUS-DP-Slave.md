@@ -1,102 +1,101 @@
-﻿#### 1.3.6.4 PROFIBUS-DP Slave Settings
+#### 1.3.6.4 PROFIBUS-DP 从站设置
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
 <br>
 
 {% hint style="info" %}
-   **[PROFIBUS-DP Slave GSD File Download]**
+   **[PROFIBUS-DP 从站 GSD 文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - Please refer to "[6. 从设备描述文件](../../../6-slave-config-file.md)".
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select a PROFIBUS-DP slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用 TP，在工业通信固件设置中选择一个 PROFIBUS-DP 从站，并重启机器人控制器。**
 
-![[Figure 1.3.6.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.6.4-1 固件设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查当前通信协议的准备状态。**
 
-![[Figure 1.3.6.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_2.png>) 
+![[Figure 1.3.6.4-2 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用 Sycon.net 设置的配置文件下载到相应的 PCI 插槽，则 TP 设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFIBUS-DP Slave]**
+**3. 点击菜单进入从站设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI 从站插槽设置 > PROFIBUS-DP 从站]**
 
-![[Figure 1.3.6.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_3.png>) 
+![[Figure 1.3.6.4-3 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.6.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_4.png>) 
-
-<br>
-
-**4. Description of each item**
-
-{% hint style="info" %}
-   [Station Address]
-
-   - The PROFIBUS-DP identifies a slave through the station address.
-{% endhint %}
-
-{% hint style="info" %}
-   [Input Byte Count (Input Byte)]
-
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
-{% endhint %}
-
-{% hint style="info" %}
-   [Output Byte Count (Output Byte)]
-
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
-{% endhint %}
-
-{% hint style="info" %}
-   [When Setting a Module from the Master]
-
-   - Modules should be specified from the master to match the set byte count.
-
-   - Order: Master Input (64-1) -> Master Output (64-1)
-
-   - EX) Master Input 109 bytes  <---  Slave Output 109 bytes   
-         - Input 109 Bytes : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
-
-   - EX) Master Output 120 bytes  --->  Slave Input 120 bytes   
-         - Output 120 Bytes : 64Byte + 32Byte + 16Byte + 8Byte
-
-
-   - EX) Master Input 12 bytes  <---  Slave Output 12 bytes   
-         - Input 12 Bytes : 8Byte + 4Byte
-
-   - EX) Master Output 200 bytes  --->  Slave Input 200 bytes   
-         - Output 200 Bytes : 64Byte + 64Byte + 64Byte + 8Byte
-
-   - The input module is located before the output module.
-{% endhint %}
-
-![[Figure 1.3.6.4-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>)
-
+![[Figure 1.3.6.4-4 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_4.png>) 
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+**4. 各项目的描述**
+
+{% hint style="info" %}
+   [站地址]
+
+   - PROFIBUS-DP 通过站地址识别从站。
+{% endhint %}
+
+{% hint style="info" %}
+   [输入字节计数（输入字节）]
+
+   - 输入字节计数：设置从主控制器到从站的数据输入大小。
+{% endhint %}
+
+{% hint style="info" %}
+   [输出字节计数（输出字节）]
+
+   - 输出字节计数：设置从站到主控制器的数据输出大小。
+{% endhint %}
+
+{% hint style="info" %}
+   [从主控制器设置模块时]
+
+   - 模块应从主控制器指定，以匹配设置的字节计数。
+
+   - 顺序：主输入 (64-1) -> 主输出 (64-1)
+
+   - EX) 主输入 109 字节 <--- 从输出 109 字节   
+         - 输入 109 字节 : 64Byte + 32Byte + 8Byte + 4Byte + 1 Byte
+
+   - EX) 主输出 120 字节 ---> 从输入 120 字节   
+         - 输出 120 字节 : 64Byte + 32Byte + 16Byte + 8Byte
+
+
+   - EX) 主输入 12 字节 <--- 从输出 12 字节   
+         - 输入 12 字节 : 8Byte + 4Byte
+
+   - EX) 主输出 200 字节 ---> 从输入 200 字节   
+         - 输出 200 字节 : 64Byte + 64Byte + 64Byte + 8Byte
+
+   - 输入模块位于输出模块之前。
+{% endhint %}
+
+![[Figure 1.3.6.4-5 从站设置]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_5.png>)
+
+<br>
+
+**5. 完成设置后，按照下面的步骤检查通信状态。**
 
 For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
-![[Figure 1.3.6.4-6 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_6.png>)
+![[Figure 1.3.6.4-6 工业通信监控]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_6.png>)
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**6. 完成通信设置后，分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，可以通过分配 IO 块来使用输入/输出信号。请参阅 ("[5. 工业通信 IO 读写](../../../5-io-block-allocation.md)")。**
 {% endhint %}

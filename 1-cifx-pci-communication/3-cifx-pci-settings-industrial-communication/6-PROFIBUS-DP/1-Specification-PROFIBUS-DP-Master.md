@@ -1,4 +1,4 @@
-﻿#### 1.3.6.1 PROFIBUS-DP Master Specifications
+#### 1.3.6.1 PROFIBUS-DP 主设备规范
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,81 +8,81 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Maximum Connectable Slave Count</td>
+		<td>最大可连接从设备数量</td>
 		<td>125</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size</td>
+		<td>最大输入大小</td>
 		<td>1200 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
+		<td>最大输出大小</td>
 		<td>1200 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Input Size (1 slave)</td>
+		<td>最大输入大小（1 个从设备）</td>
 		<td>244 bytes</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size (1 slave)</td>
+		<td>最大输出大小（1 个从设备）</td>
 		<td>244 bytes</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO 连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
+		<td>IO 更新周期</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
+		<td>通信速度</td>
 		<td>9.6 ~ 12,000 Kbit/s</td>
 	</tr>
     <tr>
-		<td>Topology</td>
+		<td>拓扑</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>Network Slave Scan</td>
-		<td>Supported</td>
+		<td>网络从设备扫描</td>
+		<td>支持</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Auto Baudrate Detection</td>
-		<td>Not supported</td>
+		<td>自动波特率检测</td>
+		<td>不支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>PROFIBUS FDL</td>
 	</tr>
 </tbody>

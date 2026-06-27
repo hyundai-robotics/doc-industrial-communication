@@ -1,24 +1,24 @@
-﻿#### 2.4.3.1 Connecting External Adapter Devices - Crevis Remote IO
+#### 2.4.3.1 连接外部适配器设备 - Crevis 远程 I/O
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置文件信息。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - For the IP settings of the Remote I/O used in the example, please refer to the manual link below.
+   - 有关示例中使用的远程 I/O 的 IP 设置，请参考下面的手册链接。
 
-   - "[1.3.10.2 Remote IO IP Setting](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 远程 I/O IP 设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 为适配器设备准备手册和 EDS 文件。**
 
 ![[figure 2.4.3.1-1 Remote IO]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_1.png>) 
 
@@ -32,7 +32,7 @@
 
 <br>
 
-**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+**2. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
@@ -41,14 +41,14 @@
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 在连接管理器中检查连接类型  
+      - 示例：独占所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : No header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中是否存在头部   
+      - 输入 (T > O) : 无头部   
+      - 输出 (O > T) : 32 位运行/空闲头部   
 
-   - Click "Create / Decode Path" to verify the Instance ID   
+   - 点击 "创建 / 解码路径" 以验证实例 ID   
 {% endhint %}
 
 <br>
@@ -58,18 +58,18 @@
 <br>
 
 {% hint style="info" %}
-      - Input (T > O) : 1   
-      - Output (O > T) : 2   
+      - 输入 (T > O) : 1   
+      - 输出 (O > T) : 2   
 {% endhint %}
 
 <br>
 
-**3. Check the I/O size in the device manual.**
+**3. 检查设备手册中的 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Verify the I/O configuration of the device to be connected. 
+   - 验证要连接的设备的 I/O 配置。 
 {% endhint %}
 
 <br>
@@ -79,7 +79,7 @@
 <br>
 
 {% hint style="info" %}
-   - Refer to the manual for each slot configuration to determine the total I/O size.
+   - 请参考手册中每个插槽配置以确定总 I/O 大小。
 {% endhint %}
 
 <br>
@@ -88,11 +88,11 @@
 
 <br>
 
-![[그림 2.4.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_8.png>) 
+![[figure 2.4.3.1-8 IO Size]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/1-crevis/img_8.png>) 
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
@@ -101,30 +101,30 @@
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参考目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从属 > 主设备   
+      - 输出 (O > T) : 主设备 > 从属   
 
-   [Adapter Configuration]   
+   [适配器配置]   
    - Crevis M9289   
-      - M7002 : None   
-      - M2768 : 1byte (O > T)   
-      - M2768 : 1byte (O > T)   
-      - M12DF : 2bytes (T > O)   
-      - M12DF : 2bytes (T > O)   
-      - M2768 : 1byte (O > T)   
-      - M2768 : 1byte (O > T)   
+      - M7002 : 无   
+      - M2768 : 1字节 (O > T)   
+      - M2768 : 1字节 (O > T)   
+      - M12DF : 2字节 (T > O)   
+      - M12DF : 2字节 (T > O)   
+      - M2768 : 1字节 (O > T)   
+      - M2768 : 1字节 (O > T)   
 
-   [IO Assembly Information]   
+   [IO 组件信息]   
    [T > O]   
-      - Size: 4bytes   
-      - Instance: 1   
-      - Run/Idle Header: No   
+      - 大小：4字节   
+      - 实例：1   
+      - 运行/空闲头部：无   
 
    [O > T]    
-      - Size: 4bytes   
-      - Instance: 2   
-      - Run/Idle Header: 32Bit   
+      - 大小：4字节   
+      - 实例：2   
+      - 运行/空闲头部：32位   
 {% endhint %}
 
 <br>

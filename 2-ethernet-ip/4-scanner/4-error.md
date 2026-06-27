@@ -1,14 +1,14 @@
-﻿### 2.4.4 Error Codes
+### 2.4.4 错误代码
 
 <br>
 
 {% hint style="info" %}
-   - Provides a real-time diagnostic function by displaying the communication status of each device using CIP standard General Status codes.
+   - 通过使用CIP标准通用状态代码显示每个设备的通信状态，提供实时诊断功能。
 {% endhint %}
 
 <br>
 
-![[figure 2.4.4-1 Scanner Settings]](<../../_assets/2-ethernet-ip/4-scanner/img_8.png>) 
+![[figure 2.4.4-1 扫描仪设置]](<../../_assets/2-ethernet-ip/4-scanner/img_8.png>) 
 
 <br>
 
@@ -20,292 +20,252 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**General Status Codes**
+**通用状态代码**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Status Value (Hex)</th>
-		<th class='powderblued'>Name</th>
-		<th class='powderblued'>Description</th>
+		<th class='powderblued'>状态值 (十六进制)</th>
+		<th class='powderblued'>名称</th>
+		<th class='powderblued'>描述</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td>-</td>
-		<td>Communication not configured or changed</td>
-		<td>Communication settings have not been applied or are in the process of changing</td>
+		<td>未配置或更改通信</td>
+		<td>通信设置尚未应用或正在更改中</td>
 	</tr>
 	<tr>
 		<td>0x00</td>
-		<td>Success</td>
-		<td>The service has successfully been performed by the specified
-object.</td>
+		<td>成功</td>
+		<td>指定对象已成功执行该服务。</td>
 	</tr>
 	<tr>
-		<td>0x00 (In case of error)</td>
-		<td>No reponse</td>
-		<td>No communication response (e.g., cable disconnected, invalid IP address, etc.)</td>
+		<td>0x00 (发生错误时)</td>
+		<td>无响应</td>
+		<td>没有通信响应（例如，电缆断开，IP地址无效等）</td>
 	</tr>
 	<tr>
 		<td>0x01</td>
-		<td>Connection failed</td>
-		<td>A connection-elated service failed. This happened at any
-location along the connection path.</td>
+		<td>连接失败</td>
+		<td>与连接相关的服务失败。此错误发生在连接路径的任何位置。</td>
 	</tr>
 	<tr>
 		<td>0x02</td>
-		<td>Resource unavailable</td>
-		<td>Some resources which were required for the object to perform
-the requested service were not available.</td>
+		<td>资源不可用</td>
+		<td>对象执行请求服务所需的一些资源不可用。</td>
 	</tr>
 	<tr>
 		<td>0x03</td>
-		<td>Invalid parameter value</td>
-		<td>See status code 0x20, which is usually applied in this situation.</td>
+		<td>无效的参数值</td>
+		<td>请参见状态代码0x20，该代码通常适用于该情况。</td>
 	</tr>
 	<tr>
 		<td>0x04</td>
-		<td>Path segment error</td>
-		<td>A path segment error has been encountered. Evaluation of the
-supplied path information failed.</td>
+		<td>路径段错误</td>
+		<td>遇到路径段错误。提供的路径信息评估失败。</td>
 	</tr>
 	<tr>
 		<td>0x05</td>
-		<td>Path destination unknown</td>
-		<td>The path references an unknown object class, instance or
-structure element causing the abort of path processing.</td>
+		<td>路径目的地未知</td>
+		<td>路径引用了一个未知对象类、实例或结构元素，导致路径处理中止。</td>
 	</tr>
 	<tr>
 		<td>0x06</td>
-		<td>Partial transfer</td>
-		<td>Only a part of the expected data could be transferred.</td>
+		<td>部分传输</td>
+		<td>只有部分预期的数据可以被传输。</td>
 	</tr>
 	<tr>
 		<td>0x07</td>
-		<td>Connection lost</td>
-		<td>The connection for messaging has been lost.</td>
+		<td>连接丢失</td>
+		<td>消息传递的连接已丢失。</td>
 	</tr>
 	<tr>
 		<td>0x08</td>
-		<td>Service not supported</td>
-		<td>The requested service has not been implemented or has not
-been defined for this object class or instance</td>
+		<td>服务不支持</td>
+		<td>请求的服务尚未实现或未为此对象类或实例定义</td>
 	</tr>
 	<tr>
 		<td>0x09</td>
-		<td>Invalid attribute value</td>
-		<td>Detection of invalid attribute data</td>
+		<td>无效的属性值</td>
+		<td>检测到无效的属性数据</td>
 	</tr>
 	<tr>
 		<td>0x0A</td>
-		<td>Attribute list error</td>
-		<td>An attribute in the Get_Attribute_List or Set_Attribute_List
-response has a status not equal to 0.</td>
+		<td>属性列表错误</td>
+		<td>在Get_Attribute_List或Set_Attribute_List响应中，某个属性的状态不等于0。</td>
 	</tr>
 	<tr>
 		<td>0x0B</td>
-		<td>Already in requested state</td>
-		<td>The object is already in the mode or state which has been
-requested by the service</td>
+		<td>已处于请求状态</td>
+		<td>对象已经处于服务请求的模式或状态中</td>
 	</tr>
 	<tr>
 		<td>0x0C</td>
-		<td>Object state conflict</td>
-		<td>The object is not able to perform the requested service in the
-current mode or state</td>
+		<td>对象状态冲突</td>
+		<td>对象在当前模式或状态下无法执行请求的服务</td>
 	</tr>
 	<tr>
 		<td>0x0D</td>
-		<td>Object already exists</td>
-		<td>It has been tried to create an instance of an object which
-already exists.</td>
+		<td>对象已存在</td>
+		<td>尝试创建的对象实例已存在。</td>
 	</tr>
 	<tr>
 		<td>0x0E</td>
-		<td>Attribute not settable</td>
-		<td>It has been tried to change a non-modifiable attribute.</td>
+		<td>属性不可设置</td>
+		<td>尝试更改不可修改的属性。</td>
 	</tr>
 	<tr>
 		<td>0x0F</td>
-		<td>Privilege violation</td>
-		<td>A check of permissions or privileges failed</td>
+		<td>权限冲突</td>
+		<td>权限或权限检查失败</td>
 	</tr>
 	<tr>
 		<td>0x10</td>
-		<td>Device state conflict</td>
-		<td>The current mode or state of the device prevents the execution
-of the requested service.</td>
+		<td>设备状态冲突</td>
+		<td>设备的当前模式或状态妨碍了请求服务的执行。</td>
 	</tr>
 	<tr>
 		<td>0x11</td>
-		<td>Reply data too large</td>
-		<td>The data to be transmitted in the response buffer requires more
-space than the size of the allocated response buffer</td>
+		<td>回复数据过大</td>
+		<td>要在响应缓冲区中传输的数据需要的空间超过分配的响应缓冲区的大小</td>
 	</tr>
 	<tr>
 		<td>0x12</td>
-		<td>Fragmentation of primitive value</td>
-		<td>The service specified an operation that is going to fragment a
-primitive data value, i.e. half a REAL data type.</td>
+		<td>原始值碎片化</td>
+		<td>服务指定的操作将碎片化原始数据值，即半个REAL数据类型。</td>
 	</tr>
 	<tr>
 		<td>0x13</td>
-		<td>Not enough data</td>
-		<td>The service did not supply all required data to perform the
-specified operation</td>
+		<td>数据不足</td>
+		<td>服务未提供执行指定操作所需的所有数据</td>
 	</tr>
 	<tr>
 		<td>0x14</td>
-		<td>Attribute not supported</td>
-		<td>An unsupported attribute has been specified in the request</td>
+		<td>不支持的属性</td>
+		<td>请求中指定了一个不受支持的属性</td>
 	</tr>
 	<tr>
 		<td>0x15</td>
-		<td>Too much data</td>
-		<td>More data than was expected were supplied by the service.</td>
+		<td>数据过多</td>
+		<td>服务提供的数据超过了预期。</td>
 	</tr>
 	<tr>
 		<td>0x16</td>
-		<td>Object does not exist</td>
-		<td>The specified object does not exist in the device.</td>
+		<td>对象不存在</td>
+		<td>指定的对象在设备中不存在。</td>
 	</tr>
 	<tr>
 		<td>0x17</td>
-		<td>Service fragmentation sequence erroruccess</td>
-		<td>Fragmentation sequence for this service is not currently active
-for this data</td>
+		<td>服务碎片化序列错误</td>
+		<td>该服务的碎片化序列当前未对该数据处于活动状态</td>
 	</tr>
 	<tr>
 		<td>0x18</td>
-		<td>No stored attribute data</td>
-		<td>The attribute data of this object has not been saved prior to the
-requested service.</td>
+		<td>没有存储的属性数据</td>
+		<td>在请求服务之前，该对象的属性数据未被保存。</td>
 	</tr>
 	<tr>
 		<td>0x19</td>
-		<td>Store operation failure</td>
-		<td>The attribute data of this object could not be saved due to a
-failure during the storage attempt</td>
+		<td>存储操作失败</td>
+		<td>由于存储尝试期间的故障，该对象的属性数据无法保存</td>
 	</tr>
 	<tr>
 		<td>0x1A</td>
-		<td>Routing failure, request packet too large</td>
-		<td>The service request packet was too large for transmission on a
-network in the path to the destination. The routing device was
-forced to abort the service</td>
+		<td>路由失败，请求数据包过大</td>
+		<td>服务请求数据包对于传输到目的地路径上的网络而言过大。路由设备被迫中止服务</td>
 	</tr>
 	<tr>
 		<td>0x1B</td>
-		<td>Routing failure, response packet too large</td>
-		<td>The service response packet was too large for transmission on
-a network in the path from the destination. The routing device
-was forced to abort the service</td>
+		<td>路由失败，响应数据包过大</td>
+		<td>服务响应数据包对于从目的地路径上传输的网络而言过大。路由设备被迫中止服务</td>
 	</tr>
 	<tr>
 		<td>0x1C</td>
-		<td>Missing attribute list entry data</td>
-		<td>The service did not supply an attribute in a list of attributes that
-was needed by the service to perform the requested behavior</td>
+		<td>缺失的属性列表条目数据</td>
+		<td>服务在执行所请求的行为时未在属性列表中提供所需的属性</td>
 	</tr>
 	<tr>
 		<td>0x1D</td>
-		<td>Invalid attribute value list</td>
-		<td>The service returns the list of attributes containing status
-information for invalid attributes</td>
+		<td>无效的属性值列表</td>
+		<td>服务返回包含无效属性状态信息的属性列表</td>
 	</tr>
 	<tr>
 		<td>0x1E</td>
-		<td>Embedded service error</td>
-		<td>An embedded service caused an error</td>
+		<td>嵌入式服务错误</td>
+		<td>嵌入式服务导致了错误</td>
 	</tr>
 	<tr>
 		<td>0x1F</td>
-		<td>Vendor specific error</td>
-		<td>A vendor specific error has occurred. This error should only
-occur when none of the other general error codes can correctly
-be applied</td>
+		<td>厂商特定错误</td>
+		<td>发生了厂商特定的错误。当没有其他通用错误代码能正确适用时，仅应发生此错误</td>
 	</tr>
 	<tr>
 		<td>0x20</td>
-		<td>Invalid parameter</td>
-		<td>A parameter which was associated with the request was invalid.
-The parameter does not meet the requirements of the CIP
-specification and/or the requirements defined in the specification
-of an application object.</td>
+		<td>无效的参数</td>
+		<td>与请求相关的参数无效。该参数不符合CIP规范的要求和/或应用对象规范中定义的要求。</td>
 	</tr>
 	<tr>
 		<td>0x21</td>
-		<td>Write-once value already written</td>
-		<td>An attempt was made to write to a write-once medium for the
-second time, or to modify a value that cannot be changed after
-being established once</td>
+		<td>一次性写入值已写入</td>
+		<td>尝试第二次写入一次性介质，或尝试修改已建立后无法更改的值</td>
 	</tr>
 	<tr>
 		<td>0x22</td>
-		<td>Invalid reply received</td>
-		<td>An invalid reply is received. Possible causes can for instance be
-among others a reply service code not matching the request
-service code or a reply message shorter than the expectable
-minimum size</td>
+		<td>收到无效回复</td>
+		<td>收到无效的回复。可能的原因包括但不限于回复服务代码与请求服务代码不匹配或回复消息短于预期的最小大小</td>
 	</tr>
 	<tr>
 		<td>0x23</td>
-		<td>Reserved</td>
+		<td>保留</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0x24</td>
-		<td>Reserved</td>
+		<td>保留</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0x25</td>
-		<td>Key failure in path</td>
-		<td>The key segment (i.e. the first segment in the path) does not
-match the destination module. More information about which
-part of the key check failed can be derived from the object
-specific status.</td>
+		<td>路径中的关键失败</td>
+		<td>关键段（即路径中的第一个段）与目标模块不匹配。有关关键检查失败的部分，可以从对象特定状态中获得更多信息。</td>
 	</tr>
 	<tr>
 		<td>0x26</td>
-		<td>Path size invalid</td>
-		<td>Path cannot be routed to an object due to lacking information or
-too much routing data have been included</td>
+		<td>路径大小无效</td>
+		<td>由于缺少信息或包含了过多的路由数据，路径无法路由到对象</td>
 	</tr>
 	<tr>
 		<td>0x27</td>
-		<td>Unexpected attribute in list</td>
-		<td>It has been attempted to set an attribute which may not be set in
-the current situation</td>
+		<td>列表中出现意外属性</td>
+		<td>尝试设置在当前情况下可能无法设置的属性</td>
 	</tr>
 	<tr>
 		<td>0x28</td>
-		<td>Invalid member ID</td>
-		<td>The Member ID specified in the request is not available within
-the specified class/ instance or attribute</td>
+		<td>无效的成员ID</td>
+		<td>请求中指定的成员ID在指定的类/实例或属性中不可用</td>
 	</tr>
 	<tr>
 		<td>0x29</td>
-		<td>Member cannot be set</td>
-		<td>A request to modify a member which cannot be modified has
-occurred</td>
+		<td>成员无法设置</td>
+		<td>发生了尝试修改无法修改的成员的请求</td>
 	</tr>
 	<tr>
 		<td>0x2A</td>
-		<td>Group 2 only server general failure</td>
-		<td>This DeviceNet-specific error cannot occur in EtherNet/IP</td>
+		<td>仅限组2服务器的一般故障</td>
+		<td>此DeviceNet特定错误在EtherNet/IP中无法发生</td>
 	</tr>
 	<tr>
 		<td>0x2B - 0xCF</td>
-		<td>Reserved</td>
+		<td>保留</td>
 		<td>-</td>
 	</tr>
 	<tr>
 		<td>0xD0 - 0xFF</td>
-		<td>Vendor specific Codes</td>
-		<td>An object class specific error has occurred</td>
+		<td>厂商特定代码</td>
+		<td>发生了对象类特定错误</td>
 	</tr>
 </tbody>
 </table>

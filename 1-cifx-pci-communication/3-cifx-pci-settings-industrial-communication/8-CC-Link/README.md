@@ -1,27 +1,26 @@
-﻿### 1.3.8 CC-Link
+### 1.3.8 CC-Link
 
-This chapter describes the characteristics of CC-Link slaves and how to set them. 
-
+本章描述了 CC-Link 从站的特性及其设置方法。
 
 <br>
 
-**Fieldbus Overview**
+**现场总线概述**
 
-Fieldbus is an industry standard that has been opened for connecting devices such as sensors, buttons, motor drivers, and operation interfaces to PLCs (Programmable Logic Controllers) with a single cable and operating them in factories.
+现场总线是一种行业标准，旨在通过单一电缆连接传感器、按钮、马达驱动器和操作界面等设备到 PLC（可编程逻辑控制器）并在工厂中操作。
 
-Fieldbus provides intelligent services such as central monitoring of the status of the entire network and reconfiguration of the network.
+现场总线提供智能服务，例如中央监控整个网络的状态和重新配置网络。
 
-For example, it is possible to set detailed information, operations, and modes for sensors and switches, not just simple On/Off.
+例如，可以为传感器和开关设置详细信息、操作和模式，而不仅仅是简单的开/关。
 
-Using a single cable reduces time and costs for wiring, simplifies the configuration, and provides advantage in maintenance.
+使用单一电缆减少了接线的时间和成本，简化了配置，并提高了维护优势。
 
-Also, unlike protocols with non-deterministic response characteristics of general communications, fieldbuses guarantee data response speed to satisfy industrial applications where critical time characteristics are important.
+此外，与一般通信的非确定性响应特征的协议不同，现场总线保证数据响应速度以满足对关键时间特征重要的工业应用。
 
 ![[Figure 1.3.8-1 Fieldbus]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/image_1.png>)
 
 <br>
 
-One fieldbus network connects one master device and multiple slave devices.
-The master device searches and manages the entire network and exchanges data with slave devices.
+一个现场总线网络连接一个主设备和多个从设备。
+主设备搜索并管理整个网络，与从设备交换数据。
 
-Generally, a PLC is a master device, while sensors, buttons, controllers, etc. can be configured as slave devices.
+通常，PLC 是主设备，而传感器、按钮、控制器等可以配置为从设备。

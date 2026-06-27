@@ -1,37 +1,37 @@
-﻿#### 1.3.4.4 PROFINET IO Device Settings
+#### 1.3.4.4 PROFINET IO 设备设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 程序，然后继续以下方法。
 
 <br>
 
 {% hint style="info" %}
-   **[PROFINET IO Device GSDML File Download]**
+   **[PROFINET IO 设备 GSDML 文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - 请参考 "[6. 从设备描述文件](../../../6-slave-config-file.md)"。
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select a PROFINET IO slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用 TP，在工业通讯固件设置中选择一个 PROFINET IO 从设备并重启机器人控制器。**
 
 ![[Figure 1.3.4.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>)
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通讯监控菜单中检查当前通讯协议的准备状态。**
 
 ![[Figure 1.3.4.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用 Sycon.net 设置的配置文件下载到相应的 PCI 插槽，TP 设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > PROFINET IO Slave]**
+**3. 触摸菜单进入从设备设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通讯 > 2: PCI 从设备插槽设置 > PROFINET IO 从设备]**
 
 ![[Figure 1.3.4.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_3.png>) 
 
@@ -39,46 +39,46 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**4. Description of each item**
+**4. 各项描述**
 
 {% hint style="info" %}
-   [Station Name]
+   [站名]
 
-   - The PROFINET IO identifies a slave through the station name.
+   - PROFINET IO 通过站名识别从设备。
 
-   - Naming Rule
-      - Device names connected by PROFINET IO cannot be duplicated.  
-      - A name can be set up to 240 characters.  
-      - Special characters "." and "-" can be used.  
-      - Lowercase English letters and numbers can be used.  
-      - Names should start and end with lowercase English letters or numbers.  
+   - 命名规则
+      - 通过 PROFINET IO 连接的设备名称不能重复。  
+      - 名称可以设置为最多 240 个字符。  
+      - 可以使用特殊字符 "." 和 "-"。  
+      - 可以使用小写英文字母和数字。  
+      - 名称应以小写英文字母或数字开头和结尾。  
 {% endhint %}
 
 {% hint style="info" %}
-   [Input Byte Count (Input Byte)]
+   [输入字节计数 (Input Byte)]
 
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
+   - 输入字节计数：设置从主设备到从设备的数据输入大小。
 {% endhint %}
 
 {% hint style="info" %}
-   [Output Byte Count (Output Byte)]
+   [输出字节计数 (Output Byte)]
 
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
+   - 输出字节计数：设置从从设备到主设备的数据输出大小。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [When Setting a Slot from the Master]
+   [从主设备设置插槽时]
 
-   - Master Input (32byte)  <--  Slave Output (32bytes)
+   - 主设备输入 (32byte)  <--  从设备输出 (32bytes)
 
-   - Master Output (256bytes = 64bytes * 4)  -->  Slave Input (256bytes)
+   - 主设备输出 (256bytes = 64bytes * 4)  -->  从设备输入 (256bytes)
 
-   - 4, 8, 16, 32, and 64 Bytes -> Specify the slot matching each byte count  
-   - 128 and 256 Bytes -> Specify multiple 64-byte slots (2, 4)
+   - 4, 8, 16, 32 和 64 字节 -> 指定与每个字节计数匹配的插槽  
+   - 128 和 256 字节 -> 指定多个 64 字节插槽 (2, 4)
 
-   - The input slot is located before the output slot.
+   - 输入插槽位于输出插槽之前。
 {% endhint %}
 
 <br>
@@ -88,16 +88,16 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+**5. 完成设置后，根据以下程序检查通讯状态。**
 
-For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+有关在 TP 上检查工业通讯状态的程序，请参见 ("[1.4 CIFX PCI 通讯监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 
 ![[Figure 1.3.4.4-6 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_6.png>)
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**6. 完成通讯设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通讯设置后，您可以通过分配 IO 块使用输入/输出信号。请参考 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)")。**
 {% endhint %}

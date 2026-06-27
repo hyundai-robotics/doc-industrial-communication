@@ -1,37 +1,37 @@
-﻿#### 1.3.3.4 EtherNet/IP Adapter Settings
+#### 1.3.3.4 EtherNet/IP适配器设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循“[1.3.1 CIFX PCI插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)”程序，然后继续下面的方法。
 
 <br>
 
 {% hint style="info" %}
-   **[EtherNet/IP Adapter EDS File Download]**
+   **[EtherNet/IP适配器EDS文件下载]**
 
-   - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
+   - 请参考“[6. 从设备描述文件](../../../6-slave-config-file.md)”。
 {% endhint %}
 
 <br>
 
-**1. Using the TP, select an EtherNet/IP slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. 使用TP，在工业通信固件设置中选择EtherNet/IP从设备并重启机器人控制器。**
 
 ![[Figure 1.3.3.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
 <br>
 
-**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查当前通信协议准备状态。**
 
 ![[Figure 1.3.3.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_2.png>) 
 
 <br>
 
 {% hint style="warning" %}
-**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+**\[注意]**: 如果使用Sycon.net下载的配置文件设置到相应的PCI插槽，TP设置将被忽略。
 {% endhint %}
 
 <br>
 
-**3. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherNet/IP Slave]**
+**3. 点击菜单以进入从设备设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI从设备插槽设置 > EtherNet/IP从设备]**
 
 ![[Figure 1.3.3.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_3.png>) 
 
@@ -39,81 +39,81 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**4. Description of each item**
+**4. 各项说明**
 
 {% hint style="info" %}
-   [IP Setting]
+   [IP设置]
 
-   - Fixed IP: User sets the IP address, subnet mask, and gateway information.
+   - 固定IP：用户设置IP地址、子网掩码和网关信息。
 
-   - Dynamic Allocation (DHCP): An IP address is assigned from the DHCP server.
+   - 动态分配（DHCP）：从DHCP服务器分配IP地址。
 {% endhint %}
 
 {% hint style="info" %}
-   [Input Upon Communication Error (Action in Bus Error)]
+   [通信错误时输入（总线错误中的操作）]
 
-   - Clear: Initializes all inputs to 0 when a communication error occurs.
+   - 清除：当发生通信错误时，将所有输入初始化为0。
 
-   - Hold: Maintains the last valid input value when a communication error occurs.
+   - 保持：当发生通信错误时，保持最后有效的输入值。
 {% endhint %}
 
 {% hint style="info" %}
-   [Communication Error Allowable Time (Error Allowed Time)]
+   [通信错误允许时间（错误允许时间）]
 
-   - If a communication error persists for the specified allowed time, a fieldbus error signal and alarm are output.
+   - 如果通信错误持续超过指定的允许时间，将输出现场总线错误信号和报警。
 {% endhint %}
 
 {% hint style="info" %}
-   [Input Byte Count (Input Byte)]
+   [输入字节计数（输入字节）]
 
-   - Input Byte Count: Sets the size of the data input from the master -> slave.
+   - 输入字节计数：设置来自主设备->从设备的数据大小。
 
-   - O -> T: Originator(Master) -> Target (Slave)
+   - O -> T：起始设备（主设备）-> 目标设备（从设备）
 {% endhint %}
 
 {% hint style="info" %}
-   [Output Byte Count (Output Byte)]
+   [输出字节计数（输出字节）]
 
-   - Output Byte Count: Sets the size of the data output from the slave -> master.
+   - 输出字节计数：设置从设备->主设备的数据大小。
 
-   - T -> O: Target (Slave) -> Originator (Master)
+   - T -> O：目标设备（从设备）-> 起始设备（主设备）
 {% endhint %}
 
 {% hint style="info" %}
-   [Run / Idle Header]
+   [运行/闲置头]
 
-   - The CIFX-50 RE EtherNet/IP Adapter applied to the controller uses 32-bit Run/Idle header when exchanging IO with the scanner (default).
+   - 应用于控制器的CIFX-50 RE EtherNet/IP适配器在与扫描器交换IO时使用32位运行/闲置头（默认）。
 
-   - Please set whether to use the input and output 32-bit Run/Idle Header appropriately according to the scanner specifications.
-{% endhint %}
-
-<br>
-
-{% hint style="info" %}
-   [Quick Connect]
-
-   - EtherNet/IP supports the Quick Connect function.
-
-   - If the Quick Connect function is required, please set the EtherNet/IP Adapter using Sycon.net.
-
-      (1) Products that support the Quick Connection function for the master and slaves are required  
-      (2) Quick Connect cannot be used when using Auto Negotiation  
-      (3) Quick Connect cannot be used when using Auto MDI-X  
-      (4) 100 Mbit/s, Full Duplex required  
+   - 请根据扫描器规格适当设置是否使用输入和输出32位运行/闲置头。
 {% endhint %}
 
 <br>
 
-**5. After completing the settings, check the communication status according to the procedure below.**
+{% hint style="info" %}
+   [快速连接]
 
-For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+   - EtherNet/IP支持快速连接功能。
+
+   - 如果需要快速连接功能，请使用Sycon.net设置EtherNet/IP适配器。
+
+      (1) 需要支持快速连接功能的主设备和从设备  
+      (2) 使用自动协商时无法使用快速连接  
+      (3) 使用自动MDI-X时无法使用快速连接  
+      (4) 需要100 Mbit/s，全双工  
+{% endhint %}
+
+<br>
+
+**5. 完成设置后，请按照下面的程序检查通信状态。**
+
+有关在TP上检查工业通信状态的程序，请参考（"[1.4 CIFX PCI通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)"）。
 
 ![[Figure 1.3.3.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_5.png>)
 
 <br>
 
-**6. Assign IO blocks after completing the communication settings.**
+**6. 完成通信设置后，分配IO块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配IO块使用输入/输出信号。请参考（"[5. 工业通信IO读写](../../../5-io-block-allocation.md)"）。**
 {% endhint %}

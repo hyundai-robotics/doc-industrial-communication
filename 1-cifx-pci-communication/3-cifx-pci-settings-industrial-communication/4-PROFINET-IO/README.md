@@ -1,32 +1,32 @@
-﻿### 1.3.4 PROFINET IO
+### 1.3.4 PROFINET IO
 
-This chapter describes the characteristics of the PROFINET IO master (controller) and slave (device) and how to set them. 
+本章描述了PROFINET IO主控（控制器）和从设备（设备）的特性，以及如何进行设置。 
 
 <br>
 
-**PROFINET IO Overview**
+**PROFINET IO概述**
 
-PROFINET IO is an Ethernet-based open industrial communication protocol that has progressively evolved from PROFIBUS-DP and industrial Ethernet.
+PROFINET IO是基于以太网的开放工业通信协议，逐步从PROFIBUS-DP和工业以太网演变而来。
 
 ![[Figure 1.3.4-1 PROFINET IO]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/image_1.png>) 
 
 <br>
 
-It follows the Provider-Consumer model for data exchange and can be classified into the following three classes of products.
+它遵循提供者-消费者模型进行数据交换，可以被分类为以下三类产品。
 
-**IO Controller Class**
-   * Products that correspond to existing PROFIBUS-DP class 1 masters and are types of products in which automation programs such PLCs are running.
+**IO控制器类**
+   * 与现有PROFIBUS-DP类1主控相对应的产品，是运行自动化程序（如PLC）的产品类型。
 
-   * An IO controller supplies output data to the IO devices set to it and consumes the input data from them.
-
-<br>
-
-**IO Device Class**
-  * Products that correspond to existing PROFIBUS-DP slaves and are connected to IO controllers such as PLCs through PROFINET IO.
-
-  * An IO device supplies output data to the IO controller, provides input data, and consumes output data.
+   * IO控制器向设置的IO设备提供输出数据，并从它们那里消耗输入数据。
 
 <br>
 
-**IO Supervisor Class**
-   * Products that correspond to existing PROFIBUS-DP class 2 masters and include those programming devices, PCs, HMIs that are designed for network configuration and diagnosis.
+**IO设备类**
+  * 与现有PROFIBUS-DP从设备相对应的产品，通过PROFINET IO与如PLC的IO控制器连接。
+
+  * IO设备向IO控制器提供输出数据，提供输入数据，并消耗输出数据。
+
+<br>
+
+**IO监控器类**
+   * 与现有PROFIBUS-DP类2主控相对应的产品，包括用于网络配置和诊断的编程设备、PC、HMI。

@@ -1,15 +1,14 @@
-﻿### 1.3.10 EtherNet/IP - Standard Remote IO Connection
+### 1.3.10 EtherNet/IP - 标准远程输入输出连接
 
 <br>
 
-This chapter explains how to connect several standard Remote IO modules selected by our company using the EtherNet/IP scanner (master).
+本章解释如何使用 EtherNet/IP 扫描器（主设备）连接我们公司选择的多个标准远程输入输出模块。
 
 <br>
 
 {% hint style="info" %}
-   - The EtherNet/IP scanner (master) uses the CIFX-50 real time Ethernet PCI.
+   - EtherNet/IP 扫描器（主设备）使用 CIFX-50 实时以太网 PCI。
 
 
-   - Remote IO module uses the M9289 EtherNet/IP network adapter from Crevis.
+   - 远程输入输出模块使用 Crevis 的 M9289 EtherNet/IP 网络适配器。
 {% endhint %}
-

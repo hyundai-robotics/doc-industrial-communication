@@ -1,28 +1,28 @@
-﻿#### 2.4.3.3 Connecting External Adapter Devices - Hilscher CIFX PCI EtherNet/IP Adapter
+#### 2.4.3.3 连接外部适配器设备 - Hilscher CIFX PCI EtherNet/IP 适配器
 
 <br>
 
 {% hint style="info" %}
-   - You can easily verify the configuration information of an EtherNet/IP Adapter device using the EZ-EDS program.
+   - 您可以使用 EZ-EDS 程序轻松验证 EtherNet/IP 适配器设备的配置资料。
 
-   - "[Download EDS File Tool (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
+   - "[下载 EDS 文件工具 (EZ-EDS)](https://www.odva.org/subscriptions-services/additional-tools/ez-eds-download/)"
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Please refer to the Hilscher manual for the IP configuration of the device.
+   - 请参考 Hilscher 手册以获取设备的 IP 配置。
 {% endhint %}
 
 <br>
 
-**1. Prepare the manual and the EDS file for the Adapter device.**
+**1. 准备适配器设备的手册和 EDS 文件。**
 
 ![[figure 2.4.3.3-1 CIFX PCI]](<../../../_assets/2-ethernet-ip/4-scanner/3-connect-adapter/3-pci/img_1.png>) 
 
 <br>
 
-**2. Open the EDS file using the EZ-EDS program and verify the device information.**
+**2. 使用 EZ-EDS 程序打开 EDS 文件并验证设备信息。**
 
 <br>
 
@@ -31,12 +31,12 @@
 <br>
 
 {% hint style="info" %}
-   - Check the connection type in the Connection Manager   
-      - Example: Exclusive Owner
+   - 检查连接管理器中的连接类型   
+      - 示例：独占所有者
 
-   - Check for the presence of headers in the Real Time Transfer Format   
-      - Input (T > O) : 32-bit run/idle header   
-      - Output (O > T) : 32-bit run/idle header   
+   - 检查实时传输格式中标头的存在   
+      - 输入 (T > O) : 32 位运行/空闲标头   
+      - 输出 (O > T) : 32 位运行/空闲标头   
 {% endhint %}
 
 <br>
@@ -46,24 +46,24 @@
 <br>
 
 {% hint style="info" %}
-   - Check the Instance ID in Param   
-      - Input (T > O) : 101   
-      - Output (O > T) : 100   
+   - 检查参数中的实例 ID   
+      - 输入 (T > O) : 101   
+      - 输出 (O > T) : 100   
 {% endhint %}
 
 <br>
 
-**3. Check the I/O size in the device manual.**
+**3. 检查设备手册中的 I/O 大小。**
 
 <br>
 
 {% hint style="info" %}
-   - Check the I/O Size of the current device to be connected (Refer to the corresponding PCI device settings)   
+   - 检查要连接的当前设备的 I/O 大小（参考相应的 PCI 设备设置）   
 {% endhint %}
 
 <br>
 
-**4. Enter the communication settings based on the Adapter device information.**
+**4. 根据适配器设备信息输入通信设置。**
 
 <br>
 
@@ -72,20 +72,20 @@
 <br>
 
 {% hint style="info" %}
-   - Please refer to the manual of the target device to enter the settings correctly.   
-      - Input (T > O) : Slave > Master   
-      - Output (O > T) : Master > Slave   
+   - 请参考目标设备的手册以正确输入设置。   
+      - 输入 (T > O) : 从设备 > 主设备   
+      - 输出 (O > T) : 主设备 > 从设备   
 
-   [IO Assembly Information]   
+   [IO 装配信息]   
    [T > O]   
-      - Size: 240 bytes (Value configured in the PCI device)   
-      - Instance: 101   
-      - Run/Idle Header: 32Bit   
+      - 大小：240 字节（在 PCI 设备中配置的值）   
+      - 实例：101   
+      - 运行/空闲标头：32Bit   
 
    [O > T]    
-      - Size: 240 bytes (Value configured in the PCI device)   
-      - Instance: 100   
-      - Run/Idle Header: 32Bit   
+      - 大小：240 字节（在 PCI 设备中配置的值）   
+      - 实例：100   
+      - 运行/空闲标头：32Bit   
 {% endhint %}
 
 <br>

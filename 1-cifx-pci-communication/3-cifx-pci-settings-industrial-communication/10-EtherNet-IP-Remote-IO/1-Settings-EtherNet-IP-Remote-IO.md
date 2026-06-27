@@ -1,22 +1,22 @@
-﻿#### 1.3.10.1 EtherNet/IP - Standard Remote IO Connection Settings
+#### 1.3.10.1 EtherNet/IP - 标准远程 IO 连接设置
 
-Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+请遵循 "[1.3.1 CIFX PCI 插槽设置](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 程序，然后继续下面的方法。
 
 <br>
 
-**1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.**
+**1. 在工业通信固件设置中选择 EtherNet/IP 主设备并重启机器人控制器。**
 
 ![[Figure 1.3.10.1-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查所选协议的就绪状态。**
 
 ![[Figure 1.3.10.1-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_2.png>) 
 
 <br>
 
-**3. Connect the PCI and Remote IO cables, etc. for communication and check the status.**
+**3. 连接PCI和远程IO电缆等以进行通信，并检查状态。**
 
 ![[Figure 1.3.10.1-3 Hardware Connection]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_3.png>) 
 
@@ -25,27 +25,27 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 <br>
 
 {% hint style="info" %}
-   - Please connect the PCI and Remote IO using a LAN cable.
+   - 请使用 LAN 电缆连接 PCI 和远程 IO。
 
-   - Set all DIP switches of the Remote IO to OFF.
+   - 将远程 IO 的所有 DIP 开关设置为关闭。
 
-   - Connect both the Remote IO power and Field Power (24 V DC).
+   - 同时连接远程 IO 电源和现场电源（24 V DC）。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - The factory default IP of the Crevis M9289 Remote IO is 192.168.100.99.
+   - Crevis M9289 远程 IO 的出厂默认IP为 192.168.100.99。
 
-   - The Remote IO IP should be set to 192.168.100.99 to enable communication connection.
+   - 远程 IO IP 应设置为 192.168.100.99 以启用通信连接。
 
-   - "[1.3.10.2 Remote IO IP Setting](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 远程 IO IP 设置](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 <br>
 
-**4. Touch the menu to enter the slave settings screen.**
-**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherNet/IP Remote IO Setting]**
+**4. 触摸菜单以进入从设备设置屏幕。**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 2: PCI 从槽设置 > EtherNet/IP 远程 IO 设置]**
 
 ![[Figure 1.3.10.1-5 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>)
 
@@ -54,62 +54,62 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 <br>
 
 {% hint style="info" %}
-   - The IP is set as a fixed value.
+   - IP 设置为固定值。
 
-   - Check the input and output byte counts.
+   - 检查输入和输出字节计数。
 
-   - The selected input and output byte counts should be less than or equal to the IO byte counts of the card installed in the Remote IO slot.
+   - 选择的输入和输出字节计数应小于或等于安装在远程 IO 插槽中的卡的 IO 字节计数。
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - Input Module  
-   - M12DF: Digital 16 points  
-   - M3534: Analog 4 points  
+   - 输入模块  
+   - M12DF: 数字 16 点  
+   - M3534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Output Module  
-   - M225F: Digital 16 points  
-   - M226F: Digital 16 points  
-   - M2768: Digital 8 points   
-   - M4534: Analog 4 points  
+   - 输出模块  
+   - M225F: 数字 16 点  
+   - M226F: 数字 16 点  
+   - M2768: 数字 8 点   
+   - M4534: 模拟 4 点  
 {% endhint %}
 
 {% hint style="info" %}
-   - Special Module  
-   - M5112 : Conveyer I/F
+   - 特殊模块  
+   - M5112 : 输送机 I/F
 {% endhint %}
 
 <br>
 
-**5. Reboot the controller after completing the settings.**
+**5. 完成设置后重启控制器。**
 
 ![[Figure 1.3.10.1-7 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_7.png>)
 
 ![[Figure 1.3.10.1-8 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_8.png>) 
 
 {% hint style="info" %}
-   - Please reboot the controller after completing the settings.
+   - 请在完成设置后重启控制器。
 {% endhint %}
 
 <br>
 
-**6. After confirming that the setting values are reflected, check the communication status.**
+**6. 确认设置值已反映后，检查通信状态。**
 
 ![[Figure 1.3.10.1-9 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_9.png>)
 
-For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+有关在 TP 上检查工业通信状态的程序，请参阅 ("[1.4 CIFX PCI 通信监控](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")。
 
 ![[Figure 1.3.10.1-10 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_10.png>)
 
 {% hint style="info" %}
-   - If communication is not connected, you should check the Remote IO IP.
+   - 如果未连接通信，您应该检查远程 IO IP。
 
-   - Please follow the steps below. (If not 192.168.100.99)
+   - 请遵循以下步骤。（如果不是 192.168.100.99）
 
-   - "[1.3.10.2 Remote IO IP Setting](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
+   - "[1.3.10.2 远程 IO IP 设置](../../3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/2-Settings-Remote-IO-IP.md)"
 {% endhint %}
 
 ![[Figure 1.3.10.1-11 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_11.png>) 
@@ -118,8 +118,8 @@ For the procedure to check the industrial communication status on the TP, refer 
 
 <br>
 
-**7. Assign IO blocks after completing the communication settings.**
+**7. 完成通信设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参阅 ("[5. 工业通信 IO 读取和写入](../../../5-io-block-allocation.md)").**
 {% endhint %}

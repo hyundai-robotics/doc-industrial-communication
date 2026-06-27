@@ -1,12 +1,12 @@
-﻿### 2.3.2 EtherNet/IP Adapter (Slave) Settings
+### 2.3.2 EtherNet/IP 适配器 (从设备) 设置
 
 <br>
 
-**1. EtherNet/IP Adapter Settings and Monitoring via Teaching Pendant**
+**1. 通过教学挂件设置和监控 EtherNet/IP 适配器**
 
 <br>
 
-**\[System > 2: Control Parameter > 11: Industrial Communication > 3: EtherNet/IP Settings]**
+**\[系统 > 2: 控制参数 > 11: 工业通信 > 3: EtherNet/IP 设置]**
 
 <br>
 
@@ -15,38 +15,38 @@
 <br>
 
 {% hint style="info" %}
-   [Protocol Settings]
+   [协议设置]
 
-      - OFF : EtherNet/IP disable   
-      - Adapter : EtherNet/IP Adapter mode   
-      - Scanner : EtherNet/IP Scanner mode   
-      - Adapter + Scanner : EtherNet/IP Adapter + Scanner mode   
+      - OFF : 禁用 EtherNet/IP  
+      - Adapter : EtherNet/IP 适配器模式  
+      - Scanner : EtherNet/IP 扫描器模式  
+      - Adapter + Scanner : EtherNet/IP 适配器 + 扫描器模式  
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [Port Settings]
+   [端口设置]
 
-      - General-purpose controller LAN1 to LAN3 are available (Ensure the status is "OK")
+      - 通用控制器 LAN1 到 LAN3 可用 (确保状态为 "OK")
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   [IO Size]
+   [IO 大小]
 
-      -	Input Byte Count: 0-240 can be set.   
-      -	Output Byte Count: 0-240 can be set.
+      - 输入字节数: 可设置为 0-240。  
+      - 输出字节数: 可设置为 0-240。
 {% endhint %}   
 
 <br>
 
 {% hint style="info" %}
-   [Communication Status Check]   
+   [通信状态检查]   
 
-      - License: Current license status   
-      - Run: Indicates the operational status of the EtherNet/IP function   
-      - Communication: Indicates the EtherNet/IP connection status   
-      - Error: Indicates the EtherNet/IP error status    
+      - License: 当前许可证状态  
+      - Run: 指示 EtherNet/IP 功能的操作状态  
+      - Communication: 指示 EtherNet/IP 连接状态  
+      - Error: 指示 EtherNet/IP 错误状态    
 {% endhint %}

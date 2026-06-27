@@ -1,4 +1,4 @@
-﻿### 2.4.3 Connecting External Adapter Devices
+### 2.4.3 连接外部适配器设备
 
 <br>
 
@@ -11,18 +11,18 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Configuration Values for Connecting External Adapter Devices**
+**连接外部适配器设备的配置值**
 
 <br>
 
 {% hint style="info" %}
-   - Please set the IO size to match the Input/Output size configured on the external device.   
+   - 请将 IO 大小设置为与外部设备上配置的输入/输出大小匹配。   
 {% endhint %}
 
 <br>
 
 {% hint style="info" %}
-   - For detailed specifications, please refer to the manual provided by the device manufacturer    
+   - 有关详细规格，请参考设备制造商提供的手册    
 {% endhint %}
 
 <br>
@@ -30,62 +30,62 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <table class="tg sm-font-table">
 <thead>
 	<tr>
-    	<th rowspan=2, class='powderblued'>Maker</th>
-		<th rowspan=2, class='powderblued'>Product</th>
-		<th rowspan=2, class='powderblued'>Connection Type</th>
+    	<th rowspan=2, class='powderblued'>制造商</th>
+		<th rowspan=2, class='powderblued'>产品</th>
+		<th rowspan=2, class='powderblued'>连接类型</th>
         <th colspan=2, class='powderblued'>T -> O</th>
         <th colspan=2, class='powderblued'>O -> T</th>
-        <th colspan=5, class='powderblued'>Additional Configuration</th>
+        <th colspan=5, class='powderblued'>附加配置</th>
 	</tr>
     <tr>
-        <th class='powderblued'>Instance ID</th>
-        <th class='powderblued'>Run Idle Header</th>
-        <th class='powderblued'>Instance ID</th>
-        <th class='powderblued'>Run Idle Header</th>
-		<th class='powderblued'>Instance ID</th>
-        <th class='powderblued'>Total Size</th>
-		<th class='powderblued'>Data Size</th>
-        <th class='powderblued'>Data Type</th>
-		<th class='powderblued'>Data</th>
+        <th class='powderblued'>实例 ID</th>
+        <th class='powderblued'>运行空闲头</th>
+        <th class='powderblued'>实例 ID</th>
+        <th class='powderblued'>运行空闲头</th>
+		<th class='powderblued'>实例 ID</th>
+        <th class='powderblued'>总大小</th>
+		<th class='powderblued'>数据大小</th>
+        <th class='powderblued'>数据类型</th>
+		<th class='powderblued'>数据</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td>Crevis</td>
 		<td>M9289</td>
-        <td>Exclusive Owner</td>
+        <td>独占所有者</td>
 		<td>1</td>
-		<td>No</td>
+		<td>否</td>
         <td>2</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
     <tr>
 		<td>Wago</td>
 		<td>750-366</td>
-        <td>Exclusive Owner</td>
-		<td>104: Status + AI + DI<br>105: Status + DI<br>106: Status + AI<br>107: AI + DI<br>108: DI<br>109: AI</td>
-		<td>No</td>
+        <td>独占所有者</td>
+		<td>104: 状态 + AI + DI<br>105: 状态 + DI<br>106: 状态 + AI<br>107: AI + DI<br>108: DI<br>109: AI</td>
+		<td>否</td>
         <td>101: AO + DO<br>102: DO<br>103: AO</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
     <tr>
 		<td>Hilscher</td>
-		<td>CIFX PCI EtherNet/IP Adapter</td>
-        <td>Exclusive Owner</td>
+		<td>CIFX PCI EtherNet/IP 适配器</td>
+        <td>独占所有者</td>
 		<td>101</td>
-		<td>Yes</td>
+		<td>是</td>
         <td>100</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
     <tr>
 		<td>Baumer</td>
 		<td>OM-70 EtherNet/IP</td>
-        <td>Input Only</td>
+        <td>仅输入</td>
 		<td>100</td>
-		<td>No</td>
+		<td>否</td>
         <td>238</td>
 		<td>-</td>
 		<td colspan=5>-</td>
@@ -93,21 +93,21 @@ td {border-color:gray;border-style:solid;border-width:1px;}
     <tr>
 		<td>Beckhoff</td>
 		<td>EK-9500</td>
-        <td>Exclusive Owner</td>
+        <td>独占所有者</td>
 		<td>129</td>
-		<td>No</td>
+		<td>否</td>
         <td>130</td>
-		<td>Yes</td>
+		<td>是</td>
 		<td colspan=5>-</td>
 	</tr>
 	<tr>
-		<td rowspan=6>Rockwell Automation (AB)</td>
+		<td rowspan=6>罗克韦尔自动化 (AB)</td>
 		<td rowspan=6>Point I/O 1734-AENTR</td>
-        <td rowspan=6>Exclusive Owner</td>
+        <td rowspan=6>独占所有者</td>
 		<td rowspan=6>101</td>
-		<td rowspan=6>No</td>
+		<td rowspan=6>否</td>
         <td rowspan=6>100</td>
-		<td rowspan=6>Yes</td>
+		<td rowspan=6>是</td>
 		<td rowspan=6>102</td>
 		<td rowspan=6>10</td>
 		<td>4byte</td>
@@ -117,27 +117,27 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 	<tr>
 		<td>2byte</td>
 		<td>unsigned int</td>
-		<td>IO slot + 1</td>
+		<td>IO 插槽 + 1</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(T -> O) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+		<td>(T -> O) 对齐<br>0: 字节<br>2: 字<br>4: 双字<br>255: 固定</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(T -> O) Fixed Size per Slot</td>
+		<td>(T -> O) 每个插槽的固定大小</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(O -> T) Alignment<br>0: bytes<br>2: word<br>4: Dword<br>255: Fixed</td>
+		<td>(O -> T) 对齐<br>0: 字节<br>2: 字<br>4: 双字<br>255: 固定</td>
 	</tr>
 	<tr>
 		<td>1byte</td>
 		<td>unsigned int</td>
-		<td>(O -> T) Fixed Size per Slot</td>
+		<td>(O -> T) 每个插槽的固定大小</td>
 	</tr>
 </tbody>
 </table>

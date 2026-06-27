@@ -1,4 +1,4 @@
-﻿#### 1.3.4.3 PROFINET IO Device Specifications
+#### 1.3.4.3 PROFINET IO设备规格
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -8,105 +8,105 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </style>
 <br>
 
-**Protocol Characteristics**
+**协议特性**
 
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
     <tr>
-		<td>Maximum Input Size</td>
+		<td>最大输入大小</td>
 		<td>256 bytes (TP) / 1024 bytes (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>Maximum Output Size</td>
+		<td>最大输出大小</td>
 		<td>256 bytes (TP) / 1024 bytes (Sycon.net)</td>
 	</tr>
     <tr>
-		<td>IO Connection</td>
+		<td>IO连接</td>
 		<td> - </td>
 	</tr>
     <tr>
-		<td>IO update Cycle</td>
-		<td>Min. 1ms</td>
+		<td>IO更新周期</td>
+		<td>最小1ms</td>
 	</tr>
     <tr>
-		<td>Communication Speed</td>
-		<td>100 Mbit/s (Full-duplex)</td>
+		<td>通信速度</td>
+		<td>100 Mbit/s (全双工)</td>
 	</tr>
     <tr>
-		<td>Topology</td>
-		<td>Tree, Line</td>
+		<td>拓扑结构</td>
+		<td>树形, 直线</td>
 	</tr>
     <tr>
-		<td>Quick Connect</td>
-		<td>Not supported</td>
+		<td>快速连接</td>
+		<td>不支持</td>
 	</tr>
     <tr>
 		<td>DCP</td>
-		<td>Supported</td>
+		<td>支持</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Network Characteristics**
+**网络特性**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Data Transport Layer</td>
+		<td>数据传输层</td>
 		<td>Ethernet II, IEEE 802.3</td>
 	</tr>
 	<tr>
-		<td>Interface Type</td>
+		<td>接口类型</td>
 		<td>100 BASE-T Ethernet</td>
 	</tr>
     <tr>
-		<td>Auto-Negotiation</td>
-		<td>Not supported</td>
+		<td>自动协商</td>
+		<td>不支持</td>
 	</tr>
     <tr>
-		<td>Hub</td>
-		<td>Forbidden</td>
+		<td>集线器</td>
+		<td>禁止</td>
 	</tr>
     <tr>
-		<td>Switch</td>
-		<td>Only allowed if the switch supports, Priority Tagging and LLDP</td>
+		<td>交换机</td>
+		<td>仅在交换机支持优先级标记和LLDP时允许</td>
 	</tr>
 </tbody>
 </table>
 <br>
 
-**Connection**
+**连接**
 
 <br>
 <table class="tg">
 <thead>
 	<tr>
-		<th class='powderblued'>Category</th>
-		<th class='powderblued'>Specifications</th>
+		<th class='powderblued'>类别</th>
+		<th class='powderblued'>规格</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>Cable</td>
-		<td>Minimum of Cat5, STP</td>
+		<td>电缆</td>
+		<td>最低Cat5, STP</td>
 	</tr>
 	<tr>
-		<td>length</td>
-		<td>Max. 100m</td>
+		<td>长度</td>
+		<td>最大100m</td>
 	</tr>
 </tbody>
 </table>

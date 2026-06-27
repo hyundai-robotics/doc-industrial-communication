@@ -1,4 +1,4 @@
-﻿#### 1.3.5.2 EtherCAT Master Settings
+#### 1.3.5.2 EtherCAT 主设置
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[1.3.2 SYCON.NET Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -10,13 +10,13 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Select the EtherCAT master in the PCI slot settings and reboot the robot controller.**
+**1. 在 PCI 插槽设置中选择 EtherCAT 主控并重启机器人控制器。**
 
 ![[Figure 1.3.5.2-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_1.png>) 
 
 <br>
 
-**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+**2. 在工业通信监控菜单中检查所选协议的就绪状态。**
 
 <br>
 
@@ -30,34 +30,34 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**3. Select the EtherCAT master PCI device by using Sycon.net.**
+**3. 使用 Sycon.net 选择 EtherCAT 主控 PCI 设备。**
 
 ![[Figure 1.3.5.2-3 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_3.png>)
 ![[Figure 1.3.5.2-4 EtherCAT Master PCI]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_4.png>) 
 
 <br>
 
-**4. Scan the PCI device and apply the EtherCAT master.**
+**4. 扫描 PCI 设备并应用 EtherCAT 主控。**
 
 ![[Figure 1.3.5.2-5 Sycon.net Scan]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_5.png>) 
 
 <br>
 
-**5. Download the settings.**
+**5. 下载设置。**
 
 ![[Figure 1.3.5.2-6 EtherCAT Master Download]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_6.png>) 
 
 <br>
 
-**6. Prepare the slave module to be connected to the EtherCAT master.**
-   * In this example, we use the M9386 EtherCAT slave from Crevis.
-   * Please supply the system power and field power to activate the module.
+**6. 准备要连接到 EtherCAT 主控的从模块。**
+   * 在此示例中，我们使用 Crevis 的 M9386 EtherCAT 从设备。
+   * 请提供系统电源和现场电源以启用模块。
 
 ![[Figure 1.3.5.2-7 Crevis M9386]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/2-Master_setting/image_7.png>) 
 
 <br>
 
-**7. Slave device station address**
+**7. 从设备站地址**
 
 {% hint style="info" %}
    - The station address of the EtherCAT slave device is set by the master.
@@ -65,7 +65,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**8. Register the slave device XML file.**
+**8. 注册从设备 XML 文件。**
 
 {% hint style="info" %}
    - An XML file is required to use a device not registered in Sycon.net.
@@ -98,12 +98,12 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**9. Network Scan**
+**9. 网络扫描**
 
 {% hint style="warning" %}
-   **For EtherCAT, the available cable connections and ports are specified.**
+   **对于 EtherCAT，可用的电缆连接和端口已指定。**
 
-   **For smooth communication connection, be sure to check ("[1.3.5.5 EtherCAT Cable Wiring](../5-EtherCAT/5-EtherCAT-Topology.md)").**
+   **为了确保顺畅的通信连接，请务必检查 ("[1.3.5.5 EtherCAT Cable Wiring](../5-EtherCAT/5-EtherCAT-Topology.md)")。**
 {% endhint %}
 
 {% hint style="info" %}
@@ -128,7 +128,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**10. Configure the slave device.**
+**10. 配置从设备。**
 
 {% hint style="info" %}
    - Click Disconnect on the master device to configure the slave device.
@@ -157,7 +157,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**11. Configure the master device.**
+**11. 配置主设备。**
 
 {% hint style="info" %}
    - Double-click the Master device.
@@ -196,7 +196,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**12. Check the communication status.**
+**12. 检查通信状态。**
 
 {% hint style="info" %}
    - Check the communication status in Sycon.net and TP.
@@ -220,8 +220,8 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**13. Assign IO blocks after completing the settings.**
+**13. 在完成设置后分配 IO 块。**
 
 {% hint style="info" %}
-   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+   **在完成通信设置后，您可以通过分配 IO 块来使用输入/输出信号。请参考 ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)")。**
 {% endhint %}
