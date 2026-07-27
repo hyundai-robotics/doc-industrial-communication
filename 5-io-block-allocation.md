@@ -30,6 +30,22 @@
 **\[주의]**: 내장 PLC와 함께 사용하는 경우 IO 속성, DI/DO - X/Y 를 확인해 주십시오. 
 {% endhint %}
 
-{% hint style="warning" %}
-**\[주의]**: EtherNet/IP 어댑터의 경우 최대 블록사이즈는 120 Bytes 이며 최대 2개까지 선택할 수 있습니다. 2개를 초과하는 선택은 무시 됩니다. 
+{% hint style="info" %}
+
+   **[fb block 할당 방법]**
+
+   - fb 블록 1개의 크기는 120byte (960점) 입니다.   
+   - fb 블록 할당 예시   
+      - PCI 슬롯 1: CC-Link Slave   
+      - 설정: Version 2 / 3국 점유 / 확장 싸이클릭 8배   
+      - I/O 크기   
+         - RX/Y: 80 byte   
+         - RWr/w: 192 byte   
+         - 총: 272 byte   
+
+      - fb 블록 번호가 낮은 순서대로 IO 맵핑   
+         - fb2: PCI 슬롯 1 ( ~ 120 byte)   
+         - fb4: PCI 슬롯 1 ( ~ 240 byte)   
+         - fb5: PCI 슬롯 1 ( ~ 272 byte)   
+
 {% endhint %}
