@@ -30,6 +30,23 @@ To use the industrial communication IO, the IO blocks should be assigned to the 
 **\[Caution]**: When using together with an embedded PLC, please check IO attributes and DI/DO - X/Y.
 {% endhint %}
 
-{% hint style="warning" %}
-**\[Caution]**: For an EtherNet/IP adapter, the maximum block size is 120 bytes and up to 2 blocks can be selected. Any selection exceeding 2 will be ignored. 
+{% hint style="info" %}
+
+   **[fb Block Allocation Method]**
+
+   - The size of one fb block is 120 bytes (960 points).   
+
+   - Example of fb block allocation   
+      - PCI slot 1: CC-Link Slave   
+      - Configuration: Version2, 3 Stations, 8 Extension cyclic   
+      - I/O Size   
+         - RX/Y: 80 byte   
+         - RWr/w: 192 byte   
+         - Total: 272 byte   
+
+      - I/O mapping is assigned in ascending order of fb block number   
+      - fb2: PCI slot 1 ( ~ 120 byte)   
+      - fb4: PCI slot 1 ( ~ 240 byte)   
+      - fb5: PCI slot 1 ( ~ 272 byte)   
+
 {% endhint %}
