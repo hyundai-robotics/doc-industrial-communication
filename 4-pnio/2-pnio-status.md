@@ -15,3 +15,7 @@ By selecting the **\[System > 2: Control Parameter > 11: Industrial Communicatio
 <img src="../_assets/4-pnio/profinet_LED.png"></img>
 <em><p align="center">BD671(PROFINET) </p></em>
 </p>
+
+* The version information is indicated by the LED blinking pattern during boot-up.
+    - MCU: 1 (Major), 5 (Minor)
+    - DSP: 4 (Major), 6 (Minor)
