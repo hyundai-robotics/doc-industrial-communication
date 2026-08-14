@@ -102,6 +102,7 @@
 * [4. PROFINET IO](4-pnio/README.md)
   * [4.1 PROFINET 통신의 설정](4-pnio/1-pnio.md)
   * [4.2 PROFINET 상태 모니터링](4-pnio/2-pnio-status.md)
+  * [4.3 MRP 설정](4-pnio/3-mrp.md)
 
 * [5. 산업용 통신 IO 읽기 및 쓰기](5-io-block-allocation.md)
 

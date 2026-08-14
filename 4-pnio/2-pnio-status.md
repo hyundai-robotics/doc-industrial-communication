@@ -15,3 +15,11 @@
 <img src="../_assets/4-pnio/profinet_LED.png"></img>
 <em><p align="center">BD671(PROFINET) </p></em>
 </p>
+
+* 부팅시 버전 정보는 아래 LED 점멸로 표시합니다.
+    - MCU : 1(Major), 5(Minor)
+    - DSP : 4(Major), 6(Minor)
+
+
+
+
