@@ -388,7 +388,7 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 {% endhint %}
 
 {% hint style="warning" %}
-**\[주의]**: Scan 이 안되는 경우 제어기와의 Cable 연결 상태, 펌웨어 설정을 확인해 주십시오.
+**\[주의]**: Scan 이 안되는 경우 제어기와의 Cable 연결 상태, PCI 슬롯 설정을 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
@@ -1019,9 +1019,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**1. TP를 이용하여 산업용 통신 펌웨어 설정에서 EtherNet/IP Slave를 선택하고 로봇 제어기를 재부팅합니다.**
+**1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 EtherNet/IP Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.3.4-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
+![[그림 1.3.3.4-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -1039,7 +1039,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  EtherNet/IP Slave]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  EtherNet/IP Slave]**
 
 ![[그림 1.3.3.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_3.png>) 
 
@@ -1700,9 +1700,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**1. TP를 이용하여 산업용 통신 펌웨어 설정에서 PROFINET IO Slave를 선택하고 로봇 제어기를 재부팅합니다.**
+**1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 PROFINET IO Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.4.4-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>) 
+![[그림 1.3.4.4-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -1720,7 +1720,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  PROFINET IO Slave]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  PROFINET IO Slave]**
 
 ![[그림 1.3.4.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_3.png>) 
 
@@ -2304,8 +2304,6 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Settings-EtherCAT-Slave.md)
 #### 1.3.5.4 EtherCAT Slave 설정
 
-매뉴얼 준비중입니다.
-
 <br>
 
 {% hint style="info" %}
@@ -2314,6 +2312,66 @@ td {border-color:gray;border-style:solid;border-width:1px;}
    - "[6. Slave 장치 설명 파일](../../../6-slave-config-file.md)" 참고해 주십시오.
 {% endhint %}
 
+<br>
+
+"[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
+
+<br>
+
+**1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 EtherCAT Slave를 선택하고 로봇 제어기를 재부팅합니다.**
+
+![[그림 1.3.5.2-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_1.png>) 
+
+<br>
+
+**2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.**
+
+![[그림 1.3.5.4-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_2.png>) 
+
+<br>
+
+{% hint style="warning" %}
+**\[주의]**: Sycon.net 으로 설정한 Configuration 파일이 해당 PCI 슬롯에 Download 되어 있는 경우 TP의 설정 값을 무시하게 됩니다.
+{% endhint %}
+
+<br>
+
+**3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
+
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  EtherCAT Slave]**
+
+![[그림 1.3.5.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_3.png>) 
+
+![[그림 1.3.5.4-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_4.png>) 
+
+<br>
+
+**4. 각 항목별 설명**
+
+{% hint style="info" %}
+   [IO 종류 및 크기]   
+   - TxPDO: 슬레이브 -> 마스터   
+   - RxPDO: 마스터 -> 슬레이브   
+   - 최대 크기: 256 bytes   
+{% endhint %}
+
+<br>
+
+**5. 설정 완료 후 아래 절차에 따라 통신 상태를 확인하여 주십시오.**
+
+TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
+
+<br>
+
+**6. 통신 설정 완료 후 IO Block 을 할당합니다.**
+
+{% hint style="info" %}
+   **통신 설정 완료 후 IO Block 을 할당하여 입출력 신호를 사용할 수 있습니다.  ("[5. 산업용 통신 IO 읽기 및 쓰기](../../../5-io-block-allocation.md)")를 확인해 주십시오.**
+{% endhint %}
+
+<br>
+
+![[그림 1.3.5.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_5.png>) 
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md)
 #### 1.3.5.5 EtherCAT 케이블 결선 (Topology)
 
@@ -2856,9 +2914,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**1. TP를 이용하여 산업용 통신 펌웨어 설정에서 PROFIBUS-DP Slave를 선택하고 로봇 제어기를 재부팅합니다.**
+**1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 PROFIBUS-DP Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.6.4-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
+![[그림 1.3.6.4-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -2876,7 +2934,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  PROFIBUS-DP Slave]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  PROFIBUS-DP Slave]**
 
 ![[그림 1.3.6.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_3.png>) 
 
@@ -3486,9 +3544,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**1. TP를 이용하여 산업용 통신 펌웨어 설정에서 DeviceNet Slave를 선택하고 로봇 제어기를 재부팅합니다.**
+**1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 DeviceNet Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.7.4-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[그림 1.3.7.4-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -3506,7 +3564,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  DeviceNet Slave]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  DeviceNet Slave]**
 
 ![[그림 1.3.7.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
 
@@ -3875,9 +3933,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**1. TP를 이용하여 산업용 통신 펌웨어 설정에서 CC-Link Slave를 선택하고 로봇 제어기를 재부팅합니다.**
+**1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 CC-Link Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.8.4-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
+![[그림 1.3.8.4-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -3895,7 +3953,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  CC-Link Slave]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  CC-Link Slave]**
 
 ![[그림 1.3.8.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_3.png>) 
 
@@ -4163,9 +4221,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 <br>
 
-**1. TP를 이용하여 산업용 통신 펌웨어 설정에서 CC-Link IE Field Slave를 선택하고 로봇 제어기를 재부팅합니다.**
+**1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 CC-Link IE Field Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.9.2-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_1.png>) 
+![[그림 1.3.9.2-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -4183,7 +4241,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 
 **3. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
 
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  CC-Link IE Field Slave]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  CC-Link IE Field Slave]**
 
 ![[그림 1.3.9.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_3.png>) 
 
@@ -4289,9 +4347,9 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통�
 
 <br>
 
-**1. 산업용 통신 펌웨어 설정에서 EtherNet/IP Master를 선택하고 로봇 제어기를 재부팅합니다.**
+**1. 산업용 통신 PCI 슬롯 설정에서 EtherNet/IP Master를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.10.1-1 펌웨어 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
+![그림 1.3.10.1-1 PCI 슬롯 설정](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
@@ -4330,7 +4388,7 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통�
 <br>
 
 **4. 메뉴를 터치하여 슬레이브 설정 화면으로 진입 합니다.**
-**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬레이브 슬롯 설정 >  EtherNet/IP Remote IO Setting]**
+**\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  EtherNet/IP Remote IO Setting]**
 
 ![[그림 1.3.10.1-5 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_5.png>) 
 
@@ -4501,14 +4559,14 @@ Crevis M9289 EtherNet/IP Network Adpater 의 IP 주소 설정 방법입니다.
 
 <br>
 
-**\[서비스 > 19: 산업용 통신 모니터링]** 을 터치하여 들어갈 수 있으며, 해당 화면에서 설정한 펌웨어 정보, 통신 상태, 통신 구성 상태 등을 확인 가능합니다.
+**\[서비스 > 19: 산업용 통신 모니터링]** 을 터치하여 들어갈 수 있으며, 해당 화면에서 설정한 PCI 슬롯 정보, 통신 상태, 통신 구성 상태 등을 확인 가능합니다.
 
 <br>
 
 {% hint style="info" %}
    **\[재시작]** 버튼을 이용하여 해당 PCI 통신 카드의 산업용 통신을 재시작 시킬 수 있습니다.
 
-   - 슬롯, 펌웨어, 장치 상태를 확인해 주십시오.
+   - 슬롯, PCI 슬롯, 장치 상태를 확인해 주십시오.
 
    - Master의 경우 슬레이브 구성 및 활성 슬레이가 구성한 슬레이브 수와 동일한지 확인해 주십시오.
 {% endhint %}
