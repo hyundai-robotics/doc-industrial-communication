@@ -63,7 +63,7 @@ PCI 통신 카드는 "**Sycon.net**" 프로그램을 이용하여 산업용 통�
 {% endhint %}
 
 {% hint style="warning" %}
-**\[주의]**: Scan 이 안되는 경우 제어기와의 Cable 연결 상태, 펌웨어 설정을 확인해 주십시오.
+**\[주의]**: Scan 이 안되는 경우 제어기와의 Cable 연결 상태, PCI 슬롯 설정을 확인해 주십시오.
 {% endhint %}
 
 ![[그림 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
