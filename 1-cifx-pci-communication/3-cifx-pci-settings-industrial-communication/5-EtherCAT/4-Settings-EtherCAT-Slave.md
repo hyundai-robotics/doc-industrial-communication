@@ -16,13 +16,13 @@
 
 **1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 EtherCAT Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.9.2-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_1.png>) 
+![[그림 1.3.5.2-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_1.png>) 
 
 <br>
 
 **2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.**
 
-![[그림 1.3.9.4-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_2.png>) 
+![[그림 1.3.5.4-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -36,9 +36,9 @@
 
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  EtherCAT Slave]**
 
-![[그림 1.3.9.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_3.png>) 
+![[그림 1.3.5.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_3.png>) 
 
-![[그림 1.3.9.4-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_4.png>) 
+![[그림 1.3.5.4-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -67,4 +67,4 @@ TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통�
 
 <br>
 
-![[그림 1.3.9.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_5.png>) 
+![[그림 1.3.5.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_5.png>) 
