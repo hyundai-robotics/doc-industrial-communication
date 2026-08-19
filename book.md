@@ -387,7 +387,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
+**\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the PCI Slot settings.
 {% endhint %}
 
 ![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
@@ -1018,9 +1018,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Using the TP, select an EtherNet/IP slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. Using the TP, select an EtherNet/IP slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.3.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.3.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/3-EtherNet-IP/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -1697,9 +1697,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Using the TP, select a PROFINET IO slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. Using the TP, select a PROFINET IO slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.4.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>)
+![[Figure 1.3.4.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/4-PROFINET-IO/4-Slave_setting/image_1.png>)
 
 <br>
 
@@ -2299,16 +2299,71 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Settings-EtherCAT-Slave.md)
 #### 1.3.5.4 EtherCAT Slave Settings
 
-The manual is in preparation.
-
 <br>
 
 {% hint style="info" %}
-   **[EtherCAT Slave ESI File Download]**
+   **[EtherCAT Slave ESI EDS File Download]**
 
    - Please refer to "[6. Slave Device Description File](../../../6-slave-config-file.md)".
 {% endhint %}
 
+<br>
+
+Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
+
+<br>
+
+**1. Using the TP, select an EtherCAT slave in the industrial communication PCI Slot settings and reboot the robot controller.**
+
+![[Figure 1.3.5.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_1.png>) 
+
+<br>
+
+**2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
+
+![[Figure 1.3.5.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_2.png>) 
+
+<br>
+
+{% hint style="warning" %}
+**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+{% endhint %}
+
+<br>
+
+**3. Touch the menu to enter the slave settings screen.**
+**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > EtherCAT Slave]**
+
+![[Figure 1.3.5.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_3.png>) 
+
+![[Figure 1.3.5.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_4.png>) 
+
+<br>
+
+**4. Description of each item**
+
+{% hint style="info" %}
+   [IO Type and Size]   
+   - TxPDO: Slave -> Master   
+   - RxPDO: Master -> Slave   
+   - Max Size: 256 bytes   
+{% endhint %}
+
+<br>
+
+**5. After completing the settings, check the communication status according to the procedure below.**
+
+For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+
+![[Figure 1.3.5.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/4-Slave_setting/image_5.png>)
+
+<br>
+
+**6. Assign IO blocks after completing the communication settings.**
+
+{% hint style="info" %}
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+{% endhint %}
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/5-EtherCAT/5-EtherCAT-Topology.md)
 #### 1.3.5.5 EtherCAT Cable Wiring (Topology)
 
@@ -2851,9 +2906,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Using the TP, select a PROFIBUS-DP slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. Using the TP, select a PROFIBUS-DP slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.6.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.6.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/6-PROFIBUS-DP/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -3481,9 +3536,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Using the TP, select a DeviceNet slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. Using the TP, select a DeviceNet slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.7.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.7.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -3868,9 +3923,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Using the TP, select CC-Link slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. Using the TP, select CC-Link slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.8.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.8.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -4153,9 +4208,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Using the TP, select a CC-Link IE Field slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. Using the TP, select a CC-Link IE Field slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.9.2-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.9.2-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/9-CC-Link-IE-Field/4-Slave_setting/image_1.png>) 
 
 <br>
 
@@ -4278,9 +4333,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.**
+**1. Select EtherNet/IP Master in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.10.1-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
+![[Figure 1.3.10.1-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 
@@ -4490,14 +4545,14 @@ After setting the communication according to the procedures of "[1.2 CIFX PCI - 
 
 <br>
 
-You can enter the screens by touching **\[Service > 19: Industrial Communication Monitoring]**, and check the details such as the set firmware information, communication status, and communication configuration in relevant screens.
+You can enter the screens by touching **\[Service > 19: Industrial Communication Monitoring]**, and check the details such as the set PCI Slot information, communication status, and communication configuration in relevant screens.
 
 <br>
 
 {% hint style="info" %}
    - Using the **\[Restart]** button, you can restart the industrial communication of the PCI communication card.
 
-   - Please check the status of the slot, firmware, and device.
+   - Please check the status of the slot, PCI Slot, and device.
 
    - For the master, check whether the number of the configured and active slaves matches the number of configured slaves.
 {% endhint %}
