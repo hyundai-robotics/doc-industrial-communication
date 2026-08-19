@@ -4,9 +4,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Select EtherNet/IP Master in the industrial communication firmware settings and reboot the robot controller.**
+**1. Select EtherNet/IP Master in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.10.1-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
+![[Figure 1.3.10.1-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/10-EtherNet-IP-Remote-IO/1-Setting/image_1.png>) 
 
 <br>
 

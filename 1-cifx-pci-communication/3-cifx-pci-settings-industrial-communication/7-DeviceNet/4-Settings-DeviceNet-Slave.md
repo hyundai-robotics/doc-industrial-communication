@@ -20,9 +20,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 <br>
 
-**1. Using the TP, select a DeviceNet slave in the industrial communication firmware settings and reboot the robot controller.**
+**1. Using the TP, select a DeviceNet slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.7.4-1 Firmware Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.7.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
 
 <br>
 

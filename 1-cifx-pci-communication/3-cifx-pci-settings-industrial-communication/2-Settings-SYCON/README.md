@@ -63,7 +63,7 @@ Touch the **\[System > 2: Control Parameters > 9: Network]** menu to check the I
 {% endhint %}
 
 {% hint style="warning" %}
-**\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the firmware settings.
+**\[Caution]**: If scan is not working, check the status of the cable connection with the controller and also the PCI Slot settings.
 {% endhint %}
 
 ![[Figure 1.3.2-7 Sycon.net]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Setting-SYCON/image_7.png>)
