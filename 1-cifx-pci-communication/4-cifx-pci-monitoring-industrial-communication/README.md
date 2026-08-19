@@ -10,14 +10,14 @@ After setting the communication according to the procedures of "[1.2 CIFX PCI - 
 
 <br>
 
-You can enter the screens by touching **\[Service > 19: Industrial Communication Monitoring]**, and check the details such as the set firmware information, communication status, and communication configuration in relevant screens.
+You can enter the screens by touching **\[Service > 19: Industrial Communication Monitoring]**, and check the details such as the set PCI Slot information, communication status, and communication configuration in relevant screens.
 
 <br>
 
 {% hint style="info" %}
    - Using the **\[Restart]** button, you can restart the industrial communication of the PCI communication card.
 
-   - Please check the status of the slot, firmware, and device.
+   - Please check the status of the slot, PCI Slot, and device.
 
    - For the master, check whether the number of the configured and active slaves matches the number of configured slaves.
 {% endhint %}
