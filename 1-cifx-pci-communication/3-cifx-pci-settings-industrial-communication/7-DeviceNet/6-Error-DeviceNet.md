@@ -1,4 +1,4 @@
-﻿#### 1.3.7.5 DeviceNet 에러 조치
+﻿#### 1.3.7.6 DeviceNet 에러 조치
 
 <br>
 
@@ -20,13 +20,13 @@
    - 아래 그림과 같이 CIFX-50 DN PCI가 DeviceNet의 종단인 경우 종단 저항을 추가해 주십시오.
 {% endhint %}
 
-![[그림 1.3.7.5-1 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
+![[그림 1.3.7.6-1 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_1.png>) 
 
 {% hint style="info" %}
    - 아래 그림과 같이 DeviceNet Remote IO 가 종단인 경우 종단 저항을 추가하거나 DIP Switch를 조작해 주십시오.
 {% endhint %}
 
-![[그림 1.3.7.5-2 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
+![[그림 1.3.7.6-2 DeviceNet 종단 저항]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_2.png>) 
 
 <br>
 
@@ -38,7 +38,7 @@
    - Network Scan이 안되는 경우 통신 속도를 확인해 주십시오.
 {% endhint %}
 
-![[그림 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
+![[그림 1.3.7.6-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_3.png>) 
 
 <br>
 
@@ -50,4 +50,4 @@
    - 24V 전원 공급을 확인해 주십시오.
 {% endhint %}
 
-![[그림 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
+![[그림 1.3.7.6-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_4.png>) 

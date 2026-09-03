@@ -1,4 +1,4 @@
-﻿#### 1.3.7.6 DeviceNet Object
+﻿#### 1.3.7.7 DeviceNet Object
 
 
 <br>
@@ -10,7 +10,7 @@ DeviceNet의 장치 내부에는 Object 의 집합체로 구성이 되어있습�
 
 <br>
 
-![[그림 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
+![[그림 1.3.7.7-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_1.png>) 
 
 
 <br>
@@ -19,7 +19,7 @@ Object는 Class Code 를 이용하여 구분합니다.
 
 <br>
 
-![[그림 1.3.7.6-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
+![[그림 1.3.7.7-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_2.png>)
 
 <br>
 
@@ -44,7 +44,7 @@ DeviceNet Master 에서 Explicit Message를 통해 특정 Slave의 Object 에 �
 {% endhint %}
 
 
-![[그림 1.3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+![[그림 1.3.7.7-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_3.png>)
 
 
 <br>
