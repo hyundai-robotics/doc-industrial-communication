@@ -1,4 +1,4 @@
-﻿#### 1.3.7.2 DeviceNet Master Settings
+﻿#### 1.3.7.2 DeviceNet Master Settings (SYCON)
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[1.3.2 SYCON.NET Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -132,7 +132,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
    **(2) Whether a termination resistor is connected or a termination DIP switch is used.**  
    **(3) Whether the master - slave communication speed is set.**  
 
-   **For smooth communication connection, be sure to check ("[1.3.7.5 DeviceNet ERROR Handling](../7-DeviceNet/5-Error-DeviceNet.md)").**
+   **For smooth communication connection, be sure to check ("[1.3.7.5 DeviceNet ERROR Handling](../7-DeviceNet/6-Error-DeviceNet.md)").**
 {% endhint %}
 
 {% hint style="info" %}

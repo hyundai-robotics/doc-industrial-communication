@@ -1,4 +1,4 @@
-﻿#### 1.3.7.6 DeviceNet Object
+﻿#### 1.3.7.7 DeviceNet Object
 
 
 <br>
@@ -10,7 +10,7 @@ The inside of the DeviceNet device is composed of a collection of objects. Each 
 
 <br>
 
-![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
+![[Figure 1.3.7.7-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_1.png>) 
 
 
 <br>
@@ -19,7 +19,7 @@ Individual objects are distinguished using a class code.
 
 <br>
 
-![[Figure 1.3.7.6-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
+![[Figure 1.3.7.7-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_2.png>)
 
 <br>
 
@@ -44,7 +44,7 @@ The DeviceNet master can access an object of a specific slave through a explicit
 {% endhint %}
 
 
-![[Figure 1.3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+![[Figure 1.3.7.7-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_3.png>)
 
 
 <br>
