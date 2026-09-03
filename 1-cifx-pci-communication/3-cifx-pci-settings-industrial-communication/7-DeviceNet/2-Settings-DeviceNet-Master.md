@@ -1,4 +1,4 @@
-﻿#### 1.3.7.2 DeviceNet Master 설정
+﻿#### 1.3.7.2 DeviceNet Master 설정 (SYCON)
 
 "[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 및 "[1.3.2 SYCON.NET 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
@@ -132,7 +132,7 @@
    **(2) 종단저항 연결 또는 종단 DIP Switch 사용 여부**  
    **(3) Master - Slave 통신 속도 설정 여부**  
 
-   **원활한 통신 연결을 위해 ("[1.3.7.5 DeviceNet ERROR 조치](../7-DeviceNet/5-Error-DeviceNet.md)")을 반드시 확인해 주십시오.**
+   **원활한 통신 연결을 위해 ("[1.3.7.6 DeviceNet ERROR 조치](../7-DeviceNet/6-Error-DeviceNet.md)")을 반드시 확인해 주십시오.**
 {% endhint %}
 
 {% hint style="info" %}

@@ -1,4 +1,4 @@
-﻿#### 1.3.7.4 DeviceNet Slave 설정
+﻿#### 1.3.7.5 DeviceNet Slave 설정
 
 "[1.3.1 CIFX PCI 슬롯 설정](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" 절차를 따라 설정 이후 아래 방법을 진행해 주십시오.
 
@@ -22,13 +22,13 @@
 
 **1. TP를 이용하여 산업용 통신 PCI 슬롯 설정에서 DeviceNet Slave를 선택하고 로봇 제어기를 재부팅합니다.**
 
-![[그림 1.3.7.4-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[그림 1.3.7.5-1 PCI 슬롯 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_1.png>) 
 
 <br>
 
 **2. 산업용 통신 모니터링에서 현재 선택되어 있는 통신 Protocol 준비 상태를 확인합니다.**
 
-![[그림 1.3.7.4-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_2.png>) 
+![[그림 1.3.7.5-2 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -42,9 +42,9 @@
 
 **\[시스템 > 2: 제어 파라미터 > 11: 산업용 통신 > 2: PCI 슬롯 통신 설정 >  DeviceNet Slave]**
 
-![[그림 1.3.7.4-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
+![[그림 1.3.7.5-3 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_3.png>) 
 
-![[그림 1.3.7.4-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_4.png>) 
+![[그림 1.3.7.5-4 슬레이브 설정]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -81,7 +81,7 @@
 
 TP 에서 산업용 통신 상태를 확인하는 절차는 ("[1.4 CIFX PCI 통신 모니터링](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)")참고해 주십시오.
 
-![[그림 1.3.7.4-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_5.png>) 
+![[그림 1.3.7.5-5 산업용 통신 모니터링]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_5.png>) 
 
 <br>
 

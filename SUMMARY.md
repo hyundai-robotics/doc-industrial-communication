@@ -51,11 +51,12 @@
 
     * [1.3.7 DeviceNet](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/README.md)
       * [1.3.7.1 DeviceNet Master 사양](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/1-Specification-DeviceNet-Master.md)
-      * [1.3.7.2 DeviceNet Master 설정](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Settings-DeviceNet-Master.md)
-      * [1.3.7.3 DeviceNet Slave 사양](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md)
-      * [1.3.7.4 DeviceNet Slave 설정](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Settings-DeviceNet-Slave.md)
-      * [1.3.7.5 DeviceNet 에러 조치](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md)
-      * [1.3.7.6 DeviceNet Object](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-DeviceNet-Object.md)
+      * [1.3.7.2 DeviceNet Master 설정 (SYCON)](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Settings-DeviceNet-Master.md)
+      * [1.3.7.3 DeviceNet Master 설정 (TP)](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Settings-DeviceNet-Master-tp.md)
+      * [1.3.7.4 DeviceNet Slave 사양](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Specification-DeviceNet-Slave.md)
+      * [1.3.7.5 DeviceNet Slave 설정](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Settings-DeviceNet-Slave.md)
+      * [1.3.7.6 DeviceNet 에러 조치](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error-DeviceNet.md)
+      * [1.3.7.7 DeviceNet Object](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-DeviceNet-Object.md)
 
     * [1.3.8 CC-Link](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/README.md)
       * [1.3.8.1 CC-Link Slave 사양](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/8-CC-Link/1-Specification-CC-Link-Slave.md)
