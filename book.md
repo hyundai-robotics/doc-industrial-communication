@@ -3120,7 +3120,7 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 </table>
 <br>
 [__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/2-Settings-DeviceNet-Master.md)
-#### 1.3.7.2 DeviceNet Master Settings
+#### 1.3.7.2 DeviceNet Master Settings (SYCON)
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" and "[1.3.2 SYCON.NET Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/2-Settings-SYCON/README.md)" procedures and then proceed with the method below.
 
@@ -3254,7 +3254,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
    **(2) Whether a termination resistor is connected or a termination DIP switch is used.**  
    **(3) Whether the master - slave communication speed is set.**  
 
-   **For smooth communication connection, be sure to check ("[1.3.7.5 DeviceNet ERROR Handling](../7-DeviceNet/5-Error-DeviceNet.md)").**
+   **For smooth communication connection, be sure to check ("[1.3.7.5 DeviceNet ERROR Handling](../7-DeviceNet/6-Error-DeviceNet.md)").**
 {% endhint %}
 
 {% hint style="info" %}
@@ -3436,8 +3436,190 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 {% hint style="info" %}
    **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
 {% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Specification-DeviceNet-Slave.md)
-#### 1.3.7.3 DeviceNet Slave Specifications
+[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Settings-DeviceNet-Master-tp.md)
+#### 1.3.7.3 DeviceNet Master Settings (TP)
+
+Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedures and then proceed with the method below.
+
+<br>
+
+{% hint style="info" %}
+   - For DeviceNet connector connection, please refer to the following.
+
+      ("[1.2.2 Connector](../../../1-cifx-pci-communication/2-cifx-pci-mounting-settings-industrial-communication-card/2-Connector.md)")
+{% endhint %}
+
+<br>
+
+**1. Select the DeviceNet master in the PCI slot settings and reboot the robot controller.**
+
+![[Figure 1.3.7.3-1 PCI slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_1.png>)
+
+<br>
+
+**2. Check the readiness status of the selected protocol in the industrial communication monitoring menu.**
+
+<br>
+
+{% hint style="info" %}
+   - For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+{% endhint %}
+
+<br>
+
+![[Figure 1.3.7.3-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_2.png>) 
+
+<br>
+
+{% hint style="warning" %}
+**\[Caution]**: If a configuration file set using Sycon.net is downloaded to the corresponding PCI slot, the TP settings will be ignored.
+{% endhint %}
+
+<br>
+
+**3. Select the DeviceNet master PCI device by using Sycon.net.**
+
+**\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > DeviceNet Master]**
+
+![[Figure 1.3.7.3-3 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_3.png>)
+
+![[Figure 1.3.7.3-4 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_4.png>) 
+
+<br>
+
+**4. Description of each item**
+
+{% hint style="warning" %}
+**\[TP Network Scan Limitations]**   
+   - Only Poll Connection is supported   
+   - Quick Start is not supported  
+
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [Use (Enable / Disable)]   
+   - Off: DeviceNet Master disabled   
+   - On: DeviceNet Master enabled   
+
+   [Baud Rate]   
+   - 125 kbit/s   
+   - 250 kbit/s   
+   - 500 kbit/s   
+
+   [Master MAC ID]   
+   - The MAC ID of the DeviceNet Master is fixed to 0   
+
+   [IO Update Cycle]   
+   - Production Inhibit Time: Minimum time interval between IO updates   
+   - Expected Packet Rate: Expected time interval for packets to be received normally (related to timeout)   
+
+{% endhint %}
+
+<br>
+
+**5. Click the "Network Scan" button after configuring the settings according to the communication environment.**
+
+<br>
+
+**10. Network Scan**
+
+{% hint style="warning" %}
+   **When performing the Network Scan function, be sure to check the following.**
+
+   **(1) Whether a cable is connected.**  
+   **(2) Whether a termination resistor is connected or a termination DIP switch is used.**  
+   **(3) Whether the master - slave communication speed is set.**  
+
+   **For smooth communication connection, be sure to check ("[1.3.7.5 DeviceNet ERROR Handling](../7-DeviceNet/5-Error-DeviceNet.md)").**
+{% endhint %}
+
+<br>
+
+![[Figure 1.3.7.3-5 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_5.png>)
+
+<br>
+
+**6. After checking the device settings, click the "OK" button to apply the communication settings.**
+
+<br>
+
+![[Figure 1.3.7.3-6 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_6.png>)
+
+<br>
+
+**7. Description of node settings**
+
+{% hint style="info" %}
+   [Node information]   
+   - Node: MAC ID of the device   
+   - Product Name: Product name of the device   
+   - Vendor ID: Unique ID of the device manufacturer   
+   - Status: Status value of the device   
+   
+   [IO settings]   
+   - Output Size: Master --> Slave (in bytes)   
+   - Input Size: Slave --> Master (in bytes)   
+   
+   [IO update cycle]   
+   - PIT (Production Inhibit Time): Minimum time interval between IO updates   
+   - EPR (Expected Packet Rate): Expected time interval for packets to be received normally (related to timeout)   
+
+{% endhint %}
+
+<br>
+
+{% hint style="info" %}
+   [PIT (Production Inhibit Time)]   
+   - After the network scan, the PIT is automatically calculated based on the total IO size of the connected devices.   
+
+   - Example 1)   
+      - 125 Kbit/s   
+      - Total Input + Output: 100 byte   
+      - Time required for 1 cycle: 100 x 8 (bit) / 125K = 6.4ms   
+      - Applying a 33% communication load: 6.4 ms x 3 = 19.2ms --> PIT set to 20ms   
+
+   - Example 2)   
+      - 250 Kbit/s   
+      - Total Input + Output: 500 byte   
+      - Time required for 1 cycle: 500 x 8 (bit) / 250K = 16ms   
+      - Applying a 33% communication load: 16 ms x 3 = 48ms --> PIT set to 48ms   
+
+   - The PIT value can be changed individually for each device.   
+   - A shorter interval may increase the communication load on the device. (check the specifications of each device.)   
+
+{% endhint %}
+
+<br>
+
+![[Figure 1.3.7.3-7 Master Configuration]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_7.png>)
+
+<br>
+
+**8. Check the communication status.**
+
+{% hint style="info" %}
+   - For the procedure to check the industrial communication status on the TP, refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
+{% endhint %}
+
+<br>
+
+![[Figure 1.3.7.3-8 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_8.png>)
+
+<br>
+
+![[Figure 1.3.7.3-9 Status Diagnosis]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/3-Master_setting-tp/image_9.png>)
+
+<br>
+
+**9. Assign IO blocks after completing the communication settings.**
+
+{% hint style="info" %}
+   **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
+{% endhint %}
+[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Specification-DeviceNet-Slave.md)
+#### 1.3.7.4 DeviceNet Slave Specifications
 
 <style type="text/css">
 table  {border-collapse:collapse;}
@@ -3513,8 +3695,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Settings-DeviceNet-Slave.md)
-#### 1.3.7.4 DeviceNet Slave Settings
+[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Settings-DeviceNet-Slave.md)
+#### 1.3.7.5 DeviceNet Slave Settings
 
 Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/1-Settings-firmware.md)" procedure and then proceed with the method below.
 
@@ -3538,13 +3720,13 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 **1. Using the TP, select a DeviceNet slave in the industrial communication PCI Slot settings and reboot the robot controller.**
 
-![[Figure 1.3.7.4-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_1.png>) 
+![[Figure 1.3.7.5-1 PCI Slot Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_1.png>) 
 
 <br>
 
 **2. Check the current communication protocol readiness status in industrial communication monitoring menu.**
 
-![[Figure 1.3.7.4-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_2.png>) 
+![[Figure 1.3.7.5-2 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_2.png>) 
 
 <br>
 
@@ -3557,9 +3739,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 **3. Touch the menu to enter the slave settings screen.**
 **\[System > 2: Control Parameters > 11: Industrial Communication > 2: PCI Slave Slot Settings > DeviceNet Slave]**
 
-![[Figure 1.3.7.4-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_3.png>) 
+![[Figure 1.3.7.5-3 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_3.png>) 
 
-![[Figure 1.3.7.4-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_4.png>) 
+![[Figure 1.3.7.5-4 Slave Settings]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_4.png>) 
 
 <br>
 
@@ -3596,7 +3778,7 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
 
 For the procedure to check the industrial communication status on the TP, please refer to ("[1.4 CIFX PCI Communication Monitoring](../../../1-cifx-pci-communication/4-cifx-pci-monitoring-industrial-communication/README.md)").
 
-![[Figure 1.3.7.4-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/4-Slave_setting/image_5.png>) 
+![[Figure 1.3.7.5-5 Industrial Communication Monitoring]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Slave_setting/image_5.png>) 
 
 <br>
 
@@ -3605,8 +3787,8 @@ For the procedure to check the industrial communication status on the TP, please
 {% hint style="info" %}
    **After completing communication settings, you can use input/output signals by assigning IO blocks. Please refer to ("[5. Industrial Communication IO Reading and Writing](../../../5-io-block-allocation.md)").**
 {% endhint %}
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error-DeviceNet.md)
-#### 1.3.7.5 DeviceNet Error Handling
+[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error-DeviceNet.md)
+#### 1.3.7.6 DeviceNet Error Handling
 
 <br>
 
@@ -3628,13 +3810,13 @@ Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci
    - As shown in the figure below, if the CIFX-50 DN PCI is at the DeviceNet termination, please add a termination resistor.
 {% endhint %}
 
-![[Figure 1.3.7.5-1 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_1.png>) 
+![[Figure 1.3.7.6-1 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_1.png>) 
 
 {% hint style="info" %}
    - As shown in the figure below, if the DeviceNet Remote IO is at the termination, please add a termination resistor or operate the DIP switch.
 {% endhint %}
 
-![[Figure 1.3.7.5-2 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_2.png>) 
+![[Figure 1.3.7.6-2 DeviceNet Termination Resistor]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_2.png>) 
 
 <br>
 
@@ -3646,7 +3828,7 @@ Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci
    - If the Network Scan function does not work, please check the communication speed.
 {% endhint %}
 
-![[Figure 1.3.7.5-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_3.png>) 
+![[Figure 1.3.7.6-3 DeviceNet Baudrate]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_3.png>) 
 
 <br>
 
@@ -3658,9 +3840,9 @@ Please refer to "[1.4.1 ERROR Code](../../../1-cifx-pci-communication/4-cifx-pci
    - Please check the 24V power supply.
 {% endhint %}
 
-![[Figure 1.3.7.5-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/5-Error/image_4.png>) 
-[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-DeviceNet-Object.md)
-#### 1.3.7.6 DeviceNet Object
+![[Figure 1.3.7.6-4 DeviceNet Error]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Error/image_4.png>) 
+[__SOURCE](1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-DeviceNet-Object.md)
+#### 1.3.7.7 DeviceNet Object
 
 
 <br>
@@ -3672,7 +3854,7 @@ The inside of the DeviceNet device is composed of a collection of objects. Each 
 
 <br>
 
-![[Figure 1.3.7.6-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_1.png>) 
+![[Figure 1.3.7.7-1 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_1.png>) 
 
 
 <br>
@@ -3681,7 +3863,7 @@ Individual objects are distinguished using a class code.
 
 <br>
 
-![[Figure 1.3.7.6-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_2.png>)
+![[Figure 1.3.7.7-2 DeviceNet Object]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_2.png>)
 
 <br>
 
@@ -3706,7 +3888,7 @@ The DeviceNet master can access an object of a specific slave through a explicit
 {% endhint %}
 
 
-![[Figure 1.3.7.6-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/6-Object/image_3.png>)
+![[Figure 1.3.7.7-3 DeviceNet Object Crevis GN-9212]](<../../../_assets/1-cifx-pci-communication/3-cifx-pci-settings-industrial-communication/7-DeviceNet/7-Object/image_3.png>)
 
 
 <br>
