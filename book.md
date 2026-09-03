@@ -3567,8 +3567,8 @@ td {border-color:gray;border-style:solid;border-width:1px;}
    - Status: 장치의 상태 값   
    
    [IO 설정]   
-   - Output Size (Produced Size): Master --> Slave 출력 크기 (byte 단위)   
-   - Input Size (Consumed Size): Slave --> Master 입력 크기 (byte 단위)   
+   - Output Size: Master --> Slave 출력 크기 (byte 단위)   
+   - Input Size: Slave --> Master 입력 크기 (byte 단위)   
    
    [IO 업데이트 주기]   
    - PIT (Production Inhibit Time): IO 업데이트의 최소 사이 간격 시간   
@@ -3579,19 +3579,19 @@ td {border-color:gray;border-style:solid;border-width:1px;}
 <br>
 
 {% hint style="info" %}
-   [예상 패킷 주기 (PIT: Production Inhibit Time)]   
+   [최소 전송 간격 (PIT: Production Inhibit Time)]   
    - 네트워크 스캔 후 연결된 장치들의 IO Size를 고려하여 예상 패킷 주기를 자동으로 계산합니다.   
 
    - 예시 1)   
       - 125 Kbit/s   
       - 전체 Input + Output: 100 byte   
-      - 1Cycle 소요 시간: 100 x 8 (bit) / 125K = 6.4ms   
+      - 1 Cycle 소요 시간: 100 x 8 (bit) / 125K = 6.4ms   
       - 통신 부하 33% 적용: 6.4 ms x 3 = 19.2ms --> 20ms PIT 적용   
 
    - 예시 2)   
       - 250 Kbit/s   
       - 전체 Input + Output: 500 byte   
-      - 1Cycle 소요 시간: 500 x 8 (bit) / 250K = 16ms   
+      - 1 Cycle 소요 시간: 500 x 8 (bit) / 250K = 16ms   
       - 통신 부하 33% 적용: 16 ms x 3 = 48ms PIT 적용   
 
    - PIT 값은 각 장치별로 변경이 가능합니다.   
