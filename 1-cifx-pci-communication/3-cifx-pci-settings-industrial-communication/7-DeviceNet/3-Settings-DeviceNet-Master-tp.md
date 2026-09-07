@@ -127,6 +127,9 @@ Please follow the "[1.3.1 CIFX PCI Slot Settings](../../../1-cifx-pci-communicat
    - PIT (Production Inhibit Time): Minimum time interval between IO updates   
    - EPR (Expected Packet Rate): Expected time interval for packets to be received normally (related to timeout)   
 
+   [IO start address]   
+   - I/O Address (Offset): The address where the device's input and output data starts   
+   
 {% endhint %}
 
 <br>
