@@ -3574,6 +3574,9 @@ td {border-color:gray;border-style:solid;border-width:1px;}
    - PIT (Production Inhibit Time): IO 업데이트의 최소 사이 간격 시간   
    - EPR (Expected Packet Rate): 패킷이 정상적으로 들어올 것으로 예상하는 시간 (Timeout 연관)   
 
+   [IO 시작 주소]   
+   - I/O Address (Offset): 해당 장치의 Input, Output 데이터가 시작하는 주소   
+
 {% endhint %}
 
 <br>
