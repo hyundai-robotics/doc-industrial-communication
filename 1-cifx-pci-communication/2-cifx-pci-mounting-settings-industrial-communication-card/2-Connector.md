@@ -12,7 +12,7 @@
    설치 전 커넥터의 방향, 핀 배열 및 결선 상태를 반드시 확인하십시오.   
 
    DeviceNet 및 CC-Link 케이블과 커넥터의 선정, 결선 및 설치 방법에 대한 자세한 내용은 각 네트워크 협회의 공식 설치 지침을 참조하십시오.   
-   - DeviceNet: ODVA, DeviceNet Cable System = Planning and Installation    
+   - DeviceNet: ODVA, DeviceNet Cable System - Planning and Installation    
    - CC-Link: CC-Link Partner Association (CLPA), CC-Link Cable Wiring Manual    
 
 {% endhint %}
